@@ -87,53 +87,45 @@
   }
 }
 .home-contact-container {
-  display: flex;
-  flex-flow: row wrap;
+  // display: flex;
+  // flex-flow: row wrap;
   clear: both;
   @include susy-breakpoint($break-medium) {
     padding-top: rem-calc(50);
+
   }
 }
 .home-contact-interest {
-  flex: 1 100%;
+  // flex: 1 100%;
   @include susy-breakpoint($break-medium) {
-    flex: 1 50%;
-    padding-right: rem-calc(15);
+    @include span(6 of 12);
+    margin-bottom: rem-calc(25);
+  //   flex: 1 50%;
+  //   padding-right: rem-calc(15);
   }
 }
 .home-contact-form {
   margin-top: rem-calc(25);
-  flex: 2 100%;
+  // flex: 2 100%;
   @include susy-breakpoint($break-medium) {
+    @include span(6 last of 12);
     margin-top: rem-calc(50);
-    padding-left: rem-calc(15);
-    flex: 1 50%;
-  }
-}
-.no-flexbox .home-contact-container {
-  display: block;
-  padding: rem-calc(0 20);
-  .home-contact-interest {
-    display: block;
-    @include susy-breakpoint($break-medium) {
-      padding-right: 0;
-    }
-  }
-  .home-contact-form {
-    display: block;
-    @include susy-breakpoint($break-medium) {
-      margin-top: 0;
-      padding-left: 0;
-    }
+    margin-bottom: rem-calc(25);
+  //   padding-left: rem-calc(15);
+  //   flex: 1 50%;
   }
 }
 .home-contact-button {
+  display: block;
   position: relative;
-  margin: rem-calc(25) auto 0;
-  flex: 3 100%;
+  margin: 0 auto;
+  clear: both;
+  // flex: 3 100%;
   @include susy-breakpoint($break-medium) {
-    flex: none;
-    margin-top: rem-calc(50);
+    @include span(6 last of 12);
+    @include squish(3, 3);
+  //   flex: none;
+  //   margin-top: rem-calc(50);
   }
   .button {
     @include susy-breakpoint($break-medium) {
