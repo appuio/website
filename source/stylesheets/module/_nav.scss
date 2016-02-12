@@ -1,0 +1,120 @@
+/*doc
+---
+title: Horizontal navigation
+name: navigation
+category: Module
+---
+
+Responsive hotizontal menu.
+
+```html_example
+<nav class="header-nav nav-horizontal" role="navigation">
+  <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="/styleguide">Styleguide</a>
+    </li>
+    <li>
+      <a href="https://github.com/wearecube">Github repo</a>
+    </li>
+  </ul>
+</nav>
+```
+*/
+.nav-header {
+  // display: flex;
+  height: rem-calc(50);
+  overflow: hidden;
+  transition: all 300ms ease;
+  margin: rem-calc(0 -20);
+  &.is-expanded {
+    height: rem-calc(350);
+  }
+  .nav-toggle-close {
+    display: none;
+  }
+  &.is-expanded .nav-toggle-close {
+    display: inline-block;
+  }
+  &.is-expanded .nav-toggle-menu {
+    display: none;
+  }
+}
+.nav-header,
+.nav-header.is-expanded {
+  @include susy-breakpoint($break-medium) {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0;
+    height: auto;
+  }
+}
+.is-horizontal {
+  @include reset-list;
+  display: flex;
+  flex-flow: column wrap;
+  @include susy-breakpoint($break-medium) {
+    flex-flow: row wrap;
+    padding: 0;
+  }
+}
+.nav-lang > li,
+.nav-main > li {
+  & > a {
+    display: block;
+    background: transparent;
+    padding: rem-calc(20);
+    color: white;
+    line-height: rem-calc(20);
+    text-decoration: none;
+    transition: background-color 200ms ease, color 200ms ease;
+
+    @include susy-breakpoint($break-medium) {
+      margin-top: 0;
+      padding: rem-calc(10 20);
+    }
+  }
+  & > a:hover,
+  & > a:focus {
+    background-color: #FFD301;
+    color: #002F47;
+  }
+  &.is-current > a {
+    color: #002F47;
+  }
+}
+.nav-main {
+  @include susy-breakpoint($break-medium) {
+    order: 2;
+  }
+}
+.nav-lang {
+  @include reset-list;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0;
+  @include susy-breakpoint($break-medium) {
+    order: 1;
+  }
+}
+.nav-toggle-menu,
+.nav-toggle-close {
+  display: inline-block;
+  line-height: 0;
+  padding: rem-calc(12 13 13 12);
+  color: white;
+  background: #00AEC1;
+  transition: all 300ms ease;
+  &:hover,
+  &:focus {
+    background-color: #FFD301;
+    color: #002F47;
+  }
+  @include susy-breakpoint($break-medium) {
+    display: none !important;
+  }
+}

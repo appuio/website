@@ -1,0 +1,110 @@
+@charset "utf-8";
+@import "normalize";
+@import "susy";
+@import "breakpoint";
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+/*
+ *= require evil-icons
+ */
+
+// Settings
+// ----------------------------------------------
+// Set default variables
+// ----------------------------------------------
+
+$base-font: 16px !default;
+
+$susy: (
+  container: auto,
+  container-position: center,
+  columns: 12,
+  gutters: 20/60,
+  column-width: 60px
+);
+
+// Breakpoints (size, columns or columns number)
+$break-small: 20em, 4;
+$break-medium: 40em, 8;
+$break-large: 60em, 12;
+
+$color-primary: #9EAF56;
+$color-secondary: #418D4B;
+
+// Base
+// ----------------------------------------------
+// Base rules are the defaults. They are almost exclusively single element selectors but
+// it could include attribute selectors, pseudo-class selectors, child selectors or sibling
+// selectors. Essentially, a base style says that wherever this element is on the page.
+// ----------------------------------------------
+@import 'base/function';
+@import 'base/common';
+@import 'base/typography';
+@import 'base/input';
+
+
+// Module
+// ----------------------------------------------
+// Modules are the reusable, modular parts of our design. They are the callouts, the buttons, 
+// the products and so on. (Micro elements)
+//
+// /* Example module: Product */
+// .product { }
+//
+// /* Product list */
+// .product-list { }
+//
+// /* Product name */
+// .product-name { }
+// ----------------------------------------------
+@import 'module/badge';
+@import 'module/button';
+@import 'module/callout';
+@import 'module/feature';
+@import 'module/icon';
+@import 'module/interest';
+@import 'module/nav';
+@import 'module/partner';
+
+
+// Layout
+// ----------------------------------------------
+// Layout rules divide the page into sections. Layouts hold one or more modules together. (Macro)
+//
+// /* Example layout: Header */
+// .header-container { }
+// ----------------------------------------------
+@import 'layout/form';
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/home';
+
+
+// Page
+// ----------------------------------------------
+// Styles for specific pages.
+//
+// /* Example layout: Home */
+// .home h1,
+// .home .h1 { }
+// ----------------------------------------------
+// @import 'layout/home';
+// @import 'layout/contact';
+
+
+// State
+// ----------------------------------------------
+// State rules are ways to describe how our modules or layouts will look when in a particular
+// state. Is it hidden or expanded? Is it active or inactive? They are about describing how a
+// module or layout looks on screens that are smaller or bigger. They are also about
+// describing how a module might look in different views like the home page or the inside page.
+//
+// /* Example state: Collapsed Product */
+// .product.is-collapsed { }
+// ----------------------------------------------
+.is-hidden {
+  position: absolute;
+  visibility: hidden;
+  height: 0;
+  width: 0;
+}

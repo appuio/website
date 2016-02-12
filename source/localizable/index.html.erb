@@ -1,0 +1,142 @@
+---
+title: APPUIO - Swiss Entreprise PAAS
+---
+
+<header class="header-container" role="banner">
+  <div class="grid-container">
+    <%= partial "partials/nav" %>
+  </div>
+</header>
+
+<main class="main-container" role="main">
+  <section class="home-hero">
+    <div class="home-hero-illus">
+      <%= image_tag "appuio_logo.svg", :alt => t(:homeHeroAlt), :class => 'home-hero-logo' %>
+    </div>
+    <div class="grid-container">
+      <a name="overview"></a>
+      <h1 class="home-hero-title"><%= t(:homeHeroTitle) %></h1>
+      <p class="home-hero-desc"><%= t(:homeHeroDesc) %></p>
+      <a href="https://www.openshift.com/" target="_blank" class="home-hero-tech badge">
+        <%= image_tag "openshift_logo.svg", :alt => 'Openshift', :class => 'home-hero-logo' %>
+      </a>
+    </div>
+  </section>
+
+  <section class="home-offer">
+    <div class="grid-container">
+      <a name="offer"></a>
+      <h2 class="home-offer-title"><%= t(:homeOfferTitle) %></h2>
+      <ul class="home-offer-list callout-list">
+        <li class="callout-item">
+          <h3 class="callout-title"><%= t(:homeOfferOneTitle) %></h3>
+          <p class="callout-desc"><%= t(:homeOfferOneDesc) %></p>
+          <a href="#contact" class="callout-button button is-round" data-check="interest-cluster"><%= t(:homeOfferOneButton) %></a>
+        </li>
+        <li class="callout-item">
+          <h3 class="callout-title"><%= t(:homeOfferTwoTitle) %></h3>
+          <p class="callout-desc"><%= t(:homeOfferTwoDesc) %></p>
+          <a href="#contact" class="callout-button button is-round" data-check="interest-beta"><%= t(:homeOfferTwoButton) %></a>
+        </li>
+        <li class="callout-item">
+          <h3 class="callout-title"><%= t(:homeOfferThreeTitle) %></h3>
+          <p class="callout-desc"><%= t(:homeOfferThreeDesc) %></p>
+          <a href="#contact" class="callout-button button is-round" data-check="interest-paas"><%= t(:homeOfferThreeButton) %></a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="home-features">
+    <div class="grid-container">
+      <a name="features"></a>
+      <h2 class="home-features-title"><%= t(:homeFeatureTitle) %></h2>
+      <p class="home-features-desc"><%= t(:homeFeatureDesc) %></p>
+      <div class="feature-container">
+        <article class="feature-item is-small">
+          <a href="https://www.docker.com/" target="_blank" class="feature-image badge is-docker"><%= image_tag "docker_logo.svg", :alt => 'Docker' %></a>
+          <h3 class="feature-title"><%= t(:homeFeatureDockerTitle) %></h3>
+          <p class="feature-desc"><%= t(:homeFeatureDockerDesc) %></p>
+        </article>
+        <article class="feature-item is-small">
+          <a href="http://kubernetes.io/" class="feature-image badge is-kuber"><%= image_tag "kubernetes_logo.svg", :alt => 'Kubernetes' %></a>
+          <h3 class="feature-title"><%= t(:homeFeatureKubernetesTitle) %></h3>
+          <p class="feature-desc"><%= t(:homeFeatureKubernetesDesc) %></p>
+        </article>
+        <article class="feature-item">
+          <%= image_tag "feature_ondemand.svg", :alt =>  t(:homeFeatureOnDemandAlt), :class => 'feature-img' %>
+          <h3 class="feature-title"><%= t(:homeFeatureOnDemandTitle) %></h3>
+        </article>
+        <article class="feature-item">
+          <%= image_tag "feature_process.svg", :alt => t(:homeFeatureCycleAlt), :class => 'feature-img' %>
+          <h3 class="feature-title"><%= t(:homeFeatureCycleTitle) %></h3>
+        </article>
+        <article class="feature-item">
+          <%= image_tag "feature_secure.svg", :alt => t(:homeFeatureSecureAlt), :class => 'feature-img' %>
+          <h3 class="feature-title"><%= t(:homeFeatureSecureTitle) %></h3>
+          <p class="feature-desc"><%= t(:homeFeatureSecureDesc) %></p>
+        </article>
+      </div>
+    </div>
+  </section>
+  <section class="home-contact">
+    <div class="grid-container">
+      <a name="contact"></a>
+      <h2 class="home-contact-title"><%= t(:homeContactTitle) %></h2>
+      <p class="home-contact-desc"><%= t(:homeContactDesc) %></p>
+      <form id="contact-form" class="home-contact-container">
+        <div class="home-contact-interest interest-container">
+          <h3 class="interest-title"><%= t(:homeContactSubject) %></h3>
+          <div class="interest-item">
+            <input id="interest-cluster" value="<%= t(:homeContactSubjectOne) %>" type="checkbox" name="interests[]" class="interest-checkbox">
+            <label for="interest-cluster"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:homeContactSubjectOne) %></label>
+          </div>
+          <div class="interest-item">
+            <input id="interest-beta" value="<%= t(:homeContactSubjectTwo) %>" type="checkbox" name="interests[]" class="interest-checkbox">
+            <label for="interest-beta"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:homeContactSubjectTwo) %></label>
+          </div>
+          <div class="interest-item">
+            <input id="interest-paas" value="<%= t(:homeContactSubjectThree) %>" type="checkbox" name="interests[]" class="interest-checkbox">
+            <label for="interest-paas"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:homeContactSubjectThree) %></label>
+          </div>
+          <div class="interest-item">
+            <input id="interest-info" value="<%= t(:homeContactSubjectFour) %>" type="checkbox" name="interests[]" class="interest-checkbox" checked>
+            <label for="interest-info"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:homeContactSubjectFour) %></label>
+          </div>
+        </div>
+        <div class="home-contact-form">
+          <input title="<%= t(:homeContactYourNameTitle) %>" type="text" name="name" class="contact-input" placeholder="<%= t(:homeContactYourName) %>" required>
+          <input type="email" name="email" class="contact-input" placeholder="<%= t(:homeContactYourEmail) %>" required>
+          <textarea title="<%= t(:homeContactYourMessageTitle) %>" id="message" name="message" cols="30" rows="6" class="contact-textarea" placeholder="<%= t(:homeContactYourMessage) %>" required></textarea>
+        </div>
+        <label class="home-contact-button button-progress">
+          <input type="submit" class="button is-round" value="<%= t(:homeContactSend) %>">
+        </label>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer-container home-footer" role="contentinfo">
+  <div class="home-footer-partner">
+    <ul class="partner-list">
+      <li class="partner-item">
+        <a href="https://www.puzzle.ch/" target="_blank" class="partner-link">
+          <%= image_tag "puzzle_logo.svg", :alt => 'Puzzle ITC - Changing IT for the better', :class => 'partner-logo' %>
+        </a>
+      </li>
+      <li class="partner-item">
+        <a href="https://vshn.ch/" target="_blank" class="partner-link">
+          <%= image_tag "vshn_logo.svg", :alt => 'VSHN AG - The DevOps Company', :class => 'partner-logo' %>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="home-footer-copy grid-container">
+    <div class="home-footer-twitter">
+      <a href="https://twitter.com/AppuIo" target="_blank"><%= evil_icon 'ei-sc-twitter', size: :m %> Follow us @appuio</a>
+    </div>
+    <div class="home-footer-wac">
+      Designed with <%= evil_icon 'ei-heart' %> by <a href="http://www.wearecube.ch/">We Are Cube.<sup>3</sup></a>
+    </div>
+  </div>
+</footer>

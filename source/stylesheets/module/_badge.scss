@@ -1,0 +1,23 @@
+.badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: rem-calc(180);
+  height: rem-calc(180);
+  border-radius: 50%;
+  padding: rem-calc(30);
+  background: white;
+  box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.2);
+  
+  @include susy-breakpoint($break-medium) {
+    width: rem-calc(240);
+    height: rem-calc(240);
+  }
+
+  &.is-docker {
+    background-color: #364548;
+  }
+  &.is-kuber {
+    background-color: #326DE6;
+  }
+}

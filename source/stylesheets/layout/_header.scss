@@ -1,0 +1,27 @@
+/*doc
+---
+title: Header
+name: header
+category: Layout
+---
+
+```html_example
+<header class="header-container" role="banner">
+  The header's content gets here
+</header>
+```
+*/
+
+.header-container {
+  background-color: #00AEC1;
+}
+.header-logo {
+  text-align: center;
+  margin-top: rem-calc(48);
+  
+  @include susy-breakpoint($break-medium) {
+    float: left;
+    margin-top: 0;
+    text-align: left;
+  }
+}

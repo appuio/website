@@ -1,0 +1,163 @@
+// Hero
+// ----------------------------------------------
+.home-hero {
+  background-color: #002F47;
+  color: white;
+  text-align: center;
+  padding-bottom: rem-calc(100);
+}
+.home-hero-illus {
+  padding: rem-calc(80 0 160);
+  background-image: url('/images/container.png');
+  @include image-2x("/images/container@2x.png", auto, 100%);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: auto 100%;
+  @include susy-breakpoint($break-small) {
+    padding: rem-calc(120 0 240);
+  }
+  @include susy-breakpoint($break-medium) {
+    padding: rem-calc(180 0 360);
+  }
+  @include susy-breakpoint($break-large) {
+    padding: rem-calc(240 0 480);
+  }
+}
+.home-hero-logo {
+  max-width: 60%;
+  @include susy-breakpoint($break-medium) {
+    max-width: none;
+  }
+}
+.home-hero-title {
+  font-size: rem-calc(36);
+  line-height: rem-calc(44);
+  @include susy-breakpoint($break-medium) {
+    @include span(10 of 12);
+    @include squish(1, 1);
+  }
+}
+.home-hero-tech {
+  margin: rem-calc(20) auto;
+  @include susy-breakpoint($break-medium) {
+    margin: rem-calc(60) auto;
+  }
+}
+
+// Offer
+// ----------------------------------------------
+.home-offer {
+  background-color: #15B0BF;
+  background-image: url('/images/clouds.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: rem-calc(200 0 100);
+  color: white;
+  text-align: center;
+}
+
+// Features
+// ----------------------------------------------
+.home-features {
+  padding: rem-calc(100 0);
+  text-align: center;
+}
+.home-features-desc {
+  @include susy-breakpoint($break-medium) {
+    @include span(10 of 12);
+    @include squish(1, 1);
+  }
+}
+
+// Contact
+// ----------------------------------------------
+.home-contact {
+  background: #002F47;
+  background-image: url('/images/icons.svg');
+  background-repeat: repeat;
+  background-position: center center;
+  padding: rem-calc(100 0);
+  color: white;
+  text-align: center;
+}
+.home-contact-desc {
+  @include susy-breakpoint($break-medium) {
+    @include span(10 of 12);
+    @include squish(1, 1);
+  }
+}
+.home-contact-container {
+  display: flex;
+  flex-flow: row wrap;
+  clear: both;
+  @include susy-breakpoint($break-medium) {
+    padding-top: rem-calc(50);
+  }
+}
+.home-contact-interest {
+  flex: 1 100%;
+  @include susy-breakpoint($break-medium) {
+    flex: 1 50%;
+    padding-right: rem-calc(15);
+  }
+}
+.home-contact-form {
+  margin-top: rem-calc(25);
+  flex: 2 100%;
+  @include susy-breakpoint($break-medium) {
+    margin-top: rem-calc(50);
+    padding-left: rem-calc(15);
+    flex: 1 50%;
+  }
+}
+.home-contact-button {
+  position: relative;
+  margin: rem-calc(25) auto 0;
+  flex: 3 100%;
+  @include susy-breakpoint($break-medium) {
+    flex: none;
+    margin-top: rem-calc(50);
+  }
+  .button {
+    @include susy-breakpoint($break-medium) {
+      padding-left: rem-calc(48);
+      padding-right: rem-calc(48);
+    }
+  }
+}
+
+// Contact
+// ----------------------------------------------
+.home-footer-partner {
+  background: #E5EAED;
+  padding: rem-calc(50 0);
+}
+.home-footer-copy {
+  padding: rem-calc(25 0);
+  text-align: center;
+  line-height: rem-calc(24);
+  a {
+    color: #4A4A4A;
+    text-decoration: none;
+  }
+  a:hover,
+  a:focus {
+    text-decoration: underline;
+  }
+}
+.home-footer-twitter {
+  font-size: rem-calc(18);
+  margin-left: rem-calc(-20);
+  .icon {
+    color: #5D9EC9;
+    transform: translateY(rem-calc(15));
+  }
+}
+.home-footer-wac {
+  color: #4A4A4A;
+  margin-top: rem-calc(25);
+  font-size: rem-calc(12);
+  .icon {
+    transform: translateY(rem-calc(5));
+  }
+}

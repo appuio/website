@@ -1,0 +1,42 @@
+.callout-list {
+  @include reset-list;
+  @include susy-breakpoint($break-large) {
+    display: flex;
+  }
+}
+.callout-item {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: stretch;
+  background: #002F47;
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.24);
+  border-radius: 2px;
+  padding: rem-calc(20);
+  margin: rem-calc(20) auto 0;
+  max-width: rem-calc(320);
+  &:first-child {
+    margin-top: 0;
+  }
+  @include susy-breakpoint($break-large) {
+    flex: 1;
+    margin-top: rem-calc(20);
+    margin-left: rem-calc(60);
+    &:first-child {
+      margin-top: rem-calc(20);
+      margin-left: 0;
+    }
+  }
+}
+.callout-title {
+  flex: 1;
+  font-size: rem-calc(24);
+  line-height: rem-calc(28);
+  color: #FFFFFF;
+}
+.callout-desc {
+  flex: 1;
+}
+.callout-button {
+  flex: none;
+}

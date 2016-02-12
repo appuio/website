@@ -1,0 +1,55 @@
+---
+de:
+  metaDescription: Eine Plattform für das Design, die Entwicklung und den Betrieb Ihrer Webanwendung.
+  metaKeywords: openShift, cluster, PaaS
+
+  navOverview: Übersicht
+  navOffers: Angebot
+  navFeatures: Features
+  navContact: Kontakt
+
+  homeHeroAlt: APPUIO - Swiss Entreprise PAAS
+  homeHeroTitle: Eine Plattform für das Design, die Entwicklung und den Betrieb Ihrer Webanwendung.
+  homeHeroDesc: Appuio - die Schweizer PaaS von Entwicklern für Entwickler. Appuio basiert auf auf der “next generation PaaS” OpenShift Enterprise V3 von Red Hat. Auf der Basis bewährter Open Source Konzepte wie Docker und Kubernetes entwickeln, betreiben und skalieren Sie Ihre Webanwendung passend auf Ihre Bedürfnisse. Anders als andere PaaS-Angebote können Applikationen mit dieser Technologie sowohl auf Public Clouds als auch unternehmensintern betrieben werden.
+
+  homeOfferTitle: Angebot
+  homeOfferOneTitle: Dedicated OpenShift Enterprise Cluster
+  homeOfferOneDesc: Sie wollen eine eigene hybride oder private PaaS nutzen? Wir liefern und betreiben die auf Ihre Bedürfnisse massgeschneiderte Lösung.
+  homeOfferOneButton: Get my private PaaS
+  homeOfferTwoTitle: Public PaaS
+  homeOfferTwoDesc: BETA - Melden Sie sich gratis für das Appuio-Betaprogramm an und werden Teil der Community.
+  homeOfferTwoButton: Join the community
+  homeOfferThreeTitle: On premise
+  homeOfferThreeDesc: Ihre PaaS in Ihrem Rechenzentrum, optimal integriert in Ihre Infrastruktur. Wir begleiten Sie von der Idee bis zur Umsetzung.
+  homeOfferThreeButton: Cloud enginnering
+
+  homeFeatureTitle: Features
+  homeFeatureDesc: OpenShift Enterprise (OSE) V3 ist die PaaS des Open Source Marktführers Red Hat. OSE V3 setzt auf bewährte moderne Open Source Konzepte wie Docker Container und Kubernetes.
+  homeFeatureDockerTitle: Docker
+  homeFeatureDockerDesc: Docker ist die offene Plattform für Entwickler und Sysadmins und ihre Applikationen. Wählen Sie das für Ihre Technologie passende Basis-Docker-Image aus, OpenShift baut für Sie nach jedem Build automatisch einen aktualisierten Docker-Container und deployt ihn auf wunsch auch gleich.
+  homeFeatureKubernetesTitle: Kubernetes
+  homeFeatureKubernetesDesc: Container orchestrieren und managen mit Kubernetes von Google. Sie definieren wie viele Instanzen Ihrer Applikation parallel laufen sollen, Kubernetes kümmert sich um die Skalierung, das Loadbalancing und die Stabilität.
+  homeFeatureOnDemandTitle: On-Demand entwicklungs- und laufzeitumgebung
+  homeFeatureOnDemandAlt: A container that holds all technologies
+  homeFeatureCycleTitle: Automatisierte Prozesse
+  homeFeatureCycleAlt: Cycle - Build, Ship, Run, Operate
+  homeFeatureSecureTitle: Secured container
+  homeFeatureSecureDesc: Sichere Plattform dank SELinux von Red Hat Enterprise Linux. Datenhaltung in ISO27001-Zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz.
+  homeFeatureSecureAlt: Safe container with a swiss  éàlkja locker
+
+  homeContactTitle: Kontakt
+  homeContactDesc: Gerne treten wir mit Ihnen in Kontakt. Bitte geben Sie uns an, wie wir Sie am besten erreichen können. Ihre Daten behandeln wir vertraulich und werden nicht an Dritte weitergegeben.
+  homeContactSubject: Ich interessiere mich für…
+  homeContactSubjectOne: Dedicated Openshift enterprise cluster
+  homeContactSubjectTwo: Teilnahme Betaphase
+  homeContactSubjectThree: On PREMIS PaaS
+  homeContactSubjectFour: Allgemeine Informationen
+  homeContactYourName: Dein Name
+  homeContactYourNameTitle: Bitte gib uns dein Name
+  homeContactYourEmail: Deine Email
+  homeContactYourMessage: Deine Nachricht
+  homeContactYourMessageTitle: Was sagst du?
+  homeContactSend: Absenden
+
+  mailGotAMessage: We just recieve a message from Appuio.ch!
+  mailSubject: Ich interessiere mich für 

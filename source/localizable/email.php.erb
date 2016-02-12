@@ -1,0 +1,27 @@
+<?php
+  error_reporting(-1);
+  ini_set('display_errors', 'On');
+  if(isset($_POST['email'])) {
+    
+    $email_to = "hello@appuio.ch";
+    $email_subject = "APPUIO Contact form";
+    $email_from = $_POST["email"];
+    
+    $email_message = "<%= t(:mailGotAMessage) %>\n\n";
+
+    function clean_string($string) {
+      $bad = array("content-type","bcc:","to:","cc:","href");
+      return str_replace($bad,"",$string);
+    }
+
+    $email_message .= "<%= t(:mailGotAMessage) %> \"".clean_string($_POST["interests"])."\"\n\n";
+    $email_message .= clean_string($_POST["message"])."\n\n";
+    $email_message .= clean_string($_POST["name"]);
+
+    // create email headers
+    $headers = 'From: '.$email_from."\r\n".
+    'Reply-To: '.$email_to."\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+    mail($email_to, $email_subject, $email_message, $headers);
+  }
+?>

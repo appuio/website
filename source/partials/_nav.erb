@@ -1,0 +1,23 @@
+<nav id="nav-header" class="header-nav nav-header" role="navigation">
+  <a href="#" class="nav-toggle-menu" data-collapse="nav-header"><%= evil_icon 'ei-navicon' %></a>
+  <a href="#" class="nav-toggle-close" data-collapse="nav-header"><%= evil_icon 'ei-close' %></a>
+  <ul class="nav-main is-horizontal">
+    <li>
+      <a href="#overview"><%= t(:navOverview) %></a>
+    </li>
+    <li>
+      <a href="#offer"><%= t(:navOffers) %></a>
+    </li>
+    <li>
+      <a href="#features"><%= t(:navFeatures) %></a>
+    </li>
+    <li>
+      <a href="#contact"><%= t(:navContact) %></a>
+    </li>
+  </ul>
+  <ul class="nav-lang">
+    <li class="<% if (I18n.locale == :de) %>is-current<% end %>"><%= link_to 'DE', '/' %></li>
+    <li class="<% if (I18n.locale == :en) %>is-current<% end %>"><%= link_to 'EN', '/en' %></li>
+    <li class="<% if (I18n.locale == :fr) %>is-current<% end %>"><%= link_to 'FR', '/fr' %></li>
+  </ul>
+</nav>

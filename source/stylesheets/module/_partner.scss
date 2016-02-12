@@ -1,0 +1,24 @@
+.partner-list {
+  @include reset-list;
+  @include container;
+}
+.partner-item {
+  text-align: center;
+  line-height: rem-calc(200);
+  @include susy-breakpoint($break-medium) {
+    @include span(6 of 12);
+  }
+  .partner-link {
+    display: inline-block;
+    margin: 0 auto;
+    text-align:center;
+    img { 
+      vertical-align:middle;
+    }
+  }
+}
+.partner-item:last-child {
+  @include susy-breakpoint($break-medium) {
+    @include span(6 last of 12);
+  }
+}
