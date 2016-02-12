@@ -9,16 +9,8 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
-# With alternative layout
-# page "/path/to/file.html", layout: :otherlayout
-
-# Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
-# proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
-#  which_fake_page: "Rendering a fake page with a local variable" }
-
 # General configuration
 require 'builder'
-page "/sitemap.xml", layout: false
 
 # Reload the browser automatically whenever files change
 configure :development do
@@ -27,23 +19,6 @@ configure :development do
     config.browsers = ['last 3 versions', 'Explorer >= 9']
   end
 end
-
-# Turn this on if you want to make your url's prettier, without the .html
-activate :directory_indexes
-
-# Automatic image dimensions on image_tag helper
-activate :automatic_image_sizes
-
-###
-# Helpers
-###
-
-# Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
 
 # Build-specific configuration
 configure :build do
@@ -66,6 +41,17 @@ configure :build do
 end
 
 activate :i18n
+activate :automatic_image_sizes
+
+activate :deploy do |deploy|
+  deploy.deploy_method   = :sftp
+  deploy.host            = ENV['SFTP_SERVER_NAME']
+  deploy.port            = 22
+  deploy.path            = ENV['SFTP_DEPLOY_PATH']
+  deploy.user            = ENV['SFTP_USERNAME']
+  deploy.password        = ENV['SFTP_PASSWORD']
+  deploy.build_before = true
+end
 
 # Evil icons https://github.com/outpunk/evil-icons
 require 'evil_icons'

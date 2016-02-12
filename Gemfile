@@ -9,9 +9,9 @@ gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw]
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
 # Middleman Gems
+gem 'middleman-deploy', '>= 2.0.0.pre.alpha'
 gem 'middleman', '>= 4.0.0'
 gem 'middleman-livereload'
-gem 'builder'
 
 # CSS Plugins
 gem 'sass-rails', '~> 5.0.0'
