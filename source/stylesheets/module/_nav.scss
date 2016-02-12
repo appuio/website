@@ -62,6 +62,21 @@ Responsive hotizontal menu.
     padding: 0;
   }
 }
+.no-flexbox {
+  .nav-lang,
+  .nav-main,
+  .nav-lang > li,
+  .nav-main > li {
+    @include susy-breakpoint($break-medium) {
+      display: inline-block;
+    }
+  }
+  .nav-main {
+    @include susy-breakpoint($break-medium) {
+      float: right;
+    }
+  }
+}
 .nav-lang > li,
 .nav-main > li {
   & > a {

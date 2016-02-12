@@ -110,6 +110,23 @@
     flex: 1 50%;
   }
 }
+.no-flexbox .home-contact-container {
+  display: block;
+  padding: rem-calc(0 20);
+  .home-contact-interest {
+    display: block;
+    @include susy-breakpoint($break-medium) {
+      padding-right: 0;
+    }
+  }
+  .home-contact-form {
+    display: block;
+    @include susy-breakpoint($break-medium) {
+      margin-top: 0;
+      padding-left: 0;
+    }
+  }
+}
 .home-contact-button {
   position: relative;
   margin: rem-calc(25) auto 0;

@@ -15,6 +15,8 @@
   padding: rem-calc(20);
   margin: rem-calc(20) auto 0;
   max-width: rem-calc(320);
+  min-height: rem-calc(320);
+  overflow: hidden;
   &:first-child {
     margin-top: 0;
   }
@@ -28,15 +30,27 @@
     }
   }
 }
+.no-flexbox .callout-item {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .callout-title {
   flex: 1;
   font-size: rem-calc(24);
   line-height: rem-calc(28);
   color: #FFFFFF;
+  min-height: rem-calc(56);
 }
 .callout-desc {
+  min-height: rem-calc(144);
   flex: 1;
 }
 .callout-button {
   flex: none;
+}
+.callout-title,
+.callout-desc {
+  display: inline-block;
+  overflow: hidden;
 }

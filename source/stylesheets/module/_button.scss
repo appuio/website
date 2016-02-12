@@ -70,6 +70,9 @@ a.button {
     cursor: not-allowed;
   }
 }
+.button-progress > input {
+  width: 100%;
+}
 .button-progress.is-loading {
   position: relative;
   border-radius: rem-calc(24);
