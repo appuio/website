@@ -43,6 +43,8 @@ end
 activate :i18n
 activate :automatic_image_sizes
 
+require 'resolv-replace.rb'
+
 activate :deploy do |deploy|
   deploy.deploy_method   = :sftp
   deploy.host            = ENV['SFTP_SERVER_NAME']
