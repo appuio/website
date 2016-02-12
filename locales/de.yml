@@ -1,16 +1,16 @@
 ---
 de:
   metaDescription: Eine Plattform für das Design, die Entwicklung und den Betrieb Ihrer Webanwendung.
-  metaKeywords: openShift, cluster, PaaS
+  metaKeywords: openShift, cluster, PaaS, Docker, Kubernetes, Swiss, Schweiz, Enterprise
 
   navOverview: Übersicht
   navOffers: Angebot
   navFeatures: Features
   navContact: Kontakt
 
-  homeHeroAlt: APPUIO - Swiss Entreprise PAAS
-  homeHeroTitle: Eine Plattform für das Design, die Entwicklung und den Betrieb Ihrer Webanwendung.
-  homeHeroDesc: Appuio - die Schweizer PaaS von Entwicklern für Entwickler. Appuio basiert auf auf der “next generation PaaS” OpenShift Enterprise V3 von Red Hat. Auf der Basis bewährter Open Source Konzepte wie Docker und Kubernetes entwickeln, betreiben und skalieren Sie Ihre Webanwendung passend auf Ihre Bedürfnisse. Anders als andere PaaS-Angebote können Applikationen mit dieser Technologie sowohl auf Public Clouds als auch unternehmensintern betrieben werden.
+  homeHeroAlt: APPUiO - Swiss Enterprise PAAS
+  homeHeroTitle: Eine Plattform für das Design, die Entwicklung und den Betrieb Ihrer Anwendung.
+  homeHeroDesc: Appuio - die Schweizer Enterprise PaaS von Entwicklern für Entwickler. Appuio basiert auf auf der “next generation PaaS” OpenShift Enterprise V3 von Red Hat. Auf der Basis bewährter Open Source Konzepte wie Docker und Kubernetes entwickeln, betreiben und skalieren Sie Ihre Webanwendung passend auf Ihre Bedürfnisse. Anders als andere PaaS-Angebote können Applikationen mit dieser Technologie sowohl auf Public Clouds als auch unternehmensintern betrieben werden.
 
   homeOfferTitle: Angebot
   homeOfferOneTitle: Dedicated OpenShift Enterprise Cluster
@@ -52,4 +52,4 @@ de:
   homeContactSend: Absenden
 
   mailGotAMessage: We just recieve a message from Appuio.ch!
-  mailSubject: Ich interessiere mich für 
+  mailSubject: Ich interessiere mich für
