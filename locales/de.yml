@@ -29,7 +29,7 @@ de:
   homeFeatureDockerDesc: Docker ist die offene Plattform für Entwickler und Sysadmins und ihre Applikationen. Wählen Sie das für Ihre Technologie passende Basis-Docker-Image aus, OpenShift baut für Sie nach jedem Build automatisch einen aktualisierten Docker-Container und deployt ihn auf wunsch auch gleich.
   homeFeatureKubernetesTitle: Kubernetes
   homeFeatureKubernetesDesc: Container orchestrieren und managen mit Kubernetes von Google. Sie definieren wie viele Instanzen Ihrer Applikation parallel laufen sollen, Kubernetes kümmert sich um die Skalierung, das Loadbalancing und die Stabilität.
-  homeFeatureOnDemandTitle: On-Demand entwicklungs- und laufzeitumgebung
+  homeFeatureOnDemandTitle: On-Demand Entwicklungs- und Laufzeitumgebung
   homeFeatureOnDemandAlt: A container that holds all technologies
   homeFeatureCycleTitle: Automatisierte Prozesse
   homeFeatureCycleAlt: Cycle - Build, Ship, Run, Operate

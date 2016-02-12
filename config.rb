@@ -11,7 +11,6 @@ page '/*.txt', layout: false
 
 # General configuration
 require 'builder'
-require 'resolv-replace.rb'
 
 # Reload the browser automatically whenever files change
 configure :development do
