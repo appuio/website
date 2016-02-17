@@ -1,0 +1,26 @@
+.technology-container {
+  display: flex;
+  flex-flow: row wrap;
+  clear: both;
+}
+.technology-item {
+  flex: 1 100%;
+  text-align: center;
+  width: 100%;
+  margin: rem-calc(20 0);
+  @include susy-breakpoint($break-medium) {
+    margin: rem-calc(60 0);
+  }
+}
+.technology-item.is-small {
+  @include susy-breakpoint($break-medium) {
+    flex: 1 25%;
+  }
+}
+
+.technology-desc {
+  @include susy-breakpoint($break-medium) {
+    @include span(10 of 12);
+    @include squish(1, 1);
+  }
+}
