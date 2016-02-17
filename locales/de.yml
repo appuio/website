@@ -34,9 +34,7 @@ de:
   homeFeatureOnDemandAlt: A container that holds all technologies
   homeFeatureOnDemandDesc: Mit APPUiO erstellen Sie neue Umgebungen per Knopfdruck. Es stehen eine Vielzahl an Technologien und Plattformen "out of the Box" zur Verfügung. Eine Auswahl davon ist in der folgenden Aufstellung zu finden.
   homeFeatureLanguagesTitle: Plattformen
-  homeFeatureLanguagesDesc: JBoss EAP, Wildfly, Java, Spring, Ruby 2.0, Ruby 2.2, Ruby on Rails 4, PHP 5.5, PHP 5.6, Perl, Python, Node.js, Red Hat JBoss Middleware Stacks (JBoss Fuse Integration Services, JBoss A-MQ, JBoss Data Grid)
   homeFeatureDatabasesTitle: Datenbanken
-  homeFeatureDatabasesDesc: PostgreSQL 9.2, PostgreSQL 9.4, MySQL 5.5, MySQL 5.6, MongoDB 2.4, MongoDB 2.6,
   homeFeatureCycleTitle: Automatisierte Prozesse
   homeFeatureCycleAlt: Cycle - Build, Ship, Run, Operate
   homeFeatureCycleDesc: APPUiO ermöglicht es, den gesamten Prozess von der Entwicklung bis in die Produktion zu automatisieren. Wir kümmern uns um den Betrieb der Plattform und helfen Ihnen so, Ihre Prozesse zu automatisieren.

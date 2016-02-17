@@ -3,24 +3,41 @@
   flex-flow: row wrap;
   clear: both;
 }
+
 .technology-item {
   flex: 1 100%;
   text-align: center;
   width: 100%;
-  margin: rem-calc(20 0);
+  margin: rem-calc(10 0);
   @include susy-breakpoint($break-medium) {
-    margin: rem-calc(60 0);
+    margin: rem-calc(10 0);
+  }
+}
+.technology-item.is-medium {
+  @include susy-breakpoint($break-medium) {
+    flex: 1 50%;
   }
 }
 .technology-item.is-small {
   @include susy-breakpoint($break-medium) {
-    flex: 1 25%;
+
   }
+  flex: 1 20%;
+  margin: rem-calc(10 10);
+}
+.technology-item-content{
+  width: 80px;
+  height: 90px;
+  background: #002F47;
 }
 
 .technology-desc {
   @include susy-breakpoint($break-medium) {
     @include span(10 of 12);
     @include squish(1, 1);
+
   }
+  margin: rem-calc(10 0);
+  color: white;
+  font-size: rem-calc(13);
 }
