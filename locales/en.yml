@@ -22,6 +22,7 @@ en:
   homeOfferThreeTitle: On premise
   homeOfferThreeDesc: Ihre PaaS in Ihrem Rechenzentrum, optimal integriert in Ihre Infrastruktur. Wir begleiten Sie von der Idee bis zur Umsetzung.
   homeOfferThreeButton: Cloud enginnering
+  homeOfferDesc: Unser APPUiO Public PaaS Angebot wird in schweizer Rechenzenter und nach Schweizer Recht betrieben.
 
   homeFeatureTitle: Features
   homeFeatureDesc: OpenShift Enterprise (OSE) V3 ist die PaaS des Open Source Marktführers Red Hat. OSE V3 setzt auf bewährte moderne Open Source Konzepte wie Docker Container und Kubernetes.
@@ -31,6 +32,7 @@ en:
   homeFeatureKubernetesDesc: Container orchestrieren und managen mit Kubernetes von Google. Sie definieren wie viele Instanzen Ihrer Applikation parallel laufen sollen, Kubernetes kümmert sich um die Skalierung, das Loadbalancing und die Stabilität.
   homeFeatureOnDemandTitle: On-Demand entwicklungs- und laufzeitumgebung
   homeFeatureOnDemandAlt: A container that holds all technologies
+  homeFeatureOnDemandDesc: Mit APPUiO erstellen Sie neue Umgebungen per Knopfdruck. Es stehen eine Vielzahl an Technologien und Plattformen "out of the Box" zur Verfügung.
   homeFeatureCycleTitle: Automatisierte Prozesse
   homeFeatureCycleAlt: Cycle - Build, Ship, Run, Operate
   homeFeatureSecureTitle: Secured container

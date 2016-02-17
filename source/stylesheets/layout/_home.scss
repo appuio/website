@@ -55,6 +55,12 @@
   color: white;
   text-align: center;
 }
+.home-offer-desc {
+  @include susy-breakpoint($break-medium) {
+    @include span(10 of 12);
+    @include squish(1, 1);
+  }
+}
 
 // Features
 // ----------------------------------------------

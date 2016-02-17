@@ -44,6 +44,7 @@ title: APPUIO - Swiss Entreprise PAAS
           <a href="#contact" class="callout-button button is-round" data-check="interest-paas"><%= t(:homeOfferThreeButton) %></a>
         </li>
       </ul>
+      <p class="home-offer-desc"><%= t(:homeOfferDesc) %></p>
     </div>
   </section>
   <section class="home-features">
@@ -52,6 +53,11 @@ title: APPUIO - Swiss Entreprise PAAS
       <h2 class="home-features-title"><%= t(:homeFeatureTitle) %></h2>
       <p class="home-features-desc"><%= t(:homeFeatureDesc) %></p>
       <div class="feature-container">
+          <article class="feature-item">
+              <%= image_tag "feature_process.svg", :alt => t(:homeFeatureCycleAlt), :class => 'feature-img' %>
+              <h3 class="feature-title"><%= t(:homeFeatureCycleTitle) %></h3>
+              <p class="feature-desc"><%= t(:homeFeatureCycleDesc) %></p>
+          </article>
         <article class="feature-item is-small">
           <a href="https://www.docker.com/" target="_blank" class="feature-image badge is-docker"><%= image_tag "docker_logo.svg", :alt => 'Docker' %></a>
           <h3 class="feature-title"><%= t(:homeFeatureDockerTitle) %></h3>
@@ -65,11 +71,20 @@ title: APPUIO - Swiss Entreprise PAAS
         <article class="feature-item">
           <%= image_tag "feature_ondemand.svg", :alt =>  t(:homeFeatureOnDemandAlt), :class => 'feature-img' %>
           <h3 class="feature-title"><%= t(:homeFeatureOnDemandTitle) %></h3>
+            <p class="feature-desc"><%= t(:homeFeatureOnDemandDesc) %></p>
         </article>
-        <article class="feature-item">
-          <%= image_tag "feature_process.svg", :alt => t(:homeFeatureCycleAlt), :class => 'feature-img' %>
-          <h3 class="feature-title"><%= t(:homeFeatureCycleTitle) %></h3>
-        </article>
+          <article class="feature-item is-small">
+              <h3 class="feature-title"><%= t(:homeFeatureLanguagesTitle) %></h3>
+              <p class="feature-desc"><%= t(:homeFeatureLanguagesDesc) %></p>
+          </article>
+          <article class="feature-item is-small">
+              <h3 class="feature-title"><%= t(:homeFeatureDatabasesTitle) %></h3>
+              <p class="feature-desc"><%= t(:homeFeatureDatabasesDesc) %></p>
+          </article>
+          <article class="feature-item">
+              <h3 class="feature-title"><%= t(:homeFeatureOpenSourceTitle) %></h3>
+              <p class="feature-desc"><%= t(:homeFeatureOpenSourceDesc) %></p>
+          </article>
         <article class="feature-item">
           <%= image_tag "feature_secure.svg", :alt => t(:homeFeatureSecureAlt), :class => 'feature-img' %>
           <h3 class="feature-title"><%= t(:homeFeatureSecureTitle) %></h3>
