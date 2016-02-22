@@ -8,48 +8,55 @@ en:
   navFeatures: Features
   navContact: Contact
 
-  homeHeroAlt: APPUIO - Swiss Entreprise PAAS
-  homeHeroTitle: One platform for the design, the development and ...
-  homeHeroDesc: Appuio - die Schweizer PaaS von Entwicklern für Entwickler. Appuio basiert auf auf der “next generation PaaS” OpenShift Enterprise V3 von Red Hat. Auf der Basis bewährter Open Source Konzepte wie Docker und Kubernetes entwickeln, betreiben und skalieren Sie Ihre Webanwendung passend auf Ihre Bedürfnisse. Anders als andere PaaS-Angebote können Applikationen mit dieser Technologie sowohl auf Public Clouds als auch unternehmensintern betrieben werden.
+  homeHeroAlt: APPUiO - Swiss Enterprise PAAS
+  homeHeroTitle: Eine Plattform für das Design, die Entwicklung und den Betrieb Ihrer Anwendung.
+  homeHeroDesc: APPUiO - die Schweizer Enterprise PaaS von Entwicklern für Entwickler. APPUiO basiert auf der “next generation PaaS” OpenShift Enterprise V3 von Red Hat. Auf der Basis bewährter Open Source Konzepte wie Docker und Kubernetes entwickeln, betreiben und skalieren Sie Ihre Anwendung passend auf Ihre Bedürfnisse. Anders als andere PaaS-Angebote können Applikationen mit dieser Technologie sowohl auf Public Clouds als auch unternehmensintern betrieben werden.
 
   homeOfferTitle: Offer
-  homeOfferOneTitle: Dedicated OpenShift Enterprise Cluster
-  homeOfferOneDesc: Sie wollen eine eigene hybride oder private PaaS nutzen? Wir liefern und betreiben die auf Ihre Bedürfnisse massgeschneiderte Lösung.
-  homeOfferOneButton: Get my private PaaS
+  homeOfferOneTitle: Managed Private PaaS
+  homeOfferOneDesc: Sie wollen eine eigene private APPUiO Instanz nutzen, die auf unserer Infrastruktur läuft? Wir deployen und betreiben die auf Ihre Bedürfnisse massgeschneiderte Lösung.
+  homeOfferOneButton: Get my private APPUiO
   homeOfferTwoTitle: Public PaaS
-  homeOfferTwoDesc: BETA - Melden Sie sich gratis für das Appuio-Betaprogramm an und werden Teil der Community.
+  homeOfferTwoDesc: BETA - Melden Sie sich gratis für das APPUiO-Betaprogramm an und werden Sie Teil der Community. Das Betaprogramm startet im März 2016.
   homeOfferTwoButton: Join the community
-  homeOfferThreeTitle: On premise
-  homeOfferThreeDesc: Ihre PaaS in Ihrem Rechenzentrum, optimal integriert in Ihre Infrastruktur. Wir begleiten Sie von der Idee bis zur Umsetzung.
-  homeOfferThreeButton: Cloud enginnering
-  homeOfferDesc: Unser APPUiO Public PaaS Angebot wird in schweizer Rechenzenter und nach Schweizer Recht betrieben.
+  homeOfferThreeTitle: On premise PaaS
+  homeOfferThreeDesc: Ihre PaaS in Ihrem Rechenzentrum, optimal integriert in Ihre Infrastruktur. Wir begleiten Sie von der Idee über die Umsetzung und falls gewünscht bis zum Betrieb.
+  homeOfferThreeButton: Cloud engineering
+  homeOfferDesc: Unser APPUiO Public PaaS Angebot wird in in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
 
   homeFeatureTitle: Features
-  homeFeatureDesc: OpenShift Enterprise (OSE) V3 ist die PaaS des Open Source Marktführers Red Hat. OSE V3 setzt auf bewährte moderne Open Source Konzepte wie Docker Container und Kubernetes.
+  homeFeatureDesc: OpenShift Enterprise (OSE) V3 ist die PaaS des Open Source Marktführers Red Hat. OSE V3 setzt auf moderne Open Source Konzepte wie Docker Container und Kubernetes.
   homeFeatureDockerTitle: Docker
-  homeFeatureDockerDesc: Docker ist die offene Plattform für Entwickler und Sysadmins und ihre Applikationen. Wählen Sie das für Ihre Technologie passende Basis-Docker-Image aus, OpenShift baut für Sie nach jedem Build automatisch einen aktualisierten Docker-Container und deployt ihn auf wunsch auch gleich.
+  homeFeatureDockerDesc: Docker ist die offene Plattform für Entwickler und Sysadmins und ihre Applikationen. Wählen Sie das für Ihre Technologie passende Basis-Docker-Image aus, OpenShift baut für Sie nach jedem Build automatisch einen aktualisierten Docker-Container und deployt ihn auf Wunsch auch gleich.
   homeFeatureKubernetesTitle: Kubernetes
   homeFeatureKubernetesDesc: Container orchestrieren und managen mit Kubernetes von Google. Sie definieren wie viele Instanzen Ihrer Applikation parallel laufen sollen, Kubernetes kümmert sich um die Skalierung, das Loadbalancing und die Stabilität.
-  homeFeatureOnDemandTitle: On-Demand entwicklungs- und laufzeitumgebung
+  homeFeatureOnDemandTitle: On-Demand Entwicklungs- und Laufzeitumgebung
   homeFeatureOnDemandAlt: A container that holds all technologies
-  homeFeatureOnDemandDesc: Mit APPUiO erstellen Sie neue Umgebungen per Knopfdruck. Es stehen eine Vielzahl an Technologien und Plattformen "out of the Box" zur Verfügung.
+  homeFeatureOnDemandDesc: Mit APPUiO erstellen Sie neue Umgebungen per Knopfdruck. Es stehen eine Vielzahl an Technologien und Plattformen "out of the Box" zur Verfügung. Eine Auswahl davon ist in der folgenden Aufstellung zu finden.
+  homeFeatureLanguagesTitle: Plattformen
+  homeFeatureDatabasesTitle: Datenbanken
   homeFeatureCycleTitle: Automatisierte Prozesse
   homeFeatureCycleAlt: Cycle - Build, Ship, Run, Operate
+  homeFeatureCycleDesc: APPUiO ermöglicht es, den gesamten Prozess von der Entwicklung bis in die Produktion zu automatisieren. Wir kümmern uns um den Betrieb der Plattform und helfen Ihnen so, Ihre Prozesse zu automatisieren.
+  homeFeatureOpenSourceTitle: OpenSource
+  homeFeatureOpenSourceDesc: OpenShift, Docker, Kubernetes und weitere Komponenten hinter APPUiO sind Open Source. Diese Offenheit wollen wir übernehmen, indem wir Dokumentationen zu APPUiO der Community zur Verfügung stellen. Die quelloffene Software, die Anwendung offener Standards sowie die frei zugängliche Dokumentation garantieren Ihnen die grösstmögliche Anbieterunabhängigkeit und bewahren Sie vor einem Vendor Lock-in. Weitere Informationen zum Open Source Projekt hinter OpenShift finden Sie auf <a target="_new" href="https://www.openshift.org">openshift.org</a>.
   homeFeatureSecureTitle: Secured container
-  homeFeatureSecureDesc: Sichere Plattform dank SELinux von Red Hat Enterprise Linux. Datenhaltung in ISO27001-Zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz.
+  homeFeatureSecureDesc: Sichere Plattform dank SELinux von Red Hat Enterprise Linux. Datenhaltung in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz.
   homeFeatureSecureAlt: Safe container with a swiss  éàlkja locker
 
   homeContactTitle: Contact
   homeContactDesc: Gerne treten wir mit Ihnen in Kontakt. Bitte geben Sie uns an, wie wir Sie am besten erreichen können. Ihre Daten behandeln wir vertraulich und werden nicht an Dritte weitergegeben.
   homeContactSubject: Ich interessiere mich für…
-  homeContactSubjectOne: Dedicated Openshift enterprise cluster
+  homeContactSubjectOne: Managed Private PaaS
   homeContactSubjectTwo: Teilnahme Betaphase
-  homeContactSubjectThree: On PREMIS PaaS
+  homeContactSubjectThree: On PREMISE PaaS
   homeContactSubjectFour: Allgemeine Informationen
-  homeContactYourName: Dein Name
-  homeContactYourEmail: Deine Email
-  homeContactYourMessage: Deine Nachricht
-  homeContactSend: Absenden
+  homeContactYourName: name
+  homeContactYourNameTitle: your name
+  homeContactYourEmail: email
+  homeContactYourMessage: message
+  homeContactYourMessageTitle: message
+  homeContactSend: send
 
-  mailGotAMessage: We just recieve a message from Appuio.ch!
+  mailGotAMessage: We just recieve a message from APPUiO.ch!
   mailSubject: I'm interested in 
