@@ -10,7 +10,7 @@ de:
 
   homeHeroAlt: APPUiO - Swiss Enterprise PAAS
   homeHeroTitle: Eine Plattform für das Design, die Entwicklung und den Betrieb Ihrer Anwendung.
-  homeHeroDesc: APPUiO - die Schweizer Enterprise PaaS von Entwicklern für Entwickler. APPUiO basiert auf der “next generation PaaS” OpenShift Enterprise V3 von Red Hat. Auf der Basis bewährter Open Source Konzepte wie Docker und Kubernetes entwickeln, betreiben und skalieren Sie Ihre Anwendung passend auf Ihre Bedürfnisse. Anders als andere PaaS-Angebote können Applikationen mit dieser Technologie sowohl auf Public Clouds als auch unternehmensintern betrieben werden.
+  homeHeroDesc: APPUiO - die Schweizer Enterprise PaaS von Entwicklern für Entwickler. APPUiO basiert auf der “next generation PaaS” OpenShift Enterprise V3 von Red Hat. Auf der Basis bewährter Open Source Konzepte wie Docker und Kubernetes entwickeln, betreiben und skalieren Sie Ihre Anwendung passend auf Ihre Bedürfnisse. Mit dieser Technologie können Applikationen sowohl auf Public Clouds als auch unternehmensintern betrieben werden.
 
   homeOfferTitle: Angebot
   homeOfferOneTitle: Managed Private PaaS
