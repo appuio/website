@@ -1,43 +1,65 @@
 .technology-container {
+  @include container;
+}
+
+.technology-group {
   display: flex;
   flex-flow: row wrap;
-  clear: both;
-}
-
-.technology-item {
-  flex: 1 100%;
-  text-align: center;
-  width: 100%;
-  margin: rem-calc(10 0);
+  align-items: stretch;
   @include susy-breakpoint($break-medium) {
-    margin: rem-calc(10 0);
+    @include span(6 of 12);
+    &:last-child {
+      @include last;
+    }
   }
-}
-.technology-item.is-medium {
-  @include susy-breakpoint($break-medium) {
+
+  &.has-two-col .technology-item {
     flex: 1 50%;
   }
-}
-.technology-item.is-small {
-  @include susy-breakpoint($break-medium) {
-
+  &.has-three-col .technology-item {
+    flex: 1 33%;
   }
-  flex: 1 20%;
-  margin: rem-calc(10 10);
 }
-.technology-item-content{
-  width: 80px;
-  height: 90px;
+.technology-title {
+  flex: none;
+  width: 100%;
+}
+.technology-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: rem-calc(60);
+  min-height: rem-calc(64);
   background: #002F47;
-}
-
-.technology-desc {
-  @include susy-breakpoint($break-medium) {
-    @include span(10 of 12);
-    @include squish(1, 1);
-
-  }
-  margin: rem-calc(10 0);
   color: white;
-  font-size: rem-calc(13);
+  border: 2px solid white;
+  box-sizing: border-box;
+  border-radius: 1px;
+
+  &.is-empty {
+    background: transparent;
+  }
+  &.is-orange {
+    color: #000;
+    background: #FF931E;
+  }
+  &.is-turkis {
+    color: #000;
+    background: #15B0BF;
+  }
+  &.is-turkislight {
+    color: #000;
+    background: #B2E6EC;
+  }
+  &.is-yellow {
+    color: #000;
+    background: #FFD301;
+  }
+}
+.technology-desc {
+  flex: 1 100%;
+  font-size: rem-calc(14);
+  line-height: rem-calc(24);
+  margin: rem-calc(6);
 }
