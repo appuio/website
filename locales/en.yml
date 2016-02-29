@@ -1,7 +1,7 @@
 ---
 en:
-  metaDescription: Eine Plattform für das Design, die Entwicklung und den Betrieb Ihrer Webanwendung.
-  metaKeywords: openShift, cluster, PaaS
+  metaDescription: Platform for design, development and operation of your application.
+  metaKeywords: openShift, cluster, PaaS, Docker, Kubernetes, Swiss, Switzerland, VSHN. Puzzle ITC GmbH, Platform as a Service
   
   navOverview: Overview
   navOffers: Offer
@@ -9,48 +9,48 @@ en:
   navContact: Contact
 
   homeHeroAlt: APPUiO - Swiss Enterprise PAAS
-  homeHeroTitle: Eine Plattform für das Design, die Entwicklung und den Betrieb Ihrer Anwendung.
-  homeHeroDesc: APPUiO - die Schweizer Enterprise PaaS von Entwicklern für Entwickler. APPUiO basiert auf der “next generation PaaS” OpenShift Enterprise V3 von Red Hat. Auf der Basis bewährter Open Source Konzepte wie Docker und Kubernetes entwickeln, betreiben und skalieren Sie Ihre Anwendung passend auf Ihre Bedürfnisse. Anders als andere PaaS-Angebote können Applikationen mit dieser Technologie sowohl auf Public Clouds als auch unternehmensintern betrieben werden.
+  homeHeroTitle: Platform for design, development and operation of your application.
+  homeHeroDesc: APPUiO – Swiss Enterprise PaaS from developers for developers. APPUiO, built on “next generation PaaS” Red Hat OpenShift Enterprise V3 technology. Based on reliable open source concepts like Docker and Kubernetes you will develop, operate and scale your application according to your needs. Compared to other PaaS-offerings, using this technology your applications can be operated on either public clouds or in your own on-premises datacentre.
 
   homeOfferTitle: Offer
   homeOfferOneTitle: Managed Private PaaS
-  homeOfferOneDesc: Sie wollen eine eigene private APPUiO Instanz nutzen, die auf unserer Infrastruktur läuft? Wir deployen und betreiben die auf Ihre Bedürfnisse massgeschneiderte Lösung.
+  homeOfferOneDesc: You want to use your own private APPUiO instance, running on our infrastructure? We deploy and operate your installation according your specific requirements.
   homeOfferOneButton: Get my private APPUiO
   homeOfferTwoTitle: Public PaaS
-  homeOfferTwoDesc: BETA - Melden Sie sich gratis für das APPUiO-Betaprogramm an und werden Sie Teil der Community. Das Betaprogramm startet im März 2016.
+  homeOfferTwoDesc: BETA program – signup to the APPUiO beta program for free and become part of the community! The beta program will start in March 2016.
   homeOfferTwoButton: Join the community
   homeOfferThreeTitle: On premise PaaS
-  homeOfferThreeDesc: Ihre PaaS in Ihrem Rechenzentrum, optimal integriert in Ihre Infrastruktur. Wir begleiten Sie von der Idee über die Umsetzung und falls gewünscht bis zum Betrieb.
+  homeOfferThreeDesc: Your PaaS in your own datacentre, perfectly integrated in your own infrastructure. We will walk you through the process, starting with your idea, realization and if desired even operate your PaaS for you.
   homeOfferThreeButton: Cloud engineering
-  homeOfferDesc: Unser APPUiO Public PaaS Angebot wird in in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
+  homeOfferDesc: All APPUiO public PaaS offerings will be held and operated in ISO27001-certified and FINMA-audited datacentres inside Switzerland and according Swiss law.
 
   homeFeatureTitle: Features
-  homeFeatureDesc: OpenShift Enterprise (OSE) V3 ist die PaaS des Open Source Marktführers Red Hat. OSE V3 setzt auf moderne Open Source Konzepte wie Docker Container und Kubernetes.
+  homeFeatureDesc: OpenShift Enterprise (OSE) V3 is the PaaS from Red Hat, the open source market leader. OSE V3 uses state-of-the-art open source concepts like Docker container and Kubernetes.
   homeFeatureDockerTitle: Docker
-  homeFeatureDockerDesc: Docker ist die offene Plattform für Entwickler und Sysadmins und ihre Applikationen. Wählen Sie das für Ihre Technologie passende Basis-Docker-Image aus, OpenShift baut für Sie nach jedem Build automatisch einen aktualisierten Docker-Container und deployt ihn auf Wunsch auch gleich.
+  homeFeatureDockerDesc: Docker is the open source platform for developers, sysadmins and their applications. Choose your Docker-image according your needs and the technology you want to use and after every built, OpenShift will automatically create a new Docker-container and even deploy it if you want.
   homeFeatureKubernetesTitle: Kubernetes
-  homeFeatureKubernetesDesc: Container orchestrieren und managen mit Kubernetes von Google. Sie definieren wie viele Instanzen Ihrer Applikation parallel laufen sollen, Kubernetes kümmert sich um die Skalierung, das Loadbalancing und die Stabilität.
-  homeFeatureOnDemandTitle: On-Demand Entwicklungs- und Laufzeitumgebung
-  homeFeatureOnDemandAlt: A container that holds all technologies
-  homeFeatureOnDemandDesc: Mit APPUiO erstellen Sie neue Umgebungen per Knopfdruck. Es stehen eine Vielzahl an Technologien und Plattformen "out of the Box" zur Verfügung. Eine Auswahl davon ist in der folgenden Aufstellung zu finden.
-  homeFeatureLanguagesTitle: Plattformen
-  homeFeatureDatabasesTitle: Datenbanken
-  homeFeatureCycleTitle: Automatisierte Prozesse
+  homeFeatureKubernetesDesc: Orchestrate and manage your container with Kubernetes from Google. You define how many of your application instances shall run in parallel and Kubernetes takes care for scaling, load balancing and stability.
+  homeFeatureOnDemandTitle: On-Demand development and runtime environment
+  homeFeatureOnDemandAlt: One container that holds all the technologies
+  homeFeatureOnDemandDesc: APPUiO enables you to deploy new environments with just a few clicks. There are many different technologies and platforms available just "out of the box". Here you will find a few samples.
+  homeFeatureLanguagesTitle: Platforms
+  homeFeatureDatabasesTitle: Databases
+  homeFeatureCycleTitle: Automated processes
   homeFeatureCycleAlt: Cycle - Build, Ship, Run, Operate
-  homeFeatureCycleDesc: APPUiO ermöglicht es, den gesamten Prozess von der Entwicklung bis in die Produktion zu automatisieren. Wir kümmern uns um den Betrieb der Plattform und helfen Ihnen so, Ihre Prozesse zu automatisieren.
+  homeFeatureCycleDesc: APPUiO enables you to automate the whole process – from development to production. We take care for the operation of the APPUiO platform and help you to automate your processes.
   homeFeatureOpenSourceTitle: OpenSource
-  homeFeatureOpenSourceDesc: OpenShift, Docker, Kubernetes und weitere Komponenten hinter APPUiO sind Open Source. Diese Offenheit wollen wir übernehmen, indem wir Dokumentationen zu APPUiO der Community zur Verfügung stellen. Die quelloffene Software, die Anwendung offener Standards sowie die frei zugängliche Dokumentation garantieren Ihnen die grösstmögliche Anbieterunabhängigkeit und bewahren Sie vor einem Vendor Lock-in. Weitere Informationen zum Open Source Projekt hinter OpenShift finden Sie auf <a target="_new" href="https://www.openshift.org">openshift.org</a>.
+  homeFeatureOpenSourceDesc: OpenShift, Docker, Kubernetes and more of the APPUiO components are open source. We want to adopt the openness by providing documentation on APPUiO to the community. Using open standards, open source software and the free availability of the APPUiO documentation guarantees the greatest possible freedom and protects you from any vendor lock-in. Please find more information to the open source OpenShift project here <a target="_new" href="https://www.openshift.org">openshift.org</a>.
   homeFeatureSecureTitle: Secured container
-  homeFeatureSecureDesc: Sichere Plattform dank SELinux von Red Hat Enterprise Linux. Datenhaltung in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz.
-  homeFeatureSecureAlt: Safe container with a swiss  éàlkja locker
+  homeFeatureSecureDesc: Secure platform thanks to Red Hat’s Enterprise SELinux. Data protection according Swiss law in ISO27001-certified and FINMA-audited datacentres.
+  homeFeatureSecureAlt: Safe container with a swiss éàlkja locker
 
   homeContactTitle: Contact
-  homeContactDesc: Gerne treten wir mit Ihnen in Kontakt. Bitte geben Sie uns an, wie wir Sie am besten erreichen können. Ihre Daten behandeln wir vertraulich und werden nicht an Dritte weitergegeben.
-  homeContactSubject: Ich interessiere mich für…
+  homeContactDesc: We’d love to get in touch with you! Please let us know how we can reach out for you. We’ll keep all your data private and will never share with third parties.
+  homeContactSubject: I’m interested in…
   homeContactSubjectOne: Managed Private PaaS
-  homeContactSubjectTwo: Teilnahme Betaphase
+  homeContactSubjectTwo: attending beta test
   homeContactSubjectThree: On PREMISE PaaS
-  homeContactSubjectFour: Allgemeine Informationen
+  homeContactSubjectFour: general information
   homeContactYourName: name
   homeContactYourNameTitle: your name
   homeContactYourEmail: email
