@@ -19,7 +19,7 @@
     $email_message .= clean_string($_POST["name"]);
 
     // create email headers
-    $headers = 'From: '.$email_toMan."\r\n".
+    $headers = 'From: '.$email_to."\r\n".
     'Reply-To: '.$email_from."\r\n" .
     'X-Mailer: PHP/' . phpversion();
     mail($email_to, $email_subject, $email_message, $headers);
