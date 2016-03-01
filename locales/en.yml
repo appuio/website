@@ -27,7 +27,7 @@ en:
   homeFeatureTitle: Features
   homeFeatureDesc: OpenShift Enterprise (OSE) V3 is the PaaS from Red Hat, the open source market leader. OSE V3 uses state-of-the-art open source concepts like Docker container and Kubernetes.
   homeFeatureDockerTitle: Docker
-  homeFeatureDockerDesc: Docker is the open source platform for developers, sysadmins and their applications. Choose your Docker-image according your needs and the technology you want to use and after every built, OpenShift will automatically create a new Docker-container and even deploy it if you want.
+  homeFeatureDockerDesc: Docker is the open source platform for developers, sysadmins and their applications. Choose your Docker-image according your needs and technology you want to use and after every built, OpenShift will automatically create a new Docker-container and even deploy it if you want.
   homeFeatureKubernetesTitle: Kubernetes
   homeFeatureKubernetesDesc: Orchestrate and manage your container with Kubernetes from Google. You define how many of your application instances shall run in parallel and Kubernetes takes care for scaling, load balancing and stability.
   homeFeatureOnDemandTitle: On-Demand development and runtime environment
