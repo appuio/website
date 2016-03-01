@@ -21,6 +21,7 @@
     // create email headers
     $headers = 'From: '.$email_to."\r\n".
     'Reply-To: '.$email_from."\r\n" .
+    'Content-type: text/html; charset=UTF-8' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
     mail($email_to, $email_subject, $email_message, $headers);
   }
