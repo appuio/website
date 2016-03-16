@@ -16,11 +16,13 @@
     </li>
   </ul>
   <ul class="nav-lang">
-
-    <li class="<% if (I18n.locale == :de) %>is-current<% end %>"><%= link_to 'DE', '/' %></li>
-    <li class="<% if (I18n.locale == :en) %>is-current<% end %>"><%= link_to 'EN', '/en' %></li>
-      <!--
-    <li class="<% if (I18n.locale == :fr) %>is-current<% end %>"><%= link_to 'FR', '/fr' %></li>
-    -->
+    <% if (I18n.locale == :de) %>
+    <li class="is-current"><a href="#">DE</a></li>
+    <li><%= link_to 'EN', '/en' %></li>
+    <% end %>
+    <% if (I18n.locale == :en) %>
+    <li><%= link_to 'DE', '../' %></li>
+    <li class="is-current"><a href="#">EN</a></li>
+    <% end %>
   </ul>
 </nav>

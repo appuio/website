@@ -13,8 +13,8 @@ title: APPUiO - Swiss Entreprise PaaS
     <div class="home-hero-illus">
       <%= image_tag "appuio_logo.svg", :alt => t(:homeHeroAlt), :class => 'home-hero-logo' %>
     </div>
+    <a name="overview"></a>
     <div class="grid-container">
-      <a name="overview"></a>
       <h1 class="home-hero-title"><%= t(:homeHeroTitle) %></h1>
       <p class="home-hero-desc"><%= t(:homeHeroDesc) %></p>
       <a href="https://www.openshift.com/" target="_blank" class="home-hero-tech badge">
@@ -23,9 +23,9 @@ title: APPUiO - Swiss Entreprise PaaS
     </div>
   </section>
 
+  <a name="offer"></a>
   <section class="home-offer">
     <div class="grid-container">
-      <a name="offer"></a>
       <h2 class="home-offer-title"><%= t(:homeOfferTitle) %></h2>
       <ul class="home-offer-list callout-list">
         <li class="callout-item">
@@ -47,9 +47,9 @@ title: APPUiO - Swiss Entreprise PaaS
       <p class="home-offer-desc"><%= t(:homeOfferDesc) %></p>
     </div>
   </section>
+  <a name="features"></a>
   <section class="home-features">
     <div class="grid-container">
-      <a name="features"></a>
       <h2 class="home-features-title"><%= t(:homeFeatureTitle) %></h2>
       <p class="home-features-desc"><%= t(:homeFeatureDesc) %></p>
       <div class="feature-container">
@@ -159,9 +159,9 @@ title: APPUiO - Swiss Entreprise PaaS
       </div>
     </div>
   </section>
+  <a name="contact"></a>
   <section class="home-contact">
     <div class="grid-container">
-      <a name="contact"></a>
       <h2 class="home-contact-title"><%= t(:homeContactTitle) %></h2>
       <p class="home-contact-desc"><%= t(:homeContactDesc) %></p>
       <form id="contact-form" class="home-contact-container">
@@ -179,10 +179,6 @@ title: APPUiO - Swiss Entreprise PaaS
             <input id="interest-paas" value="<%= t(:homeContactSubjectThree) %>" type="checkbox" name="interests[]" class="interest-checkbox">
             <label for="interest-paas"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:homeContactSubjectThree) %></label>
           </div>
-                    <div class="interest-item">
-                        <input id="interest-newsletter" value="<%= t(:homeContactSubjectFive) %>" type="checkbox" name="interests[]" class="interest-checkbox" >
-                        <label for="interest-newsletter"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:homeContactSubjectFive) %></label>
-                    </div>
           <div class="interest-item">
             <input id="interest-info" value="<%= t(:homeContactSubjectFour) %>" type="checkbox" name="interests[]" class="interest-checkbox" checked>
             <label for="interest-info"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:homeContactSubjectFour) %></label>
