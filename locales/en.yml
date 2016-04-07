@@ -52,8 +52,10 @@ en:
   homeContactSubjectThree: On PREMISE PaaS
   homeContactSubjectFour: general information
   homeContactSubjectFive: Newsletter
-  homeContactYourName: name
-  homeContactYourNameTitle: your name
+  homeContactYourFirstName: first name
+  homeContactYourName: last name
+  homeContactYourFirstNameTitle: your first name
+  homeContactYourNameTitle: your last name
   homeContactYourEmail: email
   homeContactYourMessage: message
   homeContactYourMessageTitle: message

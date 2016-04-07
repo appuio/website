@@ -2,11 +2,11 @@
   error_reporting(-1);
   ini_set('display_errors', 'On');
   if(isset($_POST['email'])) {
-    
+
     $email_to = "hello@appuio.ch";
     $email_subject = "APPUiO Contact form";
     $email_from = $_POST["email"];
-    
+
     $email_message = "<%= t(:mailGotAMessage) %><br/>\n\n";
 
     function clean_string($string) {
@@ -16,7 +16,7 @@
 
     $email_message .= "\"".clean_string($_POST["interests"])."\"<br/>\n\n";
     $email_message .= clean_string($_POST["message"])."<br/>\n\n";
-    $email_message .= clean_string($_POST["name"]);
+    $email_message .= clean_string($_POST["vorname"]) . " " . clean_string($_POST["name"]);
 
     // create email headers
     $headers = 'From: '.$email_to."\r\n".

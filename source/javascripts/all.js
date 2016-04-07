@@ -44,20 +44,21 @@
   $( "#contact-form" ).submit(function( event ) {
     event.preventDefault();
     var valid = true;
+    var vorname = $("[name='vorname']").val();
     var name = $("[name='name']").val();
     var email = $("[name='email']").val();
     var interests = $.map($(':checkbox[name=interests\\[\\]]:checked'), function(n, i){
       return n.value;
     }).join(',');
     var message = $("[name='message']").val();
-    
+    if(!vorname) valid = false;
     if(!name) valid = false;
     if(!email || !email.match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) valid = false;
     if(!message) valid = false;
     if(valid) {
       jQuery.ajax({
         url: "email.php",
-        data:'name='+name+'&email='+email+'&interests='+interests+'&message='+message,
+        data:'vorname='+vorname+'&name='+name+'&email='+email+'&interests='+interests+'&message='+message,
         type: "POST",
         success:function(){
           sendProgressButton('check');
