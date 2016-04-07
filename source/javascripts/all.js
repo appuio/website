@@ -57,8 +57,8 @@
     if(!message) valid = false;
     if(valid) {
       jQuery.ajax({
-        url: "https://app.hatchbuck.com/onlineForm/submit.php",
-        data:'formID=60964925647&enableServerValidation=0&enable303Redirect=0&q1_firstName1='+vorname+'&q3_lastName3='+name+'&q4_email='+email+'&q6_interessen='+interests+'&q5_nachricht='+message,
+        url: "email.php",
+        data:'vorname='+vorname+'&name='+name+'&email='+email+'&interests='+interests+'&message='+message,
         type: "POST",
         success:function(){
           sendProgressButton('check');
