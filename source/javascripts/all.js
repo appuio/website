@@ -56,17 +56,23 @@
     if(!email || !email.match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) valid = false;
     if(!message) valid = false;
     if(valid) {
-      jQuery.ajax({
-        url: "https://app.hatchbuck.com/onlineForm/submit.php",
-        data:'formID=60964925647&enableServerValidation=0&enable303Redirect=0&q1_firstName1='+vorname+'&q3_lastName3='+nachname+'&q4_email='+email+'&q6_interessen='+interests+'&q5_nachricht='+message,
-        type: "POST",
-        success:function(){
-          sendProgressButton('check');
-        },
-        error:function (){
-          sendProgressButton('exclamation');
-        }
-      });
+      $('<iframe>', {
+        src: 'https://app.hatchbuck.com/onlineForm/submit.php?formID=60964925647&enableServerValidation=0&enable303Redirect=0&q1_firstName1='+vorname+'&q3_lastName3='+nachname+'&q4_email='+email+'&q6_interessen='+interests+'&q5_nachricht='+message,
+        id: 'crmframe',
+        frameborder: 0,
+        height: 0,
+        width: 0,
+        style: 'position: absolute; left: -5000px;',
+        tabindex: -1,
+      }).appendTo('body');
+      sendProgressButton('check');
+//        success:function(){
+//          sendProgressButton('check');
+//        },
+//        error:function (){
+//          sendProgressButton('exclamation');
+//        }
+//      });
     }
   });
   var sendProgressButton = function(status){
