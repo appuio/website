@@ -1,5 +1,5 @@
 ;( function( window ) {
-  
+
   'use strict';
 
   // Collapse
@@ -64,8 +64,9 @@
         width: 0,
         style: 'position: absolute; left: -5000px;',
         tabindex: -1,
-      }).appendTo('body');
-      sendProgressButton('check');
+      }).appendTo('body').load(function(){
+        sendProgressButton('check');
+      });
 //        success:function(){
 //          sendProgressButton('check');
 //        },
