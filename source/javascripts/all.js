@@ -70,18 +70,10 @@
         sendProgressButton('check');
         var url = 'https://app.hatchbuck.com/TrackOnlineForm?sid=326172713212511452';
         if ($('#crmframe').attr('src') != url) {
-                $('#crmframe').attr('src',url);
+          // trying to manually do the redirect that was prevented with the sandboxing above
+          $('#crmframe').attr('src',url);
         }
-        // trying to manually do the redirect that was prevented with the sandboxing above
-
       });
-//        success:function(){
-//          sendProgressButton('check');
-//        },
-//        error:function (){
-//          sendProgressButton('exclamation');
-//        }
-//      });
     }
   });
   var sendProgressButton = function(status){
