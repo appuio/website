@@ -64,15 +64,15 @@
         width: 0,
         style: 'position: absolute; left: -5000px;',
         tabindex: -1,
-        sandbox: 'allow-forms allow-scripts allow-same-origin',
+//        sandbox: 'allow-forms allow-scripts allow-same-origin',
 //        the CRM redirects the main window (window.top) and uses that to track success. sandboxing the iframe prevents this, but also prevents the CRM to accept the submission :(
       }).appendTo('body').load(function(){
         sendProgressButton('check');
-        var url = 'https://app.hatchbuck.com/TrackOnlineForm?sid=326172713212511452';
-        if ($('#crmframe').attr('src') != url) {
-          // trying to manually do the redirect that was prevented with the sandboxing above
-          $('#crmframe').attr('src',url);
-        }
+//        var url = 'https://app.hatchbuck.com/TrackOnlineForm?sid=326172713212511452';
+//        if ($('#crmframe').attr('src') != url) {
+//          // trying to manually do the redirect that was prevented with the sandboxing above
+//          $('#crmframe').attr('src',url);
+//        }
       });
     }
   });
