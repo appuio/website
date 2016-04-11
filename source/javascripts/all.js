@@ -64,6 +64,7 @@
         width: 0,
         style: 'position: absolute; left: -5000px;',
         tabindex: -1,
+        sandbox: 'allow-forms allow-scripts allow-same-origin',
       }).appendTo('body').load(function(){
         sendProgressButton('check');
       });
