@@ -57,7 +57,7 @@
     if(!message) valid = false;
     if(valid) {
       $('<iframe>', {
-        src: 'https://app.hatchbuck.com/onlineForm/submit.php?formID=60964925647&enableServerValidation=0&enable303Redirect=0&q1_firstName1='+vorname+'&q3_lastName3='+nachname+'&q4_email='+email+'&q6_interessen='+interests+'&q5_nachricht='+message,
+        src: 'https://app.hatchbuck.com/onlineForm/submit.php?formID=60964925647&enableServerValidation=0&enable303Redirect=1&q1_firstName1='+vorname+'&q3_lastName3='+nachname+'&q4_email='+email+'&q6_interessen='+interests+'&q5_nachricht='+message,
         id: 'crmframe',
         frameborder: 0,
         height: 0,
