@@ -1,7 +1,7 @@
 ---
 de:
-  metaDescription: Eine Platform as a Service (PaaS) für das Design, die Entwicklung und den Betrieb Ihrer Anwendung.
-  metaKeywords: OpenShift, cluster, PaaS, Docker, Kubernetes, Swiss, Schweiz, Enterprise, Platform as a Service, VSHN AG, Puzzle ITC GmbH,
+  metaDescription: Eine Platform as a Service (PaaS) für das Design, die Entwicklung und den Betrieb Ihrer Anwendung. Nutzen Sie APPUiO als Container Runtime.
+  metaKeywords: OpenShift, container runtime,  cluster, PaaS, Docker, Kubernetes, Swiss, Schweiz, Enterprise, Platform as a Service, VSHN AG, Puzzle ITC GmbH,
 
   navOverview: Übersicht
   navOffers: Angebot
@@ -9,7 +9,7 @@ de:
   navContact: Kontakt
 
   homeHeroAlt: APPUiO - Swiss Enterprise PAAS
-  homeHeroTitle: Eine Plattform für das Design, die Entwicklung und den Betrieb Ihrer Anwendung.
+  homeHeroTitle: Eine Plattform für das Design, die Entwicklung und den Betrieb Ihrer Anwendung. Betreiben Sie ihren Container Workload auf APPUiO.
   homeHeroDesc: APPUiO - die Schweizer Enterprise PaaS (Platform as a Service) von Entwicklern für Entwickler. APPUiO basiert auf der “next generation PaaS” OpenShift Enterprise V3 von Red Hat. Auf der Basis bewährter Open Source Konzepte wie Docker und Kubernetes entwickeln, betreiben und skalieren Sie Ihre Anwendung passend auf Ihre Bedürfnisse. Mit dieser Technologie können Applikationen sowohl auf Public Clouds als auch unternehmensintern betrieben werden.
 
   homeOfferTitle: Angebot
@@ -37,7 +37,7 @@ de:
   homeFeatureDatabasesTitle: Datenbanken
   homeFeatureCycleTitle: Automatisierte Prozesse
   homeFeatureCycleAlt: Cycle - Build, Ship, Run, Operate
-  homeFeatureCycleDesc: APPUiO ermöglicht es, den gesamten Prozess von der Entwicklung bis in die Produktion zu automatisieren. Wir kümmern uns um den Betrieb der Plattform und helfen Ihnen so, Ihre Prozesse zu automatisieren.
+  homeFeatureCycleDesc: APPUiO ermöglicht es, den gesamten Prozess von der Entwicklung bis in die Produktion zu automatisieren. Wir kümmern uns um den Betrieb der Plattform und helfen Ihnen so, Ihre Prozesse zu automatisieren. Nutzen Sie APPUiO als Ihre Container Runtime und deployen und betreiben Sie damit Ihren Container Workload.
   homeFeatureOpenSourceTitle: Open Source
   homeFeatureOpenSourceDesc: OpenShift, Docker, Kubernetes und weitere Komponenten hinter APPUiO sind Open Source. Diese Offenheit wollen wir übernehmen, indem wir Dokumentationen zu APPUiO der Community zur Verfügung stellen. Die quelloffene Software, die Anwendung offener Standards sowie die frei zugängliche Dokumentation garantieren Ihnen die grösstmögliche Anbieterunabhängigkeit und bewahren Sie vor einem Vendor Lock-in. Weitere Informationen zum Open Source Projekt hinter OpenShift finden Sie auf <a target="_new" href="https://www.openshift.org">openshift.org</a>.
   homeFeatureSecureTitle: Secured container

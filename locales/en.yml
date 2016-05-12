@@ -1,7 +1,7 @@
 ---
 en:
-  metaDescription: Platform for design, development and operation of your application.
-  metaKeywords: openShift, cluster, PaaS, Docker, Kubernetes, Swiss, Switzerland, VSHN. Puzzle ITC GmbH, Platform as a Service
+  metaDescription: Platform for design, development and operation of your application. Use APPUiO as container runtime.
+  metaKeywords: openShift, container runtime, cluster, PaaS, Docker, Kubernetes, Swiss, Switzerland, VSHN. Puzzle ITC GmbH, Platform as a Service
   
   navOverview: Overview
   navOffers: Offer
@@ -9,7 +9,7 @@ en:
   navContact: Contact
 
   homeHeroAlt: APPUiO - Swiss Enterprise PAAS
-  homeHeroTitle: Platform for design, development and operation of your application.
+  homeHeroTitle: Platform for design, development and operation of your application. Use APPUiO as runtime for your container workload.
   homeHeroDesc: APPUiO – Swiss Enterprise PaaS from developers for developers. APPUiO, built on “next generation PaaS” Red Hat OpenShift Enterprise V3 technology. Based on reliable open source concepts like Docker and Kubernetes you will develop, operate and scale your application according to your needs. Compared to other PaaS-offerings, using this technology your applications can be operated on either public clouds or in your own on-premises datacentre.
 
   homeOfferTitle: Offer
@@ -37,7 +37,7 @@ en:
   homeFeatureDatabasesTitle: Databases
   homeFeatureCycleTitle: Automated processes
   homeFeatureCycleAlt: Cycle - Build, Ship, Run, Operate
-  homeFeatureCycleDesc: APPUiO enables you to automate the whole process – from development to production. We take care for the operation of the APPUiO platform and help you to automate your processes.
+  homeFeatureCycleDesc: APPUiO enables you to automate the whole process – from development to production. We take care for the operation of the APPUiO platform and help you to automate your processes. Use APPUiO as your container runtime for your entire container workload.
   homeFeatureOpenSourceTitle: OpenSource
   homeFeatureOpenSourceDesc: OpenShift, Docker, Kubernetes and more of the APPUiO components are open source. We want to adopt the openness by providing documentation on APPUiO to the community. Using open standards, open source software and the free availability of the APPUiO documentation guarantees the greatest possible freedom and protects you from any vendor lock-in. Please find more information to the open source OpenShift project here <a target="_new" href="https://www.openshift.org">openshift.org</a>.
   homeFeatureSecureTitle: Secured container
