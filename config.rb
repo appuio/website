@@ -35,6 +35,9 @@ configure :build do
   # Use relative URLs
   activate :relative_assets
 
+  # Activate built in LiveReload
+  activate :livereload
+
   activate :autoprefixer do |config|
     config.browsers = ['last 3 versions', 'Explorer >= 9']
   end
