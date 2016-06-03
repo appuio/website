@@ -1,6 +1,6 @@
 ---
 en:
-  metaDescription: Platform for design, development and operation of your application. Use APPUiO as container runtime.
+  metaDescription: Design, develop and operate your application with the APPUiO container runtime. Manage your container workload with APPUiO.
   metaKeywords: openShift, container runtime, cluster, PaaS, Docker, Kubernetes, Swiss, Switzerland, VSHN. Puzzle ITC GmbH, Platform as a Service
 
   navOverview: Overview
@@ -9,43 +9,43 @@ en:
   navContact: Contact
 
   homeHeroAlt: APPUiO - Swiss Enterprise PAAS
-  homeHeroTitle: Platform for design, development and operation of your application. Use APPUiO as runtime for your container workload.
-  homeHeroDesc: APPUiO – Swiss Enterprise PaaS from developers for developers. APPUiO, built on “next generation PaaS” Red Hat OpenShift Enterprise V3 technology. Based on reliable open source concepts like Docker and Kubernetes you will develop, operate and scale your application according to your needs. Compared to other PaaS-offerings, using this technology your applications can be operated on either public clouds or in your own on-premises datacentre.
+  homeHeroTitle: Design, develop and operate your application with the APPUiO container runtime. Manage your container workload with APPUiO.
+  homeHeroDesc: APPUiO – Swiss Enterprise PaaS. Made by developers for developers. APPUiO builds upon Red Hat OpenShift Enterprise V3 the “next generation PaaS”. Reliable open source concepts like Docker and Kubernetes allow you to develop, operate and scale your application according to your needs. Operate your applications on the public cloud or in your own on-premise datacentre.
 
   homeOfferTitle: Offer
   homeOfferOneTitle: Managed Private PaaS
-  homeOfferOneDesc: You want to use your own private APPUiO instance, running on our infrastructure? We deploy and operate your installation according your specific requirements.
+  homeOfferOneDesc: We will host and manage your own private APPUiO instance inside our infrastructure. Your installation is deployed and operated according to your specific requirements.
   homeOfferOneButton: Get my private APPUiO
   homeOfferTwoTitle: Public PaaS
-  homeOfferTwoDesc: BETA program – signup to the APPUiO beta program for free and become part of the community! The beta program started in March 2016.
+  homeOfferTwoDesc: BETA program – signup for the free APPUiO beta program and become part of the community!
   homeOfferTwoButton: Join the community
   homeOfferThreeTitle: On premise PaaS
-  homeOfferThreeDesc: Your PaaS in your own datacentre, perfectly integrated in your own infrastructure. We will walk you through the process, starting with your idea, realization and if desired even operate your PaaS for you.
+  homeOfferThreeDesc: Your PaaS in your own datacentre, perfectly integrated in your infrastructure. We will support you through the whole process, starting with your idea until the platform is fully functional.  If desired we can even operate your PaaS for you.
   homeOfferThreeButton: Cloud engineering
   homeOfferDesc: All APPUiO public PaaS offerings will be held and operated in ISO27001-certified and FINMA-audited datacentres inside Switzerland and according Swiss law.
 
   homeFeatureTitle: Features
   homeFeatureDesc: OpenShift Enterprise (OSE) V3 is the PaaS from Red Hat, the open source market leader. OSE V3 uses state-of-the-art open source concepts like Docker container and Kubernetes.
   homeFeatureDockerTitle: Docker
-  homeFeatureDockerDesc: Docker is the open source platform for developers, sysadmins and their applications. Choose your Docker-image according your needs and technology you want to use and after every built, OpenShift will automatically create a new Docker-container and even deploy it if you want.
+  homeFeatureDockerDesc: Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications. Choose your Docker-image according to your needs and technology that you want to use. OpenShift will automatically create an updated Docker-container after every build and even deploy it if you want.
   homeFeatureKubernetesTitle: Kubernetes
-  homeFeatureKubernetesDesc: Orchestrate and manage your container with Kubernetes from Google. You define how many of your application instances shall run in parallel and Kubernetes takes care for scaling, load balancing and stability.
+  homeFeatureKubernetesDesc: Orchestrate and manage your containers with Kubernetes from Google. You define how many of your application instances shall run in parallel and Kubernetes takes care of scaling, load balancing and stability.
   homeFeatureOnDemandTitle: On-Demand development and runtime environment
   homeFeatureOnDemandAlt: One container that holds all the technologies
-  homeFeatureOnDemandDesc: APPUiO enables you to deploy new environments with just a few clicks. There are many different technologies and platforms available just "out of the box". Here you will find a few samples.
+  homeFeatureOnDemandDesc: APPUiO enables the deployment of new environments with just a few clicks. There are many different technologies and platforms available "out of the box". A few examples are listed below.
   homeFeatureLanguagesTitle: Platforms
   homeFeatureDatabasesTitle: Databases
   homeFeatureCycleTitle: Automated processes
   homeFeatureCycleAlt: Cycle - Build, Ship, Run, Operate
-  homeFeatureCycleDesc: APPUiO enables you to automate the whole process – from development to production. We take care for the operation of the APPUiO platform and help you to automate your processes. Use APPUiO as your container runtime for your entire container workload.
+  homeFeatureCycleDesc: APPUiO enables you to automate the whole process – from development to production. We manage the operation of the APPUiO platform and help you automate your processes. Use APPUiO as your container runtime for your entire container workload.
   homeFeatureOpenSourceTitle: OpenSource
-  homeFeatureOpenSourceDesc: OpenShift, Docker, Kubernetes and more of the APPUiO components are open source. We want to adopt the openness by providing documentation on APPUiO to the community. Using open standards, open source software and the free availability of the APPUiO documentation guarantees the greatest possible freedom and protects you from any vendor lock-in. Please find more information to the open source OpenShift project here <a target="_new" href="https://www.openshift.org">openshift.org</a>.
+  homeFeatureOpenSourceDesc: OpenShift, Docker, Kubernetes and other APPUiO components are open source. We want to be as open as possible, by providing documentation for APPUiO to the community. Open source software that use open standards and the free availability of the APPUiO documentation guarantees the greatest possible freedom and protects you from any vendor lock-in. More information about the open source OpenShift project is available at <a target="_new" href="https://www.openshift.org">openshift.org</a>.
   homeFeatureSecureTitle: Secured container
-  homeFeatureSecureDesc: Secure platform thanks to Red Hat’s Enterprise SELinux. Data protection according Swiss law in ISO27001-certified and FINMA-audited datacentres.
+  homeFeatureSecureDesc: Openshift provides a secure platform thanks to Red Hat’s Enterprise SELinux. Data protection according Swiss law in ISO27001-certified and FINMA-audited datacentres.
   homeFeatureSecureAlt: Safe container with a swiss éàlkja locker
 
   homeContactTitle: Contact
-  homeContactDesc: We’d love to get in touch with you! Please let us know how we can reach out for you. We’ll keep all your data private and will never share with third parties.
+  homeContactDesc: We’d love to get in touch with you! Please let us know how we can contact you. Your data will be kept private and never be shared with third parties.
   homeContactSubject: I’m interested in…
   homeContactSubjectOne: Managed Private PaaS
   homeContactSubjectTwo: attending beta test
@@ -61,5 +61,5 @@ en:
   homeContactYourMessageTitle: message
   homeContactSend: send
 
-  mailGotAMessage: We just recieve a message from APPUiO.ch!
+  mailGotAMessage: We just recieved a message from APPUiO.ch!
   mailSubject: I'm interested in 
