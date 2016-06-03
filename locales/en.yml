@@ -2,7 +2,7 @@
 en:
   metaDescription: Platform for design, development and operation of your application. Use APPUiO as container runtime.
   metaKeywords: openShift, container runtime, cluster, PaaS, Docker, Kubernetes, Swiss, Switzerland, VSHN. Puzzle ITC GmbH, Platform as a Service
-  
+
   navOverview: Overview
   navOffers: Offer
   navFeatures: Features
@@ -17,7 +17,7 @@ en:
   homeOfferOneDesc: You want to use your own private APPUiO instance, running on our infrastructure? We deploy and operate your installation according your specific requirements.
   homeOfferOneButton: Get my private APPUiO
   homeOfferTwoTitle: Public PaaS
-  homeOfferTwoDesc: BETA program – signup to the APPUiO beta program for free and become part of the community! The beta program will start in March 2016.
+  homeOfferTwoDesc: BETA program – signup to the APPUiO beta program for free and become part of the community! The beta program started in March 2016.
   homeOfferTwoButton: Join the community
   homeOfferThreeTitle: On premise PaaS
   homeOfferThreeDesc: Your PaaS in your own datacentre, perfectly integrated in your own infrastructure. We will walk you through the process, starting with your idea, realization and if desired even operate your PaaS for you.
