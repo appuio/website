@@ -23,14 +23,14 @@ category: Layout
   & + * {
     margin-top: rem-calc(50);
     @include susy-breakpoint($break-medium) {
-      margin-top: rem-calc(40);
+      margin-top: rem-calc(75);
     }
   }
 }
 .header-logo {
   text-align: center;
   margin-top: rem-calc(48);
-  
+
   @include susy-breakpoint($break-medium) {
     float: left;
     margin-top: 0;

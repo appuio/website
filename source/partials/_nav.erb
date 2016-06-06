@@ -1,18 +1,23 @@
 <nav id="nav-header" class="header-nav nav-header" role="navigation">
   <a href="#" class="nav-toggle-menu" data-collapse="nav-header"><%= evil_icon 'ei-navicon' %></a>
   <a href="#" class="nav-toggle-close" data-collapse="nav-header"><%= evil_icon 'ei-close' %></a>
+  <ul class="nav-global is-horizontal">
+    <li><a href="http://docs.appuio.ch"><%= t(:navGlobalDocs) %></a></li>
+    <li><a href="faq.html"><%= t(:navGlobalFAQ) %></a></li>
+    <li><a href="http://forum.appuio.ch"><%= t(:navGlobalForum) %></a></li>
+  </ul>
   <ul class="nav-main is-horizontal">
     <li>
-      <a href="#overview"><%= t(:navOverview) %></a>
+      <a href="./#overview"><%= t(:navOverview) %></a>
     </li>
     <li>
-      <a href="#offer"><%= t(:navOffers) %></a>
+      <a href="./#offer"><%= t(:navOffers) %></a>
     </li>
     <li>
-      <a href="#features"><%= t(:navFeatures) %></a>
+      <a href="./#features"><%= t(:navFeatures) %></a>
     </li>
     <li>
-      <a href="#contact"><%= t(:navContact) %></a>
+      <a href="./#contact"><%= t(:navContact) %></a>
     </li>
   </ul>
   <ul class="nav-lang">
