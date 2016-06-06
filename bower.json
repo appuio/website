@@ -1,6 +1,6 @@
 {
   "name": "APPUiO",
-  "homepage": "https://github.com/appuio/website",
+  "homepage": "http://appuio.com/",
   "authors": [
     "Joshua Schär <schaer@puzzle.ch>"
   ],
@@ -13,5 +13,8 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "devDependencies": {
+    "fullpage.js": "^2.8.1"
+  }
 }
