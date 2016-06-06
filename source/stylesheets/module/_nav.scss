@@ -62,6 +62,22 @@ Responsive hotizontal menu.
     padding: 0;
   }
 }
+
+.nav-global {
+  position:relative;
+  @include susy-breakpoint($break-medium) {
+    width:100%;
+  }
+}
+
+.nav-main,
+.nav-lang {
+  position:relative;
+  @include susy-breakpoint($break-medium) {
+    width:50%;
+  }
+}
+
 .no-flexbox {
   .nav-lang,
   .nav-main,
@@ -71,10 +87,25 @@ Responsive hotizontal menu.
       display: inline-block;
     }
   }
-  .nav-main {
+  .nav-main,
+  .nav-global {
+    position:relative;
     @include susy-breakpoint($break-medium) {
-      float: right;
+      float: left;
     }
+  }
+}
+.nav-global > li {
+  & > a {
+    display: block;
+    color:#B2E6EC;
+    padding:rem-calc(10 20);
+    font-size:rem-calc(13);
+    text-decoration: none;
+  }
+  & > a:hover {
+    text-decoration:underline;
+    color:#002F47;
   }
 }
 .nav-lang > li,
@@ -104,7 +135,7 @@ Responsive hotizontal menu.
 }
 .nav-main {
   @include susy-breakpoint($break-medium) {
-    order: 2;
+    order: 1;
   }
 }
 .nav-lang {
@@ -113,7 +144,7 @@ Responsive hotizontal menu.
   flex-flow: row wrap;
   padding: 0;
   @include susy-breakpoint($break-medium) {
-    order: 1;
+    order: 3;
   }
 }
 .nav-toggle-menu,
@@ -133,3 +164,24 @@ Responsive hotizontal menu.
     display: none !important;
   }
 }
+
+// Code for Submenu, if necessary in future
+//.nav-main > li > ul {
+//  display: none;
+//}
+//
+//.nav-main > li:hover > ul {
+//  display:block;
+//}
+//
+//.nav-main li > ul > li > a {
+//  position: relative;
+//  text-align: left;
+//  background: transparent;
+//  padding: rem-calc(10);
+//  color: white;
+//  line-height: rem-calc(10);
+//  text-decoration: none;
+//  list-style-type: none;
+//  transition: background-color 200ms ease, color 200ms ease;
+//}

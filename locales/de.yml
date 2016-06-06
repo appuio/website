@@ -3,10 +3,18 @@ de:
   metaDescription: Eine Platform as a Service (PaaS) für das Design, die Entwicklung und den Betrieb Ihrer Anwendung. Nutzen Sie APPUiO als Container Runtime.
   metaKeywords: OpenShift, container runtime,  cluster, PaaS, Docker, Kubernetes, Swiss, Schweiz, Enterprise, Platform as a Service, VSHN AG, Puzzle ITC GmbH,
 
+  navGlobalDocs: Docs
+  navGlobalFAQ: FAQ
+  navGlobalForum: Forum
+
   navOverview: Übersicht
   navOffers: Angebot
+  navOffer1: Offer 1
+  navOffer2: Offer 2
+  navOffer3: Offer 3
   navFeatures: Features
   navContact: Kontakt
+  navFAQ: FAQ
 
   homeHeroAlt: APPUiO - Swiss Enterprise PAAS
   homeHeroTitle: Eine Plattform für das Design, die Entwicklung und den Betrieb Ihrer Anwendung. Betreiben Sie ihren Container Workload auf APPUiO.
@@ -15,13 +23,13 @@ de:
   homeOfferTitle: Angebot
   homeOfferOneTitle: Managed Private PaaS
   homeOfferOneDesc: Sie wollen eine eigene private APPUiO Instanz nutzen, die auf unserer Infrastruktur läuft? Wir deployen und betreiben die auf Ihre Bedürfnisse massgeschneiderte Lösung.
-  homeOfferOneButton: Get my private APPUiO
+  homeOfferOneButton: Details
   homeOfferTwoTitle: Public PaaS
   homeOfferTwoDesc: BETA - Melden Sie sich gratis für das APPUiO-Betaprogramm an und werden Sie Teil der Community. Das Betaprogramm startet im März 2016.
-  homeOfferTwoButton: Join the community
+  homeOfferTwoButton: Details
   homeOfferThreeTitle: On premise PaaS
   homeOfferThreeDesc: Ihre PaaS in Ihrem Rechenzentrum, optimal integriert in Ihre Infrastruktur. Wir begleiten Sie von der Idee über die Umsetzung und falls gewünscht bis zum Betrieb.
-  homeOfferThreeButton: Cloud engineering
+  homeOfferThreeButton: Details
   homeOfferDesc: Unser APPUiO Public PaaS Angebot wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
 
   homeFeatureTitle: Features

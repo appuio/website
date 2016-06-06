@@ -45,7 +45,7 @@ $color-secondary: #418D4B;
 
 // Module
 // ----------------------------------------------
-// Modules are the reusable, modular parts of our design. They are the callouts, the buttons, 
+// Modules are the reusable, modular parts of our design. They are the callouts, the buttons,
 // the products and so on. (Micro elements)
 //
 // /* Example module: Product */
@@ -66,6 +66,7 @@ $color-secondary: #418D4B;
 @import 'module/interest';
 @import 'module/nav';
 @import 'module/partner';
+@import 'module/ribbon';
 
 
 // Layout

@@ -1,0 +1,33 @@
+.ribbon-fixed {
+  position:fixed;
+}
+.ribbon-container {
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    pointer-events: none;
+}
+.ribbon {
+    position: absolute;
+    top: 42px;
+    right: -43px;
+    transform: rotate(45deg);
+    padding: 2px 0;
+    background-color: #98E2EA;
+    z-index: 9999;
+    pointer-events: auto;
+}
+.ribbon a {
+  display: inline-block;
+width: 200px;
+padding: 2px 0;
+color: #002F47;
+font-size: 0.875em;
+line-height: 1.71429em;
+text-align: center;
+text-decoration: none;
+}
