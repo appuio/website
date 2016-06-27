@@ -48,15 +48,15 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  
+
 }
 
 h5, .h5 {
-  
+
 }
 
 h6, .h6 {
-  
+
 }
 
 // Links
@@ -77,17 +77,17 @@ The HTML `<a>` Element (or the HTML Anchor Element) defines a hyperlink, the nam
 */
 
 a {
-  color: darken($color-secondary, 5%);
-  
+  color: darken($color-lightblue, 5%);
+
   &:hover,
   &:active {
-    color: $color-primary;
+    color: $color-blue;
   }
   &:visited {
 
   }
   &:focus {
-    
+
   }
 }
 
@@ -103,5 +103,5 @@ p {
 // Horizontal lines
 // ----------------------------------------------
 hr {
-  
+
 }
