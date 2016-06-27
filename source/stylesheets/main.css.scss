@@ -28,8 +28,11 @@ $break-small: 20em, 4;
 $break-medium: 40em, 8;
 $break-large: 60em, 12;
 
-$color-primary: #9EAF56;
-$color-secondary: #418D4B;
+$color-blue: #002F47;
+$color-lightblue: #00AEC1;
+$color-yellow: #FFD301;
+$color-grey: #E5EAED;
+$color-darkgrey: #99ABB5;
 
 // Base
 // ----------------------------------------------
@@ -67,6 +70,7 @@ $color-secondary: #418D4B;
 @import 'module/nav';
 @import 'module/partner';
 @import 'module/ribbon';
+@import 'module/fullPage';
 
 
 // Layout

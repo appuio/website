@@ -40,6 +40,31 @@
     if(areChecked.length <= 0) $('#interest-info').prop("checked", true);
   });
 
+  // Section-Slider of fullpage.js
+  $('#fullpage').fullpage({
+    anchors: ['offers'],
+    sectionsColor: ['#98E2EA'],
+    slidesNavigation: true,
+    //scrolling
+    // fitToSection: false,
+    autoScrolling: false,
+    loopBottom: false,
+    loopTop: false,
+    loopHorizontal: false,
+    // continuousVertical: false
+    //Design
+    // controlArrows: true,
+    // verticalCentered: true,
+    // paddingTop: '3em',
+    // paddingBottom: '50px',
+    fixedElements: '.header-container',
+    responsiveWidth: 480
+    // responsiveHeight: 0,
+    //Custom selectors
+    // sectionSelector: '.section',
+    slideSelector: '.slide2',  
+  });
+
   // Mail
   $( "#contact-form" ).submit(function( event ) {
     event.preventDefault();

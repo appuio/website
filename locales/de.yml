@@ -69,5 +69,12 @@ de:
   homeContactYourMessageTitle: Ihre Nachricht?
   homeContactSend: Absenden
 
+  offerOneTitle: offerManagedPrivatePaasTitle
+  offerOneDesc: offerManagedPrivatePaasDesc
+  offerTwoTitle: offerPublicPaasTitle
+  offerTwoDesc: offerPublicPaasDesc
+  offerThreeTitle: offerOnpremisePaasTitle
+  offerThreeDesc: offerOnpremisePaasDesc
+
   mailGotAMessage: We just recieve a message from APPUiO.ch!
   mailSubject: Ich interessiere mich für
