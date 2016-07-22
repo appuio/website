@@ -43,6 +43,7 @@
   // Section-Slider of fullpage.js
   $('#fullpage').fullpage({
     //Navigation
+    css3: true,
     anchors: ['offers'],
     sectionsColor: ['#fff'],
     slidesNavigation: true,
@@ -53,13 +54,14 @@
     loopBottom: false,
     loopTop: false,
     loopHorizontal: false,
-    // continuousVertical: false
+    // continuousVertical: false,
+    scrollOverflow: true,
 
     //Design
     // controlArrows: true,
     // verticalCentered: true,
-    // paddingTop: '3em',
-    // paddingBottom: '50px',
+    // paddingTop: '4.750em',
+    paddingBottom: '3em',
     fixedElements: '.header-container'
     // responsiveWidth: 480,
     // responsiveHeight: 0,
