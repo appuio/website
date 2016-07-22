@@ -30,7 +30,7 @@ Responsive hotizontal menu.
   transition: all 300ms ease;
   margin: rem-calc(0 -20);
   &.is-expanded {
-    height: rem-calc(350);
+    height: rem-calc(460);
   }
   .nav-toggle-close {
     display: none;
@@ -40,6 +40,13 @@ Responsive hotizontal menu.
   }
   &.is-expanded .nav-toggle-menu {
     display: none;
+  }
+}
+
+.nav-global {
+  &.is-expanded {
+    display: flex;
+    flex-flow: row wrap;
   }
 }
 .nav-header,
@@ -57,24 +64,47 @@ Responsive hotizontal menu.
   @include reset-list;
   display: flex;
   flex-flow: column wrap;
+  align-items: flex-start;
   @include susy-breakpoint($break-medium) {
     flex-flow: row wrap;
     padding: 0;
+    align-items: flex-end;
   }
 }
-
+.nav-main {
+  position:relative;
+  order: 1;
+  @include susy-breakpoint($break-medium) {
+    width:60%;
+    order: 1;
+  }
+  @include susy-breakpoint($break-large) {
+    width:50%;
+    order: 1;
+  }
+}
 .nav-global {
   position:relative;
+  width: 100%;
+  order: 3;
   @include susy-breakpoint($break-medium) {
-    width:100%;
+    //width:40%;
+    order: 3;
+  }
+  @include susy-breakpoint($break-large) {
+    //width: 30%;
+    order: 3;
   }
 }
-
-.nav-main,
 .nav-lang {
   position:relative;
+  width: 40%;
+  order: 2;
   @include susy-breakpoint($break-medium) {
-    width:50%;
+    width:30%;
+  }
+  @include susy-breakpoint($break-large) {
+    width:20%;
   }
 }
 
@@ -133,18 +163,12 @@ Responsive hotizontal menu.
     color: #002F47;
   }
 }
-.nav-main {
-  @include susy-breakpoint($break-medium) {
-    order: 1;
-  }
-}
 .nav-lang {
   @include reset-list;
   display: flex;
   flex-flow: row wrap;
   padding: 0;
   @include susy-breakpoint($break-medium) {
-    order: 3;
   }
 }
 .nav-toggle-menu,
