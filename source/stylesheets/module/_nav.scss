@@ -76,35 +76,37 @@ Responsive hotizontal menu.
   order: 1;
   @include susy-breakpoint($break-medium) {
     width:60%;
-    order: 1;
+    order: 2;
   }
   @include susy-breakpoint($break-large) {
     width:50%;
-    order: 1;
+    order: 2;
   }
 }
 .nav-global {
   position:relative;
   width: 100%;
-  order: 3;
+  order: 1;
   @include susy-breakpoint($break-medium) {
     //width:40%;
-    order: 3;
+    order: 1;
   }
   @include susy-breakpoint($break-large) {
     //width: 30%;
-    order: 3;
+    order: 1;
   }
 }
 .nav-lang {
   position:relative;
   width: 40%;
-  order: 2;
+  order: 3;
   @include susy-breakpoint($break-medium) {
     width:30%;
+    order: 3;
   }
   @include susy-breakpoint($break-large) {
     width:20%;
+    order: 3;
   }
 }
 
