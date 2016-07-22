@@ -1,0 +1,110 @@
+.offers-container {
+  display: flex;
+  flex-flow: row wrap;
+  clear: both;
+}
+//.offers-title {
+//  @include susy-breakpoint($break-medium) {
+//    @include span(10 of 12);
+//    @include squish(1,1);
+//  }
+//}
+//.offers-intro {
+//  @include susy-breakpoint($break-medium) {
+//    @include span(10 of 12);
+//    @include squish(1,1);
+//  }
+//}
+.offers-desc,
+.offers-package-desc,
+.offers-intro,
+.offers-title {
+  @include susy-breakpoint($break-medium) {
+    @include span(10 of 12);
+    @include squish(1,1);
+  }
+}
+.offers-group {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  justify-content: space-around;
+  @include susy-breakpoint($break-medium) {
+    @include span(12 of 12);
+    @include squish(1,1);
+    &:last-child {
+      @include last;
+    }
+  }
+  &.has-one-col .offers-item {
+    flex: 1 100%;
+  }
+  &.has-two-col .offers-item {
+    flex: 1 50%;
+  }
+  &.has-three-col .offers-item {
+    flex: 1 33%;
+  }
+}
+
+.offers-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex: 1;
+  width: rem-calc(20);
+  padding: rem-calc(12 6);
+  background: #002F47;
+  color: white;
+  border: 2px solid white;
+  box-sizing: border-box;
+  border-radius: 1px;
+
+  &.is-empty {
+    background: transparent;
+  }
+  &.is-orange {
+    color: #000;
+    background: #FF931E;
+  }
+  &.is-turkis {
+    color: #000;
+    background: #15B0BF;
+  }
+  &.is-turkislight {
+    color: #000;
+    background: #B2E6EC;
+  }
+  &.is-yellow {
+    color: #000;
+    background: #FFD301;
+  }
+}
+
+.offers-package-container {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  align-items: stretch;
+}
+.offers-package {
+  text-align: center;
+  padding: rem-calc(16);
+  background-color: $color-lightblue;
+  color: white;
+  margin-left: rem-calc(32);
+}
+
+.offers-package-list {
+  padding: 0;
+  & li {
+    list-style-type: none;
+  }
+}
+.offers-package-item {
+  background-color: $color-yellow;
+  color: $color-blue;
+  padding: rem-calc(8);
+  margin-bottom: rem-calc(8);
+}
