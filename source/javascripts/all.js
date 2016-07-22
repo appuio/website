@@ -42,27 +42,31 @@
 
   // Section-Slider of fullpage.js
   $('#fullpage').fullpage({
+    //Navigation
     anchors: ['offers'],
-    sectionsColor: ['#98E2EA'],
+    sectionsColor: ['#fff'],
     slidesNavigation: true,
+
     //scrolling
-    // fitToSection: false,
+    fitToSection: false,
     autoScrolling: false,
     loopBottom: false,
     loopTop: false,
     loopHorizontal: false,
     // continuousVertical: false
+
     //Design
     // controlArrows: true,
     // verticalCentered: true,
     // paddingTop: '3em',
     // paddingBottom: '50px',
-    fixedElements: '.header-container',
-    responsiveWidth: 480
+    fixedElements: '.header-container'
+    // responsiveWidth: 480,
     // responsiveHeight: 0,
+
     //Custom selectors
     // sectionSelector: '.section',
-    slideSelector: '.slide2',  
+    // slideSelector: '.slide2'
   });
 
   // Mail
