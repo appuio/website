@@ -110,6 +110,42 @@
       });
     }
   });
+
+  $( "#offer-three-contact-form" ).submit(function( event ) {
+    event.preventDefault();
+    var valid = true;
+    var vorname = $("[name='vorname']").val();
+    var nachname = $("[name='nachname']").val();
+    var email = $("[name='email']").val();
+    var phone = $("[name='phone']").val();
+    var message = $("[name='message']").val();
+    if(!vorname) valid = false;
+    if(!nachname) valid = false;
+    if(!email || !email.match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) valid = false;
+    if(!phone) valid = false;
+    if(!message) valid = false;
+    if(valid) {
+      $('<iframe>', {
+        src: 'https://app.hatchbuck.com/onlineForm/submit.php?formID=60964925647&enableServerValidation=0&enable303Redirect=1&q1_firstName1='+vorname+'&q3_lastName3='+nachname+'&q4_email='+email+'&q6_interessen='+interests+'&q5_nachricht='+message,
+        id: 'crmframe',
+        frameborder: 0,
+        height: 0,
+        width: 0,
+        style: 'position: absolute; left: -5000px;',
+        tabindex: -1,
+//        sandbox: 'allow-forms allow-scripts allow-same-origin',
+//        the CRM redirects the main window (window.top) and uses that to track success. sandboxing the iframe prevents this, but also prevents the CRM to accept the submission :(
+      }).appendTo('body').load(function(){
+        sendProgressButton('check');
+//        var url = 'https://app.hatchbuck.com/TrackOnlineForm?sid=326172713212511452';
+//        if ($('#crmframe').attr('src') != url) {
+//          // trying to manually do the redirect that was prevented with the sandboxing above
+//          $('#crmframe').attr('src',url);
+//        }
+      });
+    }
+  });
+
   var sendProgressButton = function(status){
     $(".home-contact-button").addClass("is-loading")
     $(".home-contact-button").delay(2000).queue(function() {

@@ -1,72 +1,72 @@
-<div class="offers-container">
-  <h1 class="offers-title"><%= t(:offerOneTitle) %></h1>
-  <p class="offers-intro"><%= t(:offerOneIntro) %></p>
+<section class="offer-one">
+  <div class="grid-container">
+    <h2 class="offers-title"><%= t(:offerOneTitle) %></h2>
+    <p class="offers-intro"><%= t(:offerOneIntro) %></p>
 
-  <div class="offers-group">
-    <ul>
-      <li>Basis für DevOps </li>
-      <li>Small - Medium - Large: Auf Sie zugeschnittene Angebote</li>
-      <li>09:00 - 18:00 Telefon + Email support</li>
-      <li>Proaktives Alarming Monitoring </li>
-      <li>Update und Servermanagement</li>
-      <li>Datenstandort Interxion Schweiz</li>
-      <li>Backup an einen zweiten Standort</li>
-    </ul>
-    <!-- <article class="offers-item is-turkislight">Basis für DevOps</article>
-    <article class="offers-item is-turkislight">Professioneller Partner für Backup, Monitoring, Updates und 7x24 Support</article>
-    <article class="offers-item is-turkislight">Small - Medium - Large: Auf Sie zugeschnittene Angebote</article> -->
-  </div>
-  <p class="offers-services-desc"><%= t(:offerOneServicesDesc) %></p>
+    <div class="offers-container">
+      <div class="offers-bulletpoints">
+        <ul>
+          <li>Basis für DevOps</li>
+          <li>Small - Medium - Large: Auf Sie zugeschnittene Angebote</li>
+          <li>09:00 - 18:00 Telefon + Email support</li>
+          <li>Proaktives Alarming Monitoring </li>
+          <li>Update und Servermanagement</li>
+          <li>Datenstandort Interxion Schweiz</li>
+          <li>Backup an einen zweiten Standort</li>
+        </ul>
+      </div>
+    </div>
 
-  <h3><%= t(:offerOneServiceTitle) %></h3>
-  <div class="offers-group">
-    <article class="offers-item is-turkislight">Consulting Setup und Initialisierung</article>
-    <article class="offers-item is-turkislight">Bring my App to the Cloud - wir beraten und setzen auch um</article>
-    <article class="offers-item is-turkislight">Automatisierung Ihrer Prozesse: Continuos Delivery und Continuous Deployment Ihrer Applikationen</article>
+    <p class="offers-services-desc"><%= t(:offerOneServicesDesc) %></p>
+
+    <h3><%= t(:offerOneServiceTitle) %></h3>
+    <div class="offers-container">
+      <article class="offers-item is-turkislight">Consulting Setup und Initialisierung</article>
+      <article class="offers-item is-turkislight">Bring my App to the Cloud - wir beraten und setzen auch um</article>
+      <article class="offers-item is-turkislight">Automatisierung Ihrer Prozesse: Continuos Delivery und Continuous Deployment Ihrer Applikationen</article>
+    </div>
+
+    <h3 class="offers-package-title">Wählen Sie das für Ihre Bedürfnisse passende Paket:</h3>
+
+    <div class="offers-package-container">
+      <article class="offers-package is-third">
+        <h3 class="offers-package-list-title">Small</h3>
+        <ul class="offers-package-list">
+          <li class="offers-package-item">1 Master (je 4GB Ram, 2vCores)</li>
+          <li class="offers-package-item">2 Nodes(je 16 GB Ram, 6VCores, 100 GB Docker Storage)</li>
+          <li class="offers-package-item">200 GB Persistent Storage</li>
+        </ul>
+      </article>
+      <article class="offers-package is-third">
+        <h3 class="offers-package-list-title">Medium</h3>
+        <ul class="offers-package-list">
+          <li class="offers-package-item">3 Master (je 4GB Ram, 2vCores)</li>
+          <li class="offers-package-item">4 Nodes (je 16 GB Ram, 6VCores, 100 GB Docker Storage)</li>
+          <li class="offers-package-item">500 GB Persistent Storage</li>
+        </ul>
+      </article>
+      <article class="offers-package is-third">
+        <h3 class="offers-package-list-title">Large</h3>
+        <ul class="offers-package-list">
+          <li class="offers-package-item">3 Master (je 4GB Ram, 2vCores)</li>
+          <li class="offers-package-item">8 Nodes (je 16 GB Ram, 6VCores, 100 GB Docker Storage)</li>
+          <li class="offers-package-item">1 TB Persistent Storage</li>
+        </ul>
+      </article>
+      <article class="offers-package">
+        <h3 class="offers-package-list-title">Add Ons</h3>
+        <p class="offers-package-pretext">Auf Anfrage</p>
+        <ul class="offers-package-list">
+          <li class="offers-package-item">SLA 7*24 Reaktiv</li>
+          <li class="offers-package-item">SLA 7*24 Proaktiv</li>
+          <li class="offers-package-item">Backup, erweitert, Backup der Datenbanken Pods</li>
+          <li class="offers-package-item">Monitoring, Applikationsmonitoring und -alarming, pro 5 Applikationen</li>
+          <li class="offers-package-item">JBoss Middleware Subscriptions</li>
+          <li class="offers-package-item">Zusätzliche Nodes</li>
+          <li class="offers-package-item">Zusätzliche Storage</li>
+        </ul>
+      </article>
+    </div>
   </div>
 
-  <h3 class="offers-package-title">Wählen Sie das für Ihre Bedürfnisse passende Paket:</h3>
-
-  <div class="offers-package-container">
-    <article class="offers-package">
-      <h3 class="offers-package-list-title">Small</h3>
-      <ul class="offers-package-list">
-        <li class="offers-package-item">1 Master (je 4GB Ram, 2vCores)</li>
-        <li class="offers-package-item">2 Nodes(je 16 GB Ram, 6VCores, 100 GB Docker Storage)</li>
-        <li class="offers-package-item">200 GB Persistent Storage</li>
-      </ul>
-    </article>
-    <article class="offers-package">
-      <h3 class="offers-package-list-title">Medium</h3>
-      <ul class="offers-package-list">
-        <li class="offers-package-item">3 Master (je 4GB Ram, 2vCores)</li>
-        <li class="offers-package-item">4 Nodes (je 16 GB Ram, 6VCores, 100 GB Docker Storage)</li>
-        <li class="offers-package-item">500 GB Persistent Storage</li>
-      </ul>
-    </article>
-    <article class="offers-package">
-      <h3 class="offers-package-list-title">Large</h3>
-      <ul class="offers-package-list">
-        <li class="offers-package-item">3 Master (je 4GB Ram, 2vCores)</li>
-        <li class="offers-package-item">8 Nodes (je 16 GB Ram, 6VCores, 100 GB Docker Storage)</li>
-        <li class="offers-package-item">1 TB Persistent Storage</li>
-      </ul>
-    </article>
-  </div>
-  <div class="offers-package-container stretch">
-    <article class="offers-package">
-      <h3 class="offers-package-list-title">Add Ons</h3>
-      <p class="offers-package-pretext">Auf Anfrage</p>
-      <ul class="offers-package-list">
-        <li class="offers-package-item">SLA 7*24 Reaktiv</li>
-        <li class="offers-package-item">SLA 7*24 Proaktiv</li>
-        <li class="offers-package-item">Backup, erweitert, Backup der Datenbanken Pods</li>
-        <li class="offers-package-item">Monitoring, Applikationsmonitoring und -alarming, pro 5 Applikationen</li>
-        <li class="offers-package-item">JBoss Middleware Subscriptions</li>
-        <li class="offers-package-item">Zusätzliche Nodes</li>
-        <li class="offers-package-item">Zusätzliche Storage</li>
-      </ul>
-    </article>
-  </div>
-  <p class="offers-package-addon"></p>
-</div>
+</section>

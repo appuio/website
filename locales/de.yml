@@ -86,14 +86,22 @@ de:
   offerContactOneLarge: Large
 
 # Public Private PaaS
-  offerTwoTitle: offerPublicPaasTitle
-  offerTwoDesc: offerPublicPaasDesc
-  offerTwoIntro: offerOneIntro
-  offerTwoServicesDesc: offerTwoServicesDesc
+  offerTwoTitle: Public PaaS
+  offerTwoIntro: Sie brauchen kurzfristig standardisierte Entwicklungsressourcen oder möchten Ihre produktive Applikation bei Bedarf skalieren?
+  offerTwoServicesDesc: Ihre APPUiO Managed Private PaaS wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
 
 # On Premise PaaS
-  offerThreeTitle: offerOnpremisePaasTitle
-  offerThreeDesc: offerOnpremisePaasDesc
+  offerThreeTitle: On Premise PaaS
+  offerThreeIntro: Ihre PaaS in Ihrem Rechenzentrum, optimal integriert in Ihre Infrastruktur. Wir begleiten Sie von der Idee über die Umsetzung und falls gewünscht bis zum Betrieb.
+  offerThreeServicesDesc: Die Flexibiltät APPUiOs erlaubt die Integration in komplexe, bestehende Infrastrukturen. Hier eine Liste möglicher Integrationspunkte, welche durch APPUiO resp. OpenShift abgedeckt werden können.
+  offerThreeServices1: APPUiO läuft auf Red Hat Enterprise Linux (RHEL) 7 (bare metal, virtuell, Cloud)
+  offerThreeServices2: Anbindung an vorhandene Storage Lösung
+  offerThreeServices3: Integration in Netzwerkspezifika
+  offerThreeServices4: Anbindung an bestehendes Changemanagement (Puppet, Chef, Ansible)
+  offerThreeServices5: Source Code von privaten Git/SVN Repositories
+  offerThreeServices6: Anbindung an bestehende Datenbank Server
+  offerThreeServices7: Backup integrieren
+  offerThreeServices8: CI/CD Workflows anbinden
 
 # Formular Defaults
   mailGotAMessage: We just recieved a message from APPUiO.ch!
