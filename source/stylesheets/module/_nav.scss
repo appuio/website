@@ -9,17 +9,17 @@ Responsive hotizontal menu.
 
 ```html_example
 <nav class="header-nav nav-horizontal" role="navigation">
-  <ul>
-    <li>
-      <a href="/">Home</a>
-    </li>
-    <li>
-      <a href="/styleguide">Styleguide</a>
-    </li>
-    <li>
-      <a href="https://github.com/wearecube">Github repo</a>
-    </li>
-  </ul>
+<ul>
+<li>
+<a href="/">Home</a>
+</li>
+<li>
+<a href="/styleguide">Styleguide</a>
+</li>
+<li>
+<a href="https://github.com/wearecube">Github repo</a>
+</li>
+</ul>
 </nav>
 ```
 */
@@ -40,6 +40,10 @@ Responsive hotizontal menu.
   }
   &.is-expanded .nav-toggle-menu {
     display: none;
+  }
+
+  @include susy-breakpoint($break-medium) {
+    overflow: visible;
   }
 }
 
@@ -142,6 +146,39 @@ Responsive hotizontal menu.
 }
 .nav-lang > li,
 .nav-main > li {
+  overflow: visible;
+  position: relative;
+
+  > ul {
+    display: none;
+    min-width: 100px;
+    position: absolute;
+    background-color:#98e2ea;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    & > li {
+      text-align: left;
+
+      & > a {
+        color: white;
+        padding: rem-calc(10);
+        display:block;
+        font-size: rem-calc(12);
+        color:#002F47;
+        text-decoration: none;
+        white-space: nowrap;
+      }
+      & > a:hover {
+        background-color: #FFD301;
+        color: #002F47;
+      }
+    }
+  }
+  &:hover > ul {
+    display: block;
+  }
   & > a {
     display: block;
     background: transparent;
@@ -165,6 +202,7 @@ Responsive hotizontal menu.
     color: #002F47;
   }
 }
+
 .nav-lang {
   @include reset-list;
   display: flex;
@@ -190,24 +228,3 @@ Responsive hotizontal menu.
     display: none !important;
   }
 }
-
-// Code for Submenu, if necessary in future
-//.nav-main > li > ul {
-//  display: none;
-//}
-//
-//.nav-main > li:hover > ul {
-//  display:block;
-//}
-//
-//.nav-main li > ul > li > a {
-//  position: relative;
-//  text-align: left;
-//  background: transparent;
-//  padding: rem-calc(10);
-//  color: white;
-//  line-height: rem-calc(10);
-//  text-decoration: none;
-//  list-style-type: none;
-//  transition: background-color 200ms ease, color 200ms ease;
-//}
