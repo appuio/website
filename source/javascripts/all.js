@@ -43,31 +43,34 @@
   // Section-Slider of fullpage.js
   $('#fullpage').fullpage({
     //Navigation
-    css3: true,
-    anchors: ['offers'],
-    sectionsColor: ['#fff'],
+    // css3: true,
+    // anchors: ['offers', 'contacts', 'footer'],
+    sectionsColor: ['#fff', '#bada55', '#fff'],
     slidesNavigation: true,
 
     //scrolling
-    fitToSection: false,
-    autoScrolling: false,
+    fitToSection: false, // set to false to not fit section to viewport
+    autoScrolling: false, // set to false to enable normal scroll, plugin will still fit sections to screen
     loopBottom: false,
     loopTop: false,
     loopHorizontal: false,
+    scrollBar: false,
     // continuousVertical: false,
-    scrollOverflow: true,
+    scrollOverflow: false,
+    // normalScrollElements: '.home-contact-title', // If you want to avoid the auto scroll when scrolling over some elements, this is the option you need to use. (useful for maps, scrolling divs etc.) It requires a string with the jQuery selectors for those elements. (For example: normalScrollElements: '#element1, .element2')
+    animateAnchor: true,
 
     //Design
     // controlArrows: true,
-    // verticalCentered: true,
-    // paddingTop: '4.750em',
+    verticalCentered: true,
+    paddingTop: '3.750em',
     paddingBottom: '3em',
     fixedElements: '.header-container'
-    // responsiveWidth: 480,
-    // responsiveHeight: 0,
+    // responsiveWidth: 480
+    // responsiveHeight: 0
 
     //Custom selectors
-    // sectionSelector: '.section',
+    // sectionSelector: '.section', // Define different section class in case class is already in use
     // slideSelector: '.slide2'
   });
 
