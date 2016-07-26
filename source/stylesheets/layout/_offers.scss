@@ -1,7 +1,9 @@
 .offers-container {
+  @include container;
   display: flex;
   flex-flow: row wrap;
   clear: both;
+  text-align: center;
 }
 //.offers-title {
 //  @include susy-breakpoint($break-medium) {
@@ -20,21 +22,34 @@
 .offers-intro,
 .offers-title {
   @include susy-breakpoint($break-medium) {
-    @include span(10 of 12);
+    @include span(11 of 12);
     @include squish(1,1);
+  }
+}
+
+.offers-package-title {
+  text-align: center;
+  @include susy-breakpoint($break-medium) {
+    @include span(12 of 12);
   }
 }
 .offers-group {
   display: flex;
   flex-flow: row wrap;
-  align-items: stretch;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  //justify-content: space-between;
+  justify-content: center;
+  align-content: center;
+  text-align: left;
+  margin: 0 auto;
+  @include squish(1,1);
+  //flex: 1 100%;
+  //@include susy-breakpoint($break-medium) {
+  //  @include span(12 of 12);
+  //  @include squish(1,1);
+  //}
   @include susy-breakpoint($break-medium) {
-    @include span(12 of 12);
-    @include squish(1,1);
-    &:last-child {
-      @include last;
-    }
+    //flex: 1 33%;
   }
   &.has-one-col .offers-item {
     flex: 1 100%;
@@ -48,18 +63,19 @@
 }
 
 .offers-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  //display: flex;
+  //align-items: center;
+  //justify-content: center;
+  flex:1;
   text-align: center;
-  flex: 1;
-  width: rem-calc(20);
   padding: rem-calc(12 6);
   background: #002F47;
   color: white;
   border: 2px solid white;
   box-sizing: border-box;
   border-radius: 1px;
+  font-size: rem-calc(14);
+  //width: 100%;
 
   &.is-empty {
     background: transparent;
@@ -84,16 +100,24 @@
 
 .offers-package-container {
   display: flex;
-  flex-direction: row;
-  align-content: space-around;
+  flex-direction: column;
+  align-content: space-between;
   align-items: stretch;
+  flex: 1 100%;
+  align-items: flex-end;
+  @include susy-breakpoint($break-medium) {
+    flex-direction: row;
+  }
+  &.stretch {
+    align-items: center;
+  }
 }
 .offers-package {
   text-align: center;
   padding: rem-calc(16);
   background-color: $color-lightblue;
   color: white;
-  margin-left: rem-calc(32);
+  margin: rem-calc(16 16);
 }
 
 .offers-package-list {
