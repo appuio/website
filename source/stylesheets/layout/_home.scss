@@ -6,6 +6,10 @@
   text-align: center;
   padding-bottom: rem-calc(100);
   overflow:hidden;
+
+  & a:hover {
+    color:$color-lightblue;
+  }
 }
 .home-hero-illus {
   padding: rem-calc(80 0 160);
