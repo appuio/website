@@ -19,6 +19,7 @@ category: Layout
   right: 0;
   background-color: #00AEC1;
   z-index: 10;
+  box-shadow: 0px 1px 5px 3px rgba(66, 66, 66, 0.1);
 
   & + * {
     margin-top: rem-calc(50);
