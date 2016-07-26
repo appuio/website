@@ -1,14 +1,14 @@
 - question: Was ist OpenShift und wie funktioniert es?
-  answer: <a href="https://docs.openshift.com" class="bg-is-dark" target:"_blank">OpenShift</a> ist die Platform as a Service (PaaS) von Red Hat. Seit der Version 3 setzt OpenShift auf bewährte Open Source Projekte wie Docker [http://www.docker.com/] und Kubernetes [http://kubernetes.io/].
+  answer: <a href="https://docs.openshift.com" target="_blank">OpenShift</a> ist die Platform as a Service (PaaS) von Red Hat. Seit der Version 3 setzt OpenShift auf bewährte Open Source Projekte wie <a href="http://www.docker.com/" target="blank">Docker</a> und <a target="blank" href="http://kubernetes.io/">Kubernetes</a>.
 - question: Wie bringt man eine Applikation auf APPUiO?
-  answer: Für die ersten Schritte haben wir ein TechLab [https://github.com/appuio/techlab] erstellt.
+  answer: Für die ersten Schritte haben wir ein <a href="https://github.com/appuio/techlab" target="_blank">TechLab</a> erstellt.
 - question: Wer steckt hinter APPUiO?
-  answer: Die beiden DevOps Spezialisten Puzzle ITC [https://www.puzzle.ch/de/] und VSHN AG [https://vshn.ch/] arbeiten für APPUiO eng zusammen. VSHN stellt schwerpunktmässig den Betrieb sicher, Puzzle engineert die Plattform mehrheitlich und integriert diese bei Bedarf bei Kunden.
+  answer: Die beiden DevOps Spezialisten <a href="https://www.puzzle.ch/de/" target="new">Puzzle ITC</a> und <a href="https://vshn.ch/" target="new">VSHN AG</a> arbeiten für APPUiO eng zusammen. VSHN stellt schwerpunktmässig den Betrieb sicher, Puzzle engineert die Plattform mehrheitlich und integriert diese bei Bedarf bei Kunden.
 - question: Wo finde ich Dokumentation zu APPUiO?
-  answer: Die Dokumentation findet ihr unter docs.appuio.ch [http://docs.appuio.ch/en/latest/]. Diese wird aus dem Github Repo [https://github.com/appuio/docs] generiert und laufend ergänzt. Anregungen und Ergänzungen sind jederzeit willkommen.
+  answer: Die Dokumentation findet ihr unter <a href="http://docs.appuio.ch/en/latest/" target="new">docs.appuio.ch</a>. Diese wird aus dem <a href="https://github.com/appuio/docs" target="new">Github Repo</a> generiert und laufend ergänzt. Anregungen und Ergänzungen sind jederzeit willkommen.
 - question: Kann ich Containers/Pods als root laufen lassen?
-  answer: Aufgrund von Sicherheitseinschränkungen ist dies leider nicht möglich. Weitere Informationen findet ihr unter https://forum.appuio.ch/topic/7/root-access-to-docker-images/2.
+  answer: Aufgrund von Sicherheitseinschränkungen ist dies leider nicht möglich. Weitere Informationen findet ihr unter <a href="https://forum.appuio.ch/topic/7/root-access-to-docker-images/2" target="new">https://forum.appuio.ch/topic/7/root-access-to-docker-images/2</a>.
 - question: Wie binde ich ein privates Git Repository an?
-  answer: Falls ihr für das Code-Deployment Zugriff auf ein privates Git Repository braucht, hilft die OpenShift-Doku "Using Private Repositories for Builds" [https://docs.openshift.com/enterprise/3.1/dev_guide/builds.html#using-private-repositories-for-builds] weiter.
+  answer: Falls ihr für das Code-Deployment Zugriff auf ein privates Git Repository braucht, hilft die OpenShift-Doku <a href="https://docs.openshift.com/enterprise/3.1/dev_guide/builds.html#using-private-repositories-for-builds" target="new">"Using Private Repositories for Builds"</a> weiter.
 - question: Wie lese ich die Logs eines Pods im "CrashLoopBackOff" Status?
-  answer: Mit dem Befehl oc logs --previous somepod
+  answer: Mit dem Befehl <pre><code>oc logs --previous somepod</pre></code>
