@@ -105,3 +105,24 @@ p {
 hr {
 
 }
+
+// Code
+// ----------------------------------------------
+pre {
+  padding: rem-calc(16);
+  overflow: auto;
+  line-height: 1.45;
+  background-color: darken($color-blue, 2%);
+  color:inherit;
+}
+
+code {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
