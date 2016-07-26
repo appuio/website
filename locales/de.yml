@@ -3,23 +3,26 @@ de:
   metaDescription: Eine Platform as a Service (PaaS) für das Design, die Entwicklung und den Betrieb Ihrer Anwendung. Nutzen Sie APPUiO als Container Runtime.
   metaKeywords: OpenShift, container runtime,  cluster, PaaS, Docker, Kubernetes, Swiss, Schweiz, Enterprise, Platform as a Service, VSHN AG, Puzzle ITC GmbH,
 
+# Globale Navigation
   navGlobalDocs: Docs
   navGlobalFAQ: FAQ
   navGlobalForum: Forum
 
   navOverview: Übersicht
   navOffers: Angebot
-  navOffer1: Offer 1
-  navOffer2: Offer 2
-  navOffer3: Offer 3
+  navOffer1: Managed Private PaaS
+  navOffer2: Public PaaS
+  navOffer3: On premise PaaS
   navFeatures: Features
   navContact: Kontakt
   navFAQ: FAQ
 
+# Home Seite
   homeHeroAlt: APPUiO - Swiss Enterprise PAAS
   homeHeroTitle: Eine Plattform für das Design, die Entwicklung und den Betrieb Ihrer Anwendung. Betreiben Sie ihren Container Workload auf APPUiO.
   homeHeroDesc: APPUiO - die Schweizer Enterprise PaaS (Platform as a Service) von Entwicklern für Entwickler. APPUiO basiert auf der “next generation PaaS” OpenShift Enterprise V3 von Red Hat. Auf der Basis bewährter Open Source Konzepte wie Docker und Kubernetes entwickeln, betreiben und skalieren Sie Ihre Anwendung passend auf Ihre Bedürfnisse. Mit dieser Technologie können Applikationen sowohl auf Public Clouds als auch unternehmensintern betrieben werden.
 
+# Home: Offer Section
   homeOfferTitle: Angebot
   homeOfferOneTitle: Managed Private PaaS
   homeOfferOneDesc: Sie wollen eine eigene private APPUiO Instanz nutzen, die auf unserer Infrastruktur läuft? Wir deployen und betreiben die auf Ihre Bedürfnisse massgeschneiderte Lösung.
@@ -32,6 +35,7 @@ de:
   homeOfferThreeButton: Details
   homeOfferDesc: Unser APPUiO Public PaaS Angebot wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
 
+# Home: Feature Section
   homeFeatureTitle: Features
   homeFeatureDesc: OpenShift Enterprise (OSE) V3 ist die PaaS des Open Source Marktführers Red Hat. OSE V3 setzt auf moderne Open Source Konzepte wie Docker Container und Kubernetes.
   homeFeatureDockerTitle: Docker
@@ -52,6 +56,7 @@ de:
   homeFeatureSecureDesc: Sichere Plattform dank SELinux von Red Hat Enterprise Linux. Datenhaltung in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz.
   homeFeatureSecureAlt: Safe container with a swiss  éàlkja locker
 
+# Home: Contact Section
   homeContactTitle: Kontakt
   homeContactDesc: Gerne treten wir mit Ihnen in Kontakt. Bitte geben Sie uns an, wie wir Sie am besten erreichen können. Ihre Daten behandeln wir vertraulich und werden nicht an Dritte weitergegeben.
   homeContactSubject: Ich interessiere mich für…
@@ -69,15 +74,27 @@ de:
   homeContactYourMessageTitle: Ihre Nachricht?
   homeContactSend: Absenden
 
-  offerOneTitle: offerManagedPrivatePaasTitle
-  offerOneDesc: offerManagedPrivatePaasDesc
+# Angebots Seite
+# Managed Private PaaS
+  offerOneTitle: Managed Private PaaS
+  offerOneIntro: Sie wollen eine eigene private APPUiO Instanz nutzen, die auf unserer Infrastruktur läuft? Wir deployen und betreiben die auf Ihre Bedürfnisse massgeschneiderte Lösung.
+  offerOneServicesDesc: Ihre APPUiO Managed Private PaaS wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
+  offerOneServiceTitle: Neben einem optimalen Datenschutz bieten wir Ihnen folgende zusätzliche Services
+
+  offerContactOneSmall: Small
+  offerContactOneMedium: Medium
+  offerContactOneLarge: Large
+
+# Public Private PaaS
   offerTwoTitle: offerPublicPaasTitle
   offerTwoDesc: offerPublicPaasDesc
+  offerTwoIntro: offerOneIntro
+  offerTwoServicesDesc: offerTwoServicesDesc
+
+# On Premise PaaS
   offerThreeTitle: offerOnpremisePaasTitle
   offerThreeDesc: offerOnpremisePaasDesc
 
-  offersIntro: Sie wollen eine eigene private APPUiO Instanz nutzen, die auf unserer Infrastruktur läuft? Wir deployen und betreiben die auf Ihre Bedürfnisse massgeschneiderte Lösung.
-  offersServicesDesc: Ihre APPUiO Managed Private PaaS wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht. Neben einem optimalen Datenschutz bieten wir Ihnen folgende zusätzliche Services
-
-  mailGotAMessage: We just recieve a message from APPUiO.ch!
+# Formular Defaults
+  mailGotAMessage: We just recieved a message from APPUiO.ch!
   mailSubject: Ich interessiere mich für
