@@ -177,7 +177,11 @@ Responsive hotizontal menu.
     }
   }
   &:hover > ul {
-    display: block;
+    display: none;
+
+    @include susy-breakpoint($break-medium) {
+      display: block !important;
+    }
   }
   & > a {
     display: block;
