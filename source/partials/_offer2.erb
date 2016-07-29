@@ -35,8 +35,7 @@
         <h1 class="offers-banner-title promotion">Promotion</h1>
         <p class="offers-banner-desc">Startup promotion for August 2016 ff. 3 months for free if signing a 1 year contract. 6 months for free if signing a 1 year contract AND attending one ore more TechLabs.</p>
       </article>
-      <article class="offers-package is-fourth">
-        <!-- <a href="#offers-two-contact" class="" data-check="interest-test" style="text-decoration:none;cursor:pointer;"> -->
+      <a class="offers-package is-fourth" href="#offers-two-contact" data-check="interest-micro">
         <h3 class="offers-package-list-title">Micro</h3>
         <ul class="offers-package-list">
           <li class="offers-package-item">CHF 49.- / Monat</li>
@@ -44,9 +43,8 @@
           <li class="offers-package-item">Memory 512Mi</li>
           <li class="offers-package-item">Persistent Volume inkl. 5 GB</li>
         </ul>
-        <!-- </a> -->
-      </article>
-      <article class="offers-package is-fourth">
+      </a>
+      <a class="offers-package is-fourth" href="#offers-two-contact" data-check="interest-medium">
         <h3 class="offers-package-list-title">Medium</h3>
         <ul class="offers-package-list">
           <li class="offers-package-item">CHF 95.- / Monat</li>
@@ -54,8 +52,8 @@
           <li class="offers-package-item">Memory 1GBi</li>
           <li class="offers-package-item">Persistent Volume inkl. 10 GB</li>
         </ul>
-      </article>
-      <article class="offers-package is-fourth">
+      </a>
+      <a class="offers-package is-fourth" href="#offers-two-contact" data-check="interest-large">
         <h3 class="offers-package-list-title">Large</h3>
         <ul class="offers-package-list">
           <li class="offers-package-item">CHF 189.- / Monat</li>
@@ -63,8 +61,8 @@
           <li class="offers-package-item">Memory 2GBi</li>
           <li class="offers-package-item">Persistent Volume inkl. 20 GB</li>
         </ul>
-      </article>
-      <article class="offers-package is-fourth">
+      </a>
+      <a class="offers-package is-fourth" href="#offers-two-contact" data-check="interest-xlarge">
         <h3 class="offers-package-list-title">X-Large</h3>
         <ul class="offers-package-list">
           <li class="offers-package-item">CHF 379.- / Monat</li>
@@ -73,7 +71,7 @@
           <li class="offers-package-item">Persistent Volume 50 GB</li>
         </ul>
       </article>
-      <article class="offers-package last-child">
+      <a class="offers-package last-child" href="#offers-two-contact" data-check="interest-custom">
         <h3 class="offers-package-list-title">Persistent Storage Add Ons</h3>
         <p class="offers-package-pretext">Auf Anfrage</p>
         <ul class="offers-package-list">
@@ -82,7 +80,7 @@
           <li class="offers-package-item">50 GB CHF 19.00</li>
           <li class="offers-package-item">100 GB CHF 25.00</li>
         </ul>
-      </article>
+      </a>
       <article class="offers-package is-banner-after">
         <h1 class="offers-banner-title">Custom</h1>
         <p class="offers-banner-desc">Auf Anfrage</p>
@@ -100,32 +98,37 @@
       <div class="home-contact-interest interest-container">
         <h3 class="interest-title"><%= t(:homeContactSubject) %></h3>
         <div class="interest-item">
-          <input id="interest-cluster" value="offer two " type="checkbox" name="interests[]" class="interest-checkbox">
-          <label for="interest-cluster"><%= evil_icon 'ei-close', class: "interest-icon" %> Micro</label>
+          <input id="interest-micro" value="micro" type="checkbox" name="interests[]" class="interest-checkbox">
+          <label for="interest-micro"><%= evil_icon 'ei-close', class: "interest-icon" %> Micro</label>
         </div>
         <div class="interest-item">
-          <input id="interest-beta" value="<%= t(:homeContactSubjectTwo) %>" type="checkbox" name="interests[]" class="interest-checkbox">
-          <label for="interest-beta"><%= evil_icon 'ei-close', class: "interest-icon" %> Medium</label>
+          <input id="interest-medium" value="medium" type="checkbox" name="interests[]" class="interest-checkbox">
+          <label for="interest-medium"><%= evil_icon 'ei-close', class: "interest-icon" %> Medium</label>
         </div>
         <div class="interest-item">
-          <input id="interest-paas" value="<%= t(:homeContactSubjectThree) %>" type="checkbox" name="interests[]" class="interest-checkbox">
-          <label for="interest-paas"><%= evil_icon 'ei-close', class: "interest-icon" %> Large</label>
+          <input id="interest-large" value="large" type="checkbox" name="interests[]" class="interest-checkbox">
+          <label for="interest-large"><%= evil_icon 'ei-close', class: "interest-icon" %> Large</label>
         </div>
         <div class="interest-item">
-          <input id="interest-newsletter" value="<%= t(:homeContactSubjectFive) %>" type="checkbox" name="interests[]" class="interest-checkbox" >
-          <label for="interest-newsletter"><%= evil_icon 'ei-close', class: "interest-icon" %> X-Large</label>
+          <input id="interest-xlarge" value="xlarge" type="checkbox" name="interests[]" class="interest-checkbox" >
+          <label for="interest-xlarge"><%= evil_icon 'ei-close', class: "interest-icon" %> X-Large</label>
         </div>
         <div class="interest-item">
-          <input id="interest-info" value="<%= t(:homeContactSubjectFour) %>" type="checkbox" name="interests[]" class="interest-checkbox" checked>
-          <label for="interest-info"><%= evil_icon 'ei-close', class: "interest-icon" %> Custom</label>
+          <input id="interest-custom" value="custom" type="checkbox" name="interests[]" class="interest-checkbox" checked>
+          <label for="interest-custom"><%= evil_icon 'ei-close', class: "interest-icon" %> Custom</label>
         </div>
       </div>
       <div class="home-contact-form">
         <input title="Vorname" type="text" name="nachname" class="contact-input" placeholder="Vorname" required>
         <input title="Name" type="text" name="vorname" class="contact-input" placeholder="Name" required>
-        <input type="email" name="email" class="contact-input" placeholder="Email" required>
+        <input title="Email" type="email" name="email" class="contact-input" placeholder="Email" required>
+        <input title="Adresse" type="text" name="adresse" class="contact-input" placeholder="Adresse" required>
+        <input title="Rechnungsadresse" type="text" name="rechnungsadresse" class="contact-input" placeholder="Rechnungsadresse" required>
         <input type="text" name="phone" placeholder="Telefon" class="contact-input" required>
         <textarea title="Nachricht" id="message" name="message" cols="30" rows="6" class="contact-textarea" placeholder="Nachricht" required></textarea>
+      </div>
+      <div class="offer-three-terms">
+          <a href="#">Terms and Conditions</a>
       </div>
       <label class="home-contact-button button-progress">
         <input type="submit" class="button is-round" value="<%= t(:homeContactSend) %>">

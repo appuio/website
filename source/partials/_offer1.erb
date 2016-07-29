@@ -49,33 +49,32 @@
     <section class="offer-one-offers">
       <div class="grid-container">
         <h3 class="offers-package-title">Wählen Sie das für Ihre Bedürfnisse passende Paket:</h3>
-
         <div class="offers-package-container">
-          <article class="offers-package is-third">
+          <a class="offers-package is-third" href="#offers-one-contact" data-check="interest-small">
             <h3 class="offers-package-list-title">Small</h3>
             <ul class="offers-package-list">
               <li class="offers-package-item">1 Master (je 4GB Ram, 2vCores)</li>
               <li class="offers-package-item">2 Nodes(je 16 GB Ram, 6VCores, 100 GB Docker Storage)</li>
               <li class="offers-package-item">200 GB Persistent Storage</li>
             </ul>
-          </article>
-          <article class="offers-package is-third">
+          </a>
+          <a class="offers-package is-third" href="#offers-one-contact" data-check="interest-medium">
             <h3 class="offers-package-list-title">Medium</h3>
             <ul class="offers-package-list">
               <li class="offers-package-item">3 Master (je 4GB Ram, 2vCores)</li>
               <li class="offers-package-item">4 Nodes (je 16 GB Ram, 6VCores, 100 GB Docker Storage)</li>
               <li class="offers-package-item">500 GB Persistent Storage</li>
             </ul>
-          </article>
-          <article class="offers-package is-third">
+          </a>
+          <a class="offers-package is-third" href="#offers-one-contact" data-check="interest-large">
             <h3 class="offers-package-list-title">Large</h3>
             <ul class="offers-package-list">
               <li class="offers-package-item">3 Master (je 4GB Ram, 2vCores)</li>
               <li class="offers-package-item">8 Nodes (je 16 GB Ram, 6VCores, 100 GB Docker Storage)</li>
               <li class="offers-package-item">1 TB Persistent Storage</li>
             </ul>
-          </article>
-          <article class="offers-package last-child">
+          </a>
+          <a class="offers-package last-child" href="#offers-one-contact" data-check="interest-addon">
             <h3 class="offers-package-list-title">Add Ons</h3>
             <p class="offers-package-pretext">Auf Anfrage</p>
             <ul class="offers-package-list">
@@ -87,7 +86,7 @@
               <li class="offers-package-item">Zusätzliche Nodes</li>
               <li class="offers-package-item">Zusätzliche Storage</li>
             </ul>
-          </article>
+          </a>
         </div>
       </div>
   </section>
@@ -95,30 +94,31 @@
   <a name="offers-one-contact"></a>
   <section class="offer-contact">
     <div class="grid-container">
-      <h2 class="offer-on1-contact-title">Kontakt</h2>
-      <form id="offer-on1-contact-form" class="offers-contact-container">
+      <h2 class="offer-one-contact-title">Kontakt</h2>
+      <form id="offer-one-contact-form" class="offers-contact-container">
         <div class="home-contact-interest interest-container">
           <h3 class="interest-title"><%= t(:homeContactSubject) %></h3>
           <div class="interest-item">
-            <input id="interest-cluster" value="offer two " type="checkbox" name="interests[]" class="interest-checkbox">
-            <label for="interest-cluster"><%= evil_icon 'ei-close', class: "interest-icon" %> Small</label>
+            <input id="interest-small" value="Small" type="checkbox" name="interests[]" class="interest-checkbox">
+            <label for="interest-small"><%= evil_icon 'ei-close', class: "interest-icon" %> Small</label>
           </div>
           <div class="interest-item">
-            <input id="interest-beta" value="<%= t(:homeContactSubjectTwo) %>" type="checkbox" name="interests[]" class="interest-checkbox">
-            <label for="interest-beta"><%= evil_icon 'ei-close', class: "interest-icon" %> Medium</label>
+            <input id="interest-medium" value="Medium" type="checkbox" name="interests[]" class="interest-checkbox">
+            <label for="interest-medium"><%= evil_icon 'ei-close', class: "interest-icon" %> Medium</label>
           </div>
           <div class="interest-item">
-            <input id="interest-paas" value="<%= t(:homeContactSubjectThree) %>" type="checkbox" name="interests[]" class="interest-checkbox">
-            <label for="interest-paas"><%= evil_icon 'ei-close', class: "interest-icon" %> Large</label>
+            <input id="interest-large" value="Large" type="checkbox" name="interests[]" class="interest-checkbox">
+            <label for="interest-large"><%= evil_icon 'ei-close', class: "interest-icon" %> Large</label>
           </div>
           <div class="interest-item">
-            <input id="interest-paas" value="<%= t(:homeContactSubjectThree) %>" type="checkbox" name="interests[]" class="interest-checkbox">
-            <label for="interest-paas"><%= evil_icon 'ei-close', class: "interest-icon" %> Add Ons</label>
+            <input id="interest-addon" value="Add Ons" type="checkbox" name="interests[]" class="interest-checkbox">
+            <label for="interest-addon"><%= evil_icon 'ei-close', class: "interest-icon" %> Add Ons</label>
           </div>
         </div>
         <div class="home-contact-form">
           <input title="Vorname" type="text" name="nachname" class="contact-input" placeholder="Vorname" required>
           <input title="Name" type="text" name="vorname" class="contact-input" placeholder="Name" required>
+          <input title="Firma" type="text" name="firma" class="contact-input" placeholder="Firma" required>
           <input type="email" name="email" class="contact-input" placeholder="Email" required>
           <input type="text" name="phone" placeholder="Telefon" class="contact-input" required>
           <textarea title="Nachricht" id="message" name="message" cols="30" rows="6" class="contact-textarea" placeholder="Nachricht" required></textarea>

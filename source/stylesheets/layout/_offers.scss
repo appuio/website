@@ -129,119 +129,6 @@
   }
 }
 
-.offers-package-title {
-  text-align: center;
-  margin-bottom: rem-calc(60);
-  @include susy-breakpoint($break-medium) {
-    @include span(12 of 12);
-  }
-}
-.offers-package-container {
-  display: flex;
-  flex-flow: row wrap;
-  align-content: space-between;
-  width: 100%;
-  margin: rem-calc(32 0);
-  background-color:#0097a8;
-  border: 3px solid white;
-}
-.offers-package {
-  flex: 1 auto;
-  //align-items: stretch;
-  width: 100%;
-
-  text-align: center;
-  padding: rem-calc(16);
-  background-color: #018290;
-  color: white;
-  margin: rem-calc(16);
-
-  //width: rem-calc(20);
-
-  &.is-third {
-    @include susy-breakpoint($break-medium) {
-      width: 25%;
-    }
-  }
-  &.is-fourth {
-    @include susy-breakpoint($break-small) {
-      width: 100%;
-    }
-    @include susy-breakpoint($break-medium) {
-      width: 45%;
-    }
-    @include susy-breakpoint($break-large) {
-      width: 20%;
-    }
-  }
-
-  &.is-banner-before {
-    flex: 1 100%;
-    padding-left: rem-calc(16);
-    padding-right: rem-calc(16);
-    text-align: center;
-    background: transparent;
-    margin-bottom: 0;
-    display: flex;
-    flex-direction: column;
-  }
-
-  &.is-banner-after {
-    flex: 1 100%;
-    padding-right: rem-calc(16);
-    text-align: left;
-    background: transparent;
-    padding-left: rem-calc(16);
-  }
-
-  &.last-child {
-    flex: 1 100%;
-    text-align: left;
-    padding: rem-calc(16);
-    margin: rem-calc(16);
-
-    & > ul {
-      display: flex;
-      flex-flow: row wrap;
-    }
-    & > ul > li {
-      flex: 1 25%;
-      text-align: center;
-      flex-basis: initial;
-    }
-    & h3 {
-      margin: rem-calc(18 0);
-    }
-  }
-}
-.offers-banner-title {
-  margin: 0;
-  flex: 1 100%;
-  width: 50%;
-  align-self: center;
-}
-.promotion {
-  border-top: 3px solid #98e2ea;
-  border-bottom: 3px solid #98e2ea;
-  padding: rem-calc(8);
-}
-.offer-banner-desc {
-  margin-bottom: 0;
-  flex: 1 100%;
-}
-
-.offers-package-list {
-  padding: 0;
-  & li {
-    list-style-type: none;
-  }
-}
-.offers-package-item {
-  background-color: $color-yellow;
-  color: $color-blue;
-  padding: rem-calc(8);
-  margin: rem-calc(8);
-}
 .offer-two-contact-form {
   margin-top: rem-calc(25);
   float: right;
@@ -264,5 +151,26 @@
     margin-bottom: rem-calc(25);
   //   padding-left: rem-calc(15);
   //   flex: 1 50%;
+  }
+}
+
+.offer-three-terms {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  clear: both;
+  padding: rem-calc(16 0);
+  @include susy-breakpoint($break-medium) {
+    @include span(6 last of 12);
+    @include squish(3, 3);
+  }
+  
+  & > a {
+    font-size: rem-calc(16);
+    line-height: rem-calc(32);
+
+    &:hover {
+      color: $color-lightblue;
+    }
   }
 }
