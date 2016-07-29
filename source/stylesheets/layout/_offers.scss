@@ -61,59 +61,64 @@
 .offers-bulletpoints {
   clear: both;
   display: flex;
-  justify-content: center;
-  @include squish(1,1);
-  flex-direction: column;
+  flex-flow: row wrap;
+  text-align: left;
   padding-top: rem-calc(16);
   padding-bottom: rem-calc(16);
+}
 
-  @include susy-breakpoint($break-medium) {
-    flex-flow: row wrap;
-  }
-}
 .flex-item {
-  flex: 1 50%;
+  flex: 1 auto;
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+
+  @include susy-breakpoint($break-large) {
+    width: 50%;
+  }
+
 }
-.offers-bulletpoints > ul {
+.offers-bulletpoints > .flex-item > ul {
   & > li {
     line-height: rem-calc(24);
+    margin-bottom: rem-calc(8);
     text-align: left; // Unordered List with bulletpoints
+    font-size: rem-calc(18);
   }
 }
 
 .offer-container {
   display: flex;
-  flex-flow: column;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 100%;
   clear: both;
-  //justify-content: center;
 
   @include susy-breakpoint($break-medium) {
-    //flex-direction: row;
-    flex-flow: row wrap;
   }
 }
 
 .offer-item {
-  flex: 1 100%;
+  flex: 1 auto;
   width: 100%;
   text-align: center;
   margin: rem-calc(20 0);
+  padding: rem-calc(0 16);
   color: black;
   @include susy-breakpoint($break-medium) {
     margin: rem-calc(60 0);
   }
   &.is-third {
-    flex: 1 33%;
-    padding: rem-calc(0 16);
+    width: 100%;
+
+    @include susy-breakpoint($break-medium) {
+      width: 25%;
+    }
   }
   &.has-white-font {
     color: white;
   }
 }
-//.offer-item.is-thid {
-//  flex: 1 33%;
-//  padding: rem-calc(0 16);
-//}
 
 .offers-package-title {
   text-align: center;
