@@ -20,6 +20,15 @@
   &:first-child {
     margin-top: 0;
   }
+  &.is-first {
+    background-color: $color-first;
+  }
+  &.is-second {
+    background-color: $color-second;
+  }
+  &.is-third {
+    background-color: $color-third;
+  }
   @include susy-breakpoint($break-large) {
     flex: 1;
     margin-top: rem-calc(20);

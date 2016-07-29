@@ -13,9 +13,18 @@
 .offer-one-intro,
 .offer-two-intro,
 .offer-three-intro {
-  background-color: $color-blue;
   color: white;
 }
+.offer-one-intro {
+  background-color: $color-first;
+}
+.offer-two-intro {
+  background-color: $color-second;
+}
+.offer-three-intro {
+  background-color: $color-third;
+}
+
 .offer-one-services {
   background-color: white;
 }
@@ -134,7 +143,7 @@
   width: 100%;
   margin: rem-calc(32 0);
   background-color:#0097a8;
-  border: 5px solid white;
+  border: 3px solid white;
 }
 .offers-package {
   flex: 1 auto;
