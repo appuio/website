@@ -1,135 +1,72 @@
-<section class="offer-one offer-one-intro">
+<section class="offer-one">
   <div class="grid-container">
     <h2 class="offers-title"><%= t(:offerOneTitle) %></h2>
     <p class="offers-intro"><%= t(:offerOneIntro) %></p>
-    <div class="offers-bulletpoints">
-      <ul class="flex-item">
-        <li>Basis für DevOps</li>
-        <li>09:00 - 18:00 Telefon + Email support</li>
-        <li>Proaktives Alarming Monitoring </li>
-        <li>Update und Servermanagement</li>
-      </ul>
-      <ul class="flex-item">
-        <li>Datenstandort Interxion Schweiz</li>
-        <li>Backup an einen zweiten Standort</li>
-        <li>Small - Medium - Large: Auf Sie zugeschnittene Angebote</li>
-      </ul>
-      <!-- <ul class="flex-item">
-        <li>Basis für DevOps</li>
-        <li>Small - Medium - Large: Auf Sie zugeschnittene Angebote</li>
-        <li>09:00 - 18:00 Telefon + Email support</li>
-        <li>Proaktives Alarming Monitoring </li>
-        <li>Update und Servermanagement</li>
-        <li>Datenstandort Interxion Schweiz</li>
-        <li>Backup an einen zweiten Standort</li>
-      </ul> -->
+
+    <div class="offers-container">
+      <div class="offers-bulletpoints">
+        <ul>
+          <li>Basis für DevOps</li>
+          <li>Small - Medium - Large: Auf Sie zugeschnittene Angebote</li>
+          <li>09:00 - 18:00 Telefon + Email support</li>
+          <li>Proaktives Alarming Monitoring </li>
+          <li>Update und Servermanagement</li>
+          <li>Datenstandort Interxion Schweiz</li>
+          <li>Backup an einen zweiten Standort</li>
+        </ul>
+      </div>
     </div>
-    <p class="offers-desc"><%= t(:offerOneServicesDesc) %></p>
-</div>
+
+    <p class="offers-services-desc"><%= t(:offerOneServicesDesc) %></p>
+
+    <h3><%= t(:offerOneServiceTitle) %></h3>
+    <div class="offers-container">
+      <article class="offers-item is-turkislight">Consulting Setup und Initialisierung</article>
+      <article class="offers-item is-turkislight">Bring my App to the Cloud - wir beraten und setzen auch um</article>
+      <article class="offers-item is-turkislight">Automatisierung Ihrer Prozesse: Continuos Delivery und Continuous Deployment Ihrer Applikationen</article>
+    </div>
+
+    <h3 class="offers-package-title">Wählen Sie das für Ihre Bedürfnisse passende Paket:</h3>
+
+    <div class="offers-package-container">
+      <article class="offers-package is-third">
+        <h3 class="offers-package-list-title">Small</h3>
+        <ul class="offers-package-list">
+          <li class="offers-package-item">1 Master (je 4GB Ram, 2vCores)</li>
+          <li class="offers-package-item">2 Nodes(je 16 GB Ram, 6VCores, 100 GB Docker Storage)</li>
+          <li class="offers-package-item">200 GB Persistent Storage</li>
+        </ul>
+      </article>
+      <article class="offers-package is-third">
+        <h3 class="offers-package-list-title">Medium</h3>
+        <ul class="offers-package-list">
+          <li class="offers-package-item">3 Master (je 4GB Ram, 2vCores)</li>
+          <li class="offers-package-item">4 Nodes (je 16 GB Ram, 6VCores, 100 GB Docker Storage)</li>
+          <li class="offers-package-item">500 GB Persistent Storage</li>
+        </ul>
+      </article>
+      <article class="offers-package is-third">
+        <h3 class="offers-package-list-title">Large</h3>
+        <ul class="offers-package-list">
+          <li class="offers-package-item">3 Master (je 4GB Ram, 2vCores)</li>
+          <li class="offers-package-item">8 Nodes (je 16 GB Ram, 6VCores, 100 GB Docker Storage)</li>
+          <li class="offers-package-item">1 TB Persistent Storage</li>
+        </ul>
+      </article>
+      <article class="offers-package">
+        <h3 class="offers-package-list-title">Add Ons</h3>
+        <p class="offers-package-pretext">Auf Anfrage</p>
+        <ul class="offers-package-list">
+          <li class="offers-package-item">SLA 7*24 Reaktiv</li>
+          <li class="offers-package-item">SLA 7*24 Proaktiv</li>
+          <li class="offers-package-item">Backup, erweitert, Backup der Datenbanken Pods</li>
+          <li class="offers-package-item">Monitoring, Applikationsmonitoring und -alarming, pro 5 Applikationen</li>
+          <li class="offers-package-item">JBoss Middleware Subscriptions</li>
+          <li class="offers-package-item">Zusätzliche Nodes</li>
+          <li class="offers-package-item">Zusätzliche Storage</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+
 </section>
-  <section class="offer-one-services">
-    <div class="grid-container">
-      <h3><%= t(:offerOneServiceTitle) %></h3>
-      <div class="offer-container">
-        <article class="offer-item is-third">
-          <span class="offer-item-image"><%= image_tag "service1.svg", :alt => 'Consulting Setup und Initialisierung' %></span>
-          <h1>1</h1>
-          <p class="offer-item-desc">Consulting Setup und Initialisierung</p>
-        </article>
-        <article class="offer-item is-third">
-          <span class="offer-item-image"><%= image_tag "service2.svg", :alt => 'Bring my App to the Cloud' %></span>
-          <h1>2</h1>
-          <p class="offer-item-desc">Bring my App to the Cloud - wir beraten und setzen auch um</p>
-        </article>
-        <article class="offer-item is-third">
-          <span class="offer-item-image"><%= image_tag "service3.svg", :alt => 'utomatisierung Ihrer Prozesse' %></span>
-          <h1>3</h1>
-          <p class="offer-item-desc">Automatisierung Ihrer Prozesse: Continuos Delivery und Continuous Deployment Ihrer Applikationen</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-
-    <section class="offer-one-offers">
-      <div class="grid-container">
-        <h3 class="offers-package-title">Wählen Sie das für Ihre Bedürfnisse passende Paket:</h3>
-
-        <div class="offers-package-container">
-          <article class="offers-package is-third">
-            <h3 class="offers-package-list-title">Small</h3>
-            <ul class="offers-package-list">
-              <li class="offers-package-item">1 Master (je 4GB Ram, 2vCores)</li>
-              <li class="offers-package-item">2 Nodes(je 16 GB Ram, 6VCores, 100 GB Docker Storage)</li>
-              <li class="offers-package-item">200 GB Persistent Storage</li>
-            </ul>
-          </article>
-          <article class="offers-package is-third">
-            <h3 class="offers-package-list-title">Medium</h3>
-            <ul class="offers-package-list">
-              <li class="offers-package-item">3 Master (je 4GB Ram, 2vCores)</li>
-              <li class="offers-package-item">4 Nodes (je 16 GB Ram, 6VCores, 100 GB Docker Storage)</li>
-              <li class="offers-package-item">500 GB Persistent Storage</li>
-            </ul>
-          </article>
-          <article class="offers-package is-third">
-            <h3 class="offers-package-list-title">Large</h3>
-            <ul class="offers-package-list">
-              <li class="offers-package-item">3 Master (je 4GB Ram, 2vCores)</li>
-              <li class="offers-package-item">8 Nodes (je 16 GB Ram, 6VCores, 100 GB Docker Storage)</li>
-              <li class="offers-package-item">1 TB Persistent Storage</li>
-            </ul>
-          </article>
-          <article class="offers-package last-child">
-            <h3 class="offers-package-list-title">Add Ons</h3>
-            <p class="offers-package-pretext">Auf Anfrage</p>
-            <ul class="offers-package-list">
-              <li class="offers-package-item">SLA 7*24 Reaktiv</li>
-              <li class="offers-package-item">SLA 7*24 Proaktiv</li>
-              <li class="offers-package-item">Backup, erweitert, Backup der Datenbanken Pods</li>
-              <li class="offers-package-item">Monitoring, Applikationsmonitoring und -alarming, pro 5 Applikationen</li>
-              <li class="offers-package-item">JBoss Middleware Subscriptions</li>
-              <li class="offers-package-item">Zusätzliche Nodes</li>
-              <li class="offers-package-item">Zusätzliche Storage</li>
-            </ul>
-          </article>
-        </div>
-      </div>
-  </section>
-
-  <a name="offers-one-contact"></a>
-  <section class="offer-contact">
-    <div class="grid-container">
-      <h2 class="offer-on1-contact-title">Kontakt</h2>
-      <form id="offer-on1-contact-form" class="offers-contact-container">
-        <div class="home-contact-interest interest-container">
-          <h3 class="interest-title"><%= t(:homeContactSubject) %></h3>
-          <div class="interest-item">
-            <input id="interest-cluster" value="offer two " type="checkbox" name="interests[]" class="interest-checkbox">
-            <label for="interest-cluster"><%= evil_icon 'ei-close', class: "interest-icon" %> Small</label>
-          </div>
-          <div class="interest-item">
-            <input id="interest-beta" value="<%= t(:homeContactSubjectTwo) %>" type="checkbox" name="interests[]" class="interest-checkbox">
-            <label for="interest-beta"><%= evil_icon 'ei-close', class: "interest-icon" %> Medium</label>
-          </div>
-          <div class="interest-item">
-            <input id="interest-paas" value="<%= t(:homeContactSubjectThree) %>" type="checkbox" name="interests[]" class="interest-checkbox">
-            <label for="interest-paas"><%= evil_icon 'ei-close', class: "interest-icon" %> Large</label>
-          </div>
-          <div class="interest-item">
-            <input id="interest-paas" value="<%= t(:homeContactSubjectThree) %>" type="checkbox" name="interests[]" class="interest-checkbox">
-            <label for="interest-paas"><%= evil_icon 'ei-close', class: "interest-icon" %> Add Ons</label>
-          </div>
-        </div>
-        <div class="home-contact-form">
-          <input title="Vorname" type="text" name="nachname" class="contact-input" placeholder="Vorname" required>
-          <input title="Name" type="text" name="vorname" class="contact-input" placeholder="Name" required>
-          <input type="email" name="email" class="contact-input" placeholder="Email" required>
-          <input type="text" name="phone" placeholder="Telefon" class="contact-input" required>
-          <textarea title="Nachricht" id="message" name="message" cols="30" rows="6" class="contact-textarea" placeholder="Nachricht" required></textarea>
-        </div>
-        <label class="home-contact-button button-progress">
-          <input type="submit" class="button is-round" value="<%= t(:homeContactSend) %>">
-        </label>
-      </form>
-    </section>
