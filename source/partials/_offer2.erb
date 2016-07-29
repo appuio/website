@@ -1,32 +1,55 @@
-<section class="offer-two">
+<section class="offer-two offer-two-intro">
   <div class="grid-container">
     <h2 class="offers-title"><%= t(:offerTwoTitle) %></h2>
     <p class="offers-intro"><%= t(:offerTwoIntro) %></p>
 
-    <div class="offers-container">
-      <article class="offers-item is-turkislight">Auf Ihre Bedürfnisse zugeschnittene Bundles</article>
-      <article class="offers-item is-turkislight">Von Entwicklern für Entwickler: Forum, Dokumentation und Community </article>
-      <article class="offers-item is-turkislight">Wir kümmern uns um Backup, Monitoring, Updates und Support</article>
+    <div class="grid-container">
+      <div class="offer-container">
+        <article class="offer-item is-third has-white-font">
+          <span class="offer-item-image"><%= image_tag "bundles.svg", :alt => 'Auf Ihre Bedürfnisse zugeschnittene Bundles' %></span>
+          <h1>1</h1>
+          <p class="offer-item-desc">Auf Ihre Bedürfnisse zugeschnittene Bundles</p>
+        </article>
+        <article class="offer-item is-third has-white-font">
+          <span class="offer-item-image"><%= image_tag "community.svg", :alt => 'Von Entwicklern für Entwickler' %></span>
+          <h1>2</h1>
+          <p class="offer-item-desc">Von Entwicklern für Entwickler: Forum, Dokumentation und Community</p>
+        </article>
+        <article class="offer-item is-third has-white-font">
+          <span class="offer-item-image"><%= image_tag "backup.svg", :alt => 'Wir kümmern uns um Backup, Monitoring, Updates und Support' %></span>
+          <h1>3</h1>
+          <p class="offer-item-desc">Wir kümmern uns um Backup, Monitoring, Updates und Support</p>
+        </article>
+      </div>
+      <p class="offers-services-desc">Ihre APPUiO Managed Private PaaS wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.</p>
     </div>
+</div>
+</section>
 
-    <p class="offers-services-desc"><%= t(:offerTwoServicesDesc) %></p>
-
-    <!-- <h3 class="offers-package-title">Wählen Sie das für Ihre Bedürfnisse passende Paket:</h3> -->
+<section class="offer-two-offers">
+  <div class="grid-container">
+    <h3 class="offers-package-title">Wählen Sie das für Ihre Bedürfnisse passende Paket:</h3>
 
     <div class="offers-package-container">
+      <article class="offers-package is-banner-before">
+        <h1 class="offers-banner-title promotion">Promotion</h1>
+        <p class="offers-banner-desc">Startup promotion for August 2016 ff. 3 months for free if signing a 1 year contract. 6 months for free if signing a 1 year contract AND attending one ore more TechLabs.</p>
+      </article>
       <article class="offers-package is-fourth">
+        <!-- <a href="#offers-two-contact" class="" data-check="interest-test" style="text-decoration:none;cursor:pointer;"> -->
         <h3 class="offers-package-list-title">Micro</h3>
         <ul class="offers-package-list">
-          <li class="offers-package-item">HF 49.00 / Monat</li>
+          <li class="offers-package-item">CHF 49.- / Monat</li>
           <li class="offers-package-item">CPU 500m</li>
           <li class="offers-package-item">Memory 512Mi</li>
           <li class="offers-package-item">Persistent Volume inkl. 5 GB</li>
         </ul>
+        <!-- </a> -->
       </article>
       <article class="offers-package is-fourth">
         <h3 class="offers-package-list-title">Medium</h3>
         <ul class="offers-package-list">
-          <li class="offers-package-item">CHF 95.00 / Monat</li>
+          <li class="offers-package-item">CHF 95.- / Monat</li>
           <li class="offers-package-item">CPU 750m</li>
           <li class="offers-package-item">Memory 1GBi</li>
           <li class="offers-package-item">Persistent Volume inkl. 10 GB</li>
@@ -35,7 +58,7 @@
       <article class="offers-package is-fourth">
         <h3 class="offers-package-list-title">Large</h3>
         <ul class="offers-package-list">
-          <li class="offers-package-item">CHF 189.00 / Monat</li>
+          <li class="offers-package-item">CHF 189.- / Monat</li>
           <li class="offers-package-item">CPU1000m</li>
           <li class="offers-package-item">Memory 2GBi</li>
           <li class="offers-package-item">Persistent Volume inkl. 20 GB</li>
@@ -44,37 +67,68 @@
       <article class="offers-package is-fourth">
         <h3 class="offers-package-list-title">X-Large</h3>
         <ul class="offers-package-list">
-          <li class="offers-package-item">CHF 379.00 / Monat</li>
+          <li class="offers-package-item">CHF 379.- / Monat</li>
           <li class="offers-package-item">CPU2000m</li>
           <li class="offers-package-item">Memory 4GBi</li>
           <li class="offers-package-item">Persistent Volume 50 GB</li>
         </ul>
       </article>
-      <article class="offers-package has">
-        <h3 class="offers-package-list-title">Custom</h3>
+      <article class="offers-package last-child">
+        <h3 class="offers-package-list-title">Persistent Storage Add Ons</h3>
         <p class="offers-package-pretext">Auf Anfrage</p>
+        <ul class="offers-package-list">
+          <li class="offers-package-item">10 GB CHF 6.70</li>
+          <li class="offers-package-item">20 GB CHF 10.00</li>
+          <li class="offers-package-item">50 GB CHF 19.00</li>
+          <li class="offers-package-item">100 GB CHF 25.00</li>
+        </ul>
+      </article>
+      <article class="offers-package is-banner-after">
+        <h1 class="offers-banner-title">Custom</h1>
+        <p class="offers-banner-desc">Auf Anfrage</p>
       </article>
     </div>
 
-    <h3 class="offers-title">Promotion</h3>
-    <p class="offers-desc">
-      Startup promotion for August 2016 ff.
-    </p>
-    <p class="offers-desc">
-      3 months for free if signing a 1 year contract. 6 months for free if signing a 1 year contract AND attending one ore more TechLabs.
-    </p>
-
-    <h3 class="offers-title">Persistent Storage Add Ons</h3>
-    <div class="offers-container">
-      <div class="offers-bulletpoints">
-        <ul>
-          <li>10 GB CHF 6.70</li>
-          <li>20 GB CHF 10.00</li>
-          <li>50 GB CHF 19.00</li>
-          <li>100 GB CHF 25.00</li>
-        </ul>
-      </div>
-    </div>
   </div>
-
 </section>
+
+<a name="offers-two-contact"></a>
+<section class="offer-contact">
+  <div class="grid-container">
+    <h2 class="offer-two-contact-title">Kontakt</h2>
+    <form id="offer-two-contact-form" class="offers-contact-container">
+      <div class="home-contact-interest interest-container">
+        <h3 class="interest-title"><%= t(:homeContactSubject) %></h3>
+        <div class="interest-item">
+          <input id="interest-cluster" value="offer two " type="checkbox" name="interests[]" class="interest-checkbox">
+          <label for="interest-cluster"><%= evil_icon 'ei-close', class: "interest-icon" %> Micro</label>
+        </div>
+        <div class="interest-item">
+          <input id="interest-beta" value="<%= t(:homeContactSubjectTwo) %>" type="checkbox" name="interests[]" class="interest-checkbox">
+          <label for="interest-beta"><%= evil_icon 'ei-close', class: "interest-icon" %> Medium</label>
+        </div>
+        <div class="interest-item">
+          <input id="interest-paas" value="<%= t(:homeContactSubjectThree) %>" type="checkbox" name="interests[]" class="interest-checkbox">
+          <label for="interest-paas"><%= evil_icon 'ei-close', class: "interest-icon" %> Large</label>
+        </div>
+        <div class="interest-item">
+          <input id="interest-newsletter" value="<%= t(:homeContactSubjectFive) %>" type="checkbox" name="interests[]" class="interest-checkbox" >
+          <label for="interest-newsletter"><%= evil_icon 'ei-close', class: "interest-icon" %> X-Large</label>
+        </div>
+        <div class="interest-item">
+          <input id="interest-info" value="<%= t(:homeContactSubjectFour) %>" type="checkbox" name="interests[]" class="interest-checkbox" checked>
+          <label for="interest-info"><%= evil_icon 'ei-close', class: "interest-icon" %> Custom</label>
+        </div>
+      </div>
+      <div class="home-contact-form">
+        <input title="Vorname" type="text" name="nachname" class="contact-input" placeholder="Vorname" required>
+        <input title="Name" type="text" name="vorname" class="contact-input" placeholder="Name" required>
+        <input type="email" name="email" class="contact-input" placeholder="Email" required>
+        <input type="text" name="phone" placeholder="Telefon" class="contact-input" required>
+        <textarea title="Nachricht" id="message" name="message" cols="30" rows="6" class="contact-textarea" placeholder="Nachricht" required></textarea>
+      </div>
+      <label class="home-contact-button button-progress">
+        <input type="submit" class="button is-round" value="<%= t(:homeContactSend) %>">
+      </label>
+    </form>
+  </section>

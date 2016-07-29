@@ -2,10 +2,31 @@
 // ----------------------------------------------
 .offer-one,
 .offer-two,
-.offer-three {
-  background-color: #ffffff;
-  padding: rem-calc(20 0);
+.offer-three,
+.offer-one-intro,
+.offer-one-services,
+.offer-one-offers  {
+  padding: rem-calc(60 0);
   text-align: center;
+}
+
+.offer-one-intro,
+.offer-two-intro,
+.offer-three-intro {
+  background-color: $color-blue;
+  color: white;
+}
+.offer-one-services {
+  background-color: white;
+}
+.offer-one-offers {
+  background-color: $color-lightblue;
+  color: white;
+}
+.offer-two-offers {
+  background-color: $color-lightblue;
+  color: white;
+  padding: rem-calc(60 0);
 }
 
 .offer-contact {
@@ -21,37 +42,38 @@
 // Content Styling
 // ----------------------------------------------
 
-
+.offers-intro {
+  font-size: rem-calc(36);
+  line-height: rem-calc(44);
+  @include susy-breakpoint($break-medium) {
+    @include span(10 of 12);
+    @include squish(1, 1);
+  }
+}
 .offers-desc,
-.offers-package-desc,
-.offers-intro,
-.offers-title {
-  //@include susy-breakpoint($break-medium) {
-  //  @include span(12 of 12);
-  //  @include squish(1,1);
-  //}
-
-}
-
-.offers-package-title {
-  text-align: center;
+.offers-package-desc {
   @include susy-breakpoint($break-medium) {
-    @include span(12 of 12);
+    @include span(8 of 12);
+    @include squish(2, 2);
   }
 }
-.offers-container {
-  display: flex;
-  //flex-flow: row wrap;
-  flex-direction: column;
+
+.offers-bulletpoints {
   clear: both;
+  display: flex;
   justify-content: center;
+  @include squish(1,1);
+  flex-direction: column;
+  padding-top: rem-calc(16);
+  padding-bottom: rem-calc(16);
 
   @include susy-breakpoint($break-medium) {
-    flex-direction: row;
-    //flex-flow: row wrap;
+    flex-flow: row wrap;
   }
 }
-
+.flex-item {
+  flex: 1 50%;
+}
 .offers-bulletpoints > ul {
   & > li {
     line-height: rem-calc(24);
@@ -59,56 +81,55 @@
   }
 }
 
-.offers-item {
-  flex: 1 auto;
-  text-align: center;
-  padding: rem-calc(12 16);
-  background: #002F47;
-  color: white;
-  border: 2px solid white;
-  box-sizing: border-box;
-  border-radius: 1px;
-  font-size: rem-calc(14);
-  //width:25%;
+.offer-container {
+  display: flex;
+  flex-flow: column;
+  clear: both;
+  //justify-content: center;
 
-  //@include susy-breakpoint($break-medium) {
-  //  width: 25%;
-  //}
-
-
-  &.is-empty {
-    background: transparent;
-  }
-  &.is-orange {
-    color: #000;
-    background: #FF931E;
-  }
-  &.is-turkis {
-    color: #000;
-    background: #15B0BF;
-  }
-  &.is-turkislight {
-    color: #000;
-    background: #B2E6EC;
-  }
-  &.is-yellow {
-    color: #000;
-    background: #FFD301;
+  @include susy-breakpoint($break-medium) {
+    //flex-direction: row;
+    flex-flow: row wrap;
   }
 }
 
+.offer-item {
+  flex: 1 100%;
+  width: 100%;
+  text-align: center;
+  margin: rem-calc(20 0);
+  color: black;
+  @include susy-breakpoint($break-medium) {
+    margin: rem-calc(60 0);
+  }
+  &.is-third {
+    flex: 1 33%;
+    padding: rem-calc(0 16);
+  }
+  &.has-white-font {
+    color: white;
+  }
+}
+//.offer-item.is-thid {
+//  flex: 1 33%;
+//  padding: rem-calc(0 16);
+//}
+
+.offers-package-title {
+  text-align: center;
+  margin-bottom: rem-calc(60);
+  @include susy-breakpoint($break-medium) {
+    @include span(12 of 12);
+  }
+}
 .offers-package-container {
   display: flex;
   flex-flow: row wrap;
   align-content: space-between;
   width: 100%;
-  //align-items: flex-end;
-  margin: rem-calc(16 0);
-  background-color:lighten($color-grey, 5%);
-
-  //@include susy-breakpoint($break-large) {
-  //  min-width:33%;
-  //}
+  margin: rem-calc(32 0);
+  background-color:#0097a8;
+  border: 5px solid white;
 }
 .offers-package {
   flex: 1 auto;
@@ -117,7 +138,7 @@
 
   text-align: center;
   padding: rem-calc(16);
-  background-color: $color-lightblue;
+  background-color: #018290;
   color: white;
   margin: rem-calc(16);
 
@@ -140,12 +161,30 @@
     }
   }
 
-  &:last-child {
+  &.is-banner-before {
+    flex: 1 100%;
+    padding-left: rem-calc(16);
+    padding-right: rem-calc(16);
+    text-align: center;
+    background: transparent;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &.is-banner-after {
+    flex: 1 100%;
+    padding-right: rem-calc(16);
+    text-align: left;
+    background: transparent;
+    padding-left: rem-calc(16);
+  }
+
+  &.last-child {
     flex: 1 100%;
     text-align: left;
-    //background-color: transparent;
-    background-color: $color-grey;
-    color: black;
+    padding: rem-calc(16);
+    margin: rem-calc(16);
 
     & > ul {
       display: flex;
@@ -161,6 +200,21 @@
     }
   }
 }
+.offers-banner-title {
+  margin: 0;
+  flex: 1 100%;
+  width: 50%;
+  align-self: center;
+}
+.promotion {
+  border-top: 3px solid #98e2ea;
+  border-bottom: 3px solid #98e2ea;
+  padding: rem-calc(8);
+}
+.offer-banner-desc {
+  margin-bottom: 0;
+  flex: 1 100%;
+}
 
 .offers-package-list {
   padding: 0;
@@ -174,7 +228,19 @@
   padding: rem-calc(8);
   margin: rem-calc(8);
 }
-
+.offer-two-contact-form {
+  margin-top: rem-calc(25);
+  float: right;
+  margin-right: 0;
+  // flex: 2 100%;
+  @include susy-breakpoint($break-medium) {
+    @include span(6 of 12);
+    margin-top: rem-calc(50);
+    margin-bottom: rem-calc(25);
+  //   padding-left: rem-calc(15);
+  //   flex: 1 50%;
+  }
+}
 .offer-three-contact-form {
   margin-top: rem-calc(25);
   // flex: 2 100%;
