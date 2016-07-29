@@ -74,8 +74,7 @@ $color-third: lighten($color-blue, 15%);
 @import 'module/nav';
 @import 'module/partner';
 @import 'module/ribbon';
-@import 'module/fullPage';
-
+@import 'module/package';
 
 // Layout
 // ----------------------------------------------
@@ -126,3 +125,15 @@ $color-third: lighten($color-blue, 15%);
   //more of that
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
+//.is-small {
+//  font-size: rem-calc(16);
+//  line-height: rem-calc(32);
+//
+//  & > a {
+//    text-decoration: none;
+//
+//    &:hover {
+//      color: white;
+//    }
+//  }
+//}
