@@ -63,3 +63,10 @@
   display: inline-block;
   overflow: hidden;
 }
+.callout-image {
+  text-align: center;
+  line-height: rem-calc(96);
+  & > img {
+    vertical-align: middle;
+  }
+}

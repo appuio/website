@@ -51,6 +51,16 @@
 // Content Styling
 // ----------------------------------------------
 
+.offers-image {
+  text-align: center;
+  line-height: rem-calc(120);
+  margin: rem-calc(60 24 0);
+  & > img {
+    width: rem-calc(240);
+    height: rem-calc(240);
+  }
+}
+
 .offers-intro {
   font-size: rem-calc(36);
   line-height: rem-calc(44);
@@ -164,7 +174,7 @@
     @include span(6 last of 12);
     @include squish(3, 3);
   }
-  
+
   & > a {
     font-size: rem-calc(16);
     line-height: rem-calc(32);
