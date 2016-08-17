@@ -82,16 +82,26 @@
   $( "#offer-three-contact-form" ).submit(function( event ) {
     event.preventDefault();
     var valid = true;
+
     var vorname = $("[name='vorname']").val();
-    var nachname = $("[name='nachname']").val();
-    var email = $("[name='email']").val();
-    var phone = $("[name='phone']").val();
-    var message = $("[name='message']").val();
     if(!vorname) valid = false;
+
+    var nachname = $("[name='nachname']").val();
     if(!nachname) valid = false;
+
+    var email = $("[name='email']").val();
     if(!email || !email.match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) valid = false;
+
+    var phone = $("[name='phone']").val();
     if(!phone) valid = false;
+
+    var message = $("[name='message']").val();
     if(!message) valid = false;
+
+    var firma = $("[name='firma']").val() || '';
+    var addresse = $("[name='addresse']").val() || '';
+    var rechnungsadresse = $("[name='rechnungsadresse']").val() || '';
+
     if(valid) {
       $('<iframe>', {
         src: 'https://app.hatchbuck.com/onlineForm/submit.php?formID=60964925647&enableServerValidation=0&enable303Redirect=1&q1_firstName1='+vorname+'&q3_lastName3='+nachname+'&q4_email='+email+'&q6_interessen='+interests+'&q5_nachricht='+message,
