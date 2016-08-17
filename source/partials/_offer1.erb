@@ -76,7 +76,6 @@
               <li class="offers-package-item">1 TB Persistent Storage</li>
             </ul>
           </a>
-          <a class="offers-package last-child" href="#offers-one-contact" data-check="interest-addon">
             <h3 class="offers-package-list-title">Add Ons</h3>
             <p class="offers-package-pretext">Auf Anfrage</p>
             <ul class="offers-package-list">
@@ -88,7 +87,6 @@
               <li class="offers-package-item">Zusätzliche Nodes</li>
               <li class="offers-package-item">Zusätzliche Storage</li>
             </ul>
-          </a>
         </div>
       </div>
   </section>
@@ -96,7 +94,7 @@
   <a name="offers-one-contact"></a>
   <section class="offer-contact">
     <div class="grid-container">
-      <h2 class="offer-one-contact-title">Kontakt</h2>
+      <h2 class="offer-one-contact-title">Meine PaaS</h2>
       <form id="offer-one-contact-form" class="offers-contact-container">
         <div class="home-contact-interest interest-container">
           <h3 class="interest-title"><%= t(:homeContactSubject) %></h3>
@@ -112,10 +110,6 @@
             <input id="interest-large" value="Large" type="checkbox" name="interests[]" class="interest-checkbox">
             <label for="interest-large"><%= evil_icon 'ei-close', class: "interest-icon" %> Large</label>
           </div>
-          <div class="interest-item">
-            <input id="interest-addon" value="Add Ons" type="checkbox" name="interests[]" class="interest-checkbox">
-            <label for="interest-addon"><%= evil_icon 'ei-close', class: "interest-icon" %> Add Ons</label>
-          </div>
         </div>
         <div class="home-contact-form">
           <input title="Vorname" type="text" name="nachname" class="contact-input" placeholder="Vorname" required>
@@ -126,7 +120,7 @@
           <textarea title="Nachricht" id="message" name="message" cols="30" rows="6" class="contact-textarea" placeholder="Nachricht" required></textarea>
         </div>
         <label class="home-contact-button button-progress">
-          <input type="submit" class="button is-round" value="<%= t(:homeContactSend) %>">
+          <input type="submit" class="button is-round" value="<%= t(:offerOrderSend) %>">
         </label>
       </form>
     </section>

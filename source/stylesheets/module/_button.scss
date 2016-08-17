@@ -27,7 +27,7 @@ Three sizes for the buttons: small, medium (default) and big.
 ```
 */
 
-.button, 
+.button,
 button.button,
 a.button {
   display: inline-block;
@@ -128,4 +128,8 @@ a.button {
   100% {
     transform: translate(-50%, 0) scale(1);
   }
+}
+
+.button:disabled {
+  border: 4px solid #e5eaed;
 }

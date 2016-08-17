@@ -94,7 +94,7 @@
 <a name="offers-two-contact"></a>
 <section class="offer-contact">
   <div class="grid-container">
-    <h2 class="offer-two-contact-title">Kontakt</h2>
+    <h2 class="offer-two-contact-title">Meine PaaS</h2>
     <form id="offer-two-contact-form" class="offers-contact-container">
       <div class="home-contact-interest interest-container">
         <h3 class="interest-title"><%= t(:homeContactSubject) %></h3>
@@ -123,16 +123,23 @@
         <input title="Vorname" type="text" name="nachname" class="contact-input" placeholder="Vorname" required>
         <input title="Name" type="text" name="vorname" class="contact-input" placeholder="Name" required>
         <input title="Email" type="email" name="email" class="contact-input" placeholder="Email" required>
-        <input title="Adresse" type="text" name="adresse" class="contact-input" placeholder="Adresse" required>
+        <input title="Strasse" type="text" name="strase" class="contact-input" placeholder="Strasse" required>
+        <input title="PLZ, Ort" type="text" name="plz" class="contact-input" placeholder="PLZ, Ort" required>
         <input title="Rechnungsadresse" type="text" name="rechnungsadresse" class="contact-input" placeholder="Rechnungsadresse" required>
         <input type="text" name="phone" placeholder="Telefon" class="contact-input" required>
         <textarea title="Nachricht" id="message" name="message" cols="30" rows="6" class="contact-textarea" placeholder="Nachricht" required></textarea>
       </div>
       <div class="offer-three-terms">
-          <a href="#">Terms and Conditions</a>
+        <input type="checkbox" name="terms" id="terms"><label class="" for="terms">I agree to the <a href="#">Terms and Conditions</a></label>
+        <!-- <div class="interest-item">
+          <input id="interest-newsletter" value="<%= t(:offerTwoTerms) %>" type="checkbox" name="interests[]" class="interest-checkbox" >
+          <label for="interest-newsletter"><%= evil_icon 'ei-close', class: "interest-icon interest-icon-simple" %> <%= t(:offerTwoTerms) %></label>
+        </div> -->
       </div>
+
+
       <label class="home-contact-button button-progress">
-        <input type="submit" class="button is-round" value="<%= t(:homeContactSend) %>">
+        <input type="submit" class="button is-round" value="<%= t(:offerOrderSend) %>" disabled>
       </label>
     </form>
   </section>

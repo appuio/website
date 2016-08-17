@@ -12,6 +12,15 @@
     }
   });
 
+  // Enable Button when Terms are checked
+  // var checkboxes = $("input[type='checkbox']"),
+  var checkboxes = $("input[name='terms']"),
+      submitButt = $("input[type='submit']");
+
+  checkboxes.click(function() {
+    submitButt.attr("disabled", !checkboxes.is(":checked"));
+  });
+
   // Animate to scroll
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
