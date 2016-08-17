@@ -56,6 +56,9 @@ de:
   homeFeatureSecureTitle: Secured container
   homeFeatureSecureDesc: Sichere Plattform dank SELinux von Red Hat Enterprise Linux. Datenhaltung in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz.
   homeFeatureSecureAlt: Safe container with a swiss  éàlkja locker
+  homeFeatureEncryptTitle: Lets Encrypt SSL/TLS Routen auf Knopfdruck
+  homeFeatureEncryptDesc: APPUiO erlaubt es ihnen mittels Lets Encrypt einfach per Knopfdruck echte SSL Zertifikate in ihren Routen zu konfigurieren. Nach erfolgter Registrierung sorgt APPUiO für die Aktualisierung der Lets Encrypt Zertifikate, welche nur 3 Monate gültig sind, und ersetzt diese automatisch nach Ablauf. Sie müssen sich danach nicht mehr darum kümmern.
+  homeFeatureEncryptAlt: Lets Encrypt SSL/TLS Routen auf Knopfdruck
 
 # Home: Contact Section
   homeContactTitle: Kontakt
