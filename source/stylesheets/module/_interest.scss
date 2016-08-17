@@ -1,10 +1,13 @@
-.interest-item {
+.interest-item,
+.interest-light {
   position: relative;
+  text-align: left;
+}
+.interest-item {
   font-size: rem-calc(16);
   line-height: rem-calc(16);
   letter-spacing: rem-calc(1);
   text-transform: uppercase;
-  text-align: left;
   margin-top: rem-calc(25);
 }
 .interest-title {
@@ -21,14 +24,22 @@
   position: absolute;
   opacity: 0;
 }
-.interest-checkbox + label {
+.interest-item .interest-checkbox + label,
+.interest-light .interest-checkbox + label {
   display: block;
-  background: #002F47;
-  padding: rem-calc(15 12 15 48);
-  border: 1px solid #99ABB5;
+  padding: rem-calc(12 12 12 48);
   color: #99ABB5;
   cursor: pointer;
   transition: border 100ms ease, color 100ms ease;
+
+  a:hover {
+    color: white;
+  }
+}
+.interest-item .interest-checkbox + label {
+  background: #002F47;
+  padding: rem-calc(15 12 15 48);
+  border: 1px solid #99ABB5;
 }
 .interest-icon {
   display: block;

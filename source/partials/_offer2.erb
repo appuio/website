@@ -130,7 +130,10 @@
         <textarea title="Nachricht" id="message" name="message" cols="30" rows="6" class="contact-textarea" placeholder="Nachricht" required></textarea>
       </div>
       <div class="offer-three-terms">
-        <input type="checkbox" name="terms" id="terms"><label class="" for="terms">I agree to the <a href="#">Terms and Conditions</a></label>
+        <div class="interest-light">
+          <input type="checkbox" name="terms" id="terms" class="interest-checkbox">
+          <label for="terms"><%= evil_icon 'ei-close', class: "interest-icon" %> I agree to the <a href="#">Terms and Conditions</a></label>
+        </div>
         <!-- <div class="interest-item">
           <input id="interest-newsletter" value="<%= t(:offerTwoTerms) %>" type="checkbox" name="interests[]" class="interest-checkbox" >
           <label for="interest-newsletter"><%= evil_icon 'ei-close', class: "interest-icon interest-icon-simple" %> <%= t(:offerTwoTerms) %></label>
