@@ -16,10 +16,12 @@
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
+      var headerHeight = $('.header-container').outerHeight();
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      console.log(headerHeight);
       if (target.length) {
         $('html, body').animate({
-          scrollTop: target.offset().top
+          scrollTop: target.offset().top - headerHeight
         }, 1000);
         return false;
       }
