@@ -13,7 +13,7 @@ de:
   navOffers: Angebot
   navOffer1: Managed Private PaaS
   navOffer2: Public PaaS
-  navOffer3: On premise PaaS
+  navOffer3: On Premise PaaS
   navFeatures: Features
   navContact: Kontakt
   navFAQ: FAQ
@@ -32,7 +32,7 @@ de:
   homeOfferTwoDesc: BETA - Melden Sie sich gratis für das APPUiO-Betaprogramm an und werden Sie Teil der Community. Das Betaprogramm läuft seit März 2016.
   homeOfferTwoButton: Join the community
 
-  homeOfferThreeTitle: On premise PaaS
+  homeOfferThreeTitle: On Premises PaaS
   homeOfferThreeDesc: Ihre PaaS in Ihrem Rechenzentrum, optimal integriert in Ihre Infrastruktur. Wir begleiten Sie von der Idee über die Umsetzung und falls gewünscht bis zum Betrieb.
   homeOfferThreeButton: Details
   homeOfferDesc: Unser APPUiO Public PaaS Angebot wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
@@ -67,7 +67,7 @@ de:
   homeContactSubject: Ich interessiere mich für…
   homeContactSubjectOne: Managed Private PaaS
   homeContactSubjectTwo: Teilnahme Betaphase
-  homeContactSubjectThree: On PREMISE PaaS
+  homeContactSubjectThree: On Premises PaaS
   homeContactSubjectFour: Allgemeine Informationen
   homeContactSubjectFive: Newsletter
   homeContactYourFirstName: Vorname
@@ -88,6 +88,18 @@ de:
   offerOneServicesDesc: Ihre APPUiO Managed Private PaaS wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
   offerOneServiceTitle: Neben einem optimalen Datenschutz bieten wir Ihnen folgende zusätzliche Services
 
+  offerOneList1: Basis für DevOps
+  offerOneList2: 09:00 - 18:00 Telefon + Email support
+  offerOneList3: Proaktives Alarming Monitoring
+  offerOneList4: Update und Servermanagement
+  offerOneList5: Datenstandort Interxion Schweiz
+  offerOneList6: Backup an einen zweiten Standort
+  offerOneList7: Small - Medium - Large: Auf Sie zugeschnittene Angebote
+
+  offerOneServices1: Consulting Setup und Initialisierung
+  offerOneServices2: Bring my App to the Cloud - wir beraten und setzen auch um
+  offerOneServices3: Automatisierung Ihrer Prozesse: Continuos Delivery und Continuous Deployment Ihrer Applikationen
+
   offerContactOneSmall: Small
   offerContactOneMedium: Medium
   offerContactOneLarge: Large
@@ -99,8 +111,9 @@ de:
 
   offerTwoTerms: Ich akzeptiere die Terms & Conditions
   offerTwoSend: Bestellen
-# On Premise PaaS
-  offerThreeTitle: On Premise PaaS
+
+# On Premises PaaS
+  offerThreeTitle: On Premises PaaS
   offerThreeIntro: Ihre PaaS in Ihrem Rechenzentrum, optimal integriert in Ihre Infrastruktur. Wir begleiten Sie von der Idee über die Umsetzung und falls gewünscht bis zum Betrieb.
   offerThreeServicesDesc: Die Flexibiltät APPUiOs erlaubt die Integration in komplexe, bestehende Infrastrukturen. Hier eine Liste möglicher Integrationspunkte, welche durch APPUiO resp. OpenShift abgedeckt werden können.
   offerThreeServices1: APPUiO läuft auf Red Hat Enterprise Linux (RHEL) 7 (bare metal, virtuell, Cloud)
