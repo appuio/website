@@ -57,6 +57,10 @@ end
 require 'evil_icons'
 helpers EvilIcons::Helpers
 
+# Redirects
+redirect "/offers/", to: "/index.html"
+
+
 ###
 # Helpers
 ###
