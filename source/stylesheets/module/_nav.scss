@@ -45,6 +45,11 @@ Responsive hotizontal menu.
   @include susy-breakpoint($break-medium) {
     overflow: visible;
   }
+
+  li.active {
+    background: #FFD301;
+    color: #002F47;
+  }
 }
 
 .nav-global {

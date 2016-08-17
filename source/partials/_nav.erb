@@ -8,9 +8,9 @@
     <li>
       <a href="./#offer"><%= t(:navOffers) %></a>
       <ul>
-        <li><a href="managed-private-paas.html"><%= t(:navOffer1) %></a></li>
-        <li><a href="public-paas.html"><%= t(:navOffer2) %></a></li>
-        <li><a href="on-premise-paas.html"><%= t(:navOffer3) %></a></li>
+        <li class="<%= nav_active('managed-private-paas.html') %>"><a href="managed-private-paas.html"><%= t(:navOffer1) %></a></li>
+        <li class="<%= nav_active('public-paas.html') %>"><a href="public-paas.html"><%= t(:navOffer2) %></a></li>
+        <li class="<%= nav_active('on-premise-paas.html') %>"><a href="on-premise-paas.html"><%= t(:navOffer3) %></a></li>
       </ul>
     </li>
     <li>
@@ -22,7 +22,7 @@
   </ul>
   <ul class="nav-global is-horizontal">
     <li><a target="_blank" href="http://docs.appuio.ch"><%= t(:navGlobalDocs) %></a></li>
-    <li><a href="faq.html"><%= t(:navGlobalFAQ) %></a></li>
+    <li class="<%= nav_active('faq.html') %>"><a href="faq.html"><%= t(:navGlobalFAQ) %></a></li>
     <li><a target="_blank" href="http://forum.appuio.ch"><%= t(:navGlobalForum) %></a></li>
     <li><a target="_blank" href="#"><%= t(:navGlobalLogin) %></a></li>
   </ul>

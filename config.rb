@@ -60,11 +60,11 @@ helpers EvilIcons::Helpers
 ###
 # Helpers
 ###
-# helpers do
-#   def is_page_active(page)
-#     current_page.url == page ? {:class => 'is-active'} : {}
-#   end
-# end
+helpers do
+  def nav_active(path)
+    current_page.path == path ? "active" : ""
+  end
+end
 # Would theoretically create class for pages - but doesnt work yet - source: https://benfrain.com/understanding-middleman-the-static-site-generator-for-faster-prototyping/
 # def page_classes
 #   path = request.path_info.dup
