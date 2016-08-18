@@ -1,0 +1,14 @@
+app:
+  build: .
+  #command: /app/bundle_helper.sh
+  command: bash
+  volumes:
+    - .:/app
+  volumes_from:
+    - bundle_data
+
+bundle_data:
+  image: busybox
+  volumes:
+    - /bundle
+

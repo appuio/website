@@ -43,15 +43,6 @@ end
 activate :i18n
 activate :automatic_image_sizes
 
-activate :deploy do |deploy|
-  deploy.deploy_method   = :sftp
-  deploy.host            = ENV['SFTP_SERVER_NAME']
-  deploy.port            = 22
-  deploy.path            = ENV['SFTP_DEPLOY_PATH']
-  deploy.user            = ENV['SFTP_USERNAME']
-  deploy.password        = ENV['SFTP_PASSWORD']
-  deploy.build_before = true
-end
 
 # Evil icons https://github.com/outpunk/evil-icons
 require 'evil_icons'
