@@ -46,13 +46,6 @@ end
 activate :i18n
 activate :automatic_image_sizes
 
-activate :deploy do |deploy|
-  deploy.deploy_method   = :rsync
-  deploy.host            = ENV['RSYNC_SERVER_NAME']
-  deploy.path            = ENV['RSYNC_DEPLOY_PATH']
-  deploy.user            = ENV['RSYNC_USERNAME']
-  deploy.build_before = true
-end
 
 # Evil icons https://github.com/outpunk/evil-icons
 require 'evil_icons'
