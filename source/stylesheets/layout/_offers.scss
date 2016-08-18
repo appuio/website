@@ -170,6 +170,8 @@
   margin: 0 auto;
   clear: both;
   padding: rem-calc(16 0);
+  display: flex;
+  justify-content: center; 
   @include susy-breakpoint($break-medium) {
     @include span(6 last of 12);
     @include squish(3, 3);
