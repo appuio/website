@@ -37,7 +37,8 @@ a.button {
   color: #002F47;
   font-size: rem-calc(14);
   line-height: rem-calc(24);
-  white-space: nowrap;
+  //white-space: nowrap;
+  white-space: normal;
   vertical-align: middle;
   text-decoration: none;
   text-transform: uppercase;
@@ -45,6 +46,9 @@ a.button {
   user-select: none;
   transition: all 300ms ease-in-out;
   -webkit-appearance: none;
+  @include susy-breakpoint($break-small) {
+    margin-top: rem-calc(12);
+  }
   &.is-round {
     border-radius: rem-calc(24);
   }
