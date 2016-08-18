@@ -12,7 +12,7 @@ title: APPUiO - Swiss Enterprise PaaS - Container Runtime
   <section class="home-hero">
     <div class="home-news news-banner">
       <div class="grid-container">
-        <p><strong>NEWS</strong> &nbsp; APPUiO jetzt auch auf Französich. Génial!</p>
+        <p><strong><%= t(:homeNewsTitle) %></strong> &nbsp; <%= t(:homeNewsText) %></p>
       </div>
     </div>
     <div class="home-hero-illus">
@@ -21,7 +21,7 @@ title: APPUiO - Swiss Enterprise PaaS - Container Runtime
     <a name="overview"></a>
     <div class="grid-container">
       <h1 class="home-hero-title"><%= t(:homeHeroTitle) %></h1>
-      <p class="home-hero-cta"><a href="" class="button is-round is-big">Sign up for public paas</a></p>
+      <p class="home-hero-cta"><a href="" class="button is-round is-big"><%= t(:homeHeroSignup) %></a></p>
       <p class="home-hero-desc"><%= t(:homeHeroDesc) %></p>
       <a href="https://www.openshift.com/" target="_blank" class="home-hero-tech badge">
         <%= image_tag "openshift_logo.svg", :alt => 'Openshift', :class => 'home-hero-logo' %>

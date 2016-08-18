@@ -100,16 +100,16 @@
         <div class="home-contact-interest interest-container">
           <h3 class="interest-title"><%= t(:homeContactSubject) %></h3>
           <div class="interest-item">
-            <input id="interest-small" value="Small" type="checkbox" name="interests[]" class="interest-checkbox">
-            <label for="interest-small"><%= evil_icon 'ei-close', class: "interest-icon" %> Small</label>
+            <input id="interest-small" value="<%= t(:offerOnePackageSmallTitle) %>" type="checkbox" name="interests[]" class="interest-checkbox">
+            <label for="interest-small"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerOnePackageSmallTitle) %></label>
           </div>
           <div class="interest-item">
-            <input id="interest-medium" value="Medium" type="checkbox" name="interests[]" class="interest-checkbox">
-            <label for="interest-medium"><%= evil_icon 'ei-close', class: "interest-icon" %> Medium</label>
+            <input id="interest-medium" value="<%= t(:offerOnePackageMediumTitle) %>" type="checkbox" name="interests[]" class="interest-checkbox">
+            <label for="interest-medium"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerOnePackageMediumTitle) %></label>
           </div>
           <div class="interest-item">
-            <input id="interest-large" value="Large" type="checkbox" name="interests[]" class="interest-checkbox">
-            <label for="interest-large"><%= evil_icon 'ei-close', class: "interest-icon" %> Large</label>
+            <input id="interest-large" value="<%= t(:offerOnePackageLargeTitle) %>" type="checkbox" name="interests[]" class="interest-checkbox">
+            <label for="interest-large"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerOnePackageLargeTitle) %></label>
           </div>
         </div>
         <div class="home-contact-form">

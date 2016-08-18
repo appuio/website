@@ -13,14 +13,17 @@ de:
   navOffers: Angebot
   navOffer1: Managed Private PaaS
   navOffer2: Public PaaS
-  navOffer3: On Premise PaaS
+  navOffer3: On Premises PaaS
   navFeatures: Features
   navContact: Kontakt
   navFAQ: FAQ
 
 # Home Seite
+  homeNewsTitle: News
+  homeNewsText: APPUiO jetzt auch auf Französich. Génial!
   homeHeroAlt: APPUiO - Swiss Enterprise PAAS
   homeHeroTitle: Eine Plattform für das Design, die Entwicklung und den Betrieb Ihrer Anwendung. Betreiben Sie ihren Container Workload auf APPUiO.
+  homeHeroSignup: Sign up for public paas
   homeHeroDesc: APPUiO - die Schweizer Enterprise PaaS (Platform as a Service) von Entwicklern für Entwickler. APPUiO basiert auf der “next generation PaaS” OpenShift Enterprise V3 von Red Hat. Auf der Basis bewährter Open Source Konzepte wie Docker und Kubernetes entwickeln, betreiben und skalieren Sie Ihre Anwendung passend auf Ihre Bedürfnisse. Mit dieser Technologie können Applikationen sowohl auf Public Clouds als auch unternehmensintern betrieben werden.
 
 # Home: Offer Section
@@ -82,7 +85,6 @@ de:
 # Angebots Seiten / generisch für alle drei Angebote
   offerOrderSend: Bestellen
   offerContactTitle: Meine APPUiO PaaS
-  offerIso: Unser APPUiO Public PaaS Angebot wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
 
 # Managed Private PaaS
   offerOneTitle: Managed Private PaaS
@@ -184,7 +186,8 @@ de:
 
   offerTwoContactTitle:
 
-  offerTwoTerms: Ich akzeptiere die Terms & Conditions
+  offerTwoTerms1: Ich akzeptiere die
+  offerTwoTerms2: Terms & Conditions
   offerTwoSend: Bestellen
 
 # On Premises PaaS
