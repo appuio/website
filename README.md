@@ -36,8 +36,7 @@ First of all, be sure to run under ```Ruby v2.2.2``` at least, then:
     
 ## Deploy the Website to an sftp Server
 
-    $ export SFTP_SERVER_NAME='example.com'
-    $ export SFTP_USERNAME='username'
-    $ export SFTP_PASSWORD='pw'
-    $ export SFTP_DEPLOY_PATH='/the/path'
+    $ export RSYNC_SERVER_NAME='example.com'
+    $ export RSYNC_USERNAME='username'
+    $ export RSYNC_DEPLOY_PATH='/the/path'
     $ bundle exec middleman deploy
