@@ -1,6 +1,13 @@
 .ribbon-fixed {
-  position:fixed;
+  display: block;
+  visibility: visible;
+  //position: relative;
+  @include susy-breakpoint($break-medium) {
+    display: none;
+    visibility: hidden;
+  }
 }
+
 .ribbon-container {
     width: 150px;
     height: 150px;
@@ -10,6 +17,12 @@
     right: 0;
     z-index: 9999;
     pointer-events: none;
+    display: none;
+    visibility: hidden;
+    @include susy-breakpoint($break-medium) {
+      display: block;
+      visibility: visible;
+    }
 }
 .ribbon {
     position: absolute;
