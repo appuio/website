@@ -13,7 +13,6 @@
   });
 
   // Enable Button when Terms are checked
-  // var checkboxes = $("input[type='checkbox']"),
   var checkboxes = $("input[name='terms']"),
       submitButt = $("input[type='submit']");
 
