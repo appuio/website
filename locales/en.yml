@@ -1,7 +1,7 @@
 ---
 en:
   metaDescription: Design, develop and operate your application with the APPUiO container runtime. Manage your container workload with APPUiO.
-  metaKeywords: openShift, container runtime, cluster, PaaS, Docker, Kubernetes, Swiss, Switzerland, VSHN. Puzzle ITC GmbH, Platform as a Service
+  metaKeywords: openShift, container runtime, Container Platform, cluster, PaaS, Docker, Kubernetes, Swiss, Switzerland, VSHN. Puzzle ITC GmbH, Platform as a Service
 
 # Globale Navigation
   navOverview: Overview
@@ -12,27 +12,27 @@ en:
 # Home Seite
   homeNewsTitle: News
   homeNewsText: APPUiO jetzt auch auf Französich. Génial!
-  homeHeroAlt: APPUiO - Swiss Enterprise PAAS
+  homeHeroAlt: APPUiO - Swiss Container Platform
   homeHeroTitle: Design, develop and operate your application with the APPUiO container runtime. Manage your container workload with APPUiO.
   homeHeroSignup: Sign up for public paas
-  homeHeroDesc: APPUiO – Swiss Enterprise PaaS. Made by developers for developers. APPUiO builds upon Red Hat OpenShift Enterprise V3 the “next generation PaaS”. Reliable open source concepts like Docker and Kubernetes allow you to develop, operate and scale your application according to your needs. Operate your applications on the public cloud or in your own on-premise datacentre.
+  homeHeroDesc: APPUiO – Swiss Container Platform. Made by developers for developers. APPUiO builds upon Red Hat OpenShift Container Platform the “next generation PaaS”. Reliable open source concepts like Docker and Kubernetes allow you to develop, operate and scale your application according to your needs. Operate your applications on the public cloud or in your own on-premise datacentre.
 
 # Home: Offer Section
   homeOfferTitle: Offer
-  homeOfferOneTitle: Managed Private PaaS
+  homeOfferOneTitle: Managed Private APPUiO
   homeOfferOneDesc: We will host and manage your own private APPUiO instance inside our infrastructure. Your installation is deployed and operated according to your specific requirements.
   homeOfferOneButton: Get my private APPUiO
-  homeOfferTwoTitle: Public PaaS
-  homeOfferTwoDesc: BETA program – signup for the free APPUiO beta program and become part of the community!
-  homeOfferTwoButton: Join the community
-  homeOfferThreeTitle: On premise PaaS
+  homeOfferTwoTitle: Public Platform
+  homeOfferTwoDesc: Sie brauchen kurzfristig standardisierte Entwicklungsumgebungen oder möchten Ihre produktiven Applikationen in eine Schweizer Cloud depolyen? Nutzen Sie dafür unsere APPUiO Public Plattform.
+  homeOfferTwoButton: Details
+  homeOfferThreeTitle: On premises APPUiO
   homeOfferThreeDesc: Your PaaS in your own datacentre, perfectly integrated in your infrastructure. We will support you through the whole process, starting with your idea until the platform is fully functional.  If desired we can even operate your PaaS for you.
   homeOfferThreeButton: Cloud engineering
   homeOfferDesc: All APPUiO public PaaS offerings will be held and operated in ISO27001-certified and FINMA-audited datacentres inside Switzerland and according Swiss law.
 
 # Home: Feature Section
   homeFeatureTitle: Features
-  homeFeatureDesc: OpenShift Enterprise (OSE) V3 is the PaaS from Red Hat, the open source market leader. OSE V3 uses state-of-the-art open source concepts like Docker container and Kubernetes.
+  homeFeatureDesc: OpenShift Container Platform is the PaaS from Red Hat, the open source market leader. OSE V3 uses state-of-the-art open source concepts like Docker container and Kubernetes.
   homeFeatureDockerTitle: Docker
   homeFeatureDockerDesc: Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications. Choose your Docker-image according to your needs and technology that you want to use. OpenShift will automatically create an updated Docker-container after every build and even deploy it if you want.
   homeFeatureKubernetesTitle: Kubernetes
@@ -73,7 +73,7 @@ en:
   homeContactSend: send
 
 # Managed Private PaaS
-  offerOneTitle: Managed Private PaaS
+  offerOneTitle: Managed Private Platform
   offerOneIntro: Sie wollen eine eigene private APPUiO Instanz nutzen, die auf unserer Infrastruktur läuft? Wir deployen und betreiben die auf Ihre Bedürfnisse massgeschneiderte Lösung.
 
   offerOneList1: Basis für DevOps
@@ -84,7 +84,7 @@ en:
   offerOneList6: Backup an einen zweiten Standort
   offerOneList7: "Small - Medium - Large: Auf Sie zugeschnittene Angebote"
 
-  offerOneIso: Ihre APPUiO Managed Private PaaS wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
+  offerOneIso: Ihre APPUiO Managed Private Platform wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
 
   offerOneServiceTitle: Neben einem optimalen Datenschutz bieten wir Ihnen folgende zusätzliche Services
   offerOneServices1: Consulting Setup und Initialisierung
@@ -121,8 +121,8 @@ en:
   offerContactOneMedium: Medium
   offerContactOneLarge: Large
 
-# Public Private PaaS
-  offerTwoTitle: Public PaaS
+# Public Platform
+  offerTwoTitle: Public Platform
   offerTwoIntro: Sie brauchen kurzfristig standardisierte Entwicklungsressourcen oder möchten Ihre produktive Applikation bei Bedarf skalieren?
 
   offerTwoServices1: Auf Ihre Bedürfnisse zugeschnittene Bundles
@@ -130,7 +130,7 @@ en:
   offerTwoServices3: Wir kümmern uns um Backup, Monitoring, Updates und Support
 
   offerTwoServicesDesc: Hier kommt noch bisschen was zu Vertragslaufzeit etc.
-  offerTwoIso: Die APPUiO public PaaS wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
+  offerTwoIso: Die APPUiO public Platform wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
 
   offerTwoPackageTitle: "Wählen Sie das für Ihre Bedürfnisse passende Paket:"
   offerTwoPromotionTitle: Promotion
@@ -139,25 +139,25 @@ en:
   offerTwoPackageMicroTitle: Micro
   offerTwoPackageMicroItem1: CHF 49.- / Monat
   offerTwoPackageMicroItem2: CPU 500m
-  offerTwoPackageMicroItem3: Memory 512Mi
+  offerTwoPackageMicroItem3: Memory 512MB
   offerTwoPackageMicroItem4: Persistent Volume <br> inkl. 5 GB
 
   offerTwoPackageMediumTitle: Medium
   offerTwoPackageMediumItem1: CHF 95.- / Monat
   offerTwoPackageMediumItem2: CPU 750m
-  offerTwoPackageMediumItem3: Memory 1GBi
+  offerTwoPackageMediumItem3: Memory 1GB
   offerTwoPackageMediumItem4: Persistent Volume <br> inkl. 10 GB
 
   offerTwoPackageLargeTitle: Large
   offerTwoPackageLargeItem1: CHF 189.- / Monat
-  offerTwoPackageLargeItem2: CPU1000m
-  offerTwoPackageLargeItem3: Memory 2GBi
+  offerTwoPackageLargeItem2: CPU 1000m
+  offerTwoPackageLargeItem3: Memory 2GB
   offerTwoPackageLargeItem4: Persistent Volume <br> inkl. 20 GB
 
   offerTwoPackageXlargeTitle: X-Large
   offerTwoPackageXlargeItem1: CHF 379.- / Monat
-  offerTwoPackageXlargeItem2: CPU2000m
-  offerTwoPackageXlargeItem3: Memory 4GBi
+  offerTwoPackageXlargeItem2: CPU 2000m
+  offerTwoPackageXlargeItem3: Memory 4GB
   offerTwoPackageXlargeItem4: Persistent Volume <br> 50 GB
 
   offerTwoPackageAddonsTitle: Persistent Storage Add Ons
@@ -178,7 +178,7 @@ en:
   offerTwoSend: Bestellen
 
 # On Premises PaaS
-  offerThreeTitle: On Premises PaaS
+  offerThreeTitle: On Premises
   offerThreeIntro: Ihre PaaS in Ihrem Rechenzentrum, optimal integriert in Ihre Infrastruktur. Wir begleiten Sie von der Idee über die Umsetzung und falls gewünscht bis zum Betrieb.
   offerThreeServicesDesc: Die Flexibiltät APPUiOs erlaubt die Integration in komplexe, bestehende Infrastrukturen. Hier eine Liste möglicher Integrationspunkte, welche durch APPUiO resp. OpenShift abgedeckt werden können.
   offerThreeServices1: APPUiO läuft auf Red Hat Enterprise Linux (RHEL) 7 (bare metal, virtuell, Cloud)
@@ -190,5 +190,6 @@ en:
   offerThreeServices7: Backup integrieren
   offerThreeServices8: CI/CD Workflows anbinden
 
+# Formular Defaults
   mailGotAMessage: We just recieved a message from APPUiO.ch!
   mailSubject: I'm interested in
