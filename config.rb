@@ -72,10 +72,11 @@ helpers do
     end
   end
   def change_language(language)
+    path = current_page.path;
     if (I18n.locale != :de && language == 'de')
-      "../" + current_page.path
+      "../" + path.sub(I18n.locale + "/", "")
     else
-      "/" + language + "/" + current_page.path
+      "/" + language + "/" + path.sub(I18n.locale + "/", "")
     end
 
   end
