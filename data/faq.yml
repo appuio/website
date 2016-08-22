@@ -8,7 +8,11 @@
   answer: Die Dokumentation findet ihr unter <a href="http://docs.appuio.ch/en/latest/" target="new">docs.appuio.ch</a>. Diese wird aus dem <a href="https://github.com/appuio/docs" target="new">Github Repo</a> generiert und laufend ergänzt. Anregungen und Ergänzungen sind jederzeit willkommen.
 - question: Kann ich Containers/Pods als root laufen lassen?
   answer: Aufgrund von Sicherheitseinschränkungen ist dies leider nicht möglich. Weitere Informationen findet ihr unter <a href="https://forum.appuio.ch/topic/7/root-access-to-docker-images/2" target="new">https://forum.appuio.ch/topic/7/root-access-to-docker-images/2</a>.
-- question: Wie binde ich ein privates Git Repository an?
-  answer: Falls ihr für das Code-Deployment Zugriff auf ein privates Git Repository braucht, hilft die OpenShift-Doku <a href="https://docs.openshift.com/enterprise/3.1/dev_guide/builds.html#using-private-repositories-for-builds" target="new">"Using Private Repositories for Builds"</a> weiter.
-- question: Wie lese ich die Logs eines Pods im "CrashLoopBackOff" Status?
-  answer: Mit dem Befehl <pre><code>oc logs --previous somepod</pre></code>
+- question: Wo läuft die APPUiO public PaaS? Wo befinden sich die Rechenzenter?
+  answer: Die APPUiO Public Cloud läuft auf der IaaS Plattform von cloudscale.ch. Die Server stehen im Datacenter e-shelter in Rümlang. Details siehe <a href="https://www.cloudscale.ch/about" target="new">https://www.cloudscale.ch/about</a>.
+- question: Was wird monitored?
+  answer: Wir überwachen alle OpenShift Cluster Services auf deren Funktionalität. Individuelles Applikationsmonitoring wird als Zusatzservice angeboten, bitte kontaktieren Sie uns.
+- question: Wie werden die Daten auf der Public Plattform backuped?
+  answer: Alle Daten werden automatisch einmal im Tag Off-Site gesichert. Eine Datenwiederherstellung durchs APPUiO Team wird nach Aufwand verrechnet.
+- question: Ich habe ein Problem in meinem APPUiO Projekt, wer kann mir weiterhelfen?
+  answer: Wir helfen Ihnen gerne unter support@appuio.ch oder im <a href="https://forum.appuio.ch/" target="new">Supportforum</a> weiter
