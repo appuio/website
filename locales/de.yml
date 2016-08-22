@@ -33,7 +33,7 @@ de:
   homeOfferOneDesc: Sie wollen eine eigene private APPUiO Instanz nutzen, die auf unserer Infrastruktur läuft? Wir deployen und betreiben die auf Ihre Bedürfnisse massgeschneiderte Lösung.
   homeOfferOneButton: Details
   homeOfferTwoTitle: Public Platform
-  homeOfferTwoDesc: Sie brauchen kurzfristig standardisierte Entwicklungsumgebungen oder möchten Ihre produktiven Applikationen in eine Schweizer Cloud depolyen? Nutzen Sie dafür unsere APPUiO Public Plattform.
+  homeOfferTwoDesc: Sie brauchen kurzfristig standardisierte Entwicklungsumgebungen oder möchten Ihre produktiven Applikationen in eine Schweizer Cloud depolyen?
   homeOfferTwoButton: Details
   homeOfferThreeTitle: On Premises APPUiO
   homeOfferThreeDesc: Ihre PaaS in Ihrem Rechenzentrum, optimal integriert in Ihre Infrastruktur. Wir begleiten Sie von der Idee über die Umsetzung und falls gewünscht bis zum Betrieb.
@@ -49,7 +49,7 @@ de:
   homeFeatureKubernetesDesc: Container orchestrieren und managen mit Kubernetes von Google. Sie definieren wie viele Instanzen Ihrer Applikation parallel laufen sollen, Kubernetes kümmert sich um die Skalierung, das Loadbalancing und die Stabilität.
   homeFeatureOnDemandTitle: On-Demand Entwicklungs- und Laufzeitumgebung
   homeFeatureOnDemandAlt: A container that holds all technologies
-  homeFeatureOnDemandDesc: Mit APPUiO erstellen Sie neue Umgebungen per Knopfdruck. Es stehen eine Vielzahl an Technologien und Plattformen "out of the Box" zur Verfügung. Eine Auswahl davon ist in der folgenden Aufstellung zu finden.
+  homeFeatureOnDemandDesc: Mit APPUiO erstellen Sie neue Umgebungen per Knopfdruck. Es stehen eine Vielzahl an Technologien und Plattformen "out of the Box" zur Verfügung. Docker als Grundtechnologie hinter APPUiO bringt ein ganzes Ökosystem an zusätzlichen Laufzeitumgebungen und Frameworks mit. Eine Auswahl davon ist in der folgenden Aufstellung zu finden. <br/>
   homeFeatureLanguagesTitle: Plattformen
   homeFeatureDatabasesTitle: Datenbanken
   homeFeatureCycleTitle: Automatisierte Prozesse
@@ -82,10 +82,6 @@ de:
   homeContactYourMessageTitle: Ihre Nachricht?
   homeContactSend: Absenden
 
-# Angebots Seiten / generisch für alle drei Angebote
-  offerOrderSend: Bestellen
-  offerContactTitle: Meine APPUiO Platform
-
 # Managed Private PaaS
   offerOneTitle: Managed Private APPUiO
   offerOneIntro: Sie wollen eine eigene private APPUiO Instanz nutzen, die auf unserer Infrastruktur läuft? Wir deployen und betreiben die auf Ihre Bedürfnisse massgeschneiderte Lösung.
@@ -113,12 +109,12 @@ de:
 
   offerOnePackageMediumTitle: Medium
   offerOnePackageMediumItem1:  3 Master <br> (je 4GB Ram, 2vCores)
-  offerOnePackageMediumItem2:  4 Nodes <br> (je 16 GB Ram, 6VCores, 100 GB Docker Storage)
+  offerOnePackageMediumItem2:  4 Nodes <br> (je 32 GB Ram, 6VCores, 100 GB Docker Storage)
   offerOnePackageMediumItem3:  500 GB Persistent Storage
 
   offerOnePackageLargeTitle: Large
   offerOnePackageLargeItem1:  3 Master <br> (je 4GB Ram, 2vCores)
-  offerOnePackageLargeItem2:  8 Nodes <br> (je 16 GB Ram, 6VCores, 100 GB Docker Storage)
+  offerOnePackageLargeItem2:  8 Nodes <br> (je 32 GB Ram, 6VCores, 100 GB Docker Storage)
   offerOnePackageLargeItem3:  1 TB Persistent Storage
 
   offerOnePackageAddonsTitle: Add Ons
@@ -135,22 +131,26 @@ de:
   offerContactOneMedium: Medium
   offerContactOneLarge: Large
 
+  offerOneContactTitle: Meine APPUiO private Platform
+  offerOneContactSubject: Ich interessiere mich für Ihr APPUiO private Platform Angebot, bitte kontaktieren Sie mich.
+  offerOneOrderSend: Absenden
+
 # Public Platform
   offerTwoTitle: Public Platform
-  offerTwoIntro: Sie brauchen kurzfristig standardisierte Entwicklungsressourcen oder möchten Ihre produktive Applikation bei Bedarf skalieren?
+  offerTwoIntro: Sie brauchen kurzfristig standardisierte Entwicklungsumgebungen oder möchten Ihre produktiven Applikationen in eine Schweizer Cloud depolyen? Nutzen Sie dafür unsere APPUiO Public Plattform.
 
   offerTwoServices1: Auf Ihre Bedürfnisse zugeschnittene Bundles
   offerTwoServices2: "Von Entwicklern für Entwickler: Forum, Dokumentation und Community"
   offerTwoServices3: Wir kümmern uns um Backup, Monitoring, Updates und Support
 
-  offerTwoServicesDesc: Hier kommt noch bisschen was zu Vertragslaufzeit etc.
-  offerTwoIso: Die APPUiO public Platform wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
+  offerTwoServicesDesc: Die Abrechnung erfolgt aktuell montatlich per Rechnung.
+  offerTwoIso: Die APPUiO Public Platform wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
 
   offerTwoPackageTitle: "Wählen Sie das für Ihre Bedürfnisse passende Paket:"
   offerTwoPromotionTitle: Promotion
-  offerTwoPromotionText: Startup promotion for August 2016 ff. <br> 3 months for free if signing a 1 year contract. <br> 6 months for free if signing a 1 year contract AND attending one ore more TechLabs.
+  offerTwoPromotionText: Beim Abschluss eines Einjahresvertrages 3 Monate geschenkt. Beim Abschluss eines Einjahresvertrages UND dem Besuch eines APPUiO - Tech Labs 6 Monate geschenkt. Promotion gültig bis <b>30.11.2016</b>
 
-  offerTwoPackageMicroTitle: Micro
+  offerTwoPackageMicroTitle: Small
   offerTwoPackageMicroItem1: CHF 49.- / Monat
   offerTwoPackageMicroItem2: CPU 500m
   offerTwoPackageMicroItem3: Memory 512MB
@@ -174,6 +174,8 @@ de:
   offerTwoPackageXlargeItem3: Memory 4GB
   offerTwoPackageXlargeItem4: Persistent Volume <br> 50 GB
 
+  offerTwoCPUDescription: Die CPU Resourcen werden als KCU (Kubernetes Compute Units) normalisiert, so entsprechen CPU 1000m ungefähr einem single hyperthreaded CPU Kern.
+
   offerTwoPackageAddonsTitle: Persistent Storage Add Ons
   offerTwoPackageAddonsPretext: Auf Anfrage
   offerTwoPackageAddonsItem1: 10 GB CHF 6.70
@@ -185,7 +187,8 @@ de:
   offerTwoCustom: Custom
   offerTwoCustomText: Auf Anfrage
 
-  offerTwoContactTitle:
+  offerTwoContactTitle: APPUiO - Public Plattform
+  offerTwoContactSubject:
 
   offerTwoTerms1: Ich akzeptiere die
   offerTwoTerms2: Terms & Conditions

@@ -77,6 +77,10 @@
           <li class="offers-package-item"><%= t(:offerTwoPackageXlargeItem4) %></li>
         </ul>
       </a>
+      <article class="offers-package is-banner-before">
+        <p class="offers-desc"><%= t(:offerTwoCPUDescription) %></p>
+      </article>
+
       <article class="offers-package last-child" href="#offers-two-contact" data-check="interest-custom">
         <h3 class="offers-package-list-title"><%= t(:offerTwoPackageAddonsTitle) %></h3>
         <p class="offers-package-pretext"><%= t(:offerTwoPackageAddonsPretext) %></p>
@@ -99,25 +103,25 @@
 <a name="offers-two-contact"></a>
 <section class="offer-contact">
   <div class="grid-container">
-    <h2 class="offer-two-contact-title"><%= t(:offerContactTitle) %></h2>
+    <h2 class="offer-two-contact-title"><%= t(:offerTwoContactTitle) %></h2>
     <form id="offer-two-contact-form" class="offers-contact-container">
       <div class="home-contact-interest interest-container">
-        <h3 class="interest-title"><%= t(:homeContactSubject) %></h3>
+        <h3 class="interest-title"><%= t(:offerTwoContactSubject) %></h3>
         <div class="interest-item">
           <input id="interest-micro" value="<%= t(:offerTwoPackageMicroTitle) %>" type="checkbox" name="interests[]" class="interest-checkbox">
-          <label for="interest-micro"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerTwoPackageMicroTitle) %></label>
+          <label for="interest-micro"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerTwoPackageMicroTitle) %> <%= t(:offerTwoPackageMicroItem1) %></label>
         </div>
         <div class="interest-item">
           <input id="interest-medium" value="<%= t(:offerTwoPackageMediumTitle) %>" type="checkbox" name="interests[]" class="interest-checkbox">
-          <label for="interest-medium"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerTwoPackageMediumTitle) %></label>
+          <label for="interest-medium"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerTwoPackageMediumTitle) %> <%= t(:offerTwoPackageMediumItem1) %></label>
         </div>
         <div class="interest-item">
           <input id="interest-large" value="<%= t(:offerTwoPackageLargeTitle) %>" type="checkbox" name="interests[]" class="interest-checkbox">
-          <label for="interest-large"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerTwoPackageLargeTitle) %></label>
+          <label for="interest-large"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerTwoPackageLargeTitle) %> <%= t(:offerTwoPackageLargeItem1) %></label>
         </div>
         <div class="interest-item">
           <input id="interest-xlarge" value="<%= t(:offerTwoPackageXlargeTitle) %>" type="checkbox" name="interests[]" class="interest-checkbox" >
-          <label for="interest-xlarge"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerTwoPackageXlargeTitle) %></label>
+          <label for="interest-xlarge"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerTwoPackageXlargeTitle) %> <%= t(:offerTwoPackageXlargeItem1) %></label>
         </div>
         <div class="interest-item">
           <input id="interest-custom" value="<%= t(:offerTwoCustom) %>" type="checkbox" name="interests[]" class="interest-checkbox">
@@ -142,7 +146,7 @@
         </div>
       </div>
       <label class="home-contact-button button-progress">
-        <input type="submit" class="button is-round" value="<%= t(:offerOrderSend) %>" disabled>
+        <input type="submit" class="button is-round" value="<%= t(:offerTwoSend) %>" disabled>
       </label>
      </form>
     </div>

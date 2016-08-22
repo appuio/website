@@ -95,10 +95,10 @@
   <a name="offers-one-contact"></a>
   <section class="offer-contact">
     <div class="grid-container">
-      <h2 class="offer-one-contact-title"><%= t(:offerContactTitle) %></h2>
+      <h2 class="offer-one-contact-title"><%= t(:offerOneContactTitle) %></h2>
       <form id="offer-one-contact-form" class="offers-contact-container">
         <div class="home-contact-interest interest-container">
-          <h3 class="interest-title"><%= t(:homeContactSubject) %></h3>
+          <h3 class="interest-title"><%= t(:offerOneContactSubject) %></h3>
           <div class="interest-item">
             <input id="interest-small" value="<%= t(:offerOnePackageSmallTitle) %>" type="checkbox" name="interests[]" class="interest-checkbox">
             <label for="interest-small"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerOnePackageSmallTitle) %></label>
@@ -121,7 +121,7 @@
           <textarea title="Nachricht" id="message" name="message" cols="30" rows="6" class="contact-textarea" placeholder="Nachricht" required></textarea>
         </div>
         <label class="home-contact-button button-progress">
-          <input type="submit" class="button is-round" value="<%= t(:offerOrderSend) %>">
+          <input type="submit" class="button is-round" value="<%= t(:offerOneOrderSend) %>">
         </label>
       </form>
     </div>

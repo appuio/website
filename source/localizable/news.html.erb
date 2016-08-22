@@ -14,6 +14,7 @@ title: APPUiO - Swiss Container Platform - News
       <h2>News</h2>
           <% data.news.each do |f| %>
             <h3><%= f["title"] %></h3>
+            <p><%= f["subtitle"] %></p>
             <p><%= f["details"] %></p>
           <% end %>
     </div>
