@@ -23,7 +23,7 @@ de:
   homeNewsText: APPUiO ist Live!
   homeHeroAlt: APPUiO - Swiss Container Platform
   homeHeroTitle: Eine Plattform für das Design, die Entwicklung und den Betrieb Ihrer Anwendung. Betreiben Sie ihren Container Workload auf APPUiO.
-  homeHeroSignup: Sign up for public paas
+  homeHeroSignup: Für Public Platform anmelden
   homeHeroDesc: APPUiO - die Schweizer Container Plattform von Entwicklern für Entwickler. APPUiO basiert auf der “next generation PaaS” OpenShift Container Platform von Red Hat. Auf der Basis bewährter Open Source Konzepte wie Docker und Kubernetes entwickeln, betreiben und skalieren Sie Ihre Anwendung passend auf Ihre Bedürfnisse. Mit dieser Technologie können Applikationen sowohl auf Public Clouds als auch unternehmensintern betrieben werden.
 
 # Home: Offer Section

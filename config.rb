@@ -60,6 +60,14 @@ helpers do
   def nav_active(path)
     current_page.path == path ? "active" : ""
   end
+  def change_language(language)
+    if (I18n.locale != :de && language == 'de')
+      "../" + current_page.path
+    else
+      "/" + language + "/" + current_page.path
+    end
+
+  end
 end
 # Would theoretically create class for pages - but doesnt work yet - source: https://benfrain.com/understanding-middleman-the-static-site-generator-for-faster-prototyping/
 # def page_classes
