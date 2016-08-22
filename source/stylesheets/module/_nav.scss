@@ -149,6 +149,16 @@ Responsive hotizontal menu.
     color:#002F47;
   }
 }
+.nav-global > li.active {
+  & > a {
+    color:#002F47;
+
+  }
+  & > a:hover {
+    text-decoration:underline;
+    color:#002F47;
+  }
+}
 .nav-lang > li,
 .nav-main > li {
   overflow: visible;

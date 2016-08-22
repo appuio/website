@@ -21,7 +21,7 @@ de:
 
 # Home Seite
   homeNewsTitle: News
-  homeNewsText: APPUiO ist Live!
+  homeNewsText: "APPUiO - OpenShift Techlab: Überzeugen Sie sich selbst und besuchen Sie unser Techlab ... <a href=\"news.html\">mehr</a>"
   homeHeroAlt: APPUiO - Swiss Container Platform
   homeHeroTitle: Eine Plattform für das Design, die Entwicklung und den Betrieb Ihrer Anwendung. Betreiben Sie ihren Container Workload auf APPUiO.
   homeHeroSignup: Für Public Platform anmelden
@@ -141,7 +141,8 @@ de:
   offerContactOneLarge: Large
 
   offerOneContactTitle: Meine APPUiO private Platform
-  offerOneContactDesc: Ich interessiere mich für Ihr APPUiO private Platform Angebot, bitte kontaktieren Sie mich.
+  offerOneContactDesc: Gerne treten wir mit Ihnen in Kontakt. Bitte geben Sie uns an, wie wir Sie am besten erreichen können. Ihre Daten behandeln wir vertraulich und werden nicht an Dritte weitergegeben.
+  offerOneContactSubject: Ich interessiere mich für ...
   offerOneOrderSend: Absenden
 
 # Public Platform

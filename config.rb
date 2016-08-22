@@ -58,7 +58,18 @@ helpers EvilIcons::Helpers
 ###
 helpers do
   def nav_active(path)
-    current_page.path == path ? "active" : ""
+    if(current_page.path.end_with? path)
+      "active"
+    else
+      ""
+    end
+  end
+  def parent_active(offer1, offer2, offer3)
+    if(current_page.path.end_with? offer1 or current_page.path.end_with? offer2 or current_page.path.end_with? offer3)
+      "active"
+    else
+      ""
+    end
   end
   def change_language(language)
     if (I18n.locale != :de && language == 'de')

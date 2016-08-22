@@ -5,7 +5,7 @@
     <li>
       <a href="./#overview"><%= t(:navOverview) %></a>
     </li>
-    <li>
+    <li class="<%= parent_active('managed-private-paas.html', 'public-paas.html', 'on-premises-paas.html') %>">
       <a href="./#offer"><%= t(:navOffers) %></a>
       <ul>
         <li class="<%= nav_active('managed-private-paas.html') %>"><a href="./managed-private-paas.html"><%= t(:navOffer1) %></a></li>
