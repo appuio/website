@@ -96,9 +96,9 @@
   <section class="offer-contact">
     <div class="grid-container">
       <h2 class="offer-one-contact-title"><%= t(:offerOneContactTitle) %></h2>
+      <p class="home-contact-desc"><%= t(:offerOneContactDesc) %></p>
       <form id="offer-one-contact-form" class="offers-contact-container">
         <div class="home-contact-interest interest-container">
-          <h3 class="interest-title"><%= t(:offerOneContactSubject) %></h3>
           <div class="interest-item">
             <input id="interest-small" value="<%= t(:offerOnePackageSmallTitle) %>" type="checkbox" name="interests[]" class="interest-checkbox">
             <label for="interest-small"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerOnePackageSmallTitle) %></label>
@@ -113,12 +113,12 @@
           </div>
         </div>
         <div class="home-contact-form">
-          <input title="Vorname" type="text" name="nachname" class="contact-input" placeholder="Vorname" required>
-          <input title="Name" type="text" name="vorname" class="contact-input" placeholder="Name" required>
-          <input title="Firma" type="text" name="firma" class="contact-input" placeholder="Firma" required>
-          <input type="email" name="email" class="contact-input" placeholder="Email" required>
-          <input type="text" name="phone" placeholder="Telefon" class="contact-input" required>
-          <textarea title="Nachricht" id="message" name="message" cols="30" rows="6" class="contact-textarea" placeholder="Nachricht" required></textarea>
+          <input title="<%= t(:homeContactYourFirstNameTitle) %>" type="text" name="vorname" class="contact-input" placeholder="<%= t(:homeContactYourFirstName) %>" required>
+          <input title="<%= t(:homeContactYourNameTitle) %>" type="text" name="nachname" class="contact-input" placeholder="<%= t(:homeContactYourName) %>" required>
+          <input title="<%= t(:homeContactYourFirmTitle) %>" type="text" name="firma" class="contact-input" placeholder="<%= t(:homeContactYourFirm) %>" required>
+          <input type="email" name="email" class="contact-input" placeholder="<%= t(:homeContactYourEmail) %>" required>
+          <input type="text" name="phone" placeholder="<%= t(:homeContactYourPhone) %>" class="contact-input" required>
+          <textarea title="<%= t(:homeContactYourMessageTitle) %>" id="message" name="message" cols="30" rows="6" class="contact-textarea" placeholder="<%= t(:homeContactYourMessage) %>" required></textarea>
         </div>
         <label class="home-contact-button button-progress">
           <input type="submit" class="button is-round" value="<%= t(:offerOneOrderSend) %>">

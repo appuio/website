@@ -77,7 +77,16 @@ de:
   homeContactYourName: Nachname
   homeContactYourFirstNameTitle: Ihr Vorname
   homeContactYourNameTitle: Ihr Nachname
+  homeContactYourFirmTitle: Firma
+  homeContactYourFirm: Firma
+  homeContactYourPhone: Telefon
   homeContactYourEmail: E-Mail
+  homeContactYourStreet: Strasse
+  homeContactYourStreetTitle: Strasse
+  homeContactYourPLZORT: PLZ, Ort
+  homeContactYourPLZORTTitle: PLZ, Ort
+  homeContactYourBillStreet: Rechnungsadresse Strasse
+  homeContactYourBillPLZORT: Rechnungsadresse PLZ, Ort
   homeContactYourMessage: Nachricht
   homeContactYourMessageTitle: Ihre Nachricht?
   homeContactSend: Absenden
@@ -132,7 +141,7 @@ de:
   offerContactOneLarge: Large
 
   offerOneContactTitle: Meine APPUiO private Platform
-  offerOneContactSubject: Ich interessiere mich für Ihr APPUiO private Platform Angebot, bitte kontaktieren Sie mich.
+  offerOneContactDesc: Ich interessiere mich für Ihr APPUiO private Platform Angebot, bitte kontaktieren Sie mich.
   offerOneOrderSend: Absenden
 
 # Public Platform
@@ -188,7 +197,7 @@ de:
   offerTwoCustomText: Auf Anfrage
 
   offerTwoContactTitle: APPUiO - Public Plattform
-  offerTwoContactSubject:
+  offerTwoContactSubject: Ich intressiere mich für ...
 
   offerTwoTerms1: Ich akzeptiere die
   offerTwoTerms2: Terms & Conditions
@@ -206,6 +215,9 @@ de:
   offerThreeServices6: Anbindung an bestehende Datenbank Server
   offerThreeServices7: Backup integrieren
   offerThreeServices8: CI/CD Workflows anbinden
+
+  offerTreeContactTitle: Kontakt
+  offerTreeContactDesc: Ihr On Premises APPUiO Angebot tönt spannenden, ich wünsche eine persönliche Beratung.
 
 # Formular Defaults
   mailGotAMessage: We just recieved a message from APPUiO.ch!

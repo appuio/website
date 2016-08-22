@@ -78,7 +78,7 @@
         </ul>
       </a>
       <article class="offers-package is-banner-before">
-        <p class="offers-desc"><%= t(:offerTwoCPUDescription) %></p>
+        <p><%= t(:offerTwoCPUDescription) %></p>
       </article>
 
       <article class="offers-package last-child" href="#offers-two-contact" data-check="interest-custom">
@@ -129,15 +129,15 @@
         </div>
       </div>
       <div class="home-contact-form">
-        <input title="Vorname" type="text" name="nachname" class="contact-input" placeholder="Vorname" required>
-        <input title="Name" type="text" name="vorname" class="contact-input" placeholder="Name" required>
-        <input title="Email" type="email" name="email" class="contact-input" placeholder="Email" required>
-        <input title="Strasse" type="text" name="strasse" class="contact-input" placeholder="Strasse" required>
-        <input title="PLZ, Ort" type="text" name="plz" class="contact-input" placeholder="PLZ, Ort" required>
-        <input title="Rechnungsadresse Strasse" type="text" name="rechnungsadresse_strasse" class="contact-input" placeholder="Rechnungsadresse Strasse" required>
-        <input title="Rechnungsadresse PLZ, Ort" type="text" name="rechnungsadresse_ort" class="contact-input" placeholder="Rechnungsadresse PLZ, Ort" required>
-        <input type="text" name="phone" placeholder="Telefon" class="contact-input" required>
-        <textarea title="Nachricht" id="message" name="message" cols="30" rows="6" class="contact-textarea" placeholder="Nachricht" required></textarea>
+        <input title="<%= t(:homeContactYourFirstNameTitle) %>" type="text" name="vorname" class="contact-input" placeholder="<%= t(:homeContactYourFirstName) %>" required>
+        <input title="<%= t(:homeContactYourNameTitle) %>" type="text" name="nachname" class="contact-input" placeholder="<%= t(:homeContactYourName) %>" required>
+        <input type="email" name="email" class="contact-input" placeholder="<%= t(:homeContactYourEmail) %>" required>
+        <input title="<%= t(:homeContactYourStreetTitle) %>" type="text" name="strasse" class="contact-input" placeholder="<%= t(:homeContactYourStreet) %>" required>
+        <input title="<%= t(:homeContactYourPLZORTTitle) %>" type="text" name="plz" class="contact-input" placeholder="<%= t(:homeContactYourPLZORT) %>" required>
+        <input title="<%= t(:homeContactYourBillStreet) %>" type="text" name="rechnungsadresse_strasse" class="contact-input" placeholder="<%= t(:homeContactYourBillStreet) %>" required>
+        <input title="<%= t(:homeContactYourBillPLZORT) %>" type="text" name="rechnungsadresse_ort" class="contact-input" placeholder="<%= t(:homeContactYourBillPLZORT) %>" required>
+        <input type="text" name="phone" placeholder="<%= t(:homeContactYourPhone) %>" class="contact-input" required>
+        <textarea title="<%= t(:homeContactYourMessageTitle) %>" id="message" name="message" cols="30" rows="6" class="contact-textarea" placeholder="<%= t(:homeContactYourMessage) %>" required></textarea>
       </div>
       <div class="offer-three-terms">
         <div class="interest-light">
