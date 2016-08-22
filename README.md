@@ -18,6 +18,7 @@ Optimize images before build:
 Once you have Ruby and RubyGems up and running, execute the following from the command line:
 
     $ gem install middleman
+    $ gem install bundle
 
 This will install Middleman, its dependencies and the command-line tools for using Middleman.
 

@@ -23,16 +23,17 @@
   <ul class="nav-global is-horizontal">
     <li><a target="_blank" href="http://docs.appuio.ch"><%= t(:navGlobalDocs) %></a></li>
     <li class="<%= nav_active('faq.html') %>"><a href="faq.html"><%= t(:navGlobalFAQ) %></a></li>
+      <li class="<%= nav_active('news.html') %>"><a href="news.html"><%= t(:navGlobalNews) %></a></li>
     <li><a target="_blank" href="https://forum.appuio.ch"><%= t(:navGlobalForum) %></a></li>
     <li><a target="_blank" href="https://console.appuio.ch"><%= t(:navGlobalLogin) %></a></li>
   </ul>
   <ul class="nav-lang">
     <% if (I18n.locale == :de) %>
     <li class="is-current"><a href="#">DE</a></li>
-    <li><%= link_to 'EN', change_language('en') %><%=url_for extensions[:i18n].localized_path(current_page.path, :en)%></li>
+    <li><%= link_to 'EN', change_language('en') %></li>
     <% end %>
     <% if (I18n.locale == :en) %>
-    <li><%= link_to 'DE', change_language('de') %><%=url_for extensions[:i18n].localized_path(current_page.path, :de)%></li>
+    <li><%= link_to 'DE', change_language('de') %></li>
     <li class="is-current"><a href="#">EN</a></li>
     <% end %>
   </ul>

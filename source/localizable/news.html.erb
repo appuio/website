@@ -1,5 +1,5 @@
 ---
-title: APPUiO - Swiss Container Platform - FAQ
+title: APPUiO - Swiss Container Platform - News
 ---
 <%= partial "partials/github" %>
 <header class="header-container" role="banner">
@@ -11,10 +11,10 @@ title: APPUiO - Swiss Container Platform - FAQ
 <main class="main-container" role="main">
   <section class="home-hero">
     <div class="grid-container">
-      <h2>FAQ's</h2>
-          <% data.faq.each do |f| %>
-            <h3><%= f["question"] %></h3>
-            <p><%= f["answer"] %></p>
+      <h2>News</h2>
+          <% data.news.each do |f| %>
+            <h3><%= f["title"] %></h3>
+            <p><%= f["details"] %></p>
           <% end %>
     </div>
   </section>
