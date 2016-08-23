@@ -34,6 +34,10 @@ $color-yellow: #FFD301;
 $color-grey: #E5EAED;
 $color-darkgrey: #99ABB5;
 
+$color-greyblue: #7092a6;
+$color-orange: #ff931e;
+$color-green: #929031;
+
 $color-first: lighten($color-blue, 0%);
 $color-second: lighten($color-blue, 8%);
 $color-third: lighten($color-blue, 15%);
@@ -120,9 +124,14 @@ $color-third: lighten($color-blue, 15%);
   height: 0;
   width: 0;
 }
-.is-important {
-  border:3px solid white;
-  //box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  //more of that
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+.is-relative {
+  position: relative;
 }
+// Not needed at the moment
+// ----------------------------------------------
+//.is-important {
+//  border:3px solid white;
+//  //box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+//  //more of that
+//  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+//}
