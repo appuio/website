@@ -30,10 +30,10 @@
   <ul class="nav-lang">
     <% if (I18n.locale == :de) %>
     <li class="is-current"><a href="#">DE</a></li>
-    <li><%= link_to 'EN', change_language('en') %></li>
+    <li><a href="<%= change_language('en') %>">EN</a></li>
     <% end %>
     <% if (I18n.locale == :en) %>
-    <li><%= link_to 'DE', change_language('de') %></li>
+    <li><a href="<%= change_language('de') %>">DE</a></li>
     <li class="is-current"><a href="#">EN</a></li>
     <% end %>
   </ul>

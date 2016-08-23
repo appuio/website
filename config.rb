@@ -72,12 +72,11 @@ helpers do
     end
   end
   def change_language(language)
-    if (I18n.locale != :de && language == 'de')
-      "../" + current_page.path
+    if (I18n.locale != :de and language == 'de')
+      "../" + current_page.path.sub(I18n.locale.to_s + "/", "")
     else
-      "/" + language + "/" + current_page.path
+      "/" + language + "/" + current_page.path.sub(I18n.locale.to_s + "/", "")
     end
-
   end
 end
 # Would theoretically create class for pages - but doesnt work yet - source: https://benfrain.com/understanding-middleman-the-static-site-generator-for-faster-prototyping/
