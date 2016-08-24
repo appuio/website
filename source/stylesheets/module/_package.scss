@@ -11,8 +11,8 @@
   align-content: space-between;
   width: 100%;
   margin: rem-calc(32 0);
-  background-color:#0097a8;
-  border: 3px solid white;
+  //background-color:#0097a8;
+  //border: 3px solid white;
 }
 
 a.offers-package {
@@ -29,10 +29,12 @@ a.offers-package {
   flex: 1 auto;
   //align-items: stretch;
   width: 100%;
+  display: flex;
+  flex-flow: row wrap;
 
   text-align: center;
   padding: rem-calc(16);
-  background-color: #018290;
+  background-color: $color-blue;
   color: white;
   margin: rem-calc(16);
 
@@ -89,16 +91,24 @@ a.offers-package {
     & > ul {
       display: flex;
       flex-flow: row wrap;
+      justify-content: space-around;
     }
     & > ul > li {
-      flex: 1 25%;
+      flex: 1 100%;
       text-align: center;
-      flex-basis: initial;
+      //flex-basis: initial;
+      @include susy-breakpoint($break-medium) {
+        flex: 3 25%;
+      }
     }
     & h3 {
       margin: rem-calc(18 0);
     }
   }
+}
+.offers-package-list-title {
+  text-align: center;
+  flex: 1;
 }
 .offers-banner-title {
   margin: 0;
@@ -118,13 +128,18 @@ a.offers-package {
 
 .offers-package-list {
   padding: 0;
+  flex: 1 100%;
   & li {
     list-style-type: none;
   }
 }
 .offers-package-item {
-  background-color: $color-yellow;
-  color: $color-blue;
-  padding: rem-calc(8);
+  //background-color: $color-yellow;
+  //color: white;
+  border-bottom: 1px solid $color-grey;
+  padding: rem-calc(8 8 24 8);
   margin: rem-calc(8);
+  &:last-child {
+    border: none;
+  }
 }

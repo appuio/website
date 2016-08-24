@@ -46,38 +46,47 @@
     </div>
   </section>
 
-
   <section class="offer-one-offers">
       <div class="grid-container">
         <h3 class="offers-package-title"><%= t(:offerOnePackageTitle) %></h3>
         <div class="offers-package-container">
-          <a class="offers-package is-third" href="#offers-one-contact" data-check="interest-small">
-            <h3 class="offers-package-list-title"><%= t(:offerOnePackageSmallTitle) %></h3>
+
+          <div class="offers-package is-third offer1-small-icon">
+            <div class="offers-package-ribbon"><%= t(:offerOnePackageSmallTitle) %></div>
+            <div class="offer-spacer"></div>
             <ul class="offers-package-list">
               <li class="offers-package-item"><%= t(:offerOnePackageSmallItem1) %></li>
               <li class="offers-package-item"><%= t(:offerOnePackageSmallItem2) %></li>
               <li class="offers-package-item"><%= t(:offerOnePackageSmallItem3) %></li>
             </ul>
-          </a>
-          <a class="offers-package is-third" href="#offers-one-contact" data-check="interest-medium">
-            <h3 class="offers-package-list-title"><%= t(:offerOnePackageMediumTitle) %></h3>
+            <a href="#offers-one-contact" class="callout-button button is-round" data-check="interest-small">Small wählen</a>
+          </div>
+
+          <div class="offers-package is-third offer1-medium-icon">
+            <div class="offers-package-ribbon"><%= t(:offerOnePackageMediumTitle) %></div>
+            <div class="offer-spacer"></div>
             <ul class="offers-package-list">
               <li class="offers-package-item"><%= t(:offerOnePackageMediumItem1) %></li>
               <li class="offers-package-item"><%= t(:offerOnePackageMediumItem2) %></li>
               <li class="offers-package-item"><%= t(:offerOnePackageMediumItem3) %></li>
             </ul>
-          </a>
-          <a class="offers-package is-third" href="#offers-one-contact" data-check="interest-large">
-            <h3 class="offers-package-list-title"><%= t(:offerOnePackageLargeTitle) %></h3>
+            <a href="#offers-one-contact" class="callout-button button is-round" data-check="interest-medium">Medium wählen</a>
+          </div>
+
+          <div class="offers-package is-third offer1-large-icon">
+            <div class="offers-package-ribbon"><%= t(:offerOnePackageLargeTitle) %></div>
+            <div class="offer-spacer"></div>
             <ul class="offers-package-list">
               <li class="offers-package-item"><%= t(:offerOnePackageMediumItem1) %></li>
               <li class="offers-package-item"><%= t(:offerOnePackageMediumItem2) %></li>
               <li class="offers-package-item"><%= t(:offerOnePackageMediumItem3) %></li>
             </ul>
-          </a>
+            <a href="#offers-one-contact" class="callout-button button is-round" data-check="interest-large">Large wählen</a>
+          </div>
+
           <article class="offers-package last-child">
-            <h3 class="offers-package-list-title"><%= t(:offerOnePackageAddonsTitle) %></h3>
-            <p class="offers-package-pretext"><%= t(:offerOnePackageAddonsPretext) %></p>
+            <div class="offers-package-ribbon text-center"><%= t(:offerOnePackageAddonsPretext) %></div>
+            <h3 class="offers-package-list-title m-t-2"><%= t(:offerOnePackageAddonsTitle) %></h3>
             <ul class="offers-package-list">
               <li class="offers-package-item"><%= t(:offerOnePackageAddonsItem1) %></li>
               <li class="offers-package-item"><%= t(:offerOnePackageAddonsItem2) %></li>

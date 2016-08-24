@@ -205,4 +205,38 @@
   margin: rem-calc(-16);
   line-height: rem-calc(2);
   color: black;
+  flex: 1 100%;
+}
+.is-orange {
+  background-color: $color-orange;
+}
+.is-green {
+  background-color: $color-green;
+}
+.offer1-small-icon {
+  background: $color-blue url('/images/offer1_small.svg') no-repeat;
+  background-size: 100%;
+}
+.offer1-medium-icon {
+  background: $color-blue url('/images/offer1_medium.svg') no-repeat;
+  background-size: 100%;
+}
+.offer1-large-icon {
+  background: $color-blue url('/images/offer1_large.svg') no-repeat;
+  background-size: 100%;
+}
+
+.offer-spacer {
+  flex: 1 100%;
+  //min-height: rem-calc(18);
+  @include susy-breakpoint($break-small) {
+    height: rem-calc(288);
+  }
+  @include susy-breakpoint($break-medium) {
+    height: rem-calc(96);
+  }
+  @include susy-breakpoint($break-large) {
+    //min-height: rem-calc(144);
+    height: rem-calc(160);
+  }
 }
