@@ -127,6 +127,20 @@ $color-third: lighten($color-blue, 15%);
 .is-relative {
   position: relative;
 }
+.text-center {
+  text-align: center;
+}
+
+// Boostrap helpers
+.m-t-1 {
+  margin-top: rem-calc(16)!important;
+}
+.m-t-2 {
+  margin-top: rem-calc(32)!important;
+}
+.m-t-3 {
+  margin-top: rem-calc(48)!important;
+}
 // Not needed at the moment
 // ----------------------------------------------
 //.is-important {
