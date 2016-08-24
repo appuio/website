@@ -1,13 +1,15 @@
-.news {
-  padding-bottom: 6.25rem;
-  overflow: hidden;
-
+.news-section {
+  padding: rem-calc(15 0);
   h2 {
     text-align: center;
   }
   .year {
     font-size: rem-calc(36);
     margin-bottom: 1.5rem;
+    text-align: center;
+    @include susy-breakpoint($break-medium) {
+      text-align: left;
+    }
   }
   .year-container {
     display: flex;
