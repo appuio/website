@@ -138,6 +138,15 @@
           <input id="interest-custom" value="<%= t(:offerTwoCustom) %>" type="checkbox" name="interests[]" class="interest-checkbox">
           <label for="interest-custom"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerTwoCustom) %></label>
         </div>
+        <div class="interest-item">
+          <p>Vertragslaufzeit</p>
+          <input id="monthly-bill" type="radio" name="vertraugslaufzeit" value="Monatlich" class="interest-radio">
+          <label for="monthly-bill">Monatlich</label>
+          <input id="yearly-bill" type="radio" name="vertraugslaufzeit" value="Jährlich" class="interest-radio">
+          <label for="yearly-bill">Jährlich</label>
+          <!-- <input id="interest-custom" value="<%= t(:offerTwoCustom) %>" type="checkbox" name="interests[]" class="interest-checkbox">
+          <label for="interest-custom"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerTwoCustom) %></label> -->
+        </div>
       </div>
       <div class="home-contact-form">
         <input title="<%= t(:homeContactYourFirstNameTitle) %>" type="text" name="vorname" class="contact-input" placeholder="<%= t(:homeContactYourFirstName) %>" required>
