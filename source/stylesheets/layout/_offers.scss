@@ -11,6 +11,16 @@
   text-align: center;
 }
 
+.offer-one {
+  border-bottom: 32px solid $color-greyblue;
+}
+.offer-two {
+  border-bottom: 32px solid $color-orange;
+}
+.offer-three {
+  border-bottom: 32px solid $color-green;
+}
+
 .offer-one-intro,
 .offer-two-intro,
 .offer-three-intro {
@@ -188,4 +198,11 @@
       color: $color-lightblue;
     }
   }
+}
+.offers-package-ribbon {
+  background-color: $color-greyblue;
+  padding: rem-calc(16);
+  margin: rem-calc(-16);
+  line-height: rem-calc(2);
+  color: black;
 }
