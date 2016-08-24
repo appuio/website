@@ -14,15 +14,7 @@
 .offer-two-intro,
 .offer-three-intro {
   color: white;
-}
-.offer-one-intro {
-  background-color: $color-first;
-}
-.offer-two-intro {
-  background-color: $color-second;
-}
-.offer-three-intro {
-  background-color: $color-third;
+  background-color: $color-blue;
 }
 
 .offer-one-services {
@@ -51,15 +43,23 @@
 // Content Styling
 // ----------------------------------------------
 
-.offers-image {
-  text-align: center;
-  line-height: rem-calc(120);
-  margin: rem-calc(60 24 0);
-  & > img {
-    width: rem-calc(240);
-    height: rem-calc(240);
-  }
+.offers-title {
+  padding-top: rem-calc(128);
 }
+.offers-image {
+  position: absolute;
+}
+
+.offer-one-intro .offers-image {
+  margin-top: rem-calc(-32);
+}
+
+.offer-two-intro .offers-image {
+  margin-left: 10%;
+  }
+.offer-three-intro .offers-image {
+  margin-left: 15%;
+  }
 
 .offers-intro {
   font-size: rem-calc(36);
@@ -171,7 +171,7 @@
   clear: both;
   padding: rem-calc(16 0);
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   @include susy-breakpoint($break-medium) {
     @include span(6 last of 12);
     @include squish(3, 3);
