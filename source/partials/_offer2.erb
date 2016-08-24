@@ -3,32 +3,35 @@
     <div class="offers-image"><%= image_tag "offer2_big.svg", :alt => t(:offerOneTitle) %></div>
     <h2 class="offers-title"><%= t(:offerTwoTitle) %></h2>
     <p class="offers-intro"><%= t(:offerTwoIntro) %></p>
+    <p class="offers-desc">
+      <%= t(:offerTwoIso) %>
+    </p>
+  </div>
+</section>
 
-    <div class="grid-container">
-      <div class="offer-container">
-        <article class="offer-item is-third has-white-font">
-          <span class="offer-item-image"><%= image_tag "bundles.svg", :alt => t(:offerTwoServices1) %></span>
-          <h1>1</h1>
-          <p class="offer-item-desc"><%= t(:offerTwoServices1) %></p>
-        </article>
-        <article class="offer-item is-third has-white-font">
-          <span class="offer-item-image"><%= image_tag "community.svg", :alt => t(:offerTwoServices2) %></span>
-          <h1>2</h1>
-          <p class="offer-item-desc"><%= t(:offerTwoServices2) %></p>
-        </article>
-        <article class="offer-item is-third has-white-font">
-          <span class="offer-item-image"><%= image_tag "backup.svg", :alt => t(:offerTwoServices3) %></span>
-          <h1>3</h1>
-          <p class="offer-item-desc"><%= t(:offerTwoServices3) %></p>
-        </article>
-      </div>
-      <p class="offers-desc">
-        <%= t(:offerTwoServicesDesc) %>
-      </p>
-      <p class="offers-desc">
-        <%= t(:offerTwoIso) %>
-      </p>
+<section class="offer-two-services">
+  <div class="grid-container">
+    <h3><%= t(:offerTwoServiceTitle) %></h3>
+    <div class="offer-container">
+      <article class="offer-item is-third">
+        <span class="offer-item-image"><%= image_tag "bundles.svg", :alt => t(:offerTwoServices1) %></span>
+        <h1>1</h1>
+        <p class="offer-item-desc"><%= t(:offerTwoServices1) %></p>
+      </article>
+      <article class="offer-item is-third">
+        <span class="offer-item-image"><%= image_tag "community.svg", :alt => t(:offerTwoServices2) %></span>
+        <h1>2</h1>
+        <p class="offer-item-desc"><%= t(:offerTwoServices2) %></p>
+      </article>
+      <article class="offer-item is-third">
+        <span class="offer-item-image"><%= image_tag "backup.svg", :alt => t(:offerTwoServices3) %></span>
+        <h1>3</h1>
+        <p class="offer-item-desc"><%= t(:offerTwoServices3) %></p>
+      </article>
     </div>
+    <p class="offers-desc">
+      <%= t(:offerTwoServicesDesc) %>
+    </p>
   </div>
 </section>
 
