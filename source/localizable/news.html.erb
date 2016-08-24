@@ -9,16 +9,23 @@ title: APPUiO - Swiss Container Platform - News
 </header>
 
 <main class="main-container" role="main">
-  <section class="home-hero">
+  <section class="news">
     <div class="grid-container">
       <h2>News</h2>
-          <% data.news.each do |f| %>
-            <h3><%= f["title"] %></h3>
-            <p><%= f["subtitle"] %></p>
-            <p><%= f["details"] %></p>
-          <% end %>
+        <div class="year">2016</div>
+        <div class="dot"></div>
+        <div class="year-container">
+            <% data.news.each do |f| %>
+            <div class="news-entry">
+              <div class="date"><div class="month"><%= f["month"] %></div><div class="day"><%= f["day"] %></div></div>
+              <div class="news-text">
+                <h3><%= f["title"] %></h3>
+                <p><%= f["details"] %></p>
+              </div>
+            </div>
+            <% end %>
+          </div>
     </div>
   </section>
 </main>
-
 <%= partial "partials/footer" %>
