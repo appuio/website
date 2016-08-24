@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="347px" height="700px" viewBox="0 0 347 700" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>FD681CB9-1AE5-4B35-8E1E-6AAC4825DBE2</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="347" height="699.803032" rx="2.96581197"></rect>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#050505" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#020202" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assets" transform="translate(-465.000000, -346.000000)">
+            <g id="icon-M-347" transform="translate(465.000000, 346.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <path d="M252.030252,103.813559 L251.987248,246.646186 L223.468,246.668432 L223.456137,159.334534 C223.45762,157.772881 223.487278,156.105932 223.55994,154.358898 L186.930679,223.489831 C184.479436,228.168856 180.635744,230.208051 175.50044,230.208051 L171.452107,230.208051 C168.934132,230.208051 166.663803,229.938136 164.704885,228.739831 C162.734103,227.53411 161.153325,225.927966 160.008521,223.632203 L123.146444,153.879873 C123.256179,155.807839 123.31253,157.658686 123.311047,159.30339 L123.3585,246.620975 L94.9059829,246.583898 L388.662244,540.374788 L388.651863,240.447034 L252.030252,103.813559 Z" id="shadow" fill="url(#linearGradient-3)" mask="url(#mask-2)"></path>
+                <text id="M" stroke="#FF931E" stroke-width="1.48290598" font-family="Lato-Heavy, Lato" font-size="192.710602" font-weight="600" fill="#002F47">
+                    <tspan x="81.5598291" y="244.872881">M</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

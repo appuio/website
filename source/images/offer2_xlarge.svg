@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="347px" height="700px" viewBox="0 0 347 700" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>6F7BB41F-25EF-41F1-98C5-BAB5A55FF99B</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="347" height="699.803032" rx="2.96581197"></rect>
+        <rect id="path-3" x="0" y="0" width="290.649573" height="699.803032" rx="2.96581197"></rect>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#050505" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#020202" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assets" transform="translate(-1321.000000, -346.000000)">
+            <g id="icon-XL-347" transform="translate(1321.000000, 346.000000)">
+                <g id="Angebot-1-Small-Copy-3">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="card"></g>
+                    <g id="icon-xl-2" transform="translate(56.350427, 0.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Mask"></g>
+                        <g id="small" mask="url(#mask-4)">
+                            <g transform="translate(0.000000, 54.872881)" id="icon-xl">
+                                <g>
+                                    <path d="M179.897108,48.201822 L179.613873,164.762203 L233.527886,164.885297 L233.456706,191.425975 L147.494129,191.629153 L147.473369,49.0352966 L136.106894,49.0352966 L90.6810355,116.924915 L137.158275,191.408178 L105.582758,191.408178 C103.316877,191.408178 101.430621,190.850551 99.978856,189.673008 C98.6442406,188.591864 97.5632021,187.329788 96.7683645,185.880847 L67.9955397,136.955 C67.7330654,137.497797 67.43945,138.018347 67.1206252,138.497373 L38.4397406,185.952034 C37.4966124,187.33572 36.4289201,188.547373 35.2173859,189.619619 C33.8204885,190.857966 32.014309,191.519407 29.9130312,191.52089 L0.274189316,191.552034 L332.600835,523.839958 L332.600835,200.847797 L179.897108,48.201822 L179.897108,48.201822 Z" id="shadow" fill="url(#linearGradient-5)"></path>
+                                    <text id="XL" stroke="#FF931E" stroke-width="1.48290598" font-family="Lato-Heavy, Lato" font-size="192.710602" font-weight="600" fill="#002F47">
+                                        <tspan x="3.4996364" y="190.252184">XL</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

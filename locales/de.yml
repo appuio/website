@@ -209,6 +209,7 @@ de:
 # On Premises PaaS
   offerThreeTitle: On Premises
   offerThreeIntro: Ihre PaaS in Ihrem Rechenzentrum, optimal integriert in Ihre Infrastruktur. Wir begleiten Sie von der Idee über die Umsetzung und falls gewünscht bis zum Betrieb.
+  offerThreeServicesTitle: Hier braucht es noch einen schönen Titel
   offerThreeServicesDesc: Die Flexibiltät APPUiOs erlaubt die Integration in komplexe, bestehende Infrastrukturen. Hier eine Liste möglicher Integrationspunkte, welche durch APPUiO resp. OpenShift abgedeckt werden können.
   offerThreeServices1: APPUiO läuft auf Red Hat Enterprise Linux (RHEL) 7 (bare metal, virtuell, Cloud)
   offerThreeServices2: Anbindung an vorhandene Storage Lösung

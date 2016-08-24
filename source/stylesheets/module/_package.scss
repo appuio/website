@@ -27,10 +27,10 @@ a.offers-package {
 
 .offers-package {
   flex: 1 auto;
-  //align-items: stretch;
   width: 100%;
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
 
   text-align: center;
   padding: rem-calc(16);
@@ -133,13 +133,15 @@ a.offers-package {
     list-style-type: none;
   }
 }
+.cols-4 {
+  & > li {
+    @include susy-breakpoint($break-medium) {
+      flex: 4 20%!important;
+    }
+  }
+}
 .offers-package-item {
-  //background-color: $color-yellow;
-  //color: white;
   border-bottom: 1px solid $color-grey;
   padding: rem-calc(8 8 24 8);
   margin: rem-calc(8);
-  &:last-child {
-    border: none;
-  }
 }

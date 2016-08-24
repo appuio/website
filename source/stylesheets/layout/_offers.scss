@@ -6,7 +6,8 @@
 .offer-one-intro,
 .offer-one-services,
 .offer-one-offers,
-.offer-two-services  {
+.offer-two-services,
+.offer-three-services  {
   padding: rem-calc(60 0);
   text-align: center;
 }
@@ -223,6 +224,22 @@
 }
 .offer1-large-icon {
   background: $color-blue url('/images/offer1_large.svg') no-repeat;
+  background-size: 100%;
+}
+.offer2-micro-icon {
+  background: $color-blue url('/images/offer2_micro.svg') no-repeat;
+  background-size: 100%;
+}
+.offer2-medium-icon {
+  background: $color-blue url('/images/offer2_medium.svg') no-repeat;
+  background-size: 100%;
+}
+.offer2-large-icon {
+  background: $color-blue url('/images/offer2_large.svg') no-repeat;
+  background-size: 100%;
+}
+.offer2-xlarge-icon {
+  background: $color-blue url('/images/offer2_xlarge.svg') no-repeat;
   background-size: 100%;
 }
 
