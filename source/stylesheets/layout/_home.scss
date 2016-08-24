@@ -31,6 +31,7 @@
   padding: rem-calc(24);
 }
 .home-hero-logo {
+  width: 370px;
   max-width: 60%;
   @include susy-breakpoint($break-medium) {
     max-width: none;

@@ -45,6 +45,8 @@
 // ----------------------------------------------
 
 .offers-title {
+  position: relative;
+  z-index: 99;
   padding-top: rem-calc(128);
 }
 .offers-image {
