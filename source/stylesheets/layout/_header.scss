@@ -39,7 +39,7 @@ category: Layout
   //  margin-top: 0;
   //  text-align: left;
   //}
-  @include susy-breakpoint($break-medium) {
+  @include susy-breakpoint($break-large) {
     position: relative;
     float: left;
     visibility: visible;

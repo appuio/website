@@ -86,11 +86,11 @@ Responsive hotizontal menu.
   position:relative;
   order: 1;
   @include susy-breakpoint($break-medium) {
-    width:60%;
+    width: 61%;
     order: 2;
   }
   @include susy-breakpoint($break-large) {
-    width:50%;
+    width: 50%;
     order: 2;
   }
 }
@@ -114,9 +114,10 @@ Responsive hotizontal menu.
   @include susy-breakpoint($break-medium) {
     width:30%;
     order: 3;
+    right: 3em;
   }
   @include susy-breakpoint($break-large) {
-    width:20%;
+    width:23%;
     order: 3;
   }
 }
