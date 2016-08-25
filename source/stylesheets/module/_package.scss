@@ -56,7 +56,7 @@ a.offers-package {
       width: 100%;
     }
     @include susy-breakpoint($break-medium) {
-      width: 45%;
+      width: 40%;
     }
     @include susy-breakpoint($break-large) {
       width: 20%;

@@ -30,7 +30,7 @@ Responsive hotizontal menu.
   transition: all 300ms ease;
   margin: rem-calc(0 -20);
   &.is-expanded {
-    height: rem-calc(500);
+    height: auto;
   }
   .nav-toggle-close {
     display: none;
@@ -203,7 +203,7 @@ Responsive hotizontal menu.
   & > a {
     display: block;
     background: transparent;
-    padding: rem-calc(20);
+    padding: rem-calc(10 20);
     color: white;
     line-height: rem-calc(20);
     text-decoration: none;

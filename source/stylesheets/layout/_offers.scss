@@ -247,13 +247,26 @@
   flex: 1 100%;
   //min-height: rem-calc(18);
   @include susy-breakpoint($break-small) {
-    height: rem-calc(288);
+    //height: rem-calc(240);
+    height: rem-calc(160); // 8rem: better on mobile
   }
   @include susy-breakpoint($break-medium) {
     height: rem-calc(96);
   }
   @include susy-breakpoint($break-large) {
-    //min-height: rem-calc(144);
     height: rem-calc(160);
+  }
+  &.is-fourth {
+    height: rem-calc(416);
+    @include susy-breakpoint($break-small) {
+      //height: rem-calc(416); // 26rem
+      height: rem-calc(256); // 16rem: better on mobile
+    }
+    @include susy-breakpoint($break-medium) {
+      height: rem-calc(288); // 18rem
+    }
+    @include susy-breakpoint($break-large) {
+      height: rem-calc(160); // 10rem
+    }
   }
 }
