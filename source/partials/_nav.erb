@@ -4,10 +4,10 @@
   <a href="#" class="nav-toggle-close" data-collapse="nav-header"><%= evil_icon 'ei-close' %></a>
   <ul class="nav-main is-horizontal">
     <li>
-      <a href="./#overview"><%= t(:navOverview) %></a>
+      <a href="./#overview" data-collapse="nav-header"><%= t(:navOverview) %></a>
     </li>
     <li class="<%= parent_active('managed-private-paas.html', 'public-paas.html', 'on-premises-paas.html') %>">
-      <a href="./#offer"><%= t(:navOffers) %></a>
+      <a href="./#offer" data-collapse="nav-header"><%= t(:navOffers) %></a>
       <ul>
         <li class="<%= nav_active('managed-private-paas.html') %>"><a href="./managed-private-paas.html"><%= t(:navOffer1) %></a></li>
         <li class="<%= nav_active('public-paas.html') %>"><a href="./public-paas.html"><%= t(:navOffer2) %></a></li>
@@ -15,10 +15,10 @@
       </ul>
     </li>
     <li>
-      <a href="./#features"><%= t(:navFeatures) %></a>
+      <a href="./#features" data-collapse="nav-header"><%= t(:navFeatures) %></a>
     </li>
     <li>
-      <a href="./#contact"><%= t(:navContact) %></a>
+      <a href="./#contact" data-collapse="nav-header"><%= t(:navContact) %></a>
     </li>
   </ul>
   <ul class="nav-global is-horizontal">

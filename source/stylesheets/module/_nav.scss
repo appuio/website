@@ -161,6 +161,16 @@ Responsive hotizontal menu.
     color:#002F47;
   }
 }
+.nav-main > li,
+.nav-global > li {
+  width: 100%;
+  text-align: center;
+  @include susy-breakpoint($break-medium) {
+    width: auto;
+    text-align: left;
+  }
+}
+
 .nav-lang > li,
 .nav-main > li {
   overflow: visible;
