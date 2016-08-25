@@ -140,9 +140,9 @@
         </div>
         <div class="interest-item contract-duration">
           <p>Vertragslaufzeit</p>
-          <input id="monthly-bill" type="radio" name="vertraugslaufzeit" value="Monatlich" class="interest-radio">
+          <input id="monthly-bill" type="radio" name="billing[]" value="Monatlich" class="interest-radio">
           <label class="radio-label" for="monthly-bill">Monatlich</label>
-          <input id="yearly-bill" type="radio" name="vertraugslaufzeit" value="Jährlich" class="interest-radio">
+          <input id="yearly-bill" type="radio" name="billing[]" value="Jährlich" class="interest-radio">
           <label class="radio-label" for="yearly-bill">Jährlich</label>
           <!-- <input id="interest-custom" value="<%= t(:offerTwoCustom) %>" type="checkbox" name="interests[]" class="interest-checkbox">
           <label for="interest-custom"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerTwoCustom) %></label> -->
@@ -153,8 +153,8 @@
         <input title="<%= t(:homeContactYourNameTitle) %>" type="text" name="nachname" class="contact-input" placeholder="<%= t(:homeContactYourName) %>" required>
         <input type="email" name="email" class="contact-input" placeholder="<%= t(:homeContactYourEmail) %>" required>
         <input title="<%= t(:homeContactYourStreetTitle) %>" type="text" name="strasse" class="contact-input" placeholder="<%= t(:homeContactYourStreet) %>" required>
-        <input title="<%= t(:homeContactYourPLZORTTitle) %>" type="text" name="plz" class="contact-input" placeholder="<%= t(:homeContactYourPLZORT) %>" required>
-        <input title="<%= t(:homeContactYourBillStreet) %>" type="text" name="rechnungsadresse_strasse" class="contact-input" placeholder="<%= t(:homeContactYourBillStreet) %>" required>
+        <input title="<%= t(:homeContactYourPLZORTTitle) %>" type="text" name="ort" class="contact-input" placeholder="<%= t(:homeContactYourPLZORT) %>" required>
+        <input title="<%= t(:homeContactYourBillStreet) %>" type="text" name="rechnungsadresse" class="contact-input" placeholder="<%= t(:homeContactYourBillStreet) %>" required>
         <input title="<%= t(:homeContactYourBillPLZORT) %>" type="text" name="rechnungsadresse_ort" class="contact-input" placeholder="<%= t(:homeContactYourBillPLZORT) %>" required>
         <input type="text" name="phone" placeholder="<%= t(:homeContactYourPhone) %>" class="contact-input" required>
         <textarea title="<%= t(:homeContactYourMessageTitle) %>" id="message" name="message" cols="30" rows="6" class="contact-textarea" placeholder="<%= t(:homeContactYourMessage) %>" required></textarea>
