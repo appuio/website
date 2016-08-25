@@ -10,13 +10,14 @@
                 <g id="3" fill="#002F47">
                     <circle id="Oval-Copy-2" cx="90" cy="90" r="90"></circle>
                 </g>
-                <g id="data-backup" transform="translate(50.000000, 45.000000)" stroke-width="2" stroke="#FFFFFF">
+                <g id="data-backup" transform="translate(49.000000, 44.000000)">
                     <g id="Layer_1">
-                        <polyline id="Shape" points="60 40.1033592 60 0 0 0 0 73.5228252 36.6666667 73.5228252"></polyline>
-                        <path d="M0,23.3936262 L60,23.3936262" id="Shape"></path>
-                        <path d="M0,50.129199 L36.6666667,50.129199" id="Shape"></path>
-                        <path d="M77.6666667,73.5228252 C76.6666667,75.8621878 75,77.8673557 73,79.8725237 C64,88.8957795 49,88.8957795 40,79.8725237 C31,70.8492679 31,55.8105082 40,46.7872524 C49,37.7639966 64,37.7639966 73,46.7872524 C77,50.7975883 79.3333333,55.8105082 79.6666667,60.8234281" id="Shape"></path>
-                        <polyline id="Shape" points="63.3333333 73.5228252 80 73.5228252 80 90.2325581"></polyline>
+                        <polygon id="Shape" fill="#FFFFFF" points="62 1 62 1.11022302e-16 61 0 1 0 0 0 0 1 0 75 2 75 2 1 1 2 61 2 60 1 60 41.1033592 62 41.1033592"></polygon>
+                        <rect id="Rectangle" fill="#FFFFFF" x="2" y="23" width="58" height="2"></rect>
+                        <polygon id="Rectangle-Copy" fill="#FFFFFF" points="2 50 39 50 38 52 2 52"></polygon>
+                        <polygon id="Rectangle-Copy-2" fill="#FFFFFF" points="2 73 36 73 37 75 2 75"></polygon>
+                        <path d="M78.6666667,74.5228252 C77.6666667,76.8621878 76,78.8673557 74,80.8725237 C65,89.8957795 50,89.8957795 41,80.8725237 C32,71.8492679 32,56.8105082 41,47.7872524 C50,38.7639966 65,38.7639966 74,47.7872524 C78,51.7975883 80.3333333,56.8105082 80.6666667,61.8234281" id="Shape" stroke="#FFFFFF" stroke-width="2" transform="translate(57.458333, 64.329888) rotate(-45.000000) translate(-57.458333, -64.329888) "></path>
+                        <polyline id="Shape" stroke="#FFFFFF" stroke-width="2" transform="translate(80.446786, 68.153893) rotate(-45.000000) translate(-80.446786, -68.153893) " points="72.6134525 59.7990262 88.2801192 59.7990262 88.2801192 76.5087591"></polyline>
                     </g>
                 </g>
             </g>
