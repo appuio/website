@@ -49,7 +49,10 @@
     width: 72px;
     height: 82px;
     background: url('/images/icon-calendar.svg') no-repeat 0 0;
-    margin: 8px auto;
+    margin: 8px auto 20px auto;
+    @include susy-breakpoint($break-medium) {
+      margin: 8px auto;
+    }
     .month {
       width: 100%;
       text-align: center;
@@ -66,10 +69,13 @@
     }
   }
   .news-text {
-    width: 85%;
+    width: 100%;
+    @include susy-breakpoint($break-medium) {
+      padding-left: 0.5rem;
+      width: 85%;
+    }
     margin: auto;
     padding-bottom:0.2rem;
-    padding-left: 0.5rem;
     border-bottom: 2px solid $color-grey;
   }
 }
