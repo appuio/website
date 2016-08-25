@@ -89,7 +89,7 @@
     }
   });
 
-// Contact form for managed private paas
+// Contact form offer1 managed private paas
 $( "#offer-one-contact-form" ).submit(function( event ) {
   event.preventDefault();
   var valid = true;
@@ -139,7 +139,7 @@ $( "#offer-one-contact-form" ).submit(function( event ) {
   }
 });
 
-// Contact form for public paas
+// Contact form offer2 public paas
 $( "#offer-two-contact-form" ).submit(function( event ) {
   event.preventDefault();
   var valid = true;
@@ -159,12 +159,11 @@ $( "#offer-two-contact-form" ).submit(function( event ) {
   var message = $("[name='message']").val();
   if(!message) valid = false;
 
-  // var firma = $("[name='firma']").val() || '';
   var addresse = $("[name='addresse']").val() || '';
-  var plz_ort = $("[name='plz_ort']").val() || '';
+  var ort = $("[name='ort']").val() || '';
 
   var rechnungsadresse = $("[name='rechnungsadresse']").val() || '';
-  var rechnungsadresse_ort = $("[name='rechnungsadresse']").val() || '';
+  var rechnungsadresse_ort = $("[name='rechnungsadresse_ort']").val() || '';
 
   var billing = $.map($(':radio[name=billing\\[\\]]:checked'), function(n, i){
     return n.value;
@@ -192,7 +191,7 @@ $( "#offer-two-contact-form" ).submit(function( event ) {
   }
 });
 
-// Contact Form for on premises paas
+// Contact Form offer3 on premises paas
   $( "#offer-three-contact-form" ).submit(function( event ) {
     event.preventDefault();
     var valid = true;
@@ -213,8 +212,6 @@ $( "#offer-two-contact-form" ).submit(function( event ) {
     if(!message) valid = false;
 
     var firma = $("[name='firma']").val() || '';
-    var addresse = $("[name='addresse']").val() || '';
-    var rechnungsadresse = $("[name='rechnungsadresse']").val() || '';
 
     if(valid) {
       $('<iframe>', {
