@@ -92,7 +92,7 @@ de:
   homeContactYourMessageTitle: Ihre Nachricht?
   homeContactSend: Absenden
 
-# Managed Private PaaS
+# Offer1: Managed Private PaaS
   offerOneTitle: Managed Private APPUiO
   offerOneIntro: Sie wollen eine eigene private APPUiO Instanz nutzen, die auf unserer Infrastruktur läuft? Wir deployen und betreiben die auf Ihre Bedürfnisse massgeschneiderte Lösung.
 
@@ -116,16 +116,19 @@ de:
   offerOnePackageSmallItem1:  Master <br> (je 4GB Ram, 2vCores)
   offerOnePackageSmallItem2:  2 Nodes <br> (je 16 GB Ram, 6VCores, 100 GB Docker Storage)
   offerOnePackageSmallItem3:  200 GB Persistent Storage
+  offerOneSmallButton: Small
 
   offerOnePackageMediumTitle: Medium
   offerOnePackageMediumItem1:  3 Master <br> (je 4GB Ram, 2vCores)
   offerOnePackageMediumItem2:  4 Nodes <br> (je 32 GB Ram, 6VCores, 100 GB Docker Storage)
   offerOnePackageMediumItem3:  500 GB Persistent Storage
+  offerOneMediumButton: Medium
 
   offerOnePackageLargeTitle: Large
   offerOnePackageLargeItem1:  3 Master <br> (je 4GB Ram, 2vCores)
   offerOnePackageLargeItem2:  8 Nodes <br> (je 32 GB Ram, 6VCores, 100 GB Docker Storage)
   offerOnePackageLargeItem3:  1 TB Persistent Storage
+  offerOneLargeButton: Large
 
   offerOnePackageAddonsTitle: Add Ons
   offerOnePackageAddonsPretext: Auf Anfrage
@@ -146,7 +149,7 @@ de:
   offerOneContactSubject: Ich interessiere mich für ...
   offerOneOrderSend: Absenden
 
-# Public Platform
+# Offer2: Public Platform
   offerTwoTitle: Public Platform
   offerTwoIntro: Sie brauchen kurzfristig standardisierte Entwicklungsumgebungen oder möchten Ihre produktiven Applikationen in eine Schweizer Cloud depolyen? Nutzen Sie dafür unsere APPUiO Public Plattform.
 
@@ -167,24 +170,28 @@ de:
   offerTwoPackageMicroItem2: CPU 500m
   offerTwoPackageMicroItem3: Memory 512MB
   offerTwoPackageMicroItem4: Persistent Volume <br> inkl. 5 GB
+  offerTwoMicroButton: Small
 
   offerTwoPackageMediumTitle: Medium
   offerTwoPackageMediumItem1: CHF 95.- / Monat
   offerTwoPackageMediumItem2: CPU 750m
   offerTwoPackageMediumItem3: Memory 1GB
   offerTwoPackageMediumItem4: Persistent Volume <br> inkl. 10 GB
+  offerTwoMediumButton: Medium
 
   offerTwoPackageLargeTitle: Large
   offerTwoPackageLargeItem1: CHF 189.- / Monat
   offerTwoPackageLargeItem2: CPU 1000m
   offerTwoPackageLargeItem3: Memory 2GB
   offerTwoPackageLargeItem4: Persistent Volume <br> inkl. 20 GB
+  offerTwoLargeButton: Large
 
   offerTwoPackageXlargeTitle: X-Large
   offerTwoPackageXlargeItem1: CHF 379.- / Monat
   offerTwoPackageXlargeItem2: CPU 2000m
   offerTwoPackageXlargeItem3: Memory 4GB
   offerTwoPackageXlargeItem4: Persistent Volume <br> 50 GB
+  offerTwoXlargeButton: X-Large
 
   offerTwoCPUDescription: Die CPU Resourcen werden als KCU (Kubernetes Compute Units) normalisiert, so entsprechen CPU 1000m ungefähr einem single hyperthreaded CPU Kern.
 
@@ -195,9 +202,12 @@ de:
   offerTwoPackageAddonsItem3: 50 GB CHF 19.00
   offerTwoPackageAddonsItem4: 100 GB CHF 25.00
 
-# Formular Defaults
   offerTwoCustom: Custom
   offerTwoCustomText: Auf Anfrage
+
+  offerTwoBilling: Vertragslaufzeit
+  offerTwoBillingMonthly: Monatlich
+  offerTwoBillingYearly: Jährlich
 
   offerTwoContactTitle: APPUiO - Public Plattform
   offerTwoContactSubject: Ich intressiere mich für ...
@@ -206,7 +216,7 @@ de:
   offerTwoTerms2: Terms & Conditions
   offerTwoSend: Bestellen
 
-# On Premises PaaS
+# Offer3: On Premises PaaS
   offerThreeTitle: On Premises
   offerThreeIntro: Ihre PaaS in Ihrem Rechenzentrum, optimal integriert in Ihre Infrastruktur. Wir begleiten Sie von der Idee über die Umsetzung und falls gewünscht bis zum Betrieb.
   offerThreeServicesTitle: Hier braucht es noch einen schönen Titel

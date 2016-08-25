@@ -72,7 +72,7 @@ en:
   homeContactYourMessageTitle: message
   homeContactSend: send
 
-# Managed Private PaaS
+# Offer1: Managed Private PaaS
   offerOneTitle: Managed Private Platform
   offerOneIntro: Sie wollen eine eigene private APPUiO Instanz nutzen, die auf unserer Infrastruktur läuft? Wir deployen und betreiben die auf Ihre Bedürfnisse massgeschneiderte Lösung.
 
@@ -96,16 +96,19 @@ en:
   offerOnePackageSmallItem1:  Master <br> (je 4GB Ram, 2vCores)
   offerOnePackageSmallItem2:  2 Nodes <br> (je 16 GB Ram, 6VCores, 100 GB Docker Storage)
   offerOnePackageSmallItem3:  200 GB Persistent Storage
+  offerOneSmallButton: Small
 
   offerOnePackageMediumTitle: Medium
   offerOnePackageMediumItem1:  3 Master <br> (je 4GB Ram, 2vCores)
   offerOnePackageMediumItem2:  4 Nodes <br> (je 16 GB Ram, 6VCores, 100 GB Docker Storage)
   offerOnePackageMediumItem3:  500 GB Persistent Storage
+  offerOneMediumButton: Medium
 
   offerOnePackageLargeTitle: Large
   offerOnePackageLargeItem1:  3 Master <br> (je 4GB Ram, 2vCores)
   offerOnePackageLargeItem2:  8 Nodes <br> (je 16 GB Ram, 6VCores, 100 GB Docker Storage)
   offerOnePackageLargeItem3:  1 TB Persistent Storage
+  offerOneLargeButton: Large
 
   offerOnePackageAddonsTitle: Add Ons
   offerOnePackageAddonsPretext: Auf Anfrage
@@ -121,7 +124,7 @@ en:
   offerContactOneMedium: Medium
   offerContactOneLarge: Large
 
-# Public Platform
+# OFfer2: Public Platform
   offerTwoTitle: Public Platform
   offerTwoIntro: Sie brauchen kurzfristig standardisierte Entwicklungsressourcen oder möchten Ihre produktive Applikation bei Bedarf skalieren?
 
@@ -142,24 +145,28 @@ en:
   offerTwoPackageMicroItem2: CPU 500m
   offerTwoPackageMicroItem3: Memory 512MB
   offerTwoPackageMicroItem4: Persistent Volume <br> inkl. 5 GB
+  offerTwoMicroButton: Small
 
   offerTwoPackageMediumTitle: Medium
   offerTwoPackageMediumItem1: CHF 95.- / Monat
   offerTwoPackageMediumItem2: CPU 750m
   offerTwoPackageMediumItem3: Memory 1GB
   offerTwoPackageMediumItem4: Persistent Volume <br> inkl. 10 GB
+  offerTwoMediumButton: Medium
 
   offerTwoPackageLargeTitle: Large
   offerTwoPackageLargeItem1: CHF 189.- / Monat
   offerTwoPackageLargeItem2: CPU 1000m
   offerTwoPackageLargeItem3: Memory 2GB
   offerTwoPackageLargeItem4: Persistent Volume <br> inkl. 20 GB
+  offerTwoLargeButton: Large
 
   offerTwoPackageXlargeTitle: X-Large
   offerTwoPackageXlargeItem1: CHF 379.- / Monat
   offerTwoPackageXlargeItem2: CPU 2000m
   offerTwoPackageXlargeItem3: Memory 4GB
   offerTwoPackageXlargeItem4: Persistent Volume <br> 50 GB
+  offerTwoXlargeButton: X-Large
 
   offerTwoPackageAddonsTitle: Persistent Storage Add Ons
   offerTwoPackageAddonsPretext: Auf Anfrage
@@ -172,13 +179,18 @@ en:
   offerTwoCustom: Custom
   offerTwoCustomText: Auf Anfrage
 
-  offerTwoContactTitle:
+  offerTwoBilling: Billing
+  offerTwoBillingMonthly: Monthly
+  offerTwoBillingYearly: Yearly
 
-  offerTwoTerms1: Ich akzeptiere die
+  offerTwoContactTitle: APPUiO - Public Plattform
+  offerTwoContactSubject: I want to know more about ...
+
+  offerTwoTerms1: I accept the
   offerTwoTerms2: Terms & Conditions
-  offerTwoSend: Bestellen
+  offerTwoSend: Order
 
-# On Premises PaaS
+# Offer3: On Premises PaaS
   offerThreeTitle: On Premises
   offerThreeIntro: Ihre PaaS in Ihrem Rechenzentrum, optimal integriert in Ihre Infrastruktur. Wir begleiten Sie von der Idee über die Umsetzung und falls gewünscht bis zum Betrieb.
   offerThreeServicesDesc: Die Flexibiltät APPUiOs erlaubt die Integration in komplexe, bestehende Infrastrukturen. Hier eine Liste möglicher Integrationspunkte, welche durch APPUiO resp. OpenShift abgedeckt werden können.
@@ -190,6 +202,9 @@ en:
   offerThreeServices6: Anbindung an bestehende Datenbank Server
   offerThreeServices7: Backup integrieren
   offerThreeServices8: CI/CD Workflows anbinden
+
+  offerTreeContactTitle: Contact
+  offerTreeContactDesc:
 
 # Formular Defaults
   mailGotAMessage: We just recieved a message from APPUiO.ch!
