@@ -34,7 +34,7 @@ de:
   homeOfferOneButton: Details
   homeOfferTwoRibbon: Meist gewählt
   homeOfferTwoTitle: Public Platform
-  homeOfferTwoDesc: Sie brauchen kurzfristig standardisierte Entwicklungsumgebungen oder möchten Ihre produktiven Applikationen in eine Schweizer Cloud depolyen?
+  homeOfferTwoDesc: Sie brauchen kurzfristig standardisierte Entwicklungsumgebungen oder möchten Ihre produktiven Applikationen in eine Schweizer Cloud deployen?
   homeOfferTwoButton: Details
   homeOfferThreeTitle: On Premises APPUiO
   homeOfferThreeDesc: Ihre PaaS in Ihrem Rechenzentrum, optimal integriert in Ihre Infrastruktur. Wir begleiten Sie von der Idee über die Umsetzung und falls gewünscht bis zum Betrieb.
@@ -151,7 +151,7 @@ de:
 
 # Offer2: Public Platform
   offerTwoTitle: Public Platform
-  offerTwoIntro: Sie brauchen kurzfristig standardisierte Entwicklungsumgebungen oder möchten Ihre produktiven Applikationen in eine Schweizer Cloud depolyen? Nutzen Sie dafür unsere APPUiO Public Plattform.
+  offerTwoIntro: Sie brauchen kurzfristig standardisierte Entwicklungsumgebungen oder möchten Ihre produktiven Applikationen in eine Schweizer Cloud deployen? Nutzen Sie dafür unsere APPUiO Public Plattform.
 
   offerTwoServiceTitle: ! Hier braucht es noch einen Titel (wie bei Private Managed PaaS)
   offerTwoServices1: Auf Ihre Bedürfnisse zugeschnittene Bundles

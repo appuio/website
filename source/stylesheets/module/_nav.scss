@@ -225,8 +225,7 @@ Responsive hotizontal menu.
       padding: rem-calc(10 20);
     }
   }
-  & > a:hover,
-  & > a:focus {
+  & > a:hover {
     background-color: #FFD301;
     color: #002F47;
   }
