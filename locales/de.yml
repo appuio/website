@@ -68,7 +68,7 @@ de:
 # Home: Contact Section
   homeContactTitle: Kontakt
   homeContactDesc: Gerne treten wir mit Ihnen in Kontakt. Bitte geben Sie uns an, wie wir Sie am besten erreichen können. Ihre Daten behandeln wir vertraulich und werden nicht an Dritte weitergegeben.
-  homeContactSubject: Gerne bestelle ich verbindlich:
+  homeContactSubject: Gerne bestelle ich verbindlich ...
   homeContactSubjectOne: Managed Private Platform
   homeContactSubjectTwo: Public Platform
   homeContactSubjectThree: On Premises
@@ -126,7 +126,7 @@ de:
 
   offerOnePackageLargeTitle: Large
   offerOnePackageLargeItem1:  3 Master <br> (je 4GB Ram, 2vCores)
-  offerOnePackageLargeItem2:  8 Nodes <br> (je 32 GB Ram, 6VCores, 100 GB Docker Storage)
+  offerOnePackageLargeItem2:  8 Nodes <br> (je 32 GB Ram, 6VCores, 200 GB Docker Storage)
   offerOnePackageLargeItem3:  1 TB Persistent Storage
   offerOneLargeButton: Large
 
@@ -205,12 +205,12 @@ de:
   offerTwoCustom: Custom
   offerTwoCustomText: Auf Anfrage
 
-  offerTwoBilling: Vertragslaufzeit
+  offerTwoBilling: Die Vertragslaufzeit beträgt momentan ein Jahr.<br>Es gelten die APPUiO Servicebestimmungen.
   offerTwoBillingMonthly: Monatlich
   offerTwoBillingYearly: Jährlich
 
-  offerTwoContactTitle: APPUiO - Public Plattform
-  offerTwoContactSubject: Ich intressiere mich für ...
+  offerTwoContactTitle: APPUiO - PUBLIC PLATFORM
+  offerTwoContactSubject: Hiermit bestelle ich verbindlich ...
 
   offerTwoTerms1: Ich akzeptiere die
   offerTwoTerms2: Terms & Conditions
