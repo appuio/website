@@ -4,10 +4,19 @@ en:
   metaKeywords: openShift, container runtime, Container Platform, cluster, PaaS, Docker, Kubernetes, Swiss, Switzerland, VSHN. Puzzle ITC GmbH, Platform as a Service
 
 # Globale Navigation
+  navGlobalDocs: Docs
+  navGlobalFAQ: FAQ
+  navGlobalNews: News
+  navGlobalForum: Forum
+  navGlobalLogin: Login
   navOverview: Overview
   navOffers: Offer
+  navOffer1: Managed Private APPUiO
+  navOffer2: Public Platform
+  navOffer3: On Premises APPUiO
   navFeatures: Features
   navContact: Contact
+  navFAQ: FAQ
 
 # Home Seite
   homeNewsTitle: News
@@ -21,13 +30,14 @@ en:
   homeOfferTitle: Offer
   homeOfferOneTitle: Managed Private APPUiO
   homeOfferOneDesc: We will host and manage your own private APPUiO instance inside our infrastructure. Your installation is deployed and operated according to your specific requirements.
-  homeOfferOneButton: Get my private APPUiO
+  homeOfferOneButton: details
+  homeOfferTwoRibbon: Meist gewählt
   homeOfferTwoTitle: Public Platform
   homeOfferTwoDesc: Sie brauchen kurzfristig standardisierte Entwicklungsumgebungen oder möchten Ihre produktiven Applikationen in eine Schweizer Cloud deployen? Nutzen Sie dafür unsere APPUiO Public Plattform.
   homeOfferTwoButton: Details
   homeOfferThreeTitle: On premises APPUiO
   homeOfferThreeDesc: Your PaaS in your own datacentre, perfectly integrated in your infrastructure. We will support you through the whole process, starting with your idea until the platform is fully functional.  If desired we can even operate your PaaS for you.
-  homeOfferThreeButton: Cloud engineering
+  homeOfferThreeButton: details
   homeOfferDesc: All APPUiO public PaaS offerings will be held and operated in ISO27001-certified and FINMA-audited datacentres inside Switzerland and according Swiss law.
 
 # Home: Feature Section
@@ -67,13 +77,22 @@ en:
   homeContactYourName: last name
   homeContactYourFirstNameTitle: your first name
   homeContactYourNameTitle: your last name
+  homeContactYourFirmTitle: Firma
+  homeContactYourFirm: Firma
+  homeContactYourPhone: Telefon
   homeContactYourEmail: email
+  homeContactYourStreet: Strasse
+  homeContactYourStreetTitle: Strasse
+  homeContactYourPLZORT: PLZ, Ort
+  homeContactYourPLZORTTitle: PLZ, Ort
+  homeContactYourBillStreet: Rechnungsadresse Strasse
+  homeContactYourBillPLZORT: Rechnungsadresse PLZ, Ort
   homeContactYourMessage: message
   homeContactYourMessageTitle: message
   homeContactSend: send
 
 # Offer1: Managed Private PaaS
-  offerOneTitle: Managed Private Platform
+  offerOneTitle: Managed Private APPUiO
   offerOneIntro: Sie wollen eine eigene private APPUiO Instanz nutzen, die auf unserer Infrastruktur läuft? Wir deployen und betreiben die auf Ihre Bedürfnisse massgeschneiderte Lösung.
 
   offerOneList1: Basis für DevOps
@@ -100,13 +119,13 @@ en:
 
   offerOnePackageMediumTitle: Medium
   offerOnePackageMediumItem1:  3 Master <br> (je 4GB Ram, 2vCores)
-  offerOnePackageMediumItem2:  4 Nodes <br> (je 16 GB Ram, 6VCores, 100 GB Docker Storage)
+  offerOnePackageMediumItem2:  4 Nodes <br> (je 32 GB Ram, 6VCores, 100 GB Docker Storage)
   offerOnePackageMediumItem3:  500 GB Persistent Storage
   offerOneMediumButton: Medium
 
   offerOnePackageLargeTitle: Large
   offerOnePackageLargeItem1:  3 Master <br> (je 4GB Ram, 2vCores)
-  offerOnePackageLargeItem2:  8 Nodes <br> (je 16 GB Ram, 6VCores, 100 GB Docker Storage)
+  offerOnePackageLargeItem2:  8 Nodes <br> (je 32 GB Ram, 6VCores, 200 GB Docker Storage)
   offerOnePackageLargeItem3:  1 TB Persistent Storage
   offerOneLargeButton: Large
 
@@ -114,44 +133,51 @@ en:
   offerOnePackageAddonsPretext: Auf Anfrage
   offerOnePackageAddonsItem1: SLA 7*24 Reaktiv
   offerOnePackageAddonsItem2: SLA 7*24 Proaktiv
-  offerOnePackageAddonsItem3: Backup, erweitert, Backup der Datenbanken Pods
+  offerOnePackageAddonsItem3: erweitertes Backup der Datenbanken Pods
   offerOnePackageAddonsItem4: Monitoring, Applikationsmonitoring und -alarming, pro 5 Applikationen
   offerOnePackageAddonsItem5: JBoss Middleware Subscriptions
-  offerOnePackageAddonsItem6: Zusätzliche Nodes
-  offerOnePackageAddonsItem7: Zusätzliche Storage
+  offerOnePackageAddonsItem6: Zusätzliche Nodes / Masters
+  offerOnePackageAddonsItem7: Zusätzliches Memory
+  offerOnePackageAddonsItem8: Zusätzliche CPU
+  offerOnePackageAddonsItem9: Zusätzliche Storage
 
   offerContactOneSmall: Small
   offerContactOneMedium: Medium
   offerContactOneLarge: Large
 
-# OFfer2: Public Platform
-  offerTwoTitle: Public Platform
-  offerTwoIntro: Sie brauchen kurzfristig standardisierte Entwicklungsressourcen oder möchten Ihre produktive Applikation bei Bedarf skalieren?
+  offerOneContactTitle: Meine APPUiO private Platform
+  offerOneContactDesc: Gerne treten wir mit Ihnen in Kontakt. Bitte geben Sie uns an, wie wir Sie am besten erreichen können. Ihre Daten behandeln wir vertraulich und werden nicht an Dritte weitergegeben.
+  offerOneContactSubject: Ich interessiere mich für ...
+  offerOneOrderSend: Absenden
 
-  offerTwoServiceTitle: ! Hier braucht es noch die übersetzung des Titel (wie bei Private Managed PaaS)
+# Offer2: Public Platform
+  offerTwoTitle: Public Platform
+  offerTwoIntro: Sie brauchen kurzfristig standardisierte Entwicklungsumgebungen oder möchten Ihre produktiven Applikationen in eine Schweizer Cloud deployen? Nutzen Sie dafür unsere APPUiO Public Plattform.
+
+  offerTwoServiceTitle: Passendes Angebot auswählen und loslegen
   offerTwoServices1: Auf Ihre Bedürfnisse zugeschnittene Bundles
   offerTwoServices2: "Von Entwicklern für Entwickler: Forum, Dokumentation und Community"
   offerTwoServices3: Wir kümmern uns um Backup, Monitoring, Updates und Support
 
-  offerTwoServicesDesc: Hier kommt noch bisschen was zu Vertragslaufzeit etc.
-  offerTwoIso: Die APPUiO public Platform wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
+  offerTwoServicesDesc: Die Abrechnung erfolgt aktuell monatlich per Rechnung.
+  offerTwoIso: Die APPUiO Public Platform wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
 
   offerTwoPackageTitle: "Wählen Sie das für Ihre Bedürfnisse passende Paket:"
   offerTwoPromotionTitle: Promotion
   offerTwoPromotionText: Startup promotion for August 2016 ff. <br> 3 months for free if signing a 1 year contract. <br> 6 months for free if signing a 1 year contract AND attending one ore more TechLabs.
 
-  offerTwoPackageMicroTitle: Micro
+  offerTwoPackageMicroTitle: Small
   offerTwoPackageMicroItem1: CHF 49.- / Monat
   offerTwoPackageMicroItem2: CPU 500m
   offerTwoPackageMicroItem3: Memory 512MB
-  offerTwoPackageMicroItem4: Persistent Volume <br> inkl. 5 GB
+  offerTwoPackageMicroItem4: Persistent Volume <br> inkl. 1 GB
   offerTwoMicroButton: Small
 
   offerTwoPackageMediumTitle: Medium
   offerTwoPackageMediumItem1: CHF 95.- / Monat
   offerTwoPackageMediumItem2: CPU 750m
   offerTwoPackageMediumItem3: Memory 1GB
-  offerTwoPackageMediumItem4: Persistent Volume <br> inkl. 10 GB
+  offerTwoPackageMediumItem4: Persistent Volume <br> inkl. 5 GB
   offerTwoMediumButton: Medium
 
   offerTwoPackageLargeTitle: Large
@@ -168,16 +194,22 @@ en:
   offerTwoPackageXlargeItem4: Persistent Volume <br> 50 GB
   offerTwoXlargeButton: X-Large
 
+  offerTwoCPUDescription: Die CPU Resourcen werden als KCU (Kubernetes Compute Units) normalisiert, so entsprechen CPU 1000m ungefähr einem single hyperthreaded CPU Kern.
+
   offerTwoPackageAddonsTitle: Persistent Storage Add Ons
-  offerTwoPackageAddonsPretext: Auf Anfrage
+  offerTwoPackageAddonsPretext: Nach Verbrauch
   offerTwoPackageAddonsItem1: 10 GB CHF 6.70
   offerTwoPackageAddonsItem2: 20 GB CHF 10.00
   offerTwoPackageAddonsItem3: 50 GB CHF 19.00
   offerTwoPackageAddonsItem4: 100 GB CHF 25.00
 
-# Formular Defaults
+  offerTwoStorageDescription: Persistent Storage steht ihnen direkt in der Web Console oder via CLI zur Verfügung und kann als sogenannte Persistent Volumes direkt an Ihre Container angebunden werden. Die Abrechnung erfolgt nach Verbrauch.
+
+  offerTwoBilling: Die Vertragslaufzeit beträgt momentan ein Jahr.<br>Es gelten die APPUiO Servicebestimmungen.
+  offerTwoBillingMonthly: Monatlich
+  offerTwoBillingYearly: Jährlich
+
   offerTwoCustom: Custom
-  offerTwoCustomText: Auf Anfrage
 
   offerTwoBilling: Billing
   offerTwoBillingMonthly: Monthly
@@ -193,6 +225,7 @@ en:
 # Offer3: On Premises PaaS
   offerThreeTitle: On Premises
   offerThreeIntro: Ihre PaaS in Ihrem Rechenzentrum, optimal integriert in Ihre Infrastruktur. Wir begleiten Sie von der Idee über die Umsetzung und falls gewünscht bis zum Betrieb.
+  offerThreeServicesTitle: Offene Komponenten und -Schnittstellen ermöglichen die Integration in komplexe, bestehende Infrastrukturen
   offerThreeServicesDesc: Die Flexibiltät APPUiOs erlaubt die Integration in komplexe, bestehende Infrastrukturen. Hier eine Liste möglicher Integrationspunkte, welche durch APPUiO resp. OpenShift abgedeckt werden können.
   offerThreeServices1: APPUiO läuft auf Red Hat Enterprise Linux (RHEL) 7 (bare metal, virtuell, Cloud)
   offerThreeServices2: Anbindung an vorhandene Storage Lösung
@@ -202,9 +235,10 @@ en:
   offerThreeServices6: Anbindung an bestehende Datenbank Server
   offerThreeServices7: Backup integrieren
   offerThreeServices8: CI/CD Workflows anbinden
+  offerThreeServices9: Anbindung an Active Directory (AD) oder LDAP
 
   offerTreeContactTitle: Contact
-  offerTreeContactDesc:
+  offerTreeContactDesc: Ihr On Premises APPUiO Angebot tönt spannenden, ich wünsche eine persönliche Beratung.
 
 # Formular Defaults
   mailGotAMessage: We just recieved a message from APPUiO.ch!

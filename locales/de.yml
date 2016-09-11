@@ -9,7 +9,6 @@ de:
   navGlobalNews: News
   navGlobalForum: Forum
   navGlobalLogin: Login
-
   navOverview: Übersicht
   navOffers: Angebot
   navOffer1: Managed Private APPUiO
@@ -204,7 +203,7 @@ de:
   offerTwoPackageAddonsItem3: 50 GB CHF 19.00
   offerTwoPackageAddonsItem4: 100 GB CHF 25.00
 
-  offerTwoStorageDescription: Persistent Storage steht ihnen direkt in der Web Console oder via CLI zur Verfügung, und kann als sogenannte Persistent Volumes direkt an Ihre Container angebunden werden. Die Abrechnung erfolgt nach Verbrauch.
+  offerTwoStorageDescription: Persistent Storage steht ihnen direkt in der Web Console oder via CLI zur Verfügung und kann als sogenannte Persistent Volumes direkt an Ihre Container angebunden werden. Die Abrechnung erfolgt nach Verbrauch.
 
   offerTwoBilling: Die Vertragslaufzeit beträgt momentan ein Jahr.<br>Es gelten die APPUiO Servicebestimmungen.
   offerTwoBillingMonthly: Monatlich
@@ -212,8 +211,13 @@ de:
 
   offerTwoCustom: Custom
 
+  offerTwoBilling: Billing
+  offerTwoBillingMonthly: Monthly
+  offerTwoBillingYearly: Yearly
+
   offerTwoContactTitle: APPUiO - PUBLIC PLATFORM
   offerTwoContactSubject: Hiermit bestelle ich verbindlich ...
+
 
   offerTwoTerms1: Ich akzeptiere die
   offerTwoTerms2: Terms & Conditions
