@@ -15,11 +15,12 @@ title: APPUiO - Swiss Container Platform - News
         <div class="year">2016</div>
         <div class="dot"></div>
         <div class="year-container">
-            <% data.news.each do |f| %>
+            <% data.news16.each do |f| %>
             <div class="news-entry">
               <div class="date"><div class="month"><%= f["month"] %></div><div class="day"><%= f["day"] %></div></div>
               <div class="news-text">
                 <h3><%= f["title"] %></h3>
+                <h4><%= f["subtitle"] %></h4>
                 <p><%= f["details"] %></p>
               </div>
             </div>
