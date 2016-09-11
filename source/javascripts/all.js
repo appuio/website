@@ -90,12 +90,14 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
     var interests = $.map($(':checkbox[name=interests\\[\\]]:checked'), function(n, i){
       return n.value;
     }).join(',');
-    var message = $("[name='message']").val() + "\n";
+    var message = $("[name='message']").val() + "<br><br>\n\r";
+    
+    message += "<br><br>\n\rfields:<br>\n\r";
     // add all fields also to the message
     $(":input").each(function(){
     	var name = $(this).attr('name'); 
     	var value = $(this).val();
-    	message += name + ": " + value + "\n";
+    	message += name + ": " + value + "<br>\n\r";
     });
     
     if(!vorname) valid = false;
@@ -142,7 +144,13 @@ $( "#offer-one-contact-form" ).submit(function( event ) {
   if(!phone) valid = false;
 
   var message = $("[name='message']").val();
-  if(!message) valid = false;
+  message += "<br><br>\n\rfields:<br>\n\r";
+  // add all fields also to the message
+  $(":input").each(function(){
+  	var name = $(this).attr('name'); 
+  	var value = $(this).val();
+  	message += name + ": " + value + "<br>\n\r";
+  });
 
   var firma = $("[name='firma']").val() || '';
 
@@ -192,7 +200,16 @@ $( "#offer-two-contact-form" ).submit(function( event ) {
   if(!phone) valid = false;
 
   var message = $("[name='message']").val();
-  if(!message) valid = false;
+  message += "<br><br>\n\rfields:<br>\n\r";
+  // add all fields also to the message
+  $(":input").each(function(){
+  	var name = $(this).attr('name'); 
+  	var value = $(this).val();
+  	message += name + ": " + value + "<br>\n\r";
+  });
+  var interests = $.map($(':checkbox[name=interests\\[\\]]:checked'), function(n, i){
+	  return n.value;
+	  }).join(',');
 
   var addresse = $("[name='addresse']").val() || '';
   var ort = $("[name='ort']").val() || '';
@@ -204,6 +221,8 @@ $( "#offer-two-contact-form" ).submit(function( event ) {
     return n.value;
   }).join(',');
 
+  
+  
   if(valid) {
     $('<iframe>', {
       src: 'https://app.hatchbuck.com/onlineForm/submit.php?formID=60964925647&enableServerValidation=0&enable303Redirect=1&q1_firstName1='+vorname+'&q3_lastName3='+nachname+'&q4_email='+email+'&q6_interessen='+interests+'&q5_nachricht='+message,
@@ -244,7 +263,14 @@ $( "#offer-two-contact-form" ).submit(function( event ) {
     if(!phone) valid = false;
 
     var message = $("[name='message']").val();
-    if(!message) valid = false;
+    message += "<br><br>\n\rfields:<br>\n\r";
+    // add all fields also to the message
+    $(":input").each(function(){
+    	var name = $(this).attr('name'); 
+    	var value = $(this).val();
+    	message += name + ": " + value + "<br>\n\r";
+    });
+    var interests = "-";
 
     var firma = $("[name='firma']").val() || '';
 
