@@ -1,4 +1,4 @@
-﻿- day: 12
+- day: 12
   month: Sep
   title: APPUiO & OpenShift Tech Labs in Bern und Zürich
   subtitle: Mit einer Platform as a Service (PaaS) ändert sich die Art, wie wir Software entwickeln. Puzzle stellt OpenShift V3 - die Container Plattform von Red Hat - in einem Tech Lab vor.
@@ -17,7 +17,6 @@
            <li>Persistent Storage anbinden und verwenden für Datenbank</li>
            <li>Applikationstemplates</li>
            </ul>
-           <p>&nbsp;</p>
            <p>Daten:</p>
            <ul>
            <li>21. September 2016 in Zürich</li>
@@ -29,5 +28,6 @@
            </ul>
            <p>Zeit: 14:00 bis 17:30 Uhr<br>
            Ort: die Location werden wir frühzeitig bekanntgeben></p>
-           <p>Die Teilnahme ist kostenlos. Für das Lab solltet ihr euren eigenen Laptop mitbringen. Die Platzzahl ist beschränkt. Anmeldung bitte per <a href=\"mailto: hello@appuio.ch\">Mail</a>.</p>
+           <p>Die Teilnahme ist kostenlos. Für das Lab solltet ihr euren eigenen Laptop mitbringen. Die Platzzahl ist beschränkt.<br> Anmeldung bitte per <a href=\"mailto: hello@appuio.ch\">Mail</a>.</p>
            "
+
