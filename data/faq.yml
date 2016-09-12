@@ -11,6 +11,6 @@
 - question: Ich habe ein Problem in meinem APPUiO Projekt, wer kann mir weiterhelfen?
   answer: Wir helfen Ihnen gerne unter support@appuio.ch oder im <a href="https://forum.appuio.ch/" target="new">Supportforum</a> weiter.
 - question: Wo finde ich technische FAQs?
-  answer: Technische Details werden auf der Dokumentationsseite unter <a href="http://docs.appuio.ch/en/latest/ifaq.html" target="new">docs.appuio.ch</a> beantwortet.
+  answer: Technische Details werden auf der Dokumentationsseite unter <a href="http://docs.appuio.ch/en/latest/faq.html" target="new">docs.appuio.ch</a> beantwortet.
 - question: Kann ich das Public PaaS Angebot auch monatlich beziehen?
   answer: Momentan können wir dies leider noch nicht anbieten. Wir arbeiten allerdings am automatisierten Billing, damit wir in Zukunft auch monatliche Abos anbieten können.
