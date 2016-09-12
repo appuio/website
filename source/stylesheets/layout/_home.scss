@@ -143,6 +143,9 @@
   position: relative;
   margin: 0 auto;
   clear: both;
+  @include susy-breakpoint($break-small) {
+    margin-top: rem-calc(12);
+  }
   // flex: 3 100%;
   @include susy-breakpoint($break-medium) {
     @include span(6 last of 12);

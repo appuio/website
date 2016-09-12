@@ -46,9 +46,8 @@ a.button {
   user-select: none;
   transition: all 300ms ease-in-out;
   -webkit-appearance: none;
-  @include susy-breakpoint($break-small) {
-    margin-top: rem-calc(12);
-  }
+  margin-top: none;
+
   &.is-flex {
     flex: 1 100%;
   }
