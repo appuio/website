@@ -55,6 +55,11 @@
 // Content Styling
 // ----------------------------------------------
 
+.offer-one-contact-title,
+.offer-two-contact-title {
+  text-transform: none;
+}
+
 .offers-title {
   position: relative;
   z-index: 9;

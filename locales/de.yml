@@ -67,7 +67,7 @@ de:
 # Home: Contact Section
   homeContactTitle: Kontakt
   homeContactDesc: Gerne treten wir mit Ihnen in Kontakt. Bitte geben Sie uns an, wie wir Sie am besten erreichen können. Ihre Daten behandeln wir vertraulich und werden nicht an Dritte weitergegeben.
-  homeContactSubject: Gerne bestelle ich verbindlich ...
+  homeContactSubject: Ich interessiere mich für ...
   homeContactSubjectOne: Managed Private Platform
   homeContactSubjectTwo: Public Platform
   homeContactSubjectThree: On Premises
@@ -145,7 +145,7 @@ de:
   offerContactOneMedium: Medium
   offerContactOneLarge: Large
 
-  offerOneContactTitle: Meine APPUiO private Platform
+  offerOneContactTitle: MEINE APPUiO PRIVATE PLATFORM
   offerOneContactDesc: Gerne treten wir mit Ihnen in Kontakt. Bitte geben Sie uns an, wie wir Sie am besten erreichen können. Ihre Daten behandeln wir vertraulich und werden nicht an Dritte weitergegeben.
   offerOneContactSubject: Ich interessiere mich für ...
   offerOneOrderSend: Absenden
@@ -211,7 +211,7 @@ de:
 
   offerTwoCustom: Custom
 
-  offerTwoBilling: Billing
+  offerTwoBilling: Die Vertragslaufzeit beträgt momentan ein Jahr.<br>Es gelten die APPUiO Servicebestimmungen.
   offerTwoBillingMonthly: Monthly
   offerTwoBillingYearly: Yearly
 
