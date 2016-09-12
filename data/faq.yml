@@ -7,7 +7,7 @@
 - question: Wo finde ich Dokumentation zu APPUiO?
   answer: Die Dokumentation findet ihr unter <a href="http://docs.appuio.ch/en/latest/" target="new">docs.appuio.ch</a>. Diese wird aus dem <a href="https://github.com/appuio/docs" target="new">Github Repo</a> generiert und laufend ergänzt. Anregungen und Ergänzungen sind jederzeit willkommen.
 - question: Wo läuft die APPUiO public PaaS? Wo befinden sich die Datacenter?
-  answer: Die APPUiO Public Cloud läuft auf der IaaS Plattform von cloudscale.ch. Die Server stehen im Datacenter e-shelter in Rümlang. Details siehe <a href="https://www.cloudscale.ch/about" target="new">https://www.cloudscale.ch/about</a>.
+  answer: Die APPUiO Public Cloud läuft auf der IaaS Plattform von cloudscale.ch. Die Server stehen im Datacenter e-shelter in Rümlang. Details siehe <a href="https://www.cloudscale.ch/de/ueber-uns" target="new">https://www.cloudscale.ch/de/ueber-uns</a>.
 - question: Ich habe ein Problem in meinem APPUiO Projekt, wer kann mir weiterhelfen?
   answer: Wir helfen Ihnen gerne unter support@appuio.ch oder im <a href="https://forum.appuio.ch/" target="new">Supportforum</a> weiter.
 - question: Wo finde ich technische FAQs?
