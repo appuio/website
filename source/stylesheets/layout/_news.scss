@@ -1,0 +1,81 @@
+.news-section {
+  padding: rem-calc(15 0);
+  h2 {
+    text-align: center;
+  }
+  .year {
+    font-size: rem-calc(36);
+    margin-bottom: 1.5rem;
+    text-align: center;
+    @include susy-breakpoint($break-medium) {
+      text-align: left;
+    }
+  }
+  .year-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    @include susy-breakpoint($break-medium) {
+      border-left: 2px solid $color-grey;
+      padding-left: 1rem;
+      margin-left: 2.25rem;
+    }
+  }
+  .news-entry {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0.2rem 0rem 2rem 0rem;
+
+    h3 {
+      margin: 0px;
+    }
+  }
+  .dot {
+    display: none;
+    @include susy-breakpoint($break-medium) {
+      display: block;
+      border: 2px solid $color-grey;
+      margin-left: 2rem;
+      border-radius: 5px;
+      width: 10px;
+      height: 10px;
+    }
+  }
+  .date {
+    width: 72px;
+    height: 82px;
+    background: url('/images/icon-calendar.svg') no-repeat 0 0;
+    margin: 8px auto 20px auto;
+    @include susy-breakpoint($break-medium) {
+      margin: 8px auto;
+    }
+    .month {
+      width: 100%;
+      text-align: center;
+      margin-top: rem-calc(15);
+      float: left;
+      text-transform: uppercase;
+      font-size: rem-calc(12);
+    }
+    .day {
+      width: 100%;
+      margin-top: 2.1rem;
+      text-align: center;
+      font-size: rem-calc(36);
+    }
+  }
+  .news-text {
+    width: 100%;
+    @include susy-breakpoint($break-medium) {
+      padding-left: 0.5rem;
+      width: 85%;
+    }
+    margin: auto;
+    padding-bottom:0.2rem;
+    border-bottom: 2px solid $color-grey;
+  }
+}

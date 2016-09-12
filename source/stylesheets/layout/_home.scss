@@ -1,29 +1,37 @@
 // Hero
 // ----------------------------------------------
 .home-hero {
+  position: relative;
   background-color: #002F47;
   color: white;
   text-align: center;
   padding-bottom: rem-calc(100);
+  overflow:hidden;
+
+  & a:hover {
+    color:$color-lightblue;
+  }
 }
 .home-hero-illus {
   padding: rem-calc(80 0 160);
   background-image: url('/images/container.png');
   @include image-2x("/images/container@2x.png", auto, 100%);
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: bottom center;
   background-size: auto 100%;
-  @include susy-breakpoint($break-small) {
+  @include susy-breakpoint($break-medium) {
     padding: rem-calc(120 0 240);
   }
-  @include susy-breakpoint($break-medium) {
+  @include susy-breakpoint($break-large) {
     padding: rem-calc(180 0 360);
   }
-  @include susy-breakpoint($break-large) {
-    padding: rem-calc(240 0 480);
-  }
+}
+.home-hero-cta {
+  clear: both;
+  padding: rem-calc(24);
 }
 .home-hero-logo {
+  width: 370px;
   max-width: 60%;
   @include susy-breakpoint($break-medium) {
     max-width: none;
@@ -42,6 +50,15 @@
   @include susy-breakpoint($break-medium) {
     margin: rem-calc(60) auto;
   }
+}
+
+// News
+// ----------------------------------------------
+.home-news {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 // Offer

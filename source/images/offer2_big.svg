@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="263px" height="165px" viewBox="0 0 263 165" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>E82CF355-C8F2-454A-B46B-24D6903BF498</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="-14.5019123%" y1="0%" x2="-14.5019129%" y2="39.8060967%" id="linearGradient-1">
+            <stop stop-color="#050505" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#020202" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Angebot-2" transform="translate(-204.000000, -178.000000)">
+            <g id="icon-angebot-2" transform="translate(205.000000, 179.000000)">
+                <polygon id="shadow" fill="url(#linearGradient-1)" points="2.50985918 75.4402367 291.271043 364.20142 291.050553 193.321829 128.978635 31.2514"></polygon>
+                <path d="M140.785714,55.5802143 C140.785714,38.4594796 126.646061,24.374949 109.078388,25.0289694 C102.210429,10.5407041 87.4897551,0.490540816 70.3928571,0.490540816 C47.5855714,0.490540816 29.0018571,18.3025408 27.6729592,40.7612143 C13.3932653,37.7860918 0,48.6571327 0,63.2318061 C0,86.5530714 24.4847959,86.1850918 24.4847959,86.1850918 L113.240878,86.1850918 C113.240878,86.1850918 140.785714,82.5991531 140.785714,55.5802143" id="Fill-2" fill="#002F47"></path>
+                <path d="M140.785714,55.5802143 C140.785714,38.4594796 126.646061,24.374949 109.078388,25.0289694 C102.210429,10.5407041 87.4897551,0.490540816 70.3928571,0.490540816 C47.5855714,0.490540816 29.0018571,18.3025408 27.6729592,40.7612143 C13.3932653,37.7860918 0,48.6571327 0,63.2318061 C0,86.5530714 24.4847959,86.1850918 24.4847959,86.1850918 L113.240878,86.1850918 C113.240878,86.1850918 140.785714,82.5991531 140.785714,55.5802143 L140.785714,55.5802143 Z" id="Stroke-4" stroke="#FF931E" stroke-width="2" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

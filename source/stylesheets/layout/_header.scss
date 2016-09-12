@@ -19,21 +19,36 @@ category: Layout
   right: 0;
   background-color: #00AEC1;
   z-index: 10;
+  box-shadow: 0px 1px 5px 3px rgba(66, 66, 66, 0.1);
 
   & + * {
     margin-top: rem-calc(50);
     @include susy-breakpoint($break-medium) {
-      margin-top: rem-calc(40);
+      margin-top: rem-calc(75);
     }
   }
 }
 .header-logo {
-  text-align: center;
-  margin-top: rem-calc(48);
-  
-  @include susy-breakpoint($break-medium) {
+  visibility: hidden;
+  display: none;
+  //text-align: center;
+  //margin-top: rem-calc(48);
+  //
+  //@include susy-breakpoint($break-medium) {
+  //  float: left;
+  //  margin-top: 0;
+  //  text-align: left;
+  //}
+  @include susy-breakpoint($break-large) {
+    position: relative;
     float: left;
-    margin-top: 0;
-    text-align: left;
+    visibility: visible;
+    display: block;
+    top: 15px;
+    margin-right: 10px;
+  }
+  & img {
+    height: 50px;
+
   }
 }

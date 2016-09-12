@@ -1,0 +1,151 @@
+.offers-package-title {
+  text-align: center;
+  margin-bottom: rem-calc(60);
+  @include susy-breakpoint($break-medium) {
+    @include span(12 of 12);
+  }
+}
+.offers-package-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  width: 100%;
+  margin: rem-calc(32 0);
+  //background-color:#0097a8;
+  //border: 3px solid white;
+}
+
+a.offers-package {
+  color: white;
+  text-decoration: none;
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15), 0 5px 10px rgba(0, 0, 0, 0.1)
+  }
+}
+
+.offers-package {
+  flex: 1 auto;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+  text-align: center;
+  padding: rem-calc(16);
+  background-color: $color-blue;
+  color: white;
+  margin: rem-calc(16);
+
+  //a {
+  //  text-decoration: none;
+  //  color: white;
+  //  &:hover {
+  //    background-color: #fff;
+  //  }
+  //}
+
+  &.is-third {
+    @include susy-breakpoint($break-medium) {
+      width: 25%;
+    }
+  }
+  &.is-fourth {
+    @include susy-breakpoint($break-small) {
+      width: 100%;
+    }
+    @include susy-breakpoint($break-medium) {
+      width: 40%;
+    }
+    @include susy-breakpoint($break-large) {
+      width: 20%;
+    }
+  }
+
+  &.is-banner-before {
+    flex: 1 100%;
+    padding-left: rem-calc(16);
+    padding-right: rem-calc(16);
+    text-align: center;
+    background: transparent;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &.is-banner-after {
+    flex: 1 100%;
+    padding-right: rem-calc(16);
+    text-align: left;
+    background: transparent;
+    padding-left: rem-calc(16);
+  }
+
+  &.last-child {
+    flex: 1 100%;
+    text-align: left;
+    padding: rem-calc(16);
+    margin: rem-calc(16);
+
+    & > ul {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+    }
+    & > ul > li {
+      flex: 1 100%;
+      text-align: center;
+      //flex-basis: initial;
+      @include susy-breakpoint($break-medium) {
+        flex: 3 25%;
+      }
+    }
+    & h3 {
+      margin: rem-calc(18 0);
+    }
+  }
+}
+.offers-package-list-title {
+  text-align: center;
+  flex: 1;
+}
+.offers-banner-title {
+  margin: 0;
+  flex: 1 100%;
+  width: 50%;
+  align-self: center;
+}
+.offers-banner-desc {
+  text-align: left;
+  flex: 1;
+}
+.promotion {
+  border-top: 3px solid #98e2ea;
+  border-bottom: 3px solid #98e2ea;
+  padding: rem-calc(8);
+}
+.offer-banner-desc {
+  margin-bottom: 0;
+  flex: 1 100%;
+}
+
+.offers-package-list {
+  padding: 0;
+  flex: 1 100%;
+  & li {
+    list-style-type: none;
+  }
+}
+.cols-4 {
+  & > li {
+    @include susy-breakpoint($break-medium) {
+      flex: 4 20%!important;
+    }
+  }
+}
+.offers-package-item {
+  border-bottom: 1px solid $color-grey;
+  padding: rem-calc(8 8 24 8);
+  margin: rem-calc(8);
+}

@@ -28,8 +28,19 @@ $break-small: 20em, 4;
 $break-medium: 40em, 8;
 $break-large: 60em, 12;
 
-$color-primary: #9EAF56;
-$color-secondary: #418D4B;
+$color-blue: #002F47;
+$color-lightblue: #00AEC1;
+$color-yellow: #FFD301;
+$color-grey: #E5EAED;
+$color-darkgrey: #99ABB5;
+
+$color-greyblue: #7092a6;
+$color-orange: #ff931e;
+$color-green: #929031;
+
+$color-first: lighten($color-blue, 0%);
+$color-second: lighten($color-blue, 8%);
+$color-third: lighten($color-blue, 15%);
 
 // Base
 // ----------------------------------------------
@@ -45,7 +56,7 @@ $color-secondary: #418D4B;
 
 // Module
 // ----------------------------------------------
-// Modules are the reusable, modular parts of our design. They are the callouts, the buttons, 
+// Modules are the reusable, modular parts of our design. They are the callouts, the buttons,
 // the products and so on. (Micro elements)
 //
 // /* Example module: Product */
@@ -65,8 +76,10 @@ $color-secondary: #418D4B;
 @import 'module/icon';
 @import 'module/interest';
 @import 'module/nav';
+@import 'module/news';
 @import 'module/partner';
-
+@import 'module/ribbon';
+@import 'module/package';
 
 // Layout
 // ----------------------------------------------
@@ -79,7 +92,9 @@ $color-secondary: #418D4B;
 @import 'layout/grid';
 @import 'layout/header';
 @import 'layout/home';
-
+@import 'layout/offers';
+@import 'layout/faq';
+@import 'layout/news';
 
 // Page
 // ----------------------------------------------
@@ -109,3 +124,31 @@ $color-secondary: #418D4B;
   height: 0;
   width: 0;
 }
+.is-relative {
+  position: relative;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+
+// Boostrap helpers
+.m-t-1 {
+  margin-top: rem-calc(16)!important;
+}
+.m-t-2 {
+  margin-top: rem-calc(32)!important;
+}
+.m-t-3 {
+  margin-top: rem-calc(48)!important;
+}
+// Not needed at the moment
+// ----------------------------------------------
+//.is-important {
+//  border:3px solid white;
+//  //box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+//  //more of that
+//  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+//}

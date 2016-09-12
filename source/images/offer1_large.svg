@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="468px" height="762px" viewBox="0 0 468 762" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>49E056C6-E41D-4BBE-9E8D-C1145BB9BA39</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="468" height="761.785587" rx="3.22758621"></rect>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#050505" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#020202" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assets" transform="translate(-1200.000000, -1065.000000)">
+            <g id="icon-L-468" transform="translate(1200.000000, 1065.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="card"></g>
+                <polygon id="shadow" fill="url(#linearGradient-3)" mask="url(#mask-2)" points="230.032328 240.693844 288.721142 240.832683 288.91157 269.465802 196.255639 269.273687 467.090466 540.211505 467.12597 350.747954 230.311514 113.843446"></polygon>
+                <text id="L" stroke="#7092A6" stroke-width="1.6137931" mask="url(#mask-2)" font-family="Lato-Heavy, Lato" font-size="209.719999" font-weight="600" fill="#002F47">
+                    <tspan x="180.745634" y="267.01195">L</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

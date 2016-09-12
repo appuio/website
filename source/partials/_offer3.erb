@@ -1,0 +1,51 @@
+<section class="offer-three offer-three-intro">
+  <div class="grid-container">
+    <div class="offers-image"><%= image_tag "offer3_big.svg", :alt => t(:offerOneTitle) %></div>
+      <h2 class="offers-title"><%= t(:offerThreeTitle) %></h2>
+      <p class="offers-intro"><%= t(:offerThreeIntro) %></p>
+    </div>
+  </section>
+<section class="offer-three-services">
+  <div class="grid-container">
+    <h3><%= t(:offerThreeServicesTitle) %></h3>
+    <div class="offers-bulletpoints">
+      <div class="flex-item">
+        <ul>
+          <li><%= t(:offerThreeServices1) %></li>
+          <li><%= t(:offerThreeServices2) %></li>
+          <li><%= t(:offerThreeServices3) %></li>
+          <li><%= t(:offerThreeServices4) %></li>
+          <li><%= t(:offerThreeServices5) %></li>
+        </ul>
+      </div>
+      <div class="flex-item">
+        <ul>
+          <li><%= t(:offerThreeServices6) %></li>
+          <li><%= t(:offerThreeServices7) %></li>
+          <li><%= t(:offerThreeServices8) %></li>
+          <li><%= t(:offerThreeServices9) %></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="offer-contact">
+  <div class="grid-container">
+    <h2 class="offer-three-contact-title"><%= t(:offerTreeContactTitle) %></h2>
+    <p class="home-contact-desc"><%= t(:offerTreeContactDesc) %></p>
+    <form id="offer-three-contact-form" class="offers-contact-container">
+      <div class="offer-three-contact-form">
+        <input title="<%= t(:homeContactYourFirstNameTitle) %>" type="text" name="vorname" class="contact-input" placeholder="<%= t(:homeContactYourFirstName) %>" required>
+        <input title="<%= t(:homeContactYourNameTitle) %>" type="text" name="nachname" class="contact-input" placeholder="<%= t(:homeContactYourName) %>" required>
+        <input title="<%= t(:homeContactYourFirmTitle) %>" type="text" name="firma" class="contact-input" placeholder="<%= t(:homeContactYourFirm) %>" required>
+        <input type="email" name="email" class="contact-input" placeholder="<%= t(:homeContactYourEmail) %>" required>
+        <input type="text" name="phone" placeholder="<%= t(:homeContactYourPhone) %>" class="contact-input" required>
+        <textarea title="<%= t(:homeContactYourMessageTitle) %>" id="message" name="message" cols="30" rows="6" class="contact-textarea" placeholder="<%= t(:homeContactYourMessage) %>" required></textarea>
+      </div>
+      <label class="home-contact-button button-progress">
+        <input type="submit" class="button is-round" value="<%= t(:homeContactSend) %>">
+      </label>
+    </form>
+  </div>
+</section>

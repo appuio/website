@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="468px" height="762px" viewBox="0 0 468 762" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>A0D6A86E-4E72-4F78-8323-3D8B78C44240</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="468" height="761.785587" rx="3.22758621"></rect>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#050505" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#020202" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assets" transform="translate(-619.000000, -1065.000000)">
+            <g id="icon-M-468" transform="translate(619.000000, 1065.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="card"></g>
+                <path d="M317.847848,113.008475 L317.801048,268.491992 L286.764579,268.516208 L286.751669,173.447021 C286.753283,171.747051 286.785559,169.932458 286.864634,168.030686 L247.002331,243.284644 C244.334731,248.378097 240.151779,250.597907 234.563214,250.597907 L230.157559,250.597907 C227.417338,250.597907 224.946621,250.304085 222.8148,248.999644 C220.670069,247.687131 218.949766,245.938729 217.703917,243.439627 L177.588248,167.509233 C177.707669,169.607962 177.768993,171.622742 177.767379,173.413119 L177.819021,268.464547 L146.855172,268.424186 L466.539517,588.236555 L466.528221,261.743771 L317.847848,113.008475 Z" id="shadow" fill="url(#linearGradient-3)" mask="url(#mask-2)"></path>
+                <text id="M" stroke="#7092A6" stroke-width="1.6137931" font-family="Lato-Heavy, Lato" font-size="209.719999" font-weight="600" fill="#002F47">
+                    <tspan x="132.331034" y="266.733051">M</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

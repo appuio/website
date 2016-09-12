@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="584px" height="951px" viewBox="0 0 584 951" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>AD52A33E-4530-435D-96B5-A841569C81F4</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="584" height="950.732405" rx="4.02758621"></rect>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#050505" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#020202" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assets" transform="translate(-665.000000, -1919.000000)">
+            <g id="icon-angebot-2" transform="translate(665.000000, 1919.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="icon-angebot-1"></g>
+                <g transform="translate(189.296552, 256.883475)">
+                    <polygon id="shadow" fill="url(#linearGradient-3)" points="3.39263724 102.379342 393.718099 492.90588 393.420058 261.80482 174.343534 42.6174538"></polygon>
+                    <g id="icon" transform="translate(0.000000, 0.272002)">
+                        <path d="M190.303448,75.2482383 C190.303448,52.0938061 171.190538,33.0455985 147.44389,33.9301091 C138.160303,14.3358824 118.262014,0.743835805 95.1517241,0.743835805 C64.3225655,0.743835805 39.2025103,24.8331494 37.4062069,55.2067193 C18.104,51.1831028 0,65.885321 0,85.5964078 C0,117.136565 33.0966897,116.638901 33.0966897,116.638901 L153.070428,116.638901 C153.070428,116.638901 190.303448,111.789204 190.303448,75.2482383" id="Fill-2" fill="#002F47"></path>
+                        <path d="M190.303448,75.2482383 C190.303448,52.0938061 171.190538,33.0455985 147.44389,33.9301091 C138.160303,14.3358824 118.262014,0.743835805 95.1517241,0.743835805 C64.3225655,0.743835805 39.2025103,24.8331494 37.4062069,55.2067193 C18.104,51.1831028 0,65.885321 0,85.5964078 C0,117.136565 33.0966897,116.638901 33.0966897,116.638901 L153.070428,116.638901 C153.070428,116.638901 190.303448,111.789204 190.303448,75.2482383 L190.303448,75.2482383 Z" id="Stroke-4" stroke="#FF931E" stroke-width="4.02758621" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

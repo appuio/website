@@ -9,17 +9,17 @@ Responsive hotizontal menu.
 
 ```html_example
 <nav class="header-nav nav-horizontal" role="navigation">
-  <ul>
-    <li>
-      <a href="/">Home</a>
-    </li>
-    <li>
-      <a href="/styleguide">Styleguide</a>
-    </li>
-    <li>
-      <a href="https://github.com/wearecube">Github repo</a>
-    </li>
-  </ul>
+<ul>
+<li>
+<a href="/">Home</a>
+</li>
+<li>
+<a href="/styleguide">Styleguide</a>
+</li>
+<li>
+<a href="https://github.com/wearecube">Github repo</a>
+</li>
+</ul>
 </nav>
 ```
 */
@@ -30,7 +30,7 @@ Responsive hotizontal menu.
   transition: all 300ms ease;
   margin: rem-calc(0 -20);
   &.is-expanded {
-    height: rem-calc(350);
+    height: auto;
   }
   .nav-toggle-close {
     display: none;
@@ -40,6 +40,24 @@ Responsive hotizontal menu.
   }
   &.is-expanded .nav-toggle-menu {
     display: none;
+  }
+
+  @include susy-breakpoint($break-medium) {
+    overflow: visible;
+  }
+
+  li.active {
+    background: #FFD301;
+    & a {
+      color: #002F47;
+    }
+  }
+}
+
+.nav-global {
+  &.is-expanded {
+    display: flex;
+    flex-flow: row wrap;
   }
 }
 .nav-header,
@@ -57,11 +75,53 @@ Responsive hotizontal menu.
   @include reset-list;
   display: flex;
   flex-flow: column wrap;
+  align-items: flex-start;
   @include susy-breakpoint($break-medium) {
     flex-flow: row wrap;
     padding: 0;
+    align-items: flex-end;
   }
 }
+.nav-main {
+  position:relative;
+  order: 1;
+  @include susy-breakpoint($break-medium) {
+    width: 61%;
+    order: 2;
+  }
+  @include susy-breakpoint($break-large) {
+    width: 50%;
+    order: 2;
+  }
+}
+.nav-global {
+  position:relative;
+  width: 100%;
+  order: 1;
+  @include susy-breakpoint($break-medium) {
+    //width:40%;
+    order: 1;
+  }
+  @include susy-breakpoint($break-large) {
+    //width: 30%;
+    order: 1;
+  }
+}
+.nav-lang {
+  position:relative;
+  width: 40%;
+  order: 3;
+  @include susy-breakpoint($break-medium) {
+    width:30%;
+    order: 3;
+    right: 3em;
+  }
+  @include susy-breakpoint($break-large) {
+    width:23%;
+    order: 3;
+  }
+}
+
 .no-flexbox {
   .nav-lang,
   .nav-main,
@@ -71,18 +131,90 @@ Responsive hotizontal menu.
       display: inline-block;
     }
   }
-  .nav-main {
+  .nav-main,
+  .nav-global {
+    position:relative;
     @include susy-breakpoint($break-medium) {
-      float: right;
+      float: left;
     }
   }
 }
+.nav-global > li {
+  & > a {
+    display: block;
+    color:#B2E6EC;
+    padding:rem-calc(10 20);
+    font-size:rem-calc(13);
+    text-decoration: none;
+  }
+  & > a:hover {
+    text-decoration:underline;
+    color:#002F47;
+  }
+}
+.nav-global > li.active {
+  & > a {
+    color:#002F47;
+
+  }
+  & > a:hover {
+    text-decoration:underline;
+    color:#002F47;
+  }
+}
+.nav-main > li,
+.nav-global > li {
+  width: 100%;
+  text-align: center;
+  @include susy-breakpoint($break-medium) {
+    width: auto;
+    text-align: left;
+  }
+}
+
 .nav-lang > li,
 .nav-main > li {
+  overflow: visible;
+  position: relative;
+
+  > ul {
+    display: none;
+    min-width: 100px;
+    position: absolute;
+    background-color:#98e2ea;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0px 1px 5px 3px rgba(66, 66, 66, 0.1);
+
+    & > li {
+      text-align: left;
+
+      & > a {
+        color: white;
+        padding: rem-calc(10);
+        display:block;
+        color:#002F47;
+        text-decoration: none;
+        white-space: nowrap;
+      }
+      & > a:hover {
+        background-color: #FFD301;
+        color: #002F47;
+      }
+    }
+  }
+  &:hover > ul {
+    display: none;
+
+    @include susy-breakpoint($break-medium) {
+      display: block !important;
+    }
+  }
   & > a {
     display: block;
     background: transparent;
-    padding: rem-calc(20);
+    padding: rem-calc(10 20);
     color: white;
     line-height: rem-calc(20);
     text-decoration: none;
@@ -93,8 +225,7 @@ Responsive hotizontal menu.
       padding: rem-calc(10 20);
     }
   }
-  & > a:hover,
-  & > a:focus {
+  & > a:hover {
     background-color: #FFD301;
     color: #002F47;
   }
@@ -102,18 +233,13 @@ Responsive hotizontal menu.
     color: #002F47;
   }
 }
-.nav-main {
-  @include susy-breakpoint($break-medium) {
-    order: 2;
-  }
-}
+
 .nav-lang {
   @include reset-list;
   display: flex;
   flex-flow: row wrap;
   padding: 0;
   @include susy-breakpoint($break-medium) {
-    order: 1;
   }
 }
 .nav-toggle-menu,

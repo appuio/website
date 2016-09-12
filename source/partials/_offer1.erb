@@ -1,0 +1,137 @@
+<section class="offer-one offer-one-intro">
+  <div class="grid-container is-relative">
+    <div class="offers-image"><%= image_tag "offer1_big.svg", :alt => t(:offerOneTitle) %></div>
+    <h2 class="offers-title"><%= t(:offerOneTitle) %></h2>
+    <p class="offers-intro"><%= t(:offerOneIntro) %></p>
+    <div class="offers-bulletpoints">
+      <div class="flex-item">
+        <ul>
+          <li><%= t(:offerOneList1) %></li>
+          <li><%= t(:offerOneList2) %></li>
+          <li><%= t(:offerOneList3) %></li>
+          <li><%= t(:offerOneList4) %></li>
+        </ul>
+      </div>
+      <div class="flex-item">
+        <ul>
+          <li><%= t(:offerOneList5) %></li>
+          <li><%= t(:offerOneList6) %></li>
+          <li><%= t(:offerOneList7) %></li>
+        </ul>
+      </div>
+    </div>
+    <p class="offers-desc"><%= t(:offerOneIso) %></p>
+  </div>
+</section>
+  <section class="offer-one-services">
+    <div class="grid-container">
+      <h3><%= t(:offerOneServiceTitle) %></h3>
+      <div class="offer-container">
+        <article class="offer-item is-third">
+          <span class="offer-item-image"><%= image_tag "service1.svg", :alt => 'Consulting Setup und Initialisierung' %></span>
+          <p class="offer-item-desc"><%= t(:offerOneServices1) %></p>
+        </article>
+        <article class="offer-item is-third">
+          <span class="offer-item-image"><%= image_tag "service2.svg", :alt => 'Bring my App to the Cloud' %></span>
+          <p class="offer-item-desc"><%= t(:offerOneServices2) %></p>
+        </article>
+        <article class="offer-item is-third">
+          <span class="offer-item-image"><%= image_tag "service3.svg", :alt => 'Automatisierung Ihrer Prozesse' %></span>
+          <p class="offer-item-desc"><%= t(:offerOneServices3) %></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="offer-one-offers">
+      <div class="grid-container">
+        <h3 class="offers-package-title"><%= t(:offerOnePackageTitle) %></h3>
+        <div class="offers-package-container">
+
+          <div class="offers-package is-third offer1-small-icon">
+            <div class="offers-package-ribbon"><%= t(:offerOnePackageSmallTitle) %></div>
+            <div class="offer-spacer"></div>
+            <ul class="offers-package-list">
+              <li class="offers-package-item"><%= t(:offerOnePackageSmallItem1) %></li>
+              <li class="offers-package-item"><%= t(:offerOnePackageSmallItem2) %></li>
+              <li class="offers-package-item"><%= t(:offerOnePackageSmallItem3) %></li>
+            </ul>
+            <a href="#offers-one-contact" class="callout-button button is-round is-flex" data-check="interest-small"><%= t(:offerOneSmallButton) %></a>
+          </div>
+
+          <div class="offers-package is-third offer1-medium-icon">
+            <div class="offers-package-ribbon"><%= t(:offerOnePackageMediumTitle) %></div>
+            <div class="offer-spacer"></div>
+            <ul class="offers-package-list">
+              <li class="offers-package-item"><%= t(:offerOnePackageMediumItem1) %></li>
+              <li class="offers-package-item"><%= t(:offerOnePackageMediumItem2) %></li>
+              <li class="offers-package-item"><%= t(:offerOnePackageMediumItem3) %></li>
+            </ul>
+            <a href="#offers-one-contact" class="callout-button button is-round is-flex" data-check="interest-medium"><%= t(:offerOneMediumButton) %></a>
+          </div>
+
+          <div class="offers-package is-third offer1-large-icon">
+            <div class="offers-package-ribbon"><%= t(:offerOnePackageLargeTitle) %></div>
+            <div class="offer-spacer"></div>
+            <ul class="offers-package-list">
+              <li class="offers-package-item"><%= t(:offerOnePackageLargeItem1) %></li>
+              <li class="offers-package-item"><%= t(:offerOnePackageLargeItem2) %></li>
+              <li class="offers-package-item"><%= t(:offerOnePackageLargeItem3) %></li>
+            </ul>
+            <a href="#offers-one-contact" class="callout-button button is-round is-flex" data-check="interest-large"><%= t(:offerOneLargeButton) %></a>
+          </div>
+
+          <article class="offers-package last-child">
+            <div class="offers-package-ribbon text-center"><%= t(:offerOnePackageAddonsPretext) %></div>
+            <h3 class="offers-package-list-title m-t-2"><%= t(:offerOnePackageAddonsTitle) %></h3>
+            <ul class="offers-package-list 3-cols">
+              <li class="offers-package-item"><%= t(:offerOnePackageAddonsItem1) %></li>
+              <li class="offers-package-item"><%= t(:offerOnePackageAddonsItem2) %></li>
+              <li class="offers-package-item"><%= t(:offerOnePackageAddonsItem3) %></li>
+              <li class="offers-package-item"><%= t(:offerOnePackageAddonsItem4) %></li>
+              <li class="offers-package-item"><%= t(:offerOnePackageAddonsItem5) %></li>
+              <li class="offers-package-item"><%= t(:offerOnePackageAddonsItem6) %></li>
+              <li class="offers-package-item"><%= t(:offerOnePackageAddonsItem7) %></li>
+              <li class="offers-package-item"><%= t(:offerOnePackageAddonsItem8) %></li>
+              <li class="offers-package-item"><%= t(:offerOnePackageAddonsItem9) %></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+  </section>
+
+  <a name="offers-one-contact"></a>
+  <section class="offer-contact">
+    <div class="grid-container">
+      <h2 class="offer-one-contact-title"><%= t(:offerOneContactTitle) %></h2>
+      <p class="home-contact-desc"><%= t(:offerOneContactDesc) %></p>
+      <form id="offer-one-contact-form" class="offers-contact-container">
+        <div class="home-contact-interest interest-container">
+          <h3 class="interest-title"><%= t(:offerOneContactSubject) %></h3>
+          <div class="interest-item">
+            <input id="interest-small" value="<%= t(:offerOnePackageSmallTitle) %>" type="checkbox" name="interests[]" class="interest-checkbox">
+            <label for="interest-small"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerOnePackageSmallTitle) %></label>
+          </div>
+          <div class="interest-item">
+            <input id="interest-medium" value="<%= t(:offerOnePackageMediumTitle) %>" type="checkbox" name="interests[]" class="interest-checkbox">
+            <label for="interest-medium"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerOnePackageMediumTitle) %></label>
+          </div>
+          <div class="interest-item">
+            <input id="interest-large" value="<%= t(:offerOnePackageLargeTitle) %>" type="checkbox" name="interests[]" class="interest-checkbox">
+            <label for="interest-large"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerOnePackageLargeTitle) %></label>
+          </div>
+        </div>
+        <div class="home-contact-form">
+          <input title="<%= t(:homeContactYourFirstNameTitle) %>" type="text" name="vorname" class="contact-input" placeholder="<%= t(:homeContactYourFirstName) %>" required>
+          <input title="<%= t(:homeContactYourNameTitle) %>" type="text" name="nachname" class="contact-input" placeholder="<%= t(:homeContactYourName) %>" required>
+          <input title="<%= t(:homeContactYourFirmTitle) %>" type="text" name="firma" class="contact-input" placeholder="<%= t(:homeContactYourFirm) %>" required>
+          <input type="email" name="email" class="contact-input" placeholder="<%= t(:homeContactYourEmail) %>" required>
+          <input type="text" name="phone" placeholder="<%= t(:homeContactYourPhone) %>" class="contact-input" required>
+          <textarea title="<%= t(:homeContactYourMessageTitle) %>" id="message" name="message" cols="30" rows="6" class="contact-textarea" placeholder="<%= t(:homeContactYourMessage) %>" required></textarea>
+        </div>
+        <label class="home-contact-button button-progress">
+          <input type="submit" class="button is-round" value="<%= t(:offerOneOrderSend) %>">
+        </label>
+      </form>
+    </div>
+  </section>
