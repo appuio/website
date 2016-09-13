@@ -250,6 +250,7 @@
 
 .offer-spacer {
   flex: 1 100%;
+  height: rem-calc(100);
   //min-height: rem-calc(18);
   @include susy-breakpoint($break-small) {
     //height: rem-calc(240);
