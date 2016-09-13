@@ -29,6 +29,9 @@ Responsive hotizontal menu.
   overflow: hidden;
   transition: all 300ms ease;
   margin: rem-calc(0 -20);
+  @include susy-breakpoint($break-medium) {
+    margin: none !important;
+  }
   &.is-expanded {
     height: auto;
   }
