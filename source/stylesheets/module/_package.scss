@@ -83,8 +83,8 @@ a.offers-package {
   }
 
   &.last-child {
-    flex-direction: column;
     flex: 1 100%;
+    flex-basis: 100%;
     text-align: left;
     padding: rem-calc(16);
     margin: rem-calc(16);
@@ -93,7 +93,6 @@ a.offers-package {
       display: flex;
       flex-flow: row wrap;
       justify-content: space-around;
-      flex-basis: auto;
     }
     & > ul > li {
       flex: 1 100%;
@@ -105,12 +104,13 @@ a.offers-package {
     }
     & h3 {
       margin: rem-calc(18 0);
+      width: 100%;
     }
   }
 }
 .offers-package-list-title {
   text-align: center;
-  flex: 1;
+  flex: 1 0 100%;
 }
 .offers-banner-title {
   margin: 0;
