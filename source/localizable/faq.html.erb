@@ -12,7 +12,7 @@ title: APPUiO - Swiss Container Platform - FAQ
   <section class="home-hero">
     <div class="grid-container">
       <h2>FAQ's</h2>
-          <% data.faq.each do |f| %>
+          <% data["faq#{I18n.locale}"].each do |f| %>
             <h3><%= f["question"] %></h3>
             <p class="faq-iteration"><%= f["answer"] %></p>
           <% end %>
