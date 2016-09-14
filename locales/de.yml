@@ -20,7 +20,7 @@ de:
 
 # Home Seite
   homeNewsTitle: News
-  homeNewsText: "APPUiO - OpenShift Techlab: Überzeugen Sie sich selbst und besuchen Sie unser Techlab ... <a href=\"news.html\">mehr</a>"
+  homeNewsText: "APPUiO - OpenShift Techlab: Überzeugen Sie sich selbst und besuchen Sie unser Techlab ... <a href=\"techlabs.html\">mehr</a>"
   homeHeroAlt: APPUiO - Swiss Container Platform
   homeHeroTitle: Eine Plattform für das Design, die Entwicklung und den Betrieb Ihrer Anwendung. Betreiben Sie ihren Container Workload auf APPUiO.
   homeHeroSignup: Für Public Platform anmelden
@@ -244,3 +244,36 @@ de:
 # Formular Defaults
   mailGotAMessage: We just recieved a message from APPUiO.ch!
   mailSubject: Ich interessiere mich für
+
+# Techlab Page
+  techlabPageTitle: Techlab
+  techlabTitle: APPUiO & OpenShift Tech Labs in Bern und Zürich
+  techlabSubtitle: Mit einer Platform as a Service (PaaS) ändert sich die Art, wie wir Software entwickeln. Puzzle stellt OpenShift V3 - die Container Plattform von Red Hat - in einem Tech Lab vor.
+  techlabDetails: "<p>Die Teilnehmer lernen dabei&nbsp;hands-on die wichtigsten Schritte, wie eine Applikation in die Cloud gebracht wird und wie Container auf einer PaaS deployed und betrieben&nbsp;werden können.</p>
+                             <p>Mit OpenShift werden IT-Prozesse automatisiert und die Bereitstellung&nbsp;von IT-Services gestrafft. Im Tech Lab erwarten euch folgende Themen:</p>
+                             <p><strong>Hands on Workshop</strong></p>
+                             <ul>
+                             <li>Einrichten CLI</li>
+                             <li>Quicktour durch OpenShift V3</li>
+                             <li>Die erste Applikation deployen</li>
+                             <li>Advanced CLI Commands</li>
+                             <li>Routen erstellen</li>
+                             <li>Skalieren von Applikationen</li>
+                             <li>Datenbank deployen und anbinden</li>
+                             <li>Code Änderungen via Webhook direkt integrieren</li>
+                             <li>Persistent Storage anbinden und verwenden für Datenbank</li>
+                             <li>Applikationstemplates</li>
+                             </ul>
+                             <p>Daten:</p>
+                             <ul>
+                             <li>21. September 2016 in Zürich</li>
+                             <li>6. Oktober 2016 in Bern</li>
+                             <li>3. November 2016 in Zürich</li>
+                             <li>1. Dezember 2016 in Bern</li>
+                             <li>12. Januar 2017 in Zürich</li>
+                             <li>9. Februar 2017 in Bern</li>
+                             </ul>
+                             <p>Zeit: 14:00 bis 17:30 Uhr<br>
+                             Ort: die Location werden wir frühzeitig bekanntgeben</p>
+                             <p>Die Teilnahme ist kostenlos. Für das Lab solltet ihr euren eigenen Laptop mitbringen. Die Platzzahl ist beschränkt.<br> Anmeldung bitte per <a href=\"mailto: hello@appuio.ch\">Mail</a>.</p>
+                             "
