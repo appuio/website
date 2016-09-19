@@ -1,7 +1,7 @@
 ---
 de:
   metaDescription: APPUiO - die Schweizer Container Plattform für das Design, die Entwicklung und den Betrieb Ihrer Anwendung. Betreiben Sie ihren Container Workload auf APPUiO.
-  metaKeywords: OpenShift, container runtime, Container Platform, Container Plattform, cluster, PaaS, Docker, Kubernetes, Swiss, Schweiz, Enterprise, Platform as a Service, VSHN AG, Puzzle ITC GmbH,
+  metaKeywords: OpenShift, container runtime, Container Platform, Cluster, PaaS, Platform as a Service, Docker, Kubernetes, Swiss, Switzerland, VSHN AG, Puzzle ITC GmbH
 
 # Globale Navigation
   navGlobalDocs: Docs
@@ -12,8 +12,8 @@ de:
   navOverview: Übersicht
   navOffers: Angebot
   navOffer1: Managed Private APPUiO
-  navOffer2: Public Platform
-  navOffer3: On Premises APPUiO
+  navOffer2: Public Plattform
+  navOffer3: On-Premises APPUiO
   navFeatures: Features
   navContact: Kontakt
   navFAQ: FAQ
@@ -21,34 +21,34 @@ de:
 # Home Seite
   homeNewsTitle: News
   homeNewsText: "APPUiO - OpenShift Techlab: Überzeugen Sie sich selbst und besuchen Sie unser Techlab ... <a href=\"techlabs.html\">mehr</a>"
-  homeHeroAlt: APPUiO - Swiss Container Platform
+  homeHeroAlt: APPUiO - Swiss Container Plattform
   homeHeroTitle: Eine Plattform für das Design, die Entwicklung und den Betrieb Ihrer Anwendung. Betreiben Sie ihren Container Workload auf APPUiO.
   homeHeroSignup: Für Public Platform anmelden
   homeHeroDesc: APPUiO - die Schweizer Container Plattform von Entwicklern für Entwickler. APPUiO basiert auf der “next generation PaaS” OpenShift Container Platform von Red Hat. Auf der Basis bewährter Open Source Konzepte wie Docker und Kubernetes entwickeln, betreiben und skalieren Sie Ihre Anwendung passend auf Ihre Bedürfnisse. Mit dieser Technologie können Applikationen sowohl auf Public Clouds als auch unternehmensintern betrieben werden.
 
-# Home: Offer Section
+# Home: Angebotsbereich
   homeOfferTitle: Angebot
   homeOfferOneTitle: Managed Private APPUiO
   homeOfferOneDesc: Sie wollen eine eigene private APPUiO Instanz nutzen, die auf unserer Infrastruktur läuft? Wir deployen und betreiben die auf Ihre Bedürfnisse massgeschneiderte Lösung.
   homeOfferOneButton: Details
   homeOfferTwoRibbon: Meist gewählt
-  homeOfferTwoTitle: Public Platform
+  homeOfferTwoTitle: Public Plattform
   homeOfferTwoDesc: Sie brauchen kurzfristig standardisierte Entwicklungsumgebungen oder möchten Ihre produktiven Applikationen in eine Schweizer Cloud deployen?
   homeOfferTwoButton: Details
-  homeOfferThreeTitle: On Premises APPUiO
+  homeOfferThreeTitle: On-Premises APPUiO
   homeOfferThreeDesc: Ihre PaaS in Ihrem Rechenzentrum, optimal integriert in Ihre Infrastruktur. Wir begleiten Sie von der Idee über die Umsetzung und falls gewünscht bis zum Betrieb.
   homeOfferThreeButton: Details
   homeOfferDesc: Unser APPUiO Angebot wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
 
 # Home: Feature Section
   homeFeatureTitle: Features
-  homeFeatureDesc: OpenShift Container Platform ist die PaaS des Open Source Marktführers Red Hat. OpenShift V3 setzt auf moderne Open Source Konzepte wie Docker Container und Kubernetes.
+  homeFeatureDesc: OpenShift Container Plattform ist die PaaS des Open Source Marktführers Red Hat. OpenShift V3 setzt auf moderne Open Source Konzepte wie Docker Container und Kubernetes.
   homeFeatureDockerTitle: Docker
   homeFeatureDockerDesc: Docker ist die offene Plattform für Entwickler und Sysadmins und ihre Applikationen. Wählen Sie das für Ihre Technologie passende Basis-Docker-Image aus, OpenShift baut für Sie nach jedem Build automatisch einen aktualisierten Docker-Container und deployt ihn auf Wunsch auch gleich.
   homeFeatureKubernetesTitle: Kubernetes
   homeFeatureKubernetesDesc: Container orchestrieren und managen mit Kubernetes von Google. Sie definieren wie viele Instanzen Ihrer Applikation parallel laufen sollen, Kubernetes kümmert sich um die Skalierung, das Loadbalancing und die Stabilität.
   homeFeatureOnDemandTitle: On-Demand Entwicklungs- und Laufzeitumgebung
-  homeFeatureOnDemandAlt: A container that holds all technologies
+  homeFeatureOnDemandAlt: Ein Container welche alle Technologien in sich vereint
   homeFeatureOnDemandDesc: Mit APPUiO erstellen Sie neue Umgebungen per Knopfdruck. Es stehen eine Vielzahl an Technologien und Plattformen "out of the Box" zur Verfügung. Docker als Grundtechnologie hinter APPUiO bringt ein ganzes Ökosystem an zusätzlichen Laufzeitumgebungen und Frameworks mit. Eine Auswahl davon ist in der folgenden Aufstellung zu finden. <br/>
   homeFeatureLanguagesTitle: Plattformen
   homeFeatureDatabasesTitle: Datenbanken
@@ -217,7 +217,6 @@ de:
 
   offerTwoContactTitle: APPUiO - PUBLIC PLATFORM
   offerTwoContactSubject: Hiermit bestelle ich verbindlich ...
-
 
   offerTwoTerms1: Ich akzeptiere die
   offerTwoTerms2: Terms & Conditions

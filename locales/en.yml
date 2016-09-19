@@ -1,54 +1,54 @@
 ---
 en:
   metaDescription: Design, develop and operate your application with the APPUiO container runtime. Manage your container workload with APPUiO.
-  metaKeywords: openShift, container runtime, Container Platform, cluster, PaaS, Docker, Kubernetes, Swiss, Switzerland, VSHN. Puzzle ITC GmbH, Platform as a Service
+  metaKeywords: openShift, container runtime, Container Platform, Cluster, PaaS, Platform as a Service, Docker, Kubernetes, Swiss, Switzerland, VSHN AG, Puzzle ITC GmbH
 
-# Globale Navigation
+# Global navigation
   navGlobalDocs: Docs
   navGlobalFAQ: FAQ
   navGlobalNews: News
   navGlobalForum: Forum
   navGlobalLogin: Login
   navOverview: Overview
-  navOffers: Offer
+  navOffers: Offering
   navOffer1: Managed Private APPUiO
   navOffer2: Public Platform
-  navOffer3: On Premises APPUiO
+  navOffer3: On-Premises APPUiO
   navFeatures: Features
   navContact: Contact
   navFAQ: FAQ
 
-# Home Seite
+# Homepage
   homeNewsTitle: News
-  homeNewsText: APPUiO jetzt auch auf Französich. Génial!
+  homeNewsText: APPUiO, now in French as well. Amazing!
   homeHeroAlt: APPUiO - Swiss Container Platform
   homeHeroTitle: Design, develop and operate your application with the APPUiO container runtime. Manage your container workload with APPUiO.
-  homeHeroSignup: Sign up for public paas
-  homeHeroDesc: APPUiO – Swiss Container Platform. Made by developers for developers. APPUiO builds upon Red Hat OpenShift Container Platform the “next generation PaaS”. Reliable open source concepts like Docker and Kubernetes allow you to develop, operate and scale your application according to your needs. Operate your applications on the public cloud or in your own on-premise datacentre.
+  homeHeroSignup: Sign up for public PaaS
+  homeHeroDesc: APPUiO - The Swiss Container Platform, made by developers for developers. APPUiO builds upon Red Hat OpenShift Container Platform the “next generation PaaS”. Reliable open source concepts like Docker and Kubernetes allow you to develop, operate and scale your application according to your needs. Operate your applications on the public cloud or in your own on-premise datacentre.
 
-# Home: Offer Section
-  homeOfferTitle: Offer
+# Home: Offering section
+  homeOfferTitle: Offering
   homeOfferOneTitle: Managed Private APPUiO
-  homeOfferOneDesc: We will host and manage your own private APPUiO instance inside our infrastructure. Your installation is deployed and operated according to your specific requirements.
-  homeOfferOneButton: details
-  homeOfferTwoRibbon: Meist gewählt
-  homeOfferTwoTitle: Public Platform
-  homeOfferTwoDesc: Sie brauchen kurzfristig standardisierte Entwicklungsumgebungen oder möchten Ihre produktiven Applikationen in eine Schweizer Cloud deployen? Nutzen Sie dafür unsere APPUiO Public Plattform.
+  homeOfferOneDesc: You prefer to have your own private APPUiO instance? We will run your own environment on our infrastructure. Your installation is deployed and operated according to your specific requirements.
+  homeOfferOneButton: Details
+  homeOfferTwoRibbon: Customers favourite
+  homeOfferTwoTitle: Public platform
+  homeOfferTwoDesc: You're in need of standardised development environments? You want to deploy your productive applications on a Swiss based cloud? Just choose APPUiO public platform for that.
   homeOfferTwoButton: Details
-  homeOfferThreeTitle: On premises APPUiO
-  homeOfferThreeDesc: Your PaaS in your own datacentre, perfectly integrated in your infrastructure. We will support you through the whole process, starting with your idea until the platform is fully functional.  If desired we can even operate your PaaS for you.
-  homeOfferThreeButton: details
-  homeOfferDesc: All APPUiO public PaaS offerings will be held and operated in ISO27001-certified and FINMA-audited datacentres inside Switzerland and according Swiss law.
+  homeOfferThreeTitle: On-Premises APPUiO
+  homeOfferThreeDesc: Your PaaS in your own datacentre, perfectly integrated in your infrastructure. We will guide you through the whole process, starting with your ideas up to operate the fully functional platform.
+  homeOfferThreeButton: Details
+  homeOfferDesc: All APPUiO public PaaS offerings are held and operated in ISO27001-certified and FINMA-audited datacentres inside Switzerland according Swiss law.
 
-# Home: Feature Section
+# Home: Feature section
   homeFeatureTitle: Features
-  homeFeatureDesc: OpenShift Container Platform is the PaaS from Red Hat, the open source market leader. OSE V3 uses state-of-the-art open source concepts like Docker container and Kubernetes.
+  homeFeatureDesc: OpenShift Container Platform is the PaaS from open source market leader Red Hat. OSE v3 uses state-of-the-art open source concepts like Docker container and Kubernetes.
   homeFeatureDockerTitle: Docker
-  homeFeatureDockerDesc: Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications. Choose your Docker-image according to your needs and technology that you want to use. OpenShift will automatically create an updated Docker-container after every build and even deploy it if you want.
+  homeFeatureDockerDesc: Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications. Choose your Docker-image according to your needs and technology you want to use. OpenShift will automatically create an updated Docker-container after every build and even deploy it for you.
   homeFeatureKubernetesTitle: Kubernetes
   homeFeatureKubernetesDesc: Orchestrate and manage your containers with Kubernetes from Google. You define how many of your application instances shall run in parallel and Kubernetes takes care of scaling, load balancing and stability.
   homeFeatureOnDemandTitle: On-Demand development and runtime environment
-  homeFeatureOnDemandAlt: One container that holds all the technologies
+  homeFeatureOnDemandAlt: All the technologies kept in just one container
   homeFeatureOnDemandDesc: APPUiO enables the deployment of new environments with just a few clicks. There are many different technologies and platforms available "out of the box". A few examples are listed below.
   homeFeatureLanguagesTitle: Platforms
   homeFeatureDatabasesTitle: Databases
@@ -243,3 +243,36 @@ en:
 # Formular Defaults
   mailGotAMessage: We just recieved a message from APPUiO.ch!
   mailSubject: I'm interested in
+
+# Techlab Page
+  techlabPageTitle: Techlab
+  techlabTitle: APPUiO & OpenShift Tech Labs in Bern und Zürich
+  techlabSubtitle: Mit einer Platform as a Service (PaaS) ändert sich die Art, wie wir Software entwickeln. Puzzle stellt OpenShift V3 - die Container Plattform von Red Hat - in einem Tech Lab vor.
+  techlabDetails: "<p>Die Teilnehmer lernen dabei&nbsp;hands-on die wichtigsten Schritte, wie eine Applikation in die Cloud gebracht wird und wie Container auf einer PaaS deployed und betrieben&nbsp;werden können.</p>
+                             <p>Mit OpenShift werden IT-Prozesse automatisiert und die Bereitstellung&nbsp;von IT-Services gestrafft. Im Tech Lab erwarten euch folgende Themen:</p>
+                             <p><strong>Hands on Workshop</strong></p>
+                             <ul>
+                             <li>Einrichten CLI</li>
+                             <li>Quicktour durch OpenShift V3</li>
+                             <li>Die erste Applikation deployen</li>
+                             <li>Advanced CLI Commands</li>
+                             <li>Routen erstellen</li>
+                             <li>Skalieren von Applikationen</li>
+                             <li>Datenbank deployen und anbinden</li>
+                             <li>Code Änderungen via Webhook direkt integrieren</li>
+                             <li>Persistent Storage anbinden und verwenden für Datenbank</li>
+                             <li>Applikationstemplates</li>
+                             </ul>
+                             <p>Daten:</p>
+                             <ul>
+                             <li>21. September 2016 in Zürich</li>
+                             <li>6. Oktober 2016 in Bern</li>
+                             <li>3. November 2016 in Zürich</li>
+                             <li>1. Dezember 2016 in Bern</li>
+                             <li>12. Januar 2017 in Zürich</li>
+                             <li>9. Februar 2017 in Bern</li>
+                             </ul>
+                             <p>Zeit: 14:00 bis 17:30 Uhr<br>
+                             Ort: die Location werden wir frühzeitig bekanntgeben</p>
+                             <p>Die Teilnahme ist kostenlos. Für das Lab solltet ihr euren eigenen Laptop mitbringen. Die Platzzahl ist beschränkt.<br> Anmeldung bitte per <a href=\"mailto: hello@appuio.ch\">Mail</a>.</p>
+                             "
