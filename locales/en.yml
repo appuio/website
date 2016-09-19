@@ -20,7 +20,7 @@ en:
 
 # Homepage
   homeNewsTitle: News
-  homeNewsText: APPUiO, now in French as well. Amazing!
+  homeNewsText: "APPUiO - OpenShift Techlab: Überzeugen Sie sich selbst und besuchen Sie unser Techlab ... <a href=\"techlabs.html\">mehr</a>"
   homeHeroAlt: APPUiO - Swiss Container Platform
   homeHeroTitle: Design, develop and operate your application with the APPUiO container runtime. Manage your container workload with APPUiO.
   homeHeroSignup: Sign up for public PaaS
