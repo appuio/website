@@ -18,6 +18,9 @@ en:
   navContact: Contact
   navFAQ: FAQ
 
+# Footer
+  footerTel: Telefonisch erreichen Sie uns unter +41 44 552 22 40
+
 # Homepage
   homeNewsTitle: News
   homeNewsText: "APPUiO - OpenShift Techlab: Überzeugen Sie sich selbst und besuchen Sie unser Techlab ... <a href=\"techlabs.html\">mehr</a>"
