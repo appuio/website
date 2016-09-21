@@ -18,6 +18,9 @@ de:
   navContact: Kontakt
   navFAQ: FAQ
 
+# Footer
+  footerTel: Telefonisch erreichen Sie uns unter +41 44 552 22 40
+
 # Home Seite
   homeNewsTitle: News
   homeNewsText: "APPUiO - OpenShift Techlab: Überzeugen Sie sich selbst und besuchen Sie unser Techlab ... <a href=\"techlabs.html\">mehr</a>"
@@ -66,7 +69,7 @@ de:
 
 # Home: Contact Section
   homeContactTitle: Kontakt
-  homeContactDesc: Gerne treten wir mit Ihnen in Kontakt. Bitte geben Sie uns an, wie wir Sie am besten erreichen können. Ihre Daten behandeln wir vertraulich und werden nicht an Dritte weitergegeben.
+  homeContactDesc: Gerne treten wir mit Ihnen in Kontakt. Bitte geben Sie uns an, wie wir Sie am besten erreichen können. Ihre Daten behandeln wir vertraulich und werden nicht an Dritte weitergegeben.<br>Bei Fragen erreichen Sie uns auch telefonisch unter +41 44 552 22 40.
   homeContactSubject: Ich interessiere mich für ...
   homeContactSubjectOne: Managed Private Platform
   homeContactSubjectTwo: Public Platform
@@ -146,7 +149,7 @@ de:
   offerContactOneLarge: Large
 
   offerOneContactTitle: MEINE APPUiO PRIVATE PLATFORM
-  offerOneContactDesc: Gerne treten wir mit Ihnen in Kontakt. Bitte geben Sie uns an, wie wir Sie am besten erreichen können. Ihre Daten behandeln wir vertraulich und werden nicht an Dritte weitergegeben.
+  offerOneContactDesc: Gerne treten wir mit Ihnen in Kontakt. Bitte geben Sie uns an, wie wir Sie am besten erreichen können. Ihre Daten behandeln wir vertraulich und werden nicht an Dritte weitergegeben.<br>Bei Fragen erreichen Sie uns auch telefonisch unter +41 44 552 22 40.
   offerOneContactSubject: Ich interessiere mich für ...
   offerOneOrderSend: Absenden
 

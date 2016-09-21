@@ -180,6 +180,11 @@
     text-decoration: underline;
   }
 }
+.home-footer-tel {
+  margin: 2rem 1rem 1rem 1rem;
+  font-size: 1.125rem;
+  color: #4A4A4A;
+}
 .home-footer-twitter {
   font-size: rem-calc(18);
   margin-left: rem-calc(-20);
@@ -190,7 +195,7 @@
 }
 .home-footer-wac {
   color: #4A4A4A;
-  margin-top: rem-calc(25);
+  margin-top: rem-calc(28);
   font-size: rem-calc(12);
   .icon {
     transform: translateY(rem-calc(5));
