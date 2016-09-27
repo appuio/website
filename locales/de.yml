@@ -199,6 +199,20 @@ de:
 
   offerTwoCPUDescription: Die CPU Resourcen werden als KCU (Kubernetes Compute Units) normalisiert, so entsprechen CPU 1000m ungefähr einem single hyperthreaded CPU Kern.
 
+  offerTwoPackageContentsTitle: Was ist im Angebot enthalten?
+  offerTwoPackageContentsFirstTitle: Multinode Platform
+  offerTwoPackageContentsFirstItemOne: Ressourcen stehen auf einer multinode Plattform zur Verfügung
+  offerTwoPackageContentsFirstItemTwo: Alle Komponenten sind standardmässig hochverfügbar
+  offerTwoPackageContentsSecondTitle: Automatisierung
+  offerTwoPackageContentsSecondItemOne: Integration via REST API, CLI Tool oder über <a href="https://wiki.jenkins-ci.org/display/JENKINS/OpenShift+Pipeline+Plugin" alt="Jenkins Plugin">Jenkins Plugin</a> einfach automatisieren und integrieren.
+  offerTwoPackageContentsSecondItemTwo: Rolling Updates ermöglichen unterbruchsfreie, blau - grün Deployments
+  offerTwoPackageContentsThirdTitle: Multitenant &amp; sicher
+  offerTwoPackageContentsThirdItemOne: Laufende Aktualisierung von supporteten Enterprise RHEL Basis Images
+  offerTwoPackageContentsThirdItemTwo: Gegen aussen sichere Docker Registry und damit volle Kontrolle über Docker Images
+  offerTwoPackageContentsFourthTitle: Flexibilität
+  offerTwoPackageContentsFourthItemOne: Docker Open Source Ökosystem mit zusätzlichen Laufzeitumgebungen, Frameworks und Tools
+  offerTwoPackageContentsFourthItemTwo: Beliebige Skalierbarkeit über die ganze Plattform
+
   offerTwoPackageAddonsTitle: Persistent Storage Add Ons
   offerTwoPackageAddonsPretext: Nach Verbrauch
   offerTwoPackageAddonsItem1: 10 GB CHF 6.70

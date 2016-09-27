@@ -82,7 +82,8 @@ a.offers-package {
     padding-left: rem-calc(16);
   }
 
-  &.last-child {
+  &.last-child,
+  &.package-contents {
     flex: 1 100%;
     flex-basis: 100%;
     text-align: left;
@@ -108,6 +109,7 @@ a.offers-package {
     }
   }
 }
+
 .offers-package-list-title {
   text-align: center;
   flex: 1 0 100%;
@@ -150,4 +152,28 @@ a.offers-package {
   border-bottom: 1px solid $color-grey;
   padding: rem-calc(8 8 24 8);
   margin: rem-calc(8);
+}
+
+.offer-two-contents {
+  .offers-package-title {
+    margin: 5rem 0rem 2rem 0rem;
+  }
+  .package-contents {
+    background-color: white;
+    color: black;
+
+    li.offers-package-item {
+      border-bottom: none;
+      @include susy-breakpoint($break-medium) {
+        width: 25rem;
+      }
+      li {
+        border-bottom: 1px solid #E5EAED;
+        @include susy-breakpoint($break-medium) {
+        min-height: 10rem;
+      }
+        padding: 2rem 0rem;
+      }
+    }
+  }
 }
