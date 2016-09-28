@@ -178,19 +178,17 @@
       <div class="home-contact-form">
         <input title="<%= t(:homeContactYourFirstNameTitle) %>" type="text" name="vorname" class="contact-input" placeholder="<%= t(:homeContactYourFirstName) %>" required>
         <input title="<%= t(:homeContactYourNameTitle) %>" type="text" name="nachname" class="contact-input" placeholder="<%= t(:homeContactYourName) %>" required>
-        <input type="email" name="email" class="contact-input" placeholder="<%= t(:homeContactYourEmail) %>" required>
         <input title="<%= t(:homeContactYourFirmTitle) %>" type="text" name="firma" class="contact-input" placeholder="<%= t(:homeContactYourFirm) %>" required>
+        <input type="email" name="email" class="contact-input" placeholder="<%= t(:homeContactYourEmail) %>" required>
         <input title="<%= t(:homeContactYourStreetTitle) %>" type="text" name="adresse" class="contact-input" placeholder="<%= t(:homeContactYourStreet) %>" required>
         <input title="<%= t(:homeContactYourPLZORTTitle) %>" type="text" name="ort" class="contact-input" placeholder="<%= t(:homeContactYourPLZORT) %>" required>
-        <input title="<%= t(:homeContactYourBillStreet) %>" type="text" name="rechnungsadresse" class="contact-input" placeholder="<%= t(:homeContactYourBillStreet) %>" required>
-        <input title="<%= t(:homeContactYourBillPLZORT) %>" type="text" name="rechnungsadresse_ort" class="contact-input" placeholder="<%= t(:homeContactYourBillPLZORT) %>" required>
         <input type="text" name="phone" placeholder="<%= t(:homeContactYourPhone) %>" class="contact-input" required>
         <textarea title="<%= t(:homeContactYourMessageTitle) %>" id="message" name="message" cols="30" rows="6" class="contact-textarea" placeholder="<%= t(:homeContactYourMessage) %>" required></textarea>
       </div>
       <div class="offer-three-terms">
         <div class="interest-light">
           <input type="checkbox" name="terms" id="terms" class="interest-checkbox">
-          <label for="terms"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerTwoTerms1) %> <a href="./pdf/APPUiO-terms-and-conditions-v1.1.pdf" target="_blank"><%= t(:offerTwoTerms2) %></a></label>
+          <label for="terms"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerTwoTerms1) %> <a href="./pdf/APPUiO-terms-and-conditions-v1.2.pdf" target="_blank"><%= t(:offerTwoTerms2) %></a></label>
         </div>
       </div>
       <label class="home-contact-button button-progress">
