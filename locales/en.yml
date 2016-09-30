@@ -1,7 +1,7 @@
 ---
 en:
-  metaDescription: Design, develop and operate your application with the APPUiO container runtime. Manage your container workload with APPUiO.
-  metaKeywords: openShift, container runtime, Container Platform, Cluster, PaaS, Platform as a Service, Docker, Kubernetes, Swiss, Switzerland, VSHN AG, Puzzle ITC GmbH
+  metaDescription: APPUiO - the Swiss container platform for design, development and operation of your application. Manage your container workload with APPUiO.
+  metaKeywords: openShift, container runtime, container platform, Cluster, PaaS, Platform as a Service, Docker, Kubernetes, Swiss, Switzerland, VSHN AG, Puzzle ITC GmbH
 
 # Global navigation
   navGlobalDocs: Docs
@@ -23,54 +23,53 @@ en:
 
 # Homepage
   homeNewsTitle: News
-  homeNewsText: "APPUiO - OpenShift Techlab: Überzeugen Sie sich selbst und besuchen Sie unser Techlab ... <a href=\"techlabs.html\">mehr</a>"
+  homeNewsText: "APPUiO - OpenShift Techlab: Convince yourself and visit one of our Techlabs ... <a href=\"techlabs.html\">more</a>"
   homeHeroAlt: APPUiO - Swiss Container Platform
   homeHeroTitle: Design, develop and operate your application with the APPUiO container runtime. Manage your container workload with APPUiO.
   homeHeroSignup: Sign up for public PaaS
-  homeHeroDesc: APPUiO - The Swiss Container Platform, made by developers for developers. APPUiO builds upon Red Hat OpenShift Container Platform the “next generation PaaS”. Reliable open source concepts like Docker and Kubernetes allow you to develop, operate and scale your application according to your needs. Operate your applications on the public cloud or in your own on-premise datacentre.
+  homeHeroDesc: APPUiO - The Swiss container platform, created by developers for developers. APPUiO is based on the next generation PaaS Red Hat OpenShift Container Platform. Reliable open source concepts such as Docker and Kubernetes allow you to develop, operate and scale your application according to your needs. With this technology, applications can be operated both on public clouds as well as on in-house data centres.
 
 # Home: Offering section
   homeOfferTitle: Offering
   homeOfferOneTitle: Managed Private APPUiO
-  homeOfferOneDesc: You prefer to have your own private APPUiO instance? We will run your own environment on our infrastructure. Your installation is deployed and operated according to your specific requirements.
+  homeOfferOneDesc: Do you want to run your own private APPUiO instance on our infrastructure? We deploy and operate a customized solution tailored to your specific requirements.
   homeOfferOneButton: Details
-  homeOfferTwoRibbon: Customers favourite
+  homeOfferTwoRibbon: Customer favorite
   homeOfferTwoTitle: Public platform
-  homeOfferTwoDesc: You're in need of standardised development environments? You want to deploy your productive applications on a Swiss based cloud? Just choose APPUiO public platform for that.
+  homeOfferTwoDesc: Are you in need of standardized development environments or do you want to deploy your productive applications on a Swiss cloud? Look no further than APPUiO public platform.
   homeOfferTwoButton: Details
   homeOfferThreeTitle: On-Premises APPUiO
-  homeOfferThreeDesc: Your PaaS in your own datacentre, perfectly integrated in your infrastructure. We will guide you through the whole process, starting with your ideas up to operate the fully functional platform.
+  homeOfferThreeDesc: Your PaaS in your own data centre, optimally integrated into your infrastructure. We guide you through the whole process, from idea stage to operation of a fully functional platform.
   homeOfferThreeButton: Details
-  homeOfferDesc: All APPUiO public PaaS offerings are held and operated in ISO27001-certified and FINMA-audited datacentres inside Switzerland according Swiss law.
+  homeOfferDesc: All APPUiO public PaaS offerings are held and operated in ISO27001-certified and FINMA-audited data centres within Switzerland and are subject to Swiss law.
 
 # Home: Feature section
   homeFeatureTitle: Features
   homeFeatureDesc: OpenShift Container Platform is the PaaS from open source market leader Red Hat. OSE v3 uses state-of-the-art open source concepts like Docker container and Kubernetes.
   homeFeatureDockerTitle: Docker
-  homeFeatureDockerDesc: Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications. Choose your Docker-image according to your needs and technology you want to use. OpenShift will automatically create an updated Docker-container after every build and even deploy it for you.
+  homeFeatureDockerDesc: Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications. Select the Docker-image based on your needs and the technology you want to use. OpenShift automatically creates an updated Docker-container after every build, and can even deploy it on your behalf.
   homeFeatureKubernetesTitle: Kubernetes
-  homeFeatureKubernetesDesc: Orchestrate and manage your containers with Kubernetes from Google. You define how many of your application instances shall run in parallel and Kubernetes takes care of scaling, load balancing and stability.
-  homeFeatureOnDemandTitle: On-Demand development and runtime environment
-  homeFeatureOnDemandAlt: All the technologies kept in just one container
-  homeFeatureOnDemandDesc: APPUiO enables the deployment of new environments with just a few clicks. There are many different technologies and platforms available "out of the box". A few examples are listed below.
+  homeFeatureKubernetesDesc: Orchestrate and manage your containers with Kubernetes by Google. You define how many of your application instances should run in parallel and Kubernetes then takes care of scaling, load balancing and stability.
+  homeFeatureOnDemandTitle: On-demand development and runtime environment
+  homeFeatureOnDemandAlt: One container that brings together all technologies
+  homeFeatureOnDemandDesc: With APPUiO new environments can be deployed through a few clicks. Various technologies and platforms are available "out of the box". Some of these are listed below.
   homeFeatureLanguagesTitle: Platforms
   homeFeatureDatabasesTitle: Databases
   homeFeatureCycleTitle: Automated processes
   homeFeatureCycleAlt: Cycle - Build, Ship, Run, Operate
-  homeFeatureCycleDesc: APPUiO enables you to automate the whole process – from development to production. We manage the operation of the APPUiO platform and help you automate your processes. Use APPUiO as your container runtime for your entire container workload.
+  homeFeatureCycleDesc: APPUiO enables you to automate the whole process, from development to production. We operate the APPUiO platform and help you to automate your processes. Use APPUiO as your container runtime and deploy and operate your entire container workload.
   homeFeatureOpenSourceTitle: OpenSource
-  homeFeatureOpenSourceDesc: OpenShift, Docker, Kubernetes and other APPUiO components are open source. We want to be as open as possible, by providing documentation for APPUiO to the community. Open source software that use open standards and the free availability of the APPUiO documentation guarantees the greatest possible freedom and protects you from any vendor lock-in. More information about the open source OpenShift project is available at <a target="_new" href="https://www.openshift.org">openshift.org</a>.
+  homeFeatureOpenSourceDesc: OpenShift, Docker, Kubernetes and other components behind APPUiO are open source. We fully embrace the open source philosophy and therefore make documentation of APPUiO available to our community. Open source software that uses open standards, as well as freely available APPUiO documentation guarantees you the greatest possible freedom and protects you from vendor lock-ins. Additional information on the open source OpenShift project can be found at <a target="_new" href="https://www.openshift.org">openshift.org</a>.
   homeFeatureSecureTitle: Secured container
-  homeFeatureSecureDesc: Openshift provides a secure platform thanks to Red Hat’s Enterprise SELinux. Data protection according Swiss law in ISO27001-certified and FINMA-audited datacentres.
+  homeFeatureSecureDesc: Openshift provides a secure platform thanks to Red Hat’s Enterprise SELinux. Data protection in accordance with Swiss law in ISO27001-certified and FINMA-audited data centres.
   homeFeatureSecureAlt: Safe container with a swiss éàlkja locker
-  homeFeatureEncryptTitle: Lets Encrypt SSL/TLS Routen auf Knopfdruck
-  homeFeatureEncryptDesc: APPUiO erlaubt es ihnen mittels Lets Encrypt einfach per Knopfdruck echte SSL Zertifikate in ihren Routen zu konfigurieren. Nach erfolgter Registrierung sorgt APPUiO für die Aktualisierung der Lets Encrypt Zertifikate, welche nur 3 Monate gültig sind, und ersetzt diese automatisch nach Ablauf. Sie müssen sich danach nicht mehr darum kümmern.
-  homeFeatureEncryptAlt: Lets Encrypt SSL/TLS Routen auf Knopfdruck
-
+  homeFeatureEncryptTitle: Lets Encrypt SSL/TLS Routen at the touch of a button
+  homeFeatureEncry ptDesc: APPUiO allows you to easily configure real SSL certificates in your routes (ihre Routen) by way of Lets Encrypt. After registration has taken place APPUIO monitors and updates (Aktualisierung) the Lets Encrypt certificates, which are only valid 3 months, and replaces them after they've expired. You no longer have to worry about them.
+  homeFeatureEncryptAlt: Lets Encrypt SSL/TLS Routes at the touch of a button
 # Home: Contact Section
   homeContactTitle: Contact
-  homeContactDesc: We’d love to get in touch with you! Please let us know how we can contact you. Your data will be kept private and never be shared with third parties.
-  homeContactSubject: I’m interested in…
+  homeContactDesc: We would love to get in touch with you! Do let us know how we can reach you. Your data will be kept confidentially, and will not be shared with third parties.
+  homeContactSubject: I’m interested in
   homeContactSubjectOne: Managed Private PaaS
   homeContactSubjectTwo: attending beta test
   homeContactSubjectThree: On PREMISE PaaS
@@ -80,40 +79,40 @@ en:
   homeContactYourName: last name
   homeContactYourFirstNameTitle: your first name
   homeContactYourNameTitle: your last name
-  homeContactYourFirmTitle: Firma
-  homeContactYourFirm: Firma
-  homeContactYourPhone: Telefon
+  homeContactYourFirmTitle: Firm
+  homeContactYourFirm: Firm
+  homeContactYourPhone: phone
   homeContactYourEmail: email
-  homeContactYourStreet: Strasse
-  homeContactYourStreetTitle: Strasse
-  homeContactYourPLZORT: PLZ, Ort
-  homeContactYourPLZORTTitle: PLZ, Ort
-  homeContactYourBillStreet: Rechnungsadresse Strasse
-  homeContactYourBillPLZORT: Rechnungsadresse PLZ, Ort
+  homeContactYourStreet: street address
+  homeContactYourStreetTitle: street address
+  homeContactYourPLZORT: Zip Code, City
+  homeContactYourPLZORTTitle: Zip Code, City
+  homeContactYourBillStreet: Billing address, street
+  homeContactYourBillPLZORT: Billing address, zip code, city
   homeContactYourMessage: message
   homeContactYourMessageTitle: message
   homeContactSend: send
 
 # Offer1: Managed Private PaaS
   offerOneTitle: Managed Private APPUiO
-  offerOneIntro: Sie wollen eine eigene private APPUiO Instanz nutzen, die auf unserer Infrastruktur läuft? Wir deployen und betreiben die auf Ihre Bedürfnisse massgeschneiderte Lösung.
+  offerOneIntro: Do you want to use your own private APPUiO instance that runs on our infrastructure? We deploy and operate the solution tailored to your needs.
 
-  offerOneList1: Basis für DevOps
-  offerOneList2: 09:00 - 18:00 Telefon + Email support
-  offerOneList3: Proaktives Alarming Monitoring
-  offerOneList4: Update und Servermanagement
-  offerOneList5: Datenstandort e-Shelter Schweiz
-  offerOneList6: Backup an einen zweiten Standort
-  offerOneList7: "Small - Medium - Large: Auf Sie zugeschnittene Angebote"
+  offerOneList1: Basis for DevOps
+  offerOneList2: 09.00 - 18.00 Phone + Email support
+  offerOneList3: Proactive alarming Monitoring
+  offerOneList4: Update und server management
+  offerOneList5: Data location and Interxion Switzerland
+  offerOneList6: Backup to second location
+  offerOneList7: "Small - Medium - Large: Tailored Solutions"
 
-  offerOneIso: Ihre APPUiO Managed Private Platform wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
+  offerOneIso: Your APPUiO managed private platform runs in data centers certified to ISO27001 and according to FINMA guidelines in Switzerland and is subject to Swiss law.
 
-  offerOneServiceTitle: Neben einem optimalen Datenschutz bieten wir Ihnen folgende zusätzliche Services
-  offerOneServices1: Consulting Setup und Initialisierung
-  offerOneServices2: Bring my App to the Cloud - wir beraten und setzen auch um
-  offerOneServices3: "Automatisierung Ihrer Prozesse: Continuos Delivery und Continuous Deployment Ihrer Applikationen"
+  offerOneServiceTitle: Aside from optimal data protection we also offer you the following additional services
+  offerOneServices1: Consulting Setup und initialization
+  offerOneServices2: Bring my App to the Cloud - we consult and implement
+  offerOneServices3: "Automatization of your Processes: Continuous Delivery und Deployment of your application "
 
-  offerOnePackageTitle: "Wählen Sie das für Ihre Bedürfnisse passende Paket:"
+  offerOnePackageTitle: "Chose the package that?s right for you"
   offerOnePackageSmallTitle: Small
   offerOnePackageSmallItem1:  Master <br> (je 4GB Ram, 2vCores)
   offerOnePackageSmallItem2:  2 Nodes <br> (je 16 GB Ram, 6VCores, 100 GB Docker Storage)
@@ -133,84 +132,98 @@ en:
   offerOneLargeButton: Large
 
   offerOnePackageAddonsTitle: Add Ons
-  offerOnePackageAddonsPretext: Auf Anfrage
-  offerOnePackageAddonsItem1: SLA 7*24 Reaktiv
-  offerOnePackageAddonsItem2: SLA 7*24 Proaktiv
-  offerOnePackageAddonsItem3: erweitertes Backup der Datenbanken Pods
-  offerOnePackageAddonsItem4: Monitoring, Applikationsmonitoring und -alarming, pro 5 Applikationen
-  offerOnePackageAddonsItem5: JBoss Middleware Subscriptions
-  offerOnePackageAddonsItem6: Zusätzliche Nodes / Masters
-  offerOnePackageAddonsItem7: Zusätzliches Memory
-  offerOnePackageAddonsItem8: Zusätzliche CPU
-  offerOnePackageAddonsItem9: Zusätzliche Storage
+  offerOnePackageAddonsPretext: By request
+  offerOnePackageAddonsItem1: SLA 7*24 Reaktive
+  offerOnePackageAddonsItem2: SLA 7*24 Proaktive
+  offerOnePackageAddonsItem3: extended Backup of databases Pods
+  offerOnePackageAddonsItem4: Monitoring, application monitoring und alarming, per 5 applications
+  offerOnePackageAddonsItem5: JBoss Middleware subscriptions
+  offerOnePackageAddonsItem6: Additional Nodes / Masters
+  offerOnePackageAddonsItem7: Additional Memory
+  offerOnePackageAddonsItem8: Additional CPU
+  offerOnePackageAddonsItem9: Additional Storage
 
   offerContactOneSmall: Small
   offerContactOneMedium: Medium
   offerContactOneLarge: Large
 
-  offerOneContactTitle: MEINE APPUiO PRIVATE PLATFORM
-  offerOneContactDesc: Gerne treten wir mit Ihnen in Kontakt. Bitte geben Sie uns an, wie wir Sie am besten erreichen können. Ihre Daten behandeln wir vertraulich und werden nicht an Dritte weitergegeben.
-  offerOneContactSubject: Ich interessiere mich für ...
-  offerOneOrderSend: Absenden
+  offerOneContactTitle: MY APPUiO PRIVATE PLATFORM
+  offerOneContactDesc: We would love to get in touch with you! Do let us know how we can reach you. Your data will be kept confidentially, and will not be shared with third parties.
+  offerOneContactSubject: I'm interested in...
+  offerOneOrderSend: Send
 
 # Offer2: Public Platform
   offerTwoTitle: Public Platform
-  offerTwoIntro: Sie brauchen kurzfristig standardisierte Entwicklungsumgebungen oder möchten Ihre produktiven Applikationen in eine Schweizer Cloud deployen? Nutzen Sie dafür unsere APPUiO Public Plattform.
+  offerTwoIntro: Are you in need of standardized development environments or do you want to deploy your productive applications on a Swiss cloud? Use our APPUiO Public Plattform.
 
-  offerTwoServiceTitle: Passendes Angebot auswählen und loslegen
-  offerTwoServices1: Auf Ihre Bedürfnisse zugeschnittene Bundles
-  offerTwoServices2: "Von Entwicklern für Entwickler: Forum, Dokumentation und Community"
-  offerTwoServices3: Wir kümmern uns um Backup, Monitoring, Updates und Support
+  offerTwoServiceTitle: Select the right offer and get going
+  offerTwoServices1: Bundles tailored to your needs
+  offerTwoServices2: "By Developers for Developers: Forum, documentation and community"
+  offerTwoServices3: We will handle backup, monitoring, updates, and support
 
-  offerTwoServicesDesc: Die Abrechnung erfolgt aktuell jährlich per Rechnung.
-  offerTwoIso: Die APPUiO Public Platform wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
+  offerTwoServicesDesc: Settlement of accounts is handled annually via invoice.
+  offerTwoIso: The APPUiO Public Platform is operated in Swiss data centres certified to ISO27001 and in accordance with FINMA guidelines that are subject to Swiss law.
 
-  offerTwoPackageTitle: "Wählen Sie das für Ihre Bedürfnisse passende Paket:"
+  offerTwoPackageTitle: "Chose the package that's right for you!"
   offerTwoPromotionTitle: Promotion
-  offerTwoPromotionText: Startup promotion for August 2016 ff. <br> 3 months for free if signing a 1 year contract. <br> 6 months for free if signing a 1 year contract AND attending one ore more TechLabs.
+  offerTwoPromotionText: Startup promotion during August 2016 ff. <br> 3 months free when signing a 1-year contract. <br> 6 months free when signing a 1-year contract AND attending one or more TechLabs.
 
   offerTwoPackageMicroTitle: Small
-  offerTwoPackageMicroItem1: CHF 49.- / Monat
+  offerTwoPackageMicroItem1: CHF 49.- / month
   offerTwoPackageMicroItem2: CPU 500m
   offerTwoPackageMicroItem3: Memory 512MB
   offerTwoPackageMicroItem4: Persistent Volume <br> inkl. 1 GB
   offerTwoMicroButton: Small
 
   offerTwoPackageMediumTitle: Medium
-  offerTwoPackageMediumItem1: CHF 95.- / Monat
+  offerTwoPackageMediumItem1: CHF 95.- / month
   offerTwoPackageMediumItem2: CPU 750m
   offerTwoPackageMediumItem3: Memory 1GB
   offerTwoPackageMediumItem4: Persistent Volume <br> inkl. 5 GB
   offerTwoMediumButton: Medium
 
   offerTwoPackageLargeTitle: Large
-  offerTwoPackageLargeItem1: CHF 189.- / Monat
+  offerTwoPackageLargeItem1: CHF 189.- / month
   offerTwoPackageLargeItem2: CPU 1000m
   offerTwoPackageLargeItem3: Memory 2GB
   offerTwoPackageLargeItem4: Persistent Volume <br> inkl. 20 GB
   offerTwoLargeButton: Large
 
   offerTwoPackageXlargeTitle: X-Large
-  offerTwoPackageXlargeItem1: CHF 379.- / Monat
+  offerTwoPackageXlargeItem1: CHF 379.- / month
   offerTwoPackageXlargeItem2: CPU 2000m
   offerTwoPackageXlargeItem3: Memory 4GB
   offerTwoPackageXlargeItem4: Persistent Volume <br> 50 GB
   offerTwoXlargeButton: X-Large
 
-  offerTwoCPUDescription: Die CPU Resourcen werden als KCU (Kubernetes Compute Units) normalisiert, so entsprechen CPU 1000m ungefähr einem single hyperthreaded CPU Kern.
+  offerTwoCPUDescription: CPU resources are normalized as KCU (Kubernetes Compute Units), and CPU 1000m approximately represent one single hyperthreaded CPU Core.
+
+  offerTwoPackageContentsTitle: Was ist im Angebot enthalten?
+  offerTwoPackageContentsFirstTitle: Multinode Platform
+  offerTwoPackageContentsFirstItemOne: Ressourcen stehen auf einer multinode Plattform zur Verfügung
+  offerTwoPackageContentsFirstItemTwo: Alle Komponenten sind standardmässig hochverfügbar
+  offerTwoPackageContentsSecondTitle: Automatisierung
+  offerTwoPackageContentsSecondItemOne: Integration via REST API, CLI Tool oder über <a href="https://wiki.jenkins-ci.org/display/JENKINS/OpenShift+Pipeline+Plugin" alt="Jenkins Plugin">Jenkins Plugin</a> einfach automatisieren und integrieren.
+  offerTwoPackageContentsSecondItemTwo: Rolling Updates ermöglichen unterbruchsfreie, blau - grün Deployments
+  offerTwoPackageContentsThirdTitle: Multitenant &amp; sicher
+  offerTwoPackageContentsThirdItemOne: Laufende Aktualisierung von supporteten Enterprise RHEL Basis Images
+  offerTwoPackageContentsThirdItemTwo: Gegen aussen sichere Docker Registry und damit volle Kontrolle über Docker Images
+  offerTwoPackageContentsFourthTitle: Flexibilität
+  offerTwoPackageContentsFourthItemOne: Docker Open Source Ökosystem mit zusätzlichen Laufzeitumgebungen, Frameworks und Tools
+  offerTwoPackageContentsFourthItemTwo: Beliebige Skalierbarkeit über die ganze Plattform
 
   offerTwoPackageAddonsTitle: Persistent Storage Add Ons
-  offerTwoPackageAddonsPretext: Nach Verbrauch
+  offerTwoPackageAddonsPretext: By usage
   offerTwoPackageAddonsItem1: 10 GB CHF 6.70
   offerTwoPackageAddonsItem2: 20 GB CHF 10.00
   offerTwoPackageAddonsItem3: 50 GB CHF 19.00
   offerTwoPackageAddonsItem4: 100 GB CHF 25.00
 
-  offerTwoStorageDescription: Persistent Storage steht ihnen direkt in der Web Console oder via CLI zur Verfügung und kann als sogenannte Persistent Volumes direkt an Ihre Container angebunden werden. Die Abrechnung erfolgt nach Verbrauch.
+  offerTwoStorageDescription: Persistent Storage is at your direct disposal via Web Console or via CLI and so-called Persistent Volumes can be attached directly to your container. Accounts are balanced after usage.
 
-  offerTwoBilling: Die Vertragslaufzeit beträgt momentan ein Jahr.<br>Es gelten die APPUiO Servicebestimmungen.
-  offerTwoBillingMonthly: Monatlich
-  offerTwoBillingYearly: Jährlich
+  offerTwoBilling: Contract period currently runs for one year.<br>The service terms of APPUiO apply.
+  offerTwoBillingMonthly: monthly
+  offerTwoBillingYearly: annually
 
   offerTwoCustom: Custom
 
@@ -219,63 +232,62 @@ en:
   offerTwoBillingYearly: Yearly
 
   offerTwoContactTitle: APPUiO - PUBLIC PLATFORM
-  offerTwoContactSubject: I hereby order ...
+  offerTwoContactSubject: I would like to order ...
 
   offerTwoTerms1: I accept the
   offerTwoTerms2: Terms & Conditions
   offerTwoSend: Order
 
 # Offer3: On Premises PaaS
-  offerThreeTitle: On Premises
-  offerThreeIntro: Ihre PaaS in Ihrem Rechenzentrum, optimal integriert in Ihre Infrastruktur. Wir begleiten Sie von der Idee über die Umsetzung und falls gewünscht bis zum Betrieb.
-  offerThreeServicesTitle: Offene Komponenten und -Schnittstellen ermöglichen die Integration in komplexe, bestehende Infrastrukturen
-  offerThreeServicesDesc: Die Flexibiltät APPUiOs erlaubt die Integration in komplexe, bestehende Infrastrukturen. Hier eine Liste möglicher Integrationspunkte, welche durch APPUiO resp. OpenShift abgedeckt werden können.
-  offerThreeServices1: APPUiO läuft auf Red Hat Enterprise Linux (RHEL) 7 (bare metal, virtuell, Cloud)
+  offerThreeTitle: On Premise
+  offerThreeIntro: Your PaaS in your data centre, optimally integrated into your infrastructure. We guide you through the whole process, from idea stage to operation of a fully functional platform.
+  offerThreeServicesTitle: Open components and interfaces allow integration into complex existing infrastructures
+  offerThreeServicesDesc: APPUiO's flexibility allows for integration into complex, existing infrastructures. Please find below a list of possible integrations that can be covered by APPUiO or OpenShift.
+  offerThreeServices1: APPUiO runs on Red Hat Enterprise Linux (RHEL) 7 (bare metal, virtuell, Cloud)
   offerThreeServices2: Anbindung an vorhandene Storage Lösung
   offerThreeServices3: Integration in Netzwerkspezifika
-  offerThreeServices4: Anbindung an bestehendes Changemanagement (Puppet, Chef, Ansible)
-  offerThreeServices5: Source Code von privaten Git/SVN Repositories
-  offerThreeServices6: Anbindung an bestehende Datenbank Server
-  offerThreeServices7: Backup integrieren
-  offerThreeServices8: CI/CD Workflows anbinden
-  offerThreeServices9: Anbindung an Active Directory (AD) oder LDAP
+  offerThreeServices4: Connection to existing change management (Puppet, Chef, Ansible)
+  offerThreeServices5: Source Code from private Git/SVN Repositories
+  offerThreeServices6: Connection to existing database server
+  offerThreeServices7: Backup integraton
+  offerThreeServices8: CI/CD Workflows connection
+  offerThreeServices9: Connection to Active Directory (AD) or LDAP
 
   offerTreeContactTitle: Contact
-  offerTreeContactDesc: Ihr On Premises APPUiO Angebot tönt spannenden, ich wünsche eine persönliche Beratung.
+  offerTreeContactDesc: Your On Premises APPUiO offer sounds interesting. I would like a personal consultation.
 
 # Formular Defaults
-  mailGotAMessage: We just recieved a message from APPUiO.ch!
-  mailSubject: I'm interested in
+  mailGotAMessage: We just received a message from APPUiO.ch!
+  mailSubject: I'm interested in?
 
 # Techlab Page
   techlabPageTitle: Techlab
   techlabTitle: APPUiO & OpenShift Tech Labs in Bern und Zürich
-  techlabSubtitle: Mit einer Platform as a Service (PaaS) ändert sich die Art, wie wir Software entwickeln. Puzzle stellt OpenShift V3 - die Container Plattform von Red Hat - in einem Tech Lab vor.
-  techlabDetails: "<p>Die Teilnehmer lernen dabei&nbsp;hands-on die wichtigsten Schritte, wie eine Applikation in die Cloud gebracht wird und wie Container auf einer PaaS deployed und betrieben&nbsp;werden können.</p>
-                             <p>Mit OpenShift werden IT-Prozesse automatisiert und die Bereitstellung&nbsp;von IT-Services gestrafft. Im Tech Lab erwarten euch folgende Themen:</p>
+  techlabSubtitle: Platform as a Service (PaaS) changes the way we develop software. Puzzle presents OpenShift V3 - the Container Platform by Red Hat - in a Tech Lab.
+  techlabDetails: "<p>Participants learn the key steps hands-on way, learning how applications are deployed to the cloud, and how a container on a PaaS can be deployed und operated.</p>
+                             <p>With OpenShift IT processes are automated and deployment of IT-Services can be streamlined. Tech Labs touch on the following subjects:</p>
                              <p><strong>Hands on Workshop</strong></p>
                              <ul>
-                             <li>Einrichten CLI</li>
-                             <li>Quicktour durch OpenShift V3</li>
-                             <li>Die erste Applikation deployen</li>
+                             <li>Setting up CLI</li>
+                             <li>Quicktour through OpenShift V3</li>
+                             <li>Deploying the first application</li>
                              <li>Advanced CLI Commands</li>
-                             <li>Routen erstellen</li>
-                             <li>Skalieren von Applikationen</li>
-                             <li>Datenbank deployen und anbinden</li>
-                             <li>Code Änderungen via Webhook direkt integrieren</li>
-                             <li>Persistent Storage anbinden und verwenden für Datenbank</li>
-                             <li>Applikationstemplates</li>
+                             <li>Creating routes </li>
+                             <li>Scaling applications</li>
+                             <li>Deploying and connecting databases </li>
+                             <li>Direct integration of code changes via Webhook</li>
+                             <li>Linking and using Persistent Storage for database </li>
+                             <li>Application templates</li>
                              </ul>
-                             <p>Daten:</p>
+                             <p>Dates:</p>
                              <ul>
-                             <li>21. September 2016 in Zürich</li>
-                             <li>6. Oktober 2016 in Bern</li>
-                             <li>3. November 2016 in Zürich</li>
-                             <li>1. Dezember 2016 in Bern</li>
-                             <li>12. Januar 2017 in Zürich</li>
-                             <li>9. Februar 2017 in Bern</li>
+                             <li>6 October 2016 in Berne</li>
+                             <li>3 November 2016 in Zürich</li>
+                             <li>1 December 2016 in Berne</li>
+                             <li>12 January 2017 in Zürich</li>
+                             <li>9 February 2017 in Berne</li>
                              </ul>
-                             <p>Zeit: 14:00 bis 17:30 Uhr<br>
-                             Ort: die Location werden wir frühzeitig bekanntgeben</p>
-                             <p>Die Teilnahme ist kostenlos. Für das Lab solltet ihr euren eigenen Laptop mitbringen. Die Platzzahl ist beschränkt.<br> Anmeldung bitte per <a href=\"mailto: hello@appuio.ch\">Mail</a>.</p>
+                             <p>Time: 14.00 to 17.30h<br>
+                             Location: to be announced</p>
+                             <p>Participation is free of charge. Please bring your own laptop for the lab. Number of places is limited. <br> Register here <a href=\"mailto: hello@appuio.ch\">Mail</a>.</p>
                              "
