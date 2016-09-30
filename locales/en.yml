@@ -62,7 +62,7 @@ en:
   homeFeatureOpenSourceDesc: OpenShift, Docker, Kubernetes and other components behind APPUiO are open source. We fully embrace the open source philosophy and therefore make documentation of APPUiO available to our community. Open source software that uses open standards, as well as freely available APPUiO documentation guarantees you the greatest possible freedom and protects you from vendor lock-ins. Additional information on the open source OpenShift project can be found at <a target="_new" href="https://www.openshift.org">openshift.org</a>.
   homeFeatureSecureTitle: Secured container
   homeFeatureSecureDesc: Openshift provides a secure platform thanks to Red Hat’s Enterprise SELinux. Data protection in accordance with Swiss law in ISO27001-certified and FINMA-audited data centres.
-  homeFeatureSecureAlt: Safe container with a swiss éàlkja locker
+  homeFeatureSecureAlt: Safe container with a swiss locker
   homeFeatureEncryptTitle: Lets Encrypt SSL/TLS Routen at the touch of a button
   homeFeatureEncry ptDesc: APPUiO allows you to easily configure real SSL certificates in your routes (ihre Routen) by way of Lets Encrypt. After registration has taken place APPUIO monitors and updates (Aktualisierung) the Lets Encrypt certificates, which are only valid 3 months, and replaces them after they've expired. You no longer have to worry about them.
   homeFeatureEncryptAlt: Lets Encrypt SSL/TLS Routes at the touch of a button
