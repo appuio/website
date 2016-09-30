@@ -22,7 +22,7 @@
 - day: 12
   month: Sep
   title: APPUiO & OpenShift Tech Labs in Bern und Zürich
-  subtitle: Mit einer Platform as a Service (PaaS) ändert sich die Art, wie wir Software entwickeln. Puzzle stellt OpenShift V3 - die Container Plattform von Red Hat - in einem Tech Lab vor.
-  details: "<p>Die Teilnehmer lernen dabei&nbsp;hands-on die wichtigsten Schritte, wie eine Applikation in die Cloud gebracht wird und wie Container auf einer PaaS deployed und betrieben&nbsp;werden können. <a href=\"techlabs.html\">weitere Infos und Anmeldung</a></p>
+  subtitle: Platform as a Service (PaaS) changes the way we develop software. Puzzle presents OpenShift V3 - the Container Platform by Red Hat - in a Tech Lab.
+  details: "<p>Participants learn the key steps hands-on way, learning how applications are deployed to the cloud, and how a container on a PaaS can be deployed und operated. <a href=\"techlabs.html\">additional information and registration</a></p>
            "
 
