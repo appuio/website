@@ -73,6 +73,11 @@ Responsive hotizontal menu.
     padding: 0;
     height: auto;
   }
+  @include susy-breakpoint($break-large) {
+    max-width: rem-calc(850);
+    float: left;
+    padding-left: 1.5rem;
+  }
 }
 .is-horizontal {
   @include reset-list;
