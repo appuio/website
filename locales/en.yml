@@ -198,6 +198,20 @@ en:
 
   offerTwoCPUDescription: CPU resources are normalized as KCU (Kubernetes Compute Units), and CPU 1000m approximately represent one single hyperthreaded CPU Core.
 
+  offerTwoPackageContentsTitle: Was ist im Angebot enthalten?
+  offerTwoPackageContentsFirstTitle: Multinode Platform
+  offerTwoPackageContentsFirstItemOne: Ressourcen stehen auf einer multinode Plattform zur Verfügung
+  offerTwoPackageContentsFirstItemTwo: Alle Komponenten sind standardmässig hochverfügbar
+  offerTwoPackageContentsSecondTitle: Automatisierung
+  offerTwoPackageContentsSecondItemOne: Integration via REST API, CLI Tool oder über <a href="https://wiki.jenkins-ci.org/display/JENKINS/OpenShift+Pipeline+Plugin" alt="Jenkins Plugin">Jenkins Plugin</a> einfach automatisieren und integrieren.
+  offerTwoPackageContentsSecondItemTwo: Rolling Updates ermöglichen unterbruchsfreie, blau - grün Deployments
+  offerTwoPackageContentsThirdTitle: Multitenant &amp; sicher
+  offerTwoPackageContentsThirdItemOne: Laufende Aktualisierung von supporteten Enterprise RHEL Basis Images
+  offerTwoPackageContentsThirdItemTwo: Gegen aussen sichere Docker Registry und damit volle Kontrolle über Docker Images
+  offerTwoPackageContentsFourthTitle: Flexibilität
+  offerTwoPackageContentsFourthItemOne: Docker Open Source Ökosystem mit zusätzlichen Laufzeitumgebungen, Frameworks und Tools
+  offerTwoPackageContentsFourthItemTwo: Beliebige Skalierbarkeit über die ganze Plattform
+
   offerTwoPackageAddonsTitle: Persistent Storage Add Ons
   offerTwoPackageAddonsPretext: By usage
   offerTwoPackageAddonsItem1: 10 GB CHF 6.70
@@ -228,7 +242,7 @@ en:
   offerThreeTitle: On Premise
   offerThreeIntro: Your PaaS in your data centre, optimally integrated into your infrastructure. We guide you through the whole process, from idea stage to operation of a fully functional platform.
   offerThreeServicesTitle: Open components and interfaces allow integration into complex existing infrastructures
-  offerThreeServicesDesc: APPUiO?s flexibility allows for integration into complex, existing infrastructures. Please find below a list of possible integrations that can be covered by APPUiO or OpenShift.
+  offerThreeServicesDesc: APPUiO's flexibility allows for integration into complex, existing infrastructures. Please find below a list of possible integrations that can be covered by APPUiO or OpenShift.
   offerThreeServices1: APPUiO runs on Red Hat Enterprise Linux (RHEL) 7 (bare metal, virtuell, Cloud)
   offerThreeServices2: Anbindung an vorhandene Storage Lösung
   offerThreeServices3: Integration in Netzwerkspezifika
