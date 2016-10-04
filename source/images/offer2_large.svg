@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <svg width="347px" height="700px" viewBox="0 0 347 700" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: sketchtool 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
-    <title>112018AF-5CFF-4FA3-B9FB-97F767349A69</title>
-    <desc>Created with sketchtool.</desc>
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>offer2_large</title>
+    <desc>Created with Sketch.</desc>
     <defs>
         <rect id="path-1" x="0" y="0" width="347" height="699.803032" rx="2.96581197"></rect>
         <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
@@ -10,17 +10,15 @@
             <stop stop-color="#020202" stop-opacity="0.1" offset="100%"></stop>
         </linearGradient>
     </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Assets" transform="translate(-893.000000, -346.000000)">
-            <g id="icon-L-347" transform="translate(893.000000, 346.000000)">
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="card-bg-icons" transform="translate(-1216.000000, -1164.000000)">
+            <g id="offer2_large" transform="translate(1216.000000, 1163.000000)">
                 <mask id="mask-2" fill="white">
                     <use xlink:href="#path-1"></use>
                 </mask>
                 <g id="Mask"></g>
                 <polygon id="shadow" fill="url(#linearGradient-3)" mask="url(#mask-2)" points="155.025068 221.109831 208.953909 221.237373 209.128892 247.540763 123.987845 247.36428 372.856542 496.257288 372.889166 322.209407 155.28161 104.580593"></polygon>
-                <text id="L" stroke="#FF931E" stroke-width="1.48290598" mask="url(#mask-2)" font-family="Lato-Heavy, Lato" font-size="192.710602" font-weight="600" fill="#002F47">
-                    <tspan x="109.735784" y="245.129088">L</tspan>
-                </text>
+                <polygon id="L" stroke="#FF931E" stroke-width="3.48300004" fill="#002F47" mask="url(#mask-2)" points="207.343704 221.618395 207.343704 245.129088 124.38179 245.129088 124.38179 105.317546 153.28838 105.317546 153.28838 221.618395"></polygon>
             </g>
         </g>
     </g>
