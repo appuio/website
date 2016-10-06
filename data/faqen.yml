@@ -1,16 +1,16 @@
-- question: Was ist OpenShift und wie funktioniert es?
-  answer: <a href="https://docs.openshift.com" target="_blank">OpenShift</a> ist die Container Platform von Red Hat. Seit der Version 3 setzt OpenShift auf bewährte Open Source Projekte wie <a href="http://www.docker.com/" target="blank">Docker</a> und <a target="blank" href="http://kubernetes.io/">Kubernetes</a>.
-- question: Wie bringt man eine Applikation auf APPUiO?
-  answer: Für die ersten Schritte haben wir ein <a href="https://github.com/appuio/techlab" target="_blank">TechLab</a> erstellt und stellen unter <a href="http://docs.appuio.ch/en/latest/getting-started.html" target="_blank">Getting Started</a> erste Schritte vor.
-- question: Wer steckt hinter APPUiO?
-  answer: Die beiden DevOps Spezialisten <a href="https://www.puzzle.ch/de/" target="new">Puzzle ITC</a> und <a href="https://vshn.ch/" target="new">VSHN AG</a> arbeiten für APPUiO eng zusammen. VSHN stellt schwerpunktmässig den Betrieb sicher, Puzzle engineert die Plattform mehrheitlich und integriert diese bei Bedarf bei Kunden.
-- question: Wo finde ich Dokumentation zu APPUiO?
-  answer: Die Dokumentation findet ihr unter <a href="http://docs.appuio.ch/en/latest/" target="new">docs.appuio.ch</a>. Diese wird aus dem <a href="https://github.com/appuio/docs" target="new">Github Repo</a> generiert und laufend ergänzt. Anregungen und Ergänzungen sind jederzeit willkommen.
-- question: Wo läuft die APPUiO public PaaS? Wo befinden sich die Datacenter?
-  answer: Die APPUiO Public Cloud läuft auf der IaaS Plattform von cloudscale.ch. Die Server stehen im Datacenter e-shelter in Rümlang. Details siehe <a href="https://www.cloudscale.ch/en/about" target="new">https://www.cloudscale.ch/en/about</a>.
-- question: Ich habe ein Problem in meinem APPUiO Projekt, wer kann mir weiterhelfen?
-  answer: Wir helfen Ihnen gerne unter support@appuio.ch oder im <a href="https://forum.appuio.ch/" target="new">Supportforum</a> weiter.
-- question: Wo finde ich technische FAQs?
-  answer: Technische Details werden auf der Dokumentationsseite unter <a href="http://docs.appuio.ch/en/latest/faq.html" target="new">docs.appuio.ch</a> beantwortet.
-- question: Kann ich das Public PaaS Angebot auch monatlich beziehen?
-  answer: Momentan können wir dies leider noch nicht anbieten. Wir arbeiten allerdings am automatisierten Billing, damit wir in Zukunft auch monatliche Abos anbieten können.
+- question: What is OpenShit and how does it work?
+  answer: <a href="https://docs.openshift.com" target="_blank">OpenShift</a> is the Container platform by Red Hat. Since Version 3 OpenShift relies on proven Open Sourse projects such as <a href="http://www.docker.com/" target="blank">Docker</a> und <a target="blank" href="http://kubernetes.io/">Kubernetes</a>.
+- question: How does one bring an application to APPUiO?
+  answer: For the first steps we have created a <a href="https://github.com/appuio/techlab" target="_blank">TechLab</a> and explain these at <a href="http://docs.appuio.ch/en/latest/getting-started.html" target="_blank">Getting Started</a>.
+- question: Who is behind APPUiO?
+  answer: The two DevOps specialists <a href="https://www.puzzle.ch/de/" target="new">Puzzle ITC</a> and <a href="https://vshn.ch/" target="new">VSHN AG</a> are working closely together on APPUiO. VSHN focuses mainly on securing the operation, whereas Puzzle mainly engineers the platform and integrates this for clients where necessary.
+- question: Where can I find documentation for APPUiO?
+  answer: Documentation can be found at <a href="http://docs.appuio.ch/en/latest/" target="new">docs.appuio.ch</a>. This is generated from <a href="https://github.com/appuio/docs" target="new">Github Repo</a> and is updated regularly. Suggestions and additions are welcome anytime.
+- question: Where does APPUiO public PaaS run? Where are the data centers located?
+  answer: The APPUiO Public Cloud is run on an IaaS platform by cloudscale.ch. The server is located in a data center e-shelter in Rümlang, Switzerland. For details check <a href="https://www.cloudscale.ch/en/about" target="new">https://www.cloudscale.ch/en/about</a>.
+- question: I am having trouble with my APPUiO project. Who can I contact? 
+  answer: For assistance, please contact support@appuio.ch or consult our <a href="https://forum.appuio.ch/" target="new">Supportforum</a>.
+- question: Where can I find technical FAQs?
+  answer: Technical questions are answered on our documentation page at <a href="http://docs.appuio.ch/en/latest/faq.html" target="new">docs.appuio.ch</a>.
+- question: Can I receive the Public PaaS offer on a monthly basis?
+  answer: At the moment we are unable to offer this. We are however working on an automated invoicing process, so that monthly subscriptions will be able to be offered in the future.
