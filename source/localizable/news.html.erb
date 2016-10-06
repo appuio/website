@@ -15,7 +15,7 @@ title: APPUiO - Swiss Container Platform - News
         <div class="year">2016</div>
         <div class="dot"></div>
         <div class="year-container">
-            <% data["news16#{I18n.locale}"].each do |f| %>
+            <% data["#{I18n.locale}"].news16.each do |f| %>
             <div class="news-entry">
               <div class="date"><div class="month"><%= f["month"] %></div><div class="day"><%= f["day"] %></div></div>
               <div class="news-text">
