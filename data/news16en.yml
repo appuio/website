@@ -1,28 +1,16 @@
 - day: 13
   month: Sep
-  title: APPUiO geht live
-  subtitle: Die Schweizer Container Plattform “APPUiO” geht mit drei Angeboten an den Start. Neben der Public PaaS wird die Plattform auch als private Cloud betrieben oder in die Infrastruktur der Kunden integriert. APPUiO basiert auf modernen Open Source Konzepten wie Docker und Kubernetes und wird in ISO-zertifizierten und FINMA- auditierten Rechenzentren in der Schweiz betrieben.
-  details: "<p>Nach einer dreimonatigen Betaphase steht APPUiO ab heute allen Entwicklern und Firmen zur Verfügung. Mit
-               APPUiO lassen sich Applikationen einfach und schnell entwickeln oder Container Workload betreiben. Hinter
-               APPUiO stehen mit Puzzle ITC und VSHN zwei DevOps Experten, welche ihre Kunden bei der erfolgreichen
-               Umsetzung von Konzepten wie Continuous Integration und -Deployment unterstützen.</p>
-            <h4>Auf in Richtung DevOps</h4>
-           <p>Auf der Basis bewährter Open Source Konzepte wie Docker und Kubernetes lassen sich auf APPUiO
-              Applikationen mit standardisierten Komponenten entwickeln und skalierbar betreiben. Mit der Plattform
-              werden IT-Prozesse automatisiert und die Bereitstellung von IT-Services gestrafft. Applikationen können dabei
-              sowohl in der Public Cloud, intern oder auch in einer hybriden Cloud betrieben werden. Die Anwendung der
-              Docker-Konzepte eröffnet neue Aussichten für die Entwicklung und den Betrieb in Richtung DevOps.</p>
-           <h4>Start mit Tech Labs</h4>
-           <p>Interessierte können in kostenlosen Tech Labs erste Erfahrungen mit der Plattform sammeln. Dabei lernen sie
-              Hands-on die wichtigsten Schritte, wie eine Applikation in die Cloud gebracht wird und wie Container auf einer
-              PaaS deployed und betrieben werden können. Wer sich bis Ende November für die Plattform registriert, kommt
-              zudem in den Genuss einer Promo-Aktion.</p>
+  title: APPUiO goes live
+  subtitle: The Swiss container platform APPUiO is set to launch three new offers. Aside from Public PaaS, the platform will also be operated as a private Cloud or integrated into the client?s infrastructure. APPUiO is based on modern open source concepts such as Docker and Kubernetes and is operated via ISO-certified and FINMA-audited data centers in Switzerland.
+  details: "<p>After a three-month beta phase APPUiO is now available to all developers and companies. With APPUiO, applications can be developed quickly and Container workloads can be run. Puzzle ITC and VSHN DevOps experts are two of the driving forces behind APPUiO, who help their clients to successfully realize concepts such as Continous Integration and support deployment.p>
+            <h4>Headed to DevOps</h4>
+           <p>On the basis of proven Open Source concepts such as Docker and Kubernetes APPUiO allows for applications with standardized components to be developed and run in scalable maner. With this platform IT processes are automated and delivery of IT services is streamlined. Applications can be operated both in the Public Cloud, internally, or also in a hybrid Cloud environment. The use of Docker-concepts opens up new perspectives for the development and operation towards DevOps</p>
+           <h4>Start with Tech Labs</h4>
+           <p>Those interested can gain initial experience with this platform in free Tech Labs. In a hands-on manner you will learn first steps, how applications are brought to Cloud, and how to deploy and operate applications into PaaS. Anyone who registers for the platform by the end of November will also be able to profit from a special promotion</p>
            "
 
 - day: 12
   month: Sep
-  title: APPUiO & OpenShift Tech Labs in Bern und Zürich
+  title: APPUiO & OpenShift Tech Labs in Bern and Zürich
   subtitle: Platform as a Service (PaaS) changes the way we develop software. Puzzle presents OpenShift V3 - the Container Platform by Red Hat - in a Tech Lab.
-  details: "<p>Participants learn the key steps hands-on way, learning how applications are deployed to the cloud, and how a container on a PaaS can be deployed und operated. <a href=\"techlabs.html\">additional information and registration</a></p>
-           "
-
+  details: "<p>Participants will learn key steps in a hands-on manner, learning how applications are deployed to the cloud, as well as how a container on a PaaS can be deployed und operated. <a href=\"techlabs.html\">additional information and registration</a></p>"

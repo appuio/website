@@ -198,19 +198,19 @@ en:
 
   offerTwoCPUDescription: CPU resources are normalized as KCU (Kubernetes Compute Units), and CPU 1000m approximately represent one single hyperthreaded CPU Core.
 
-  offerTwoPackageContentsTitle: Was ist im Angebot enthalten?
+  offerTwoPackageContentsTitle: What is included in the offer?
   offerTwoPackageContentsFirstTitle: Multinode Platform
-  offerTwoPackageContentsFirstItemOne: Ressourcen stehen auf einer multinode Plattform zur Verfügung
-  offerTwoPackageContentsFirstItemTwo: Alle Komponenten sind standardmässig hochverfügbar
-  offerTwoPackageContentsSecondTitle: Automatisierung
-  offerTwoPackageContentsSecondItemOne: Integration via REST API, CLI Tool oder über <a href="https://wiki.jenkins-ci.org/display/JENKINS/OpenShift+Pipeline+Plugin" alt="Jenkins Plugin">Jenkins Plugin</a> einfach automatisieren und integrieren.
-  offerTwoPackageContentsSecondItemTwo: Rolling Updates ermöglichen unterbruchsfreie, blau - grün Deployments
-  offerTwoPackageContentsThirdTitle: Multitenant &amp; sicher
-  offerTwoPackageContentsThirdItemOne: Laufende Aktualisierung von supporteten Enterprise RHEL Basis Images
-  offerTwoPackageContentsThirdItemTwo: Gegen aussen sichere Docker Registry und damit volle Kontrolle über Docker Images
-  offerTwoPackageContentsFourthTitle: Flexibilität
-  offerTwoPackageContentsFourthItemOne: Docker Open Source Ökosystem mit zusätzlichen Laufzeitumgebungen, Frameworks und Tools
-  offerTwoPackageContentsFourthItemTwo: Beliebige Skalierbarkeit über die ganze Plattform
+  offerTwoPackageContentsFirstItemOne: Ressources are made available on a multinode platform
+  offerTwoPackageContentsFirstItemTwo: All components are highly available on a standard basis.
+  offerTwoPackageContentsSecondTitle: Automation
+  offerTwoPackageContentsSecondItemOne: Integration via REST API, CLI Tool or via <a href="https://wiki.jenkins-ci.org/display/JENKINS/OpenShift+Pipeline+Plugin" alt="Jenkins Plugin">Jenkins Plugin</a> easily automated and integrated.
+  offerTwoPackageContentsSecondItemTwo: Rolling Updates allow for uninterrupted blue-green deployments
+  offerTwoPackageContentsThirdTitle: Multitenant &amp; secure
+  offerTwoPackageContentsThirdItemOne: Ongoing updates from supported Enterprise RHEL Basis Images
+  offerTwoPackageContentsThirdItemTwo: Secure Docker Registry and thus full control over Docker Images towards the outside
+  offerTwoPackageContentsFourthTitle: Flexibility
+  offerTwoPackageContentsFourthItemOne: Docker Open Source Ecosystem with additional runtime environments, frameworks and tools
+  offerTwoPackageContentsFourthItemTwo: Scalability as need across the whoel platform
 
   offerTwoPackageAddonsTitle: Persistent Storage Add Ons
   offerTwoPackageAddonsPretext: By usage
