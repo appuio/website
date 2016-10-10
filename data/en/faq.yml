@@ -1,4 +1,4 @@
-- question: What is OpenShit and how does it work?
+- question: What is OpenShift and how does it work?
   answer: <a href="https://docs.openshift.com" target="_blank">OpenShift</a> is the Container platform by Red Hat. Since Version 3 OpenShift relies on proven Open Sourse projects such as <a href="http://www.docker.com/" target="blank">Docker</a> und <a target="blank" href="http://kubernetes.io/">Kubernetes</a>.
 - question: How does one bring an application to APPUiO?
   answer: For the first steps we have created a <a href="https://github.com/appuio/techlab" target="_blank">TechLab</a> and explain these at <a href="http://docs.appuio.ch/en/latest/getting-started.html" target="_blank">Getting Started</a>.
