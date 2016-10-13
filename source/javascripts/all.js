@@ -89,7 +89,7 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
     var interests = $.map($(':checkbox[name=interests\\[\\]]:checked'), function(n, i){
       return n.value;
     }).join(',');
-    var message = $("[name='message']").val() + "<br><br>\n\r";
+    var messageform = $("[name='message']").val() + "<br><br>\n\r";
     var firma = $("[name='firma']").val();
     var telefon = $("[name='phone']").val();
     var strasse = $("[name='adresse']").val();
@@ -97,7 +97,7 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
     var ort = $("[name='ort']").val();
     var form = $('form').attr('name');
 
-    message += "<br><br>\n\rfields:<br>\n\r";
+    var message = messageform + "<br><br>\n\rfields:<br>\n\r";
     // add all fields also to the message
     $(":input").each(function(){
       var name = $(this).attr('name')
@@ -111,7 +111,8 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
       nachname: nachname,
       email: email,
       interests: interests,
-      message: message,
+      message: messageform,
+      messageback: message,
       firma: firma,
       telefon: telefon,
       strasse: strasse,

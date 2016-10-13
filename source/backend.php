@@ -57,12 +57,13 @@ function addToMessage($key, $lable){
     }
 }
 
-function createLogMessage($subject, $from_email, $message){
+function createLogMessage($subject, $from_email, $message, $message_back){
     $log = "*********************************\n";
     $log .= "Date: " . date("Y-m-d H:i:s") . "\n";
     $log .= "From: " . $from_email . "\n";
     $log .= "Subject: " . $subject . "\n";
     $log .= "Message: " . $message . "\n";
+    $log .= "MessageBack: " . $message_back . "\n";
     $log .= "*********************************\n";
     return $log;
 }
@@ -99,10 +100,11 @@ $email_message .= addToMessage("interests", "Interessen");
 $email_message .= "\r\n";
 $email_message .= addToMessage("message", "Mitteilung");
 
+$message_back = addToMessage("messageback");
 
 if (isset($_POST['email'])) {
 
-    file_put_contents($_SERVER["DOCUMENT_ROOT"]."/data/submissions.log" , createLogMessage($email_subject, $email_from, $email_message));
+    file_put_contents($_SERVER["DOCUMENT_ROOT"]."/data/submissions.log" , createLogMessage($email_subject, $email_from, $email_message, $message_back));
 
     // create email headers
     $headers = 'From: ' . $email_to . "\r\n" .
