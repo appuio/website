@@ -86,8 +86,10 @@ de:
   homeContactYourEmail: E-Mail
   homeContactYourStreet: Strasse
   homeContactYourStreetTitle: Strasse
-  homeContactYourPLZORT: PLZ, Ort
-  homeContactYourPLZORTTitle: PLZ, Ort
+  homeContactYourORT: Ort
+  homeContactYourORTTitle: Ort
+  homeContactYourPLZ: PLZ
+  homeContactYourPLZTitle: PLZ
   homeContactYourBillStreet: Rechnungsadresse Strasse
   homeContactYourBillPLZORT: Rechnungsadresse PLZ, Ort
   homeContactYourMessage: Nachricht

@@ -85,8 +85,10 @@ en:
   homeContactYourEmail: email
   homeContactYourStreet: street address
   homeContactYourStreetTitle: street address
-  homeContactYourPLZORT: Zip Code, City
-  homeContactYourPLZORTTitle: Zip Code, City
+  homeContactYourORT: City
+  homeContactYourORTTitle: City
+  homeContactYourPLZ: Zip Code
+  homeContactYourPLZTitle: Zip Code
   homeContactYourBillStreet: Billing address, street
   homeContactYourBillPLZORT: Billing address, zip code, city
   homeContactYourMessage: message

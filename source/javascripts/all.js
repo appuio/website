@@ -81,9 +81,8 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
   // Mail Forms
   // ------------------
   // Contact Form on homepage
-  $( "#contact-form" ).submit(function( event ) {
+  $( ".home-contact-container, .offers-contact-container" ).submit(function( event ) {
     event.preventDefault();
-    var valid = true;
     var vorname = $("[name='vorname']").val();
     var nachname = $("[name='nachname']").val();
     var email = $("[name='email']").val();
@@ -91,78 +90,22 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
       return n.value;
     }).join(',');
     var message = $("[name='message']").val() + "<br><br>\n\r";
-    
+    var firma = $("[name='firma']").val();
+    var telefon = $("[name='phone']").val();
+    var strasse = $("[name='adresse']").val();
+    var plz = $("[name='plz']").val();
+    var ort = $("[name='ort']").val();
+
     message += "<br><br>\n\rfields:<br>\n\r";
     // add all fields also to the message
     $(":input").each(function(){
-    	var name = $(this).attr('name'); 
-    	var value = $(this).val();
-    	message += name + ": " + value + "<br>\n\r";
+      var name = $(this).attr('name')
+      var value = $(this).val();
+      message += name + ": " + value + "<br>\n\r";
     });
-    
-    if(!vorname) valid = false;
-    if(!nachname) valid = false;
-    if(!email || !email.match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) valid = false;
-    if(!message) valid = false;
-    if(valid) {
-      $('<iframe>', {
-        src: 'https://app.hatchbuck.com/onlineForm/submit.php?formID=60964925647&enableServerValidation=0&enable303Redirect=1&q1_firstName1='+vorname+'&q3_lastName3='+nachname+'&q4_email='+email+'&q6_interessen='+interests+'&q5_nachricht='+message,
-        id: 'crmframe',
-        frameborder: 0,
-        height: 0,
-        width: 0,
-        style: 'position: absolute; left: -5000px;',
-        tabindex: -1,
-//        sandbox: 'allow-forms allow-scripts allow-same-origin',
-//        the CRM redirects the main window (window.top) and uses that to track success. sandboxing the iframe prevents this, but also prevents the CRM to accept the submission :(
-      }).appendTo('body').load(function(){
-        sendProgressButton('check');
-//        var url = 'https://app.hatchbuck.com/TrackOnlineForm?sid=326172713212511452';
-//        if ($('#crmframe').attr('src') != url) {
-//          // trying to manually do the redirect that was prevented with the sandboxing above
-//          $('#crmframe').attr('src',url);
-//        }
-      });
-    }
-  });
 
-// Contact form offer1 managed private paas
-$( "#offer-one-contact-form" ).submit(function( event ) {
-  event.preventDefault();
-  var valid = true;
-
-  var vorname = $("[name='vorname']").val();
-  if(!vorname) valid = false;
-
-  var nachname = $("[name='nachname']").val();
-  if(!nachname) valid = false;
-
-  var email = $("[name='email']").val();
-  if(!email || !email.match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) valid = false;
-
-  var phone = $("[name='phone']").val();
-  if(!phone) valid = false;
-
-  var message = $("[name='message']").val();
-  message += "<br><br>\n\rfields:<br>\n\r";
-  // add all fields also to the message
-  $(":input").each(function(){
-  	var name = $(this).attr('name'); 
-  	var value = $(this).val();
-  	message += name + ": " + value + "<br>\n\r";
-  });
-
-  var firma = $("[name='firma']").val() || '';
-
-  var interests = $.map($(':checkbox[name=interests\\[\\]]:checked'), function(n, i){
-    return n.value;
-  }).join(',');
-  // var addresse = $("[name='addresse']").val() || '';
-  // var rechnungsadresse = $("[name='rechnungsadresse']").val() || '';
-
-  if(valid) {
     $('<iframe>', {
-      src: 'https://app.hatchbuck.com/onlineForm/submit.php?formID=60964925647&enableServerValidation=0&enable303Redirect=1&q1_firstName1='+vorname+'&q3_lastName3='+nachname+'&q4_email='+email+'&q6_interessen='+interests+'&q5_nachricht='+message,
+      src: 'https://app.hatchbuck.com/onlineForm/submit.php?formID=60964925647&enableServerValidation=0&enable303Redirect=1&q1_firstName1='+vorname+'&q3_lastName3='+nachname+'&q4_email='+email+'&q6_interessen='+interests+'&q5_nachricht='+message+'&q7_firma='+firma+'&q8_telefon[phone]='+telefon+'&q9_adresse[addr_line1]='+strasse+'&q9_adresse[city]='+ort+'&q9_adresse[postal]='+plz+'&q9_adresse[country]=Switzerland',
       id: 'crmframe',
       frameborder: 0,
       height: 0,
@@ -179,121 +122,6 @@ $( "#offer-one-contact-form" ).submit(function( event ) {
 //          $('#crmframe').attr('src',url);
 //        }
     });
-  }
-});
-
-// Contact form offer2 public paas
-$( "#offer-two-contact-form" ).submit(function( event ) {
-  event.preventDefault();
-  var valid = true;
-
-  var vorname = $("[name='vorname']").val();
-  if(!vorname) valid = false;
-
-  var nachname = $("[name='nachname']").val();
-  if(!nachname) valid = false;
-
-  var email = $("[name='email']").val();
-  if(!email || !email.match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) valid = false;
-
-  var phone = $("[name='phone']").val();
-  if(!phone) valid = false;
-
-  var message = $("[name='message']").val();
-  message += "<br><br>\n\rfields:<br>\n\r";
-  // add all fields also to the message
-  $(":input").each(function(){
-  	var name = $(this).attr('name'); 
-  	var value = $(this).val();
-  	message += name + ": " + value + "<br>\n\r";
-  });
-  var interests = $.map($(':checkbox[name=interests\\[\\]]:checked'), function(n, i){
-	  return n.value;
-	  }).join(',');
-
-  var addresse = $("[name='addresse']").val() || '';
-  var ort = $("[name='ort']").val() || '';
-
-  var rechnungsadresse = $("[name='rechnungsadresse']").val() || '';
-  var rechnungsadresse_ort = $("[name='rechnungsadresse_ort']").val() || '';
-
-  var billing = $.map($(':radio[name=billing\\[\\]]:checked'), function(n, i){
-    return n.value;
-  }).join(',');
-
-  
-  
-  if(valid) {
-    $('<iframe>', {
-      src: 'https://app.hatchbuck.com/onlineForm/submit.php?formID=60964925647&enableServerValidation=0&enable303Redirect=1&q1_firstName1='+vorname+'&q3_lastName3='+nachname+'&q4_email='+email+'&q6_interessen='+interests+'&q5_nachricht='+message,
-      id: 'crmframe',
-      frameborder: 0,
-      height: 0,
-      width: 0,
-      style: 'position: absolute; left: -5000px;',
-      tabindex: -1,
-//        sandbox: 'allow-forms allow-scripts allow-same-origin',
-//        the CRM redirects the main window (window.top) and uses that to track success. sandboxing the iframe prevents this, but also prevents the CRM to accept the submission :(
-    }).appendTo('body').load(function(){
-      sendProgressButton('check');
-//        var url = 'https://app.hatchbuck.com/TrackOnlineForm?sid=326172713212511452';
-//        if ($('#crmframe').attr('src') != url) {
-//          // trying to manually do the redirect that was prevented with the sandboxing above
-//          $('#crmframe').attr('src',url);
-//        }
-    });
-  }
-});
-
-// Contact Form offer3 on premises paas
-  $( "#offer-three-contact-form" ).submit(function( event ) {
-    event.preventDefault();
-    var valid = true;
-
-    var vorname = $("[name='vorname']").val();
-    if(!vorname) valid = false;
-
-    var nachname = $("[name='nachname']").val();
-    if(!nachname) valid = false;
-
-    var email = $("[name='email']").val();
-    if(!email || !email.match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) valid = false;
-
-    var phone = $("[name='phone']").val();
-    if(!phone) valid = false;
-
-    var message = $("[name='message']").val();
-    message += "<br><br>\n\rfields:<br>\n\r";
-    // add all fields also to the message
-    $(":input").each(function(){
-    	var name = $(this).attr('name'); 
-    	var value = $(this).val();
-    	message += name + ": " + value + "<br>\n\r";
-    });
-    var interests = "-";
-
-    var firma = $("[name='firma']").val() || '';
-
-    if(valid) {
-      $('<iframe>', {
-        src: 'https://app.hatchbuck.com/onlineForm/submit.php?formID=60964925647&enableServerValidation=0&enable303Redirect=1&q1_firstName1='+vorname+'&q3_lastName3='+nachname+'&q4_email='+email+'&q6_interessen='+interests+'&q5_nachricht='+message,
-        id: 'crmframe',
-        frameborder: 0,
-        height: 0,
-        width: 0,
-        style: 'position: absolute; left: -5000px;',
-        tabindex: -1,
-//        sandbox: 'allow-forms allow-scripts allow-same-origin',
-//        the CRM redirects the main window (window.top) and uses that to track success. sandboxing the iframe prevents this, but also prevents the CRM to accept the submission :(
-      }).appendTo('body').load(function(){
-        sendProgressButton('check');
-//        var url = 'https://app.hatchbuck.com/TrackOnlineForm?sid=326172713212511452';
-//        if ($('#crmframe').attr('src') != url) {
-//          // trying to manually do the redirect that was prevented with the sandboxing above
-//          $('#crmframe').attr('src',url);
-//        }
-      });
-    }
   });
 
   var sendProgressButton = function(status){
