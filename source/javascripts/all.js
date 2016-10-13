@@ -104,6 +104,18 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
       message += name + ": " + value + "<br>\n\r";
     });
 
+    $.post( "backend.php", {
+      vorname: vorname,
+      nachname: nachname,
+      email: email,
+      interests: interests,
+      message: message,
+      firma: firma,
+      telefon: telefon,
+      strasse: strasse,
+      plz: plz,
+      ort: ort } );
+
     $('<iframe>', {
       src: 'https://app.hatchbuck.com/onlineForm/submit.php?formID=60964925647&enableServerValidation=0&enable303Redirect=1&q1_firstName1='+vorname+'&q3_lastName3='+nachname+'&q4_email='+email+'&q6_interessen='+interests+'&q5_nachricht='+message+'&q7_firma='+firma+'&q8_telefon[phone]='+telefon+'&q9_adresse[addr_line1]='+strasse+'&q9_adresse[city]='+ort+'&q9_adresse[postal]='+plz+'&q9_adresse[country]=Switzerland',
       id: 'crmframe',

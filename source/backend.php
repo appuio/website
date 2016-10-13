@@ -67,9 +67,10 @@ if (isset($_POST['email'])) {
     $email_message .= addToMessage("nachname", "Nachname");
     $email_message .= addToMessage("firma", "Firma");
     $email_message .= addToMessage("email", "Email");
-    $email_message .= addToMessage("adresse", "Adresse");
+    $email_message .= addToMessage("strasse", "Strasse");
     $email_message .= addToMessage("ort", "Ort");
-    $email_message .= addToMessage("phone", "Telefonnummer");
+    $email_message .= addToMessage("plz", "Ort");
+    $email_message .= addToMessage("telefon", "Telefonnummer");
     $email_message .= addToMessage("message", "Mitteilung");
 
 
