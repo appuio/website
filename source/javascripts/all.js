@@ -95,6 +95,7 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
     var strasse = $("[name='adresse']").val();
     var plz = $("[name='plz']").val();
     var ort = $("[name='ort']").val();
+    var form = $('form').attr('name');
 
     message += "<br><br>\n\rfields:<br>\n\r";
     // add all fields also to the message
@@ -105,6 +106,7 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
     });
 
     $.post( "backend.php", {
+      form: form,
       vorname: vorname,
       nachname: nachname,
       email: email,
