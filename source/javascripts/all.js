@@ -105,7 +105,7 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
       message += name + ": " + value + "<br>\n\r";
     });
 
-    $.post( "backend.php", {
+    $.post( "/backend.php", {
       form: form,
       vorname: vorname,
       nachname: nachname,

@@ -57,6 +57,16 @@ function addToMessage($key, $lable){
     }
 }
 
+function createLogMessage($subject, $from_email, $message){
+    $log = "*********************************\n";
+    $log .= "Date: " . date("Y-m-d H:i:s") . "\n";
+    $log .= "From: " . $from_email . "\n";
+    $log .= "Subject: " . $subject . "\n";
+    $log .= "Message: " . $message . "\n";
+    $log .= "*********************************\n";
+    return $log;
+}
+
 function getFormStr($name){
     if($name == "contact-form"){
         return "Contact Form";
@@ -71,25 +81,28 @@ function getFormStr($name){
     }
 }
 
+$form = getFormStr(clean_string($_POST["form"]));
+
+$email_to = "support@appuio.ch";
+$email_subject = $form . " " .clean_string($_POST["nachname"]). " ". clean_string($_POST["vorname"]);
+$email_from = $_POST["email"];
+
+$email_message .= addToMessage("vorname", "Vorname");
+$email_message .= addToMessage("nachname", "Nachname");
+$email_message .= addToMessage("firma", "Firma");
+$email_message .= addToMessage("email", "Email");
+$email_message .= addToMessage("strasse", "Strasse");
+$email_message .= addToMessage("ort", "Ort");
+$email_message .= addToMessage("plz", "Ort");
+$email_message .= addToMessage("telefon", "Telefonnummer");
+$email_message .= addToMessage("interests", "Interessen");
+$email_message .= "\r\n";
+$email_message .= addToMessage("message", "Mitteilung");
+
+
 if (isset($_POST['email'])) {
 
-    $form = getFormStr(clean_string($_POST["form"]));
-
-    $email_to = "support@appuio.ch";
-    $email_subject = $form . " " .clean_string($_POST["nachname"]). " ". clean_string($_POST["vorname"]);
-    $email_from = $_POST["email"];
-
-    $email_message .= addToMessage("vorname", "Vorname");
-    $email_message .= addToMessage("nachname", "Nachname");
-    $email_message .= addToMessage("firma", "Firma");
-    $email_message .= addToMessage("email", "Email");
-    $email_message .= addToMessage("strasse", "Strasse");
-    $email_message .= addToMessage("ort", "Ort");
-    $email_message .= addToMessage("plz", "Ort");
-    $email_message .= addToMessage("telefon", "Telefonnummer");
-    $email_message .= addToMessage("interests", "Interessen");
-    $email_message .= "\r\n";
-    $email_message .= addToMessage("message", "Mitteilung");
+    file_put_contents($_SERVER["DOCUMENT_ROOT"]."/data/submissions.log" , createLogMessage($email_subject, $email_from, $email_message));
 
     // create email headers
     $headers = 'From: ' . $email_to . "\r\n" .
@@ -99,4 +112,6 @@ if (isset($_POST['email'])) {
     mail($email_to, $email_subject, $email_message, $headers);
 } else {
     echo "email not set";
+    file_put_contents($_SERVER["DOCUMENT_ROOT"]."/data/submissions.log" , createLogMessage($email_subject, "Email not set", $email_message));
+
 }
