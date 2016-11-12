@@ -23,7 +23,7 @@ en:
 
 # Homepage
   homeNewsTitle: News
-  homeNewsText: "APPUiO - OpenShift Techlab: Convince yourself and visit one of our Techlabs ... <a href=\"techlabs.html\">more</a>"
+  homeNewsText: "Invitation to the APPUiO Launch Event. Register <a href=\"news.html\">here</a>."
   homeHeroAlt: APPUiO - Swiss Container Platform
   homeHeroTitle: Design, develop and operate your application with the APPUiO container runtime. Manage your container workload with APPUiO.
   homeHeroSignup: Sign up for public PaaS
