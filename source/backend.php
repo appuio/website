@@ -104,7 +104,7 @@ $message_back = addToMessage("messageback");
 
 if (isset($_POST['email'])) {
 
-    file_put_contents($_SERVER["DOCUMENT_ROOT"]."/data/submissions.log" , createLogMessage($email_subject, $email_from, $email_message, $message_back));
+    //file_put_contents($_SERVER["DOCUMENT_ROOT"]."/data/submissions.log" , createLogMessage($email_subject, $email_from, $email_message, $message_back));
 
     // create email headers
     $headers = 'From: ' . $email_to . "\r\n" .
@@ -114,6 +114,6 @@ if (isset($_POST['email'])) {
     mail($email_to, $email_subject, $email_message, $headers);
 } else {
     echo "email not set";
-    file_put_contents($_SERVER["DOCUMENT_ROOT"]."/data/submissions.log" , createLogMessage($email_subject, "Email not set", $email_message));
+    //file_put_contents($_SERVER["DOCUMENT_ROOT"]."/data/submissions.log" , createLogMessage($email_subject, "Email not set", $email_message));
 
 }
