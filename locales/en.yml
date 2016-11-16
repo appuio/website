@@ -17,6 +17,7 @@ en:
   navFeatures: Features
   navContact: Contact
   navFAQ: FAQ
+  navTechlabs: Techlab
 
 # Footer
   footerTel: Telefonisch erreichen Sie uns unter +41 44 552 22 40
@@ -283,7 +284,6 @@ en:
                              </ul>
                              <p>Dates:</p>
                              <ul>
-                             <li>3 November 2016 in Zürich</li>
                              <li>1 December 2016 in Berne</li>
                              <li>12 January 2017 in Zürich</li>
                              <li>9 February 2017 in Berne</li>
