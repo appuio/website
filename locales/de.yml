@@ -268,7 +268,8 @@ de:
   techlabPageTitle: Techlab
   techlabTitle: APPUiO & OpenShift Tech Labs in Bern und Zürich
   techlabSubtitle: Mit einer Platform as a Service (PaaS) ändert sich die Art, wie wir Software entwickeln. Puzzle stellt OpenShift V3 - die Container Plattform von Red Hat - in einem Tech Lab vor.
-  techlabDetails: "<p>Die Teilnehmer lernen dabei&nbsp;hands-on die wichtigsten Schritte, wie eine Applikation in die Cloud gebracht wird und wie Container auf einer PaaS deployed und betrieben&nbsp;werden können.</p>
+  techlabDetails: |-
+                             <p>Die Teilnehmer lernen dabei&nbsp;hands-on die wichtigsten Schritte, wie eine Applikation in die Cloud gebracht wird und wie Container auf einer PaaS deployed und betrieben&nbsp;werden können.</p>
                              <p>Mit OpenShift werden IT-Prozesse automatisiert und die Bereitstellung&nbsp;von IT-Services gestrafft. Im Tech Lab erwarten euch folgende Themen:</p>
                              <p><strong>Hands on Workshop</strong></p>
                              <ul>
@@ -292,4 +293,3 @@ de:
                              <p>Zeit: 14:00 bis 17:30 Uhr<br>
                              Ort: Neugasse 10, Zürich oder Eigerplatz 4, Bern</p>
                              <p>Die Teilnahme ist kostenlos. Für das Lab solltet ihr euren eigenen Laptop mitbringen. Die Platzzahl ist beschränkt.<br> Anmeldung bitte per <a href=\"mailto: hello@appuio.ch\">Mail</a>.</p>
-                             "
