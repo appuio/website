@@ -82,9 +82,24 @@ function getFormStr($name){
     }
 }
 
+function getEmailTo($name){
+    if($name == "contact-form"){
+        return "hello@appuio.ch";
+    } else if ($name == "offer-one-contact-form"){
+        return "hello@appuio.ch";
+    } else if ($name == "offer-two-contact-form"){
+        return "support@appuio.ch";
+    } else if ($name == "offer-three-contact-form"){
+        return "hello@appuio.ch";
+    } else {
+        return "hello@appuio.ch";
+    }
+}
+
 $form = getFormStr(clean_string($_POST["form"]));
 
-$email_to = "support@appuio.ch";
+$email_to = getEmailTo(clean_string($_POST["form"]));
+
 $email_subject = $form . " " .clean_string($_POST["nachname"]). " ". clean_string($_POST["vorname"]);
 $email_from = $_POST["email"];
 
