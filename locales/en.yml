@@ -1,4 +1,5 @@
 ---
+# Translate comfortably with https://weblate.appuio.ch/
 en:
   metaDescription: APPUiO - the Swiss container platform for design, development and operation of your application. Manage your container workload with APPUiO.
   metaKeywords: openShift, container runtime, container platform, Cluster, PaaS, Platform as a Service, Docker, Kubernetes, Swiss, Switzerland, VSHN AG, Puzzle ITC GmbH
