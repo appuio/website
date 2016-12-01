@@ -60,4 +60,6 @@ website is rebuilt. Your GitHub account is used for committing your translation 
 credited.
 
 Please see the [Weblate Translators Guide](https://docs.weblate.org/en/latest/user/index.html) for
-more information regarding translating with Weblate.
+more information regarding translating with Weblate and direct any questions regarding the translation
+of the APPUiO website to [weblate@appuio.ch](mailto:weblate@appuio.ch).
+
