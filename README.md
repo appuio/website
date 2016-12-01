@@ -43,7 +43,7 @@ First of all, be sure to run under ```Ruby v2.2.2``` at least, then:
 
 ## Translate
 
-The majority of the website content can be comfortably translated using [Weblate](https://weblate.appuio.ch).
+The majority of the website content can be comfortably translated using [Weblate](https://weblate.appuioapp.ch).
 You can login using your GitHub account. User which have a `@puzzle.ch` or `@vshn.ch` mail address associated
 with their GitHub account are automatically given access to the `appuio-website` project. Other users which
 like to contribute translations please request access at 
