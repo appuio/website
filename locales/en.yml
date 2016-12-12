@@ -109,30 +109,33 @@ en:
   offerOneList6: Backup to second location
   offerOneList7: "Small - Medium - Large: Tailored Solutions"
 
+  
   offerOneIso: Your APPUiO managed private platform runs in data centers certified to ISO27001 and according to FINMA guidelines in Switzerland and is subject to Swiss law.
 
   offerOneServiceTitle: Aside from optimal data protection we also offer you the following additional services
   offerOneServices1: Consulting Setup und initialization
   offerOneServices2: Bring my App to the Cloud - we consult and implement
-  offerOneServices3: "Automatization of your Processes: Continuous Delivery und Deployment of your application "
+  offerOneServices3: |-
+    Automatization of your Processes: Continuous Delivery and Deployment of your application
 
+  
   offerOnePackageTitle: "Chose the package that?s right for you"
   offerOnePackageSmallTitle: Small
-  offerOnePackageSmallItem1:  Master <br> (je 4GB Ram, 2vCores)
-  offerOnePackageSmallItem2:  2 Nodes <br> (je 16 GB Ram, 6VCores, 100 GB Docker Storage)
-  offerOnePackageSmallItem3:  200 GB Persistent Storage
+  offerOnePackageSmallItem1: Master <br> (je 4GB Ram, 2vCores)
+  offerOnePackageSmallItem2: 2 Nodes <br> (je 16 GB Ram, 6VCores, 100 GB Docker Storage)
+  offerOnePackageSmallItem3: 200 GB Persistent Storage
   offerOneSmallButton: Small
 
   offerOnePackageMediumTitle: Medium
-  offerOnePackageMediumItem1:  3 Master <br> (je 4GB Ram, 2vCores)
-  offerOnePackageMediumItem2:  4 Nodes <br> (je 32 GB Ram, 6VCores, 100 GB Docker Storage)
-  offerOnePackageMediumItem3:  500 GB Persistent Storage
+  offerOnePackageMediumItem1: 3 Master <br> (je 4GB Ram, 2vCores)
+  offerOnePackageMediumItem2: 4 Nodes <br> (je 32 GB Ram, 6VCores, 100 GB Docker Storage)
+  offerOnePackageMediumItem3: 500 GB Persistent Storage
   offerOneMediumButton: Medium
 
   offerOnePackageLargeTitle: Large
-  offerOnePackageLargeItem1:  3 Master <br> (je 4GB Ram, 2vCores)
-  offerOnePackageLargeItem2:  8 Nodes <br> (je 32 GB Ram, 6VCores, 200 GB Docker Storage)
-  offerOnePackageLargeItem3:  1 TB Persistent Storage
+  offerOnePackageLargeItem1: 3 Master <br> (je 4GB Ram, 2vCores)
+  offerOnePackageLargeItem2: 8 Nodes <br> (je 32 GB Ram, 6VCores, 200 GB Docker Storage)
+  offerOnePackageLargeItem3: 1 TB Persistent Storage
   offerOneLargeButton: Large
 
   offerOnePackageAddonsTitle: Add Ons
@@ -170,6 +173,7 @@ en:
 
   offerTwoPackageTitle: "Chose the package that's right for you!"
 
+  
   offerTwoPackageMicroTitle: Small
   offerTwoPackageMicroItem1: CHF 49.- / month
   offerTwoPackageMicroItem2: CPU 500m
@@ -223,15 +227,11 @@ en:
 
   offerTwoStorageDescription: Persistent Storage is at your direct disposal via Web Console or via CLI and so-called Persistent Volumes can be attached directly to your container. Accounts are balanced after usage.
 
-  offerTwoBilling: Contract period currently runs for one year.<br>The service terms of APPUiO apply.
-  offerTwoBillingMonthly: monthly
-  offerTwoBillingYearly: annually
-
-  offerTwoCustom: Custom
-
   offerTwoBilling: The contract period is currently one year.<br>Please refer to our service conditions.
   offerTwoBillingMonthly: Monthly
   offerTwoBillingYearly: Yearly
+
+  offerTwoCustom: Custom
 
   offerTwoContactTitle: APPUiO - PUBLIC PLATFORM
   offerTwoContactSubject: I would like to order ...
@@ -267,26 +267,26 @@ en:
   techlabTitle: APPUiO & OpenShift Tech Labs in Bern und Zürich
   techlabSubtitle: Platform as a Service (PaaS) changes the way we develop software. Puzzle presents OpenShift V3 - the Container Platform by Red Hat - in a Tech Lab.
   techlabDetails: |-
-                             <p>Participants learn the key steps hands-on way, learning how applications are deployed to the cloud, and how a container on a PaaS can be deployed und operated.</p>
-                             <p>With OpenShift IT processes are automated and deployment of IT-Services can be streamlined. Tech Labs touch on the following subjects:</p>
-                             <p><strong>Hands on Workshop</strong></p>
-                             <ul>
-                             <li>Setting up CLI</li>
-                             <li>Quicktour through OpenShift V3</li>
-                             <li>Deploying the first application</li>
-                             <li>Advanced CLI Commands</li>
-                             <li>Creating routes </li>
-                             <li>Scaling applications</li>
-                             <li>Deploying and connecting databases </li>
-                             <li>Direct integration of code changes via Webhook</li>
-                             <li>Linking and using Persistent Storage for database </li>
-                             <li>Application templates</li>
-                             </ul>
-                             <p>Dates:</p>
-                             <ul>
-                             <li>12 January 2017 in Zürich</li>
-                             <li>9 February 2017 in Berne</li>
-                             </ul>
-                             <p>Time: 14.00 to 17.30h<br>
-                             Location: to be announced</p>
-                             <p>Participation is free of charge. Please bring your own laptop for the lab. Number of places is limited. <br> Register here <a href="mailto: hello@appuio.ch">Mail</a>.</p>
+    <p>Participants learn the key steps hands-on way, learning how applications are deployed to the cloud, and how a container on a PaaS can be deployed und operated.</p>
+    <p>With OpenShift IT processes are automated and deployment of IT-Services can be streamlined. Tech Labs touch on the following subjects:</p>
+    <p><strong>Hands on Workshop</strong></p>
+    <ul>
+    <li>Setting up CLI</li>
+    <li>Quicktour through OpenShift V3</li>
+    <li>Deploying the first application</li>
+    <li>Advanced CLI Commands</li>
+    <li>Creating routes </li>
+    <li>Scaling applications</li>
+    <li>Deploying and connecting databases </li>
+    <li>Direct integration of code changes via Webhook</li>
+    <li>Linking and using Persistent Storage for database </li>
+    <li>Application templates</li>
+    </ul>
+    <p>Dates:</p>
+    <ul>
+    <li>12 January 2017 in Zürich</li>
+    <li>9 February 2017 in Berne</li>
+    </ul>
+    <p>Time: 14.00 to 17.30h<br>
+    Location: to be announced</p>
+    <p>Participation is free of charge. Please bring your own laptop for the lab. Number of places is limited. <br> Register here <a href="mailto: hello@appuio.ch">Mail</a>.</p>
