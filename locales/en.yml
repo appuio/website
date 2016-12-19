@@ -94,7 +94,8 @@ en:
   homeContactYourBillStreet: Billing address, street
   homeContactYourBillPLZORT: Billing address, zip code, city
   homeContactYourMessage: message
-  homeContactYourMessageTitle: message
+  homeContactYourMessageTitle: |-
+    Your message?
   homeContactSend: send
 
 # Offer1: Managed Private PaaS
@@ -110,6 +111,7 @@ en:
   offerOneList7: "Small - Medium - Large: Tailored Solutions"
 
   
+  
   offerOneIso: Your APPUiO managed private platform runs in data centers certified to ISO27001 and according to FINMA guidelines in Switzerland and is subject to Swiss law.
 
   offerOneServiceTitle: Aside from optimal data protection we also offer you the following additional services
@@ -118,7 +120,7 @@ en:
   offerOneServices3: |-
     Automatization of your Processes: Continuous Delivery and Deployment of your application
 
-  
+
   offerOnePackageTitle: "Chose the package that?s right for you"
   offerOnePackageSmallTitle: Small
   offerOnePackageSmallItem1: Master <br> (je 4GB Ram, 2vCores)
@@ -173,6 +175,7 @@ en:
 
   offerTwoPackageTitle: "Chose the package that's right for you!"
 
+  
   
   offerTwoPackageMicroTitle: Small
   offerTwoPackageMicroItem1: CHF 49.- / month
