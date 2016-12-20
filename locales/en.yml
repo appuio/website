@@ -117,6 +117,7 @@ en:
   
   
   
+  
   offerOneIso: Your APPUiO managed private platform runs in data centers certified to ISO27001 and according to FINMA guidelines in Switzerland and is subject to Swiss law.
 
   offerOneServiceTitle: Aside from optimal data protection we also offer you the following additional services
@@ -183,12 +184,12 @@ en:
   offerTwoPackageTitle: |-
     Choose the package that's right for you:
 
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
   offerTwoPackageMicroTitle: Small
   offerTwoPackageMicroItem1: CHF 49.- / month
   offerTwoPackageMicroItem2: CPU 500m
@@ -299,7 +300,7 @@ en:
     </ul>
     <p>Dates:</p>
     <ul>
-    <li>January 12, 2017 in Zurich</li>
+    <li>January 12, 2017 in Zurich; <b>fully booked</b></li>
     <li>February 9, 2017 in Berne</li>
     <li>March 9, 2017 in Zurich</li>
     <li>April 6, 2017 in Berne</li>
