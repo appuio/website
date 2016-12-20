@@ -110,6 +110,7 @@ de:
   offerOneList6: Backup an einen zweiten Standort
   offerOneList7: "Small - Medium - Large: Auf Sie zugeschnittene Angebote"
 
+  
   offerOneIso: Ihre APPUiO Managed Private Platform wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
 
   offerOneServiceTitle: Neben einem optimalen Datenschutz bieten wir Ihnen folgende zusätzliche Services
@@ -117,23 +118,24 @@ de:
   offerOneServices2: Bring my App to the Cloud - wir beraten und setzen auch um
   offerOneServices3: "Automatisierung Ihrer Prozesse: Continuos Delivery und Continuous Deployment Ihrer Applikationen"
 
+  
   offerOnePackageTitle: "Wählen Sie das für Ihre Bedürfnisse passende Paket:"
   offerOnePackageSmallTitle: Small
-  offerOnePackageSmallItem1:  Master <br> (je 4GB Ram, 2vCores)
-  offerOnePackageSmallItem2:  2 Nodes <br> (je 16 GB Ram, 6VCores, 100 GB Docker Storage)
-  offerOnePackageSmallItem3:  200 GB Persistent Storage
+  offerOnePackageSmallItem1: Master <br> (je 4GB Ram, 2vCores)
+  offerOnePackageSmallItem2: 2 Nodes <br> (je 16 GB Ram, 6VCores, 100 GB Docker Storage)
+  offerOnePackageSmallItem3: 200 GB Persistent Storage
   offerOneSmallButton: Small
 
   offerOnePackageMediumTitle: Medium
-  offerOnePackageMediumItem1:  3 Master <br> (je 4GB Ram, 2vCores)
-  offerOnePackageMediumItem2:  4 Nodes <br> (je 32 GB Ram, 6VCores, 100 GB Docker Storage)
-  offerOnePackageMediumItem3:  500 GB Persistent Storage
+  offerOnePackageMediumItem1: 3 Master <br> (je 4GB Ram, 2vCores)
+  offerOnePackageMediumItem2: 4 Nodes <br> (je 32 GB Ram, 6VCores, 100 GB Docker Storage)
+  offerOnePackageMediumItem3: 500 GB Persistent Storage
   offerOneMediumButton: Medium
 
   offerOnePackageLargeTitle: Large
-  offerOnePackageLargeItem1:  3 Master <br> (je 4GB Ram, 2vCores)
-  offerOnePackageLargeItem2:  8 Nodes <br> (je 32 GB Ram, 6VCores, 200 GB Docker Storage)
-  offerOnePackageLargeItem3:  1 TB Persistent Storage
+  offerOnePackageLargeItem1: 3 Master <br> (je 4GB Ram, 2vCores)
+  offerOnePackageLargeItem2: 8 Nodes <br> (je 32 GB Ram, 6VCores, 200 GB Docker Storage)
+  offerOnePackageLargeItem3: 1 TB Persistent Storage
   offerOneLargeButton: Large
 
   offerOnePackageAddonsTitle: Add Ons
@@ -171,6 +173,7 @@ de:
 
   offerTwoPackageTitle: "Wählen Sie das für Ihre Bedürfnisse passende Paket:"
 
+  
   offerTwoPackageMicroTitle: Small
   offerTwoPackageMicroItem1: CHF 49.- / Monat
   offerTwoPackageMicroItem2: CPU 500m
@@ -264,26 +267,26 @@ de:
   techlabTitle: APPUiO & OpenShift Tech Labs in Bern und Zürich
   techlabSubtitle: Mit einer Platform as a Service (PaaS) ändert sich die Art, wie wir Software entwickeln. Puzzle stellt OpenShift V3 - die Container Plattform von Red Hat - in einem Tech Lab vor.
   techlabDetails: |-
-                             <p>Die Teilnehmer lernen dabei&nbsp;hands-on die wichtigsten Schritte, wie eine Applikation in die Cloud gebracht wird und wie Container auf einer PaaS deployed und betrieben&nbsp;werden können.</p>
-                             <p>Mit OpenShift werden IT-Prozesse automatisiert und die Bereitstellung&nbsp;von IT-Services gestrafft. Im Tech Lab erwarten euch folgende Themen:</p>
-                             <p><strong>Hands on Workshop</strong></p>
-                             <ul>
-                             <li>Einrichten CLI</li>
-                             <li>Quicktour durch OpenShift V3</li>
-                             <li>Die erste Applikation deployen</li>
-                             <li>Advanced CLI Commands</li>
-                             <li>Routen erstellen</li>
-                             <li>Skalieren von Applikationen</li>
-                             <li>Datenbank deployen und anbinden</li>
-                             <li>Code Änderungen via Webhook direkt integrieren</li>
-                             <li>Persistent Storage anbinden und verwenden für Datenbank</li>
-                             <li>Applikationstemplates</li>
-                             </ul>
-                             <p>Daten:</p>
-                             <ul>
-                             <li>12. Januar 2017 in Zürich</li>
-                             <li>9. Februar 2017 in Bern</li>
-                             </ul>
-                             <p>Zeit: 14:00 bis 17:30 Uhr<br>
-                             Ort: Neugasse 10, Zürich oder Eigerplatz 4, Bern</p>
-                             <p>Die Teilnahme ist kostenlos. Für das Lab solltet ihr euren eigenen Laptop mitbringen. Die Platzzahl ist beschränkt.<br> Anmeldung bitte per <a href="mailto: hello@appuio.ch">Mail</a>.</p>
+    <p>Die Teilnehmer lernen dabei&nbsp;hands-on die wichtigsten Schritte, wie eine Applikation in die Cloud gebracht wird und wie Container auf einer PaaS deployed und betrieben&nbsp;werden können.</p>
+    <p>Mit OpenShift werden IT-Prozesse automatisiert und die Bereitstellung&nbsp;von IT-Services gestrafft. Im Tech Lab erwarten euch folgende Themen:</p>
+    <p><strong>Hands on Workshop</strong></p>
+    <ul>
+    <li>Einrichten CLI</li>
+    <li>Quicktour durch OpenShift V3</li>
+    <li>Die erste Applikation deployen</li>
+    <li>Advanced CLI Commands</li>
+    <li>Routen erstellen</li>
+    <li>Skalieren von Applikationen</li>
+    <li>Datenbank deployen und anbinden</li>
+    <li>Code Änderungen via Webhook direkt integrieren</li>
+    <li>Persistent Storage anbinden und verwenden für Datenbank</li>
+    <li>Applikationstemplates</li>
+    </ul>
+    <p>Daten:</p>
+    <ul>
+    <li>12. Januar 2017 in Zürich</li>
+    <li>9. Februar 2017 in Bern</li>
+    </ul>
+    <p>Zeit: 14:00 bis 17:30 Uhr<br>
+    Ort: Neugasse 10, Zürich oder Eigerplatz 4, Bern</p>
+    <p>Die Teilnahme ist kostenlos. Für das Lab solltet ihr euren eigenen Laptop mitbringen. Die Platzzahl ist beschränkt.<br> Anmeldung bitte per <a href="mailto: hello@appuio.ch">Mail</a>.</p>
