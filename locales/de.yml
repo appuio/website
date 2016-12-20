@@ -27,7 +27,8 @@ de:
   homeNewsTitle: News
   homeNewsText: "Melden Sie sich jetzt für die ersten <a href=\"techlabs.html\">Techlabs</a> im 2017 an."
   homeHeroAlt: APPUiO - Swiss Container Plattform
-  homeHeroTitle: Eine Plattform für das Design, die Entwicklung und den Betrieb Ihrer Anwendung. Betreiben Sie ihren Container Workload auf APPUiO.
+  homeHeroTitle: |-
+    Eine Plattform für das Design, die Entwicklung und den Betrieb Ihrer Anwendung. Betreiben Sie Ihren Container Workload auf APPUiO.
   homeHeroSignup: Für Public Platform anmelden
   homeHeroDesc: APPUiO - die Schweizer Container Plattform von Entwicklern für Entwickler. APPUiO basiert auf der “next generation PaaS” OpenShift Container Platform von Red Hat. Auf der Basis bewährter Open Source Konzepte wie Docker und Kubernetes entwickeln, betreiben und skalieren Sie Ihre Anwendung passend auf Ihre Bedürfnisse. Mit dieser Technologie können Applikationen sowohl auf Public Clouds als auch unternehmensintern betrieben werden.
 
@@ -111,6 +112,7 @@ de:
   offerOneList7: "Small - Medium - Large: Auf Sie zugeschnittene Angebote"
 
   
+  
   offerOneIso: Ihre APPUiO Managed Private Platform wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
 
   offerOneServiceTitle: Neben einem optimalen Datenschutz bieten wir Ihnen folgende zusätzliche Services
@@ -118,6 +120,7 @@ de:
   offerOneServices2: Bring my App to the Cloud - wir beraten und setzen auch um
   offerOneServices3: "Automatisierung Ihrer Prozesse: Continuos Delivery und Continuous Deployment Ihrer Applikationen"
 
+  
   
   offerOnePackageTitle: "Wählen Sie das für Ihre Bedürfnisse passende Paket:"
   offerOnePackageSmallTitle: Small
@@ -138,7 +141,8 @@ de:
   offerOnePackageLargeItem3: 1 TB Persistent Storage
   offerOneLargeButton: Large
 
-  offerOnePackageAddonsTitle: Add Ons
+  offerOnePackageAddonsTitle: |-
+    Add-Ons
   offerOnePackageAddonsPretext: Auf Anfrage
   offerOnePackageAddonsItem1: SLA 7*24 Reaktiv
   offerOnePackageAddonsItem2: SLA 7*24 Proaktiv
@@ -173,6 +177,7 @@ de:
 
   offerTwoPackageTitle: "Wählen Sie das für Ihre Bedürfnisse passende Paket:"
 
+  
   
   offerTwoPackageMicroTitle: Small
   offerTwoPackageMicroItem1: CHF 49.- / Monat
@@ -286,6 +291,8 @@ de:
     <ul>
     <li>12. Januar 2017 in Zürich</li>
     <li>9. Februar 2017 in Bern</li>
+    <li>9. März 2017 in Zürich</li>
+    <li>6. April 2017 in Bern</li>
     </ul>
     <p>Zeit: 14:00 bis 17:30 Uhr<br>
     Ort: Neugasse 10, Zürich oder Eigerplatz 4, Bern</p>
