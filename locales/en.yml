@@ -116,6 +116,7 @@ en:
   
   
   
+  
   offerOneIso: Your APPUiO managed private platform runs in data centers certified to ISO27001 and according to FINMA guidelines in Switzerland and is subject to Swiss law.
 
   offerOneServiceTitle: Aside from optimal data protection we also offer you the following additional services
@@ -179,8 +180,10 @@ en:
   offerTwoServicesDesc: Settlement of accounts is handled annually via invoice.
   offerTwoIso: The APPUiO Public Platform is operated in Swiss data centres certified to ISO27001 and in accordance with FINMA guidelines that are subject to Swiss law.
 
-  offerTwoPackageTitle: "Chose the package that's right for you!"
+  offerTwoPackageTitle: |-
+    Choose the package that's right for you:
 
+  
   
   
   
