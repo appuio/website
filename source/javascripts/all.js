@@ -89,7 +89,7 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
     var interests = $.map($(':checkbox[name=interests\\[\\]]:checked'), function(n, i){
       return n.value;
     }).join(',');
-    var billing = $.map($(':checkbox[name=billing\\[\\]]:checked'), function(n, i){
+    var billing = $.map($(':radio[name=billing\\[\\]]:checked'), function(n, i){
       return n.value;
     }).join(',');
     var tags = $.map($(':checkbox[name=interests\\[\\]]:checked'), function(n, i){
@@ -117,6 +117,7 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
       nachname: nachname,
       email: email,
       interests: interests,
+      billing: billing,
       message: messageform,
       messageback: message,
       firma: firma,
