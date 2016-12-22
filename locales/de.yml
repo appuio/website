@@ -114,6 +114,7 @@ de:
   
   
   
+  
   offerOneIso: Ihre APPUiO Managed Private Platform wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
 
   offerOneServiceTitle: Neben einem optimalen Datenschutz bieten wir Ihnen folgende zusätzliche Services
@@ -121,6 +122,7 @@ de:
   offerOneServices2: Bring my App to the Cloud - wir beraten und setzen auch um
   offerOneServices3: "Automatisierung Ihrer Prozesse: Continuos Delivery und Continuous Deployment Ihrer Applikationen"
 
+  
   
   
   
@@ -179,6 +181,7 @@ de:
 
   offerTwoPackageTitle: "Wählen Sie das für Ihre Bedürfnisse passende Paket:"
 
+  
   
   
   
@@ -292,7 +295,7 @@ de:
     </ul>
     <p>Daten:</p>
     <ul>
-    <li>12. Januar 2017 in Zürich; <b>ausgebucht</b></li>
+    <li><del>12. Januar 2017 in Zürich</del> <b>ausgebucht</b></li>
     <li>9. Februar 2017 in Bern</li>
     <li>9. März 2017 in Zürich</li>
     <li>6. April 2017 in Bern</li>
