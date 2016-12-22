@@ -112,6 +112,7 @@ $email_message .= addToMessage("ort", "Ort");
 $email_message .= addToMessage("plz", "Ort");
 $email_message .= addToMessage("telefon", "Telefonnummer");
 $email_message .= addToMessage("interests", "Interessen");
+$email_message .= addToMessage("billing", "Abrechnung");
 $email_message .= "\r\n";
 $email_message .= addToMessage("message", "Mitteilung");
 
