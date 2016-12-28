@@ -112,13 +112,6 @@ en:
   offerOneList6: Backup to second location
   offerOneList7: "Small - Medium - Large: Tailored Solutions"
 
-  
-  
-  
-  
-  
-  
-  
   offerOneIso: Your APPUiO managed private platform runs in data centers certified to ISO27001 and according to FINMA guidelines in Switzerland and is subject to Swiss law.
 
   offerOneServiceTitle: Aside from optimal data protection we also offer you the following additional services
@@ -172,12 +165,12 @@ en:
 
 # Offer2: Public Platform
   offerTwoTitle: Public Platform
-  offerTwoIntro: Are you in need of standardized development environments or do you want to deploy your productive applications on a Swiss cloud? Use our APPUiO Public Plattform.
+  offerTwoIntro: Do you want to deploy your application on a Swiss cloud or are you in need of flexible, standardized development environments ? Use our APPUiO Public Plattform.
 
   offerTwoServiceTitle: Select the right offer and get going
   offerTwoServices1: Bundles tailored to your needs
   offerTwoServices2: "By Developers for Developers: Forum, documentation and community"
-  offerTwoServices3: We will handle backup, monitoring, updates, and support
+  offerTwoServices3: We will handle backup, monitoring, updates, scaling and support
 
   offerTwoServicesDesc: Settlement of accounts is handled monthly or annually via invoice.
   offerTwoIso: The APPUiO Public Platform is operated in Swiss data centres certified to ISO27001 and in accordance with FINMA guidelines that are subject to Swiss law.
@@ -185,35 +178,29 @@ en:
   offerTwoPackageTitle: |-
     Choose the package that's right for you:
 
-
-
-
-
-
-
   offerTwoPackageMicroTitle: Small
-  offerTwoPackageMicroItem1: CHF 49.- / month
+  offerTwoPackageMicroItem1: CHF 49.- / month or CHF 490.- / year
   offerTwoPackageMicroItem2: CPU 500m
   offerTwoPackageMicroItem3: Memory 512MB
   offerTwoPackageMicroItem4: Persistent Volume <br> inkl. 1 GB
   offerTwoMicroButton: Small
 
   offerTwoPackageMediumTitle: Medium
-  offerTwoPackageMediumItem1: CHF 95.- / month
+  offerTwoPackageMediumItem1: CHF 95.- / month or CHF 950.- / year
   offerTwoPackageMediumItem2: CPU 750m
   offerTwoPackageMediumItem3: Memory 1GB
   offerTwoPackageMediumItem4: Persistent Volume <br> inkl. 5 GB
   offerTwoMediumButton: Medium
 
   offerTwoPackageLargeTitle: Large
-  offerTwoPackageLargeItem1: CHF 189.- / month
+  offerTwoPackageLargeItem1: CHF 180.- / month or CHF 1800.- / year
   offerTwoPackageLargeItem2: CPU 1000m
   offerTwoPackageLargeItem3: Memory 2GB
   offerTwoPackageLargeItem4: Persistent Volume <br> inkl. 20 GB
   offerTwoLargeButton: Large
 
   offerTwoPackageXlargeTitle: X-Large
-  offerTwoPackageXlargeItem1: CHF 379.- / month
+  offerTwoPackageXlargeItem1: CHF 340.- / month or CHF 3400.- / year
   offerTwoPackageXlargeItem2: CPU 2000m
   offerTwoPackageXlargeItem3: Memory 4GB
   offerTwoPackageXlargeItem4: Persistent Volume <br> 50 GB
@@ -224,7 +211,7 @@ en:
   offerTwoPackageContentsTitle: What is included in the offer?
   offerTwoPackageContentsFirstTitle: Multinode Platform
   offerTwoPackageContentsFirstItemOne: Ressources are made available on a multinode platform
-  offerTwoPackageContentsFirstItemTwo: All components are highly available on a standard basis.
+  offerTwoPackageContentsFirstItemTwo: All components are highly available by default.
   offerTwoPackageContentsSecondTitle: Automation
   offerTwoPackageContentsSecondItemOne: Integration via REST API, CLI Tool or via <a href="https://wiki.jenkins-ci.org/display/JENKINS/OpenShift+Pipeline+Plugin" alt="Jenkins Plugin">Jenkins Plugin</a> easily automated and integrated.
   offerTwoPackageContentsSecondItemTwo: Rolling Updates allow for uninterrupted blue-green deployments
@@ -237,10 +224,11 @@ en:
 
   offerTwoPackageAddonsTitle: Persistent Storage Add Ons
   offerTwoPackageAddonsPretext: By usage
-  offerTwoPackageAddonsItem1: 10 GB CHF 6.70
+  offerTwoPackageAddonsItem1: 10 GB CHF 6.00
   offerTwoPackageAddonsItem2: 20 GB CHF 10.00
   offerTwoPackageAddonsItem3: 50 GB CHF 19.00
   offerTwoPackageAddonsItem4: 100 GB CHF 25.00
+  offerTwoPackageAddonsItem5: 1000 GB CHF 200.00
 
   offerTwoStorageDescription: Persistent Storage is at your direct disposal via Web Console or via CLI and so-called Persistent Volumes can be attached directly to your container. Accounts are balanced after usage.
 
