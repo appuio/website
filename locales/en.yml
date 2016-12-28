@@ -173,7 +173,7 @@ en:
   offerTwoServices3: We will handle backup, monitoring, updates, scaling and support
 
   offerTwoServicesDesc: Settlement of accounts is handled monthly or annually via invoice.
-  offerTwoIso: The APPUiO Public Platform is operated in Swiss data centres certified to ISO27001 and in accordance with FINMA guidelines that are subject to Swiss law.
+  offerTwoIso: "public" is the name of our shared cloud plattform. Security is of the utmost importance to us: the APPUiO Public Platform is operated in Swiss data centres certified to ISO27001 and in accordance with swiss banking regulators (FINMA) guidelines and is subject to Swiss law.
 
   offerTwoPackageTitle: |-
     Choose the package that's right for you:
