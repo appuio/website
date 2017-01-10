@@ -111,11 +111,6 @@ de:
   offerOneList5: Datenstandort e-Shelter Schweiz
   offerOneList6: Backup an einen zweiten Standort
   offerOneList7: "Small - Medium - Large: Auf Sie zugeschnittene Angebote"
-
-  
-  
-  
-  
   offerOneIso: Ihre APPUiO Managed Private Platform wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
 
   offerOneServiceTitle: Neben einem optimalen Datenschutz bieten wir Ihnen folgende zusätzliche Services
@@ -123,10 +118,6 @@ de:
   offerOneServices2: Bring my App to the Cloud - wir beraten und setzen auch um
   offerOneServices3: "Automatisierung Ihrer Prozesse: Continuos Delivery und Continuous Deployment Ihrer Applikationen"
 
-  
-  
-  
-  
   offerOnePackageTitle: "Wählen Sie das für Ihre Bedürfnisse passende Paket:"
   offerOnePackageSmallTitle: Small
   offerOnePackageSmallItem1: Master <br> (je 4GB Ram, 2vCores)
@@ -170,45 +161,41 @@ de:
 
 # Offer2: Public Platform
   offerTwoTitle: Public Platform
-  offerTwoIntro: Sie brauchen kurzfristig standardisierte Entwicklungsumgebungen oder möchten Ihre produktiven Applikationen in eine Schweizer Cloud deployen? Nutzen Sie dafür unsere APPUiO Public Plattform.
+  offerTwoIntro: Sie möchten Ihre produktiven Applikationen in eine Schweizer Cloud deployen oder brauchen kurzfristig flexible, standardisierte Entwicklungsumgebungen ? Nutzen Sie dafür unsere APPUiO Public Plattform.
 
   offerTwoServiceTitle: Passendes Angebot auswählen und loslegen
   offerTwoServices1: Auf Ihre Bedürfnisse zugeschnittene Bundles
   offerTwoServices2: "Von Entwicklern für Entwickler: Forum, Dokumentation und Community"
-  offerTwoServices3: Wir kümmern uns um Backup, Monitoring, Updates und Support
+  offerTwoServices3: Wir kümmern uns um Backup, Monitoring, Updates, Skalierung und Support
 
-  offerTwoServicesDesc: Die Abrechnung erfolgt aktuell jährlich per Rechnung.
-  offerTwoIso: Die APPUiO Public Platform wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
+  offerTwoServicesDesc: Die Abrechnung erfolgt monatlich oder jährlich per Rechnung. Beim Abschluss eines Jahresvertrags schenken wir Ihnen zwei Monate.
+  offerTwoIso: Öffentlich (public) ist nur der Name der gemeinsamen Cloud-Plattform. Sicherheit schreiben wir gross: APPUiO wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
 
   offerTwoPackageTitle: "Wählen Sie das für Ihre Bedürfnisse passende Paket:"
 
-  
-  
-  
-  
   offerTwoPackageMicroTitle: Small
-  offerTwoPackageMicroItem1: CHF 49.- / Monat
+  offerTwoPackageMicroItem1: CHF 49.- / Monat oder CHF 490.- / Jahr
   offerTwoPackageMicroItem2: CPU 500m
   offerTwoPackageMicroItem3: Memory 512MB
   offerTwoPackageMicroItem4: Persistent Volume <br> inkl. 1 GB
   offerTwoMicroButton: Small
 
   offerTwoPackageMediumTitle: Medium
-  offerTwoPackageMediumItem1: CHF 95.- / Monat
+  offerTwoPackageMediumItem1: CHF 95.- / Monat oder CHF 950.- / Jahr
   offerTwoPackageMediumItem2: CPU 750m
   offerTwoPackageMediumItem3: Memory 1GB
   offerTwoPackageMediumItem4: Persistent Volume <br> inkl. 5 GB
   offerTwoMediumButton: Medium
 
   offerTwoPackageLargeTitle: Large
-  offerTwoPackageLargeItem1: CHF 189.- / Monat
+  offerTwoPackageLargeItem1: CHF 180.- / Monat oder CHF 1800.- / Jahr
   offerTwoPackageLargeItem2: CPU 1000m
   offerTwoPackageLargeItem3: Memory 2GB
   offerTwoPackageLargeItem4: Persistent Volume <br> inkl. 20 GB
   offerTwoLargeButton: Large
 
   offerTwoPackageXlargeTitle: X-Large
-  offerTwoPackageXlargeItem1: CHF 379.- / Monat
+  offerTwoPackageXlargeItem1: CHF 340.- / Monat oder 3400.- / Jahr
   offerTwoPackageXlargeItem2: CPU 2000m
   offerTwoPackageXlargeItem3: Memory 4GB
   offerTwoPackageXlargeItem4: Persistent Volume <br> 50 GB
@@ -232,16 +219,17 @@ de:
 
   offerTwoPackageAddonsTitle: Persistent Storage Add Ons
   offerTwoPackageAddonsPretext: Nach Verbrauch
-  offerTwoPackageAddonsItem1: 10 GB CHF 6.70
-  offerTwoPackageAddonsItem2: 20 GB CHF 10.00
-  offerTwoPackageAddonsItem3: 50 GB CHF 19.00
-  offerTwoPackageAddonsItem4: 100 GB CHF 25.00
+  offerTwoPackageAddonsItem1: 10 GB CHF 6.00 / Monat
+  offerTwoPackageAddonsItem2: 20 GB CHF 10.00 / Monat
+  offerTwoPackageAddonsItem3: 50 GB CHF 19.00 / Monat
+  offerTwoPackageAddonsItem4: 100 GB CHF 25.00 / Monat
+  offerTwoPackageAddonsItem5: 1000 GB CHF 200.00 / Monat
 
   offerTwoStorageDescription: Persistent Storage steht ihnen direkt in der Web Console oder via CLI zur Verfügung und kann als sogenannte Persistent Volumes direkt an Ihre Container angebunden werden. Die Abrechnung erfolgt nach Verbrauch.
 
-  offerTwoBilling: Die Vertragslaufzeit beträgt momentan ein Jahr.<br>Es gelten die APPUiO Servicebestimmungen.
+  offerTwoBilling: Wählen Sie die entsprechende Vertragslaufzeit<br>Es gelten die APPUiO Servicebestimmungen.
   offerTwoBillingMonthly: Monatlich
-  offerTwoBillingYearly: Jährlich
+  offerTwoBillingYearly: Jährlich (2 Monate geschenkt)
 
   offerTwoCustom: Custom
 
