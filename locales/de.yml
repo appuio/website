@@ -118,6 +118,7 @@ de:
   offerOneServices2: Bring my App to the Cloud - wir beraten und setzen auch um
   offerOneServices3: "Automatisierung Ihrer Prozesse: Continuos Delivery und Continuous Deployment Ihrer Applikationen"
 
+  
   offerOnePackageTitle: "Wählen Sie das für Ihre Bedürfnisse passende Paket:"
   offerOnePackageSmallTitle: Small
   offerOnePackageSmallItem1: Master <br> (je 4GB Ram, 2vCores)
@@ -174,6 +175,7 @@ de:
 
   offerTwoPackageTitle: "Wählen Sie das für Ihre Bedürfnisse passende Paket:"
 
+  
   offerTwoPackageMicroTitle: Small
   offerTwoPackageMicroItem1: CHF 49.- / Monat oder CHF 490.- / Jahr
   offerTwoPackageMicroItem2: CPU 500m
@@ -285,10 +287,9 @@ de:
     </ul>
     <p>Daten:</p>
     <ul>
-    <li><del>12. Januar 2017 in Zürich</del> <b>ausgebucht</b></li>
-    <li>9. Februar 2017 in Bern</li>
-    <li>9. März 2017 in Zürich</li>
-    <li>6. April 2017 in Bern</li>
+    <li><a href="https://app.hatchbuck.com/OnlineForm/70105903278">9. Februar 2017 in Bern</a> - nur noch wenige Plätze</li>
+    <li><a href="https://app.hatchbuck.com/OnlineForm/70105903277">9. März 2017 in Zürich</a> - nur noch wenige Plätze</li>
+    <li><a href="https://app.hatchbuck.com/OnlineForm/70105903279">6. April 2017 in Bern</a></li>
     </ul>
     <p>Zeit: 14:00 bis 17:30 Uhr<br>
     Ort: Neugasse 10, Zürich oder Eigerplatz 4, Bern</p>
