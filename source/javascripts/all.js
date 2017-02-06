@@ -81,8 +81,12 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
   // Mail Forms
   // ------------------
   // Contact Form on homepage
+
+  var submitText;
+
   $( ".home-contact-container, .offers-contact-container" ).submit(function( event ) {
     event.preventDefault();
+    submitText = $("[type='submit']").val();
     var vorname = $("[name='vorname']").val();
     var nachname = $("[name='nachname']").val();
     var email = $("[name='email']").val();
@@ -111,6 +115,11 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
       message += name + ": " + value + "<br>\n\r";
     });
 
+    $('[type="submit"]', this).val(
+      $(this).data('loadingMessage')
+    );
+
+    $(".appuio-contact-button").addClass("is-loading");
     $.post( "/backend.php", {
       form: form,
       vorname: vorname,
@@ -145,19 +154,22 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
 //        }
     });
   });
-
   var sendProgressButton = function(status){
-    $(".home-contact-button").addClass("is-loading")
-    $(".home-contact-button").delay(2000).queue(function() {
+    $(".appuio-contact-button").delay(2000).queue(function() {
       $(this).append('<span class="button-progress-feedback"><div class="icon icon--ei-'+status+' icon--m "><svg class="icon__cnt"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ei-'+status+'-icon"></use></svg></div></span>');
       $(this).addClass('is-'+status).dequeue();
+      $(".home-feedback").text(
+        $(this).closest('form').data('successMessage')
+      );
     });
     resetProgressButton();
   }
   var resetProgressButton = function(){
-    $(".home-contact-button").delay(4000).queue(function() {
+    $(".appuio-contact-button").delay(4000).queue(function() {
       $(".button-progress-feedback").remove();
-      $(this).removeClass("is-check").removeClass("is-exclamation").removeClass("is-loading").dequeue();
+      $(".home-feedback").empty();
+      $("input", this).val(submitText);
+      $(this).removeClass("is-check is-exclamation is-loading").dequeue();
     });
   }
 

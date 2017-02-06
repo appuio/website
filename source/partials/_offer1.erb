@@ -103,9 +103,9 @@
   <a name="offers-one-contact"></a>
   <section class="offer-contact">
     <div class="grid-container">
-      <h2 class="offer-one-contact-title"><%= t(:offerOneContactTitle) %></h2>
+      <h2 class="offer-contact-title"><%= t(:offerOneContactTitle) %></h2>
       <p class="home-contact-desc"><%= t(:offerOneContactDesc) %></p>
-      <form id="offer-one-contact-form" name="offer-one-contact-form" class="offers-contact-container">
+      <form id="offer-one-contact-form" name="offer-one-contact-form" class="offers-contact-container" data-loading-message="<%= t(:offerOneLoadingMessage) %>" data-success-message="<%= t(:offerOneSuccessMessage) %>">
         <div class="home-contact-interest interest-container">
           <h3 class="interest-title"><%= t(:offerOneContactSubject) %></h3>
           <div class="interest-item">
@@ -129,9 +129,12 @@
           <input type="text" name="phone" placeholder="<%= t(:homeContactYourPhone) %>" class="contact-input" required>
           <textarea title="<%= t(:homeContactYourMessageTitle) %>" id="message" name="message" cols="30" rows="6" class="contact-textarea" placeholder="<%= t(:homeContactYourMessage) %>" required></textarea>
         </div>
-        <label class="home-contact-button button-progress">
+        <label class="appuio-contact-button button-progress">
           <input type="submit" class="button is-round" value="<%= t(:offerOneOrderSend) %>">
         </label>
+        <div class="home-feedback-container">
+          <p class="home-feedback"></p>
+        </div>
       </form>
     </div>
   </section>

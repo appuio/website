@@ -32,9 +32,9 @@
 
 <section class="offer-contact">
   <div class="grid-container">
-    <h2 class="offer-three-contact-title"><%= t(:offerTreeContactTitle) %></h2>
-    <p class="home-contact-desc"><%= t(:offerTreeContactDesc) %></p>
-    <form id="offer-three-contact-form" name="offer-three-contact-form" class="offers-contact-container">
+    <h2 class="offer-three-contact-title"><%= t(:offerThreeContactTitle) %></h2>
+    <p class="home-contact-desc"><%= t(:offerThreeContactDesc) %></p>
+    <form id="offer-three-contact-form" name="offer-three-contact-form" class="offers-contact-container" data-loading-message="<%= t(:offerThreeLoadingMessage) %>" data-success-message="<%= t(:offerThreeSuccessMessage) %>">
       <div class="offer-three-contact-form">
         <input title="<%= t(:homeContactYourFirstNameTitle) %>" type="text" name="vorname" class="contact-input" placeholder="<%= t(:homeContactYourFirstName) %>" required>
         <input title="<%= t(:homeContactYourNameTitle) %>" type="text" name="nachname" class="contact-input" placeholder="<%= t(:homeContactYourName) %>" required>
@@ -43,9 +43,12 @@
         <input type="text" name="phone" placeholder="<%= t(:homeContactYourPhone) %>" class="contact-input" required>
         <textarea title="<%= t(:homeContactYourMessageTitle) %>" id="message" name="message" cols="30" rows="6" class="contact-textarea" placeholder="<%= t(:homeContactYourMessage) %>" required></textarea>
       </div>
-      <label class="home-contact-button button-progress">
+      <label class="appuio-contact-button button-progress">
         <input type="submit" class="button is-round" value="<%= t(:homeContactSend) %>">
       </label>
+      <div class="home-feedback-container">
+        <p class="home-feedback"></p>
+      </div>
     </form>
   </div>
 </section>

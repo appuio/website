@@ -141,8 +141,8 @@
 <a name="offers-two-contact"></a>
 <section class="offer-contact">
   <div class="grid-container">
-    <h2 class="offer-two-contact-title"><%= t(:offerTwoContactTitle) %></h2>
-    <form id="offer-two-contact-form" name="offer-two-contact-form" class="offers-contact-container">
+    <h2 class="offer-contact-title"><%= t(:offerTwoContactTitle) %></h2>
+    <form id="offer-two-contact-form" name="offer-two-contact-form" class="offers-contact-container" data-loading-message="<%= t(:offerTwoLoadingMessage) %>" data-success-message="<%= t(:offerTwoSuccessMessage) %>">
       <div class="home-contact-interest interest-container">
         <h3 class="interest-title"><%= t(:offerTwoContactSubject) %></h3>
         <div class="interest-item">
@@ -190,9 +190,12 @@
           <label for="terms"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerTwoTerms1) %> <a href="./pdf/APPUiO-terms-and-conditions-v1.2-<%=I18n.locale %>.pdf" target="_blank"><%= t(:offerTwoTerms2) %></a></label>
         </div>
       </div>
-      <label class="home-contact-button button-progress">
+      <label class="appuio-contact-button button-progress">
         <input type="submit" class="button is-round" value="<%= t(:offerTwoSend) %>" disabled>
       </label>
+      <div class="home-feedback-container">
+        <p class="home-feedback"></p>
+      </div>
      </form>
     </div>
   </section>
