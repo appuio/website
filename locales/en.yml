@@ -161,6 +161,8 @@ en:
   offerOneContactDesc: We would love to get in touch with you! Do let us know how we can reach you. Your data will be kept confidentially, and will not be shared with third parties.
   offerOneContactSubject: I'm interested in...
   offerOneOrderSend: Send
+  offerOneLoadingMessage: Sending message...
+  offerOneSuccessMessage: Message successfully sent!
 
 # Offer2: Public Platform
   offerTwoTitle: Public Platform
@@ -244,6 +246,8 @@ en:
   offerTwoTerms1: I accept the
   offerTwoTerms2: Terms & Conditions
   offerTwoSend: Order
+  offerTwoLoadingMessage: Sending order...
+  offerTwoSuccessMessage: Order successfully sent!
 
 # Offer3: On Premises PaaS
   offerThreeTitle: On Premise
@@ -260,8 +264,10 @@ en:
   offerThreeServices8: CI/CD Workflows connection
   offerThreeServices9: Connection to Active Directory (AD) or LDAP
 
-  offerTreeContactTitle: Contact
-  offerTreeContactDesc: Your On Premises APPUiO offer sounds interesting. I would like a personal consultation.
+  offerThreeContactTitle: Contact
+  offerThreeContactDesc: Your On Premises APPUiO offer sounds interesting. I would like a personal consultation.
+  offerThreeLoadingMessage: Sending message...
+  offerThreeSuccessMessage: Message successfully sent!
 
 # Formular Defaults
   mailGotAMessage: We just received a message from APPUiO.ch!

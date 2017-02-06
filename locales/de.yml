@@ -99,6 +99,8 @@ de:
   homeContactYourMessage: Nachricht
   homeContactYourMessageTitle: Ihre Nachricht?
   homeContactSend: Absenden
+  homeContactLoadingMessage: Nachricht wird gesendet...
+  homeContactSuccessMessage: Nachricht wurde erfolgreich gesendet!
 
 # Offer1: Managed Private PaaS
   offerOneTitle: Managed Private APPUiO
@@ -159,6 +161,8 @@ de:
   offerOneContactDesc: Gerne treten wir mit Ihnen in Kontakt. Bitte geben Sie uns an, wie wir Sie am besten erreichen können. Ihre Daten behandeln wir vertraulich und werden nicht an Dritte weitergegeben.<br>Bei Fragen erreichen Sie uns auch telefonisch unter +41 44 552 22 40.
   offerOneContactSubject: Ich interessiere mich für ...
   offerOneOrderSend: Absenden
+  offerOneLoadingMessage: Nachricht wird gesendet...
+  offerOneSuccessMessage: Nachricht wurde erfolgreich gesendet!
 
 # Offer2: Public Platform
   offerTwoTitle: Public Platform
@@ -242,6 +246,8 @@ de:
   offerTwoTerms1: Ich akzeptiere die
   offerTwoTerms2: Terms & Conditions
   offerTwoSend: Bestellen
+  offerTwoLoadingMessage: Bestellung wird gesendet...
+  offerTwoSuccessMessage: Bestellung wurde erfolgreich gesendet!
 
 # Offer3: On Premises PaaS
   offerThreeTitle: On Premises
@@ -258,8 +264,10 @@ de:
   offerThreeServices8: CI/CD Workflows anbinden
   offerThreeServices9: Anbindung an Active Directory (AD) oder LDAP
 
-  offerTreeContactTitle: Kontakt
-  offerTreeContactDesc: Ihr On Premises APPUiO Angebot tönt spannenden, ich wünsche eine persönliche Beratung.
+  offerThreeContactTitle: Kontakt
+  offerThreeContactDesc: Ihr On Premises APPUiO Angebot tönt spannenden, ich wünsche eine persönliche Beratung.
+  offerThreeLoadingMessage: Nachricht wird gesendet...
+  offerThreeSuccessMessage: Nachricht wurde erfolgreich gesendet
 
 # Formular Defaults
   mailGotAMessage: We just recieved a message from APPUiO.ch!
