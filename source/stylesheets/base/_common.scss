@@ -12,6 +12,14 @@ body {
   color: black;
   background: white;
 }
+
 img {
   max-width: 100%;
+}
+
+li {
+  line-height: rem-calc(24);
+  margin-bottom: rem-calc(8);
+  text-align: left;
+  font-size: rem-calc(18);
 }
