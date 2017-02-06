@@ -26,6 +26,25 @@ Three sizes for the buttons: small, medium (default) and big.
 <a class="button is-big">Big</a>
 ```
 */
+.appuio-contact-button {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  clear: both;
+  @include susy-breakpoint($break-small) {
+    margin-top: rem-calc(12);
+  }
+  @include susy-breakpoint($break-medium) {
+    @include span(6 last of 12);
+    @include squish(3, 3);
+  }
+  .button {
+    @include susy-breakpoint($break-medium) {
+      padding-left: rem-calc(48);
+      padding-right: rem-calc(48);
+    }
+  }
+}
 
 .button,
 button.button,
@@ -83,7 +102,8 @@ a.button {
   position: relative;
   border-radius: rem-calc(24);
   overflow: hidden;
-  &:after {
+  &::after {
+    box-sizing: border-box;
     display: block;
     content: '';
     position: absolute;
@@ -91,15 +111,22 @@ a.button {
     left: 0;
     bottom: 0;
     width: 100%;
-    background: #FFD301;
+    background: #FFEC93;
+    border: 4px solid #FFD301;
+    border-radius: rem-calc(24);
     animation: pulse 2s 1;
-    transition: background-color 200ms ease;
+    transition: background-color 250ms ease;
   }
-  &.is-check:after {
-    background-color: #C2D64C;
+  &.is-check::after {
+    background-color: $color-success;
+    border: 4px solid darken($color-success, 6%);
+    border-radius: rem-calc(24);
+    width: 100%;
   }
-  &.is-exclamation:after {
+  &.is-exclamation::after {
     background-color: #FFAC32;
+    border: 4px solid darken(#FFAC32, 6%);
+    border-radius: rem-calc(24);
   }
   .button-progress-feedback {
     position: absolute;
@@ -138,4 +165,17 @@ a.button {
 
 .button:disabled {
   border: 4px solid #e5eaed;
+}
+.home-feedback-container {
+  position: relative;
+  clear: both;
+  display: flex;
+  justify-content: center;
+}
+.home-feedback {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }

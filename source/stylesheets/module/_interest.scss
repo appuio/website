@@ -13,7 +13,7 @@
   input[type=radio] {
   	display: none;
   }
-  label.radio-label:before {
+  label.radio-label::before {
   	content: "";
   	display: inline-block;
   	width: 25px;
@@ -25,18 +25,18 @@
     border: 1px solid $color-darkgrey;
   }
 
-  label.radio-label:before {
+  label.radio-label::before {
   	border-radius: 17px;
 
   }
-  input[type=radio]:checked + label.radio-label:before {
+  input[type=radio]:checked + label.radio-label::before {
       background: url('/images/dot.svg') 0px 0px no-repeat;
       font-size: 30px;
       text-align: center;
       line-height: 18px;
   }
 
-  label.radio-label:hover:before {
+  label.radio-label:hover::before {
       border-color: $color-yellow;
   }
 }
@@ -75,7 +75,7 @@
 .interest-item .interest-checkbox + label,
 .interest-light .interest-checkbox + label,
 .interest-item .interest-radio + label,
-.interest-item label.radio-label:before {
+.interest-item label.radio-label::before {
   transition: border 100ms ease, color 100ms ease;
   color: $color-darkgrey;
   cursor: pointer;

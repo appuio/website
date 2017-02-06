@@ -10,32 +10,27 @@
   align-content: space-around;
   align-items: stretch;
   background: $color-blue;
-  //box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.24);
   border-radius: 2px;
   padding: rem-calc(20);
   margin: rem-calc(20) auto 0;
   max-width: rem-calc(320);
   min-height: rem-calc(320);
   overflow: hidden;
+  text-align: center;
   &:first-child {
     margin-top: 0;
   }
   &.offer1-image {
     background: $color-blue url('/images/offer1.svg') no-repeat;
     background-size: 100%;
-    //background-position: 83px 150px;
-    //background-size: 190px;
   }
   &.offer2-image {
     background: $color-blue url('/images/offer2.svg') no-repeat;
     background-size: 100%;
-    //background-position: 85px 150px;
   }
   &.offer3-image {
     background: $color-blue url('/images/offer3.svg') no-repeat;
     background-size: 100%;
-    //background-position: 88px 150px;
-    //background-size: 184px;
   }
   @include susy-breakpoint($break-large) {
     flex: 1;

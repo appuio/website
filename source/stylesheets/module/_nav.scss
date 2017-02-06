@@ -48,6 +48,10 @@ Responsive hotizontal menu.
   @include susy-breakpoint($break-medium) {
     overflow: visible;
   }
+  li {
+    margin: 0;
+    font-size: inherit;
+  }
 
   li.active {
     background: #FFD301;

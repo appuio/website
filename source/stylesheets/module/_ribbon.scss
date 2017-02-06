@@ -1,7 +1,6 @@
 .ribbon-fixed {
   display: block;
   visibility: visible;
-  //position: relative;
   @include susy-breakpoint($break-medium) {
     display: none;
     visibility: hidden;

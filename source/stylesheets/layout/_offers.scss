@@ -55,8 +55,8 @@
 // Content Styling
 // ----------------------------------------------
 
-.offer-one-contact-title,
-.offer-two-contact-title {
+.offer-contact-title,
+.offer-contact-title {
   text-transform: none;
 }
 
@@ -116,14 +116,6 @@
   }
 
 }
-.offers-bulletpoints > .flex-item > ul {
-  & > li {
-    line-height: rem-calc(24);
-    margin-bottom: rem-calc(8);
-    text-align: left; // Unordered List with bulletpoints
-    font-size: rem-calc(18);
-  }
-}
 
 .offer-container {
   display: flex;
@@ -162,24 +154,18 @@
   margin-top: rem-calc(25);
   float: right;
   margin-right: 0;
-  // flex: 2 100%;
   @include susy-breakpoint($break-medium) {
     @include span(6 of 12);
     margin-top: rem-calc(50);
     margin-bottom: rem-calc(25);
-  //   padding-left: rem-calc(15);
-  //   flex: 1 50%;
   }
 }
 .offer-three-contact-form {
   margin-top: rem-calc(25);
-  // flex: 2 100%;
   @include susy-breakpoint($break-medium) {
     @include span(12 of 12);
     margin-top: rem-calc(50);
     margin-bottom: rem-calc(25);
-  //   padding-left: rem-calc(15);
-  //   flex: 1 50%;
   }
 }
 
@@ -251,9 +237,7 @@
 .offer-spacer {
   flex: 1 100%;
   height: rem-calc(100);
-  //min-height: rem-calc(18);
   @include susy-breakpoint($break-small) {
-    //height: rem-calc(240);
     height: rem-calc(160); // 8rem: better on mobile
   }
   @include susy-breakpoint($break-medium) {
@@ -265,7 +249,6 @@
   &.is-fourth {
     height: rem-calc(416);
     @include susy-breakpoint($break-small) {
-      //height: rem-calc(416); // 26rem
       height: rem-calc(256); // 16rem: better on mobile
     }
     @include susy-breakpoint($break-medium) {

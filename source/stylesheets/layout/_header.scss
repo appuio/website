@@ -31,14 +31,6 @@ category: Layout
 .header-logo {
   visibility: hidden;
   display: none;
-  //text-align: center;
-  //margin-top: rem-calc(48);
-  //
-  //@include susy-breakpoint($break-medium) {
-  //  float: left;
-  //  margin-top: 0;
-  //  text-align: left;
-  //}
   @include susy-breakpoint($break-large) {
     position: relative;
     float: left;
