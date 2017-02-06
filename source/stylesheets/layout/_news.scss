@@ -68,6 +68,9 @@
       font-size: rem-calc(36);
     }
   }
+  .news-subtitle {
+    font-weight: 700;
+  }
   .news-text {
     width: 100%;
     @include susy-breakpoint($break-medium) {
