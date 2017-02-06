@@ -165,7 +165,7 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
     resetProgressButton();
   }
   var resetProgressButton = function(){
-    $(".appuio-contact-button").delay(4000).queue(function() {
+    $(".appuio-contact-button").delay(4500).queue(function() {
       $(".button-progress-feedback").remove();
       $(".home-feedback").empty();
       $("input", this).val(submitText);
