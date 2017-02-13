@@ -1,4 +1,13 @@
 - day: 13
+  month: Feb
+  title: Mini Tech Labs at the Voxxed Days
+  subtitle: ""
+  details: "
+            <p>Voxxed Days Zürich returns to Sihlcity Cinema on February 23rd, 2017. The entire developer community can meet and hear from some of the most inspiring speakers in our sector.</p>
+            <p>Also APPUiO will be present. In our Mini Tech Labs participants learn hands-on the key steps how applications are deployed to the cloud and how a container can be deployed und operated. </p>
+            <p><a target=\"_blank\" href=\"https://voxxeddays.com/zurich/\">voxxeddays.com/zurich/</a></p>
+           "
+- day: 13
   month: Jan
   title: New APPUiO Pricing
   subtitle: Good news for 2017.
