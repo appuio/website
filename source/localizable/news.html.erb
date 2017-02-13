@@ -16,7 +16,9 @@ title: APPUiO - Swiss Container Platform - News
         <div class="dot"></div>
         <div class="year-container">
             <% data["#{I18n.locale}"].news17.each do |f| %>
+                <a name="<%= f["title"] %>"></a>
                 <div class="news-entry">
+
                     <div class="date"><div class="month"><%= f["month"] %></div><div class="day"><%= f["day"] %></div></div>
                     <div class="news-text">
                         <h3><%= f["title"] %></h3>
@@ -30,8 +32,9 @@ title: APPUiO - Swiss Container Platform - News
         <div class="dot"></div>
         <div class="year-container">
             <% data["#{I18n.locale}"].news16.each do |f| %>
+
             <div class="news-entry">
-              <div class="date"><div class="month"><%= f["month"] %></div><div class="day"><%= f["day"] %></div></div>
+              <div class="date"><a name="<%= f["title"] %>"></a><div class="month"><%= f["month"] %></div><div class="day"><%= f["day"] %></div></div>
               <div class="news-text">
                 <h3><%= f["title"] %></h3>
                 <p class="news-subtitle"><%= f["subtitle"] %></p>
