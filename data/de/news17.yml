@@ -1,12 +1,3 @@
-- day: 27
-  month: Feb
-  title: 2-Tage-Training: From Zero to Hero with Microservices
-  subtitle: ""
-  details: "
-            <p>In diesem Training wirst du eine voll funktionsfähige E-Commerce-Anwendung mit Microservices, Weave Net und Scope, Docker-Container und als Orchestrator APPUiO's Red Hat OpenShift v3 basiert PaaS bauen.</p>
-            <p>Dieses Training ist eine ideale Ergänzung zu den kostenlosen APPUiO TechLabs mit mehr Zeit für fundierte Kenntnisse und Zugang zu den Top-Experten.</p>
-            <p><a target=\"_blank\" href=\"https://www.eventbrite.com/e/2-day-training-from-zero-to-hero-with-microservices-tickets-30450460146?aff=es2\">Registration</a></p>
-           "
 - day: 13
   month: Feb
   title: Mini Tech Labs an den Voxxed Days 2017
