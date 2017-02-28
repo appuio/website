@@ -123,6 +123,7 @@ de:
   
   
   
+  
   offerOnePackageTitle: "Wählen Sie das für Ihre Bedürfnisse passende Paket:"
   offerOnePackageSmallTitle: Small
   offerOnePackageSmallItem1: Master <br> (je 4GB Ram, 2vCores)
@@ -181,6 +182,7 @@ de:
 
   offerTwoPackageTitle: "Wählen Sie das für Ihre Bedürfnisse passende Paket:"
 
+  
   
   
   
@@ -299,7 +301,7 @@ de:
     </ul>
     <p>Daten:</p>
     <ul>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/70105903277">9. März 2017 in Zürich</a> - nur noch wenige Plätze</li>
+    <li><del>9. März 2017 in Zürich</del> - ausgebucht</li>
     <li><a href="https://app.hatchbuck.com/OnlineForm/70105903279">6. April 2017 in Bern</a></li>
     </ul>
     <p>Zeit: 14:00 bis 17:30 Uhr<br>
