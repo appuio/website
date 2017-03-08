@@ -127,19 +127,19 @@ de:
   
   offerOnePackageTitle: "Wählen Sie das für Ihre Bedürfnisse passende Paket:"
   offerOnePackageSmallTitle: Small
-  offerOnePackageSmallItem1: Master <br> (je 16 GB Ram, 2vCores)
+  offerOnePackageSmallItem1: Master <br> (je 16 GB Ram, 6vCores)
   offerOnePackageSmallItem2: 2 Nodes <br> (je 16 GB Ram, 6vCores, 100 GB Docker Storage)
   offerOnePackageSmallItem3: 200 GB Persistent Storage
   offerOneSmallButton: Small
 
   offerOnePackageMediumTitle: Medium
-  offerOnePackageMediumItem1: 3 Master <br> (je 16 GB Ram, 2vCores)
+  offerOnePackageMediumItem1: 3 Master <br> (je 16 GB Ram, 6vCores)
   offerOnePackageMediumItem2: 4 Nodes <br> (je 32 GB Ram, 8vCores, 100 GB Docker Storage)
   offerOnePackageMediumItem3: 500 GB Persistent Storage
   offerOneMediumButton: Medium
 
   offerOnePackageLargeTitle: Large
-  offerOnePackageLargeItem1: 3 Master <br> (je 16 GB Ram, 2vCores)
+  offerOnePackageLargeItem1: 3 Master <br> (je 16 GB Ram, 6vCores)
   offerOnePackageLargeItem2: 8 Nodes <br> (je 32 GB Ram, 8vCores, 200 GB Docker Storage)
   offerOnePackageLargeItem3: 1 TB Persistent Storage
   offerOneLargeButton: Large
