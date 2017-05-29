@@ -67,7 +67,7 @@ en:
   homeFeatureSecureTitle: Secured container
   homeFeatureSecureDesc: Openshift provides a secure platform thanks to Red Hat’s Enterprise SELinux. Data protection in accordance with Swiss law in ISO27001-certified and FINMA-audited data centres.
   homeFeatureSecureAlt: Safe container with a swiss locker
-  homeFeatureEncryptTitle: Lets Encrypt SSL/TLS Routen at the touch of a button
+  homeFeatureEncryptTitle: Lets Encrypt SSL/TLS Routes at the touch of a button
   homeFeatureEncryptDesc: APPUiO allows you to easily configure real SSL certificates in your routes (ihre Routen) by way of Lets Encrypt. After registration has taken place APPUIO monitors and updates (Aktualisierung) the Lets Encrypt certificates, which are only valid 3 months, and replaces them after they've expired. You no longer have to worry about them.
   homeFeatureEncryptAlt: Lets Encrypt SSL/TLS Routes at the touch of a button
 # Home: Contact Section
