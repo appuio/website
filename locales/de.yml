@@ -26,7 +26,8 @@ de:
 
 # Home Seite
   homeNewsTitle: News
-  homeNewsText: "Melden Sie sich jetzt für die ersten <a href=\"techlabs.html\">Techlabs</a> im 2017 an."
+  homeNewsText: |-
+    Melden Sie sich jetzt für die <a href="techlabs.html">Techlabs</a> im 2017 an.
   homeHeroAlt: APPUiO - Swiss Container Plattform
   homeHeroTitle: |-
     Eine Plattform für das Design, die Entwicklung und den Betrieb Ihrer Anwendung. Betreiben Sie Ihren Container Workload auf APPUiO.
@@ -127,6 +128,7 @@ de:
   
   
   
+  
   offerOnePackageTitle: "Wählen Sie das für Ihre Bedürfnisse passende Paket:"
   offerOnePackageSmallTitle: Small
   offerOnePackageSmallItem1: Master <br> (je 16 GB Ram, 6vCores)
@@ -185,6 +187,7 @@ de:
 
   offerTwoPackageTitle: "Wählen Sie das für Ihre Bedürfnisse passende Paket:"
 
+  
   
   
   
