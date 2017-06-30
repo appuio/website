@@ -1,3 +1,13 @@
+- day: 30
+  month: Jun
+  title: "APPUiO moves Abacus’ applications to the cloud"
+  subtitle: ""
+  details: "
+            <p>Faster, more accurate and more secure: As of late the software company Abacus Research AG relies on the Swiss container platform “APPUiO”. In the short span of a few months a total of ten applications were moved to the cloud – that’s three times as many as would have been possible using existing traditional processes within the same period.</p>
+            <p>For their new, innovative and mobile applications Swiss software company Abacus Research AG opted for a new business process: Starting this year the applications are realised from the onset on a container-based platform in the cloud. “That way we disencumber internal IT staff and enable application developers to concentrate on their core business” says Freddy Kaiser, Head of Architecture & Engineering at Abacus Research AG.</p>
+            <p>Transitioning into the cloud has been on the agenda for a while at Abacus. “Last year we finally had to decide whether to build our own internal solution or to outsource operations completely”, Kaiser says. Given the restricted time frame Abacus decided to go for the second option and have the Swiss container platform “APPUiO” build them their own private cloud. “In APPUiO we found a competent and helpful partner who both suits us and full-fills our demanding requirements”, Kaiser adds. Owing to their work with especially sensitive data it had always been clear for Abacus that only a Swiss cloud service provider operating servers located in Switzerland was to be considered in the first place.</p>
+            <p>Following evaluation and erection of the cloud in the fall of 2016, AbaNinja was the first application to be deployed onto it in December. “We were happy to see everything worked just fine out of the box and therefore more applications were added very quickly”, Kaiser says. Today a solid ten applications are operated in the cloud. Thanks to the container-based deployment processes have become faster, more exact and last but not least easier to handle. And traceability was considerably improved, too. From coding via test-systems to final deployment all steps have been automated. “We have become three times as efficient in this regard”, Kaiser emphasises.</p>
+           "
 - day: 27
   month: Feb
   title: "2-Day-Training: From Zero to Hero with Microservices"

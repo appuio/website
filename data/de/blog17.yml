@@ -1,3 +1,13 @@
+- day: 30
+  month: Jun
+  title: "APPUiO bringt Abacus-Applikationen in die Cloud"
+  subtitle: ""
+  details: "
+            <p>Schneller, exakter und sicherer: Beim Deployment von Applikationen setzt das Softwareunternehmen Abacus Research AG neu auf die Schweizer Container Plattform „APPUiO“. Innerhalb weniger Monate wurden damit knapp zehn Applikationen in die Cloud gebracht – das sind drei Mal so viele wie mit den bestehenden, klassischen Prozessen in der gleichen Zeit möglich gewesen wären.</p>
+            <p>Das Schweizer Softwareunternehmen Abacus Research AG hat sich bei der Entwicklung neuer, innovativer und mobiler Anwendungen für einen neuen Business-Prozess entschieden: Applikationen werden seit diesem Jahr von Beginn an auf einer containerbasierten Plattform in der Cloud realisiert. „Dies entlastet die interne IT und die Softwareentwickler können sich auf ihre Kernaufgabe konzentrieren“, so Freddy Kaiser, Head of Architecture & Engineering bei Abacus Research AG.</p>
+            <p>Der Übergang in eine Cloud sei bei Abacus schon länger Thema gewesen. „Letztes Jahr standen wir dann vor der Wahl: Entweder wir bauen intern eine eigene Lösung oder wir geben den kompletten Betrieb extern“, sagt Kaiser. Aufgrund des engen Zeitplans hat sich Abacus für die zweite Option entschieden und liess sich von der Schweizer Container Plattform „APPUiO“ eine Private Cloud aufbauen. „Mit „APPUiO“ haben wir einen kompetenten und hilfbereiten Partner gefunden, der gut zu uns passt und unsere hohen Anforderungen erfüllt“, so Kaiser. Wegen der Arbeit mit besonders schützenswerten Daten kam für Abacus von Beginn an nur der Betrieb auf Datenservern innerhalb der Schweiz bei einem schweizerischen Cloud Service Provider in Frage.</p>
+            <p>Nach der Evaluation und dem Aufbau im Herbst, wurde im Dezember 2016 mit AbaNinja die erste Applikation in die Cloud deployed. „Weil alles reibungslos funktionierte, kamen sehr schnell zusätzliche Dienste dazu“, sagt Kaiser. Mittlerweile werden rund zehn Applikationen in der Cloud betrieben. Dank dem containerbasierten Deployment seien die Prozesse schneller, exakter und einfacher geworden. Auch die Nachvollziehbarkeit sei erheblich gestiegen. Vom Code bis zum Testsystem und dem eigentlichen Deployment wurde alles automatisiert. „Wir sind diesbezüglich drei Mal effizienter geworden“, betont Kaiser.</p>
+           "
 - day: 27
   month: Feb
   title: "2-Tage-Training: From Zero to Hero with Microservices"
