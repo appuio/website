@@ -7,7 +7,7 @@ en:
 # Global navigation
   navGlobalDocs: Docs
   navGlobalFAQ: FAQ
-  navGlobalNews: News
+  navGlobalBlog: Blog
   navGlobalForum: Forum
   navGlobalCommunityChat: Community Chat
   navGlobalLogin: Login
@@ -27,7 +27,7 @@ en:
 # Homepage
   homeNewsTitle: News
   homeNewsText: |-
-    Register now for one of our <a href="techlabs.html">tech labs</a> in 2017.
+    APPUiO moves Abacus’ applications to the cloud <a href="blog.html">&gt;&gt;</a>
   homeHeroAlt: APPUiO - Swiss Container Platform
   homeHeroTitle: Design, develop and operate your application with the APPUiO container runtime. Manage your container workload with APPUiO.
   homeHeroSignup: Sign up for public PaaS

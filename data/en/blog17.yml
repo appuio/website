@@ -1,0 +1,37 @@
+- day: 30
+  month: Jun
+  title: "APPUiO moves Abacus’ applications to the cloud"
+  subtitle: ""
+  details: "
+            <p><strong>Faster, more accurate and more secure: As of late the software company Abacus Research AG relies on the Swiss container platform “APPUiO”. In the short span of a few months a total of ten applications were moved to the cloud – that’s three times as many as would have been possible using existing traditional processes within the same period.</strong></p>
+            <p>For their new, innovative and mobile applications Swiss software company Abacus Research AG opted for a new business process: Starting this year the applications are realised from the onset on a container-based platform in the cloud. “That way we disencumber internal IT staff and enable application developers to concentrate on their core business” says Freddy Kaiser, Head of Architecture & Engineering at Abacus Research AG.</p>
+            <p>Transitioning into the cloud has been on the agenda for a while at Abacus. “Last year we finally had to decide whether to build our own internal solution or to outsource operations completely”, Kaiser says. Given the restricted time frame Abacus decided to go for the second option and have the Swiss container platform “APPUiO” build them their own private cloud. “In APPUiO we found a competent and helpful partner who both suits us and full-fills our demanding requirements”, Kaiser adds. Owing to their work with especially sensitive data it had always been clear for Abacus that only a Swiss cloud service provider operating servers located in Switzerland was to be considered in the first place.</p>
+            <p>Following evaluation and erection of the cloud in the fall of 2016, AbaNinja was the first application to be deployed onto it in December. “We were happy to see everything worked just fine out of the box and therefore more applications were added very quickly”, Kaiser says. Today a solid ten applications are operated in the cloud. Thanks to the container-based deployment processes have become faster, more exact and last but not least easier to handle. And traceability was considerably improved, too. From coding via test-systems to final deployment all steps have been automated. “We have become three times as efficient in this regard”, Kaiser emphasises.</p>
+           "
+- day: 27
+  month: Feb
+  title: "2-Day-Training: From Zero to Hero with Microservices"
+  subtitle: "March 22 and March 23 2017 at VSHN AG, Neugasse 10, Zürich"
+  details: "
+            <img alt=\"From Zero to Hero with Microservices\" src=\"/images/ContainerWorkshop.jpg\"/>
+            <p>In this training, you will build a fully functional E-Commerce application, using microservices, Weave Net and Scope, Docker containers and as an orchestrator APPUiO's Red Hat OpenShift v3 based PaaS.</p>
+            <p>This training is an ideal addition to the free half-day APPUiO TechLabs with more time to provide in-depth knowledge and access to the top experts.</p>
+            <p><a target=\"_blank\" href=\"https://www.eventbrite.com/e/2-day-training-from-zero-to-hero-with-microservices-tickets-30450460146?aff=es2\">Register here</a></p>
+           "
+- day: 13
+  month: Feb
+  title: Mini Tech Labs at the Voxxed Days
+  subtitle: ""
+  details: "
+            <p>Voxxed Days Zürich returns to Sihlcity Cinema on February 23rd, 2017. The entire developer community can meet and hear from some of the most inspiring speakers in our sector.</p>
+            <p>Also APPUiO will be present. In our Mini Tech Labs participants learn hands-on the key steps how applications are deployed to the cloud and how a container can be deployed und operated. </p>
+            <p><a target=\"_blank\" href=\"https://voxxeddays.com/zurich/\">voxxeddays.com/zurich/</a></p>
+           "
+- day: 13
+  month: Jan
+  title: New APPUiO Pricing
+  subtitle: Good news for 2017.
+  details: "
+            <p>It’s now possible to pay a monthly fee for APPUiO, the Swiss Container Plattform. The price for the public service is between CHF 49.- and CHF 340.- per month. If you decide to pay a full year in advance we’ll give you two months for free.</p>
+            <p>Read <a href=\"/en/public.html\">more</a></p>
+           "

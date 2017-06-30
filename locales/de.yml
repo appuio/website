@@ -7,7 +7,7 @@ de:
 # Globale Navigation
   navGlobalDocs: Docs
   navGlobalFAQ: FAQ
-  navGlobalNews: News
+  navGlobalBlog: Blog
   navGlobalForum: Forum
   navGlobalCommunityChat: Community Chat
   navGlobalLogin: Login
@@ -27,7 +27,7 @@ de:
 # Home Seite
   homeNewsTitle: News
   homeNewsText: |-
-    Melden Sie sich jetzt für die <a href="techlabs.html">Techlabs</a> im 2017 an.
+    APPUiO bringt Abacus-Applikationen in die Cloud <a href="blog.html">&gt;&gt;</a>.
   homeHeroAlt: APPUiO - Swiss Container Plattform
   homeHeroTitle: |-
     Eine Plattform für das Design, die Entwicklung und den Betrieb Ihrer Anwendung. Betreiben Sie Ihren Container Workload auf APPUiO.
