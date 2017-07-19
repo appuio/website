@@ -1,3 +1,30 @@
+- day: 14
+  month: Jul
+  title: "Ein Jahr Techlabs – ein Rückblick"
+  subtitle: ""
+  details: "
+            <p><strong>Seit <a target=\"new\" href=\"https://www.puzzle.ch/blog/articles/2016/07/18/rueckblick-auf-das-openshift-tech-lab-in-zuerich\">meinem ersten Rückblick auf ein APPUiO & OpenShift Techlab</a> sind unterdessen ein Jahr und 14 weitere Techlabs vergangen. Und wie das so ist, verändert sich in einer so langen Zeit immer ziemlich viel: OpenShift liegt mittlerweile in Version 3.5 vor und weist im Vergleich zu der damaligen Version 3.1 ein weitaus mächtigeres und intuitiveres Webinterface auf. Einiges ist in dieser Zeit aber auch gleich geblieben, unter anderem das Interesse an unseren Techlabs.</strong></p>
+            <p>Durch das Update von OpenShift auf die Version 3.4 hat sich bei APPUiO viel verändert. Dank des intuitiveren Webinterface ist nun vieles via Mausklick machbar. Dies setzt insbesondere die Einstiegshürde für Entwickler etwas tiefer. Dass diese Einstiegshürde aber dennoch relativ hoch ist, zeigt die Anzahl Teilnehmende und das Interesse an unseren APPUiO & OpenShift-Techlabs in Bern und Zürich. Die Entwickler besuchen unsere Techlabs nach wie vor rege und lernen dort hands-on die wichtigsten Schritte, wie eine Applikation in die Cloud gebracht wird.</p>
+            <p>Andere Dinge sind seit einem Jahr gleich geblieben: so beispielsweise die Container-Grundkonzepte. Oder auch meine Freude, zu sehen, wie die Teilnehmenden immer wieder von Neuem über die technischen Möglichkeiten von OpdenShift begeistert sind. Auch gewisse Fragen tauchen im Rahmen der Techlabs immer wieder auf. Eine der häufigsten ist es, wie denn nun die eigens geschriebene Applikation auf OpenShift deployed werden kann. Hierfür gibt es grundsätzlich drei Möglichkeiten:</p>
+            <p><ul>
+              <li>OpenShift erstellt mithilfe des integrierten Source-to-Image-Frameworks den Applikations-Pod aus dem reinen Sourcecode. Dabei wird automatisch erkannt, um welche Sprache es sich handelt.</li>
+              <li>OpenShift baut den Applikations-Pod mithilfe eines zur Verfügung gestellten Dockerfiles. Dabei wird das Docker Image zuerst gebuildet, in die interne Registry gepusht und anschliessend deployt.</li>
+              <li>OpenShift schnappt sich ein bereits gebuildetes Docker Image und deployt dieses. (siehe auch <a target=\"new\" href=\"https://access.redhat.com/articles/2897391\">reference architecture</a>)</li>
+            </ul></p>
+            <img alt=\"APPUiO OpenShift S2I Deployment Pipeline\" src=\"/images/Blog-Cover-Openshift-03-980x654.png\"/>
+            <p><i>Beispiel eines eigens gestrickten S2I-Deployments mit vorhergehendem Build in Jenkins. Die einfachere Variante ist natürlich, ein bereits bestehendes S2I-Script zu verwenden.</i></p>
+            <p>Eine ebenfalls häufig gestellte Frage ist, wie lange unsere Labs im Anschluss an den Nachmittag ausprobiert werden können: lange, sehr lange. Unsere Labs sind auf <a target=\"new\" href=\"https://github.com/appuio/techlab/\">GitHub</a> zu finden und eines unserer zusätzlichen Labs beschreibt <a target=\"new\" href=\"https://github.com/appuio/techlab/blob/lab-3.4/additional-labs/development_environment.md\">das Einrichten einer eigenen OpenShift-Entwicklungsumgebung</a>. Dem Ausprobieren zu Hause oder am eigenen Arbeitsplatz steht also nichts im Weg. Und natürlich freuen wir uns auch über Contributions oder Issues, damit wir das Techlab weiter verbessern können.</p>
+            <p>Die nächsten Techlabs finden im August und September statt. Wir freuen uns über viele Teilnehmende und sind gespannt auf neue, lehrreiche Erfahrungen!</p>
+            <p><strong>Eckdaten Techlabs:</strong></p>
+            <p>APPUiO & OpenShift Techlab Bern:<br/>
+Wann: Donnerstag, 24. August 2017 ab 14:00 Uhr (Ende ca. 17:30 Uhr)<br/>
+Wo: Belpstrasse 37, 3007 Bern (3. Stock)<br/>
+<a target=\"new\" href=\"https://app.hatchbuck.com/OnlineForm/71621425243\">Anmeldung</a><br/><br/>
+APPUiO & OpenShift Techlab Zürich:<br/>
+Wann: Donnerstag, 28. September 2017 ab 14:00 Uhr (Ende ca. 17:30 Uhr)<br/>
+Wo: Neugasse 10, 8005 Zürich<br/>
+<a target=\"new\" href=\"https://app.hatchbuck.com/OnlineForm/71621425242\">Anmeldung</a></p>
+           "
 - day: 30
   month: Jun
   title: "APPUiO bringt Abacus-Applikationen in die Cloud"
@@ -5,7 +32,7 @@
   details: "
             <p><strong>Schneller, exakter und sicherer: Beim Deployment von Applikationen setzt das Softwareunternehmen Abacus Research AG neu auf die Schweizer Container Plattform „APPUiO“. Innerhalb weniger Monate wurden damit knapp zehn Applikationen in die Cloud gebracht – das sind drei Mal so viele wie mit den bestehenden, klassischen Prozessen in der gleichen Zeit möglich gewesen wären.</strong></p>
             <p>Das Schweizer Softwareunternehmen Abacus Research AG hat sich bei der Entwicklung neuer, innovativer und mobiler Anwendungen für einen neuen Business-Prozess entschieden: Applikationen werden seit diesem Jahr von Beginn an auf einer containerbasierten Plattform in der Cloud realisiert. „Dies entlastet die interne IT und die Softwareentwickler können sich auf ihre Kernaufgabe konzentrieren“, so Freddy Kaiser, Head of Architecture & Engineering bei Abacus Research AG.</p>
-            <p>Der Übergang in eine Cloud sei bei Abacus schon länger Thema gewesen. „Letztes Jahr standen wir dann vor der Wahl: Entweder wir bauen intern eine eigene Lösung oder wir geben den kompletten Betrieb extern“, sagt Kaiser. Aufgrund des engen Zeitplans hat sich Abacus für die zweite Option entschieden und liess sich von der Schweizer Container Plattform „APPUiO“ eine Private Cloud aufbauen. „Mit „APPUiO“ haben wir einen kompetenten und hilfsbereiten Partner gefunden, der gut zu uns passt und unsere hohen Anforderungen erfüllt“, so Kaiser. Wegen der Arbeit mit besonders schützenswerten Daten kam für Abacus von Beginn an nur der Betrieb auf Datenservern innerhalb der Schweiz bei einem schweizerischen Cloud Service Provider in Frage.</p>
+            <p>Der Übergang in eine Cloud sei bei Abacus schon länger Thema gewesen. „Letztes Jahr standen wir dann vor der Wahl: Entweder wir bauen intern eine eigene Lösung oder wir geben den kompletten Betrieb extern“, sagt Kaiser. Aufgrund des engen Zeitplans hat sich Abacus für die zweite Option entschieden und liess sich von der Schweizer Container Plattform „APPUiO“ eine Private Cloud aufbauen. „Mit „APPUiO“ haben wir einen kompetenten und hilfsbereiten Partner gefunden, der gut zu uns passt und unsere hohen Anforderungen erfüllt“, so Kaiser. Wegen der Arbeit mit besonders schützenswerten Daten kam für Abacus von Beginn an nur der Betrieb auf Datenservern innerhalb der Schweiz bei einem schweizerischen Cloud Service Provider in Frage. Mit Exoscale wurde ein passender Infrastrukturanbieter gefunden.</p>
             <p>Nach der Evaluation und dem Aufbau im Herbst, wurde im Dezember 2016 mit AbaNinja die erste Applikation in die Cloud deployed. „Weil alles reibungslos funktionierte, kamen sehr schnell zusätzliche Dienste dazu“, sagt Kaiser. Mittlerweile werden rund zehn Applikationen in der Cloud betrieben. Dank dem containerbasierten Deployment seien die Prozesse schneller, exakter und einfacher geworden. Auch die Nachvollziehbarkeit sei erheblich gestiegen. Vom Code bis zum Testsystem und dem eigentlichen Deployment wurde alles automatisiert. „Wir sind diesbezüglich drei Mal effizienter geworden“, betont Kaiser.</p>
            "
 - day: 27
