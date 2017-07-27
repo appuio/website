@@ -250,8 +250,6 @@ de:
   offerTwoPackageAddonsItem1: 10 GB CHF 6.00 / Monat
   offerTwoPackageAddonsItem2: 20 GB CHF 10.00 / Monat
   offerTwoPackageAddonsItem3: 50 GB CHF 19.00 / Monat
-  offerTwoPackageAddonsItem4: 100 GB CHF 25.00 / Monat
-  offerTwoPackageAddonsItem5: 1000 GB CHF 200.00 / Monat
 
   offerTwoStorageDescription: Persistent Storage steht ihnen direkt in der Web Console oder via CLI zur Verfügung und kann als sogenannte Persistent Volumes direkt an Ihre Container angebunden werden. Die Abrechnung erfolgt nach Verbrauch.
 
