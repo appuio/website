@@ -162,7 +162,7 @@ a.offers-package {
       li {
         border-bottom: 1px solid #E5EAED;
         @include susy-breakpoint($break-medium) {
-        min-height: 10rem;
+        min-height: 12rem;
       }
         padding: 2rem 0rem;
       }
