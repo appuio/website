@@ -225,6 +225,15 @@ en:
   offerTwoPackageContentsFourthItemOne: Docker Open Source Ecosystem with additional runtime environments, frameworks and tools
   offerTwoPackageContentsFourthItemTwo: Scalability as need across the whoel platform
 
+  offerTwoDedicatedAddonsPretext: ""
+  offerTwoDedicatedAddonsTitle: Dedicated APPUiO
+  offerTwoDedicatedAddonsItem1: unlimited projects
+  offerTwoDedicatedAddonsItem2: "> 16 GB Memory"
+  offerTwoDedicatedAddonsItem3: private dedicated Node
+  offerTwoDedicatedAddonsItem4: manage the resources in the customer portal
+  offerTwoDedicatedDescription: "Auf unserer Public Platform betreiben wir für Sie auch dedizierte, private Nodes. Auf diesen werden nur Ihre eigenen Container deployed und betrieben. Dieses Angebot ist ideal für Kunden, die ihre OpenShift Projekte inkl. Ressourcen eigenständig planen und verwalten möchten."
+
+
   offerTwoPackageAddonsTitle: Persistent Storage Add Ons
   offerTwoPackageAddonsPretext: By usage
   offerTwoPackageAddonsItem1: 10 GB CHF 6.00
