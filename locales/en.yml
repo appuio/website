@@ -231,7 +231,7 @@ en:
   offerTwoDedicatedAddonsItem2: "> 16 GB Memory"
   offerTwoDedicatedAddonsItem3: private dedicated Node
   offerTwoDedicatedAddonsItem4: manage the resources in the customer portal
-  offerTwoDedicatedDescription: "Auf unserer Public Platform betreiben wir für Sie auch dedizierte, private Nodes. Auf diesen werden nur Ihre eigenen Container deployed und betrieben. Dieses Angebot ist ideal für Kunden, die ihre OpenShift Projekte inkl. Ressourcen eigenständig planen und verwalten möchten."
+  offerTwoDedicatedDescription: "We are now offering dedicated, private nodes on our Public Platform. Only your containers will be organized and deployed in this space. This offer is ideal for customers that want to independently plan and manage their OpenShift projects."
 
 
   offerTwoPackageAddonsTitle: Persistent Storage Add Ons
