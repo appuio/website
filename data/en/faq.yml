@@ -6,7 +6,7 @@
   answer: The two DevOps specialists <a href="https://www.puzzle.ch/de/" target="new">Puzzle ITC</a> and <a href="https://vshn.ch/" target="new">VSHN AG</a> are working closely together on APPUiO. VSHN focuses mainly on securing the operation, whereas Puzzle mainly engineers the platform and integrates this for clients where necessary.
 - question: Where can I find documentation for APPUiO?
   answer: Documentation can be found at <a href="http://docs.appuio.ch/en/latest/" target="new">docs.appuio.ch</a>. This is generated from <a href="https://github.com/appuio/docs" target="new">Github Repo</a> and is updated regularly. Suggestions and additions are welcome anytime.
-- question: Where does APPUiO public PaaS run? Where are the data centers located?
+- question: Where does APPUiO Public Platform run? Where are the data centers located?
   answer: The APPUiO Public Cloud is run on an IaaS platform by cloudscale.ch. The server is located in a data center e-shelter in Rümlang, Switzerland. For details check <a href="https://www.cloudscale.ch/en/about" target="new">https://www.cloudscale.ch/en/about</a>.
 - question: I am having trouble with my APPUiO project. Who can I contact? 
   answer: For assistance, please contact support@appuio.ch or consult our <a href="https://forum.appuio.ch/" target="new">Supportforum</a>.

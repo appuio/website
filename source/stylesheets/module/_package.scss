@@ -89,7 +89,7 @@ a.offers-package {
     }
     & > ul > li {
       flex: 1 100%;
-      text-align: center;
+      text-align: left;
       //flex-basis: initial;
       @include susy-breakpoint($break-medium) {
         flex: 3 25%;
