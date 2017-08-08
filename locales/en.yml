@@ -167,7 +167,7 @@ en:
 
 # Offer2: Public Platform
   offerTwoTitle: Public Platform
-  offerTwoIntro: Do you want to deploy your application on a Swiss cloud or are you in need of flexible, standardized development environments ? Use our APPUiO Public Plattform.
+  offerTwoIntro: Do you want to deploy your application on a Swiss cloud or are you in need of flexible, standardized development environments ? Use our APPUiO Public Platform.
 
   offerTwoServiceTitle: Select the right offer and get going
   offerTwoServices1: Bundles tailored to your needs
@@ -176,7 +176,7 @@ en:
 
   offerTwoServicesDesc: Settlement of accounts is handled monthly or annually via invoice.
   offerTwoIso: |-
-    "public" is the name of our shared cloud plattform. Security is of the utmost importance to us: the APPUiO Public Platform is operated in Swiss data centres certified to ISO27001 and in accordance with swiss banking regulators (FINMA) guidelines and is subject to Swiss law.
+    "public" is the name of our shared cloud platform. Security is of the utmost importance to us: the APPUiO Public Platform is operated in Swiss data centres certified to ISO27001 and in accordance with swiss banking regulators (FINMA) guidelines and is subject to Swiss law.
 
   offerTwoPackageTitle: |-
     Choose the package that's right for you:
@@ -275,11 +275,11 @@ en:
 # Techlab Page
   techlabPageTitle: Techlab
   techlabTitle: |-
-    APPUiO & OpenShift Tech Labs in Berne and Zurich
-  techlabSubtitle: Platform as a Service (PaaS) changes the way we develop software. Puzzle presents OpenShift V3 - the Container Platform by Red Hat - in a Tech Lab.
+    APPUiO & OpenShift Techlabs in Berne and Zurich
+  techlabSubtitle: Platform as a Service (PaaS) changes the way we develop software. Puzzle presents OpenShift V3 - the Container Platform by Red Hat - in a Techlab.
   techlabDetails: |-
     <p>Participants learn the key steps hands-on way, learning how applications are deployed to the cloud, and how a container on a PaaS can be deployed und operated.</p>
-    <p>With OpenShift IT processes are automated and deployment of IT-Services can be streamlined. Tech Labs touch on the following subjects:</p>
+    <p>With OpenShift IT processes are automated and deployment of IT-Services can be streamlined. Techlabs touch on the following subjects:</p>
     <p><strong>Hands on Workshop</strong></p>
     <ul>
     <li>Setting up CLI</li>

@@ -14,7 +14,7 @@ de:
   navOverview: Übersicht
   navOffers: Angebot
   navOffer1: Managed Private APPUiO
-  navOffer2: Public Plattform
+  navOffer2: Public Platform
   navOffer3: On-Premises APPUiO
   navFeatures: Features
   navContact: Kontakt
@@ -28,7 +28,7 @@ de:
   homeNewsTitle: News
   homeNewsText: |-
     Ein Jahr Techlabs – ein Rückblick <a href="blog.html">&gt;&gt;</a>.
-  homeHeroAlt: APPUiO - Swiss Container Plattform
+  homeHeroAlt: APPUiO - Swiss Container Platform
   homeHeroTitle: |-
     Eine Plattform für das Design, die Entwicklung und den Betrieb Ihrer Anwendung. Betreiben Sie Ihren Container Workload auf APPUiO.
   homeHeroSignup: Für Public Platform anmelden
@@ -40,7 +40,7 @@ de:
   homeOfferOneDesc: Sie wollen eine eigene private APPUiO Instanz nutzen, die auf unserer Infrastruktur läuft? Wir deployen und betreiben die auf Ihre Bedürfnisse massgeschneiderte Lösung.
   homeOfferOneButton: Details
   homeOfferTwoRibbon: Meist gewählt
-  homeOfferTwoTitle: Public Plattform
+  homeOfferTwoTitle: Public Platform
   homeOfferTwoDesc: Sie brauchen kurzfristig standardisierte Entwicklungsumgebungen oder möchten Ihre produktiven Applikationen in eine Schweizer Cloud deployen?
   homeOfferTwoButton: Details
   homeOfferThreeTitle: On-Premises APPUiO
@@ -50,7 +50,7 @@ de:
 
 # Home: Feature Section
   homeFeatureTitle: Features
-  homeFeatureDesc: OpenShift Container Plattform ist die PaaS des Open Source Marktführers Red Hat. OpenShift V3 setzt auf moderne Open Source Konzepte wie Docker Container und Kubernetes.
+  homeFeatureDesc: OpenShift Container Platform ist die PaaS des Open Source Marktführers Red Hat. OpenShift V3 setzt auf moderne Open Source Konzepte wie Docker Container und Kubernetes.
   homeFeatureDockerTitle: Docker
   homeFeatureDockerDesc: Docker ist die offene Plattform für Entwickler und Sysadmins und ihre Applikationen. Wählen Sie das für Ihre Technologie passende Basis-Docker-Image aus, OpenShift baut für Sie nach jedem Build automatisch einen aktualisierten Docker-Container und deployt ihn auf Wunsch auch gleich.
   homeFeatureKubernetesTitle: Kubernetes
@@ -245,13 +245,20 @@ de:
   offerTwoPackageContentsFourthItemOne: Docker Open Source Ökosystem mit zusätzlichen Laufzeitumgebungen, Frameworks und Tools
   offerTwoPackageContentsFourthItemTwo: Beliebige Skalierbarkeit über die ganze Plattform
 
+  offerTwoDedicatedAddonsPretext: ""
+  offerTwoDedicatedAddonsTitle: Dedicated APPUiO
+  offerTwoDedicatedAddonsItem1: Beliebig viele Projekte
+  offerTwoDedicatedAddonsItem2: "> 16 GB Memory"
+  offerTwoDedicatedAddonsItem3: private dedicated Node
+  offerTwoDedicatedDescription: "Auf unserer Public Platform betreiben wir für Sie auch dedizierte, private Nodes. Auf diesen werden nur Ihre eigenen Container deployed und betrieben. Dieses Angebot ist ideal für Kunden, die ihre OpenShift Projekte inkl. Ressourcen eigenständig planen und verwalten möchten."
+
   offerTwoPackageAddonsTitle: Persistent Storage Add Ons
   offerTwoPackageAddonsPretext: Nach Verbrauch
   offerTwoPackageAddonsItem1: 10 GB CHF 6.00 / Monat
   offerTwoPackageAddonsItem2: 20 GB CHF 10.00 / Monat
   offerTwoPackageAddonsItem3: 50 GB CHF 19.00 / Monat
 
-  offerTwoStorageDescription: Persistent Storage steht ihnen direkt in der Web Console oder via CLI zur Verfügung und kann als sogenannte Persistent Volumes direkt an Ihre Container angebunden werden. Die Abrechnung erfolgt nach Verbrauch.
+  offerTwoStorageDescription: Persistent Storage steht Ihnen direkt in der Web Console oder via CLI zur Verfügung und kann als sogenannte Persistent Volumes direkt an Ihre Container angebunden werden. Die Abrechnung erfolgt nach Verbrauch.
 
   offerTwoBilling: Wählen Sie die entsprechende Vertragslaufzeit<br>Es gelten die APPUiO Servicebestimmungen.
   offerTwoBillingMonthly: Monatlich
@@ -294,11 +301,11 @@ de:
 
 # Techlab Page
   techlabPageTitle: Techlab
-  techlabTitle: APPUiO & OpenShift Tech Labs in Bern und Zürich
-  techlabSubtitle: Mit einer Platform as a Service (PaaS) ändert sich die Art, wie wir Software entwickeln. Puzzle stellt OpenShift V3 - die Container Plattform von Red Hat - in einem Tech Lab vor.
+  techlabTitle: APPUiO & OpenShift Techlabs in Bern und Zürich
+  techlabSubtitle: Mit einer Platform as a Service (PaaS) ändert sich die Art, wie wir Software entwickeln. Puzzle stellt OpenShift V3 - die Container Plattform von Red Hat - in einem Techlab vor.
   techlabDetails: |-
     <p>Die Teilnehmer lernen dabei&nbsp;hands-on die wichtigsten Schritte, wie eine Applikation in die Cloud gebracht wird und wie Container auf einer PaaS deployed und betrieben&nbsp;werden können.</p>
-    <p>Mit OpenShift werden IT-Prozesse automatisiert und die Bereitstellung&nbsp;von IT-Services gestrafft. Im Tech Lab erwarten euch folgende Themen:</p>
+    <p>Mit OpenShift werden IT-Prozesse automatisiert und die Bereitstellung&nbsp;von IT-Services gestrafft. Im Techlab erwarten euch folgende Themen:</p>
     <p><strong>Hands on Workshop</strong></p>
     <ul>
     <li>Einrichten CLI</li>
