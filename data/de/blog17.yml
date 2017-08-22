@@ -1,3 +1,58 @@
+- day: 17
+  month: Aug
+  title: "Introduction to OpenShift on Exoscale"
+  subtitle: "OpenShift is to Kubernetes similar to what a Linux distribution is to the kernel. In this blogpost we show how to integration OpenShift on <a target=\"_new\" href=\"https://www.exoscale.ch\">Exoscale</a>"
+  details: |
+            <p>The world is talking about the <a target="_new" rel="noopener" href="https://kubernetes.io/">Kubernetes Project</a></a> - but did you hear about OpenShift? It’s an open source product based on the open source projects Kubernetes and Docker plus a container builder/registry, and a Web GUI to manage it all. This blog post will introduce you to OpenShift and give some hints why to use it, how to get started, and where you can get professional support and managed services.</p>
+            <h4>What is OpenShift and why should you use it?</h4>
+            <p>It describes itself as “the industry’s most secure and comprehensive enterprise-grade container platform based on industry standards, Docker and Kubernetes”. It’s much more than that - it gives you a complete Kubernetes cluster with many cool features: integrated build pipelines, Docker Registry, Application router (for getting traffic into the cluster), security based on RBAC and SELinux, Web Console for easy access, central logging of all Pod output, Metrics to measure Pod performance, Installation and upgrade using Ansible Playbooks, Source-to-Image builds, and much much more.</p>
+            <p>As a Linux distribution acts to the Linux Kernel, OpenShift is a Kubernetes distribution with all the needed tools and tricks to make full use of it.</p>
+            <p>OpenShift comes in two flavors:</p>
+            <p><ul>
+            <li><a target="_new" rel="noopener" href="https://www.openshift.com/container-platform/">OpenShift Container Platform</a>: Software product to install in your data center and get support by Red Hat.</li>
+            <li><a target="_new" rel="noopener" href="https://www.openshift.org/">OpenShift Origin</a>: The open source upstream project with a very active GitHub <a target="_new" rel="noopener" href="https://github.com/openshift/origin">repository</a>.</li>
+            </ul>
+            <img src="/images/feature_process.svg" alt="continuous process"/>
+            </p>
+            <p>OpenShift enables you to develop faster - after committing your changes in GIT it solves container image build, storage, deploy, scaling, monitoring, and logging for you so you don’t have to do it. The integrated build and deployment processes help you get the developed application to the customer as fast as possible. It enables you to deploy hourly or even faster, and scale computing resources per project automatically with your user base.</p>
+            <h4>How to get started?</h4>
+            <p>There are many many ways to get started, here are a few hints and examples:</p>
+            <p><ul>
+            <li>Install your own OpenShift cluster for example on Exoscale with the official <a target="_new" rel="noopener" href="https://github.com/openshift/openshift-ansible">Ansible Playbooks</a>. By using these playbooks you learn to customize every inch of the installation and configuration, and they also help you upgrade from one version to another. Documentation about these playbooks can be found inside the Git repository or on the <a target="_new" rel="noopener" href="https://docs.openshift.org/latest/install_config/install/advanced_install.html">documentation page</a>.</li>
+            <li>Start a local OpenShift cluster on your workstation with <a target="_new" rel="noopener" href="https://github.com/minishift/minishift">Minishift</a> (based on Minikube) or with the fancy command oc cluster up. Just download the client binary from the GitHub <a target="_new" rel="noopener" href="https://github.com/openshift/origin/releases">releases page</a>, unpack it, and then run the oc cluster up command. This will launch a complete OpenShift instance on your local Docker Engine:</li>
+
+            <pre><code>% oc cluster up
+            Starting OpenShift using openshift/origin:v3.6.0 ...
+            Pulling image openshift/origin:v3.6.0
+            Pulled 1/4 layers, 28% complete
+            Pulled 2/4 layers, 83% complete
+            Pulled 3/4 layers, 88% complete
+            Pulled 4/4 layers, 100% complete
+            Extracting
+            Image pull complete
+            OpenShift server started.
+
+            The server is accessible via web console at:
+                https://127.0.0.1:8443
+
+            You are logged in as:
+                User: developer
+                Password: &lt;any value&gt;
+
+            To login as administrator:
+                oc login -u system:admin
+            % oc new-app https://github.com/appuio/example-php-sti-helloworld.git
+            [...]
+            % oc expose svc example-php-sti-helloworld
+            [...]
+            % curl -s http://example-php-sti-helloworld-myproject.127.0.0.1.nip.io/ | grep title
+                <title>APPUiO PHP Demo</title>
+            </code></pre>
+
+            <li>Have a look at the APPUiO <a target="_new" href="https://github.com/appuio/techlab">Techlabs</a> on GitHub which is a free step-by-step introduction to get started. We offer free <a target="_new" href="https://appuio.ch/techlabs.html">half-day workshops</a>.</li>
+            <li>The APPUiO <a target="_new" href="http://docs.appuio.ch/en/latest/services/01_introduction.html">Microservices Example</a> documentation gives some insight for developers on how a Microservice application can be built and deployed on OpenShift, describing tools like Gitlab CI and Jenkins for the build pipelines.</li></ul></p>
+            <p>There is a lot of documentation available from upstream. It’s a great source to read about every little detail. You’ll find documentation for both the <a target="_new" href="https://docs.openshift.com/">OpenShift Container Platform</a> and <a target="_new" href="https://docs.openshift.org/">OpenShift Origin</a>. APPUiO also provides a <a target="_new" href="http://docs.appuio.ch/en/latest/services/01_introduction.html">community-driven documentation</a>.</p> 
+            <p>This blog post was originally published on the Exoscale blog.</p>
 - day: 14
   month: Jul
   title: "Ein Jahr Techlabs – ein Rückblick"
