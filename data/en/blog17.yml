@@ -52,6 +52,7 @@
             <li>Have a look at the APPUiO <a target="_new" href="https://github.com/appuio/techlab">Techlabs</a> on GitHub which is a free step-by-step introduction to get started. We offer free <a target="_new" href="https://appuio.ch/techlabs.html">half-day workshops</a>.</li>
             <li>The APPUiO <a target="_new" href="http://docs.appuio.ch/en/latest/services/01_introduction.html">Microservices Example</a> documentation gives some insight for developers on how a Microservice application can be built and deployed on OpenShift, describing tools like Gitlab CI and Jenkins for the build pipelines.</li></ul></p>
             <p>There is a lot of documentation available from upstream. It’s a great source to read about every little detail. You’ll find documentation for both the <a target="_new" href="https://docs.openshift.com/">OpenShift Container Platform</a> and <a target="_new" href="https://docs.openshift.org/">OpenShift Origin</a>. APPUiO also provides a <a target="_new" href="http://docs.appuio.ch/en/latest/services/01_introduction.html">community-driven documentation</a>.</p>
+            <p>This blog post was originally published on the Exoscale blog.</p>
 - day: 14
   month: Jul
   title: "One Year of Techlabs in Retrospect"
