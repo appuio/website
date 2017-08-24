@@ -234,6 +234,7 @@ en:
   offerTwoDedicatedDescription: "We are now offering dedicated, private nodes on our Public Platform. Only your containers will be organized and deployed in this space. This offer is ideal for customers that want to independently plan and manage their OpenShift projects."
 
 
+  
   offerTwoPackageAddonsTitle: Persistent Storage Add Ons
   offerTwoPackageAddonsPretext: By usage
   offerTwoPackageAddonsItem1: 10 GB CHF 6.00
@@ -304,7 +305,6 @@ en:
     </ul>
     <p>Dates:</p>
     <ul>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/71621425243">August 24, 2017 in Berne</a></li>
     <li><a href="https://app.hatchbuck.com/OnlineForm/71621425242">September 28, 2017 in Zurich</a></li>
     </ul>
     <p>Time: 14.00 to 17.30h<br>
