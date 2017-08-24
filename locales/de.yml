@@ -132,6 +132,7 @@ de:
   
   
   
+  
   offerOnePackageTitle: "Wählen Sie das für Ihre Bedürfnisse passende Paket:"
   offerOnePackageSmallTitle: Small
   offerOnePackageSmallItem1: Master <br> (je 16 GB Ram, 6vCores)
@@ -201,6 +202,7 @@ de:
   
   
   
+  
   offerTwoPackageMicroTitle: Small
   offerTwoPackageMicroItem1: CHF 49.- / Monat oder CHF 490.- / Jahr
   offerTwoPackageMicroItem2: CPU 500m
@@ -253,6 +255,7 @@ de:
   offerTwoDedicatedAddonsItem4: selbstständige Ressourcenverwaltung im Kundenportal
   offerTwoDedicatedDescription: "Auf unserer Public Platform betreiben wir für Sie auch dedizierte, private Nodes. Auf diesen werden nur Ihre eigenen Container deployed und betrieben. Dieses Angebot ist ideal für Kunden, die ihre OpenShift Projekte inkl. Ressourcen eigenständig planen und verwalten möchten."
 
+  
   offerTwoPackageAddonsTitle: Persistent Storage Add Ons
   offerTwoPackageAddonsPretext: Nach Verbrauch
   offerTwoPackageAddonsItem1: 10 GB CHF 6.00 / Monat
@@ -322,7 +325,6 @@ de:
     </ul>
     <p>Daten:</p>
     <ul>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/71621425243">24. August 2017 in Bern</a></li>
     <li><a href="https://app.hatchbuck.com/OnlineForm/71621425242">28. September 2017 in Zürich</a></li>
     </ul>
     <p>Zeit: 14:00 bis 17:30 Uhr<br>
