@@ -264,8 +264,8 @@ en:
   offerThreeServicesTitle: Open components and interfaces allow integration into complex existing infrastructures
   offerThreeServicesDesc: APPUiO's flexibility allows for integration into complex, existing infrastructures. Please find below a list of possible integrations that can be covered by APPUiO or OpenShift.
   offerThreeServices1: APPUiO runs on Red Hat Enterprise Linux (RHEL) 7 (bare metal, virtuell, Cloud)
-  offerThreeServices2: Anbindung an vorhandene Storage Lösung
-  offerThreeServices3: Integration in Netzwerkspezifika
+  offerThreeServices2: Connection to existing storage solution
+  offerThreeServices3: Network-integration according to your specifications
   offerThreeServices4: Connection to existing change management (Puppet, Chef, Ansible)
   offerThreeServices5: Source Code from private Git/SVN Repositories
   offerThreeServices6: Connection to existing database server
