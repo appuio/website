@@ -286,7 +286,7 @@ de:
   offerThreeServicesDesc: Die Flexibiltät APPUiOs erlaubt die Integration in komplexe, bestehende Infrastrukturen. Hier eine Liste möglicher Integrationspunkte, welche durch APPUiO resp. OpenShift abgedeckt werden können.
   offerThreeServices1: APPUiO läuft auf Red Hat Enterprise Linux (RHEL) 7 (bare metal, virtuell, Cloud)
   offerThreeServices2: Anbindung an vorhandene Storage Lösung
-  offerThreeServices3: Integration in Netzwerkspezifika
+  offerThreeServices3: Integration in vorgegebene Netzwerkspezifikation
   offerThreeServices4: Anbindung an bestehendes Changemanagement (Puppet, Chef, Ansible)
   offerThreeServices5: Source Code von privaten Git/SVN Repositories
   offerThreeServices6: Anbindung an bestehende Datenbank Server
