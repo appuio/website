@@ -335,9 +335,9 @@ de:
     
     
 # Event Page
-  eventPageTitle: APPUiO Event
+  eventPageTitle: oneYear APPUiO Event
   eventTitle: APPUiO Use Cases & Birthday Party
-  eventSubtitle: Mit einer Platform as a Service (PaaS) ändert sich die Art, wie wir Software entwickeln. Puzzle stellt OpenShift V3 - die Container Plattform von Red Hat - in einem Techlab vor.
+  eventSubtitle: Subtitel?
   eventDetails: |-
     <p>Im Herbst 2016 lancierten wir von VSHN und Puzzle ITC gemeinsam APPUiO - die erste Schweizer Container Plattform. Im vergangenen Jahr konnten wir viele Erfahrungen sammeln,</p> 
     <p>unsere Plattform stetig weiterentwickeln und spannende Projekte unterstützen. Lasst uns dies gemeinsam feiern und Inspiration für die Zukunft sammeln!</p>
@@ -346,10 +346,10 @@ de:
     <p><strong>Wo:</strong> Bogen F, Viaduktstrasse 97, 8005 Zürich</p>
     
     <p><strong>Programm:</strong></p>
-    <li>14:30 Uhr - Begrüssung und Roadmap</li>
-    <li>14:45 Uhr - Talk: Wie bringe ich die App in die Cloud?</li>
-    <li>15:15 Uhr - Use Cases zu APPUiO</li>
-    <li>17:00 Uhr - Apéro & Geburstagsparty</li>
+    <p>14:30 Uhr - Begrüssung und Roadmap</p>
+    <p>14:45 Uhr - Talk: Wie bringe ich die App in die Cloud?</p>
+    <p>15:15 Uhr - Use Cases zu APPUiO</p>
+    <p>17:00 Uhr - Apéro & Geburstagsparty</p>
     
     <p><a href="https://app.hatchbuck.com/OnlineForm/71621425242">Hier geht es zur Anmeldung</a></p>
     
@@ -357,3 +357,8 @@ de:
     
     <p>Liebe Grüsse</p>
     <p>Dein APPUiO-Team</p>
+    
+    
+    <p><a href="https://app.hatchbuck.com/OnlineForm/72664443501">Hier kannst du dich wieder abmelden</a></p>
+    
+    
