@@ -355,7 +355,7 @@ de:
     <p>Liebe Grüsse</p>
     <p>Dein APPUiO-Team</p>
     <hr>
-    <%= image_tag "OpenShift.png", :alt => 'OpenShift', :class => 'OpenShiftPic' %>
+    <img src="OpenShift.png" alt="openshift">
     <p>Dieser APPUiO-Event wird unterstützt von RedHat Schweiz - herzlichen Dank!</p>
     <hr>
     
