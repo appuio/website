@@ -331,3 +331,29 @@ de:
     <p>Zeit: 14:00 bis 17:30 Uhr<br>
     Ort: Neugasse 10, Zürich oder Belpstrasse 37, Bern</p>
     <p>Die Teilnahme ist kostenlos. Für das Lab solltet ihr euren eigenen Laptop mitbringen. Die Platzzahl ist beschränkt.</p>
+    
+    
+    
+# Event Page
+  eventPageTitle: APPUiO Event
+  eventTitle: APPUiO Use Cases & Birthday Party
+  eventSubtitle: Mit einer Platform as a Service (PaaS) ändert sich die Art, wie wir Software entwickeln. Puzzle stellt OpenShift V3 - die Container Plattform von Red Hat - in einem Techlab vor.
+  eventDetails: |-
+    <p>Im Herbst 2016 lancierten wir von VSHN und Puzzle ITC gemeinsam APPUiO - die erste Schweizer Container Plattform. Im vergangenen Jahr konnten wir viele Erfahrungen sammeln,</p> 
+    <p>unsere Plattform stetig weiterentwickeln und spannende Projekte unterstützen. Lasst uns dies gemeinsam feiern und Inspiration für die Zukunft sammeln!</p>
+    
+    <p><strong>Wann:</strong> Donnerstag, 30. November 2017</p>
+    <p><strong>Wo:</strong> Bogen F, Viaduktstrasse 97, 8005 Zürich</p>
+    
+    <p><strong>Programm:</strong></p>
+    <li>14:30 Uhr - Begrüssung und Roadmap</li>
+    <li>14:45 Uhr - Talk: Wie bringe ich die App in die Cloud?</li>
+    <li>15:15 Uhr - Use Cases zu APPUiO</li>
+    <li>17:00 Uhr - Apéro & Geburstagsparty</li>
+    
+    <p><a href="https://app.hatchbuck.com/OnlineForm/71621425242">Hier geht es zur Anmeldung</a></p>
+    
+    <p>Wir freuen uns auf dich!</p>
+    
+    <p>Liebe Grüsse</p>
+    <p>Dein APPUiO-Team</p>
