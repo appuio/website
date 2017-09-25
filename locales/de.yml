@@ -355,10 +355,12 @@ de:
     <p>Liebe Grüsse</p>
     <p>Dein APPUiO-Team</p>
     <hr>
-    <img src="OpenShift.png" alt="openshift">
+    
+  eventDetails2: |-
     <p>Dieser APPUiO-Event wird unterstützt von RedHat Schweiz - herzlichen Dank!</p>
     <hr>
     
     <p><a href="https://app.hatchbuck.com/OnlineForm/72664443501">Hier kannst du dich wieder abmelden</a></p>
+    
     
     
