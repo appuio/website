@@ -7,7 +7,10 @@
     <title><%= current_page.data.title || "Middleman" %></title>
     <meta name="description" content="<%= t(:metaDescription) %>" />
     <meta name="keywords" content="<%= t(:metaKeywords) %>" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <%= stylesheet_link_tag :main %>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <%= javascript_include_tag :modernizr %>
   </head>
 
