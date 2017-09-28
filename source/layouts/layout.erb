@@ -7,8 +7,8 @@
     <title><%= current_page.data.title || "Middleman" %></title>
     <meta name="description" content="<%= t(:metaDescription) %>" />
     <meta name="keywords" content="<%= t(:metaKeywords) %>" />
-    <%= javascript_include_tag :modernizr %>
     <%= stylesheet_link_tag :main %>
+    <%= javascript_include_tag :modernizr %>
   </head>
 
   <body class="<%= page_classes %>">
