@@ -335,21 +335,24 @@ de:
     
     
 # Event Page
-  eventPageTitle: oneYear APPUiO Event
-  eventTitle: APPUiO Use Cases & Birthday Party
-  eventSubtitle: Subtitel?
+  eventPageTitle: Let's celebrate
+  eventTitle: One Year APPUiO
+  eventSubtitle: Case Studies and Birthday Party
   eventDetails: |-
-    <p>Im Herbst 2016 lancierten wir von VSHN und Puzzle ITC gemeinsam APPUiO - die erste Schweizer Container Plattform. Im vergangenen Jahr konnten wir viele Erfahrungen sammeln, unsere Plattform stetig weiterentwickeln und spannende Projekte unterstützen. Lasst uns dies gemeinsam feiern und Inspiration für die Zukunft sammeln!</p>
+    <p>Im Herbst 2016 lancierten wir von VSHN und Puzzle ITC gemeinsam APPUiO - die erste Schweizer Container Plattform. Seither konnten wir viele Erfahrungen sammeln, unsere Plattform stetig weiterentwickeln und spannende Projekte umsetzen.</p>
+    <p>Am 30. November 2017 blicken wir auf das aufregende und erfolgreiche erste Jahr zurück. Anhand von Case Studies präsentieren Kunden, wie die Zukunft der Software-Entwicklung und des Betriebs mit Containern in der Praxis aussieht. Zudem präsentieren wir einige Neuerungen rund um APPUiO - seid gespannt!</p>
     
     <p><strong>Wann:</strong> Donnerstag, 30. November 2017</p>
     <p><strong>Wo:</strong> Bogen F, Viaduktstrasse 97, 8005 Zürich</p>
     
     <p><strong>Programm:</strong></p>
-    <p>14:30 Uhr - Begrüssung und Roadmap</p>
-    <p>14:45 Uhr - Talk: Wie bringe ich die App in die Cloud?</p>
-    <p>15:15 Uhr - Use Cases zu APPUiO</p>
+    <p>14:00 Uhr - Eintreffen</p>
+    <p>14:30 Uhr - Begrüssung & Roadmap</p>
+    <p>14:45 Uhr - Talk: "Der Weg in die Cloud"</p>
+    <p>15:15 Uhr - Case Studies APPUiO</p>
     <p>17:00 Uhr - Apéro & Geburstagsparty</p>
     <br>
+    <p>Alle Präsentationen sind in deutscher Sprache</p>
     <p><a href="https://app.hatchbuck.com/OnlineForm/72664443500">Hier geht's zur Anmeldung</a></p>
     <br>
     <p>Wir freuen uns auf dich!</p>
@@ -362,7 +365,7 @@ de:
     <p>Dieser APPUiO-Event wird unterstützt von RedHat Schweiz - herzlichen Dank!</p>
     <hr>
     
-    <p><a href="https://app.hatchbuck.com/OnlineForm/72664443501">Abmelden?</a></p>
+    <p><a href="https://app.hatchbuck.com/OnlineForm/72664443501">Möchtest du dich wieder abmelden?</a></p>
     
     
     
