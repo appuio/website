@@ -1,0 +1,24 @@
+---
+title: APPUiO - Swiss Container Platform - Event
+---
+<%= partial "partials/github" %>
+<header class="header-container" role="banner">
+  <div class="grid-container">
+    <%= partial "partials/nav" %>
+  </div>
+</header>
+
+<main class="main-container" role="main">
+  <section class="news-section">
+    <div class="grid-container">
+      <%= image_tag "EventPicture.png", :alt => 'Event', :class => 'EventPic' %>
+      <h2><%= t(:eventPageTitle) %></h2>
+      <h3 class="headertekst"><%= t(:eventTitle) %></h3>
+      <h4><%= t(:eventSubtitle) %></h4>
+      <%= t(:eventDetails) %>
+      <%= image_tag "OpenShift.png", :alt => 'OS', :class => 'OpenShiftPic' %>
+      <%= t(:eventDetails2) %>
+    </div>
+  </section>
+</main>
+<%= partial "partials/footer" %>
