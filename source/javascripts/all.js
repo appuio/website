@@ -90,9 +90,7 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
     var vorname = $("[name='vorname']").val();
     var nachname = $("[name='nachname']").val();
     var email = $("[name='email']").val();
-    var interests = $.map($(':checkbox[name=interests\\[\\]]:checked'), function(n, i){
-      return n.value;
-    }).join(',');
+    var interests = "Memory: " + $('#memoryslider').value;
     var billing = $.map($(':radio[name=billing\\[\\]]:checked'), function(n, i){
       return n.value;
     }).join(',');
@@ -172,5 +170,44 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
       $(this).removeClass("is-check is-exclamation is-loading").dequeue();
     });
   }
+
+  function calcCpu(memoryvalue){
+      return 500 + ((memoryvalue / 512) - 1) * 200;
+  }
+  function calcPrice(memoryvalue){
+      return (memoryvalue / 512) * 0.92;
+  }
+  function formatPrice(price){
+    return price.toLocaleString(
+      undefined, // use a string like 'en-US' to override browser locale
+      { minimumFractionDigits: 2 }
+    );
+  }
+
+  var rangeSlider = function(){
+    
+    var range = $('.range-slider__range');
+    var valueMem = $('.memoryvalue');
+    var valueCpu = $('.cpuvalue');
+    var valuePricePerDay = $('.pricevalueperday');
+    var valuePricePerMonth = $('.pricevaluepermonth');
+    var price = calcPrice(range.val());
+    valuePricePerDay.html(formatPrice(price));
+    valuePricePerMonth.html(formatPrice(price * 30.5));
+    valueMem.html(range.val());
+    valueCpu.html(calcCpu(range.val()));
+    range.on('input', function(){
+      if(this.value > 10000){
+        //alert("mach gschider dedicated!!!");
+      }
+      valueMem.html(this.value);
+      valueCpu.html(calcCpu(this.value));
+      var price = calcPrice(this.value);
+      valuePricePerDay.html(formatPrice(price));
+      valuePricePerMonth.html(formatPrice(price * 30.5));
+    });
+  };
+
+rangeSlider();
 
 })( window );

@@ -35,54 +35,30 @@
 <section class="offer-two-offers">
   <div class="grid-container">
     <h2 class="offers-package-title"><%= t(:offerTwoPackageTitle) %></h2>
-
-    <div class="offers-package-container">
-      <div class="offers-package is-fourth offer2-micro-icon">
-        <div class="offers-package-ribbon is-orange"><%= t(:offerTwoPackageMicroTitle) %></div>
-        <div class="offer-spacer is-fourth"></div>
-        <ul class="offers-package-list">
-          <li class="offers-package-item"><%= t(:offerTwoPackageMicroItem1) %></li>
-          <li class="offers-package-item"><%= t(:offerTwoPackageMicroItem2) %></li>
-          <li class="offers-package-item"><%= t(:offerTwoPackageMicroItem3) %></li>
-          <li class="offers-package-item"><%= t(:offerTwoPackageMicroItem4) %></li>
+    <article class="offers-package last-child">
+        <div class="offers-package-ribbon is-orange text-center"><%= t(:offerDynamicAddonsPretext) %></div>
+        <h3 class="offers-package-list-title m-t-2"><%= t(:offerDynamicAddonsTitle) %></h3>
+        <input class="range-slider__range" id="memoryslider" type="range" value="512" min="512" max="20480" step="512">
+        <ul class="offers-package-list cols-5">
+          <li class="offers-package-item"><%= t(:offerTwoLabelCpu) %>: <span class="cpuvalue"></span> m</li>
+          <li class="offers-package-item"><%= t(:offerTwoLabelMemory) %>: <span class="memoryvalue"></span></li>
         </ul>
-        <a href="#offers-two-contact" class="callout-button button is-round is-flex" data-check="interest-micro"><%= t(:offerTwoMicroButton) %></a>
-      </div>
-      <div class="offers-package is-fourth offer2-medium-icon">
-        <div class="offers-package-ribbon is-orange"><%= t(:offerTwoPackageMediumTitle) %></div>
-        <div class="offer-spacer is-fourth"></div>
-        <ul class="offers-package-list">
-          <li class="offers-package-item"><%= t(:offerTwoPackageMediumItem1) %></li>
-          <li class="offers-package-item"><%= t(:offerTwoPackageMediumItem2) %></li>
-          <li class="offers-package-item"><%= t(:offerTwoPackageMediumItem3) %></li>
-          <li class="offers-package-item"><%= t(:offerTwoPackageMediumItem4) %></li>
-        </ul>
-        <a href="#offers-two-contact" class="callout-button button is-round is-flex" data-check="interest-medium"><%= t(:offerTwoMediumButton) %></a>
-      </div>
-      <div class="offers-package is-fourth offer2-large-icon">
-        <div class="offers-package-ribbon is-orange"><%= t(:offerTwoPackageLargeTitle) %></div>
-        <div class="offer-spacer is-fourth"></div>
-        <ul class="offers-package-list">
-          <li class="offers-package-item"><%= t(:offerTwoPackageLargeItem1) %></li>
-          <li class="offers-package-item"><%= t(:offerTwoPackageLargeItem2) %></li>
-          <li class="offers-package-item"><%= t(:offerTwoPackageLargeItem3) %></li>
-          <li class="offers-package-item"><%= t(:offerTwoPackageLargeItem4) %></li>
-        </ul>
-        <a href="#offers-two-contact" class="callout-button button is-round is-flex" data-check="interest-large"><%= t(:offerTwoLargeButton) %></a>
-      </div>
-      <div class="offers-package is-fourth offer2-xlarge-icon">
-        <div class="offers-package-ribbon is-orange"><%= t(:offerTwoPackageXlargeTitle) %></div>
-        <div class="offer-spacer is-fourth"></div>
-        <ul class="offers-package-list">
-          <li class="offers-package-item"><%= t(:offerTwoPackageXlargeItem1) %></li>
-          <li class="offers-package-item"><%= t(:offerTwoPackageXlargeItem2) %></li>
-          <li class="offers-package-item"><%= t(:offerTwoPackageXlargeItem3) %></li>
-          <li class="offers-package-item"><%= t(:offerTwoPackageXlargeItem4) %></li>
-        </ul>
-        <a href="#offers-two-contact" class="callout-button button is-round is-flex" data-check="interest-xlarge"><%= t(:offerTwoXlargeButton) %></a>
-      </div>
+        <h3 class="offers-package-list-title m-t-2"><%= t(:offerTwoLabelPreis) %>: <span class="pricevalueperday"></span> <%= t(:offerTwoLabelPreisPerDay) %> :: <span class="pricevaluepermonth"></span> <%= t(:offerTwoLabelPreisPerMonth) %></h3>
+        <a href="#offers-two-contact" class="button is-round" data-check="interest-order"><%= t(:offerTwoDynamicButton) %></a>
+      </article>
       <article class="offers-package is-banner-before">
         <p><%= t(:offerTwoCPUDescription) %></p>
+      </article>
+
+      <article class="offers-package last-child">
+        <div class="offers-package-ribbon is-orange text-center"><%= t(:offerTwoPackageAddonsPretext) %></div>
+        <h3 class="offers-package-list-title m-t-2"><%= t(:offerTwoPackageAddonsTitle) %></h3>
+        <ul class="offers-package-list cols-5">
+          <li class="offers-package-item"><%= t(:offerTwoPersistentStorageAddon) %></li>
+        </ul>
+      </article>
+      <article class="offers-package is-banner-before">
+        <p><%= t(:offerTwoStorageDescription) %></p>
       </article>
 
       <article class="offers-package last-child">
@@ -98,19 +74,6 @@
       </article>
       <article class="offers-package is-banner-before">
         <p><%= t(:offerTwoDedicatedDescription) %></p>
-      </article>
-
-      <article class="offers-package last-child">
-        <div class="offers-package-ribbon is-orange text-center"><%= t(:offerTwoPackageAddonsPretext) %></div>
-        <h3 class="offers-package-list-title m-t-2"><%= t(:offerTwoPackageAddonsTitle) %></h3>
-        <ul class="offers-package-list cols-5">
-          <li class="offers-package-item"><%= t(:offerTwoPackageAddonsItem1) %></li>
-          <li class="offers-package-item"><%= t(:offerTwoPackageAddonsItem2) %></li>
-          <li class="offers-package-item"><%= t(:offerTwoPackageAddonsItem3) %></li>
-        </ul>
-      </article>
-      <article class="offers-package is-banner-before">
-        <p><%= t(:offerTwoStorageDescription) %></p>
       </article>
     </div>
 
@@ -158,31 +121,16 @@
       <div class="home-contact-interest interest-container">
         <h3 class="interest-title"><%= t(:offerTwoContactSubject) %></h3>
         <div class="interest-item">
-          <input id="interest-micro" value="<%= t(:offerTwoPackageMicroTitle) %>" type="checkbox" name="interests[]" class="interest-checkbox">
-          <label for="interest-micro"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerTwoPackageMicroTitle) %> <%= t(:offerTwoPackageMicroItem1) %></label>
+          <p class="contract-hint"><%= t(:offerTwoLabelMemory) %>: <span class="memoryvalue"></span></p>
         </div>
         <div class="interest-item">
-          <input id="interest-medium" value="<%= t(:offerTwoPackageMediumTitle) %>" type="checkbox" name="interests[]" class="interest-checkbox">
-          <label for="interest-medium"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerTwoPackageMediumTitle) %> <%= t(:offerTwoPackageMediumItem1) %></label>
+          <p class="contract-hint"><%= t(:offerTwoLabelCpu) %>: <span class="cpuvalue"></span>m</p>
         </div>
         <div class="interest-item">
-          <input id="interest-large" value="<%= t(:offerTwoPackageLargeTitle) %>" type="checkbox" name="interests[]" class="interest-checkbox">
-          <label for="interest-large"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerTwoPackageLargeTitle) %> <%= t(:offerTwoPackageLargeItem1) %></label>
-        </div>
-        <div class="interest-item">
-          <input id="interest-xlarge" value="<%= t(:offerTwoPackageXlargeTitle) %>" type="checkbox" name="interests[]" class="interest-checkbox" >
-          <label for="interest-xlarge"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerTwoPackageXlargeTitle) %> <%= t(:offerTwoPackageXlargeItem1) %></label>
-        </div>
-        <div class="interest-item">
-          <input id="interest-custom" value="<%= t(:offerTwoCustom) %>" type="checkbox" name="interests[]" class="interest-checkbox">
-          <label for="interest-custom"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerTwoCustom) %></label>
+          <p class="contract-hint"><%= t(:offerTwoLabelPreis) %>: <span class="pricevalueperday"></span> <%= t(:offerTwoLabelPreisPerDay) %> :: <span class="pricevaluepermonth"></span> <%= t(:offerTwoLabelPreisPerMonth) %></p>
         </div>
         <div class="interest-item contract-duration">
           <p class="contract-hint"><%= t(:offerTwoBilling) %></p>
-          <input id="monthly-bill" type="radio" name="billing[]" value="Monatlich" class="interest-radio">
-          <label class="radio-label" for="monthly-bill"><%= t(:offerTwoBillingMonthly) %></label>
-          <input id="yearly-bill" type="radio" name="billing[]" value="Jährlich" checked="checked" class="interest-radio">
-          <label class="radio-label" for="yearly-bill"><%= t(:offerTwoBillingYearly) %></label>
         </div>
       </div>
       <div class="home-contact-form">

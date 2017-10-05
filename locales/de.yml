@@ -188,48 +188,16 @@ de:
   offerTwoServicesDesc: Die Abrechnung erfolgt monatlich oder jährlich per Rechnung. Beim Abschluss eines Jahresvertrags schenken wir Ihnen zwei Monate.
   offerTwoIso: |-
     Öffentlich (public) ist nur der Name der gemeinsamen Cloud-Plattform. Sicherheit schreiben wir gross: APPUiO wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
-
-  offerTwoPackageTitle: "Wählen Sie das für Ihre Bedürfnisse passende Paket:"
-
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  offerTwoPackageMicroTitle: Small
-  offerTwoPackageMicroItem1: CHF 49.- / Monat oder CHF 490.- / Jahr
-  offerTwoPackageMicroItem2: CPU 500m
-  offerTwoPackageMicroItem3: Memory 512MB
-  offerTwoPackageMicroItem4: Persistent Volume <br> inkl. 1 GB
-  offerTwoMicroButton: Small
-
-  offerTwoPackageMediumTitle: Medium
-  offerTwoPackageMediumItem1: CHF 95.- / Monat oder CHF 950.- / Jahr
-  offerTwoPackageMediumItem2: CPU 750m
-  offerTwoPackageMediumItem3: Memory 1GB
-  offerTwoPackageMediumItem4: Persistent Volume <br> inkl. 5 GB
-  offerTwoMediumButton: Medium
-
-  offerTwoPackageLargeTitle: Large
-  offerTwoPackageLargeItem1: CHF 180.- / Monat oder CHF 1800.- / Jahr
-  offerTwoPackageLargeItem2: CPU 1000m
-  offerTwoPackageLargeItem3: Memory 2GB
-  offerTwoPackageLargeItem4: Persistent Volume <br> inkl. 20 GB
-  offerTwoLargeButton: Large
-
-  offerTwoPackageXlargeTitle: X-Large
-  offerTwoPackageXlargeItem1: CHF 340.- / Monat oder 3400.- / Jahr
-  offerTwoPackageXlargeItem2: CPU 2000m
-  offerTwoPackageXlargeItem3: Memory 4GB
-  offerTwoPackageXlargeItem4: Persistent Volume <br> 50 GB
-  offerTwoXlargeButton: X-Large
+  offerDynamicAddonsPretext: "APPUiO public Platform Calculator"
+  offerTwoPackageTitle: "Konfigurieren Sie hier ihre passende Grösse."
+  offerDynamicAddonsTitle: "Grösse wählen"
+  offerTwoDynamicButton: "Bestellen"
+  offerTwoLabelMemory: "Memory"
+  offerTwoLabelCpu: "CPU"
+  offerTwoLabelPreis: "Preis"
+  offerTwoLabelPreisPerDay: "CHF pro Tag"
+  offerTwoLabelPreisPerMonth: "CHF pro Monat"
 
   offerTwoCPUDescription: Die CPU Resourcen werden als KCU (Kubernetes Compute Units) normalisiert, so entsprechen CPU 1000m ungefähr einem single hyperthreaded CPU Kern.
 
@@ -258,17 +226,11 @@ de:
   
   offerTwoPackageAddonsTitle: Persistent Storage Add Ons
   offerTwoPackageAddonsPretext: Nach Verbrauch
-  offerTwoPackageAddonsItem1: 10 GB CHF 6.00 / Monat
-  offerTwoPackageAddonsItem2: 20 GB CHF 10.00 / Monat
-  offerTwoPackageAddonsItem3: 50 GB CHF 19.00 / Monat
+  offerTwoPersistentStorageAddon: 1 GB CHF 2.70 / Monat
 
   offerTwoStorageDescription: Persistent Storage steht Ihnen direkt in der Web Console oder via CLI zur Verfügung und kann als sogenannte Persistent Volumes direkt an Ihre Container angebunden werden. Die Abrechnung erfolgt nach Verbrauch.
 
-  offerTwoBilling: Wählen Sie die entsprechende Vertragslaufzeit<br>Es gelten die APPUiO Servicebestimmungen.
-  offerTwoBillingMonthly: Monatlich
-  offerTwoBillingYearly: Jährlich (2 Monate geschenkt)
-
-  offerTwoCustom: Custom
+  offerTwoBilling: Abrechnungsperiode ist einmal pro Monat<br>Es gelten die APPUiO Servicebestimmungen.
 
   offerTwoContactTitle: APPUiO - PUBLIC PLATFORM
   offerTwoContactSubject: Hiermit bestelle ich verbindlich ...
