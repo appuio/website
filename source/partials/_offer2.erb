@@ -44,6 +44,9 @@
           <li class="offers-package-item"><%= t(:offerTwoLabelMemory) %>: <span class="memoryvalue"></span></li>
         </ul>
         <h3 class="offers-package-list-title m-t-2"><%= t(:offerTwoLabelPreis) %>: <span class="pricevalueperday"></span> <%= t(:offerTwoLabelPreisPerDay) %> :: <span class="pricevaluepermonth"></span> <%= t(:offerTwoLabelPreisPerMonth) %></h3>
+        <div class="offers-package-dedicated-info">
+          <p><%= t(:offerPackageDedicatedInfo) %></p>
+        </div>
         <a href="#offers-two-contact" class="button is-round" data-check="interest-order"><%= t(:offerTwoDynamicButton) %></a>
       </article>
       <article class="offers-package is-banner-before">
@@ -156,6 +159,7 @@
       <div class="home-feedback-container">
         <p class="home-feedback"></p>
       </div>
-     </form>
-    </div>
-  </section>
+    </form>
+  </div>
+</section>
+<%= javascript_include_tag :offers %>
