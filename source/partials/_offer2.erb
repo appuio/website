@@ -43,7 +43,23 @@
           <li class="offers-package-item"><%= t(:offerTwoLabelCpu) %>: <span class="cpuvalue"></span> m</li>
           <li class="offers-package-item"><%= t(:offerTwoLabelMemory) %>: <span class="memoryvalue"></span></li>
         </ul>
-        <h3 class="offers-package-list-title m-t-2"><%= t(:offerTwoLabelPreis) %>: <span class="pricevalueperday"></span> <%= t(:offerTwoLabelPreisPerDay) %> :: <span class="pricevaluepermonth"></span> <%= t(:offerTwoLabelPreisPerMonth) %></h3>
+        <div class="offers-package-price">
+          <h3 class="offers-package-list-title"><%= t(:offerTwoLabelPreis) %></h3>
+          <div class="offers-package-table-wrapper">
+            <table class="offers-price-table" summary="<%= t(:offerTwoLabelPreis) %>">
+              <tbody>
+                <tr>
+                  <td class="text-right pricevalueperday"></td>
+                  <td><%= t(:offerTwoLabelPreisPerDay) %></td>
+                </tr>
+                <tr>
+                  <td class="text-right pricevaluepermonth"></td>
+                  <td><%= t(:offerTwoLabelPreisPerMonth) %></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
         <div class="offers-package-dedicated-info">
           <p><%= t(:offerPackageDedicatedInfo) %></p>
         </div>
@@ -116,8 +132,7 @@
   </div>
 </section>
 
-<a name="offers-two-contact"></a>
-<section class="offer-contact">
+<section id="offers-two-contact" class="offer-contact">
   <div class="grid-container">
     <h2 class="offer-contact-title"><%= t(:offerTwoContactTitle) %></h2>
     <form id="offer-two-contact-form" name="offer-two-contact-form" class="offers-contact-container" data-loading-message="<%= t(:offerTwoLoadingMessage) %>" data-success-message="<%= t(:offerTwoSuccessMessage) %>">
@@ -129,8 +144,20 @@
         <div class="interest-item">
           <p class="contract-hint"><%= t(:offerTwoLabelCpu) %>: <span class="cpuvalue"></span>m</p>
         </div>
-        <div class="interest-item">
-          <p class="contract-hint"><%= t(:offerTwoLabelPreis) %>: <span class="pricevalueperday"></span> <%= t(:offerTwoLabelPreisPerDay) %> :: <span class="pricevaluepermonth"></span> <%= t(:offerTwoLabelPreisPerMonth) %></p>
+        <div class="interest-item interest-item-price">
+          <p class="contract-hint"><%= t(:offerTwoLabelPreis) %>:</p>
+          <table class="offers-price-table" summary="<%= t(:offerTwoLabelPreis) %>">
+            <tbody>
+              <tr>
+                <td class="text-right pricevalueperday"></td>
+                <td><%= t(:offerTwoLabelPreisPerDay) %></td>
+              </tr>
+              <tr>
+                <td class="text-right pricevaluepermonth"></td>
+                <td><%= t(:offerTwoLabelPreisPerMonth) %></td>
+              </tr>
+            </tbody>
+          </table>
         </div>
         <div class="interest-item contract-duration">
           <p class="contract-hint"><%= t(:offerTwoBilling) %></p>

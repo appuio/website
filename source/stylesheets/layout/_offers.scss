@@ -264,8 +264,55 @@
   margin-top: 4  0px;
 }
 
+.offers-package-price {
+  display: flex;
+  flex-wrap: wrap;
+
+  flex: 1 0 100%;
+
+  > h3 {
+    width: auto !important; // :(
+    text-align: right;
+  }
+  > h3::after {
+    content: ':';
+  }
+
+  > * {
+    flex: 1 0 50%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.offers-package-table-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.offers-price-table {
+  text-transform: none;
+
+  // Mimic <p>
+  font-size: rem-calc(16);
+  line-height: rem-calc(20);
+  @include susy-breakpoint($break-medium) {
+    font-size: rem-calc(18);
+    line-height: rem-calc(24);
+  }
+}
+
 .offers-package-dedicated-info {
   flex: 1 0 100%;
   display: none;
   text-align: center;
+}
+
+.interest-item-price {
+  display: flex;
+
+  > .contract-hint {
+    margin-top: 0;
+    margin-right: 1ch;
+  }
 }
