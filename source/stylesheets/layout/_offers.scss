@@ -316,3 +316,9 @@
     margin-right: 1ch;
   }
 }
+
+.offers-package.active {
+  > .offers-package-ribbon {
+    background-color: $color-yellow;
+  }
+}

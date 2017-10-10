@@ -2,6 +2,12 @@ self.addEventListener('DOMContentLoaded', function() {
 
   var ONE_MONTH = 30.5;
   var SIZES = [ 'Bytes', 'KiB', 'MiB', 'GiB', 'TiB' ];
+  var BANNERS = [
+    { name: 'small', size: 0 },
+    { name: 'medium', size: 1024 * 2 },
+    { name: 'large', size: 1024 * 6 },
+    { name: 'x-large', size: 1024 * 10 },
+  ];
 
   rangeSlider();
 
@@ -29,6 +35,17 @@ self.addEventListener('DOMContentLoaded', function() {
     valueCpu.text(calcCpu(value));
 
     dedicatedInfo.toggle(value > 10000);
+    updateActiveBanner(value);
+  }
+
+  function updateActiveBanner(value) {
+    var banner = BANNERS
+      .slice()
+      .sort(function(a, b) { return b.size - a.size; })
+      .find(banner => banner.size <= value);
+
+    $('.offers-package.active').removeClass('active');
+    $('.offers-package--' + banner.name).addClass('active');
   }
 
   function formatPrice(price) {
