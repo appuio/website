@@ -3,18 +3,18 @@
   title: "Serverless Computing / Functions as a Service mit APPUiO und Snafu"
   subtitle: ""
   details: |
-            <h2>Was ist Serverless, auch FaaS (Function as a Service) genannt?</h2>
+            <h4>Was ist Serverless, auch FaaS (Function as a Service) genannt?</h4>
             <p>Die Begriffe "Serverless" und "FaaS (Function as a Service)" werden in jüngerer Zeit immer öfter in Artikeln erwähnt. Um was geht es eigentlich bei diesem Thema? Unter "FaaS" versteht man die Möglichkeit, eine Programmfunktion "in der Cloud" zu betreiben. Dabei speichert der Entwickler die gewünschte Funktion (egal in welcher Programmiersprache abgefasst, so lange vom Anbieter unterstützt) im FaaS Service der Wahl und ruft diese z.B. über HTTP oder einen Servicebus auf. Dabei muss der Benutzer der Funktion sich weder um die Ausführungsumgebung, Skalierung noch die Konfigurationsdetails eines Applikationsservers kümmern. Daher kommt auch der Begriff "Serverless", welcher sagen möchte, dass die Funktion "einfach läuft", sozusagen ohne Server. Eine Funktion kann eine einfache "Eingabe-Verarbeitung-Ausgabe" Funktion sein, komplexe Berechnungen durchführen oder Daten aus anderen externen Diensten beziehen, verarbeiten und speichern.
             <br><br>
             Der Einsatz von FaaS macht vor allem dann Sinn, wenn es sich um eine spezialisierte Funktion handelt, welche von diversen Microservices verwendet wird. Auch ökonomisch lässt sich der Einsatz von Funktionen in der Cloud gut begründen: Bezahlt wird für der einzelne Funktionsaufruf (je nach Anbieter). Wird die Funktion nicht genutzt, fallen auch keine Kosten an. Dies ist ein "echtes" Cloud Modell, ganz im Sinne von "Pay per Use".
             <br><br></p>
 
-            <h2>Unser Beitrag mit APPUiO und ZHAW SPLab</h2>
+            <h4>Unser Beitrag mit APPUiO und ZHAW SPLab</h4>
 
             <p>Zusammen mit dem ZHAW <a href="https://blog.zhaw.ch/icclab/category/labs/splab/">Service Prototyping Lab (SPLab)</a> arbeiten wir im Rahmen eines KTI (<a href="https://www.kti.admin.ch/kti/de/home.html">Kommission für Technologie und Innovation</a>) Projekts unter dem Namen "<a href="https://blog.zhaw.ch/icclab/mosaic/">MOSAIC</a>" an Lösungen rund ums Thema FaaS auf APPUiO. Neben einigen Papers (verlinkt im Blogpost von SPLab "<a href="https://blog.zhaw.ch/icclab/snafu-the-swiss-army-knife-of-serverless-computing/">Snafu – The Swiss Army Knife of Serverless Computing</a>") entstand auch ein neues Open Source Projekt: <a href="https://github.com/serviceprototypinglab/snafu">snafu - Snake Functions. The Swiss Army Knife of Serverless Computing</a>. Das Projekt bietet nebst einer lokale Entwicklungsumgebung auch eine Ausführungsumgebung, um Funktionen auf APPUiO zu betreiben. Dabei lassen sich auch Funktionen z.B. von AWS Lambda, Google Cloud Functions oder OpenWhisk importieren und exportieren. So hilft das Tool sowohl beim Entwickeln von Funktionen für die Cloud als auch bei deren Betrieb.
             <br><br></p>
 
-            <h2>Serverless Tools</h2>
+            <h4>Serverless Tools</h4>
 
             <p>Natürlich gibt es nicht nur Snafu. Es sind mittlerweile eine ganze Reihe von Kandidaten am Markt:<br></p>
 
@@ -29,13 +29,13 @@
             <p>Erst vor kurzem hat sich Red Hat für Apache OpenWhisk entschieden, wie sie in einem Blogpost darlegen: <a href="https://developers.redhat.com/blog/2017/06/07/red-hat-and-apache-openwhisk/">Red Hat and Apache OpenWhisk</a>. Der Plan ist, OpenWhisk als Bestandteil von OpenShift zu integrieren. Es bleibt definitv spannend auf dem Markt, welchen wir sehr nahe verfolgen. Unser Ziel ist es, Funktionen in der Cloud auf APPUiO anbieten zu können und das mit dem passenden Werkzeug.
             <br><br></p>
 
-            <h2>Snafu - Swiss Army Knife of Serverless Computing</h2>
+            <h4>Snafu - Swiss Army Knife of Serverless Computing</h4>
 
             <p>Snafu kann einerseits als lokale Entwicklungsumgebung dienen, andrerseits aber auch zum Betrieb von Funktionen auf OpenShift. Eine Besonderheit von Snafu ist die Unterstützung des Im- und Exports von Funktionen anderer Anbieter und Tools, wie z.B. AWS Lambda, Google Cloud Functions oder OpenWhisk. Es kann auch dazu benutzt werden, Funktionen zwischen verschiedenen Umgebungen zu migrieren.
             <br><br>
             Architekturdiagramm von Snafu:
             <br><br>
-            <img src="https://blog.vshn.ch/content/images/20170925175725-Bildschirmfoto%202017-09-25%20um%2017.54.30.png" alt="enter image description here" />
+            <img src="/images/Archsnafu.png" alt="continuous process"/>
             <br><br>
             Und so bekommt man Snafu auf die lokale Entwicklungsumgebung (Anleitung für Linux oder MacOS):
             <br><br>
@@ -88,7 +88,7 @@
             <p>In diesem Beispiel wird die Funktion <code>helloworld.helloworld</code> interaktiv ausgeführt und die Ausgabe nach <code>stdout</code> geschrieben. Die Datei <code>snafu.csv</code> beinhaltet nun eine Information über den Aufruf der Funktion für eine spätere Auswertung, wie z.B. zur Verrechnung.
             <br><br></p>
 
-            <h2>Snafu auf OpenShift / APPUiO</h2>
+            <h4>Snafu auf OpenShift / APPUiO</h4>
 
             <p>Snafu kann in verschiedenen Modi betrieben werden. Einer davon ist die direkte Ausführung von Funktionen, welche im Filesystem gespeichert sind. Das erste Beispiel demonstriert diesen Modus, wobei die auszuführende Funktion in einer <a href="https://docs.openshift.org/latest/dev_guide/configmaps.html">ConfigMap</a> (Kubernetes Objekt zur Speicherung der Applikationskonfiguration) gespeichert und Snafu über einen Volume Mount zur Verfügung gestellt wird. Die Speicherung von Funktionen in einer ConfigMap ist als Proof-of-Concept zu verstehen, für einen produktiven Betrieb sind in diesem Beispiel wichtige Themen wie Source Code in Git, CI/CD Rollback, etc. nicht berücksichtigt.
             <br><br>
@@ -127,7 +127,7 @@
             Hello from Lambda
             </code></pre>
 
-            <h2>Weiterführende Informationen</h2>
+            <h4>Weiterführende Informationen</h4>
 
             <p>Hat dieser Beitrag Ihr Interesse an Serverless / Functions as a Service geweckt? Gerne beantworten wir Ihre Fragen und helfen bei der Implementation: <a href="http://mailto:hello@appuio.ch">hello@appuio.ch</a> oder <a href="http://mailto:info@vshn.ch">info@vshn.ch</a>.
             <br><br>
