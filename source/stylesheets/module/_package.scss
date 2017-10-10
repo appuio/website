@@ -11,8 +11,6 @@
   align-content: space-between;
   width: 100%;
   margin: rem-calc(32 0);
-  //background-color:#0097a8;
-  //border: 3px solid white;
 }
 
 a.offers-package {
@@ -36,7 +34,7 @@ a.offers-package {
   padding: rem-calc(16);
   background-color: $color-blue;
   color: white;
-  margin: rem-calc(16);
+  margin: rem-calc(16) 0;
 
   &.is-third {
     @include susy-breakpoint($break-medium) {
@@ -44,6 +42,9 @@ a.offers-package {
     }
   }
   &.is-fourth {
+    &:not(:last-child) {
+      margin-right: 2rem;
+    }
     @include susy-breakpoint($break-small) {
       width: 100%;
     }
@@ -80,7 +81,6 @@ a.offers-package {
     flex-basis: 100%;
     text-align: left;
     padding: rem-calc(16);
-    margin: rem-calc(16);
 
     & > ul {
       display: flex;
@@ -90,7 +90,6 @@ a.offers-package {
     & > ul > li {
       flex: 1 100%;
       text-align: left;
-      //flex-basis: initial;
       @include susy-breakpoint($break-medium) {
         flex: 3 25%;
       }
