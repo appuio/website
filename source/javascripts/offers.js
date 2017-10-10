@@ -1,6 +1,7 @@
 self.addEventListener('DOMContentLoaded', function() {
 
   var ONE_MONTH = 30.5;
+  var SIZES = [ 'Bytes', 'KiB', 'MiB', 'GiB', 'TiB' ];
 
   rangeSlider();
 
@@ -46,7 +47,7 @@ self.addEventListener('DOMContentLoaded', function() {
   }
 
   function formatUnit(value) {
-    return value.toLocaleString(getDocumentLanguage()) + ' MiB';
+    return bytesToSize(value * Math.pow(1024, 2), 1);
   }
 
   function getDocumentLanguage() {
@@ -59,6 +60,13 @@ self.addEventListener('DOMContentLoaded', function() {
       default:
         return lang;
     }
+  }
+
+  function bytesToSize(bytes, precision) {
+    if (!bytes) return '0 Byte';
+    if (bytes === 1) return '1 Byte';
+    var i = Math.floor(Math.log(bytes) / Math.log(1024));
+    return (bytes / Math.pow(1024, i)).toFixed(precision) + ' ' + SIZES[i];
   }
 
 });
