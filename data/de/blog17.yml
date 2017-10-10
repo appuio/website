@@ -1,3 +1,147 @@
+- day: 10
+  month: Okt
+  title: "Serverless Computing / Functions as a Service mit APPUiO und Snafu"
+  subtitle: ""
+  details: |
+            <h2>Was ist Serverless, auch FaaS (Function as a Service) genannt?</h2>
+            <p>Die Begriffe "Serverless" und "FaaS (Function as a Service)" werden in jüngerer Zeit immer öfter in Artikeln erwähnt. Um was geht es eigentlich bei diesem Thema? Unter "FaaS" versteht man die Möglichkeit, eine Programmfunktion "in der Cloud" zu betreiben. Dabei speichert der Entwickler die gewünschte Funktion (egal in welcher Programmiersprache abgefasst, so lange vom Anbieter unterstützt) im FaaS Service der Wahl und ruft diese z.B. über HTTP oder einen Servicebus auf. Dabei muss der Benutzer der Funktion sich weder um die Ausführungsumgebung, Skalierung noch die Konfigurationsdetails eines Applikationsservers kümmern. Daher kommt auch der Begriff "Serverless", welcher sagen möchte, dass die Funktion "einfach läuft", sozusagen ohne Server. Eine Funktion kann eine einfache "Eingabe-Verarbeitung-Ausgabe" Funktion sein, komplexe Berechnungen durchführen oder Daten aus anderen externen Diensten beziehen, verarbeiten und speichern.
+            <br><br>
+            Der Einsatz von FaaS macht vor allem dann Sinn, wenn es sich um eine spezialisierte Funktion handelt, welche von diversen Microservices verwendet wird. Auch ökonomisch lässt sich der Einsatz von Funktionen in der Cloud gut begründen: Bezahlt wird für der einzelne Funktionsaufruf (je nach Anbieter). Wird die Funktion nicht genutzt, fallen auch keine Kosten an. Dies ist ein "echtes" Cloud Modell, ganz im Sinne von "Pay per Use".
+            <br><br></p>
+
+            <h2>Unser Beitrag mit APPUiO und ZHAW SPLab</h2>
+
+            <p>Zusammen mit dem ZHAW <a href="https://blog.zhaw.ch/icclab/category/labs/splab/">Service Prototyping Lab (SPLab)</a> arbeiten wir im Rahmen eines KTI (<a href="https://www.kti.admin.ch/kti/de/home.html">Kommission für Technologie und Innovation</a>) Projekts unter dem Namen "<a href="https://blog.zhaw.ch/icclab/mosaic/">MOSAIC</a>" an Lösungen rund ums Thema FaaS auf APPUiO. Neben einigen Papers (verlinkt im Blogpost von SPLab "<a href="https://blog.zhaw.ch/icclab/snafu-the-swiss-army-knife-of-serverless-computing/">Snafu – The Swiss Army Knife of Serverless Computing</a>") entstand auch ein neues Open Source Projekt: <a href="https://github.com/serviceprototypinglab/snafu">snafu - Snake Functions. The Swiss Army Knife of Serverless Computing</a>. Das Projekt bietet nebst einer lokale Entwicklungsumgebung auch eine Ausführungsumgebung, um Funktionen auf APPUiO zu betreiben. Dabei lassen sich auch Funktionen z.B. von AWS Lambda, Google Cloud Functions oder OpenWhisk importieren und exportieren. So hilft das Tool sowohl beim Entwickeln von Funktionen für die Cloud als auch bei deren Betrieb.
+            <br><br></p>
+
+            <h2>Serverless Tools</h2>
+
+            <p>Natürlich gibt es nicht nur Snafu. Es sind mittlerweile eine ganze Reihe von Kandidaten am Markt:<br></p>
+
+            <ul>
+            <li><a href="http://kubeless.io/">Kubeless</a> von Bitnami (ehemals Skippbox)<br></li>
+            <li><a href="http://fission.io/">Fission</a> von Platform9 Systems<br></li>
+            <li><a href="http://open.iron.io/">IronFunctions</a> von <a href="http://Iron.io">Iron.io</a><br></li>
+            <li><a href="https://funktion.fabric8.io/">Funktion</a> von Fabric8 / Red Hat<br></li>
+            <li><a href="http://openwhisk.incubator.apache.org/">OpenWhisk</a> von der Apache Foundation (Incubator Projekt)<br></li>
+            </ul>
+
+            <p>Erst vor kurzem hat sich Red Hat für Apache OpenWhisk entschieden, wie sie in einem Blogpost darlegen: <a href="https://developers.redhat.com/blog/2017/06/07/red-hat-and-apache-openwhisk/">Red Hat and Apache OpenWhisk</a>. Der Plan ist, OpenWhisk als Bestandteil von OpenShift zu integrieren. Es bleibt definitv spannend auf dem Markt, welchen wir sehr nahe verfolgen. Unser Ziel ist es, Funktionen in der Cloud auf APPUiO anbieten zu können und das mit dem passenden Werkzeug.
+            <br><br></p>
+
+            <h2>Snafu - Swiss Army Knife of Serverless Computing</h2>
+
+            <p>Snafu kann einerseits als lokale Entwicklungsumgebung dienen, andrerseits aber auch zum Betrieb von Funktionen auf OpenShift. Eine Besonderheit von Snafu ist die Unterstützung des Im- und Exports von Funktionen anderer Anbieter und Tools, wie z.B. AWS Lambda, Google Cloud Functions oder OpenWhisk. Es kann auch dazu benutzt werden, Funktionen zwischen verschiedenen Umgebungen zu migrieren.
+            <br><br>
+            Architekturdiagramm von Snafu:
+            <br><br>
+            <img src="https://blog.vshn.ch/content/images/20170925175725-Bildschirmfoto%202017-09-25%20um%2017.54.30.png" alt="enter image description here" />
+            <br><br>
+            Und so bekommt man Snafu auf die lokale Entwicklungsumgebung (Anleitung für Linux oder MacOS):
+            <br><br>
+            1 Code clonen</p>
+
+            <pre><code>git clone https://github.com/serviceprototypinglab/snafu.git
+            cd snafu
+            </code></pre>
+
+            <p>2 Python Virtualenv erstellen</p>
+
+            <pre><code>python -m venv --prompt snafu pyvenv
+            . pyvenv/bin/activate
+            </code></pre>
+
+            <p>3 Dependencies installieren</p>
+
+            <pre><code>pip install pyesprima flask
+            </code></pre>
+
+            <p>4 Snafu benutzen</p>
+
+            <pre><code>% ./snafu [-h]
+            % ./snafu --executor &lt;e&gt; --logger &lt;l&gt; --convention &lt;c&gt;
+            </code></pre>
+
+            <p>Am Beispiel der mitgelieferten Hello World Funktion:
+            <br></p>
+
+            <pre><code>./snafu --executor=inmemory --logger=csv --connector=cli functions/helloworld.py
+            » module: functions/helloworld.py
+              function: helloworld.helloworld
+            + logger: csv
+            + executor: java
+            + executor: c
+            + executor: javascript
+            + executor: inmemory
+            + connector: cli
+            Function name:helloworld.helloworld
+            [1503929132.298][140259308811456][function:helloworld.helloworld]
+            [1503929132.298][140259308811456][response:helloworld.helloworld/[]]
+            [1503929132.298][140259308811456][result:Hello, .]
+            [1503929132.298][140259308811456][time:0.003ms]
+            [1503929132.298][140259308811456][overalltime:0.011ms]
+            Hello, .
+            Function name:^C
+            Terminated.
+            </code></pre>
+
+            <p>In diesem Beispiel wird die Funktion <code>helloworld.helloworld</code> interaktiv ausgeführt und die Ausgabe nach <code>stdout</code> geschrieben. Die Datei <code>snafu.csv</code> beinhaltet nun eine Information über den Aufruf der Funktion für eine spätere Auswertung, wie z.B. zur Verrechnung.
+            <br><br></p>
+
+            <h2>Snafu auf OpenShift / APPUiO</h2>
+
+            <p>Snafu kann in verschiedenen Modi betrieben werden. Einer davon ist die direkte Ausführung von Funktionen, welche im Filesystem gespeichert sind. Das erste Beispiel demonstriert diesen Modus, wobei die auszuführende Funktion in einer <a href="https://docs.openshift.org/latest/dev_guide/configmaps.html">ConfigMap</a> (Kubernetes Objekt zur Speicherung der Applikationskonfiguration) gespeichert und Snafu über einen Volume Mount zur Verfügung gestellt wird. Die Speicherung von Funktionen in einer ConfigMap ist als Proof-of-Concept zu verstehen, für einen produktiven Betrieb sind in diesem Beispiel wichtige Themen wie Source Code in Git, CI/CD Rollback, etc. nicht berücksichtigt.
+            <br><br>
+            Mit folgenden zwei Schritten wird eine einfache Hello World Funktion auf OpenShift deployed:</p>
+
+            <p>1 Neues OpenShift Projekt erstellen oder bei APPUiO bestellen<br>
+            2 OpenShift Template initialisieren:</p>
+
+            <pre><code>PROJECT=&lt;myproject&gt;
+            oc -n $PROJECT process -f https://raw.githubusercontent.com/serviceprototypinglab/snafu/master/openshift/snafu-template.yaml | oc -n $PROJECT create -f -
+            </code></pre>
+
+            <p>Damit ist Snafu installiert und läuft. Das Beispiel startet die Funktion helloworld.helloworld aus der ConfigMap "functions" und stellt sie auf APPUiO unter <a href="http://snafu-$project.appuioapp.ch/invoke/helloworld.helloworld">http://snafu-$PROJECT.appuioapp.ch/invoke/helloworld.helloworld</a> zur Verfügung. Um nun eigene Funktionen zu installieren, editiert man die ConfigMap "functions" und startet den Pod neu, z.B. durch Löschen oder Auslösen eines neuen Deployments. Snafu selbst ist in der ConfigMap "config" konfiguriert.
+            <br><br>
+            Ein weiterer Modus ist der sogenannte "Control Mode". In diesem verhält sich Snafu wie z.B. ein Amazon Lambda Backend und kann entsprechend mit den AWS Tools benutzt werden. Das folgende Beispiel zeigt, wie Snafu als AWS Lambda-kompatibler Dienst auf OpenShift deployed werden kann:
+            <br><br></p>
+
+            <p>1 Neues OpenShift Projekt erstellen oder bei APPUiO bestellen<br>
+            2 OpenShift Template initialisieren:</p>
+
+            <pre><code>PROJECT=&lt;myproject&gt;
+            oc -n $PROJECT process -f https://raw.githubusercontent.com/serviceprototypinglab/snafu/master/openshift/snafu-control-template.yaml | oc -n $PROJECT create -f -
+            </code></pre>
+
+            <p>3 <a href="https://github.com/aws/aws-cli">AWS CLI</a> verwenden</p>
+
+            <pre><code>aws configure
+            # AWS Access Key ID [None]: mykey
+            # AWS Secret Access Key [None]: myaccesskey
+            # Default region name [None]: invalid
+            # Default output format [None]:
+            alias aws="aws --endpoint-url http://snafu-control-$PROJECT.appuioapp.ch"
+            aws lambda list-functions
+            aws lambda invoke --function-name lambda.lambda_handler --payload '{"event": "test"}' ./test.out
+            cat test.out
+            Hello from Lambda
+            </code></pre>
+
+            <h2>Weiterführende Informationen</h2>
+
+            <p>Hat dieser Beitrag Ihr Interesse an Serverless / Functions as a Service geweckt? Gerne beantworten wir Ihre Fragen und helfen bei der Implementation: <a href="http://mailto:hello@appuio.ch">hello@appuio.ch</a> oder <a href="http://mailto:info@vshn.ch">info@vshn.ch</a>.
+            <br><br>
+            <strong>Weitere Informationen zu Snafu können hier gefunden werden:</strong></p>
+
+            <ul>
+            <li><a href="https://blog.zhaw.ch/icclab/files/2014/07/serverless-2017-jun.web_.pdf">https://blog.zhaw.ch/icclab/files/2014/07/serverless-2017-jun.web_.pdf</a>: Serverless Applications: Tools, Languages, Providers and (Research) Challenges</li>
+            <li><a href="https://arxiv.org/abs/1701.05945">https://arxiv.org/abs/1701.05945</a>: Exploiting the Cloud Control Plane for Fun and Profit</li>
+            <li><a href="https://blog.zhaw.ch/icclab/snafu-the-swiss-army-knife-of-serverless-computing/">https://blog.zhaw.ch/icclab/snafu-the-swiss-army-knife-of-serverless-computing/</a>: Snafu – The Swiss Army Knife of Serverless Computing</li>
+            <li><a href="https://blog.zhaw.ch/icclab/research-directions-for-faas/">https://blog.zhaw.ch/icclab/research-directions-for-faas/</a>: Research Directions for FaaS</li>
+            <li><a href="https://blog.zhaw.ch/icclab/running-google-cloud-functions-in-openshift/">https://blog.zhaw.ch/icclab/running-google-cloud-functions-in-openshift/</a>: Running Google Cloud Functions in OpenShift</li>
+            </ul>
+            <p><br><br>
+
 - day: 4
   month: Okt
   title: "APPUiO is proud to be mentioned in the ebook \"The State of the Kubernetes Ecosystem\" "
