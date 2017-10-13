@@ -17,7 +17,8 @@
             Weiterführende Informationen findet ihr im Buch von Jez Humble “Continuous Delivery” oder auf seiner WebPage <a href="http://www.continuousdelivery.com">continuousdelivery.com</a>.
             <br><br>
             <h4>Vorteile von Continuous Delivery</h4>
-            <b>Weniger manuelle Tasks, geringere Kosten: </b> Durch die Automatisierung des Releaseprozesses braucht es nicht mehr Stunden, um Code zu paketieren, in die Stages du deployen und manuell zu testen. Diese Schritte werden auf Knopfdruck ausgeführt und reduzieren den Aufwand massiv.<br>
+            
+            <p><b>Weniger manuelle Tasks, geringere Kosten:</b> Durch die Automatisierung des Releaseprozesses braucht es nicht mehr Stunden, um Code zu paketieren, in die Stages du deployen und manuell zu testen. Diese Schritte werden auf Knopfdruck ausgeführt und reduzieren den Aufwand massiv.<br>
             <br>
             <b>Kürzere Reaktionszeiten/Time-to-Market (schnelleres Feedback, "Fail-fast"):</b> Continuous Delivery (CD) bietet uns die Möglichkeit, täglich Features bis in die Produktion einzuspielen. Daher müssen wir nicht mehr auf ein Wartungsfenster in ferner Zukunft warten. Wir sind mit Neuigkeiten schnell am Markt, schaffen uns einen Marktvorteil, erkennen Fehler viel früher und erhalten zeitnah Rückmeldung von unseren Kunden.<br>
             <br>
@@ -31,7 +32,7 @@
             <br>
             <b>Mehr Qualität, weil Bugs frühzeitig erkannt werden:</b> Durch die automatisierten Tests (Integration, Acceptance etc.) können Fehler früher erkannt und noch bevor diese in der Produktion ankommen behoben werden. Dadurch sinkt das Risiko und die Qualität steigt.<br>
             <br>
-            <b>Umgebungen können einfach zusammengeschlossen werden:</b> Wie im folgenden Beispiel gezeigt wird, können auf APPUiO die verschiedenen Stages sehr einfach zusammengeschlossen werden. Neue Features und Bugfixes müssen nicht mehr aufwendig auf die verschiedenen Umgebungen manuell kopiert werden.<br>
+            <b>Umgebungen können einfach zusammengeschlossen werden:</b> Wie im folgenden Beispiel gezeigt wird, können auf APPUiO die verschiedenen Stages sehr einfach zusammengeschlossen werden. Neue Features und Bugfixes müssen nicht mehr aufwendig auf die verschiedenen Umgebungen manuell kopiert werden.<br></p>
             <br>
             <h4>Wie wird es gemacht? Beispiele anhand von APPUiO</h4>
             <p>Um eine Continuous Delivery Pipeline aufzusetzen und von diesen Vorteilen zu profitieren bietet APPUiO einige Werkzeuge. Mit der OpenShift Container Platform Version 3.4 wurden integrierte Build und Delivery Pipelines eingeführt. Diese technische Neuerung erlaubt es uns, Build- und Delivery-Pipelines direkt in APPUiO zu integrieren und so die volle Flexibilität und Power einer auf Jenkins basierenden Build-Infrastruktur per Knopfdruck - quasi as-a-Service - zu beziehen. Im Gegensatz zum Source to Image (S2I)-Buildverfahren, bei dem der Applikationssourcecode im Rahmen eines einzigen Steps in ein Docker Image verpackt wird, haben wir mit Pipelines die Möglichkeit, deutlich komplexere Abläufe, wie sie in der Realität oft vorkommen, zu implementieren.</p>
@@ -58,7 +59,8 @@
             Die Integration der Pipeline direkt in APPUiO sieht dann wie folgt aus:</p>
             <br>
             <img src="/images/pipeline_ocp_view2.png" alt="continuous process"/><br>
-            Und die analoge Ansicht im integrierten Jenkins:<br>
+            <br>
+            <p>Und die analoge Ansicht im integrierten Jenkins:</p><br>
             <img src="/images/pipeline_jenkins_view1.png" alt="continuous process"/>
             <br>
             <p>Auch hier sind die Vorteile vielfältig:
@@ -79,9 +81,9 @@
 
             <b>ISO-Standards, standardisierte Prozesse und Compliance</b> sind wichtige Themen in einem Unternehmen. Dadurch sind auch der Release- und Change-Prozess betroffen. Wie soll es möglich sein, täglich Releases in der Produktion einzuspielen, wenn deren Freigabe Tage dauert? Prozesse und deren Abläufe müssen, wie der Rollout selber, automatisiert und vereinfacht werden.<br>
 
-            <b>Technische Umsetzung (CI/CD ToolChain, Software Architektur):</b> Die sogenannte CI-/CD-Toolchain wird mit APPUiO mitgeliefert. Doch die technische Umsetzung betrifft auch die Applikation, welche auf APPUiO deployed werden soll. Eine Legacy Software, die nur manuell updatet werden kann, eignet sich wohl eher weniger für ein Continuous Delivery. Das 12 Factor App Manifest kann hier helfen die wichtigsten Punkte für die Entwicklung einer cloudfähigen Applikation zu berücksichtigen. </p>
+            <b>Technische Umsetzung (CI/CD ToolChain, Software Architektur):</b> Die sogenannte CI-/CD-Toolchain wird mit APPUiO mitgeliefert. Doch die technische Umsetzung betrifft auch die Applikation, welche auf APPUiO deployed werden soll. Eine Legacy Software, die nur manuell updatet werden kann, eignet sich wohl eher weniger für ein Continuous Delivery. Das 12 Factor App Manifest kann hier helfen die wichtigsten Punkte für die Entwicklung einer cloudfähigen Applikation zu berücksichtigen.</p>
             <p>Wie bereits Peter Drucker erläutert hat, ist die einzige Konstante in der Zukunft die Veränderung. Die heutige Zeit verlangt nach Agilität und schnellem Feedback. Auf Marktveränderungen muss in kurzer Zeit reagiert werden können. Für die IT ist es deshalb wichtig, Anpassungen und neue Features in kurzer Zeit in die Produktion bringen zu können - ohne dass die Qualität darunter leidet.<br>
-
+            <br>
             Durch Continuous Delivery werden nicht alle Problemfelder beseitigt, die benötigt werden, um mit der Geschwindigkeit der heutigen Zeit standhalten zu können. Ein wichtiger Teil ist auch die Kultur in einem Unternehmen, die Zusammenarbeit und die Architektur der Software. Wir unterstützen euch gerne bei der Integration von Pipelines auf APPUiO oder bei der Automatisierung und Standardisierung eures Entwicklungsprozesses. Auch im Bereich Kultur, DevOps, der Zusammenarbeit in einem Unternehmen oder der Software Architektur haben wir über die Jahre viel Erfahrung gesammelt und geben diese sehr gerne weiter.</p>
     
 
