@@ -81,6 +81,7 @@
             <br>
             <b>ISO-Standards, standardisierte Prozesse und Compliance</b> sind wichtige Themen in einem Unternehmen. Dadurch sind auch der Release- und Change-Prozess betroffen. Wie soll es möglich sein, täglich Releases in der Produktion einzuspielen, wenn deren Freigabe Tage dauert? Prozesse und deren Abläufe müssen, wie der Rollout selber, automatisiert und vereinfacht werden.<br>
             <br>
+            <h3>Fazit</h3>
             <b>Technische Umsetzung (CI/CD ToolChain, Software Architektur):</b> Die sogenannte CI-/CD-Toolchain wird mit APPUiO mitgeliefert. Doch die technische Umsetzung betrifft auch die Applikation, welche auf APPUiO deployed werden soll. Eine Legacy Software, die nur manuell updatet werden kann, eignet sich wohl eher weniger für ein Continuous Delivery. Das 12 Factor App Manifest kann hier helfen die wichtigsten Punkte für die Entwicklung einer cloudfähigen Applikation zu berücksichtigen.</p>
             <p>Wie bereits Peter Drucker erläutert hat, ist die einzige Konstante in der Zukunft die Veränderung. Die heutige Zeit verlangt nach Agilität und schnellem Feedback. Auf Marktveränderungen muss in kurzer Zeit reagiert werden können. Für die IT ist es deshalb wichtig, Anpassungen und neue Features in kurzer Zeit in die Produktion bringen zu können - ohne dass die Qualität darunter leidet.<br>
             <br>
