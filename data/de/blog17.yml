@@ -75,7 +75,7 @@
             <li>Volle Flexibilität von Jenkins Pipelines, beliebige Workflows implementierbar</li><br></p>
             
             <p>In einem technischen Blogpost werden wir zu einem späteren Zeitpunkt konkret aufzeigen, wie Pipelines in APPUiO integriert werden. Unter <a href="https://github.com/appuio/simple-openshift-pipeline-example">https://github.com/appuio/simple-openshift-pipeline-example</a> haben wir eine simple Beispiel-Pipeline abgelegt.</p>
-            <h4>Herausforderungen von Continous Delivery</h4>
+            <h3>Herausforderungen von Continous Delivery</h3>
             
             <p><b>Organisation und Kultur:</b> APPUiO bietet ein Tooling für die Automatisierung des Releaseprozesses und ist ein wichtiger Teil in dieser schnelllebigen IT-Welt. Eine solche Veränderung hat aber auch Einfluss auf eine Organisation in einem Unternehmen und auf dessen Kultur. Jahrelang wurden Firmen nach Silos aufgeteilt und jeder Mitarbeiter hatte seine spezifische Aufgabe. Nun ist die teamübergreifende Zusammenarbeit gefragt, T-Shaped Engineers, Infrastructure-as-Code usw. Der Mensch ist ein Gewohnheitstier und hat Mühe mit Veränderungen. Daher muss bei einer solchen Umstellung auch ein spezielles Augenmerk auf die Kultur gelegt werden. Ein kultureller Wandel benötigt Zeit.<br>
 
