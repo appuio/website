@@ -1,3 +1,63 @@
+- day: 13
+  month: Okt
+  title: "Continuous Delivery Pipelines auf APPUiO"
+  subtitle: "The only thing we know about the future is that it will be different. - Peter Drucker"
+  details: |
+            <p>Continuous Integration, Continuous Deployment und Continuous Delivery sind sehr populäre Begriffe in Zeiten von DevOps, der agilen Software Entwicklung und der Digitalisierung. Die genaue Bedeutung und Definition werden immer noch im Internet diskutiert. Mit diesem Blogpost möchten wir euch den Begriff Continuous Delivery näher bringen und euch aufzeigen, wie wir zusammen mit verschiedenen Kunden auf APPUiO den ganzen Prozess komplett automatisiert haben. Die Kunden sind nun in der Lage ihren Code, ihre Features und Bugfixes innerhalb von kürzester Zeit automatisch zu testen und in die Produktion zu deployen.</p>
+            <br>
+            <p>"Early and continuous delivery" von wertbringender Software - so definierte das Agile Manifesto (eine Verkündung der 12 Prinzipien der iterativen Softwareentwicklung) bereits 2001 die Zufriedenstellung des Kundens. Der Begriff Continuous Delivery steht für einen komplexen Ablauf, welcher voll automatisiert und auf Wunsch per Knopfdruck ausgeführt werden soll. Continuous Delivery soll helfen, neue Features, Konfigurationen oder Bugfixes schnell und sicher in die Produktion zu bringen. Dies erlaubt ein frühes Feedback vom Kunden und dadurch eine schnelle Reaktion auf veränderte Marktanforderungen. Der komplette Releaseprozess soll automatisiert ablaufen und dadurch reproduzierbar und auditierbar werden. Automatisierte Tests sollen dabei helfen, Fehler früh zu erkennen und zu beheben. Continuous Delivery heisst also schneller am Markt zu sein, Inhalte eines Releases zu verkleinern und dadurch das Risiko zu reduzieren. Höhere Qualität, weniger Kosten, ein besseres Produkt und glücklichere Teams sind das Resultat.</p>
+            <br>
+            <h4>Continuous Delivery hat folgende Eigenschaften:</h4>
+            <li>Vollständige Automatisierung der gesamten Pipeline vom Auschecken des Codes bis zum Deployment in die Produktion, um alle Arten von Changes, Features, Bugs, Configuration Changes etc. zuverlässig, sicher und schnell den Benutzern zur Verfügung zu stellen. Einzig die Freigabe für die Produktion wird manuell gemacht zwecks zusätzlicher Kontrolle.
+
+            <li>Jeder Commit der die CI-/CD-Pipeline erfolgreich durchläuft ist ein potentieller Release.<br></li>
+
+            <li>Im Gegensatz zu Continuous Deployment wird der Schritt vom Deployment in die Produktion manuell per Knopfdruck ausgelöst. So kann aus fachlicher oder technischer Sicht entschieden werden, welcher Release wann in Produktion geht. Im Rahmen von Continuous Deployment werden sämtliche potentielle Releases direkt und vollautomatisch in Produktion überführt. Konzepte wie Canary Releasing, Rolling Update, Blue-Green Deployment müssen in hochverfügbaren Umgebungen umgesetzt werden.<br></li>
+
+            <li>Möglichst identische Umgebungen für Entwicklung, Testing, Integration und Produktion.<br></li>
+
+            Weiterführende Informationen findet ihr im Buch von Jez Humble “Continuous Delivery” oder auf seiner WebPage continuousdelivery.com.
+            <br>
+            <h4>Vorteile von Continuous Delivery</h4><br>
+            <b>Weniger manuelle Tasks, geringere Kosten: </b> Durch die Automatisierung des Releaseprozesses braucht es nicht mehr Stunden, um Code zu paketieren, in die Stages du deployen und manuell zu testen. Diese Schritte werden auf Knopfdruck ausgeführt und reduzieren den Aufwand massiv.<br>
+
+            <b>Kürzere Reaktionszeiten/Time-to-Market (schnelleres Feedback, "Fail-fast"): Continuous Delivery (CD) bietet uns die Möglichkeit, täglich Features bis in die Produktion einzuspielen. Daher müssen wir nicht mehr auf ein Wartungsfenster in ferner Zukunft warten. Wir sind mit Neuigkeiten schnell am Markt, schaffen uns einen Marktvorteil, erkennen Fehler viel früher und erhalten zeitnah Rückmeldung von unseren Kunden.<br>
+
+            <b>Risikominimierung durch kleinere Releases und automatisierte Tests:</b> Wie z.B. der DevOps Report von Puppet empirisch nachweist, sind die Risiken durch Continuous Delivery massiv kleiner. Kleine, mehrmals täglich ausgerollte Releases, die Möglichkeit, schnell auf Probleme reagieren zu können sowie die gut dokumentierten Änderungen minimieren das Risiko drastisch. Früh erkannte Fehler sind schneller zu beheben und daher oft weniger schmerzhaft.<br>
+
+            <b>Reproduzierbarkeit dank Infrastructure as Code:</b> Durch die Automatisierung ist jede Änderung dokumentiert und kann zu jederzeit rückgängig gemacht werden. Die Infrastruktur, der Code, wird aus einem Repository gebuildet und ist daher versioniert.<br>
+
+            <b>Kundenzufriedenheit steigt:</b> Weil bereits kleinste Änderungen dem Kunden zur Verfügung gestellt werden können, kann sein Feedback kontinuierlich in die Entwicklung einfliessen. Daher erhält dieser zum Schluss auch wirklich sein gewünschtes Produkt.<br>
+
+            <b>Collaboration:</b> Die Automatisierung des Release-Prozesses ist essentiell und die Probleme bei der Auslieferung von Features haben einen wesentlichen Beitrag zur Entstehung des DevOps-Modells geliefert. Die teamübergreifende Zusammenarbeit kann wesentlich verbessert werden, was Reibungspunkte in Firmen reduziert.<br>
+
+            <b>Mehr Qualität, weil Bugs frühzeitig erkannt werden:</b> Durch die automatisierten Tests (Integration, Acceptance etc.) können Fehler früher erkannt und noch bevor diese in der Produktion ankommen behoben werden. Dadurch sinkt das Risiko und die Qualität steigt.<br>
+
+            <b>Umgebungen können einfach zusammengeschlossen werden:</b> Wie im folgenden Beispiel gezeigt wird, können auf APPUiO die verschiedenen Stages sehr einfach zusammengeschlossen werden. Neue Features und Bugfixes müssen nicht mehr aufwendig auf die verschiedenen Umgebungen manuell kopiert werden.<br>
+            
+            <h4>Wie wird es gemacht? Beispiele anhand von APPUiO</h4><br>
+            <p>Um eine Continuous Delivery Pipeline aufzusetzen und von diesen Vorteilen zu profitieren bietet APPUiO einige Werkzeuge. Mit der OpenShift Container Platform Version 3.4 wurden integrierte Build und Delivery Pipelines eingeführt. Diese technische Neuerung erlaubt es uns, Build- und Delivery-Pipelines direkt in APPUiO zu integrieren und so die volle Flexibilität und Power einer auf Jenkins basierenden Build-Infrastruktur per Knopfdruck - quasi as-a-Service - zu beziehen. Im Gegensatz zum Source to Image (S2I)-Buildverfahren, bei dem der Applikationssourcecode im Rahmen eines einzigen Steps in ein Docker Image verpackt wird, haben wir mit Pipelines die Möglichkeit, deutlich komplexere Abläufe, wie sie in der Realität oft vorkommen, zu implementieren.</p>
+            <br>
+            <p>So beinhaltet bei uns eine typische Pipeline die folgenden Schritte:</p><br>
+            
+            <li>Source Code kompilieren, Codeanalyse und Unit-Tests</li><br>
+
+            <li>Integrationstests und Paketierung (Docker Image, Java Archive)</li><br>
+
+            <li>Deployment auf eine Dev-Umgebung</li><br>
+
+            <li>Automatisierte Tests gegen dieses Deployment</li><br>
+
+            <li>Deployment auf Test-Umgebung</li><br>
+
+            <li>Systemtest</li><br>
+
+            <li>Deployment auf Produktion</li><br>
+
+            <li>Smoketests</li><br>
+            
+
+
 - day: 10
   month: Okt
   title: "Serverless Computing / Functions as a Service mit APPUiO und Snafu"
