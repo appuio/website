@@ -86,7 +86,7 @@
             <br>
             <b>Technische Umsetzung (CI/CD ToolChain, Software Architektur):</b> Die sogenannte CI-/CD-Toolchain wird mit APPUiO mitgeliefert. Doch die technische Umsetzung betrifft auch die Applikation, welche auf APPUiO deployed werden soll. Eine Legacy Software, die nur manuell updatet werden kann, eignet sich wohl eher weniger für ein Continuous Delivery. Das 12 Factor App Manifest kann hier helfen die wichtigsten Punkte für die Entwicklung einer cloudfähigen Applikation zu berücksichtigen.<br>
             <br>
-            <b>Automatisierte Tests</b> können den manuellen Aufwand massiv reduzieren und die Qualität steigern. Doch Unit, Integration und End-to-End Tests zu automatisieren sind aufwendig und müssen zum Teil mit den Änderungen am Code angepasst werden. Die Frage stellt sich auch immer, wie kann ich diese Tests automatisieren und hab ich an alle Test Cases gedacht.</p>
+            <b>Automatisierte Tests</b> können den manuellen Aufwand massiv reduzieren und die Qualität steigern. Doch Integration und End-to-End Tests zu automatisieren kann aufwendig sein und sie müssen, zum Teil, mit den Änderungen am Code angepasst werden. Die Frage stellt sich auch immer, wie kann ich diese Tests automatisieren und habe ich an alle Test Cases gedacht.</p>
             <h4>Fazit</h4>
             <p>Wie bereits Peter Drucker erläutert hat, ist die einzige Konstante in der Zukunft die Veränderung. Die heutige Zeit verlangt nach Agilität und schnellem Feedback. Auf Marktveränderungen muss in kurzer Zeit reagiert werden können. Für die IT ist es deshalb wichtig, Anpassungen und neue Features in kurzer Zeit in die Produktion bringen zu können - ohne dass die Qualität darunter leidet.<br>
             <br>
