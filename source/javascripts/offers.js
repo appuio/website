@@ -42,7 +42,9 @@ self.addEventListener('DOMContentLoaded', function() {
       .sort(function(a, b) {
         return b.size - a.size;
       })
-      .find(banner => banner.size <= value);
+      .find(function(banner) {
+        return banner.size <= value;
+      });
 
     $('.offers-package.active').removeClass('active');
     $('.offers-package--' + banner.name).addClass('active');
