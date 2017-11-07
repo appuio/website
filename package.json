@@ -1,0 +1,9 @@
+{
+  "name": "appuio-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:appuio/website.git",
+  "dependencies": {
+    "price-calculator": "github:appuio/price-calculator#v1.0.0"
+  }
+}
