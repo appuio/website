@@ -1,7 +1,6 @@
 self.addEventListener('DOMContentLoaded', function() {
-
   var ONE_MONTH = 30.5;
-  var SIZES = [ 'Bytes', 'KiB', 'MiB', 'GiB', 'TiB' ];
+  var SIZES = ['Bytes', 'KiB', 'MiB', 'GiB', 'TiB'];
   var BANNERS = [
     { name: 'small', size: 0 },
     { name: 'medium', size: 1024 * 2 },
@@ -39,9 +38,10 @@ self.addEventListener('DOMContentLoaded', function() {
   }
 
   function updateActiveBanner(value) {
-    var banner = BANNERS
-      .slice()
-      .sort(function(a, b) { return b.size - a.size; })
+    var banner = BANNERS.slice()
+      .sort(function(a, b) {
+        return b.size - a.size;
+      })
       .find(banner => banner.size <= value);
 
     $('.offers-package.active').removeClass('active');
@@ -49,10 +49,9 @@ self.addEventListener('DOMContentLoaded', function() {
   }
 
   function formatPrice(price) {
-    return price.toLocaleString(
-      getDocumentLanguage(),
-      { minimumFractionDigits: 2 }
-    );
+    return price.toLocaleString(getDocumentLanguage(), {
+      minimumFractionDigits: 2,
+    });
   }
 
   function calcPrice(memoryvalue) {
@@ -85,5 +84,4 @@ self.addEventListener('DOMContentLoaded', function() {
     var i = Math.floor(Math.log(bytes) / Math.log(1024));
     return (bytes / Math.pow(1024, i)).toFixed(precision) + ' ' + SIZES[i];
   }
-
 });
