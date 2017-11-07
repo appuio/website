@@ -38,7 +38,7 @@
     <article class="offers-package last-child">
         <div class="offers-package-ribbon is-orange text-center"><%= t(:offerDynamicAddonsPretext) %></div>
         <h3 class="offers-package-list-title m-t-2"><%= t(:offerDynamicAddonsTitle) %></h3>
-        <input class="range-slider__range" id="memoryslider" type="range" value="512" min="512" max="20480" step="512">
+        <input data-appuio-range-slider class="range-slider__range" id="memoryslider" type="range" value="512" min="512" max="20480" step="512">
         <ul class="offers-package-list cols-5">
           <li class="offers-package-item"><%= t(:offerTwoLabelCpu) %>: <span class="cpuvalue"></span> m</li>
           <li class="offers-package-item"><%= t(:offerTwoLabelMemory) %>: <span class="memoryvalue"></span></li>
