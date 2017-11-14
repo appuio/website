@@ -48,10 +48,6 @@ Responsive hotizontal menu.
   @include susy-breakpoint($break-medium) {
     overflow: visible;
   }
-  li {
-    margin: 0;
-    font-size: inherit;
-  }
 
   li.active {
     background: #FFD301;
@@ -60,7 +56,6 @@ Responsive hotizontal menu.
     }
   }
 }
-
 .nav-global {
   &.is-expanded {
     display: flex;
@@ -102,7 +97,7 @@ Responsive hotizontal menu.
     order: 2;
   }
   @include susy-breakpoint($break-large) {
-    width: 65%;
+    width: 50%;
     order: 2;
   }
 }
