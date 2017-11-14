@@ -350,9 +350,9 @@ de:
     <table class="event-table-oneyear">
       <tr>
         <th><strong>Zeit</strong></th>
-        <th><strong>Programm</strong></th>
-        <th><strong>Speaker</strong></th>
+        <th><strong>Topic</strong></th>
         <th><strong>Titel</strong></th>
+        <th><strong>Speaker</strong></th>
       </tr>
       <tr>
         <td>14:00 <br></td>
@@ -363,20 +363,21 @@ de:
       <tr>
         <td>14:30</td>
         <td>Begrüssung/Rückblick</td>
-        <td>Thomas Philipona, CTO und einer der Gründungsväter, Puzzle ITC</td>
         <td>"Rückblick auf ein Jahr APPUiO und brandneue Features"</td>
+        <td>Thomas Philipona, CTO und einer der Gründungsväter, Puzzle ITC</td>
+
       </tr>
       <tr>
         <td>14:45</td>
-        <td>DevOps und APPUiO</td>
-        <td>Tobias Weinmann, DevOps Transformation Lead SwissRe; Patrick Mathers, CEO, VSHN</td>
+        <td>DevOps Tooling mit APPUiO</td>
         <td>"Die DevOps-Reise: Kultur, Prozesse und Technologien"</td>
+        <td>Tobias Weinmann, DevOps Transformation Lead SwissRe; Patrick Mathers, CEO, VSHN</td>
       </tr>
       <tr>
         <td>15:15</td>
-        <td>Kundencase 1</td>
-        <td>Michael Gerber, Software Engineer, HRM Systems</td>
+        <td>Kundencase HRM Systems AG</td>
         <td>"Carema by HRM Systems AG"</td>
+        <td>Michael Gerber, Software Engineer, HRM Systems</td>
       </tr>
       <tr>
         <td>15:35</td>
@@ -386,21 +387,21 @@ de:
       </tr>
       <tr>
         <td>16:15</td>
-        <td>Kundencase 2</td>
-        <td>Matthias Summer, Senior System Engineer, Adcubum AG</td>
+        <td>Kundencase Adcubum AG</td>
         <td>"#crtlshift @ adcubum AG"</td>
+        <td>Matthias Summer, Senior System Engineer, Adcubum AG</td>
       </tr>
       <tr>
         <td>16:35</td>
-        <td>Kundencase 3</td>
-        <td>Bastian Widmer, System Engineer, Amazee.io</td>
+        <td>Kundencase Amazee.io</td>
         <td>"APPUiO bei Amazee.io"</td>
+        <td>Bastian Widmer, System Engineer, Amazee.io</td>
       </tr>
       <tr>
         <td>16:55</td>
         <td>Ausblick/Roadmap</td>
-        <td>Tobias Tröhler, Produkt Manager APPUiO</td>
         <td>"Die Zukunft von APPUiO"</td>
+        <td>Tobias Tröhler, Produkt Manager APPUiO</td>
       </tr>
       <tr>
         <td>17:05</td>
