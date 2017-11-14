@@ -121,18 +121,18 @@ de:
   offerOneServices2: Bring my App to the Cloud - wir beraten und setzen auch um
   offerOneServices3: "Automatisierung Ihrer Prozesse: Continuos Delivery und Continuous Deployment Ihrer Applikationen"
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
+
+
   offerOnePackageTitle: "Wählen Sie das für Ihre Bedürfnisse passende Paket:"
   offerOnePackageSmallTitle: Small
   offerOnePackageSmallItem1: Master <br> (je 16 GB Ram, 6vCores)
@@ -191,18 +191,18 @@ de:
 
   offerTwoPackageTitle: "Wählen Sie das für Ihre Bedürfnisse passende Paket:"
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
+
+
   offerTwoPackageMicroTitle: Small
   offerTwoPackageMicroItem1: CHF 49.- / Monat oder CHF 490.- / Jahr
   offerTwoPackageMicroItem2: CPU 500m
@@ -255,7 +255,7 @@ de:
   offerTwoDedicatedAddonsItem4: selbstständige Ressourcenverwaltung im Kundenportal
   offerTwoDedicatedDescription: "Auf unserer Public Platform betreiben wir für Sie auch dedizierte, private Nodes. Auf diesen werden nur Ihre eigenen Container deployed und betrieben. Dieses Angebot ist ideal für Kunden, die ihre OpenShift Projekte inkl. Ressourcen eigenständig planen und verwalten möchten."
 
-  
+
   offerTwoPackageAddonsTitle: Persistent Storage Add Ons
   offerTwoPackageAddonsPretext: Nach Verbrauch
   offerTwoPackageAddonsItem1: 10 GB CHF 6.00 / Monat
@@ -332,9 +332,9 @@ de:
     <p>Zeit: 14:00 bis 17:30 Uhr<br>
     Ort: Neugasse 10, Zürich oder Belpstrasse 37, Bern</p>
     <p>Die Teilnahme ist kostenlos. Für das Lab solltet ihr euren eigenen Laptop mitbringen. Die Platzzahl ist beschränkt.</p>
-    
-    
-    
+
+
+
 # Event Page
   eventPageTitle: Let's celebrate
   eventTitle: One Year APPUiO
@@ -342,31 +342,86 @@ de:
   eventDetails: |-
     <p>Im Herbst 2016 lancierten wir von VSHN und Puzzle ITC gemeinsam APPUiO - die erste Schweizer Container Plattform. Seither konnten wir viele Erfahrungen sammeln, unsere Plattform stetig weiterentwickeln und spannende Projekte umsetzen.</p>
     <p>Am 30. November 2017 blicken wir auf das aufregende und erfolgreiche erste Jahr zurück. Anhand von Case Studies zeigen Kunden, wie die Zukunft der Software-Entwicklung und des Betriebs mit Containern in der Praxis aussieht. Zudem präsentieren wir einige Neuerungen rund um APPUiO - seid gespannt!</p>
-    
+
     <p><strong>Wann:</strong> Donnerstag, 30. November 2017</p>
     <p><strong>Wo:</strong> Bogen F, Viaduktstrasse 97, 8005 Zürich</p>
-    
+
     <p><strong>Programm:</strong></p>
-    <p>14:00 Uhr - Eintreffen</p>
-    <p>14:30 Uhr - Begrüssung & Roadmap</p>
-    <p>14:45 Uhr - Talk: "Der Weg in die Cloud"</p>
-    <p>15:15 Uhr - Case Studies APPUiO</p>
-    <p>17:00 Uhr - Apéro & Geburstagsparty</p>
+    <table class="event-table-oneyear">
+      <tr>
+        <th><strong>Zeit</strong></th>
+        <th><strong>Topic</strong></th>
+        <th><strong>Titel</strong></th>
+        <th><strong>Speaker</strong></th>
+      </tr>
+      <tr>
+        <td>14:00 <br></td>
+        <td>Eintreffen<br></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>14:30</td>
+        <td>Begrüssung/Rückblick</td>
+        <td>"Rückblick auf ein Jahr APPUiO und brandneue Features"</td>
+        <td>Thomas Philipona, CTO und einer der Gründungsväter, Puzzle ITC</td>
+
+      </tr>
+      <tr>
+        <td>14:45</td>
+        <td>DevOps Tooling mit APPUiO</td>
+        <td>"Die DevOps-Reise: Kultur, Prozesse und Technologien"</td>
+        <td>Tobias Weinmann, DevOps Transformation Lead SwissRe; Patrick Mathers, CEO, VSHN</td>
+      </tr>
+      <tr>
+        <td>15:15</td>
+        <td>Kundencase HRM Systems AG</td>
+        <td>"Carema by HRM Systems AG"</td>
+        <td>Michael Gerber, Software Engineer, HRM Systems</td>
+      </tr>
+      <tr>
+        <td>15:35</td>
+        <td>Kaffeepause</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>16:15</td>
+        <td>Kundencase Adcubum AG</td>
+        <td>"#crtlshift @ adcubum AG"</td>
+        <td>Matthias Summer, Senior System Engineer, Adcubum AG</td>
+      </tr>
+      <tr>
+        <td>16:35</td>
+        <td>Kundencase Amazee.io</td>
+        <td>"APPUiO bei Amazee.io"</td>
+        <td>Bastian Widmer, System Engineer, Amazee.io</td>
+      </tr>
+      <tr>
+        <td>16:55</td>
+        <td>Ausblick/Roadmap</td>
+        <td>"Die Zukunft von APPUiO"</td>
+        <td>Tobias Tröhler, Produkt Manager APPUiO</td>
+      </tr>
+      <tr>
+        <td>17:05</td>
+        <td>Apéro</td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
     <br>
     <p>Alle Präsentationen sind in deutscher Sprache</p>
     <p><iframe frameborder='0' style='width: 550px;' src='https://app.hatchbuck.com/OnlineForm/72664443500' scrolling='no' height='550px'></iframe></p>
     <br>
     <p>Wir freuen uns auf dich!</p>
-    
+
     <p>Liebe Grüsse</p>
     <p>Dein APPUiO-Team</p>
     <hr>
-    
+
   eventDetails2: |-
     <p>Dieser APPUiO-Event wird unterstützt von RedHat Schweiz - herzlichen Dank!</p>
     <hr>
-    
+
     <p><a href="https://app.hatchbuck.com/OnlineForm/72664443501">Möchtest du dich wieder abmelden?</a></p>
-    
-    
-    
