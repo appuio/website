@@ -14,7 +14,7 @@ require 'builder'
 
 activate :external_pipeline,
   name: :price_calculator,
-  command: 'sh node-deps.sh',
+  command: 'sh price-calc.sh',
   source: 'tmp/price-calculator',
   latency: 1
 
