@@ -196,8 +196,8 @@ de:
   offerTwoLabelMemory: "Memory"
   offerTwoLabelCpu: "CPU"
   offerTwoLabelPreis: "Preis"
-  offerTwoLabelPreisPerDay: "CHF pro Tag"
-  offerTwoLabelPreisPerMonth: "CHF pro Monat"
+  offerTwoLabelPreisPerDay: "pro Tag"
+  offerTwoLabelPreisPerMonth: "pro Monat"
   offerPackageDedicatedInfo: "Info: allenfalls macht für Sie ein Dedicated Node Sinn"
 
   offerTwoCPUDescription: Die CPU Resourcen werden als KCU (Kubernetes Compute Units) normalisiert, so entsprechen CPU 1000m ungefähr einem single hyperthreaded CPU Kern.
