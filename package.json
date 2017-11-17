@@ -4,6 +4,6 @@
   "main": "index.js",
   "repository": "git@github.com:appuio/website.git",
   "dependencies": {
-    "price-calculator": "github:appuio/price-calculator#v1.0.0"
+    "price-calculator": "github:appuio/price-calculator#v2.0.1"
   }
 }
