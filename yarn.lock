@@ -2,6 +2,6 @@
 # yarn lockfile v1
 
 
-"price-calculator@github:appuio/price-calculator#v1.0.0":
-  version "1.0.0"
-  resolved "https://codeload.github.com/appuio/price-calculator/tar.gz/f61f7a9b043267c02cb97d66f7b1961e35729243"
+"price-calculator@github:appuio/price-calculator#v2.0.1":
+  version "2.0.1"
+  resolved "https://codeload.github.com/appuio/price-calculator/tar.gz/a432a4498702dbb9dbfba8677d0b2ebdb871ef98"
