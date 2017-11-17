@@ -12,18 +12,18 @@ page '/*.txt', layout: false
 # General configuration
 require 'builder'
 
+activate :external_pipeline,
+  name: :price_calculator,
+  command: 'sh node-deps.sh',
+  source: 'tmp/price-calculator',
+  latency: 1
+
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload, livereload_css_target: 'stylesheets/main.css.scss'
   activate :autoprefixer do |config|
     config.browsers = ['last 3 versions', 'Explorer >= 9']
   end
-
-  activate :external_pipeline,
-    name: :price_calculator,
-    command: 'sh node-deps.sh',
-    source: 'tmp/price-calculator',
-    latency: 1
 end
 
 # Build-specific configuration
