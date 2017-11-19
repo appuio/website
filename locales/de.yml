@@ -409,10 +409,11 @@ de:
         <td></td>
         <td></td>
       </tr>
+
     </table>
     <br>
     <p>Alle Präsentationen sind in deutscher Sprache</p>
-    <p><iframe frameborder='0' style='width: 550px;' src='https://app.hatchbuck.com/OnlineForm/72664443500' scrolling='no' height='550px'></iframe></p>
+    <p><iframe frameborder='0' class='appuio-event-form' src='https://app.hatchbuck.com/OnlineForm/72664443500' scrolling='no'></iframe></p>
     <br>
     <p>Wir freuen uns auf dich!</p>
 
