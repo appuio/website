@@ -6,8 +6,8 @@
   display: flex;
   flex-flow: row wrap;
   align-items: stretch;
+  justify-content: center;
   @include susy-breakpoint($break-medium) {
-    @include span(6 of 12);
     &:last-child {
       @include last;
     }
@@ -26,16 +26,18 @@
 }
 .technology-item {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: stretch;
   justify-content: center;
   text-align: center;
-  width: rem-calc(60);
+  width: rem-calc(156);
   min-height: rem-calc(64);
-  background: #002F47;
-  color: white;
-  border: 2px solid white;
   box-sizing: border-box;
-  border-radius: 1px;
+  margin-bottom: rem-calc(20);
+  .font-icon {
+    font-size: 3rem;
+    color: $color-blue;
+  }
 
   &.is-empty {
     background: transparent;
@@ -47,6 +49,9 @@
   &.is-turkis {
     color: #000;
     background: #15B0BF;
+    &::before {
+      content: "\f155";
+    }
   }
   &.is-turkislight {
     color: #000;
