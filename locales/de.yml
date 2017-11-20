@@ -58,7 +58,7 @@ de:
   homeOfferDesc: Unser APPUiO Angebot wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
 
 # Home: Feature Section
-  homeFeatureTitle: Features
+  homeFeatureTitle: Mehr als Openshift
   homeFeatureDesc: OpenShift Container Platform ist die PaaS des Open Source Marktführers Red Hat. OpenShift V3 setzt auf moderne Open Source Konzepte wie Docker Container und Kubernetes.
   homeFeatureDockerTitle: Docker
   homeFeatureDockerDesc: Docker ist die offene Plattform für Entwickler und Sysadmins und ihre Applikationen. Wählen Sie das für Ihre Technologie passende Basis-Docker-Image aus, OpenShift baut für Sie nach jedem Build automatisch einen aktualisierten Docker-Container und deployt ihn auf Wunsch auch gleich.
@@ -80,6 +80,19 @@ de:
   homeFeatureEncryptTitle: Lets Encrypt SSL/TLS Routen auf Knopfdruck
   homeFeatureEncryptDesc: APPUiO erlaubt es ihnen mittels Lets Encrypt einfach per Knopfdruck echte SSL Zertifikate in ihren Routen zu konfigurieren. Nach erfolgter Registrierung sorgt APPUiO für die Aktualisierung der Lets Encrypt Zertifikate, welche nur 3 Monate gültig sind, und ersetzt diese automatisch nach Ablauf. Sie müssen sich danach nicht mehr darum kümmern.
   homeFeatureEncryptAlt: Lets Encrypt SSL/TLS Routen auf Knopfdruck
+
+# Home: Clients
+  homeClientsTitle: Kunden lieben es
+  homeClientsOneTitle: „Wir erleben mit Appuio eine vertrauensvolle und gelungene Zusammenarbeit.“
+  homeClientsOneDesc: Michael Müller, CTO XYZ
+  homeClientsTwoTitle: „Wir erleben mit Appuio eine vertrauensvolle und gelungene Zusammenarbeit.“
+  homeClientsTwoDesc: Michael Müller, CTO XYZ
+  homeClientsThreeTitle: „Wir erleben mit Appuio eine vertrauensvolle und gelungene Zusammenarbeit.“
+  homeClientsThreeDesc: Michael Müller, CTO XYZ
+
+
+# Home: Technologies sections
+  homeTechnologiesTitle: Eine Plattform, Alle Technologien
 
 # Home: Contact Section
   homeContactTitle: Kontakt

@@ -3,7 +3,7 @@
 fr:
   metaDescription: Eine Platform as a Service für das Design, die Entwicklung und den Betrieb Ihrer Anwendung.
   metaKeywords: OpenShift, cluster, PaaS, Docker, Kubernetes, Swiss, Schweiz, Enterprise, Platform as a Service, VSHN AG, Puzzle ITC GmbH,
-  
+
   navOverview: Découvrir
   navOffers: L'offre
   navGlobalBlog: Blog
@@ -47,6 +47,18 @@ fr:
   homeFeatureSecureTitle: Secured container
   homeFeatureSecureDesc: Sichere Plattform dank SELinux von Red Hat Enterprise Linux. Datenhaltung in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz.
   homeFeatureSecureAlt: Safe container with a swiss  éàlkja locker
+
+# Home: Clients
+  homeClientsTitle: Kunden lieben es
+  homeClientsOneTitle: „Wir erleben mit Appuio eine vertrauensvolle und gelungene Zusammenarbeit.“
+  homeClientsOneDesc: Michael Müller, CTO XYZ
+  homeClientsTwoTitle: „Wir erleben mit Appuio eine vertrauensvolle und gelungene Zusammenarbeit.“
+  homeClientsTwoDesc: Michael Müller, CTO XYZ
+  homeClientsThreeTitle: „Wir erleben mit Appuio eine vertrauensvolle und gelungene Zusammenarbeit.“
+  homeClientsThreeDesc: Michael Müller, CTO XYZ
+
+# Home: Technologies sections
+  homeTechnologiesTitle: Technologien
 
   homeContactTitle: Contact
   homeContactDesc: Gerne treten wir mit Ihnen in Kontakt. Bitte geben Sie uns an, wie wir Sie am besten erreichen können. Ihre Daten behandeln wir vertraulich und werden nicht an Dritte weitergegeben.

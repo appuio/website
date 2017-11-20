@@ -71,6 +71,19 @@ en:
   homeFeatureEncryptTitle: Lets Encrypt SSL/TLS Routes at the touch of a button
   homeFeatureEncryptDesc: APPUiO allows you to easily configure real SSL certificates in your routes (ihre Routen) by way of Lets Encrypt. After registration has taken place APPUIO monitors and updates (Aktualisierung) the Lets Encrypt certificates, which are only valid 3 months, and replaces them after they've expired. You no longer have to worry about them.
   homeFeatureEncryptAlt: Lets Encrypt SSL/TLS Routes at the touch of a button
+
+# Home: Clients
+  homeClientsTitle: Kunden lieben es
+  homeClientsOneTitle: „Wir erleben mit Appuio eine vertrauensvolle und gelungene Zusammenarbeit.“
+  homeClientsOneDesc: Michael Müller, CTO XYZ
+  homeClientsTwoTitle: „Wir erleben mit Appuio eine vertrauensvolle und gelungene Zusammenarbeit.“
+  homeClientsTwoDesc: Michael Müller, CTO XYZ
+  homeClientsThreeTitle: „Wir erleben mit Appuio eine vertrauensvolle und gelungene Zusammenarbeit.“
+  homeClientsThreeDesc: Michael Müller, CTO XYZ
+
+# Home: Technologies sections
+  homeTechnologiesTitle: Technologien
+
 # Home: Contact Section
   homeContactTitle: Contact
   homeContactDesc: We would love to get in touch with you! Do let us know how we can reach you. Your data will be kept confidentially, and will not be shared with third parties.
@@ -234,7 +247,7 @@ en:
   offerTwoDedicatedDescription: "We are now offering dedicated, private nodes on our Public Platform. Only your containers will be organized and deployed in this space. This offer is ideal for customers that want to independently plan and manage their OpenShift projects."
 
 
-  
+
   offerTwoPackageAddonsTitle: Persistent Storage Add Ons
   offerTwoPackageAddonsPretext: By usage
   offerTwoPackageAddonsItem1: 10 GB CHF 6.00
