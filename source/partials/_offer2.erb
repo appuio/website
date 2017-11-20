@@ -40,7 +40,7 @@
         <h3 class="offers-package-list-title m-t-2"><%= t(:offerDynamicAddonsTitle) %></h3>
         <input data-appuio-range-slider class="range-slider__range" id="memoryslider" type="range" value="512" min="512" max="20480" step="512">
         <ul class="offers-package-list cols-5">
-          <li class="offers-package-item"><%= t(:offerTwoLabelCpu) %>: <span class="cpuvalue"></span> m</li>
+          <li class="offers-package-item"><%= t(:offerTwoLabelCpu) %>: <span class="cpuvalue"></span></li>
           <li class="offers-package-item"><%= t(:offerTwoLabelMemory) %>: <span class="memoryvalue"></span></li>
         </ul>
         <div class="offers-package-price">
@@ -170,7 +170,7 @@
           <p class="contract-hint"><%= t(:offerTwoLabelMemory) %>: <span class="memoryvalue"></span></p>
         </div>
         <div class="interest-item">
-          <p class="contract-hint"><%= t(:offerTwoLabelCpu) %>: <span class="cpuvalue"></span>m</p>
+          <p class="contract-hint"><%= t(:offerTwoLabelCpu) %>: <span class="cpuvalue"></span></p>
         </div>
         <div class="interest-item interest-item-price">
           <p class="contract-hint"><%= t(:offerTwoLabelPreis) %>:</p>
@@ -217,4 +217,4 @@
     </form>
   </div>
 </section>
-<%= javascript_include_tag 'price-calculator-1.0.0.min.js' %>
+<%= javascript_include_tag 'price-calculator-2.0.1.min.js' %>
