@@ -35,13 +35,19 @@ de:
   homeHeroDesc: APPUiO - die Schweizer Container Plattform von Entwicklern für Entwickler. APPUiO basiert auf der “next generation PaaS” OpenShift Container Platform von Red Hat. Auf der Basis bewährter Open Source Konzepte wie Docker und Kubernetes entwickeln, betreiben und skalieren Sie Ihre Anwendung passend auf Ihre Bedürfnisse. Mit dieser Technologie können Applikationen sowohl auf Public Clouds als auch unternehmensintern betrieben werden.
 
 # Home: Vorteile
-  homeAdvantagesTitle: Wieso APPUiO?
+  homeAdvantagesTitle: Vorteile
   homeAdvantagesOneTitle: Managed Private APPUiO
   homeAdvantagesOneDesc: Sie wollen eine eigene private APPUiO Instanz nutzen, die auf unserer Infrastruktur läuft? Wir deployen und betreiben die auf Ihre Bedürfnisse massgeschneiderte Lösung.
   homeAdvantagesTwoTitle: Public Platform
   homeAdvantagesTwoDesc: Sie brauchen kurzfristig standardisierte Entwicklungsumgebungen oder möchten Ihre produktiven Applikationen in eine Schweizer Cloud deployen?
   homeAdvantagesThreeTitle: On-Premises APPUiO
   homeAdvantagesThreeDesc: Ihre PaaS in Ihrem Rechenzentrum, optimal integriert in Ihre Infrastruktur. Wir begleiten Sie von der Idee über die Umsetzung und falls gewünscht bis zum Betrieb.
+  homeAdvantagesFourTitle: Managed Private APPUiO
+  homeAdvantagesFourDesc: Sie wollen eine eigene private APPUiO Instanz nutzen, die auf unserer Infrastruktur läuft? Wir deployen und betreiben die auf Ihre Bedürfnisse massgeschneiderte Lösung.
+  homeAdvantagesFiveTitle: Public Platform
+  homeAdvantagesFiveDesc: Sie brauchen kurzfristig standardisierte Entwicklungsumgebungen oder möchten Ihre produktiven Applikationen in eine Schweizer Cloud deployen?
+  homeAdvantagesSixTitle: On-Premises APPUiO
+  homeAdvantagesSixDesc: Ihre PaaS in Ihrem Rechenzentrum, optimal integriert in Ihre Infrastruktur. Wir begleiten Sie von der Idee über die Umsetzung und falls gewünscht bis zum Betrieb.
 
 # Home: Angebotsbereich
   homeOfferTitle: Angebot
@@ -60,32 +66,28 @@ de:
 # Home: Feature Section
   homeFeatureTitle: Mehr als Openshift
   homeFeatureDesc: OpenShift Container Platform ist die PaaS des Open Source Marktführers Red Hat. OpenShift V3 setzt auf moderne Open Source Konzepte wie Docker Container und Kubernetes.
-  homeFeatureDockerTitle: Docker
-  homeFeatureDockerDesc: Docker ist die offene Plattform für Entwickler und Sysadmins und ihre Applikationen. Wählen Sie das für Ihre Technologie passende Basis-Docker-Image aus, OpenShift baut für Sie nach jedem Build automatisch einen aktualisierten Docker-Container und deployt ihn auf Wunsch auch gleich.
-  homeFeatureKubernetesTitle: Kubernetes
-  homeFeatureKubernetesDesc: Container orchestrieren und managen mit Kubernetes von Google. Sie definieren wie viele Instanzen Ihrer Applikation parallel laufen sollen, Kubernetes kümmert sich um die Skalierung, das Loadbalancing und die Stabilität.
-  homeFeatureOnDemandTitle: On-Demand Entwicklungs- und Laufzeitumgebung
-  homeFeatureOnDemandAlt: Ein Container welche alle Technologien in sich vereint
-  homeFeatureOnDemandDesc: Mit APPUiO erstellen Sie neue Umgebungen per Knopfdruck. Es stehen eine Vielzahl an Technologien und Plattformen "out of the Box" zur Verfügung. Docker als Grundtechnologie hinter APPUiO bringt ein ganzes Ökosystem an zusätzlichen Laufzeitumgebungen und Frameworks mit. Eine Auswahl davon ist in der folgenden Aufstellung zu finden. <br/>
+  homeFeatureCommunityTitle: Community
+  homeFeatureCommunityAlt: Ein Container welche alle Technologien in sich vereint
+  homeFeatureCommunityDesc: Mit APPUiO erstellen Sie neue Umgebungen per Knopfdruck. Es stehen eine Vielzahl an Technologien und Plattformen "out of the Box" zur Verfügung. Docker als Grundtechnologie hinter APPUiO bringt ein ganzes Ökosystem an zusätzlichen Laufzeitumgebungen und Frameworks mit. Eine Auswahl davon ist in der folgenden Aufstellung zu finden. <br/>
   homeFeatureLanguagesTitle: Plattformen
   homeFeatureDatabasesTitle: Datenbanken
-  homeFeatureCycleTitle: Automatisierte Prozesse
-  homeFeatureCycleAlt: Cycle - Build, Ship, Run, Operate
-  homeFeatureCycleDesc: APPUiO ermöglicht es, den gesamten Prozess von der Entwicklung bis in die Produktion zu automatisieren. Wir kümmern uns um den Betrieb der Plattform und helfen Ihnen so, Ihre Prozesse zu automatisieren. Nutzen Sie APPUiO als Ihre Container Runtime und deployen und betreiben Sie damit Ihren Container Workload.
+  homeFeatureConsultingTitle: Alles aus einer Hand
+  homeFeatureConsultingAlt: Cycle - Build, Ship, Run, Operate
+  homeFeatureConsultingDesc: APPUiO ermöglicht es, den gesamten Prozess von der Entwicklung bis in die Produktion zu automatisieren. Wir kümmern uns um den Betrieb der Plattform und helfen Ihnen so, Ihre Prozesse zu automatisieren. Nutzen Sie APPUiO als Ihre Container Runtime und deployen und betreiben Sie damit Ihren Container Workload.
   homeFeatureOpenSourceTitle: Open Source
   homeFeatureOpenSourceDesc: OpenShift, Docker, Kubernetes und weitere Komponenten hinter APPUiO sind Open Source. Diese Offenheit wollen wir übernehmen, indem wir Dokumentationen zu APPUiO der Community zur Verfügung stellen. Die quelloffene Software, die Anwendung offener Standards sowie die frei zugängliche Dokumentation garantieren Ihnen die grösstmögliche Anbieterunabhängigkeit und bewahren Sie vor einem Vendor Lock-in. Weitere Informationen zum Open Source Projekt hinter OpenShift finden Sie auf <a target="_new" href="https://www.openshift.org">openshift.org</a>.
-  homeFeatureSecureTitle: Secured container
-  homeFeatureSecureDesc: Sichere Plattform dank SELinux von Red Hat Enterprise Linux. Datenhaltung in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz.
-  homeFeatureSecureAlt: Safe container with a swiss locker
+  homeFeatureAddonsTitle: Add-ons
+  homeFeatureAddonsDesc: Sichere Plattform dank SELinux von Red Hat Enterprise Linux. Datenhaltung in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz.
+  homeFeatureAddonsAlt: Safe container with a swiss locker
   homeFeatureEncryptTitle: Lets Encrypt SSL/TLS Routen auf Knopfdruck
   homeFeatureEncryptDesc: APPUiO erlaubt es ihnen mittels Lets Encrypt einfach per Knopfdruck echte SSL Zertifikate in ihren Routen zu konfigurieren. Nach erfolgter Registrierung sorgt APPUiO für die Aktualisierung der Lets Encrypt Zertifikate, welche nur 3 Monate gültig sind, und ersetzt diese automatisch nach Ablauf. Sie müssen sich danach nicht mehr darum kümmern.
   homeFeatureEncryptAlt: Lets Encrypt SSL/TLS Routen auf Knopfdruck
 
 # Home: Clients
   homeClientsTitle: Kunden lieben es
-  homeClientsOneTitle: „Wir erleben mit Appuio eine vertrauensvolle und gelungene Zusammenarbeit.“
+  homeClientsOneTitle: „Mit APPUiO verbindet uns eine langjährige Partnerschaft basierend auf gleichen Werten.“
   homeClientsOneDesc: Michael Müller, CTO XYZ
-  homeClientsTwoTitle: „Wir erleben mit Appuio eine vertrauensvolle und gelungene Zusammenarbeit.“
+  homeClientsTwoTitle: „Dank APPUiO arbeiten wir effizienter und besser im Team.“
   homeClientsTwoDesc: Michael Müller, CTO XYZ
   homeClientsThreeTitle: „Wir erleben mit Appuio eine vertrauensvolle und gelungene Zusammenarbeit.“
   homeClientsThreeDesc: Michael Müller, CTO XYZ

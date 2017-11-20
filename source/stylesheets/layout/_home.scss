@@ -13,17 +13,16 @@
   }
 }
 .home-hero-illus {
-  padding: rem-calc(80 0 160);
-  background-image: url('/images/container.png');
-  @include image-2x("/images/container@2x.png", auto, 100%);
+  height: 62vw;
+  background-image: url('/images/landscape.svg');
   background-repeat: no-repeat;
-  background-position: bottom center;
-  background-size: auto 100%;
+  background-position: top center;
+  background-size: 100% auto;
   @include susy-breakpoint($break-medium) {
-    padding: rem-calc(120 0 240);
+    height: 53vw;
   }
   @include susy-breakpoint($break-large) {
-    padding: rem-calc(180 0 360);
+    height: 50vw;
   }
 }
 .home-hero-cta {
@@ -31,6 +30,7 @@
   padding: rem-calc(24);
 }
 .home-hero-logo {
+  display: none;
   width: 370px;
   max-width: 60%;
   @include susy-breakpoint($break-medium) {
@@ -67,7 +67,7 @@
   background-color: #15B0BF;
   background-repeat: no-repeat;
   background-position: top right;
-  padding: rem-calc(200 0 100);
+  padding: rem-calc(100 0);
   color: white;
   text-align: center;
 }
@@ -120,28 +120,47 @@
   }
 }
 
-// Advantages
+// Clients
 // ----------------------------------------------
 .home-clients {
   text-align: center;
-  overflow: hidden;
-
+  padding: 6.25rem 0;
   .callout-item {
     background-color: transparent;
     .callout-title {
-      min-height: 0;
+      min-height: auto;
       margin-bottom: 0px;
       color: $color-blue;
+      overflow: visible;
+    }
+    .callout-desc {
+      min-height: auto;
     }
   }
 
-}
-.home-clients-desc {
-  @include susy-breakpoint($break-medium) {
-    @include span(10 of 12);
-    @include squish(1, 1);
+  .clientlogo-group {
+    margin-top: rem-calc(10);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: center;
+
+  .clientlogo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    width: rem-calc(60);
+    box-sizing: border-box;
+    margin: rem-calc(20) rem-calc(40);
+    img {
+      width: 100%;
+      height: auto;
+    }
+    }
   }
 }
+
 
 // Technologies
 // ----------------------------------------------
