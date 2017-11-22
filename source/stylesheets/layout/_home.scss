@@ -261,12 +261,14 @@
   justify-content: space-around;
   display: flex;
   flex-flow: row wrap;
+  text-align: left;
 
   ul {
-    padding: 10px;
-    text-align: left;
     width: 50%;
     word-wrap:break-word;
+    flex: 1 auto;
+    justify-content: space-around;
+    display: flex;
   }
 
 
