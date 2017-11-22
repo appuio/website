@@ -66,14 +66,16 @@ de:
     <table class="home-table-usps">
       <tbody>
         <tr>
-          <td>Architektur</td>
-          <td>Setup</td>
-          <td>Betrieb</td>
+          <td><li>Architektur</li></td>
+          <td><li>3rd Level Support</li></td>
         </tr>
         <tr>
-          <td>3rd Level Support</td>
-          <td>Schulungen zu Betrieb und Monitoring von OpenShift und Container</td>
-          <td>Consulting zu Apps in die Cloud, DevOps, Automatisierung usw.</td>
+          <td><li>Setup</li></td>
+          <td><li>Schulungen zu Betrieb und Monitoring von OpenShift und Container</li></td>
+        </tr>
+        <tr>
+          <td><li>Betrieb</li></td>
+          <td><li>Consulting zu Apps in die Cloud, DevOps, Automatisierung usw.</li></td>
         </tr>
       </tbody>
     </table>
@@ -85,12 +87,12 @@ de:
     <table class="home-table-usps">
       <tbody>
         <tr>
-          <td>Backup, Monitoring Loggging</td>
-          <td>Lets Encrypt, SE Linux</td>
+          <td><li>Backup, Monitoring Loggging</li></td>
+          <td><li>Lets Encrypt, SE Linux</li></td>
         </tr>
         <tr>
-          <td>Multi Stage Builds</td>
-          <td>SaaS (3Scale, WAF)</td>
+          <td><li>Multi Stage Builds</li></td>
+          <td><li>SaaS (3Scale, WAF)</li></td>
         </tr>
       </tbody>
     </table>
