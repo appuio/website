@@ -63,12 +63,25 @@ de:
   homeFeatureConsultingDesc: |-
     Wir begleiten unsere Kunden über die gesamte Wertschöpfungskette ihrer Plattform und Applikation - von der Planung, über den Aufbau bis hin zum Betrieb. Zusätzlich stehen wir mit unserer langjährigen Erfahrung mit der Container-Technologie beratend zur Seite. Die Zusammenarbeit gestaltet sich modular und unsere Services können individuell oder gruppiert bezogen werden. 
     Wir bieten:
-    <li>Architektur</li>
-    <li>Setup</li>
-    <li>Betrieb</li>
-    <li>3rd Level Support</li>
-    <li>Schulungen zu Betrieb und Monitoring von OpenShift und Container</li>
-    <li>Consulting zu Apps in die Cloud, DevOps, Automatisierung usw.</li>
+     <div class="grid-container">
+      <h2 class="home-advantages-title"><%= t(:homeAdvantagesTitle) %></h2>
+      <ul class="home-advantages-list callout-list">
+        <li class="callout-item advantage1-image">
+          <p class="callout-desc">    
+            <li>Architektur</li>
+            <li>Setup</li>
+            <li>Betrieb</li>
+          </p>
+        </li>
+        <li class="callout-item advantage3-image">
+          <p class="callout-desc">
+              <li>3rd Level Support</li>
+              <li>Schulungen zu Betrieb und Monitoring von OpenShift und Container</li>
+              <li>Consulting zu Apps in die Cloud, DevOps, Automatisierung usw.</li>
+          </p>
+        </li>
+      </ul>
+    </div>
   homeFeatureOpenSourceTitle: Open Source
   homeFeatureOpenSourceDesc: OpenShift, Docker, Kubernetes und weitere Komponenten hinter APPUiO sind Open Source. Diese Offenheit wollen wir übernehmen, indem wir Dokumentationen zu APPUiO der Community zur Verfügung stellen. Die quelloffene Software, die Anwendung offener Standards sowie die frei zugängliche Dokumentation garantieren Ihnen die grösstmögliche Anbieterunabhängigkeit und bewahren Sie vor einem Vendor Lock-in. Weitere Informationen zum Open Source Projekt hinter OpenShift finden Sie auf <a target="_new" href="https://www.openshift.org">openshift.org</a>.
   homeFeatureAddonsTitle: Add-ons
