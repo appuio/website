@@ -63,19 +63,17 @@ de:
   homeFeatureConsultingDesc: |-
     Wir begleiten unsere Kunden über die gesamte Wertschöpfungskette ihrer Plattform und Applikation - von der Planung, über den Aufbau bis hin zum Betrieb. Zusätzlich stehen wir mit unserer langjährigen Erfahrung mit der Container-Technologie beratend zur Seite. Die Zusammenarbeit gestaltet sich modular und unsere Services können individuell oder gruppiert bezogen werden. 
     Wir bieten:
-    <table class="event-table-oneyear">
+    <table class="home-table-usps">
       <tbody>
         <tr>
-          <td>
-            <li>Architektur</li>
-            <li>Setup</li>
-            <li>Betrieb</li>
-          </td>
-          <td>
-            <li>3rd Level Support</li>
-            <li>Schulungen zu Betrieb und Monitoring von OpenShift und Container</li>
-            <li>Consulting zu Apps in die Cloud, DevOps, Automatisierung usw.</li>
-          </td>
+          <td>Architektur</td>
+          <td>Setup</td>
+          <td>Betrieb</td>
+        </tr>
+        <tr>
+          <td>3rd Level Support</td>
+          <td>Schulungen zu Betrieb und Monitoring von OpenShift und Container</td>
+          <td>Consulting zu Apps in die Cloud, DevOps, Automatisierung usw.</td>
         </tr>
       </tbody>
     </table>
@@ -84,17 +82,15 @@ de:
   homeFeatureAddonsTitle: Add-ons
   homeFeatureAddonsDesc: |-
     Wir verbessern APPUiO kontinuierlich und entwickeln neue Features. Diese Erweiterungen stellen wir in Form von Add Ons allen Kunden zur Verfügung und helfen bei der Integration. Aktuell stehen folgende Add Ons zur Verfügung:
-    <table class="event-table-oneyear">
+    <table class="home-table-usps">
       <tbody>
         <tr>
-          <td>
-            <li>Backup, Monitoring Loggging</li>
-            <li>Lets Encrypt, SE Linux</li>
-          </td>
-          <td>
-            <li>Multi Stage Builds</li>
-            <li>SaaS (3Scale, WAF)</li>
-          </td>
+          <td>Backup, Monitoring Loggging</td>
+          <td>Lets Encrypt, SE Linux</td>
+        </tr>
+        <tr>
+          <td>Multi Stage Builds</td>
+          <td>SaaS (3Scale, WAF)</td>
         </tr>
       </tbody>
     </table>
