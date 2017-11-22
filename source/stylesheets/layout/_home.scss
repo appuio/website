@@ -256,9 +256,11 @@
 // ----------------------------------------------
 
 .home-table-usps {
-  border-collapse: collapse;
   width: 100%;
-  
+  flex: 1 auto;
+  justify-content: space-around;
+  display: flex;
+  flex-flow: row wrap;
 
   th, td {
     padding: 10px;
