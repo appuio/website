@@ -84,10 +84,6 @@ de:
   homeFeatureAddonsTitle: Add-ons
   homeFeatureAddonsDesc: |-
     Wir verbessern APPUiO kontinuierlich und entwickeln neue Features. Diese Erweiterungen stellen wir in Form von Add Ons allen Kunden zur Verfügung und helfen bei der Integration. Aktuell stehen folgende Add Ons zur Verfügung:
-    <li></li>
-    <li></li>
-    <li></li>
-    <li>S</li>
     <table class="event-table-oneyear">
       <tbody>
         <tr>
@@ -97,7 +93,7 @@ de:
           </td>
           <td>
             <li>Multi Stage Builds</li>
-            <li>aaS (3Scale, WAF)</li>
+            <li>SaaS (3Scale, WAF)</li>
           </td>
         </tr>
       </tbody>
