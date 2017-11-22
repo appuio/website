@@ -27,70 +27,85 @@ de:
 # Home Seite
   homeNewsTitle: News
   homeNewsText: |-
-    One Year APPUiO – hier geht es zur Anmeldung <a href="event.html">&gt;&gt;</a>.
+    Die APPUiO Roadmap, hilf mit die Zukunft von APPUiO zu bestimmen<a href="https://trello.com/b/kpVq53J2/appuio-roadmap">&gt;&gt;</a>.
   homeHeroAlt: APPUiO - Swiss Container Platform
-  homeHeroTitle: |-
-    Eine Plattform für das Design, die Entwicklung und den Betrieb Ihrer Anwendung. Betreiben Sie Ihren Container Workload auf APPUiO.
+  homeHeroTitle: 
   homeHeroSignup: Für Public Platform anmelden
-  homeHeroDesc: APPUiO - die Schweizer Container Plattform von Entwicklern für Entwickler. APPUiO basiert auf der “next generation PaaS” OpenShift Container Platform von Red Hat. Auf der Basis bewährter Open Source Konzepte wie Docker und Kubernetes entwickeln, betreiben und skalieren Sie Ihre Anwendung passend auf Ihre Bedürfnisse. Mit dieser Technologie können Applikationen sowohl auf Public Clouds als auch unternehmensintern betrieben werden.
+  homeHeroDesc: |-
+    <p>APPUiO ist die erste Schweizer Container Plattform basierend auf OpenShift von Red Hat. Auf Basis bewährter Open Source Konzepte wie Docker und Kubernetes entwickelst, betreibst und skalierst du eine Anwendung nach deinen Bedürfnissen. Mit APPUiO können deine Applikationen sowohl auf Public Clouds als auch unternehmensintern betrieben werden.</p>
+    <p>Die Plattform wurde von den beiden IT-Spezialisten <a href="https://www.puzzle.ch/de/">Puzzle ITC</a> und <a href="https://vshn.ch/">VSHN AG</a> ursprünglich für die Professionalisierung der internen IT entwickelt. Heute wird APPUiO bereits von etlichen Kunden produktiv eingesetzt und wird von einer starken Community gestützt.</p>
 
 # Home: Vorteile
   homeAdvantagesTitle: Vorteile
-  homeAdvantagesOneTitle: Managed Private APPUiO
-  homeAdvantagesOneDesc: Sie wollen eine eigene private APPUiO Instanz nutzen, die auf unserer Infrastruktur läuft? Wir deployen und betreiben die auf Ihre Bedürfnisse massgeschneiderte Lösung.
-  homeAdvantagesTwoTitle: Public Platform
-  homeAdvantagesTwoDesc: Sie brauchen kurzfristig standardisierte Entwicklungsumgebungen oder möchten Ihre produktiven Applikationen in eine Schweizer Cloud deployen?
-  homeAdvantagesThreeTitle: On-Premises APPUiO
-  homeAdvantagesThreeDesc: Ihre PaaS in Ihrem Rechenzentrum, optimal integriert in Ihre Infrastruktur. Wir begleiten Sie von der Idee über die Umsetzung und falls gewünscht bis zum Betrieb.
-  homeAdvantagesFourTitle: Managed Private APPUiO
-  homeAdvantagesFourDesc: Sie wollen eine eigene private APPUiO Instanz nutzen, die auf unserer Infrastruktur läuft? Wir deployen und betreiben die auf Ihre Bedürfnisse massgeschneiderte Lösung.
-  homeAdvantagesFiveTitle: Public Platform
-  homeAdvantagesFiveDesc: Sie brauchen kurzfristig standardisierte Entwicklungsumgebungen oder möchten Ihre produktiven Applikationen in eine Schweizer Cloud deployen?
-  homeAdvantagesSixTitle: On-Premises APPUiO
-  homeAdvantagesSixDesc: Ihre PaaS in Ihrem Rechenzentrum, optimal integriert in Ihre Infrastruktur. Wir begleiten Sie von der Idee über die Umsetzung und falls gewünscht bis zum Betrieb.
-
-# Home: Angebotsbereich
-  homeOfferTitle: Angebot
-  homeOfferOneTitle: Managed Private APPUiO
-  homeOfferOneDesc: Sie wollen eine eigene private APPUiO Instanz nutzen, die auf unserer Infrastruktur läuft? Wir deployen und betreiben die auf Ihre Bedürfnisse massgeschneiderte Lösung.
-  homeOfferOneButton: Details
-  homeOfferTwoRibbon: Meist gewählt
-  homeOfferTwoTitle: Public Platform
-  homeOfferTwoDesc: Sie brauchen kurzfristig standardisierte Entwicklungsumgebungen oder möchten Ihre produktiven Applikationen in eine Schweizer Cloud deployen?
-  homeOfferTwoButton: Details
-  homeOfferThreeTitle: On-Premises APPUiO
-  homeOfferThreeDesc: Ihre PaaS in Ihrem Rechenzentrum, optimal integriert in Ihre Infrastruktur. Wir begleiten Sie von der Idee über die Umsetzung und falls gewünscht bis zum Betrieb.
-  homeOfferThreeButton: Details
-  homeOfferDesc: Unser APPUiO Angebot wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
+  homeAdvantagesOneTitle: Schnell am Markt
+  homeAdvantagesOneDesc: Mit APPUiO kannst du deine Applikation automatisch builden, testen und deployen. Auch beim Monitoring und bei Updates gewinnst du Zeit. Releases können täglich durchgeführt werden, was die agile Arbeitsweise und den Minimum Valuable Products (MVP) Ansatz fördert.
+  homeAdvantagesTwoTitle: Collaboration fördern
+  homeAdvantagesTwoDesc: Mit Continous Delivery und der Selfservice-Infrastruktur fördert APPUiO die Zusammenarbeit zwischen Devs und Ops. Als Entwickler kannst du deine Applikation selber deployen und betreiben.
+  homeAdvantagesThreeTitle: Einheitlich und offen
+  homeAdvantagesThreeDesc: Die Entwicklungsumgebung sieht auf deinem Laptop anders aus als die Produktionsumgebung? Mit APPUiO sind deine Umgebungen standardisiert. Offene Standards und OpenSource sind die Basis unserer Plattform.
+  homeAdvantagesFourTitle: Selfservice
+  homeAdvantagesFourDesc: Innert Sekunden kannst du dir deine Plattform per Knopfdruck bestellen und direkt nutzen. Dabei bist du unabhängig von anderen Teams und Personen und geniesst die volle Kontrolle. Starte jetzt gleich mit deiner Container Platform!
+  homeAdvantagesFiveTitle: Hohe Sicherheit 
+  homeAdvantagesFiveDesc: APPUiO nutzt SELinux und bietet Federation Authentication (LDAP Anbindung). Die Daten der Public Platform werden in ISO-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz gehalten. Zudem kannst du mittels Let‘s Encrypt echte SSL-Zertifikate in deinen Routen konfigurieren. 
+  homeAdvantagesSixTitle: Kosten reduzieren
+  homeAdvantagesSixDesc: Wenn du APPUiO nutzt, entstehen keine internen Kosten für ein Setup einer Plattform oder den Aufbau von Know How. Die Kosten sind stets transparent und du kannst sie jederzeit über das Portal kontrollieren und anpassen.
 
 # Home: Feature Section
   homeFeatureTitle: Mehr als Openshift
-  homeFeatureDesc: OpenShift Container Platform ist die PaaS des Open Source Marktführers Red Hat. OpenShift V3 setzt auf moderne Open Source Konzepte wie Docker Container und Kubernetes.
+  homeFeatureDesc: APPUiO ist OpenShift “as a Service”. Profitiere von unserer langjährigen Erfahrung als erste Schweizer Container Plattform und nutze alle Vorteile von OpenShift mit vielen zusätzlichen Add-Ons und Services.
   homeFeatureCommunityTitle: Community
-  homeFeatureCommunityAlt: Ein Container welche alle Technologien in sich vereint
-  homeFeatureCommunityDesc: Mit APPUiO erstellen Sie neue Umgebungen per Knopfdruck. Es stehen eine Vielzahl an Technologien und Plattformen "out of the Box" zur Verfügung. Docker als Grundtechnologie hinter APPUiO bringt ein ganzes Ökosystem an zusätzlichen Laufzeitumgebungen und Frameworks mit. Eine Auswahl davon ist in der folgenden Aufstellung zu finden. <br/>
-  homeFeatureLanguagesTitle: Plattformen
-  homeFeatureDatabasesTitle: Datenbanken
+  homeFeatureCommunityAlt: Eine Plattform, welche die Kunden zusammen bringt.
+  homeFeatureCommunityDesc: Unsere Community ist unser Herzstück, mit der wir wachsen. APPUiO bietet dir einen Community Chat, ein Forum sowie diverse Events zum Austausch mit Gleichgesinnten und dem APPUiO-Team. Alle Komponenten hinter APPUiO sind Open Source. Diese Offenheit übernehmen wir, indem wir Dokumentationen und den Code der Community zur Verfügung stellen. Die quelloffene Software, die Anwendung offener Standards sowie die frei zugängliche Dokumentation garantieren dir grösstmögliche Anbieterunabhängigkeit und bewahrt dich vor einem Vendor Lock-in. Auch du kannst Teil der Community werden! Gemeinsam sind wir stärker und wir geben unser Wissen gerne weiter. <br/>
+  homeFeatureLanguagesTitle: Plattformen #?
+  homeFeatureDatabasesTitle: Datenbanken #?
   homeFeatureConsultingTitle: Alles aus einer Hand
-  homeFeatureConsultingAlt: Cycle - Build, Ship, Run, Operate
-  homeFeatureConsultingDesc: APPUiO ermöglicht es, den gesamten Prozess von der Entwicklung bis in die Produktion zu automatisieren. Wir kümmern uns um den Betrieb der Plattform und helfen Ihnen so, Ihre Prozesse zu automatisieren. Nutzen Sie APPUiO als Ihre Container Runtime und deployen und betreiben Sie damit Ihren Container Workload.
+  homeFeatureConsultingAlt: Build, Ship, Operate
+  homeFeatureConsultingDesc: |-
+    Wir begleiten unsere Kunden über die gesamte Wertschöpfungskette ihrer Plattform und Applikation - von der Planung, über den Aufbau bis hin zum Betrieb. Zusätzlich stehen wir mit unserer langjährigen Erfahrung mit der Container-Technologie beratend zur Seite. Die Zusammenarbeit gestaltet sich modular und unsere Services können individuell oder gruppiert bezogen werden. 
+    Wir bieten:
+    <li>Architektur</li>
+    <li>Setup</li>
+    <li>Betrieb</li>
+    <li>3rd Level Support</li>
+    <li>Schulungen zu Betrieb und Monitoring von OpenShift und Container</li>
+    <li>Consulting zu Apps in die Cloud, DevOps, Automatisierung usw.</li>
   homeFeatureOpenSourceTitle: Open Source
   homeFeatureOpenSourceDesc: OpenShift, Docker, Kubernetes und weitere Komponenten hinter APPUiO sind Open Source. Diese Offenheit wollen wir übernehmen, indem wir Dokumentationen zu APPUiO der Community zur Verfügung stellen. Die quelloffene Software, die Anwendung offener Standards sowie die frei zugängliche Dokumentation garantieren Ihnen die grösstmögliche Anbieterunabhängigkeit und bewahren Sie vor einem Vendor Lock-in. Weitere Informationen zum Open Source Projekt hinter OpenShift finden Sie auf <a target="_new" href="https://www.openshift.org">openshift.org</a>.
   homeFeatureAddonsTitle: Add-ons
-  homeFeatureAddonsDesc: Sichere Plattform dank SELinux von Red Hat Enterprise Linux. Datenhaltung in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz.
+  homeFeatureAddonsDesc: |-
+    Wir verbessern APPUiO kontinuierlich und entwickeln neue Features. Diese Erweiterungen stellen wir in Form von Add Ons allen Kunden zur Verfügung und helfen bei der Integration. Aktuell stehen folgende Add Ons zur Verfügung:
+    <li>Backup, Monitoring Loggging</li>
+    <li>Lets Encrypt, SE Linux</li>
+    <li>Multi Stage Builds</li>
+    <li>SaaS (3Scale, WAF)</li>
+    Welches Feature als nächstes auf unserer Roadmap steht, seht ihr hier: <a href="https://trello.com/b/kpVq53J2/appuio-roadmap">APPUiO Roadmap</a> 
   homeFeatureAddonsAlt: Safe container with a swiss locker
   homeFeatureEncryptTitle: Lets Encrypt SSL/TLS Routen auf Knopfdruck
   homeFeatureEncryptDesc: APPUiO erlaubt es ihnen mittels Lets Encrypt einfach per Knopfdruck echte SSL Zertifikate in ihren Routen zu konfigurieren. Nach erfolgter Registrierung sorgt APPUiO für die Aktualisierung der Lets Encrypt Zertifikate, welche nur 3 Monate gültig sind, und ersetzt diese automatisch nach Ablauf. Sie müssen sich danach nicht mehr darum kümmern.
   homeFeatureEncryptAlt: Lets Encrypt SSL/TLS Routen auf Knopfdruck
 
+# Home: Angebotsbereich
+  homeOfferTitle: Angebot
+  homeOfferOneTitle: Managed Private APPUiO
+  homeOfferOneDesc: Du willst eine private Container-Instanz nutzen und dabei nichts mit dem Setup und dem Betrieb zu tun haben? Wir deployen und betreiben die auf deine Bedürfnisse massgeschneiderte Lösung. 
+  homeOfferOneButton: Details
+  homeOfferTwoRibbon: Meist gewählt
+  homeOfferTwoTitle: Public Platform
+  homeOfferTwoDesc: Du brauchst kurzfristig standardisierte Entwicklungsumgebungen oder möchtest deine produktiven Applikationen in eine Schweizer Cloud deployen?
+  homeOfferTwoButton: Details
+  homeOfferThreeTitle: On-Premises APPUiO
+  homeOfferThreeDesc: Du möchtest deine Container Plattform in deinem Rechenzentrum oder in einer gewünschten IaaS Cloud selber betreiben, benötigst aber Hilfe beim Setup? Wir begleiten dich von der Idee bis zur Umsetzung und integrieren deine Plattform optimal in die gewünschte Infrastruktur.
+  homeOfferThreeButton: Details
+  homeOfferDesc: Unser APPUiO Angebot wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
+
 # Home: Clients
   homeClientsTitle: Kunden lieben es
   homeClientsOneTitle: „Mit APPUiO verbindet uns eine langjährige Partnerschaft basierend auf gleichen Werten.“
-  homeClientsOneDesc: Michael Müller, CTO XYZ
-  homeClientsTwoTitle: „Dank APPUiO arbeiten wir effizienter und besser im Team.“
-  homeClientsTwoDesc: Michael Müller, CTO XYZ
-  homeClientsThreeTitle: „Wir erleben mit Appuio eine vertrauensvolle und gelungene Zusammenarbeit.“
-  homeClientsThreeDesc: Michael Müller, CTO XYZ
+  homeClientsOneDesc: Matthias Summer, System Engineer @Adcubum AG
+  homeClientsTwoTitle: „Von APPUiO profitieren nicht nur wir, sondern auch unsere Endkunden.“
+  homeClientsTwoDesc: Bastian Widmer, System Engineer @Amazee.io
+  homeClientsThreeTitle: „APPUiO erfüllt unsere hohen Sicherheitsanforderungen.“
+  homeClientsThreeDesc: Michael Gerber, Software Developer @HRM Systems AG
 
 
 # Home: Technologies sections
