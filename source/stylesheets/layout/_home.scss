@@ -250,3 +250,22 @@
     transform: translateY(rem-calc(5));
   }
 }
+
+
+// Table
+// ----------------------------------------------
+
+.home-table-usps {
+  border-collapse: collapse;
+  width: 100%;
+  
+
+  th, td {
+    padding: 10px;
+    text-align: left;
+    width: 50%;
+    word-wrap:break-word;
+  }
+
+
+}
