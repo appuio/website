@@ -79,18 +79,15 @@ de:
   homeFeatureAddonsTitle: Add-ons
   homeFeatureAddonsDesc: |-
     Wir verbessern APPUiO kontinuierlich und entwickeln neue Features. Diese Erweiterungen stellen wir in Form von Add Ons allen Kunden zur Verfügung und helfen bei der Integration. Aktuell stehen folgende Add Ons zur Verfügung:
-    <table class="home-table-usps">
-      <tbody>
-        <tr>
-          <td><li>Backup, Monitoring Loggging</li></td>
-          <td><li>Lets Encrypt, SE Linux</li></td>
-        </tr>
-        <tr>
-          <td><li>Multi Stage Builds</li></td>
-          <td><li>SaaS (3Scale, WAF)</li></td>
-        </tr>
-      </tbody>
-    </table>
+      <div class="home-table-usps">
+        <ul>
+          <li>Backup, Monitoring Loggging</li>
+          <li>Lets Encrypt, SE Linux</li>
+       </ul>
+       <ul>
+          <li>Multi Stage Builds</li>
+          <li>SaaS (3Scale, WAF)</li>
+      </div>
     Welches Feature als nächstes auf unserer Roadmap steht, seht ihr hier: <a href="https://trello.com/b/kpVq53J2/appuio-roadmap">APPUiO Roadmap</a> 
   homeFeatureAddonsAlt: Safe container with a swiss locker
   homeFeatureEncryptTitle: Lets Encrypt SSL/TLS Routen auf Knopfdruck
