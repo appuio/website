@@ -63,22 +63,17 @@ de:
   homeFeatureConsultingDesc: |-
     Wir begleiten unsere Kunden über die gesamte Wertschöpfungskette ihrer Plattform und Applikation - von der Planung, über den Aufbau bis hin zum Betrieb. Zusätzlich stehen wir mit unserer langjährigen Erfahrung mit der Container-Technologie beratend zur Seite. Die Zusammenarbeit gestaltet sich modular und unsere Services können individuell oder gruppiert bezogen werden. 
     Wir bieten:
-    <table class="home-table-usps">
-      <tbody>
-        <tr>
-          <td><li>Architektur</li></td>
-          <td><li>3rd Level Support</li></td>
-        </tr>
-        <tr>
-          <td><li>Setup</li></td>
-          <td><li>Schulungen zu Betrieb und Monitoring von OpenShift und Container</li></td>
-        </tr>
-        <tr>
-          <td><li>Betrieb</li></td>
-          <td><li>Consulting zu Apps in die Cloud, DevOps, Automatisierung usw.</li></td>
-        </tr>
-      </tbody>
-    </table>
+      <div class="home-table-usps">
+        <ul>
+          <li>Architektur</li>
+          <li>Setup</li>
+          <li>Betrieb</li>
+       </ul>
+       <ul>
+          <li>3rd Level Support</li>
+          <li>Schulungen zu Betrieb und Monitoring von OpenShift und Container</li>
+          <li>Consulting zu Apps in die Cloud, DevOps, Automatisierung usw.</li>
+      </div>
   homeFeatureOpenSourceTitle: Open Source
   homeFeatureOpenSourceDesc: OpenShift, Docker, Kubernetes und weitere Komponenten hinter APPUiO sind Open Source. Diese Offenheit wollen wir übernehmen, indem wir Dokumentationen zu APPUiO der Community zur Verfügung stellen. Die quelloffene Software, die Anwendung offener Standards sowie die frei zugängliche Dokumentation garantieren Ihnen die grösstmögliche Anbieterunabhängigkeit und bewahren Sie vor einem Vendor Lock-in. Weitere Informationen zum Open Source Projekt hinter OpenShift finden Sie auf <a target="_new" href="https://www.openshift.org">openshift.org</a>.
   homeFeatureAddonsTitle: Add-ons
