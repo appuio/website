@@ -288,7 +288,7 @@ en:
     APPUiO & OpenShift Techlabs in Berne and Zurich
   techlabSubtitle: Platform as a Service (PaaS) changes the way we develop software. Puzzle presents OpenShift V3 - the Container Platform by Red Hat - in a Techlab.
   techlabDetails: |-
-    <p>Participants learn the key steps hands-on way, learning how applications are deployed to the cloud, and how a container on a PaaS can be deployed und operated.</p>
+    <p>Participants learn the key steps hands-on way, learning how applications are deployed to the cloud, and how a container on a PaaS can be deployed and operated.</p>
     <p>With OpenShift IT processes are automated and deployment of IT-Services can be streamlined. Techlabs touch on the following subjects:</p>
     <p><strong>Hands on Workshop</strong></p>
     <ul>
