@@ -22,6 +22,8 @@ Heading elements implement six levels of document headings, `<h1>` is the most i
 <h2 class="h1">Heading level 2 with .h1 style</h2>
 ```
 */
+
+
 h1, .h1 {
   font-weight: 400;
 }
@@ -30,7 +32,6 @@ h2, .h2 {
   font-weight: 400;
   font-size: rem-calc(48);
   line-height: rem-calc(60);
-  text-transform: uppercase;
   @include susy-breakpoint($break-medium) {
     font-size: rem-calc(64);
     line-height: rem-calc(72);

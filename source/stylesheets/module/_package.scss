@@ -43,7 +43,9 @@ a.offers-package {
   }
   &.is-fourth {
     &:not(:last-child) {
-      margin-right: 2rem;
+      @include susy-breakpoint($break-medium) {
+        margin-right: 2rem;
+      }
     }
     @include susy-breakpoint($break-small) {
       width: 100%;
@@ -97,6 +99,15 @@ a.offers-package {
     & h3 {
       margin: rem-calc(18 0);
       width: 100%;
+    }
+  }
+}
+
+.offers-package-container--offers2 {
+  .offers-package {
+    flex-flow: column;
+    .offers-package-ribbon {
+      flex: 0 0 auto;
     }
   }
 }

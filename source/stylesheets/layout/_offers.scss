@@ -42,6 +42,48 @@
   padding: rem-calc(60 0);
 }
 
+.offer-addons {
+  background-color: $color-blue;
+  color: white;
+  padding: rem-calc(60 0);
+  .offers-addons-title {
+    text-align: center;
+  }
+}
+
+.offer-faq {
+  background-color: $color-lightblue;
+  color: white;
+  padding: rem-calc(60 0);
+
+  .offers-faq-title {
+    text-align: center;
+  }
+  .offers-faq-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    .offers-faq-item {
+
+      @include susy-breakpoint($break-large) {
+        flex-basis: 47%;
+      }
+      .offers-faq-list-title {
+        line-height: 1.5rem;
+        text-align: left;
+        font-size: 1.125rem;
+        font-weight: bold;
+        margin-bottom: 0;
+      }
+        &:not(:last-child) {
+          padding-right: 2rem;
+        }
+    }
+
+  }
+}
+
 .offer-contact {
   background-color: $color-blue;
   background-image: url('/images/icons.svg');
@@ -148,6 +190,11 @@
   &.has-white-font {
     color: white;
   }
+}
+
+section#offer-two-advantages {
+  background-image: none;
+  padding: 3.75rem 0;
 }
 
 .offer-two-contact-form {

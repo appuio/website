@@ -29,7 +29,7 @@ de:
   homeNewsText: |-
     Die APPUiO Roadmap, hilf mit die Zukunft von APPUiO zu bestimmen<a href="https://trello.com/b/kpVq53J2/appuio-roadmap">&gt;&gt;</a>.
   homeHeroAlt: APPUiO - Swiss Container Platform
-  homeHeroTitle: 
+  homeHeroTitle:
   homeHeroSignup: Für Public Platform anmelden
   homeHeroDesc: |-
     <p>APPUiO ist die erste Schweizer Container Plattform basierend auf OpenShift von Red Hat. Auf Basis bewährter Open Source Konzepte wie Docker und Kubernetes entwickelst, betreibst und skalierst du eine Anwendung nach deinen Bedürfnissen. Mit APPUiO können deine Applikationen sowohl auf Public Clouds als auch unternehmensintern betrieben werden.</p>
@@ -45,8 +45,8 @@ de:
   homeAdvantagesThreeDesc: Die Entwicklungsumgebung sieht auf deinem Laptop anders aus als die Produktionsumgebung? Mit APPUiO sind deine Umgebungen standardisiert. Offene Standards und OpenSource sind die Basis unserer Plattform.
   homeAdvantagesFourTitle: Selfservice
   homeAdvantagesFourDesc: Innert Sekunden kannst du dir deine Plattform per Knopfdruck bestellen und direkt nutzen. Dabei bist du unabhängig von anderen Teams und Personen und geniesst die volle Kontrolle. Starte jetzt gleich mit deiner Container Platform!
-  homeAdvantagesFiveTitle: Hohe Sicherheit 
-  homeAdvantagesFiveDesc: APPUiO nutzt SELinux und bietet Federation Authentication (LDAP Anbindung). Die Daten der Public Platform werden in ISO-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz gehalten. Zudem kannst du mittels Let‘s Encrypt echte SSL-Zertifikate in deinen Routen konfigurieren. 
+  homeAdvantagesFiveTitle: Hohe Sicherheit
+  homeAdvantagesFiveDesc: APPUiO nutzt SELinux und bietet Federation Authentication (LDAP Anbindung). Die Daten der Public Platform werden in ISO-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz gehalten. Zudem kannst du mittels Let‘s Encrypt echte SSL-Zertifikate in deinen Routen konfigurieren.
   homeAdvantagesSixTitle: Kosten reduzieren
   homeAdvantagesSixDesc: Wenn du APPUiO nutzt, entstehen keine internen Kosten für ein Setup einer Plattform oder den Aufbau von Know How. Die Kosten sind stets transparent und du kannst sie jederzeit über das Portal kontrollieren und anpassen.
 
@@ -61,7 +61,7 @@ de:
   homeFeatureConsultingTitle: Alles aus einer Hand
   homeFeatureConsultingAlt: Build, Ship, Operate
   homeFeatureConsultingDesc: |-
-    Wir begleiten unsere Kunden über die gesamte Wertschöpfungskette ihrer Plattform und Applikation - von der Planung, über den Aufbau bis hin zum Betrieb. Zusätzlich stehen wir mit unserer langjährigen Erfahrung mit der Container-Technologie beratend zur Seite. Die Zusammenarbeit gestaltet sich modular und unsere Services können individuell oder gruppiert bezogen werden. 
+    Wir begleiten unsere Kunden über die gesamte Wertschöpfungskette ihrer Plattform und Applikation - von der Planung, über den Aufbau bis hin zum Betrieb. Zusätzlich stehen wir mit unserer langjährigen Erfahrung mit der Container-Technologie beratend zur Seite. Die Zusammenarbeit gestaltet sich modular und unsere Services können individuell oder gruppiert bezogen werden.
     Wir bieten:
       <div class="home-table-usps">
         <ul>
@@ -88,7 +88,7 @@ de:
           <li>Multi Stage Builds</li>
           <li>SaaS (3Scale, WAF)</li>
       </div>
-    Welches Feature als nächstes auf unserer Roadmap steht, seht ihr hier: <a href="https://trello.com/b/kpVq53J2/appuio-roadmap">APPUiO Roadmap</a> 
+    Welches Feature als nächstes auf unserer Roadmap steht, seht ihr hier: <a href="https://trello.com/b/kpVq53J2/appuio-roadmap">APPUiO Roadmap</a>
   homeFeatureAddonsAlt: Safe container with a swiss locker
   homeFeatureEncryptTitle: Lets Encrypt SSL/TLS Routen auf Knopfdruck
   homeFeatureEncryptDesc: APPUiO erlaubt es ihnen mittels Lets Encrypt einfach per Knopfdruck echte SSL Zertifikate in ihren Routen zu konfigurieren. Nach erfolgter Registrierung sorgt APPUiO für die Aktualisierung der Lets Encrypt Zertifikate, welche nur 3 Monate gültig sind, und ersetzt diese automatisch nach Ablauf. Sie müssen sich danach nicht mehr darum kümmern.
@@ -97,7 +97,7 @@ de:
 # Home: Angebotsbereich
   homeOfferTitle: Angebot
   homeOfferOneTitle: Managed Private APPUiO
-  homeOfferOneDesc: Du willst eine private Container-Instanz nutzen und dabei nichts mit dem Setup und dem Betrieb zu tun haben? Wir deployen und betreiben die auf deine Bedürfnisse massgeschneiderte Lösung. 
+  homeOfferOneDesc: Du willst eine private Container-Instanz nutzen und dabei nichts mit dem Setup und dem Betrieb zu tun haben? Wir deployen und betreiben die auf deine Bedürfnisse massgeschneiderte Lösung.
   homeOfferOneButton: Details
   homeOfferTwoRibbon: Meist gewählt
   homeOfferTwoTitle: Public Platform
@@ -265,6 +265,21 @@ de:
   offerTwoPackageContentsFourthItemOne: Docker Open Source Ökosystem mit zusätzlichen Laufzeitumgebungen, Frameworks und Tools
   offerTwoPackageContentsFourthItemTwo: Beliebige Skalierbarkeit über die ganze Plattform
 
+  # Offer Two: Vorteile
+  offerTwoAdvantagesTitle: Passendes Angebot auswählen und loslegen
+  offerTwoAdvantagesOneTitle: Schnell am Markt
+  offerTwoAdvantagesOneDesc: Mit APPUiO kannst du deine Applikation automatisch builden, testen und deployen. Auch beim Monitoring und bei Updates gewinnst du Zeit. Releases können täglich durchgeführt werden, was die agile Arbeitsweise und den Minimum Valuable Products (MVP) Ansatz fördert.
+  offerTwoAdvantagesTwoTitle: Collaboration fördern
+  offerTwoAdvantagesTwoDesc: Mit Continous Delivery und der Selfservice-Infrastruktur fördert APPUiO die Zusammenarbeit zwischen Devs und Ops. Als Entwickler kannst du deine Applikation selber deployen und betreiben.
+  offerTwoAdvantagesThreeTitle: Einheitlich und offen
+  offerTwoAdvantagesThreeDesc: Die Entwicklungsumgebung sieht auf deinem Laptop anders aus als die Produktionsumgebung? Mit APPUiO sind deine Umgebungen standardisiert. Offene Standards und OpenSource sind die Basis unserer Plattform.
+
+  # Offer Two: FAQ
+  offerTwoFaqTitle: Häufig gestellte Fragen
+  offerTwoFaqOneTitle: Was ist OpenShift und wie funktioniert es?
+  offerTwoFaqOneText: OpenShift ist die Container Platform von Red Hat. Seit der Version 3 setzt OpenShift auf bewährte Open Source Projekte wie Docker und Kubernetes.
+
+  offerTwoAddonsTitle: Add-Ons
   offerTwoDedicatedAddonsPretext: ""
   offerTwoDedicatedAddonsTitle: Dedicated APPUiO
   offerTwoDedicatedAddonsItem1: Beliebig viele Projekte
@@ -276,7 +291,9 @@ de:
 
   offerTwoPackageAddonsTitle: Persistent Storage Add Ons
   offerTwoPackageAddonsPretext: Nach Verbrauch
-  offerTwoPersistentStorageAddon: 1 GB CHF 2.70 / Monat
+  offerTwoPersistentStorageAddonItem1: 1 GB CHF 2.70 / Monat
+  offerTwoPersistentStorageAddonItem2: 2 GB CHF 3.70 / Monat
+  offerTwoPersistentStorageAddonItem3: 4 GB CHF 5.70 / Monat
 
   offerTwoStorageDescription: Persistent Storage steht Ihnen direkt in der Web Console oder via CLI zur Verfügung und kann als sogenannte Persistent Volumes direkt an Ihre Container angebunden werden. Die Abrechnung erfolgt nach Verbrauch.
 
@@ -290,6 +307,31 @@ de:
   offerTwoSend: Bestellen
   offerTwoLoadingMessage: Bestellung wird gesendet...
   offerTwoSuccessMessage: Bestellung wurde erfolgreich gesendet!
+
+  offerTwoPossibilitesDescription: Was Sie mit dieser Konfiguration erreichen können
+
+  offerTwoPossibilitiesSmall: |-
+    <li class="offers-package-item">Einfache Website mit geringen Zugriffen</li>
+    <li class="offers-package-item">Minimale CakePHP-Applikation mit kleiner Datenbank</li>
+    <li class="offers-package-item">Micro Service, GO Node.JS, Springboot, Ruby, PHP, .Net, Python</li>
+  offerTwoPossibilitiesMedium: |-
+    <li class="offers-package-item">Komplexere Website bspw. mit PHP und einer Datenbank</li>
+    <li class="offers-package-item">CakePHP-Applikation mit mittlerer Datenbank</li>
+    <li class="offers-package-item">zwei Instanzen hochverfügbar eines Micro Services</li>
+    <li class="offers-package-item">Keycloak mit Datenbank</li>
+  offerTwoPossibilitiesLarge: |-
+    <li class="offers-package-item">Komplexe Applikation mit mehreren Serivces</li>
+    <li class="offers-package-item">Jenkins Build Server</li>
+    <li class="offers-package-item">mehrere Instanzen hochverfügbar eines Micro Services, bspw. vier
+    Instanzen zur gleichen Zeit</li>
+    <li class="offers-package-item">Komplexe Java Applikation</li>
+    <li class="offers-package-item">Java EE Applikation JBoss EAP deployed mit Datenbank</li>
+  offerTwoPossibilitiesXLarge: |-
+    <li class="offers-package-item">Komplexe Applikationen mit grösserer Last und Datenbanken</li>
+    <li class="offers-package-item">Hochverfügbare Datenbanken</li>
+    <li class="offers-package-item">Micro Service Architektur etliche Services</li>
+    <li class="offers-package-item">Jenkins Build Infrastruktur mit diversen Buildnodes</li>
+
 
 # Offer3: On Premises PaaS
   offerThreeTitle: On Premises
