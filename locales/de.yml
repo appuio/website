@@ -120,6 +120,14 @@ de:
 
 # Home: Technologies sections
   homeTechnologiesTitle: Eine Plattform, Alle Technologien
+  homeTechnologiesDescriptionOne: Mit APPUiO kannst du deine Applikation automatisch builden, testen und deployen.
+  homeTechnologiesDescriptionTwo:  Mit APPUiO kannst du deine Applikation automatisch builden, testen und deployen.
+  homeTechnologiesOneTitle: Schnell am Markt
+  homeTechnologiesOneDesc: Mit APPUiO kannst du deine Applikation automatisch builden, testen und deployen. Auch beim Monitoring und bei Updates gewinnst du Zeit. Releases können täglich durchgeführt werden, was die agile Arbeitsweise und den Minimum Valuable Products (MVP) Ansatz fördert.
+  homeTechnologiesTwoTitle: Collaboration fördern
+  homeTechnologiesTwoDesc: Mit Continous Delivery und der Selfservice-Infrastruktur fördert APPUiO die Zusammenarbeit zwischen Devs und Ops. Als Entwickler kannst du deine Applikation selber deployen und betreiben.
+  homeTechnologiesThreeTitle: Einheitlich und offen
+  homeTechnologiesThreeDesc: Die Entwicklungsumgebung sieht auf deinem Laptop
 
 # Home: Contact Section
   homeContactTitle: Kontakt
@@ -264,6 +272,9 @@ de:
   offerTwoPackageContentsFourthTitle: Flexibilität
   offerTwoPackageContentsFourthItemOne: Docker Open Source Ökosystem mit zusätzlichen Laufzeitumgebungen, Frameworks und Tools
   offerTwoPackageContentsFourthItemTwo: Beliebige Skalierbarkeit über die ganze Plattform
+  offerTwoPackageContentsFifthTitle: Flexibilität
+  offerTwoPackageContentsFifthItemOne: Docker Open Source Ökosystem mit zusätzlichen Laufzeitumgebungen, Frameworks und Tools
+  offerTwoPackageContentsFifthItemTwo: Beliebige Skalierbarkeit über die ganze Plattform
 
   # Offer Two: Vorteile
   offerTwoAdvantagesTitle: Passendes Angebot auswählen und loslegen
