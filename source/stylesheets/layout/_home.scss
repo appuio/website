@@ -78,34 +78,6 @@
   }
 }
 
-// Advantages
-// ----------------------------------------------
-.home-advantages {
-  background-color: #15B0BF;
-  background-image: url('/images/clouds.svg');
-  background-repeat: no-repeat;
-  background-position: top right;
-  padding: rem-calc(200 0 100);
-  color: white;
-  text-align: center;
-
-  overflow: hidden;
-
-  .callout-item {
-    background-color: transparent;
-    .callout-title {
-      min-height: 0;
-      margin-bottom: 0px;
-    }
-  }
-
-}
-.home-advantages-desc {
-  @include susy-breakpoint($break-medium) {
-    @include span(10 of 12);
-    @include squish(1, 1);
-  }
-}
 
 // Features
 // ----------------------------------------------
@@ -169,6 +141,13 @@
   background-color: #15B0BF;
   color: white;
   text-align: center;
+
+  .technology-base-list {
+    padding-top: rem-calc(100);
+    .callout-item {
+      background-color: transparent;
+    }
+  }
 }
 
 // Contact
