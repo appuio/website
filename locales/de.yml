@@ -348,68 +348,70 @@ de:
 
     <p><strong>Programm:</strong></p>
     <table class="event-table-oneyear">
-      <tr>
-        <th><strong>Zeit</strong></th>
-        <th><strong>Topic</strong></th>
-        <th><strong>Titel</strong></th>
-        <th><strong>Speaker</strong></th>
-      </tr>
-      <tr>
-        <td>14:00 <br></td>
-        <td>Eintreffen<br></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>14:30</td>
-        <td>Begrüssung/Rückblick</td>
-        <td>"Rückblick auf ein Jahr APPUiO und brandneue Features"</td>
-        <td>Thomas Philipona, CTO und einer der Gründerväter, Puzzle ITC</td>
-
-      </tr>
-      <tr>
-        <td>14:45</td>
-        <td>DevOps Tooling mit APPUiO</td>
-        <td>"Die DevOps-Reise: Kultur, Prozesse und Technologien"</td>
-        <td>Tobias Weinmann, DevOps Transformation Lead SwissRe; Patrick Mathers, CEO, VSHN</td>
-      </tr>
-      <tr>
-        <td>15:15</td>
-        <td>Kundencase HRM Systems AG</td>
-        <td>"Carema by HRM Systems AG"</td>
-        <td>Michael Gerber, Software Engineer, HRM Systems</td>
-      </tr>
-      <tr>
-        <td>15:35</td>
-        <td>Kaffeepause</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>16:15</td>
-        <td>Kundencase Adcubum AG</td>
-        <td>"#ctrlshift @ adcubum AG"</td>
-        <td>Matthias Summer, Senior System Engineer, Adcubum AG</td>
-      </tr>
-      <tr>
-        <td>16:35</td>
-        <td>Kundencase Amazee.io</td>
-        <td>"Spezialisiertes Drupal Hosting auf basis von APPUiO/OpenShift"</td>
-        <td>Bastian Widmer, System Engineer, Amazee.io</td>
-      </tr>
-      <tr>
-        <td>16:55</td>
-        <td>Ausblick/Roadmap</td>
-        <td>"Die Zukunft von APPUiO"</td>
-        <td>Tobias Tröhler, Produkt Manager APPUiO</td>
-      </tr>
-      <tr>
-        <td>17:05</td>
-        <td>Apéro</td>
-        <td></td>
-        <td></td>
-      </tr>
-
+      <thead>
+        <tr>
+          <th><strong>Zeit</strong></th>
+          <th><strong>Topic</strong></th>
+          <th><strong>Titel</strong></th>
+          <th><strong>Speaker</strong></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>14:00 <br></td>
+          <td>Eintreffen<br></td>
+          <td class="empty-cell"></td>
+          <td class="empty-cell"></td>
+        </tr>
+        <tr>
+          <td>14:30</td>
+          <td>Begrüssung/Rückblick</td>
+          <td>"Rückblick auf ein Jahr APPUiO und brandneue Features"</td>
+          <td>Thomas Philipona, CTO und einer der Gründerväter, Puzzle ITC</td>
+        </tr>
+        <tr>
+          <td>14:45</td>
+          <td>DevOps Tooling mit APPUiO</td>
+          <td>"Die DevOps-Reise: Kultur, Prozesse und Technologien"</td>
+          <td>Tobias Weinmann, DevOps Transformation Lead SwissRe; Patrick Mathers, CEO, VSHN</td>
+        </tr>
+        <tr>
+          <td>15:15</td>
+          <td>Kundencase HRM Systems AG</td>
+          <td>"Carema by HRM Systems AG"</td>
+          <td>Michael Gerber, Software Engineer, HRM Systems</td>
+        </tr>
+        <tr>
+          <td>15:35</td>
+          <td>Kaffeepause</td>
+          <td class="empty-cell"></td>
+          <td class="empty-cell"></td>
+        </tr>
+        <tr>
+          <td>16:15</td>
+          <td>Kundencase Adcubum AG</td>
+          <td>"#ctrlshift @ adcubum AG"</td>
+          <td>Matthias Summer, Senior System Engineer, Adcubum AG</td>
+        </tr>
+        <tr>
+          <td>16:35</td>
+          <td>Kundencase Amazee.io</td>
+          <td>"Spezialisiertes Drupal Hosting auf basis von APPUiO/OpenShift"</td>
+          <td>Bastian Widmer, System Engineer, Amazee.io</td>
+        </tr>
+        <tr>
+          <td>16:55</td>
+          <td>Ausblick/Roadmap</td>
+          <td>"Die Zukunft von APPUiO"</td>
+          <td>Tobias Tröhler, Produkt Manager APPUiO</td>
+        </tr>
+        <tr>
+          <td>17:05</td>
+          <td>Apéro</td>
+          <td class="empty-cell"></td>
+          <td class="empty-cell"></td>
+        </tr>
+      </tbod>
     </table>
     <br>
     <p>Alle Präsentationen sind in deutscher Sprache</p>
