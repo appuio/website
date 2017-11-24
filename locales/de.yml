@@ -29,7 +29,7 @@ de:
   homeNewsText: |-
     Die APPUiO Roadmap, hilf mit die Zukunft von APPUiO zu bestimmen<a href="https://trello.com/b/kpVq53J2/appuio-roadmap">&gt;&gt;</a>.
   homeHeroAlt: APPUiO - Swiss Container Platform
-  homeHeroTitle:
+  homeHeroTitle: Swiss Container Platform
   homeHeroSignup: Für Public Platform anmelden
   homeHeroDesc: |-
     <p>APPUiO ist die erste Schweizer Container Plattform basierend auf OpenShift von Red Hat. Auf Basis bewährter Open Source Konzepte wie Docker und Kubernetes entwickelst, betreibst und skalierst du eine Anwendung nach deinen Bedürfnissen. Mit APPUiO können deine Applikationen sowohl auf Public Clouds als auch unternehmensintern betrieben werden.</p>

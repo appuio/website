@@ -16,6 +16,7 @@ title: APPUiO - Swiss Container Platform
       </div>
     </div>
     <div class="home-hero-illus">
+      <!-- <div class="home-hero-title-wrapper"><h1 class="home-hero-title"><%= t(:homeHeroTitle) %></h1></div> -->
       <%= image_tag "appuio_logo.svg", :alt => t(:homeHeroAlt), :class => 'home-hero-logo' %>
     </div>
     <div id="overview" class="grid-container">
@@ -231,17 +232,17 @@ title: APPUiO - Swiss Container Platform
       </article> -->
       <ul class="callout-list technology-base-list">
         <li class="callout-item">
-          <img src="/images/openshift_schild.svg" alt="technology1-image" />
+          <div class="technology-base-image"><img src="/images/openshift_schild.svg" alt="technology1-image" /></div>
           <h3 class="callout-title"><%= t(:homeTechnologiesOneTitle) %></h3>
           <p class="callout-desc"><%= t(:homeTechnologiesOneDesc) %></p>
         </li>
         <li class="callout-item">
-          <img src="/images/docker_logo.svg" alt="technology2-image" />
+          <div class="technology-base-image"><img src="/images/docker_logo.svg" alt="technology2-image" /></div>
           <h3 class="callout-title"><%= t(:homeTechnologiesTwoTitle) %></h3>
           <p class="callout-desc"><%= t(:homeTechnologiesTwoDesc) %></p>
         </li>
         <li class="callout-item">
-          <img src="images/kubernetes_logo.svg" alt="technology3-image" />
+          <div class="technology-base-image"><img src="images/kubernetes_logo.svg" alt="technology3-image" /></div>
           <h3 class="callout-title"><%= t(:homeTechnologiesThreeTitle) %></h3>
           <p class="callout-desc"><%= t(:homeTechnologiesThreeDesc) %></p>
         </li>
