@@ -29,6 +29,7 @@ a.offers-package {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  position: relative;
 
   text-align: center;
   padding: rem-calc(16);
@@ -178,4 +179,10 @@ a.offers-package {
       }
     }
   }
+}
+
+.appuio-price-source-selection {
+  position: absolute;
+  top: 3rem;
+  right: 1rem;
 }

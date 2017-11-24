@@ -90,7 +90,8 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
     var vorname = $("[name='vorname']").val();
     var nachname = $("[name='nachname']").val();
     var email = $("[name='email']").val();
-    var interests = "Memory: " + $('#memoryslider').value;
+    var interests = "Memory: " + $('[name="memory"]').val();
+    var priceSource = $('[appuio-price-source]:checked').val();
     var billing = $.map($(':radio[name=billing\\[\\]]:checked'), function(n, i){
       return n.value;
     }).join(',');
@@ -124,6 +125,7 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
       nachname: nachname,
       email: email,
       interests: interests,
+      priceSource: priceSource,
       billing: billing,
       message: messageform,
       messageback: message,
