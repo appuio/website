@@ -298,10 +298,9 @@ de:
     <li class="offers-package-item">Jenkins Build Infrastruktur mit diversen Buildnodes</li>
     
   offerTwoCPUDescription: TestText
-  <!--
-  offerTwoIso: |-
-    Öffentlich (public) ist nur der Name der gemeinsamen Cloud-Plattform. Sicherheit schreiben wir gross: APPUiO wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
-  -->
+  
+  #offerTwoIso: |-
+  #  Öffentlich (public) ist nur der Name der gemeinsamen Cloud-Plattform. Sicherheit schreiben wir gross: APPUiO wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
 
 # Offer Two: Add-Ons
   
@@ -333,7 +332,7 @@ de:
   offerTwoFaqVerTwoTitle: In welcher Periodizität erfolgt die Abrechnung?
   offerTwoFaqVerTwoText: Die Abrechnung erfolgt jeweils zu Beginn eines Monats.
   offerTwoFaqVerTreeTitle: In welchem Takt wird abgerechnet? 
-  offerTwoFaqVerTreeText:1h, Maximalwert der letzten Stunde
+  offerTwoFaqVerTreeText: 1h, Maximalwert der letzten Stunde
   offerTwoFaqVerFourTitle: Welche Einheit wird abgerechnet?
   offerTwoFaqVerFourText: Die Abrechnung erfolgt in Megabytes.
   offerTwoFaqVerFiveTitle: Wo sind die laufenden Kosten ersichtlich?
