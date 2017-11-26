@@ -271,7 +271,7 @@ de:
   offerTwoProductsTwoDesc: Willst du deine Projekte eigenständig verwalten? Dann wähle unsere APPUiO Dedicated. Du kannst beliebig viele Projekte ab 16 GB Memory eröffnen. 
 
 # Offer Two: Schieber
-  offerTwoPossibilitesDescription:|- 
+  offerTwoPossibilitesDescription: |- 
     Die CPU Resourcen werden als KCU (Kubernetes Compute Units) normalisiert, so entsprechen CPU 1000m ungefähr einem single hyperthreaded CPU Kern.
     Was du mit dieser Konfiguration erreichen kannst
 
