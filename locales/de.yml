@@ -349,9 +349,9 @@ de:
   offerTwoFaqAllFourTitle: Was wird gesichert?
   offerTwoFaqAllFourText: Der gesamte Cluster, die Objekte und die Daten vom Perstistent Storage werden laufend gesichert. Es gibt keine Applikationskonsistente Backups und der Restore durch unseren Support ist kostenpflichtig.
 #Categorie: Add-Ons
-  offerTwoFaqAddOneTitle: SLA: Was sind die Supportzeiten?
+  offerTwoFaqAddOneTitle: SLA, Was sind die Supportzeiten?
   offerTwoFaqAddOneText: In diesen Zeiten können Supportfälle per Telefon oder Email an das Supportteam gemeldet werden. Der Kunde erhält von VSHN die direkte Telefonnummer des Supportsteams. Das Supportteammitglied, welches den Supportfall entgegen nimmt bestätigt den Eingang per Mail auf eine durch den Kunden zu definierende Mail-Adresse.
-  offerTwoFaqAddTwoTitle: SLA: Was ist die Reaktionszeit?
+  offerTwoFaqAddTwoTitle: SLA, Was ist die Reaktionszeit?
   offerTwoFaqAddTwoText: |- 
     Die Reaktionszeit beginnt mit der Meldung des Supportfalls zu laufen und bezieht sich auf den Zeitraum der Supportzeit.
     Innerhalb des durch die Reaktionszeit definierten Zeitraums muss spätestens mit der Analyse des gemeldeten Supportfalls begonnen werden.
