@@ -306,19 +306,19 @@ de:
   
   offerTwoAddonsTitle: Add-Ons
   offerTwoDedicatedAddonsPretext: ""
-  offerTwoDedicatedAddonsTitle: Dedicated APPUiO
-  offerTwoDedicatedAddonsItem1: Beliebig viele Projekte
-  offerTwoDedicatedAddonsItem2: "> 16 GB Memory"
-  offerTwoDedicatedAddonsItem3: private dedicated Node
+  offerTwoDedicatedAddonsTitle: SLA Office Hours Plus
+  offerTwoDedicatedAddonsItem1: SLA Office Hours Plus
+  offerTwoDedicatedAddonsItem2: Supportzeiten, 07,00-19,00 Uhr (5x12) Reaktionszeiten, 2h Verfügbarkeit 99,3%
+  offerTwoDedicatedAddonsItem3: 250.- CHF pro Kunde pro Monat
   offerTwoDedicatedAddonsItem4: selbstständige Ressourcenverwaltung im Kundenportal
   offerTwoDedicatedDescription: "Auf unserer Public Platform betreiben wir für Sie auch dedizierte, private Nodes. Auf diesen werden nur Ihre eigenen Container deployed und betrieben. Dieses Angebot ist ideal für Kunden, die ihre OpenShift Projekte inkl. Ressourcen eigenständig planen und verwalten möchten."
 
 
-  offerTwoPackageAddonsTitle: Persistent Storage Add Ons
+  offerTwoPackageAddonsTitle: SLA Office Hours 
   offerTwoPackageAddonsPretext: Nach Verbrauch
-  offerTwoPersistentStorageAddonItem1: 1 GB CHF 2.70 / Monat
-  offerTwoPersistentStorageAddonItem2: 2 GB CHF 3.70 / Monat
-  offerTwoPersistentStorageAddonItem3: 4 GB CHF 5.70 / Monat
+  offerTwoPersistentStorageAddonItem1: SLA Office Hours 
+  offerTwoPersistentStorageAddonItem2: Supportzeiten, 08,00-17,00 Uhr (5x9) Reaktionszeiten, 2h Verfügbarkeit 99%
+  offerTwoPersistentStorageAddonItem3: Im Preis inbegriffen
 
   offerTwoStorageDescription: Persistent Storage steht Ihnen direkt in der Web Console oder via CLI zur Verfügung und kann als sogenannte Persistent Volumes direkt an Ihre Container angebunden werden. Die Abrechnung erfolgt nach Verbrauch.
 
