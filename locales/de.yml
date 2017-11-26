@@ -237,6 +237,33 @@ de:
   offerTwoTitle: Public Platform
   offerTwoIntro: Sie möchten Ihre produktiven Applikationen in eine Schweizer Cloud deployen oder brauchen kurzfristig flexible, standardisierte Entwicklungsumgebungen ? Nutzen Sie dafür unsere APPUiO Public Plattform.
 
+
+# Offer Two: Vorteile
+  offerTwoAdvantagesTitle: Passendes Angebot auswählen und loslegen
+  offerTwoAdvantagesOneTitle: Swissness
+  offerTwoAdvantagesOneDesc: APPUiO wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
+  offerTwoAdvantagesTwoTitle: Security
+  offerTwoAdvantagesTwoDesc: Auf der APPUiO Public Platform profitierst du von SELinux, Federation Authentication und Let’s Encrypt. Regelmässig werden die neuesten Security Updates eingespielt. 
+  offerTwoAdvantagesThreeTitle: Support
+  offerTwoAdvantagesThreeDesc: Du erhältst persönlichen Support zu Geschäftszeiten sowie regelmässige Wartung und Updates der Server. Auch Backup und Monitoring sind inklusive. Zudem steht dir unsere starke Community im Chat zur Verfügung.
+  
+# Im Angebot enthalten
+  offerTwoPackageContentsTitle: Was ist im Angebot enthalten?
+  offerTwoPackageContentsFirstTitle: Backup und Monitoring
+  offerTwoPackageContentsFirstItemOne: Wir erstellen einmal täglich ein Backup aller relevanten Daten. Zudem sind im Portal die verfügbaren Ressourcen ersichtlich. Auf status.appuio.ch siehst du jederzeit den Status der Public Plattform.
+  offerTwoPackageContentsSecondTitle: TCP Traffic
+  offerTwoPackageContentsSecondItemOne: Mit APPUiO kannst du Non-HTTP-Traffic in Public Cluster routen. So können Kunden IPs an Services anbinden und beispielsweise Datenbanken, LDAP Server, SSH Server öffentlich zur Verfügung stellen.
+  offerTwoPackageContentsThirdTitle: Let’s Encrypt Zertifikate
+  offerTwoPackageContentsThirdItemOne: APPUiO erlaubt es dir, mittels “Let’s Encrypt" einfach per Knopfdruck echte SSL-Zertifikate in deine Routen zu konfigurieren. Nach erfolgter Registrierung sorgt APPUiO für die Aktualisierung der Lets Encrypt-Zertifikate, die 3 Monate gültig sind, und ersetzt diese automatisch nach Ablauf. 
+  offerTwoPackageContentsFourthTitle: Secure Docker Builds
+  offerTwoPackageContentsFourthItemOne: Unsere Plattform erlaubt es, Docker Image Native als Docker Builds laufen zu lassen. Dafür haben wir die Buildumgebung extrahiert. Die Builds laufen in dynamischen, abgeschotteten VMs pro Mandant ausserhalb des Clusters. Zusätzlich zu den sicheren Builds, erlaubt unsere Erweiterung Docker Multi-Stage Builds. Docker Multi-Stage Builds helfen Dockerfiles zu optimieren und sie einfacher und lesbarer zu machen.
+  offerTwoPackageContentsFifthTitle: SaaS (aktuell managed Services)
+  offerTwoPackageContentsFifthItemOne: |- 
+    Es gibt eine erste Plattform Software die wir auf unserer Public Plattform als Service anbieten. Wir  bauen die Software deinen Wünschen entsprechend auf und betreiben sie als Managed Service.
+    <li>3 Scale API Management(Beta): API Management Lösung von Red Hat. </li>
+    <li>DataBase as a Service Manuell: Postgresql, Mariadb, Mysql</li>
+    <li>WaF as a Service Manuell: tbd</li>
+
   offerTwoServiceTitle: Passendes Angebot auswählen und loslegen
   offerTwoServices1: Auf Ihre Bedürfnisse zugeschnittene Bundles
   offerTwoServices2: "Von Entwicklern für Entwickler: Forum, Dokumentation und Community"
@@ -259,32 +286,9 @@ de:
 
   offerTwoCPUDescription: Die CPU Resourcen werden als KCU (Kubernetes Compute Units) normalisiert, so entsprechen CPU 1000m ungefähr einem single hyperthreaded CPU Kern.
 
-  offerTwoPackageContentsTitle: Was ist im Angebot enthalten?
-  offerTwoPackageContentsFirstTitle: Multinode Platform
-  offerTwoPackageContentsFirstItemOne: Ressourcen stehen auf einer multinode Plattform zur Verfügung
-  offerTwoPackageContentsFirstItemTwo: Alle Komponenten sind standardmässig hochverfügbar
-  offerTwoPackageContentsSecondTitle: Automatisierung
-  offerTwoPackageContentsSecondItemOne: Integration via REST API, CLI Tool oder über <a href="https://wiki.jenkins-ci.org/display/JENKINS/OpenShift+Pipeline+Plugin" alt="Jenkins Plugin">Jenkins Plugin</a> einfach automatisieren und integrieren.
-  offerTwoPackageContentsSecondItemTwo: Rolling Updates ermöglichen unterbruchsfreie, blau - grün Deployments
-  offerTwoPackageContentsThirdTitle: Multitenant &amp; sicher
-  offerTwoPackageContentsThirdItemOne: Laufende Aktualisierung von supporteten Enterprise RHEL Basis Images
-  offerTwoPackageContentsThirdItemTwo: Gegen aussen sichere Docker Registry und damit volle Kontrolle über Docker Images
-  offerTwoPackageContentsFourthTitle: Flexibilität
-  offerTwoPackageContentsFourthItemOne: Docker Open Source Ökosystem mit zusätzlichen Laufzeitumgebungen, Frameworks und Tools
-  offerTwoPackageContentsFourthItemTwo: Beliebige Skalierbarkeit über die ganze Plattform
-  offerTwoPackageContentsFifthTitle: Flexibilität
-  offerTwoPackageContentsFifthItemOne: Docker Open Source Ökosystem mit zusätzlichen Laufzeitumgebungen, Frameworks und Tools
-  offerTwoPackageContentsFifthItemTwo: Beliebige Skalierbarkeit über die ganze Plattform
+  
 
-  # Offer Two: Vorteile
-  offerTwoAdvantagesTitle: Passendes Angebot auswählen und loslegen
-  offerTwoAdvantagesOneTitle: Schnell am Markt
-  offerTwoAdvantagesOneDesc: Mit APPUiO kannst du deine Applikation automatisch builden, testen und deployen. Auch beim Monitoring und bei Updates gewinnst du Zeit. Releases können täglich durchgeführt werden, was die agile Arbeitsweise und den Minimum Valuable Products (MVP) Ansatz fördert.
-  offerTwoAdvantagesTwoTitle: Collaboration fördern
-  offerTwoAdvantagesTwoDesc: Mit Continous Delivery und der Selfservice-Infrastruktur fördert APPUiO die Zusammenarbeit zwischen Devs und Ops. Als Entwickler kannst du deine Applikation selber deployen und betreiben.
-  offerTwoAdvantagesThreeTitle: Einheitlich und offen
-  offerTwoAdvantagesThreeDesc: Die Entwicklungsumgebung sieht auf deinem Laptop anders aus als die Produktionsumgebung? Mit APPUiO sind deine Umgebungen standardisiert. Offene Standards und OpenSource sind die Basis unserer Plattform.
-
+  
   # Offer Two: FAQ
   offerTwoFaqTitle: Häufig gestellte Fragen
   offerTwoFaqOneTitle: Was ist OpenShift und wie funktioniert es?
