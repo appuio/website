@@ -346,7 +346,7 @@ de:
   offerTwoFaqAllTwoText: Deinen APPUiO-Account erhältst du, indem du das Kontaktformular ausfüllst. Anschliessend erhältst du von uns nach Prüfung ein Login
   offerTwoFaqAllTreeTitle: Was wird überwacht?
   offerTwoFaqAllTreeText: Der gesamte Cluster und die dazugehörigen Komponenten werden überwacht. Für die Kundenapplikation kann ein zusätzliches Monitoring abonniert werden.
-  offerTwoFaqAllfourTitle: Was wird gesichert?
+  offerTwoFaqAllFourTitle: Was wird gesichert?
   offerTwoFaqAllFourText: Der gesamte Cluster, die Objekte und die Daten vom Perstistent Storage werden laufend gesichert. Es gibt keine Applikationskonsistente Backups und der Restore durch unseren Support ist kostenpflichtig.
 #Categorie: Add-Ons
   offerTwoFaqAddOneTitle: SLA: Was sind die Supportzeiten?
