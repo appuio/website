@@ -270,7 +270,34 @@ de:
   offerTwoProductsTwoTitel: Dedicated
   offerTwoProductsTwoDesc: Willst du deine Projekte eigenständig verwalten? Dann wähle unsere APPUiO Dedicated. Du kannst beliebig viele Projekte ab 16 GB Memory eröffnen. 
 
+# Offer Two: Schieber
+  offerTwoPossibilitesDescription:|- 
+    Die CPU Resourcen werden als KCU (Kubernetes Compute Units) normalisiert, so entsprechen CPU 1000m ungefähr einem single hyperthreaded CPU Kern.
+    Was du mit dieser Konfiguration erreichen kannst
 
+  offerTwoPossibilitiesSmall: |-
+    <li class="offers-package-item">Einfache Website mit geringen Zugriffen</li>
+    <li class="offers-package-item">Minimale CakePHP-Applikation mit kleiner Datenbank</li>
+    <li class="offers-package-item">Micro Service, GO Node.JS, Springboot, Ruby, PHP, .Net, Python</li>
+  offerTwoPossibilitiesMedium: |-
+    <li class="offers-package-item">Komplexere Website bspw. mit PHP und einer Datenbank</li>
+    <li class="offers-package-item">CakePHP-Applikation mit mittlerer Datenbank</li>
+    <li class="offers-package-item">zwei Instanzen hochverfügbar eines Micro Services</li>
+    <li class="offers-package-item">Keycloak mit Datenbank</li>
+  offerTwoPossibilitiesLarge: |-
+    <li class="offers-package-item">Komplexe Applikation mit mehreren Serivces</li>
+    <li class="offers-package-item">Jenkins Build Server</li>
+    <li class="offers-package-item">mehrere Instanzen hochverfügbar eines Micro Services, bspw. vier
+    Instanzen zur gleichen Zeit</li>
+    <li class="offers-package-item">Komplexe Java Applikation</li>
+    <li class="offers-package-item">Java EE Applikation JBoss EAP deployed mit Datenbank</li>
+  offerTwoPossibilitiesXLarge: |-
+    <li class="offers-package-item">Komplexe Applikationen mit grösserer Last und Datenbanken</li>
+    <li class="offers-package-item">Hochverfügbare Datenbanken</li>
+    <li class="offers-package-item">Micro Service Architektur etliche Services</li>
+    <li class="offers-package-item">Jenkins Build Infrastruktur mit diversen Buildnodes</li>
+    
+  offerTwoCPUDescription: TestText
 
 
 
@@ -294,8 +321,6 @@ de:
   offerTwoLabelPreisPerDay: "pro Tag"
   offerTwoLabelPreisPerMonth: "pro Monat"
   offerPackageDedicatedInfo: "Info: allenfalls macht für Sie ein Dedicated Node Sinn"
-
-  offerTwoCPUDescription: Die CPU Resourcen werden als KCU (Kubernetes Compute Units) normalisiert, so entsprechen CPU 1000m ungefähr einem single hyperthreaded CPU Kern.
 
   
 
@@ -334,29 +359,6 @@ de:
   offerTwoLoadingMessage: Bestellung wird gesendet...
   offerTwoSuccessMessage: Bestellung wurde erfolgreich gesendet!
 
-  offerTwoPossibilitesDescription: Was Sie mit dieser Konfiguration erreichen können
-
-  offerTwoPossibilitiesSmall: |-
-    <li class="offers-package-item">Einfache Website mit geringen Zugriffen</li>
-    <li class="offers-package-item">Minimale CakePHP-Applikation mit kleiner Datenbank</li>
-    <li class="offers-package-item">Micro Service, GO Node.JS, Springboot, Ruby, PHP, .Net, Python</li>
-  offerTwoPossibilitiesMedium: |-
-    <li class="offers-package-item">Komplexere Website bspw. mit PHP und einer Datenbank</li>
-    <li class="offers-package-item">CakePHP-Applikation mit mittlerer Datenbank</li>
-    <li class="offers-package-item">zwei Instanzen hochverfügbar eines Micro Services</li>
-    <li class="offers-package-item">Keycloak mit Datenbank</li>
-  offerTwoPossibilitiesLarge: |-
-    <li class="offers-package-item">Komplexe Applikation mit mehreren Serivces</li>
-    <li class="offers-package-item">Jenkins Build Server</li>
-    <li class="offers-package-item">mehrere Instanzen hochverfügbar eines Micro Services, bspw. vier
-    Instanzen zur gleichen Zeit</li>
-    <li class="offers-package-item">Komplexe Java Applikation</li>
-    <li class="offers-package-item">Java EE Applikation JBoss EAP deployed mit Datenbank</li>
-  offerTwoPossibilitiesXLarge: |-
-    <li class="offers-package-item">Komplexe Applikationen mit grösserer Last und Datenbanken</li>
-    <li class="offers-package-item">Hochverfügbare Datenbanken</li>
-    <li class="offers-package-item">Micro Service Architektur etliche Services</li>
-    <li class="offers-package-item">Jenkins Build Infrastruktur mit diversen Buildnodes</li>
 
 
 # Offer3: On Premises PaaS
