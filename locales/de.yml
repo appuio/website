@@ -247,7 +247,7 @@ de:
   offerTwoAdvantagesThreeTitle: Support
   offerTwoAdvantagesThreeDesc: Du erhältst persönlichen Support zu Geschäftszeiten sowie regelmässige Wartung und Updates der Server. Auch Backup und Monitoring sind inklusive. Zudem steht dir unsere starke Community im Chat zur Verfügung.
   
-# Im Angebot enthalten
+# Offer Two: Im Angebot enthalten
   offerTwoPackageContentsTitle: Was ist im Angebot enthalten?
   offerTwoPackageContentsFirstTitle: Backup und Monitoring
   offerTwoPackageContentsFirstItemOne: Wir erstellen einmal täglich ein Backup aller relevanten Daten. Zudem sind im Portal die verfügbaren Ressourcen ersichtlich. Auf status.appuio.ch siehst du jederzeit den Status der Public Plattform.
@@ -263,6 +263,17 @@ de:
     <li>3 Scale API Management(Beta): API Management Lösung von Red Hat. </li>
     <li>DataBase as a Service Manuell: Postgresql, Mariadb, Mysql</li>
     <li>WaF as a Service Manuell: tbd</li>
+    
+ # Offer Two: Produkte
+  offerTwoProductsOneTitel: Shard
+  offerTwoProductsOneDesc: Bestelle in unserem Selfservice-Portal deine Public Platform auf einer geteilten Infrastruktur. Du erhältst ein OpenShift-Projekt mit beliebig viel GB Memory.
+  offerTwoProductsTwoTitel: Dedicated
+  offerTwoProductsTwoDesc: Willst du deine Projekte eigenständig verwalten? Dann wähle unsere APPUiO Dedicated. Du kannst beliebig viele Projekte ab 16 GB Memory eröffnen. 
+
+
+
+
+
 
   offerTwoServiceTitle: Passendes Angebot auswählen und loslegen
   offerTwoServices1: Auf Ihre Bedürfnisse zugeschnittene Bundles
