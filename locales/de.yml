@@ -179,17 +179,6 @@ de:
   offerOneServices3: "Automatisierung Ihrer Prozesse: Continuos Delivery und Continuous Deployment Ihrer Applikationen"
 
 
-
-
-
-
-
-
-
-
-
-
-
   offerOnePackageTitle: "Wählen Sie das für Ihre Bedürfnisse passende Paket:"
   offerOnePackageSmallTitle: Small
   offerOnePackageSmallItem1: Master <br> (je 16 GB Ram, 6vCores)
@@ -271,8 +260,19 @@ de:
   offerTwoProductsTwoDesc: Willst du deine Projekte eigenständig verwalten? Dann wähle unsere APPUiO Dedicated. Du kannst beliebig viele Projekte ab 16 GB Memory eröffnen. 
 
 # Offer Two: Schieber
+
+  offerDynamicAddonsPretext: "APPUiO public Platform Calculator"
+  offerTwoPackageTitle: "Konfigurieren Sie hier ihre passende Grösse."
+  offerDynamicAddonsTitle: "Grösse wählen"
+  offerTwoDynamicButton: "Bestellen"
+  offerTwoLabelMemory: "Memory"
+  offerTwoLabelCpu: "CPU"
+  offerTwoLabelPreis: "Preis"
+  offerTwoLabelPreisPerDay: "pro Tag"
+  offerTwoLabelPreisPerMonth: "pro Monat"
+  offerPackageDedicatedInfo: "Info: allenfalls macht für Sie ein Dedicated Node Sinn"
   offerTwoPossibilitesDescription: |- 
-    Die CPU Resourcen werden als KCU (Kubernetes Compute Units) normalisiert, so entsprechen CPU 1000m ungefähr einem single hyperthreaded CPU Kern.
+    Die CPU Resourcen werden als KCU (Kubernetes Compute Units) normalisiert, so entsprechen CPU 1000m ungefähr einem single hyperthreaded CPU Kern. <br>
     Was du mit dieser Konfiguration erreichen kannst
 
   offerTwoPossibilitiesSmall: |-
@@ -298,38 +298,13 @@ de:
     <li class="offers-package-item">Jenkins Build Infrastruktur mit diversen Buildnodes</li>
     
   offerTwoCPUDescription: TestText
-
-
-
-
-  offerTwoServiceTitle: Passendes Angebot auswählen und loslegen
-  offerTwoServices1: Auf Ihre Bedürfnisse zugeschnittene Bundles
-  offerTwoServices2: "Von Entwicklern für Entwickler: Forum, Dokumentation und Community"
-  offerTwoServices3: Wir kümmern uns um Backup, Monitoring, Updates, Skalierung und Support
-
-  offerTwoServicesDesc: Die Abrechnung erfolgt monatlich oder jährlich per Rechnung. Beim Abschluss eines Jahresvertrags schenken wir Ihnen zwei Monate.
+  <!--
   offerTwoIso: |-
     Öffentlich (public) ist nur der Name der gemeinsamen Cloud-Plattform. Sicherheit schreiben wir gross: APPUiO wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
+  -->
 
-  offerDynamicAddonsPretext: "APPUiO public Platform Calculator"
-  offerTwoPackageTitle: "Konfigurieren Sie hier ihre passende Grösse."
-  offerDynamicAddonsTitle: "Grösse wählen"
-  offerTwoDynamicButton: "Bestellen"
-  offerTwoLabelMemory: "Memory"
-  offerTwoLabelCpu: "CPU"
-  offerTwoLabelPreis: "Preis"
-  offerTwoLabelPreisPerDay: "pro Tag"
-  offerTwoLabelPreisPerMonth: "pro Monat"
-  offerPackageDedicatedInfo: "Info: allenfalls macht für Sie ein Dedicated Node Sinn"
-
+# Offer Two: Add-Ons
   
-
-  
-  # Offer Two: FAQ
-  offerTwoFaqTitle: Häufig gestellte Fragen
-  offerTwoFaqOneTitle: Was ist OpenShift und wie funktioniert es?
-  offerTwoFaqOneText: OpenShift ist die Container Platform von Red Hat. Seit der Version 3 setzt OpenShift auf bewährte Open Source Projekte wie Docker und Kubernetes.
-
   offerTwoAddonsTitle: Add-Ons
   offerTwoDedicatedAddonsPretext: ""
   offerTwoDedicatedAddonsTitle: Dedicated APPUiO
@@ -350,6 +325,47 @@ de:
 
   offerTwoBilling: Abrechnungsperiode ist einmal pro Monat<br>Es gelten die APPUiO Servicebestimmungen.
 
+# Offer Two: FAQ
+  offerTwoFaqTitle: Häufig gestellte Fragen
+#Categorie: Verrechnung
+  offerTwoFaqVerOneTitle: Wie kann ich von den früheren “T-Shirt.Grössen” für die Public Platform auf das flexible Pricing migrieren?
+  offerTwoFaqVerOneText: Kann im Kundenportal via Self service umgeschaltet werden.
+  offerTwoFaqVerTwoTitle: In welcher Periodizität erfolgt die Abrechnung?
+  offerTwoFaqVerTwoText: Die Abrechnung erfolgt jeweils zu Beginn eines Monats.
+  offerTwoFaqVerTreeTitle: In welchem Takt wird abgerechnet? 
+  offerTwoFaqVerTreeText:1h, Maximalwert der letzten Stunde
+  offerTwoFaqVerFourTitle: Welche Einheit wird abgerechnet?
+  offerTwoFaqVerFourText: Die Abrechnung erfolgt in Megabytes.
+  offerTwoFaqVerFiveTitle: Wo sind die laufenden Kosten ersichtlich?
+  offerTwoFaqVerFiveText: Im Kundenportal können die laufenden Kosten angeschaut werden
+  offerTwoFaqVerSixTitle: Muss ich zusätzlich Subscription von Red Hat bezahlen?
+  offerTwoFaqVerSixText: Nein, die Subscriptions sind im Preis enthalten.
+#Categorie: Allgemein
+  offerTwoFaqAllOneTitle: Wo ist APPUiO Public gehostet?
+  offerTwoFaqAllOneText: APPUiO Public Platform kann je nach Wunsch bei cloudscale.ch und bei AWS Frankfurt gehostet werden.
+  offerTwoFaqAllTwoTitle: Wie erhalte ich einen APPUiO Account?
+  offerTwoFaqAllTwoText: Deinen APPUiO-Account erhältst du, indem du das Kontaktformular ausfüllst. Anschliessend erhältst du von uns nach Prüfung ein Login
+  offerTwoFaqAllTreeTitle: Was wird überwacht?
+  offerTwoFaqAllTreeText: Der gesamte Cluster und die dazugehörigen Komponenten werden überwacht. Für die Kundenapplikation kann ein zusätzliches Monitoring abonniert werden.
+  offerTwoFaqAllfourTitle: Was wird gesichert?
+  offerTwoFaqAllFourText: Der gesamte Cluster, die Objekte und die Daten vom Perstistent Storage werden laufend gesichert. Es gibt keine Applikationskonsistente Backups und der Restore durch unseren Support ist kostenpflichtig.
+#Categorie: Add-Ons
+  offerTwoFaqAddOneTitle: SLA: Was sind die Supportzeiten?
+  offerTwoFaqAddOneText: In diesen Zeiten können Supportfälle per Telefon oder Email an das Supportteam gemeldet werden. Der Kunde erhält von VSHN die direkte Telefonnummer des Supportsteams. Das Supportteammitglied, welches den Supportfall entgegen nimmt bestätigt den Eingang per Mail auf eine durch den Kunden zu definierende Mail-Adresse.
+  offerTwoFaqAddTwoTitle: SLA: Was ist die Reaktionszeit?
+  offerTwoFaqAddTwoText: |- 
+  Die Reaktionszeit beginnt mit der Meldung des Supportfalls zu laufen und bezieht sich auf den Zeitraum der Supportzeit.
+  Innerhalb des durch die Reaktionszeit definierten Zeitraums muss spätestens mit der Analyse des gemeldeten Supportfalls begonnen werden.
+  Beispiel:
+  Der Kunde meldet um 16:00 ein Supportfall. Mit der Bearbeitung des Supportfalls in der Variante A wird spätestens am nächsten Tag um 17:00 begonnen
+  offerTwoFaqAddTreeTitle: Was ist die "garantierte" Verfügbarkeit?
+  offerTwoFaqAddTreeText: Ausserhalb der angekündigten Wartungsarbeiten, Kundenfehler ausschliessen, Erreichbar gemäss Monitoring, analog AGBs VSHN.
+  
+
+  
+# Offer Two: FContact
+  
+  
   offerTwoContactTitle: APPUiO - PUBLIC PLATFORM
   offerTwoContactSubject: Hiermit bestelle ich verbindlich ...
 
