@@ -114,14 +114,23 @@
   padding: 6.25rem 0;
   .callout-item {
     background-color: transparent;
+    @include susy-breakpoint($break-large) {
+        margin-left: 2rem;
+        &:first-child {
+          margin-left: 0;
+        }
+    }
     .callout-title {
       min-height: auto;
       margin-bottom: 0px;
       color: $color-blue;
       overflow: visible;
+      font-size: 1.125rem;
+
     }
     .callout-desc {
       min-height: auto;
+      font-size: 1rem;
     }
   }
 
@@ -158,6 +167,9 @@
   text-align: center;
 
   .technology-base-list {
+    .technology-base-image {
+      height: 10rem;
+    }
     padding-top: rem-calc(100);
     .callout-title {
       min-height: initial;

@@ -37,23 +37,59 @@
   color: white;
 }
 .offer-two-offers {
-  background-color: $color-lightblue;
+  background-color: $color-blue;
   color: white;
   padding: rem-calc(60 0);
+  .offers-package-list {
+    li.offers-package-item {
+      margin: 0;
+      padding-left: 0;
+      padding-right: 0;
+      &.offer-package-power {
+        margin: 1.125rem 0;
+        border-bottom: 0;
+      }
+      &.offers-package-price {
+        border-bottom: 0;
+      }
+    }
+  }
+  .offers-package-button-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    .offers-package-button {
+      text-align: center;
+    }
+    div, a {
+      flex: 0 33%;
+
+    }
+  }
 }
 
 .offer-addons {
-  background-color: $color-blue;
+  background-color: $color-lightblue;
   color: white;
   padding: rem-calc(60 0);
   .offers-addons-title {
     text-align: center;
   }
+  ul.offers-package-list {
+    border-bottom: 1px solid #E5EAED;
+    li.offers-package-item {
+      border-bottom: none;
+    }
+  }
+  .offers-package {
+    background-color: transparent;
+  }
+  .offers-addons-package-title {
+    font-weight: bold;
+  }
 }
 
 .offer-faq {
-  background-color: $color-lightblue;
-  color: white;
   padding: rem-calc(60 0);
 
   .offers-faq-title {
@@ -216,6 +252,22 @@ section#offer-two-advantages {
   }
 }
 
+section.offer-two-services {
+  .callout-list {
+    width: 100%;
+    .callout-item {
+      max-width: none;
+      margin-left:0;
+      .callout-title {
+        min-height: 0;
+      }
+      .callout-desc {
+        color: white;
+      }
+    }
+  }
+}
+
 .offer-three-terms {
   display: block;
   position: relative;
@@ -350,9 +402,8 @@ section#offer-two-advantages {
 }
 
 .offers-package-dedicated-info {
-  flex: 1 0 100%;
-  display: none;
-  text-align: center;
+    display: none;
+    margin: 0;
 }
 
 .interest-item-price {
@@ -365,6 +416,7 @@ section#offer-two-advantages {
 }
 
 .offers-package.active {
+  outline: 10px solid $color-yellow;
   > .offers-package-ribbon {
     background-color: $color-yellow;
   }

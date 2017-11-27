@@ -165,10 +165,19 @@ a.offers-package {
     background-color: white;
     color: black;
 
+    .offers-package-list {
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+
     li.offers-package-item {
       border-bottom: none;
+      &.offer-package-power {
+        margin: 1.125rem 0;
+      }
       @include susy-breakpoint($break-medium) {
-        width: 25rem;
+        width: 31%;
+        flex: unset !important;
       }
       li {
         border-bottom: 1px solid #E5EAED;
@@ -182,7 +191,8 @@ a.offers-package {
 }
 
 .appuio-price-source-selection {
-  position: absolute;
-  top: 3rem;
-  right: 1rem;
+  padding-bottom: 4rem;
+  label {
+    padding-right: 1rem;
+  }
 }

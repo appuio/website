@@ -232,10 +232,10 @@ de:
   offerTwoAdvantagesOneTitle: Swissness
   offerTwoAdvantagesOneDesc: APPUiO wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
   offerTwoAdvantagesTwoTitle: Security
-  offerTwoAdvantagesTwoDesc: Auf der APPUiO Public Platform profitierst du von SELinux, Federation Authentication und Let’s Encrypt. Regelmässig werden die neuesten Security Updates eingespielt. 
+  offerTwoAdvantagesTwoDesc: Auf der APPUiO Public Platform profitierst du von SELinux, Federation Authentication und Let’s Encrypt. Regelmässig werden die neuesten Security Updates eingespielt.
   offerTwoAdvantagesThreeTitle: Support
   offerTwoAdvantagesThreeDesc: Du erhältst persönlichen Support zu Geschäftszeiten sowie regelmässige Wartung und Updates der Server. Auch Backup und Monitoring sind inklusive. Zudem steht dir unsere starke Community im Chat zur Verfügung.
-  
+
 # Offer Two: Im Angebot enthalten
   offerTwoPackageContentsTitle: Was ist im Angebot enthalten?
   offerTwoPackageContentsFirstTitle: Backup und Monitoring
@@ -243,21 +243,21 @@ de:
   offerTwoPackageContentsSecondTitle: TCP Traffic
   offerTwoPackageContentsSecondItemOne: Mit APPUiO kannst du Non-HTTP-Traffic in Public Cluster routen. So können Kunden IPs an Services anbinden und beispielsweise Datenbanken, LDAP Server, SSH Server öffentlich zur Verfügung stellen.
   offerTwoPackageContentsThirdTitle: Let’s Encrypt Zertifikate
-  offerTwoPackageContentsThirdItemOne: APPUiO erlaubt es dir, mittels “Let’s Encrypt" einfach per Knopfdruck echte SSL-Zertifikate in deine Routen zu konfigurieren. Nach erfolgter Registrierung sorgt APPUiO für die Aktualisierung der Lets Encrypt-Zertifikate, die 3 Monate gültig sind, und ersetzt diese automatisch nach Ablauf. 
+  offerTwoPackageContentsThirdItemOne: APPUiO erlaubt es dir, mittels “Let’s Encrypt" einfach per Knopfdruck echte SSL-Zertifikate in deine Routen zu konfigurieren. Nach erfolgter Registrierung sorgt APPUiO für die Aktualisierung der Lets Encrypt-Zertifikate, die 3 Monate gültig sind, und ersetzt diese automatisch nach Ablauf.
   offerTwoPackageContentsFourthTitle: Secure Docker Builds
   offerTwoPackageContentsFourthItemOne: Unsere Plattform erlaubt es, Docker Image Native als Docker Builds laufen zu lassen. Dafür haben wir die Buildumgebung extrahiert. Die Builds laufen in dynamischen, abgeschotteten VMs pro Mandant ausserhalb des Clusters. Zusätzlich zu den sicheren Builds, erlaubt unsere Erweiterung Docker Multi-Stage Builds. Docker Multi-Stage Builds helfen Dockerfiles zu optimieren und sie einfacher und lesbarer zu machen.
   offerTwoPackageContentsFifthTitle: SaaS (aktuell managed Services)
-  offerTwoPackageContentsFifthItemOne: |- 
+  offerTwoPackageContentsFifthItemOne: |-
     Es gibt eine erste Plattform Software die wir auf unserer Public Plattform als Service anbieten. Wir  bauen die Software deinen Wünschen entsprechend auf und betreiben sie als Managed Service.
-    <li>3 Scale API Management(Beta): API Management Lösung von Red Hat. </li>
-    <li>DataBase as a Service Manuell: Postgresql, Mariadb, Mysql</li>
-    <li>WaF as a Service Manuell: tbd</li>
-    
+    - 3 Scale API Management(Beta): API Management Lösung von Red Hat.
+    - DataBase as a Service Manuell: Postgresql, Mariadb, Mysql
+    - WaF as a Service Manuell: tbd
+
  # Offer Two: Produkte
   offerTwoProductsOneTitel: Shard
   offerTwoProductsOneDesc: Bestelle in unserem Selfservice-Portal deine Public Platform auf einer geteilten Infrastruktur. Du erhältst ein OpenShift-Projekt mit beliebig viel GB Memory.
   offerTwoProductsTwoTitel: Dedicated
-  offerTwoProductsTwoDesc: Willst du deine Projekte eigenständig verwalten? Dann wähle unsere APPUiO Dedicated. Du kannst beliebig viele Projekte ab 16 GB Memory eröffnen. 
+  offerTwoProductsTwoDesc: Willst du deine Projekte eigenständig verwalten? Dann wähle unsere APPUiO Dedicated. Du kannst beliebig viele Projekte ab 16 GB Memory eröffnen.
 
 # Offer Two: Schieber
 
@@ -270,10 +270,7 @@ de:
   offerTwoLabelPreis: "Preis"
   offerTwoLabelPreisPerDay: "pro Tag"
   offerTwoLabelPreisPerMonth: "pro Monat"
-  offerPackageDedicatedInfo: "Info: allenfalls macht für Sie ein Dedicated Node Sinn"
-  offerTwoPossibilitesDescription: |- 
-    Die CPU Resourcen werden als KCU (Kubernetes Compute Units) normalisiert, so entsprechen CPU 1000m ungefähr einem single hyperthreaded CPU Kern. <br>
-    Was du mit dieser Konfiguration erreichen kannst
+  offerPackageDedicatedInfo: "(Allenfalls macht für Sie ein Dedicated Node Sinn)"
 
   offerTwoPossibilitiesSmall: |-
     <li class="offers-package-item">Einfache Website mit geringen Zugriffen</li>
@@ -296,15 +293,23 @@ de:
     <li class="offers-package-item">Hochverfügbare Datenbanken</li>
     <li class="offers-package-item">Micro Service Architektur etliche Services</li>
     <li class="offers-package-item">Jenkins Build Infrastruktur mit diversen Buildnodes</li>
-    
-  offerTwoCPUDescription: TestText
-  
+
+  offerTwoCPUDescription: |-
+    Die CPU Resourcen werden als KCU (Kubernetes Compute Units) normalisiert, so entsprechen CPU 1000m ungefähr einem single hyperthreaded CPU Kern. <br>
+    Was du mit dieser Konfiguration erreichen kannst
+
   #offerTwoIso: |-
   #  Öffentlich (public) ist nur der Name der gemeinsamen Cloud-Plattform. Sicherheit schreiben wir gross: APPUiO wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
 
 # Offer Two: Add-Ons
-  
+
   offerTwoAddonsTitle: Add-Ons
+  offerTwoAddon1Title: SLA Office Hours
+  offerTwoAddon1Description: Supportzeiten, 08,00-17,00 Uhr (5x9) Reaktionszeiten, 2h Verfügbarkeit 99%
+  offerTwoAddon1Price: Im Preis inbegriffen
+  offerTwoAddon2Title: SLA Office Hours Plus
+  offerTwoAddon2Description: Supportzeiten, 07,00-19,00 Uhr (5x12) Reaktionszeiten, 2h Verfügbarkeit 99,3%
+  offerTwoAddon2Price: 250.- CHF pro Kunde pro Monat
   offerTwoDedicatedAddonsPretext: ""
   offerTwoDedicatedAddonsTitle: SLA Office Hours Plus
   offerTwoDedicatedAddonsItem1: SLA Office Hours Plus
@@ -314,9 +319,9 @@ de:
   offerTwoDedicatedDescription: "Auf unserer Public Platform betreiben wir für Sie auch dedizierte, private Nodes. Auf diesen werden nur Ihre eigenen Container deployed und betrieben. Dieses Angebot ist ideal für Kunden, die ihre OpenShift Projekte inkl. Ressourcen eigenständig planen und verwalten möchten."
 
 
-  offerTwoPackageAddonsTitle: SLA Office Hours 
+  offerTwoPackageAddonsTitle: SLA Office Hours
   offerTwoPackageAddonsPretext: Nach Verbrauch
-  offerTwoPersistentStorageAddonItem1: SLA Office Hours 
+  offerTwoPersistentStorageAddonItem1: SLA Office Hours
   offerTwoPersistentStorageAddonItem2: Supportzeiten, 08,00-17,00 Uhr (5x9) Reaktionszeiten, 2h Verfügbarkeit 99%
   offerTwoPersistentStorageAddonItem3: Im Preis inbegriffen
 
@@ -331,7 +336,7 @@ de:
   offerTwoFaqVerOneText: Kann im Kundenportal via Self service umgeschaltet werden.
   offerTwoFaqVerTwoTitle: In welcher Periodizität erfolgt die Abrechnung?
   offerTwoFaqVerTwoText: Die Abrechnung erfolgt jeweils zu Beginn eines Monats.
-  offerTwoFaqVerTreeTitle: In welchem Takt wird abgerechnet? 
+  offerTwoFaqVerTreeTitle: In welchem Takt wird abgerechnet?
   offerTwoFaqVerTreeText: 1h, Maximalwert der letzten Stunde
   offerTwoFaqVerFourTitle: Welche Einheit wird abgerechnet?
   offerTwoFaqVerFourText: Die Abrechnung erfolgt in Megabytes.
@@ -352,19 +357,19 @@ de:
   offerTwoFaqAddOneTitle: SLA, Was sind die Supportzeiten?
   offerTwoFaqAddOneText: In diesen Zeiten können Supportfälle per Telefon oder Email an das Supportteam gemeldet werden. Der Kunde erhält von VSHN die direkte Telefonnummer des Supportsteams. Das Supportteammitglied, welches den Supportfall entgegen nimmt bestätigt den Eingang per Mail auf eine durch den Kunden zu definierende Mail-Adresse.
   offerTwoFaqAddTwoTitle: SLA, Was ist die Reaktionszeit?
-  offerTwoFaqAddTwoText: |- 
+  offerTwoFaqAddTwoText: |-
     Die Reaktionszeit beginnt mit der Meldung des Supportfalls zu laufen und bezieht sich auf den Zeitraum der Supportzeit.
     Innerhalb des durch die Reaktionszeit definierten Zeitraums muss spätestens mit der Analyse des gemeldeten Supportfalls begonnen werden.
     Beispiel
     Der Kunde meldet um 16:00 ein Supportfall. Mit der Bearbeitung des Supportfalls in der Variante A wird spätestens am nächsten Tag um 17:00 begonnen
   offerTwoFaqAddTreeTitle: Was ist die "garantierte" Verfügbarkeit?
   offerTwoFaqAddTreeText: Ausserhalb der angekündigten Wartungsarbeiten, Kundenfehler ausschliessen, Erreichbar gemäss Monitoring, analog AGBs VSHN.
-  
 
-  
+
+
 # Offer Two: FContact
-  
-  
+
+
   offerTwoContactTitle: APPUiO - PUBLIC PLATFORM
   offerTwoContactSubject: Hiermit bestelle ich verbindlich ...
 
