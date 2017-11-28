@@ -443,7 +443,6 @@ $toggleOffset: 4px;
   left: calc(50% - #{$width / 2});
   margin: -($height / 2) 0 0 -($width / 2);
   position: absolute;
-  top: 50%;
   width: $width;
 }
 
@@ -456,6 +455,7 @@ $toggleOffset: 4px;
   width: $width;
 
   > label {
+    white-space: nowrap;
     color: #fff;
     font-size: $height * .75;
     font-weight: 300;
@@ -481,18 +481,6 @@ $toggleOffset: 4px;
     top: 0;
     width: $width;
     z-index: 2;
-  }
-  input:checked ~ label:first-of-type {
-    color: #fff;
-  }
-  input:checked ~ label:last-of-type {
-    color: #808080;
-  }
-  input:checked ~ label:first-of-type {
-    color: #808080;
-  }
-  input:checked ~ label:last-of-type {
-    color: #fff;
   }
   input:checked {
     z-index: 0;
