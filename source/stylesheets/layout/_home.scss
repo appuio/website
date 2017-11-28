@@ -30,11 +30,16 @@
   padding: rem-calc(24);
 }
 .home-hero-logo {
-  display: none;
+  margin-top: 15vw;
   width: 370px;
   max-width: 60%;
   @include susy-breakpoint($break-medium) {
     max-width: none;
+    margin-top: 15vw;
+  }
+  @include susy-breakpoint($break-xlarge) {
+    max-width: none;
+    margin-top: 20vw;
   }
 }
 .home-hero-title-wrapper {
@@ -170,7 +175,7 @@
     .technology-base-image {
       height: 10rem;
     }
-    padding-top: rem-calc(100);
+    padding-top: 2rem;
     .callout-title {
       min-height: initial;
     }

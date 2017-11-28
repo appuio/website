@@ -237,7 +237,7 @@ de:
   offerTwoAdvantagesThreeDesc: Du erhältst persönlichen Support zu Geschäftszeiten sowie regelmässige Wartung und Updates der Server. Auch Backup und Monitoring sind inklusive. Zudem steht dir unsere starke Community im Chat zur Verfügung.
 
 # Offer Two: Im Angebot enthalten
-  offerTwoPackageContentsTitle: Was ist im Angebot enthalten?
+  offerTwoPackageContentsTitle: Im Angebot enthalten
   offerTwoPackageContentsFirstTitle: Backup und Monitoring
   offerTwoPackageContentsFirstItemOne: Wir erstellen einmal täglich ein Backup aller relevanten Daten. Zudem sind im Portal die verfügbaren Ressourcen ersichtlich. Auf status.appuio.ch siehst du jederzeit den Status der Public Plattform.
   offerTwoPackageContentsSecondTitle: TCP Traffic
@@ -259,10 +259,13 @@ de:
   offerTwoProductsTwoTitel: Dedicated
   offerTwoProductsTwoDesc: Willst du deine Projekte eigenständig verwalten? Dann wähle unsere APPUiO Dedicated. Du kannst beliebig viele Projekte ab 16 GB Memory eröffnen.
 
-# Offer Two: Schieber
+# Offer Two: services
+  offerTwoServicesTitle: Shared oder Dedicated?
+  offerTwoServicesDescription: Lorem Ipsum
 
+# Offer Two: Schieber
   offerDynamicAddonsPretext: "APPUiO public Platform Calculator"
-  offerTwoPackageTitle: "Konfigurieren Sie hier ihre passende Grösse."
+  offerTwoPackageTitle: "Konfigurieren Sie Ihre passende Grösse."
   offerDynamicAddonsTitle: "Grösse wählen"
   offerTwoDynamicButton: "Bestellen"
   offerTwoLabelMemory: "Memory"

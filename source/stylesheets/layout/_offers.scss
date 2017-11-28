@@ -253,16 +253,29 @@ section#offer-two-advantages {
 }
 
 section.offer-two-services {
+  background-color: $color-lightblue;
+  color: white;
   .callout-list {
     width: 100%;
     .callout-item {
       max-width: none;
-      margin-left:0;
+      margin: 5px 10px;
+      overflow: visible;
+      .offers-package-ribbon {
+        flex: 0;
+        line-height: normal;
+        height: 30px;
+      }
       .callout-title {
-        min-height: 0;
+        margin-top: 3rem;
+        min-height: 1em;
+        flex: 0;
       }
       .callout-desc {
         color: white;
+        min-height: unset;
+        flex: 1 0;
+        overflow: visible;
       }
     }
   }
