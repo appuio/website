@@ -89,7 +89,7 @@
         <div class="offers-package-ribbon is-orange"></div>
         <h3 class="callout-title"><%= t(:offerTwoProductsOneTitel) %></h3>
         <p class="callout-desc"><%= t(:offerTwoProductsOneDesc) %></p>
-        <a href="./managed-private.html" class="callout-button button is-round">Shared bestellen</a>
+        <a href="#offer-shared" class="callout-button button is-round">Shared bestellen</a>
       </li>
       <li class="callout-item">
         <div class="offers-package-ribbon is-yellow"></div>
@@ -101,7 +101,7 @@
   </div>
 </section>
 
-<section class="offer-two-offers">
+<section id="offer-shared" class="offer-two-offers">
   <div class="grid-container">
     <h2 class="offers-package-title"><%= t(:offerTwoPackageTitle) %></h2>
     <article class="offers-package last-child">
@@ -127,24 +127,25 @@
         <ul class="offers-package-list cols-5">
           <li class="offers-package-item offer-package-power"><%= t(:offerTwoLabelCpu) %>: <span class="cpuvalue"></span><br><%= t(:offerTwoLabelMemory) %>: <span class="memoryvalue"></span></li>
           <li class="offers-package-item offers-package-price">
-              <h3 class="offers-package-list-title"><%= t(:offerTwoLabelPreis) %></h3>
-              <div class="offers-package-table-wrapper">
-                <table class="offers-price-table" summary="<%= t(:offerTwoLabelPreis) %>">
-                  <tbody>
-                    <tr>
-                      <td class="text-right pricevalueperday"></td>
-                      <td><%= t(:offerTwoLabelPreisPerDay) %></td>
-                    </tr>
-                    <tr>
-                      <td class="text-right pricevaluepermonth"></td>
-                      <td><%= t(:offerTwoLabelPreisPerMonth) %></td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div></li>
+            <h3 class="offers-package-list-title"><%= t(:offerTwoLabelPreis) %></h3>
+            <div class="offers-package-table-wrapper">
+              <table class="offers-price-table" summary="<%= t(:offerTwoLabelPreis) %>">
+                <tbody>
+                  <tr>
+                    <td class="text-right pricevalueperday"></td>
+                    <td><%= t(:offerTwoLabelPreisPerDay) %></td>
+                  </tr>
+                  <tr>
+                    <td class="text-right pricevaluepermonth"></td>
+                    <td><%= t(:offerTwoLabelPreisPerMonth) %></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </li>
         </ul>
         <div class="offers-package-button-wrapper">
-        <div  class="offers-package-button" ><a href="#offers-two-contact" class="button is-round" data-check="interest-order"><%= t(:offerTwoDynamicButton) %></a></div>
+        <div  class="offers-package-button" ><a href="#offers-two-contact" class="button is-round" data-check="interest-custom"><%= t(:offerTwoDynamicButton) %></a></div>
         <div>
           <p class="offers-package-dedicated-info"><%= t(:offerPackageDedicatedInfo) %></p>
         </div>
@@ -271,7 +272,7 @@
       <div class="home-contact-interest interest-container">
         <h3 class="interest-title"><%= t(:offerTwoContactSubject) %></h3>
         <div class="interest-item">
-          <input id="interest-custom" value="false" name="dedicated" class="interest-checkbox" type="radio">
+          <input id="interest-custom" value="false" name="dedicated" class="interest-checkbox" type="radio" checked>
           <label for="interest-custom">
             <div class="icon icon--ei-close  interest-icon">
               <svg class="icon__cnt"><use xlink:href="#ei-close-icon"></use></svg>
