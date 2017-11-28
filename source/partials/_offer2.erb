@@ -95,7 +95,7 @@
         <div class="offers-package-ribbon is-yellow"></div>
         <h3 class="callout-title"><%= t(:offerTwoProductsTwoTitel) %></h3>
         <p class="callout-desc"><%= t(:offerTwoProductsTwoDesc) %></p>
-        <a href="./public.html" class="callout-button button is-round">Dedicated bestellen</a>
+        <a href="#offers-two-contact" onclick="void (document.getElementById('interest-dedicated').checked = true)" class="callout-button button is-round">Dedicated bestellen</a>
       </li>
     </ul>
   </div>
@@ -271,32 +271,49 @@
       <div class="home-contact-interest interest-container">
         <h3 class="interest-title"><%= t(:offerTwoContactSubject) %></h3>
         <div class="interest-item">
-          <p class="contract-hint"><%= t(:offerTwoLabelMemory) %>: <span class="memoryvalue"></span></p>
+          <input id="interest-custom" value="false" name="dedicated" class="interest-checkbox" type="radio">
+          <label for="interest-custom">
+            <div class="icon icon--ei-close  interest-icon">
+              <svg class="icon__cnt"><use xlink:href="#ei-close-icon"></use></svg>
+            </div>
+            <div class="interest-item">
+              <p class="contract-hint"><%= t(:offerTwoLabelMemory) %>: <span class="memoryvalue"></span></p>
+            </div>
+            <div class="interest-item">
+              <p class="contract-hint"><%= t(:offerTwoLabelCpu) %>: <span class="cpuvalue"></span></p>
+            </div>
+            <div class="interest-item">
+              <p class="contract-hint">
+                Data Source:
+                <span class="appuio-price-source appuio-price-source--appuio">appuio</span>
+                <span class="appuio-price-source appuio-price-source--aws" hidden>AWS</span>
+              </p>
+            </div>
+            <div class="interest-item interest-item-price">
+              <p class="contract-hint"><%= t(:offerTwoLabelPreis) %>:</p>
+              <table class="offers-price-table" summary="<%= t(:offerTwoLabelPreis) %>">
+                <tbody>
+                  <tr>
+                    <td class="text-right pricevalueperday"></td>
+                    <td><%= t(:offerTwoLabelPreisPerDay) %></td>
+                  </tr>
+                  <tr>
+                    <td class="text-right pricevaluepermonth"></td>
+                    <td><%= t(:offerTwoLabelPreisPerMonth) %></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </label>
         </div>
         <div class="interest-item">
-          <p class="contract-hint"><%= t(:offerTwoLabelCpu) %>: <span class="cpuvalue"></span></p>
-        </div>
-        <div class="interest-item">
-          <p class="contract-hint">
-            Data Source:
-            <span class="appuio-price-source appuio-price-source--appuio">appuio</span>
-            <span class="appuio-price-source appuio-price-source--aws" hidden>AWS</span>
-          </p>
-        </div>
-        <div class="interest-item interest-item-price">
-          <p class="contract-hint"><%= t(:offerTwoLabelPreis) %>:</p>
-          <table class="offers-price-table" summary="<%= t(:offerTwoLabelPreis) %>">
-            <tbody>
-              <tr>
-                <td class="text-right pricevalueperday"></td>
-                <td><%= t(:offerTwoLabelPreisPerDay) %></td>
-              </tr>
-              <tr>
-                <td class="text-right pricevaluepermonth"></td>
-                <td><%= t(:offerTwoLabelPreisPerMonth) %></td>
-              </tr>
-            </tbody>
-          </table>
+          <input id="interest-dedicated" value="true" name="dedicated" class="interest-checkbox" type="radio">
+          <label for="interest-dedicated">
+            <div class="icon icon--ei-close  interest-icon">
+              <svg class="icon__cnt"><use xlink:href="#ei-close-icon"></use></svg>
+            </div>
+            Dedicated
+          </label>
         </div>
         <div class="interest-item contract-duration">
           <p class="contract-hint"><%= t(:offerTwoBilling) %></p>
