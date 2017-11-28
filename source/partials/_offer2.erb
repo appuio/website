@@ -108,14 +108,19 @@
         <!-- <div class="offers-package-ribbon is-orange text-center"><%= t(:offerDynamicAddonsPretext) %></div> -->
         <div class="appuio-price-source-selection">
           <h3 hidden>Title for Price Source Selection</h3>
-          <label>
-            <input type="radio" name="appuio-price-source" value="appuio" checked>
-            Schweiz
-          </label>
-          <label>
-            <input type="radio" name="appuio-price-source" value="aws">
-            AWS Frankfurt
-          </label>
+          <div class="price-switch-container">
+            <div class="price-switch">
+              <input id="price-switch-appuio" type="radio" name="appuio-price-source" value="appuio" checked>
+              <input id="price-switch-aws" type="radio" name="appuio-price-source" value="aws">
+              <label for="price-switch-appuio">
+                Schweiz
+              </label>
+              <label for="price-switch-aws">
+                AWS Frankfurt
+              </label>
+              <span class="toggle"></span>
+            </div>
+          </div>
         </div>
         <!-- <h3 class="offers-package-list-title m-t-2"><%= t(:offerDynamicAddonsTitle) %></h3> -->
         <input name="memory" data-appuio-range-slider class="range-slider__range" id="memoryslider" type="range" value="512" min="512" max="20480" step="512">
