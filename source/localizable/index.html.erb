@@ -9,7 +9,7 @@ title: APPUiO - Swiss Container Platform
 </header>
 
 <main class="main-container" role="main">
-  <section class="home-hero">
+  <section id="overview" class="home-hero">
     <div class="home-news news-banner">
       <div class="grid-container">
         <p><strong><%= t(:homeNewsTitle) %></strong> &nbsp; <%= t(:homeNewsText) %></p>
@@ -19,7 +19,7 @@ title: APPUiO - Swiss Container Platform
       <!-- <div class="home-hero-title-wrapper"><h1 class="home-hero-title"><%= t(:homeHeroTitle) %></h1></div> -->
       <%= image_tag "appuio_logo.svg", :alt => t(:homeHeroAlt), :class => 'home-hero-logo' %>
     </div>
-    <div id="overview" class="grid-container">
+    <div class="grid-container">
       <h1 class="home-hero-title"><%= t(:homeHeroTitle) %></h1>
       <p class="home-hero-cta"><a href="./public.html" class="button is-round is-big"><%= t(:homeHeroSignup) %></a></p>
       <p class="home-hero-desc"><%= t(:homeHeroDesc) %></p>
