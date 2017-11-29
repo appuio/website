@@ -70,12 +70,12 @@ de:
         <ul>
           <li>Backup, Monitoring Loggging</li>
           <li>Lets Encrypt, SE Linux</li>
-          <li>TCP Traffic</li>
+          <li>Secure Docker Builds (Multi Stage Support)</li>
        </ul>
        <ul>
-          <li>Secure Docker Builds (Multi Stage Support)</li>
+          <li>TCP Traffic</li>
           <li>Managed Services (3Scale, WAF, DB)</li>
-          <li>Blockstorage</li>
+          <li>Persistent Storage (File based-, Blockstorage)</li>
        </ul>
       </div>
     Welches Feature als nächstes auf unserer Roadmap steht, seht ihr hier: <a href="https://trello.com/b/kpVq53J2/appuio-roadmap">APPUiO Roadmap</a>
