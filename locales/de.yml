@@ -1,7 +1,7 @@
 ---
 # Translate comfortably with https://weblate.appuio.ch/
 de:
-  metaDescription: APPUiO - die Schweizer Container Plattform für das Design, die Entwicklung und den Betrieb Ihrer Anwendung. Betreiben Sie ihren Container Workload auf APPUiO.
+  metaDescription: APPUiO - die Schweizer Container Plattform mit einer starken Community. Betreibe deinen Container Workload auf APPUiO.
   metaKeywords: OpenShift, container runtime, Container Platform, Cluster, PaaS, Platform as a Service, Docker, Kubernetes, Swiss, Switzerland, VSHN AG, Puzzle ITC GmbH
 
 # Globale Navigation
@@ -22,12 +22,12 @@ de:
   navTechlabs: Techlab
 
 # Footer
-  footerTel: Telefonisch erreichen Sie uns unter +41 44 552 22 40
+  footerTel: Telefonisch erreichst du uns unter +41 44 552 22 40
 
 # Home Seite
   homeNewsTitle: News
   homeNewsText: |-
-    Die APPUiO Roadmap, hilf mit die Zukunft von APPUiO zu bestimmen<a href="https://trello.com/b/kpVq53J2/appuio-roadmap">&gt;&gt;</a>.
+    Die APPUiO Roadmap - hilf mit, die Zukunft von APPUiO zu bestimmen<a href="https://trello.com/b/kpVq53J2/appuio-roadmap">&gt;&gt;</a>.
   homeHeroAlt: APPUiO - Swiss Container Platform
   homeHeroTitle: Open Container Platform with a powerful Community
   homeHeroSignup: Für Public Platform anmelden
@@ -51,7 +51,7 @@ de:
   homeAdvantagesSixDesc: Wenn du APPUiO nutzt, entstehen keine internen Kosten für ein Setup einer Plattform oder den Aufbau von Know How. Die Kosten sind stets transparent und du kannst sie jederzeit über das Portal kontrollieren und anpassen.
 
 # Home: Feature Section
-  homeFeatureTitle: Mehr als Openshift
+  homeFeatureTitle: Mehr als OpenShift
   homeFeatureDesc: APPUiO ist OpenShift “as a Service”. Profitiere von unserer langjährigen Erfahrung als erste Schweizer Container Plattform und nutze alle Vorteile von OpenShift mit vielen zusätzlichen Add-Ons und Services.
   homeFeatureCommunityTitle: Community
   homeFeatureCommunityAlt: Eine Plattform, welche die Kunden zusammen bringt.
@@ -99,7 +99,7 @@ de:
   homeOfferDesc: Unser APPUiO Angebot wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
 
 # Home: Clients
-  homeClientsTitle: Das sagen unsere Kunden
+  homeClientsTitle: Unsere Kunden
   homeClientsOneTitle: „Mit APPUiO haben wir OpenShift-Experten, die uns mit ihrer langjährigen Erfahrung jederzeit unterstützen.“
   homeClientsOneDesc: Matthias Summer, System Engineer @Adcubum AG
   homeClientsTwoTitle: „Von APPUiO profitieren nicht nur wir, sondern auch unsere Endkunden.“
@@ -109,7 +109,7 @@ de:
 
 
 # Home: Technologies sections
-  homeTechnologiesTitle: Eine Plattform für viele Technologien
+  homeTechnologiesTitle: Technologien
   homeTechnologiesDescriptionOne: Mit APPUiO erstellst du neue Umgebungen per Knopfdruck. Es stehen eine Vielzahl an Technologien und Plattformen "out of the Box" zur Verfügung. Docker als Grundtechnologie hinter APPUiO bringt ein ganzes Ökosystem an zusätzlichen Laufzeitumgebungen und Frameworks mit.
   homeTechnologiesDescriptionTwo:  Mit APPUiO kannst du deine Applikation automatisch builden, testen und deployen.
   homeTechnologiesOneTitle: OpenShift
@@ -121,7 +121,7 @@ de:
 
 # Home: Contact Section
   homeContactTitle: Kontakt
-  homeContactDesc: Gerne treten wir mit Ihnen in Kontakt. Bitte geben Sie uns an, wie wir Sie am besten erreichen können. Ihre Daten behandeln wir vertraulich und werden nicht an Dritte weitergegeben.<br>Bei Fragen erreichen Sie uns auch telefonisch unter +41 44 552 22 40.
+  homeContactDesc: Gerne treten wir mit dir in Kontakt. Bitte teile uns mit, wie wir dich am besten erreichen. Deine Daten behandeln wir vertraulich.<br>Bei Fragen erreichst du uns auch telefonisch unter +41 44 552 22 40.
   homeContactSubject: Ich interessiere mich für ...
   homeContactSubjectOne: Managed Private Platform
   homeContactSubjectTwo: Public Platform
@@ -152,7 +152,7 @@ de:
 
 # Offer1: Managed Private PaaS
   offerOneTitle: Managed Private APPUiO
-  offerOneIntro: Sie wollen eine eigene private APPUiO Instanz nutzen, die auf unserer Infrastruktur läuft? Wir deployen und betreiben die auf Ihre Bedürfnisse massgeschneiderte Lösung.
+  offerOneIntro: Du möchtest eine eigene private APPUiO Instanz nutzen, die auf unserer Infrastruktur läuft? Wir deployen und betreiben eine massgeschneiderte Lösung nach deinen Bedürfnissen.
 
   offerOneList1: Basis für DevOps
   offerOneList2: 09:00 - 18:00 Telefon- und E-Mail-Support
@@ -161,15 +161,15 @@ de:
   offerOneList5: Datenstandort e-Shelter Schweiz
   offerOneList6: Backup an einen zweiten Standort
   offerOneList7: "Small - Medium - Large: Auf Sie zugeschnittene Angebote"
-  offerOneIso: Ihre APPUiO Managed Private Platform wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
+  offerOneIso: Deine APPUiO Managed Private Platform wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
 
-  offerOneServiceTitle: Neben einem optimalen Datenschutz bieten wir Ihnen folgende zusätzliche Services
+  offerOneServiceTitle: Zusätzliche Services
   offerOneServices1: Consulting Setup und Initialisierung
   offerOneServices2: Bring my App to the Cloud - wir beraten und setzen auch um
   offerOneServices3: "Automatisierung Ihrer Prozesse: Continuos Delivery und Continuous Deployment Ihrer Applikationen"
 
 
-  offerOnePackageTitle: "Wählen Sie das für Ihre Bedürfnisse passende Paket:"
+  offerOnePackageTitle: "Wähle das für deine Bedürfnisse passende Paket:"
   offerOnePackageSmallTitle: Small
   offerOnePackageSmallItem1: Master <br> (je 16 GB Ram, 6vCores)
   offerOnePackageSmallItem2: 2 Nodes <br> (je 16 GB Ram, 6vCores, 100 GB Docker Storage)
@@ -206,7 +206,7 @@ de:
   offerContactOneLarge: Large
 
   offerOneContactTitle: MEINE APPUiO PRIVATE PLATFORM
-  offerOneContactDesc: Gerne treten wir mit Ihnen in Kontakt. Bitte geben Sie uns an, wie wir Sie am besten erreichen können. Ihre Daten behandeln wir vertraulich und werden nicht an Dritte weitergegeben.<br>Bei Fragen erreichen Sie uns auch telefonisch unter +41 44 552 22 40.
+  offerOneContactDesc: Gerne treten wir mit dir in Kontakt. Bitte teile uns mit, wie wir dich am besten erreichen. Deine Daten behandeln wir vertraulich.<br>Bei Fragen erreichst du uns auch telefonisch unter +41 44 552 22 40.
   offerOneContactSubject: Ich interessiere mich für ...
   offerOneOrderSend: Absenden
   offerOneLoadingMessage: Nachricht wird gesendet...
@@ -244,7 +244,7 @@ de:
   offerTwoPackageContentsFourthItemOne: Unsere Plattform erlaubt es, Docker Image Native als Docker Builds laufen zu lassen. Dafür haben wir die Buildumgebung extrahiert. Die Builds laufen in dynamischen, abgeschotteten VMs pro Mandant ausserhalb des Clusters. Zusätzlich zu den sicheren Builds, erlaubt unsere Erweiterung <b>Docker Multi-Stage Builds</b>. Docker Multi-Stage Builds helfen Dockerfiles zu optimieren und sie einfacher und lesbarer zu machen.
   offerTwoPackageContentsFifthTitle: Managed Services
   offerTwoPackageContentsFifthItemOne: |-
-    Es gibt eine erste Plattform Software die wir auf unserer Public Plattform als Service anbieten. Wir  bauen die Software deinen Wünschen entsprechend auf und betreiben sie als Managed Service. <br>
+    Es gibt eine erste Plattform-Software die wir auf unserer Public Plattform als Service anbieten. Wir  bauen die Software deinen Wünschen entsprechend auf und betreiben sie als Managed Service. <br>
     - 3 Scale API Management(Beta): API Management Lösung von Red Hat. <br>
     - DataBase as a Service: Postgresql, Mariadb, Mysql <br>
     - WaF as a Service basierend auf Apache mod_sec (Beta)<br>
@@ -253,15 +253,15 @@ de:
   offerTwoProductsOneTitel: Shared
   offerTwoProductsOneDesc: Bestelle in unserem Selfservice-Portal deine Public Platform auf einer geteilten Infrastruktur. Du erhältst ein OpenShift-Projekt mit beliebig viel GB Memory.
   offerTwoProductsTwoTitel: Dedicated
-  offerTwoProductsTwoDesc: Willst du deine Projekte eigenständig verwalten? Dann wähle unsere APPUiO Dedicated. Du kannst beliebig viele Projekte ab 16 GB Memory eröffnen.
+  offerTwoProductsTwoDesc: Willst du deine Projekte eigenständig verwalten? Dann bestelle unsere APPUiO Dedicated über das Kontaktformular. Du kannst beliebig viele Projekte ab 16 GB Memory eröffnen.
 
 # Offer Two: services
-  offerTwoServicesTitle: Text?
-  offerTwoServicesDescription: Lorem Ipsum
+  offerTwoServicesTitle: Shared vs. Dedicated Plattform
+  offerTwoServicesDescription: Unsere APPUiO Public Platform gibt es auf geteilter Infrastruktur oder als dedizierter Node für dich alleine. Wähle je nach deinen Bedürfnissen zwischen den beiden Angeboten.
 
 # Offer Two: Schieber
   offerDynamicAddonsPretext: "APPUiO public Platform Calculator"
-  offerTwoPackageTitle: "Konfigurieren Sie Ihre passende Grösse."
+  offerTwoPackageTitle: "Finde die passende Grösse für deine Public Platform."
   offerDynamicAddonsTitle: "Grösse wählen"
   offerTwoDynamicButton: "Bestellen"
   offerTwoLabelMemory: "Memory"
@@ -295,14 +295,14 @@ de:
 
   offerTwoCPUDescription: |-
     Die CPU Resourcen werden als KCU (Kubernetes Compute Units) normalisiert, so entsprechen CPU 1000m ungefähr einem single hyperthreaded CPU Kern. <br>
-    Was du mit dieser Konfiguration erreichen kannst
+ 
 
   #offerTwoIso: |-
   #  Öffentlich (public) ist nur der Name der gemeinsamen Cloud-Plattform. Sicherheit schreiben wir gross: APPUiO wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
 
 # Offer Two: Add-Ons
 
-  offerTwoAddonsTitle: APPUiO ganz nach deinen Bedürfnissen
+  offerTwoAddonsTitle: Zusätzliche Services
   offerTwoAddon1Title: SLA Office Hours
   offerTwoAddon1Description: Supportzeiten&#58; 09&#58;00-12&#58;00 Und 13&#58;00-18&#58;00 Uhr (5x8), Reaktionszeiten&#58; 2h, Verfügbarkeit&#58; 99%
   offerTwoAddon1Price: Im Preis inbegriffen
@@ -322,7 +322,7 @@ de:
   offerTwoDedicatedAddonsItem2: Supportzeiten&#58; 07&#58;00-19&#58;00 Uhr (5x12)&#58; Reaktionszeiten&#58; 2h Verfügbarkei&#58;t 99,3%
   offerTwoDedicatedAddonsItem3: 250.- CHF pro Kunde pro Monat
   offerTwoDedicatedAddonsItem4: selbstständige Ressourcenverwaltung im Kundenportal
-  offerTwoDedicatedDescription: "Auf unserer Public Platform betreiben wir für Sie auch dedizierte, private Nodes. Auf diesen werden nur Ihre eigenen Container deployed und betrieben. Dieses Angebot ist ideal für Kunden, die ihre OpenShift Projekte inkl. Ressourcen eigenständig planen und verwalten möchten."
+  offerTwoDedicatedDescription: "Auf unserer Public Platform betreiben wir für dich auch dedizierte, private Nodes. Auf diesen werden nur deine eigenen Container deployed und betrieben. Dieses Angebot ist ideal für Kunden, die ihre OpenShift Projekte inkl. Ressourcen eigenständig planen und verwalten möchten."
 
 
   offerTwoPackageAddonsTitle: SLA Office Hours
@@ -331,7 +331,7 @@ de:
   offerTwoPersistentStorageAddonItem2: Supportzeiten, 08,00-17,00 Uhr (5x9) Reaktionszeiten, 2h Verfügbarkeit 99%
   offerTwoPersistentStorageAddonItem3: Im Preis inbegriffen
 
-  offerTwoStorageDescription: Persistent Storage steht Ihnen direkt in der Web Console oder via CLI zur Verfügung und kann als sogenannte Persistent Volumes direkt an Ihre Container angebunden werden. Die Abrechnung erfolgt nach Verbrauch.
+  offerTwoStorageDescription: Persistent Storage steht dir direkt in der Web Console oder via CLI zur Verfügung und kann als sogenannte Persistent Volumes direkt an deinen Container angebunden werden. Die Abrechnung erfolgt nach Verbrauch.
 
   offerTwoBilling: Abrechnungsperiode ist einmal pro Monat<br>Es gelten die APPUiO Servicebestimmungen.
 
@@ -389,9 +389,9 @@ de:
 
 # Offer3: On Premises PaaS
   offerThreeTitle: On Premises
-  offerThreeIntro: Ihre PaaS in Ihrem Rechenzentrum, optimal integriert in Ihre Infrastruktur. Wir begleiten Sie von der Idee über die Umsetzung und falls gewünscht bis zum Betrieb.
-  offerThreeServicesTitle: Offene Komponenten und -Schnittstellen ermöglichen die Integration in komplexe, bestehende Infrastrukturen
-  offerThreeServicesDesc: Die Flexibiltät APPUiOs erlaubt die Integration in komplexe, bestehende Infrastrukturen. Hier eine Liste möglicher Integrationspunkte, welche durch APPUiO resp. OpenShift abgedeckt werden können.
+  offerThreeIntro: Deine Container Plattform in deiniem Rechenzentrum, optimal integriert in deine Infrastruktur. Wir begleiten dich gerne von der Idee, über die Umsetzung bis zum Betrieb.
+  offerThreeServicesTitle: Offene Komponenten und -Schnittstellen ermöglichen die Integration in komplexe, bestehende Infrastrukturen.
+  offerThreeServicesDesc: Die Flexibiltät von APPUiO erlaubt die Integration in komplexe, bestehende Infrastrukturen. Hier eine Liste möglicher Integrationspunkte, welche durch APPUiO resp. OpenShift abgedeckt werden können.
   offerThreeServices1: APPUiO läuft auf Red Hat Enterprise Linux (RHEL) 7 (bare metal, virtuell, Cloud)
   offerThreeServices2: Anbindung an vorhandene Storage Lösung
   offerThreeServices3: Integration in vorgegebene Netzwerkspezifikation
@@ -403,7 +403,7 @@ de:
   offerThreeServices9: Anbindung an Active Directory (AD) oder LDAP
 
   offerThreeContactTitle: Kontakt
-  offerThreeContactDesc: Ihr On Premises APPUiO Angebot tönt spannenden, ich wünsche eine persönliche Beratung.
+  offerThreeContactDesc: Das On Premises APPUiO Angebot klingt spannend. Ich wünsche eine persönliche Beratung.
   offerThreeLoadingMessage: Nachricht wird gesendet...
   offerThreeSuccessMessage: Nachricht wurde erfolgreich gesendet
 
@@ -414,10 +414,10 @@ de:
 # Techlab Page
   techlabPageTitle: Techlab
   techlabTitle: APPUiO & OpenShift Techlabs in Bern und Zürich
-  techlabSubtitle: Mit einer Platform as a Service (PaaS) ändert sich die Art, wie wir Software entwickeln. Puzzle stellt OpenShift V3 - die Container Plattform von Red Hat - in einem Techlab vor.
+  techlabSubtitle: Mit einer Container Plattform ändert sich die Art, wie wir Software entwickeln. Puzzle stellt OpenShift V3 - die Container Plattform von Red Hat - in einem Techlab vor.
   techlabDetails: |-
     <p>Die Teilnehmer lernen dabei&nbsp;hands-on die wichtigsten Schritte, wie eine Applikation in die Cloud gebracht wird und wie Container auf einer PaaS deployed und betrieben&nbsp;werden können.</p>
-    <p>Mit OpenShift werden IT-Prozesse automatisiert und die Bereitstellung&nbsp;von IT-Services gestrafft. Im Techlab erwarten euch folgende Themen:</p>
+    <p>Mit OpenShift werden IT-Prozesse automatisiert und die Bereitstellung&nbsp;von IT-Services gestrafft. Im Techlab erwarten dich folgende Themen:</p>
     <p><strong>Hands on Workshop</strong></p>
     <ul>
     <li>Einrichten CLI</li>
@@ -439,7 +439,7 @@ de:
     </ul>
     <p>Zeit: 14:00 bis 17:30 Uhr<br>
     Ort: Neugasse 10, Zürich oder Belpstrasse 37, Bern</p>
-    <p>Die Teilnahme ist kostenlos. Für das Lab solltet ihr euren eigenen Laptop mitbringen. Die Platzzahl ist beschränkt.</p>
+    <p>Die Teilnahme ist kostenlos. Bitte bring für das Lab deinen Laptop mit. Die Platzzahl ist beschränkt.</p>
 
 
 
