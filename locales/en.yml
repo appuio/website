@@ -1,7 +1,7 @@
 ---
 # Translate comfortably with https://weblate.appuio.ch/
 en:
-  metaDescription: APPUiO - the Swiss container platform for design, development and operation of your application. Manage your container workload with APPUiO.
+  metaDescription: APPUiO - the Swiss container platform with a powerful community. Manage your container workload with APPUiO.
   metaKeywords: openShift, container runtime, container platform, Cluster, PaaS, Platform as a Service, Docker, Kubernetes, Swiss, Switzerland, VSHN AG, Puzzle ITC GmbH
 
 # Global navigation
@@ -22,16 +22,17 @@ en:
   navTechlabs: Techlab
 
 # Footer
-  footerTel: Telefonisch erreichen Sie uns unter +41 44 552 22 40
+  footerTel: You can reach us by phone: +41 44 552 22 40
 
 # Homepage
   homeNewsTitle: News
   homeNewsText: |-
     One Year APPUiO - signup for the event <a href="event.html">&gt;&gt;</a>
   homeHeroAlt: APPUiO - Swiss Container Platform
-  homeHeroTitle: Design, develop and operate your application with the APPUiO container runtime. Manage your container workload with APPUiO.
-  homeHeroSignup: Sign up for public PaaS
-  homeHeroDesc: APPUiO - The Swiss container platform, created by developers for developers. APPUiO is based on the next generation PaaS Red Hat OpenShift Container Platform. Reliable open source concepts such as Docker and Kubernetes allow you to develop, operate and scale your application according to your needs. With this technology, applications can be operated both on public clouds as well as on in-house data centres.
+  homeHeroTitle: Open Container Platform with a powerful Community.
+  homeHeroSignup: Sign up for Public Platform
+  homeHeroDesc: APPUiO - The Swiss container platform, built on top of Red Hat OpenShift. Reliable open source concepts such as Docker and Kubernetes allow you to develop, operate and scale your application according to your needs. With APPUiO, your applications can be operated both on public clouds as well as on in-house data centres.
+  The platform was originally built by the two IT specialists Puzzle ITC and VSHN AG to professionalize internal IT. Today, APPUiO is already used in production by several customers and supported by a strong community.
 
 # Home: Offering section
   homeOfferTitle: Offering
@@ -44,9 +45,9 @@ en:
     Are you in need of standardized development environments or do you want to deploy your productive applications on a Swiss cloud?
   homeOfferTwoButton: Details
   homeOfferThreeTitle: On-Premises APPUiO
-  homeOfferThreeDesc: Your PaaS in your own data centre, optimally integrated into your infrastructure. We guide you through the whole process, from idea stage to operation of a fully functional platform.
+  homeOfferThreeDesc: Your Container Platform in your own data centre, optimally integrated into your infrastructure. We guide you through the whole process, from idea stage to operation of a fully functional platform.
   homeOfferThreeButton: Details
-  homeOfferDesc: All APPUiO public PaaS offerings are held and operated in ISO27001-certified and FINMA-audited data centres within Switzerland and are subject to Swiss law.
+  homeOfferDesc: All APPUiO Public Platform offerings are held and operated in ISO27001-certified and FINMA-audited data centres within Switzerland and are subject to Swiss law.
 
 # Home: Feature section
   homeFeatureTitle: Features
@@ -73,24 +74,24 @@ en:
   homeFeatureEncryptAlt: Lets Encrypt SSL/TLS Routes at the touch of a button
 
 # Home: Clients
-  homeClientsTitle: Kunden lieben es
-  homeClientsOneTitle: „Wir erleben mit Appuio eine vertrauensvolle und gelungene Zusammenarbeit.“
-  homeClientsOneDesc: Michael Müller, CTO XYZ
-  homeClientsTwoTitle: „Wir erleben mit Appuio eine vertrauensvolle und gelungene Zusammenarbeit.“
-  homeClientsTwoDesc: Michael Müller, CTO XYZ
-  homeClientsThreeTitle: „Wir erleben mit Appuio eine vertrauensvolle und gelungene Zusammenarbeit.“
-  homeClientsThreeDesc: Michael Müller, CTO XYZ
+  homeClientsTitle: Our Clients
+  homeClientsOneTitle: „APPUiO provides us with OpenShift-Experts who support us with their long-standing experience at any time.“
+  homeClientsOneDesc: Matthias Summer, System Engineer @Adcubum AG
+  homeClientsTwoTitle: „It’s not only us benefiting from APPUiO, but our end customers as well.“
+  homeClientsTwoDesc: Bastian Widmer, System Engineer @Amazee.io
+  homeClientsThreeTitle: „APPUiO complies with our high security requirements.”
+  homeClientsThreeDesc: Michael Gerber, Software Developer @HRM Systems AG
 
 # Home: Technologies sections
-  homeTechnologiesTitle: Technologien
+  homeTechnologiesTitle: Technologies
 
 # Home: Contact Section
   homeContactTitle: Contact
   homeContactDesc: We would love to get in touch with you! Do let us know how we can reach you. Your data will be kept confidentially, and will not be shared with third parties.
   homeContactSubject: I’m interested in
-  homeContactSubjectOne: Managed Private PaaS
+  homeContactSubjectOne: Managed Private APPUiO
   homeContactSubjectTwo: attending beta test
-  homeContactSubjectThree: On PREMISE PaaS
+  homeContactSubjectThree: On PREMISE APPUiO
   homeContactSubjectFour: general information
   homeContactSubjectFive: Newsletter
   homeContactYourFirstName: first name
@@ -114,7 +115,7 @@ en:
     Your message?
   homeContactSend: send
 
-# Offer1: Managed Private PaaS
+# Offer1: Managed Private APPUiO
   offerOneTitle: Managed Private APPUiO
   offerOneIntro: Do you want to use your own private APPUiO instance that runs on our infrastructure? We deploy and operate the solution tailored to your needs.
 
