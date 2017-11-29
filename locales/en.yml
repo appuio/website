@@ -228,8 +228,7 @@ en:
   offerTwoAdvantagesFiveTitle: Pay per Use
   offerTwoAdvantagesFiveDesc: Costs for the APPUiO Public Platform are calculated per hour. You only pay what you were actually using. There are no setup-costs.
   offerTwoAdvantagesSixTitle: Hybrid Cloud
-  offerTwoAdvantagesSixDesc: |-
-    There are two availability-zones on the APPUiO Public Platform: One in Switzerland and another one on AWS in Germany, including use of their services.
+  offerTwoAdvantagesSixDesc: There are two availability-zones on the APPUiO Public Platform: One in Switzerland and another one on AWS in Germany, including use of their services.
 
 # Offer Two: Im Angebot enthalten
   offerTwoPackageContentsTitle: Services Included
@@ -260,12 +259,103 @@ en:
   offerTwoServicesTitle: Shared vs. Dedicated Platform
   offerTwoServicesDescription: Our APPUiO Public Platform exists on shared infrastructure or as a dedicated node for you alone. Choose between the two offers depending on your needs.
 
+# Offer Two: Schieber
+  offerDynamicAddonsPretext: "APPUiO Public Platform Calculator"
+  offerTwoPackageTitle: "Die passende Grösse für deine Public Platform"
+  offerDynamicAddonsTitle: "Choose size"
+  offerTwoDynamicButton: "Order"
+  offerTwoLabelMemory: "Memory"
+  offerTwoLabelCpu: "CPU"
+  offerTwoLabelPreis: "Price"
+  offerTwoLabelPreisPerDay: "per day"
+  offerTwoLabelPreisPerMonth: "per month"
+  offerPackageDedicatedInfo: "(At best a Dedicated Node makes sense for you)"
+
+  offerTwoPossibilitiesSmall: |-
+    <li class="offers-package-item">Einfache Website mit geringen Zugriffen</li>
+    <li class="offers-package-item">Minimale CakePHP-Applikation mit kleiner Datenbank</li>
+    <li class="offers-package-item">Micro Service, GO Node.JS, Springboot, Ruby, PHP, .Net, Python</li>
+  offerTwoPossibilitiesMedium: |-
+    <li class="offers-package-item">Komplexere Website bspw. mit PHP und einer Datenbank</li>
+    <li class="offers-package-item">CakePHP-Applikation mit mittlerer Datenbank</li>
+    <li class="offers-package-item">zwei Instanzen hochverfügbar eines Micro Services</li>
+    <li class="offers-package-item">Keycloak mit Datenbank</li>
+  offerTwoPossibilitiesLarge: |-
+    <li class="offers-package-item">Komplexe Applikation mit mehreren Serivces</li>
+    <li class="offers-package-item">Jenkins Build Server</li>
+    <li class="offers-package-item">mehrere Instanzen hochverfügbar eines Micro Services, bspw. vier
+    Instanzen zur gleichen Zeit</li>
+    <li class="offers-package-item">Komplexe Java Applikation</li>
+    <li class="offers-package-item">Java EE Applikation JBoss EAP deployed mit Datenbank</li>
+  offerTwoPossibilitiesXLarge: |-
+    <li class="offers-package-item">Komplexe Applikationen mit grösserer Last und Datenbanken</li>
+    <li class="offers-package-item">Hochverfügbare Datenbanken</li>
+    <li class="offers-package-item">Micro Service Architektur etliche Services</li>
+    <li class="offers-package-item">Jenkins Build Infrastruktur mit diversen Buildnodes</li>
+  offerTwoCPUDescription: |-
+    Die CPU Resourcen werden als KCU (Kubernetes Compute Units) normalisiert, so entsprechen CPU 1000m ungefähr einem single hyperthreaded CPU Kern. <br>
+
+
+# Offer Two: Add-Ons
+
+  offerTwoAddonsTitle: Additional Services
+  offerTwoAddon1Title: SLA Office Hours
+  offerTwoAddon1Description: Support times&#58; 09&#58;00-12&#58;00 and 13&#58;00-18&#58;00 Uhr (5x8), Reaction time&#58; 2h, Availability&#58; 99%
+  offerTwoAddon1Price: included
+  offerTwoAddon2Title: SLA Office Hours Plus
+  offerTwoAddon2Description: Support times&#58; 08&#58;00-20&#58;00 Uhr (5x12), Reaction time&#58; 2h, Availability&#58; 99,3%
+  offerTwoAddon2Price: according to the arrangement
+  offerTwoAddon3Title: SLA 7x24
+  offerTwoAddon3Description: Support times&#58; 7x24, Reaction time&#58; 1h, Availability&#58; 99,5%
+  offerTwoAddon3Price: according to the arrangement
+  offerTwoAddon4Title: Persitant Storage
+  offerTwoAddon4Description: per GB/h
+  offerTwoAddon4Price: 0.55 CHF   
+  
+  offerTwoStorageDescription: Persistent Storage steht dir direkt in der Web Console oder via CLI zur Verfügung und kann als sogenannte Persistent Volumes direkt an deinen Container angebunden werden. Die Abrechnung erfolgt nach Verbrauch.
+
+  offerTwoBilling: Abrechnungsperiode ist einmal pro Monat<br>Es gelten die APPUiO Servicebestimmungen
+
+
+
+  # Offer Two: FAQ
+  offerTwoFaqTitle: Frequently Asked Questions
+#Categorie: Accounting
+  offerTwoFaqVerOneTitle: How do I migrate from earlier “T-Shirt-Sizes” for the Public Platform to flexible Pricing?
+  offerTwoFaqVerOneText: This can be changed directly inside the Self-Service Portal.
+  offerTwoFaqVerTwoTitle: How often do you charge / When will I get bills?
+  offerTwoFaqVerTwoText: We bill the past month at the beginning of each month.
+  offerTwoFaqVerTreeTitle: How does billing work in detail?
+  offerTwoFaqVerTreeText: The maximum amount of memory in MB within the last hour is multiplied by the price per hour. All hours in a month are then added up to receive the final price per month.
+  offerTwoFaqVerFourTitle: In what units do you charge?
+  offerTwoFaqVerFourText: Bills are calculated in Megabytes.
+  offerTwoFaqVerFiveTitle: Where can I review running costs?
+  offerTwoFaqVerFiveText: Current operating costs are visible in the Service Portal.
+  offerTwoFaqVerSixTitle: Do I need to pay for the Red Hat Subscription as well?
+  offerTwoFaqVerSixText: No, the Red Hat subscriptions are included in our price.
+#Categorie: General
+  offerTwoFaqAllOneTitle: Where is APPUiO Public hosted?
+  offerTwoFaqAllOneText: There are two APPUiO Public Platform locations. Data is stored either with cloudscale.ch or at AWS Frankfurt according to customer’s preferences.
+  offerTwoFaqAllTwoTitle: How do I get an APPUiO Account?
+  offerTwoFaqAllTwoText: To obtain an APPUiO-Account fill out the contact form. Once verified you will receive a login from us.
+  offerTwoFaqAllTreeTitle: What is monitored?
+  offerTwoFaqAllTreeText: The cluster as a whole as well as each indiviual component is constantly monitored. Monitoring of your own application can be ordered additionaly.
+  offerTwoFaqAllFourTitle: What is backupped?
+  offerTwoFaqAllFourText: The whole cluster, all objects and data on the Persistent Storage is backupped. There are no application-consistent backups and restores by our support will incur cost expenditures.
+#Categorie: SLA
+  offerTwoFaqAddOneTitle: What are the support hours of operation?
+  offerTwoFaqAddOneText: During these time frames, support is provided by phone and/or e-mail. Customers receive the direct support phone number of VSHN. The team member responsible for support cases will acknowledge reception of the support case to a e-mail address to be defined by the customer.
+  offerTwoFaqAddTwoTitle: SLA: What's the response time?
+  offerTwoFaqAddTwoText: |-
+    The response time starts the moment we are informed about the support case and relates to the period until support will be provided. The response time defines the time frame between reception of the support case and start of analysis work on the problem.
+    Example&#58; 
+    The customer informs us about problem at 16:00. With SLA model "A", work on that support case will start at the latest at 17:00 the next day.
+  offerTwoFaqAddTreeTitle: What is "guaranteed availability"?
+  offerTwoFaqAddTreeText: Not during announced maintenance work, excluding customer errors, reachable according to monitoring, similarly to VSHN's terms and conditions.
 
   offerTwoServiceTitle: Select the right offer and get going
   offerTwoServices1: Bundles tailored to your needs
-  offerTwoServices2: |-
-    "By Developers for Developers: Forum, documentation and community"
-
+  offerTwoServices2: "By Developers for Developers: Forum, documentation and community"
   offerTwoServices3: We will handle backup, monitoring, updates, scaling and support
 
   offerTwoServicesDesc: Settlement of accounts is handled monthly or annually via invoice.
