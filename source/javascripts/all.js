@@ -92,9 +92,6 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
     var email = $("[name='email']").val();
     var interests = "Memory: " + $('[name="memory"]').val();
     var priceSource = $('[appuio-price-source]:checked').val();
-    var billing = $.map($(':radio[name=billing\\[\\]]:checked'), function(n, i){
-      return n.value;
-    }).join(',');
     var tags = $.map($(':checkbox[name=interests\\[\\]]:checked'), function(n, i){
       return 'q6_interessen[]='+n.value;
     }).join('&');
@@ -111,8 +108,14 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
     $(":input").each(function(){
       var name = $(this).attr('name')
       var value = $(this).val();
+
+      if (name === 'dedicated') {
+        return;
+      }
+
       message += name + ": " + value + "<br>\n\r";
     });
+    message += 'dedicated: ' + $('[name="dedicated"]:checked').val();
 
     $('[type="submit"]', this).val(
       $(this).data('loadingMessage')
@@ -126,8 +129,8 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
       email: email,
       interests: interests,
       priceSource: priceSource,
-      billing: billing,
       message: messageform,
+      dedicated: $('[name="dedicated"]:checked').val(),
       messageback: message,
       firma: firma,
       telefon: telefon,
