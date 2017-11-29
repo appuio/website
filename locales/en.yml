@@ -346,11 +346,14 @@ en:
 #Categorie: SLA
   offerTwoFaqAddOneTitle: What are the support hours of operation?
   offerTwoFaqAddOneText: During these time frames, support is provided by phone and/or e-mail. Customers receive the direct support phone number of VSHN. The team member responsible for support cases will acknowledge reception of the support case to a e-mail address to be defined by the customer.
-  offerTwoFaqAddTwoTitle: SLA: What's the response time?
+  offerTwoFaqAddTwoTitle: |- 
+    SLA: What's the response time?
+ 
   offerTwoFaqAddTwoText: |-
     The response time starts the moment we are informed about the support case and relates to the period until support will be provided. The response time defines the time frame between reception of the support case and start of analysis work on the problem.
     Example&#58; 
     The customer informs us about problem at 16:00. With SLA model "A", work on that support case will start at the latest at 17:00 the next day.
+  
   offerTwoFaqAddTreeTitle: What is "guaranteed availability"?
   offerTwoFaqAddTreeText: Not during announced maintenance work, excluding customer errors, reachable according to monitoring, similarly to VSHN's terms and conditions.
 
