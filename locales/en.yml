@@ -55,7 +55,8 @@ en:
   homeFeatureDesc: APPUiO is OpenShift “as a Service”. Benefit from our long-standing experience as the first Swiss container platform and take advantage of all the assets of OpenShift with many additional Add-Ons and services.
   homeFeatureCommunityTitle: Community
   homeFeatureCommunityAlt: Eine Plattform, welche die Kunden zusammen bringt.
-  homeFeatureCommunityDesc: Our Community is the centrepiece along with which we’re growing. APPUiO features a community-chat and various events to exchange ideas with like-minded engineers and the APUiO-team. Just as APPUiO is built entirely on Open-Source-components we assume the same kind of openness by providing our documentation and code to the community. Together, open-sourced software, open standards and openly available documentation guarantee supplier-independence to the highest possible extent and protect you from vendor lock-in. You can be a part of the community, too! Together we’re stronger and we gladly pass our knowledge on. <br/>
+  homeFeatureCommunityDesc: |-
+    Our Community is the centrepiece along with which we’re growing. APPUiO features a <a href="https://community.appuio.ch/home">community-chat</a> and various events to exchange ideas with like-minded engineers and the APUiO-team. Just as APPUiO is built entirely on Open-Source-components we assume the same kind of openness by providing our documentation and code to the community. Together, open-sourced software, open standards and openly available documentation guarantee supplier-independence to the highest possible extent and protect you from vendor lock-in. You can be a part of the community, too! Together we’re stronger and we gladly pass our knowledge on. <br/>
   homeFeatureLanguagesTitle: Plattformen #?
   homeFeatureDatabasesTitle: Datenbanken #?
   homeFeatureConsultingTitle: One-Stop Solution
