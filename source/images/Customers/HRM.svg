@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="134px" height="24px" viewBox="0 0 134 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="169px" height="169px" viewBox="0 0 169 169" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
     <title>HRM</title>
     <desc>Created with Sketch.</desc>
@@ -9,10 +9,9 @@
         <polygon id="path-5" points="19.2720875 4.91411321 19.2720875 9.48226415 0.0216565657 9.48226415 0.0216565657 0.345962264 19.2720875 0.345962264 19.2720875 4.91411321"></polygon>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Kundenlogos-sw" transform="translate(-593.000000, -72.000000)">
-            <g id="HRM" transform="translate(576.000000, 0.000000)">
-                <rect id="Rectangle-Copy-3" style="mix-blend-mode: color;" x="0" y="0" width="169" height="169"></rect>
-                <g transform="translate(17.000000, 72.000000)">
+        <g id="Kundenlogos-sw" transform="translate(-576.000000, 0.000000)">
+            <g id="HRM" transform="translate(593.000000, 72.000000)">
+                <g>
                     <g id="Group-3" transform="translate(0.000000, 4.075472)">
                         <mask id="mask-2" fill="white">
                             <use xlink:href="#path-1"></use>
