@@ -74,7 +74,7 @@ de:
        </ul>
        <ul>
           <li>Secure Docker Builds (Multi Stage Support)</li>
-          <li>SaaS (3Scale, WAF)</li>
+          <li>Managed Services (3Scale, WAF,DB)</li>
           <li>Blockstorage</li>
        </ul>
       </div>
@@ -236,18 +236,18 @@ de:
   offerTwoPackageContentsTitle: Im Angebot enthalten
   offerTwoPackageContentsFirstTitle: Backup und Monitoring
   offerTwoPackageContentsFirstItemOne: Wir erstellen einmal täglich ein Backup aller relevanten Daten. Zudem sind im Portal die verfügbaren Ressourcen ersichtlich. Auf status.appuio.ch siehst du jederzeit den Status der Public Plattform.
-  offerTwoPackageContentsSecondTitle: TCP Traffic
+  offerTwoPackageContentsSecondTitle: TCP Traffic (Beta)
   offerTwoPackageContentsSecondItemOne: Mit APPUiO kannst du Non-HTTP-Traffic in Public Cluster routen. So können Kunden IPs an Services anbinden und beispielsweise Datenbanken, LDAP Server, SSH Server öffentlich zur Verfügung stellen.
   offerTwoPackageContentsThirdTitle: Let’s Encrypt Zertifikate
   offerTwoPackageContentsThirdItemOne: APPUiO erlaubt es dir, mittels “Let’s Encrypt" einfach per Knopfdruck echte SSL-Zertifikate in deine Routen zu konfigurieren. Nach erfolgter Registrierung sorgt APPUiO für die Aktualisierung der Lets Encrypt-Zertifikate, die 3 Monate gültig sind, und ersetzt diese automatisch nach Ablauf.
   offerTwoPackageContentsFourthTitle: Secure Docker Builds
-  offerTwoPackageContentsFourthItemOne: Unsere Plattform erlaubt es, Docker Image Native als Docker Builds laufen zu lassen. Dafür haben wir die Buildumgebung extrahiert. Die Builds laufen in dynamischen, abgeschotteten VMs pro Mandant ausserhalb des Clusters. Zusätzlich zu den sicheren Builds, erlaubt unsere Erweiterung Docker Multi-Stage Builds. Docker Multi-Stage Builds helfen Dockerfiles zu optimieren und sie einfacher und lesbarer zu machen.
-  offerTwoPackageContentsFifthTitle: SaaS (aktuell managed Services)
+  offerTwoPackageContentsFourthItemOne: Unsere Plattform erlaubt es, Docker Image Native als Docker Builds laufen zu lassen. Dafür haben wir die Buildumgebung extrahiert. Die Builds laufen in dynamischen, abgeschotteten VMs pro Mandant ausserhalb des Clusters. Zusätzlich zu den sicheren Builds, erlaubt unsere Erweiterung <b>Docker Multi-Stage Builds</b>. Docker Multi-Stage Builds helfen Dockerfiles zu optimieren und sie einfacher und lesbarer zu machen.
+  offerTwoPackageContentsFifthTitle: Managed Services
   offerTwoPackageContentsFifthItemOne: |-
     Es gibt eine erste Plattform Software die wir auf unserer Public Plattform als Service anbieten. Wir  bauen die Software deinen Wünschen entsprechend auf und betreiben sie als Managed Service. <br>
     - 3 Scale API Management(Beta): API Management Lösung von Red Hat. <br>
-    - DataBase as a Service Manuell: Postgresql, Mariadb, Mysql <br>
-    - WaF as a Service Manuell: tbd <br>
+    - DataBase as a Service: Postgresql, Mariadb, Mysql <br>
+    - WaF as a Service basierend auf Apache mod_sec (Beta)<br>
 
  # Offer Two: Produkte
   offerTwoProductsOneTitel: Shared
