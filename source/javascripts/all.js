@@ -103,7 +103,10 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
     var ort = $("[name='ort']").val();
     var form = $('form').attr('name');
 
-    var message = messageform + "<br><br>\n\rfields:<br>\n\r";
+    var message = messageform + "<br><br>\n\r";
+    message += 'dedicated: ' + $('[name="dedicated"]:checked').val() + "<br><br>\n\r";
+    message += 'zone: ' + $('[appuio-price-source]:checked').val() + "<br><br>\n\r";
+    message += "<br><br>\n\rDebugfields:<br>\n\r"
     // add all fields also to the message
     $(":input").each(function(){
       var name = $(this).attr('name')
@@ -115,7 +118,7 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
 
       message += name + ": " + value + "<br>\n\r";
     });
-    message += 'dedicated: ' + $('[name="dedicated"]:checked').val();
+    
 
     $('[type="submit"]', this).val(
       $(this).data('loadingMessage')
