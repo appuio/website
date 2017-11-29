@@ -38,9 +38,9 @@ de:
 # Home: Vorteile
   homeAdvantagesTitle: Vorteile
   homeAdvantagesOneTitle: Schnell am Markt
-  homeAdvantagesOneDesc: Mit APPUiO kannst du deine Applikation automatisch builden, testen und deployen. Auch beim Monitoring und bei Updates gewinnst du Zeit. Releases können täglich durchgeführt werden.
+  homeAdvantagesOneDesc: Mit APPUiO kannst du deine Applikation automatisch builden, testen und deployen. Auch beim Monitoring und bei Updates gewinnst du Zeit. Releases können beliebig durchgeführt werden.
   homeAdvantagesTwoTitle: Collaboration fördern
-  homeAdvantagesTwoDesc: Mit Continous Delivery und der Selfservice-Infrastruktur fördert APPUiO die Zusammenarbeit zwischen Devs und Ops. Als Entwickler kannst du deine Applikation selber deployen und betreiben.
+  homeAdvantagesTwoDesc: Mit Continous Delivery und der Selfservice-Infrastruktur fördert APPUiO die Zusammenarbeit zwischen Devs und Ops. Applikationen können selber deployed und betreiben werden.
   homeAdvantagesThreeTitle: Einheitlich und offen
   homeAdvantagesThreeDesc: Die Entwicklungsumgebung sieht auf deinem Laptop anders aus als die Produktionsumgebung? Mit APPUiO sind deine Umgebungen standardisiert. Offene Standards und OpenSource sind die Basis unserer Plattform.
   homeAdvantagesFourTitle: Selfservice
@@ -70,10 +70,13 @@ de:
         <ul>
           <li>Backup, Monitoring Loggging</li>
           <li>Lets Encrypt, SE Linux</li>
+          <li>TCP Traffic</li>
        </ul>
        <ul>
-          <li>Multi Stage Builds</li>
+          <li>Secure Docker Builds (Multi Stage Support)</li>
           <li>SaaS (3Scale, WAF)</li>
+          <li>Blockstorage</li>
+       </ul>
       </div>
     Welches Feature als nächstes auf unserer Roadmap steht, seht ihr hier: <a href="https://trello.com/b/kpVq53J2/appuio-roadmap">APPUiO Roadmap</a>
   homeFeatureAddonsAlt: Safe container with a swiss locker
