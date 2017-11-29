@@ -257,6 +257,8 @@ en:
   offerTwoProductsOneDesc: Order your Public Platform in our Self-service portal on shared infrastructure. You’re receiving an OpenShift project with memory at discretion.
   offerTwoProductsTwoTitel: Dedicated
   offerTwoProductsTwoDesc: Do you want to manage your projects autonomously? Then chose our APPUiO Dedicated product. You can create as many projects as you’d like, starting at 16GB Memory.
+  offerTwoProductsSharedOrder: Order Shared
+  offerTwoProductsDedOrder:  Order Dedicated
 
 # Offer Two: services
   offerTwoServicesTitle: Shared vs. Dedicated Platform
