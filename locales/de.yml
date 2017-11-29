@@ -164,9 +164,9 @@ de:
   offerOneIso: Deine APPUiO Managed Private Platform wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
 
   offerOneServiceTitle: Zusätzliche Services
-  offerOneServices1: Consulting Setup und Initialisierung
-  offerOneServices2: Bring my App to the Cloud - wir beraten und setzen auch um
-  offerOneServices3: "Automatisierung Ihrer Prozesse: Continuos Delivery und Continuous Deployment Ihrer Applikationen"
+  offerOneServices1: Consulting Setup und Initialisierung.
+  offerOneServices2: "Bring my App to the Cloud" - wir beraten und setzen auch um.
+  offerOneServices3: "Automatisierung Ihrer Prozesse: Continuous Delivery und Continuous Deployment deiner Applikationen."
 
 
   offerOnePackageTitle: "Wähle das für deine Bedürfnisse passende Paket:"
@@ -248,9 +248,6 @@ de:
     - 3 Scale API Management(Beta): API Management Lösung von Red Hat. <br>
     - DataBase as a Service: Postgresql, Mariadb, Mysql <br>
     - WaF as a Service basierend auf Apache mod_sec (Beta)<br>
-  offerTwoPackageContentsSixthTitle: Block Storage (Beta)
-  offerTwoPackageContentsSixthItemOne: Neu steht auf APPUiO Public vorerst als Beta Phase der Storagetype Block Storage zur Verfügung, welcher in den Container als mounted persistent Volumes eingebunden werden kann. Blockstorage ist vom Typ ReadWriteOnce(RWO) und eignet sich insbesondere für Datenbank Volumes.
-
 
  # Offer Two: Produkte
   offerTwoProductsOneTitel: Shared
@@ -259,12 +256,12 @@ de:
   offerTwoProductsTwoDesc: Willst du deine Projekte eigenständig verwalten? Dann bestelle unsere APPUiO Dedicated über das Kontaktformular. Du kannst beliebig viele Projekte ab 16 GB Memory eröffnen.
 
 # Offer Two: services
-  offerTwoServicesTitle: Shared vs. Dedicated Plattform
+  offerTwoServicesTitle: Shared vs. Dedicated Platform
   offerTwoServicesDescription: Unsere APPUiO Public Platform gibt es auf geteilter Infrastruktur oder als dedizierter Node für dich alleine. Wähle je nach deinen Bedürfnissen zwischen den beiden Angeboten.
 
 # Offer Two: Schieber
   offerDynamicAddonsPretext: "APPUiO public Platform Calculator"
-  offerTwoPackageTitle: "Finde die passende Grösse für deine Public Platform."
+  offerTwoPackageTitle: "Die passende Grösse für deine Public Platform"
   offerDynamicAddonsTitle: "Grösse wählen"
   offerTwoDynamicButton: "Bestellen"
   offerTwoLabelMemory: "Memory"
@@ -341,16 +338,16 @@ de:
 # Offer Two: FAQ
   offerTwoFaqTitle: Häufig gestellte Fragen
 #Categorie: Verrechnung
-  offerTwoFaqVerOneTitle: Wie kann ich von den früheren “T-Shirt.Grössen” für die Public Platform auf das flexible Pricing migrieren?
+  offerTwoFaqVerOneTitle: Wie kann ich von den früheren “T-Shirt-Grössen” für die Public Platform auf das flexible Pricing migrieren?
   offerTwoFaqVerOneText: Dies kannst du einfach im Self Service Portal umstellen.
   offerTwoFaqVerTwoTitle: In welcher Periodizität erfolgt die Abrechnung?
   offerTwoFaqVerTwoText: Zu Beginn eines Monats, wird der letzte Monat abgerechnet.
   offerTwoFaqVerTreeTitle: Wie funktioniert die Abrechnung?
-  offerTwoFaqVerTreeText: Der Maximalwert (MB Memory) der letzten Stunde wird mit dem Preis pro h multipliziert. Alle Stunden des Monats werden zusammengezählt und so entsteht der effektive Preis pro Monat.
+  offerTwoFaqVerTreeText: Der Maximalwert (MB Memory) der letzten Stunde wird mit dem Preis pro Stunde multipliziert. Alle Stunden des Monats werden zusammengezählt und so entsteht der effektive Preis pro Monat.
   offerTwoFaqVerFourTitle: Welche Einheit wird abgerechnet?
   offerTwoFaqVerFourText: Die Abrechnung erfolgt in Megabytes.
   offerTwoFaqVerFiveTitle: Wo sind die laufenden Kosten ersichtlich?
-  offerTwoFaqVerFiveText: Die laufenden Kosten können im Service Service Portal angezeigt werden.
+  offerTwoFaqVerFiveText: Die laufenden Kosten können im Self Service Portal angezeigt werden.
   offerTwoFaqVerSixTitle: Muss ich zusätzlich Subscription von Red Hat bezahlen?
   offerTwoFaqVerSixText: Nein, die Subscriptions sind im Preis enthalten.
 #Categorie: Allgemein
@@ -363,8 +360,8 @@ de:
   offerTwoFaqAllFourTitle: Was wird gesichert?
   offerTwoFaqAllFourText: Der gesamte Cluster, die Objekte und die Daten vom Perstistent Storage werden laufend gesichert. Es gibt keine Applikationskonsistente Backups und der Restore durch unseren Support ist kostenpflichtig.
 #Categorie: Add-Ons
-  offerTwoFaqAddOneTitle: SLA, Was sind die Supportzeiten?
-  offerTwoFaqAddOneText: In diesen Zeiten können Supportfälle per Telefon oder Email an das Supportteam gemeldet werden. Der Kunde erhält von VSHN die direkte Telefonnummer des Supportsteams. Das Supportteammitglied, welches den Supportfall entgegen nimmt bestätigt den Eingang per Mail auf eine durch den Kunden zu definierende Mail-Adresse.
+  offerTwoFaqAddOneTitle: Was sind die Supportzeiten des SLA?
+  offerTwoFaqAddOneText: Supportfälle können per Telefon oder Email an das Supportteam gemeldet werden. Der Kunde erhält die direkte Telefonnummer des Supportsteams. Das Supportteammitglied, welches den Supportfall entgegen nimmt, bestätigt den Eingang per Mail auf eine durch den Kunden zu definierende Mail-Adresse.
   offerTwoFaqAddTwoTitle: SLA, Was ist die Reaktionszeit?
   offerTwoFaqAddTwoText: |-
     Die Reaktionszeit beginnt mit der Meldung des Supportfalls zu laufen und bezieht sich auf den Zeitraum der Supportzeit.
@@ -376,7 +373,7 @@ de:
 
 
 
-# Offer Two: FContact
+# Offer Two: Contact
 
 
   offerTwoContactTitle: APPUiO - PUBLIC PLATFORM
@@ -392,7 +389,7 @@ de:
 
 # Offer3: On Premises PaaS
   offerThreeTitle: On Premises
-  offerThreeIntro: Deine Container Plattform in deiniem Rechenzentrum, optimal integriert in deine Infrastruktur. Wir begleiten dich gerne von der Idee, über die Umsetzung bis zum Betrieb.
+  offerThreeIntro: Deine Container Plattform in deinem Rechenzentrum, optimal integriert in deine Infrastruktur. Wir begleiten dich gerne von der Idee über die Umsetzung bis zum Betrieb.
   offerThreeServicesTitle: Offene Komponenten und -Schnittstellen ermöglichen die Integration in komplexe, bestehende Infrastrukturen.
   offerThreeServicesDesc: Die Flexibiltät von APPUiO erlaubt die Integration in komplexe, bestehende Infrastrukturen. Hier eine Liste möglicher Integrationspunkte, welche durch APPUiO resp. OpenShift abgedeckt werden können.
   offerThreeServices1: APPUiO läuft auf Red Hat Enterprise Linux (RHEL) 7 (bare metal, virtuell, Cloud)
