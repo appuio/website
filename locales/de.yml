@@ -155,12 +155,12 @@ de:
   offerOneIntro: Du möchtest eine eigene private APPUiO Instanz nutzen, die auf unserer Infrastruktur läuft? Wir deployen und betreiben eine massgeschneiderte Lösung nach deinen Bedürfnissen.
 
   offerOneList1: Basis für DevOps
-  offerOneList2: 09:00 - 18:00 Telefon- und E-Mail-Support
+  offerOneList2: 09&#58;00 - 18&#58;00 Telefon- und E-Mail-Support
   offerOneList3: Proaktives Alarming Monitoring
   offerOneList4: Update und Servermanagement
   offerOneList5: Datenstandort e-Shelter Schweiz
   offerOneList6: Backup an einen zweiten Standort
-  offerOneList7: “Small - Medium - Large: Auf Sie zugeschnittene Angebote“
+  offerOneList7: “Small - Medium - Large&#58; Auf Sie zugeschnittene Angebote“
   offerOneIso: Deine APPUiO Managed Private Platform wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
 
   offerOneServiceTitle: Zusätzliche Services
@@ -169,7 +169,7 @@ de:
   offerOneServices3: “Automatisierung Ihrer Prozesse&#58; Continuous Delivery und Continuous Deployment deiner Applikationen.“
 
 
-  offerOnePackageTitle: “Wähle das für deine Bedürfnisse passende Paket:“
+  offerOnePackageTitle: “Wähle das für deine Bedürfnisse passende Paket&#58;“
   offerOnePackageSmallTitle: Small
   offerOnePackageSmallItem1: Master <br> (je 16 GB Ram, 6vCores)
   offerOnePackageSmallItem2: 2 Nodes <br> (je 16 GB Ram, 6vCores, 100 GB Docker Storage)
