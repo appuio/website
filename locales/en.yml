@@ -216,6 +216,58 @@ homeTechnologiesThreeDesc: On APPUiO, you orchestrate and manage your containers
   offerTwoTitle: Public Platform
   offerTwoIntro: Do you want to deploy your application on a Swiss cloud or are you in need of flexible, standardized development environments ? Use our APPUiO Public Platform.
 
+# Offer Two: Advantages
+  offerTwoAdvantagesTitle: Advantages
+  offerTwoAdvantagesOneTitle: Swissness
+  offerTwoAdvantagesOneDesc: APPUiO is operated in Swiss data centres certified to ISO27001 and in accordance with swiss banking regulators (FINMA) guidelines and is subject to Swiss law.
+  offerTwoAdvantagesTwoTitle: Security
+  offerTwoAdvantagesTwoDesc: When using the APPUiO Public Platform you’re benefiting from SELinux, Federation Authentication and Let’s Encrypt. The newest Security Updates are applied regularly.
+  offerTwoAdvantagesThreeTitle: Support
+  offerTwoAdvantagesThreeDesc: You’re getting personal support, as well as frequent maintenance and updates of servers. Backup and monitoring are part of the deal. Furthermore, our community is at your disposal in the chat.
+  offerTwoAdvantagesFourTitle: Self-Service
+  offerTwoAdvantagesFourDesc: By using our Self-Service portal you’re creating, resizing, deleting and managing your environments at the push of a button. You’re having full control over your platform.
+  offerTwoAdvantagesFiveTitle: Pay per Use
+  offerTwoAdvantagesFiveDesc: Costs for the APPUiO Public Platform are calculated per hour. You only pay what you were actually using. There are no setup-costs.
+  offerTwoAdvantagesSixTitle: Hybrid Cloud
+  offerTwoAdvantagesSixDesc: There are two availability-zones on the APPUiO Public Platform: One in Switzerland and another one on AWS in Germany, including use of their services.
+
+# Offer Two: Im Angebot enthalten
+  offerTwoPackageContentsTitle: Services Included
+  offerTwoPackageContentsFirstTitle: Backup and Monitoring
+  offerTwoPackageContentsFirstItemOne: We’re backing all relevant data up once a day. Additional, available resources are visible in the portal. On https://status.appuio.ch you can have a look at the current state of the Public Platform at all times.
+  offerTwoPackageContentsSecondTitle: TCP Traffic (Beta)
+  offerTwoPackageContentsSecondItemOne: With APPUiO, it’s possible to route Non-HTTP-Traffic into Public Clusters. This allows for customer IPs to be bound to services and provide for example databases, LDAP servers or SSH services publicly.
+  offerTwoPackageContentsThirdTitle: Let’s Encrypt Certificates
+  offerTwoPackageContentsThirdItemOne: APPUiO enables you to configure valid SSL-certificates signed by “Let’s Encrypt" into your routes at the push of a button. Once successfully registered, APPUiO automatically takes care of updating the certificates (that have a validity period of three months) when necessary.
+  offerTwoPackageContentsFourthTitle: Secure Docker Builds
+  offerTwoPackageContentsFourthItemOne: Our platform allows for the running of Docker Image Native as Docker Build. To achieve this, we extracted the build-environment.Builds are running in dynamically created, strictly separated VMs per client apart from the cluster. Additionally to our secure builds, our extension enables Docker Multi-Stage Builds. These help to optimise Dockerfiles and make them both simpler and easier to read.
+  offerTwoPackageContentsFifthTitle: Managed Services
+  offerTwoPackageContentsFifthItemOne: |-
+    There is a first platform software, which were offering on our Public Platform as a service. We’re building the software according to your wishes and are operating it a a managed service: <br>
+    - 3 Scale API Management (Beta): API Management solution by Red Hat. <br>
+    - database as a service: manually: Postgresql, Mariadb, Mysql <br>
+    - WaF as a Service basierend auf Apache mod_sec (Beta)<br>
+  offerTwoPackageContentsSixthTitle: Blockstorage
+  offerTwoPackageContentsSixthItemOne: Blockstorage can be integrated into the container as mounted persistent volumes. Blockstorage is of type ReadWriteOnce (RWO) and is particularly suitable for database volumes.
+
+# Offer Two: Produkte
+  offerTwoProductsOneTitel: Shared
+  offerTwoProductsOneDesc: Order your Public Platform in our Self-service portal on shared infrastructure. You’re receiving an OpenShift project with memory at discretion.
+  offerTwoProductsTwoTitel: Dedicated
+  offerTwoProductsTwoDesc: Do you want to manage your projects autonomously? Then chose our APPUiO Dedicated product. You can create as many projects as you’d like, starting at 16GB Memory.
+
+# Offer Two: services
+  offerTwoServicesTitle: Shared vs. Dedicated Platform
+offerTwoServicesDescription: Our APPUiO Public Platform exists on shared infrastructure or as a dedicated node for you alone. Choose between the two offers depending on your needs.
+
+
+
+
+
+
+
+
+
   offerTwoServiceTitle: Select the right offer and get going
   offerTwoServices1: Bundles tailored to your needs
   offerTwoServices2: "By Developers for Developers: Forum, documentation and community"
