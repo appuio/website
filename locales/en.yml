@@ -228,7 +228,8 @@ en:
   offerTwoAdvantagesFiveTitle: Pay per Use
   offerTwoAdvantagesFiveDesc: Costs for the APPUiO Public Platform are calculated per hour. You only pay what you were actually using. There are no setup-costs.
   offerTwoAdvantagesSixTitle: Hybrid Cloud
-  offerTwoAdvantagesSixDesc: There are two availability-zones on the APPUiO Public Platform: One in Switzerland and another one on AWS in Germany, including use of their services.
+  offerTwoAdvantagesSixDesc: |-
+    There are two availability-zones on the APPUiO Public Platform: One in Switzerland and another one on AWS in Germany, including use of their services.
 
 # Offer Two: Im Angebot enthalten
   offerTwoPackageContentsTitle: Services Included
@@ -260,16 +261,11 @@ en:
   offerTwoServicesDescription: Our APPUiO Public Platform exists on shared infrastructure or as a dedicated node for you alone. Choose between the two offers depending on your needs.
 
 
-
-
-
-
-
-
-
   offerTwoServiceTitle: Select the right offer and get going
   offerTwoServices1: Bundles tailored to your needs
-  offerTwoServices2: "By Developers for Developers: Forum, documentation and community"
+  offerTwoServices2: |-
+    "By Developers for Developers: Forum, documentation and community"
+
   offerTwoServices3: We will handle backup, monitoring, updates, scaling and support
 
   offerTwoServicesDesc: Settlement of accounts is handled monthly or annually via invoice.
