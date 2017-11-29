@@ -250,7 +250,7 @@ en:
     - 3 Scale API Management (Beta): API Management solution by Red Hat. <br>
     - database as a service: manually: Postgresql, Mariadb, Mysql <br>
     - WaF as a Service basierend auf Apache mod_sec (Beta)<br>
-  offerTwoPackageContentsSixthTitle: Blockstorage
+  offerTwoPackageContentsSixthTitle: Blockstorage (Beta)
   offerTwoPackageContentsSixthItemOne: Blockstorage can be integrated into the container as mounted persistent volumes. Blockstorage is of type ReadWriteOnce (RWO) and is particularly suitable for database volumes.
 
 # Offer Two: Produkte
