@@ -132,6 +132,7 @@ de:
   homeContactSubjectThree: On Premises
   homeContactSubjectFour: Allgemeine Informationen
   homeContactSubjectFive: Newsletter
+  homeContactSubjectSix: Free one month trial 
   homeContactYourFirstName: Vorname
   homeContactYourName: Nachname
   homeContactYourFirstNameTitle: Ihr Vorname
@@ -171,7 +172,6 @@ de:
   offerOneServices1: Consulting Setup und Initialisierung.
   offerOneServices2: “Bring my App to the Cloud“ - wir beraten und setzen auch um.
   offerOneServices3: “Automatisierung Ihrer Prozesse&#58; Continuous Delivery und Continuous Deployment deiner Applikationen.“
-
 
   offerOnePackageTitle: “Wähle das für deine Bedürfnisse passende Paket&#58;“
   offerOnePackageSmallTitle: Small
@@ -324,7 +324,9 @@ de:
   offerTwoAddon4Title: Persitant Storage
   offerTwoAddon4Description: pro GB/Stunde
   offerTwoAddon4Price: 0.0935 CHF   
-  
+ 
+
+
   offerTwoDedicatedAddonsPretext: ""
   offerTwoDedicatedAddonsTitle: SLA Office Hours Plus
   offerTwoDedicatedAddonsItem1: SLA Office Hours Plus
@@ -442,7 +444,6 @@ de:
     </ul>
     <p>Daten:</p>
     <ul>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/72512716077">02. November 2017 in Bern</a></li>
     <li><a href="https://app.hatchbuck.com/OnlineForm/72880727856">07. Dezember 2017 in Zürich</a></li>
     <li><a href="https://app.hatchbuck.com/OnlineForm/72880727855">25. Januar   2018 in Bern</a></li>
     </ul>
@@ -464,14 +465,75 @@ de:
     <p><strong>Wo:</strong> Bogen F, Viaduktstrasse 97, 8005 Zürich</p>
 
     <p><strong>Programm:</strong></p>
-    <p>14:00 Uhr - Eintreffen</p>
-    <p>14:30 Uhr - Begrüssung & Roadmap</p>
-    <p>14:45 Uhr - Talk: "Der Weg in die Cloud"</p>
-    <p>15:15 Uhr - Case Studies APPUiO</p>
-    <p>17:00 Uhr - Apéro & Geburstagsparty</p>
+    <table class="event-table-oneyear">
+      <thead>
+        <tr>
+          <th><strong>Zeit</strong></th>
+          <th><strong>Topic</strong></th>
+          <th><strong>Titel</strong></th>
+          <th><strong>Speaker</strong></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>14:00 <br></td>
+          <td>Eintreffen<br></td>
+          <td class="empty-cell"></td>
+          <td class="empty-cell"></td>
+        </tr>
+        <tr>
+          <td>14:30</td>
+          <td>Begrüssung/Rückblick</td>
+          <td>"Rückblick auf ein Jahr APPUiO und brandneue Features"</td>
+          <td>Thomas Philipona, CTO und einer der Gründerväter, Puzzle ITC</td>
+        </tr>
+        <tr>
+          <td>14:45</td>
+          <td>DevOps Tooling mit APPUiO</td>
+          <td>"Die DevOps-Reise: Kultur, Prozesse und Technologien"</td>
+          <td>Tobias Weinmann, DevOps Transformation Lead SwissRe; Patrick Mathers, CEO, VSHN</td>
+        </tr>
+        <tr>
+          <td>15:15</td>
+          <td>Kundencase HRM Systems AG</td>
+          <td>"Carema by HRM Systems AG"</td>
+          <td>Michael Gerber, Software Engineer, HRM Systems</td>
+        </tr>
+        <tr>
+          <td>15:35</td>
+          <td>Kaffeepause</td>
+          <td class="empty-cell"></td>
+          <td class="empty-cell"></td>
+        </tr>
+        <tr>
+          <td>16:15</td>
+          <td>Kundencase Adcubum AG</td>
+          <td>"#ctrlshift @ adcubum AG"</td>
+          <td>Matthias Summer, Senior System Engineer, Adcubum AG</td>
+        </tr>
+        <tr>
+          <td>16:35</td>
+          <td>Kundencase Amazee.io</td>
+          <td>"Spezialisiertes Drupal Hosting auf basis von APPUiO/OpenShift"</td>
+          <td>Bastian Widmer, System Engineer, Amazee.io</td>
+        </tr>
+        <tr>
+          <td>16:55</td>
+          <td>Ausblick/Roadmap</td>
+          <td>"Die Zukunft von APPUiO"</td>
+          <td>Tobias Tröhler, Produkt Manager APPUiO</td>
+        </tr>
+        <tr>
+          <td>17:05</td>
+          <td>Apéro</td>
+          <td class="empty-cell"></td>
+          <td class="empty-cell"></td>
+        </tr>
+      </tbod>
+    </table>
     <br>
     <p>Alle Präsentationen sind in deutscher Sprache</p>
-    <p><iframe frameborder='0' style='width: 550px;' src='https://app.hatchbuck.com/OnlineForm/72664443500' scrolling='no' height='550px'></iframe></p>
+    <p><iframe frameborder='0' class='appuio-event-form' src='https://app.hatchbuck.com/OnlineForm/72664443500' scrolling='no'></iframe></p>
     <br>
     <p>Wir freuen uns auf dich!</p>
 

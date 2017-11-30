@@ -253,7 +253,7 @@ title: APPUiO - Swiss Container Platform
       </article> -->
     </div>
   </section>
-
+  
   <section id="contact" class="home-contact">
     <div class="grid-container">
       <h2 class="home-contact-title"><%= t(:homeContactTitle) %></h2>
@@ -268,6 +268,10 @@ title: APPUiO - Swiss Container Platform
           <div class="interest-item">
             <input id="interest-info" value="<%= t(:homeContactSubjectFour) %>" type="checkbox" name="interests[]" class="interest-checkbox" checked>
             <label for="interest-info"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:homeContactSubjectFour) %></label>
+          </div>
+          <div class="interest-item">
+            <input id="interest-trial" value="<%= t(:homeContactSubjectSix) %>" type="checkbox" name="interests[]" class="interest-checkbox">
+            <label for="interest-trial"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:homeContactSubjectSix) %></label>
           </div>
         </div>
         <div class="home-contact-form">

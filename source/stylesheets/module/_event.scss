@@ -1,0 +1,71 @@
+.event-table-oneyear {
+  border-collapse: collapse;
+  width: 100%;
+
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+}
+
+.EventPic {
+  height: auto;
+}
+
+.appuio-event-form {
+  width: 550px;
+  height: 550px;
+}
+
+@media only screen and (max-width: 640px) {
+
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr { border: 1px solid #ddd; }
+
+  td {
+    border: none;
+    border-bottom: 2px solid #ddd;
+    position: relative;
+  }
+
+  .empty-cell {
+    display: none;
+  }
+
+  .event-table-oneyear {
+    th, td {
+      padding-left: 40%;
+    }
+  }
+
+  td:before {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    font-weight: bold;
+  }
+
+  td:nth-of-type(1):before { content: "Zeit"; }
+  td:nth-of-type(2):before { content: "Topic"; }
+  td:nth-of-type(3):before { content: "Titel"; }
+  td:nth-of-type(4):before { content: "Speaker"; }
+
+  .appuio-event-form {
+    width: 100%;
+    height: 550px;
+  }
+}
