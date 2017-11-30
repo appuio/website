@@ -91,7 +91,7 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
     var nachname = $("[name='nachname']").val();
     var email = $("[name='email']").val();
     var interests = "Memory: " + $('[name="memory"]').val();
-    var priceSource = $('[appuio-price-source]:checked').val();
+    var priceSource = $('[name="appuio-price-source"]:checked').val();
     var tags = $.map($(':checkbox[name=interests\\[\\]]:checked'), function(n, i){
       return 'q6_interessen[]='+n.value;
     }).join('&');
