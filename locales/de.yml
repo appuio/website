@@ -72,7 +72,7 @@ de:
     Wir verbessern APPUiO kontinuierlich und entwickeln neue Features. Diese Erweiterungen stellen wir in Form von Add Ons allen Kunden zur Verfügung und helfen bei der Integration. Aktuell stehen folgende Add Ons zur Verfügung:
       <div class="home-table-usps">
         <ul>
-          <li>Backup, Monitoring Loggging</li>
+          <li>Backup, Monitoring, Loggging</li>
           <li>Lets Encrypt</li>
           <li>Secure Docker Builds (Multi Stage Support)</li>
        </ul>
@@ -290,7 +290,7 @@ de:
     <li class="offers-package-item">zwei Instanzen hochverfügbar eines Micro Services</li>
     <li class="offers-package-item">Keycloak mit Datenbank</li>
   offerTwoPossibilitiesLarge: |-
-    <li class="offers-package-item">Komplexe Applikation mit mehreren Serivces</li>
+    <li class="offers-package-item">Komplexe Applikation mit mehreren Services</li>
     <li class="offers-package-item">Jenkins Build Server</li>
     <li class="offers-package-item">mehrere Instanzen hochverfügbar eines Micro Services, bspw. vier
     Instanzen zur gleichen Zeit</li>
@@ -299,7 +299,7 @@ de:
   offerTwoPossibilitiesXLarge: |-
     <li class="offers-package-item">Komplexe Applikationen mit grösserer Last und Datenbanken</li>
     <li class="offers-package-item">Hochverfügbare Datenbanken</li>
-    <li class="offers-package-item">Micro Service Architektur etliche Services</li>
+    <li class="offers-package-item">Micro Service Architektur, etliche Services</li>
     <li class="offers-package-item">Jenkins Build Infrastruktur mit diversen Buildnodes</li>
 
   offerTwoCPUDescription: |-
