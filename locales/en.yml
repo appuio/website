@@ -70,7 +70,7 @@ en:
       <div class="home-table-usps">
         <ul>
           <li>Backup, Monitoring Loggging</li>
-          <li>Lets Encrypt, SE Linux</li>
+          <li>Lets Encrypt</li>
           <li>TCP Traffic</li>
        </ul>
        <ul>
