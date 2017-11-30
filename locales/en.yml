@@ -76,7 +76,7 @@ en:
        <ul>
           <li>Secure Docker Builds (Multi Stage Support)</li>
           <li>Managed Services (3Scale, WAF, DB)</li>
-          <li>Blockstorage</li>
+          <li>Persistent Storage (File based-, Blockstorage)</li>
        </ul>
       </div>
     On the <a href="https://trello.com/b/kpVq53J2/appuio-roadmap">APPUiO Roadmap</a> you can see which features we plan to work on next.
@@ -250,8 +250,8 @@ en:
     - 3 Scale API Management (Beta): API Management solution by Red Hat. <br>
     - database as a service: manually: Postgresql, Mariadb, Mysql <br>
     - WaF as a Service basierend auf Apache mod_sec (Beta)<br>
-  offerTwoPackageContentsSixthTitle: Blockstorage (Beta)
-  offerTwoPackageContentsSixthItemOne: Blockstorage can be integrated into the container as mounted persistent volumes. Blockstorage is of type ReadWriteOnce (RWO) and is particularly suitable for database volumes.
+  offerTwoPackageContentsSixthTitle: Persistent Storage (File based-, Blockstorage)
+  offerTwoPackageContentsSixthItemOne: Blockstorage(Beta) can be integrated into the container as mounted persistent volumes. Blockstorage is of type ReadWriteOnce (RWO) and is particularly suitable for database volumes.
 
 # Offer Two: Produkte
   offerTwoProductsOneTitel: Shared
@@ -316,7 +316,7 @@ en:
   offerTwoAddon3Price: according to the arrangement
   offerTwoAddon4Title: Persitant Storage
   offerTwoAddon4Description: per GB/h
-  offerTwoAddon4Price: 0.55 CHF   
+  offerTwoAddon4Price: 0.0935 CHF   
   
   offerTwoStorageDescription: Persistent Storage steht dir direkt in der Web Console oder via CLI zur Verfügung und kann als sogenannte Persistent Volumes direkt an deinen Container angebunden werden. Die Abrechnung erfolgt nach Verbrauch.
 
