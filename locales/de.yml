@@ -73,7 +73,7 @@ de:
       <div class="home-table-usps">
         <ul>
           <li>Backup, Monitoring Loggging</li>
-          <li>Lets Encrypt, SE Linux</li>
+          <li>Lets Encrypt</li>
           <li>Secure Docker Builds (Multi Stage Support)</li>
        </ul>
        <ul>
