@@ -1,7 +1,7 @@
 ---
 # Translate comfortably with https://weblate.appuio.ch/
 en:
-  metaDescription: APPUiO - the Swiss container platform for design, development and operation of your application. Manage your container workload with APPUiO.
+  metaDescription: APPUiO - the Swiss container platform with a powerful community. Manage your container workload with APPUiO.
   metaKeywords: openShift, container runtime, container platform, Cluster, PaaS, Platform as a Service, Docker, Kubernetes, Swiss, Switzerland, VSHN AG, Puzzle ITC GmbH
 
 # Global navigation
@@ -16,22 +16,74 @@ en:
   navOffer1: Managed Private APPUiO
   navOffer2: Public Platform
   navOffer3: On-Premises APPUiO
-  navFeatures: Features
+  navClients: Customers
   navContact: Contact
   navFAQ: FAQ
   navTechlabs: Techlab
 
 # Footer
-  footerTel: Telefonisch erreichen Sie uns unter +41 44 552 22 40
+  footerTel: You can reach us by phone&#58; +41 44 552 22 40
 
 # Homepage
   homeNewsTitle: News
   homeNewsText: |-
     One Year APPUiO - signup for the event <a href="event.html">&gt;&gt;</a>
   homeHeroAlt: APPUiO - Swiss Container Platform
-  homeHeroTitle: Design, develop and operate your application with the APPUiO container runtime. Manage your container workload with APPUiO.
-  homeHeroSignup: Sign up for public PaaS
-  homeHeroDesc: APPUiO - The Swiss container platform, created by developers for developers. APPUiO is based on the next generation PaaS Red Hat OpenShift Container Platform. Reliable open source concepts such as Docker and Kubernetes allow you to develop, operate and scale your application according to your needs. With this technology, applications can be operated both on public clouds as well as on in-house data centres.
+  homeHeroTitle: Open Container Platform with a powerful Community.
+  homeHeroSignup: Sign up for Public Platform
+  homeHeroDesc:  |-
+    <p> APPUiO - The Swiss container platform, built on top of Red Hat OpenShift. Reliable open source concepts such as Docker and Kubernetes allow you to develop, operate and scale your application according to your needs. With APPUiO, your applications can be operated both on public clouds as well as on in-house data centres. </p>
+    <p>The platform was originally built by the two IT specialists <a href="https://www.puzzle.ch/de/">Puzzle ITC</a> and <a href="https://vshn.ch/">VSHN AG</a> to professionalize internal IT. Today, APPUiO is already used in production by several customers and supported by a strong community.</p>
+
+# Home: Advantages
+  homeAdvantagesTitle: Why APPUiO?
+  homeAdvantagesOneTitle: Fast time-to-market
+  homeAdvantagesOneDesc: With APPUiO, you can automate the building, testing and deployment of your applications. Additionally, you save time in relation to monitoring and updates. Releases become easy.
+  homeAdvantagesTwoTitle: Foster Collaboration
+  homeAdvantagesTwoDesc: APPUiO facilitates cooperation between Developers and Operations with Continous Delivery and it’s Selfservice-Infrastructure. Applications can be deployed and operated by yourself.
+  homeAdvantagesThreeTitle: Consistent and open
+  homeAdvantagesThreeDesc: The development environment on your laptop is looking different from the production environment? With APPUiO all environments are standardised. OpenSource software and open standards are the foundation of our platform.
+  homeAdvantagesFourTitle: Self-service
+  homeAdvantagesFourDesc: It only takes a few seconds from ordering your own platform to using it. And yet you’re independent of other teams and persons and in full control. Start you very own Container platform right now!
+  homeAdvantagesFiveTitle: High security standards
+  homeAdvantagesFiveDesc: APPUiO is using SELinux, Let’s Encrypt and offers Federation Authentication (LDAP connection). Data on the public platform is stored in ISO-certificated data-centres in Switzerland.
+  homeAdvantagesSixTitle: Reduce costs
+  homeAdvantagesSixDesc: When using APPUiO, no internal costs for setting up a platform or acquiring know-how are generated. Costs are always transparent and can be controlled and adapted on our portal at all times.
+
+# Home: Feature Section
+  homeFeatureTitle: More than OpenShift
+  homeFeatureDesc: APPUiO is OpenShift “as a Service”. Benefit from our long-standing experience as the first Swiss container platform and take advantage of all the assets of OpenShift with many additional Add-Ons and services.
+  homeFeatureCommunityTitle: Community
+  homeFeatureCommunityAlt: Eine Plattform, welche die Kunden zusammen bringt.
+  homeFeatureCommunityDesc: |-
+    Our Community is the centrepiece along with which we’re growing. APPUiO features a <a href="https://community.appuio.ch/home">community-chat</a> and various events to exchange ideas with like-minded engineers and the APUiO-team. Just as APPUiO is built entirely on Open-Source-components we assume the same kind of openness by providing our documentation and code to the community. Together, open-sourced software, open standards and openly available documentation guarantee supplier-independence to the highest possible extent and protect you from vendor lock-in. You can be a part of the community, too! Together we’re stronger and we gladly pass our knowledge on. <br/>
+  homeFeatureLanguagesTitle: Plattformen #?
+  homeFeatureDatabasesTitle: Datenbanken #?
+  homeFeatureConsultingTitle: One-Stop Solution
+  homeFeatureConsultingAlt: Build, Ship, Operate
+  homeFeatureConsultingDesc: We’re accompanying our customers all along the value creation chain of both their platform and application – from planning via installation to operations. Additionally, we’re glad to assist you with our long-standing experience with container technologies. All collaboration is organized modular and our services can be procured individually or bundled. We’re not only providing help with architectures, setup and operations, but also offer 3rd-Level-support, professional training for both operating and monitoring OpenShift and other container solutions as well as consulting all around the topics of “Moving Apps to the Cloud”, “DevOps-Automation” and much more.
+  homeFeatureOpenSourceTitle: Open Source
+  homeFeatureOpenSourceDesc: OpenShift, Docker, Kubernetes und weitere Komponenten hinter APPUiO sind Open Source. Diese Offenheit wollen wir übernehmen, indem wir Dokumentationen zu APPUiO der Community zur Verfügung stellen. Die quelloffene Software, die Anwendung offener Standards sowie die frei zugängliche Dokumentation garantieren Ihnen die grösstmögliche Anbieterunabhängigkeit und bewahren Sie vor einem Vendor Lock-in. Weitere Informationen zum Open Source Projekt hinter OpenShift finden Sie auf <a target="_new" href="https://www.openshift.org">openshift.org</a>.
+  homeFeatureAddonsTitle: Add-ons
+  homeFeatureAddonsDesc: |-
+    We’re continually improving APPUiO and developing additional features. These extensions are provided to all our customers as Add-Ons and help with integration. Currently, the following Add-Ons are available:
+      <div class="home-table-usps">
+        <ul>
+          <li>Backup, Monitoring Loggging</li>
+          <li>Lets Encrypt, SE Linux</li>
+          <li>TCP Traffic</li>
+       </ul>
+       <ul>
+          <li>Secure Docker Builds (Multi Stage Support)</li>
+          <li>Managed Services (3Scale, WAF, DB)</li>
+          <li>Blockstorage</li>
+       </ul>
+      </div>
+    On the <a href="https://trello.com/b/kpVq53J2/appuio-roadmap">APPUiO Roadmap</a> you can see which features we plan to work on next.
+  homeFeatureAddonsAlt: Safe container with a swiss locker
+  homeFeatureEncryptTitle: Lets Encrypt SSL/TLS Routen auf Knopfdruck
+  homeFeatureEncryptDesc: APPUiO erlaubt es ihnen mittels Lets Encrypt einfach per Knopfdruck echte SSL Zertifikate in ihren Routen zu konfigurieren. Nach erfolgter Registrierung sorgt APPUiO für die Aktualisierung der Lets Encrypt Zertifikate, welche nur 3 Monate gültig sind, und ersetzt diese automatisch nach Ablauf. Sie müssen sich danach nicht mehr darum kümmern.
+  homeFeatureEncryptAlt: Lets Encrypt SSL/TLS Routen auf Knopfdruck
 
 # Home: Offering section
   homeOfferTitle: Offering
@@ -44,40 +96,37 @@ en:
     Are you in need of standardized development environments or do you want to deploy your productive applications on a Swiss cloud?
   homeOfferTwoButton: Details
   homeOfferThreeTitle: On-Premises APPUiO
-  homeOfferThreeDesc: Your PaaS in your own data centre, optimally integrated into your infrastructure. We guide you through the whole process, from idea stage to operation of a fully functional platform.
+  homeOfferThreeDesc: Your Container Platform in your own data centre, optimally integrated into your infrastructure. We guide you through the whole process, from idea stage to operation of a fully functional platform.
   homeOfferThreeButton: Details
-  homeOfferDesc: All APPUiO public PaaS offerings are held and operated in ISO27001-certified and FINMA-audited data centres within Switzerland and are subject to Swiss law.
+  homeOfferDesc: All APPUiO Public Platform offerings are held and operated in ISO27001-certified and FINMA-audited data centres within Switzerland and are subject to Swiss law.
 
-# Home: Feature section
-  homeFeatureTitle: Features
-  homeFeatureDesc: OpenShift Container Platform is the PaaS from open source market leader Red Hat. OSE v3 uses state-of-the-art open source concepts like Docker container and Kubernetes.
-  homeFeatureDockerTitle: Docker
-  homeFeatureDockerDesc: Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications. Select the Docker-image based on your needs and the technology you want to use. OpenShift automatically creates an updated Docker-container after every build, and can even deploy it on your behalf.
-  homeFeatureKubernetesTitle: Kubernetes
-  homeFeatureKubernetesDesc: Orchestrate and manage your containers with Kubernetes by Google. You define how many of your application instances should run in parallel and Kubernetes then takes care of scaling, load balancing and stability.
-  homeFeatureOnDemandTitle: On-demand development and runtime environment
-  homeFeatureOnDemandAlt: One container that brings together all technologies
-  homeFeatureOnDemandDesc: With APPUiO new environments can be deployed through a few clicks. Various technologies and platforms are available "out of the box". Some of these are listed below.
-  homeFeatureLanguagesTitle: Platforms
-  homeFeatureDatabasesTitle: Databases
-  homeFeatureCycleTitle: Automated processes
-  homeFeatureCycleAlt: Cycle - Build, Ship, Run, Operate
-  homeFeatureCycleDesc: APPUiO enables you to automate the whole process, from development to production. We operate the APPUiO platform and help you to automate your processes. Use APPUiO as your container runtime and deploy and operate your entire container workload.
-  homeFeatureOpenSourceTitle: OpenSource
-  homeFeatureOpenSourceDesc: OpenShift, Docker, Kubernetes and other components behind APPUiO are open source. We fully embrace the open source philosophy and therefore make documentation of APPUiO available to our community. Open source software that uses open standards, as well as freely available APPUiO documentation guarantees you the greatest possible freedom and protects you from vendor lock-ins. Additional information on the open source OpenShift project can be found at <a target="_new" href="https://www.openshift.org">openshift.org</a>.
-  homeFeatureSecureTitle: Secured container
-  homeFeatureSecureDesc: Openshift provides a secure platform thanks to Red Hat’s Enterprise SELinux. Data protection in accordance with Swiss law in ISO27001-certified and FINMA-audited data centres.
-  homeFeatureSecureAlt: Safe container with a swiss locker
-  homeFeatureEncryptTitle: Lets Encrypt SSL/TLS Routes at the touch of a button
-  homeFeatureEncryptDesc: APPUiO allows you to easily configure real SSL certificates in your routes (ihre Routen) by way of Lets Encrypt. After registration has taken place APPUIO monitors and updates (Aktualisierung) the Lets Encrypt certificates, which are only valid 3 months, and replaces them after they've expired. You no longer have to worry about them.
-  homeFeatureEncryptAlt: Lets Encrypt SSL/TLS Routes at the touch of a button
+# Home: Clients
+  homeClientsTitle: Our Clients
+  homeClientsOneTitle: „APPUiO provides us with OpenShift-Experts who support us with their long-standing experience at any time.“
+  homeClientsOneDesc: Matthias Summer, System Engineer @Adcubum AG
+  homeClientsTwoTitle: „It’s not only us benefiting from APPUiO, but our end customers as well.“
+  homeClientsTwoDesc: Bastian Widmer, System Engineer @Amazee.io
+  homeClientsThreeTitle: „APPUiO complies with our high security requirements.”
+  homeClientsThreeDesc: Michael Gerber, Software Developer @HRM Systems AG
+
+# Home: Technologies sections
+  homeTechnologiesTitle: Technologies
+  homeTechnologiesDescriptionOne: With APPUiO, you’re creating new environments at the push of a button. There’s a multitude of Technologies and Platforms available right “out of the Box”. Docker, the foundation on which APPUiO is built, brings along a whole ecosystem of additional runtime environments and frameworks.
+  homeTechnologiesDescriptionTwo:  Mit APPUiO kannst du deine Applikation automatisch builden, testen und deployen.
+  homeTechnologiesOneTitle: OpenShift
+  homeTechnologiesOneDesc: APPUiO is based on on the OpenShift Container Platform by Red Hat, a software that allows development and operations of containers. OpenShift is combining Docker and Kubernetes in a single platform bundled with many additional features simplifying operations of containers and thereby revolutionising IT as we know it.
+  homeTechnologiesTwoTitle: Docker
+  homeTechnologiesTwoDesc: Docker is the open platform for developers, sysadmins and their applications. With APPUiO, simply select the Docker-image based on your needs and the technology you want to use. OpenShift automatically creates an updated Docker-container after every build, and can even deploy it on your behalf.
+  homeTechnologiesThreeTitle: Kubernetes
+  homeTechnologiesThreeDesc: On APPUiO, you orchestrate and manage your containers with Kubernetes by Google. You define how many of your application instances should run in parallel and Kubernetes then takes care of scaling, load balancing and stability.
+
 # Home: Contact Section
   homeContactTitle: Contact
   homeContactDesc: We would love to get in touch with you! Do let us know how we can reach you. Your data will be kept confidentially, and will not be shared with third parties.
   homeContactSubject: I’m interested in
-  homeContactSubjectOne: Managed Private PaaS
+  homeContactSubjectOne: Managed Private APPUiO
   homeContactSubjectTwo: attending beta test
-  homeContactSubjectThree: On PREMISE PaaS
+  homeContactSubjectThree: On PREMISE APPUiO
   homeContactSubjectFour: general information
   homeContactSubjectFive: Newsletter
   homeContactYourFirstName: first name
@@ -101,7 +150,7 @@ en:
     Your message?
   homeContactSend: send
 
-# Offer1: Managed Private PaaS
+# Offer1: Managed Private APPUiO
   offerOneTitle: Managed Private APPUiO
   offerOneIntro: Do you want to use your own private APPUiO instance that runs on our infrastructure? We deploy and operate the solution tailored to your needs.
 
@@ -169,6 +218,150 @@ en:
   offerTwoTitle: Public Platform
   offerTwoIntro: Do you want to deploy your application on a Swiss cloud or are you in need of flexible, standardized development environments ? Use our APPUiO Public Platform.
 
+# Offer Two: Advantages
+  offerTwoAdvantagesTitle: Advantages
+  offerTwoAdvantagesOneTitle: Swissness
+  offerTwoAdvantagesOneDesc: APPUiO is operated in Swiss data centres certified to ISO27001 and in accordance with swiss banking regulators (FINMA) guidelines and is subject to Swiss law.
+  offerTwoAdvantagesTwoTitle: Security
+  offerTwoAdvantagesTwoDesc: When using the APPUiO Public Platform you’re benefiting from SELinux, Federation Authentication and Let’s Encrypt. The newest Security Updates are applied regularly.
+  offerTwoAdvantagesThreeTitle: Support
+  offerTwoAdvantagesThreeDesc: You’re getting personal support, as well as frequent maintenance and updates of servers. Backup and monitoring are part of the deal. Furthermore, our community is at your disposal in the chat.
+  offerTwoAdvantagesFourTitle: Self-Service
+  offerTwoAdvantagesFourDesc: By using our Self-Service portal you’re creating, resizing, deleting and managing your environments at the push of a button. You’re having full control over your platform.
+  offerTwoAdvantagesFiveTitle: Pay per Use
+  offerTwoAdvantagesFiveDesc: Costs for the APPUiO Public Platform are calculated per hour. You only pay what you were actually using. There are no setup-costs.
+  offerTwoAdvantagesSixTitle: Hybrid Cloud
+  offerTwoAdvantagesSixDesc: |- 
+    There are two availability-zones on the APPUiO Public Platform: One in Switzerland and another one on AWS in Germany, including use of their services.
+
+# Offer Two: Im Angebot enthalten
+  offerTwoPackageContentsTitle: Services Included
+  offerTwoPackageContentsFirstTitle: Backup and Monitoring
+  offerTwoPackageContentsFirstItemOne: We’re backing all relevant data up once a day. Additional, available resources are visible in the portal. On https://status.appuio.ch you can have a look at the current state of the Public Platform at all times.
+  offerTwoPackageContentsSecondTitle: TCP Traffic (Beta)
+  offerTwoPackageContentsSecondItemOne: With APPUiO, it’s possible to route Non-HTTP-Traffic into Public Clusters. This allows for customer IPs to be bound to services and provide for example databases, LDAP servers or SSH services publicly.
+  offerTwoPackageContentsThirdTitle: Let’s Encrypt Certificates
+  offerTwoPackageContentsThirdItemOne: APPUiO enables you to configure valid SSL-certificates signed by “Let’s Encrypt" into your routes at the push of a button. Once successfully registered, APPUiO automatically takes care of updating the certificates (that have a validity period of three months) when necessary.
+  offerTwoPackageContentsFourthTitle: Secure Docker Builds
+  offerTwoPackageContentsFourthItemOne: Our platform allows for the running of Docker Image Native as Docker Build. To achieve this, we extracted the build-environment.Builds are running in dynamically created, strictly separated VMs per client apart from the cluster. Additionally to our secure builds, our extension enables Docker Multi-Stage Builds. These help to optimise Dockerfiles and make them both simpler and easier to read.
+  offerTwoPackageContentsFifthTitle: Managed Services
+  offerTwoPackageContentsFifthItemOne: |-
+    There is a first platform software, which were offering on our Public Platform as a service. We’re building the software according to your wishes and are operating it a a managed service: <br>
+    - 3 Scale API Management (Beta): API Management solution by Red Hat. <br>
+    - database as a service: manually: Postgresql, Mariadb, Mysql <br>
+    - WaF as a Service basierend auf Apache mod_sec (Beta)<br>
+  offerTwoPackageContentsSixthTitle: Blockstorage (Beta)
+  offerTwoPackageContentsSixthItemOne: Blockstorage can be integrated into the container as mounted persistent volumes. Blockstorage is of type ReadWriteOnce (RWO) and is particularly suitable for database volumes.
+
+# Offer Two: Produkte
+  offerTwoProductsOneTitel: Shared
+  offerTwoProductsOneDesc: Order your Public Platform in our Self-service portal on shared infrastructure. You’re receiving an OpenShift project with memory at discretion.
+  offerTwoProductsTwoTitel: Dedicated
+  offerTwoProductsTwoDesc: Do you want to manage your projects autonomously? Then chose our APPUiO Dedicated product. You can create as many projects as you’d like, starting at 16GB Memory.
+  offerTwoProductsSharedOrder: Order Shared
+  offerTwoProductsDedOrder:  Order Dedicated
+
+# Offer Two: services
+  offerTwoServicesTitle: Shared vs. Dedicated Platform
+  offerTwoServicesDescription: Our APPUiO Public Platform exists on shared infrastructure or as a dedicated node for you alone. Choose between the two offers depending on your needs.
+
+# Offer Two: Schieber
+  offerDynamicAddonsPretext: "APPUiO Public Platform Calculator"
+  offerTwoPackageTitle: "Die passende Grösse für deine Public Platform"
+  offerDynamicAddonsTitle: "Choose size"
+  offerTwoDynamicButton: "Order"
+  offerTwoLabelMemory: "Memory"
+  offerTwoLabelCpu: "CPU"
+  offerTwoLabelPreis: "Price"
+  offerTwoLabelPreisPerDay: "per day"
+  offerTwoLabelPreisPerMonth: "per month"
+  offerPackageDedicatedInfo: "(At best a Dedicated Node makes sense for you)"
+
+  offerTwoPossibilitiesSmall: |-
+    <li class="offers-package-item">Einfache Website mit geringen Zugriffen</li>
+    <li class="offers-package-item">Minimale CakePHP-Applikation mit kleiner Datenbank</li>
+    <li class="offers-package-item">Micro Service, GO Node.JS, Springboot, Ruby, PHP, .Net, Python</li>
+  offerTwoPossibilitiesMedium: |-
+    <li class="offers-package-item">Komplexere Website bspw. mit PHP und einer Datenbank</li>
+    <li class="offers-package-item">CakePHP-Applikation mit mittlerer Datenbank</li>
+    <li class="offers-package-item">zwei Instanzen hochverfügbar eines Micro Services</li>
+    <li class="offers-package-item">Keycloak mit Datenbank</li>
+  offerTwoPossibilitiesLarge: |-
+    <li class="offers-package-item">Komplexe Applikation mit mehreren Serivces</li>
+    <li class="offers-package-item">Jenkins Build Server</li>
+    <li class="offers-package-item">mehrere Instanzen hochverfügbar eines Micro Services, bspw. vier
+    Instanzen zur gleichen Zeit</li>
+    <li class="offers-package-item">Komplexe Java Applikation</li>
+    <li class="offers-package-item">Java EE Applikation JBoss EAP deployed mit Datenbank</li>
+  offerTwoPossibilitiesXLarge: |-
+    <li class="offers-package-item">Komplexe Applikationen mit grösserer Last und Datenbanken</li>
+    <li class="offers-package-item">Hochverfügbare Datenbanken</li>
+    <li class="offers-package-item">Micro Service Architektur etliche Services</li>
+    <li class="offers-package-item">Jenkins Build Infrastruktur mit diversen Buildnodes</li>
+  offerTwoCPUDescription: |-
+    Die CPU Resourcen werden als KCU (Kubernetes Compute Units) normalisiert, so entsprechen CPU 1000m ungefähr einem single hyperthreaded CPU Kern. <br>
+
+
+# Offer Two: Add-Ons
+
+  offerTwoAddonsTitle: Additional Services
+  offerTwoAddon1Title: SLA Office Hours
+  offerTwoAddon1Description: Support times&#58; 09&#58;00-12&#58;00 and 13&#58;00-18&#58;00 Uhr (5x8), Reaction time&#58; 2h, Availability&#58; 99%
+  offerTwoAddon1Price: included
+  offerTwoAddon2Title: SLA Office Hours Plus
+  offerTwoAddon2Description: Support times&#58; 08&#58;00-20&#58;00 Uhr (5x12), Reaction time&#58; 2h, Availability&#58; 99,3%
+  offerTwoAddon2Price: according to the arrangement
+  offerTwoAddon3Title: SLA 7x24
+  offerTwoAddon3Description: Support times&#58; 7x24, Reaction time&#58; 1h, Availability&#58; 99,5%
+  offerTwoAddon3Price: according to the arrangement
+  offerTwoAddon4Title: Persitant Storage
+  offerTwoAddon4Description: per GB/h
+  offerTwoAddon4Price: 0.55 CHF   
+  
+  offerTwoStorageDescription: Persistent Storage steht dir direkt in der Web Console oder via CLI zur Verfügung und kann als sogenannte Persistent Volumes direkt an deinen Container angebunden werden. Die Abrechnung erfolgt nach Verbrauch.
+
+  offerTwoBilling: Abrechnungsperiode ist einmal pro Monat<br>Es gelten die APPUiO Servicebestimmungen
+
+
+
+  # Offer Two: FAQ
+  offerTwoFaqTitle: Frequently Asked Questions
+#Categorie: Accounting
+  offerTwoFaqVerOneTitle: How do I migrate from earlier “T-Shirt-Sizes” for the Public Platform to flexible Pricing?
+  offerTwoFaqVerOneText: This can be changed directly inside the Self-Service Portal.
+  offerTwoFaqVerTwoTitle: How often do you charge / When will I get bills?
+  offerTwoFaqVerTwoText: We bill the past month at the beginning of each month.
+  offerTwoFaqVerTreeTitle: How does billing work in detail?
+  offerTwoFaqVerTreeText: The maximum amount of memory in MB within the last hour is multiplied by the price per hour. All hours in a month are then added up to receive the final price per month.
+  offerTwoFaqVerFourTitle: In what units do you charge?
+  offerTwoFaqVerFourText: Bills are calculated in Megabytes.
+  offerTwoFaqVerFiveTitle: Where can I review running costs?
+  offerTwoFaqVerFiveText: Current operating costs are visible in the Service Portal.
+  offerTwoFaqVerSixTitle: Do I need to pay for the Red Hat Subscription as well?
+  offerTwoFaqVerSixText: No, the Red Hat subscriptions are included in our price.
+#Categorie: General
+  offerTwoFaqAllOneTitle: Where is APPUiO Public hosted?
+  offerTwoFaqAllOneText: There are two APPUiO Public Platform locations. Data is stored either with cloudscale.ch or at AWS Frankfurt according to customer’s preferences.
+  offerTwoFaqAllTwoTitle: How do I get an APPUiO Account?
+  offerTwoFaqAllTwoText: To obtain an APPUiO-Account fill out the contact form. Once verified you will receive a login from us.
+  offerTwoFaqAllTreeTitle: What is monitored?
+  offerTwoFaqAllTreeText: The cluster as a whole as well as each indiviual component is constantly monitored. Monitoring of your own application can be ordered additionaly.
+  offerTwoFaqAllFourTitle: What is backupped?
+  offerTwoFaqAllFourText: The whole cluster, all objects and data on the Persistent Storage is backupped. There are no application-consistent backups and restores by our support will incur cost expenditures.
+#Categorie: SLA
+  offerTwoFaqAddOneTitle: What are the support hours of operation?
+  offerTwoFaqAddOneText: During these time frames, support is provided by phone and/or e-mail. Customers receive the direct support phone number of VSHN. The team member responsible for support cases will acknowledge reception of the support case to a e-mail address to be defined by the customer.
+  offerTwoFaqAddTwoTitle: |- 
+    SLA: What's the response time?
+ 
+  offerTwoFaqAddTwoText: |-
+    The response time starts the moment we are informed about the support case and relates to the period until support will be provided. The response time defines the time frame between reception of the support case and start of analysis work on the problem.
+    Example&#58; 
+    The customer informs us about problem at 16:00. With SLA model "A", work on that support case will start at the latest at 17:00 the next day.
+  
+  offerTwoFaqAddTreeTitle: What is "guaranteed availability"?
+  offerTwoFaqAddTreeText: Not during announced maintenance work, excluding customer errors, reachable according to monitoring, similarly to VSHN's terms and conditions.
+
   offerTwoServiceTitle: Select the right offer and get going
   offerTwoServices1: Bundles tailored to your needs
   offerTwoServices2: "By Developers for Developers: Forum, documentation and community"
@@ -211,20 +404,6 @@ en:
 
   offerTwoCPUDescription: CPU resources are normalized as KCU (Kubernetes Compute Units), and CPU 1000m approximately represent one single hyperthreaded CPU Core.
 
-  offerTwoPackageContentsTitle: What is included in the offer?
-  offerTwoPackageContentsFirstTitle: Multinode Platform
-  offerTwoPackageContentsFirstItemOne: Ressources are made available on a multinode platform
-  offerTwoPackageContentsFirstItemTwo: All components are highly available by default.
-  offerTwoPackageContentsSecondTitle: Automation
-  offerTwoPackageContentsSecondItemOne: Integration via REST API, CLI Tool or via <a href="https://wiki.jenkins-ci.org/display/JENKINS/OpenShift+Pipeline+Plugin" alt="Jenkins Plugin">Jenkins Plugin</a> easily automated and integrated.
-  offerTwoPackageContentsSecondItemTwo: Rolling Updates allow for uninterrupted blue-green deployments
-  offerTwoPackageContentsThirdTitle: Multitenant &amp; secure
-  offerTwoPackageContentsThirdItemOne: Ongoing updates from supported Enterprise RHEL Basis Images
-  offerTwoPackageContentsThirdItemTwo: Secure Docker Registry and thus full control over Docker Images towards the outside
-  offerTwoPackageContentsFourthTitle: Flexibility
-  offerTwoPackageContentsFourthItemOne: Docker Open Source Ecosystem with additional runtime environments, frameworks and tools
-  offerTwoPackageContentsFourthItemTwo: Scalability as need across the whoel platform
-
   offerTwoDedicatedAddonsPretext: ""
   offerTwoDedicatedAddonsTitle: Dedicated APPUiO
   offerTwoDedicatedAddonsItem1: unlimited projects
@@ -234,7 +413,7 @@ en:
   offerTwoDedicatedDescription: "We are now offering dedicated, private nodes on our Public Platform. Only your containers will be organized and deployed in this space. This offer is ideal for customers that want to independently plan and manage their OpenShift projects."
 
 
-  
+
   offerTwoPackageAddonsTitle: Persistent Storage Add Ons
   offerTwoPackageAddonsPretext: By usage
   offerTwoPackageAddonsItem1: 10 GB CHF 6.00

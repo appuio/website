@@ -90,12 +90,8 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
     var vorname = $("[name='vorname']").val();
     var nachname = $("[name='nachname']").val();
     var email = $("[name='email']").val();
-    var interests = $.map($(':checkbox[name=interests\\[\\]]:checked'), function(n, i){
-      return n.value;
-    }).join(',');
-    var billing = $.map($(':radio[name=billing\\[\\]]:checked'), function(n, i){
-      return n.value;
-    }).join(',');
+    var interests = "Memory: " + $('[name="memory"]').val();
+    var priceSource = $('[appuio-price-source]:checked').val();
     var tags = $.map($(':checkbox[name=interests\\[\\]]:checked'), function(n, i){
       return 'q6_interessen[]='+n.value;
     }).join('&');
@@ -107,13 +103,22 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
     var ort = $("[name='ort']").val();
     var form = $('form').attr('name');
 
-    var message = messageform + "<br><br>\n\rfields:<br>\n\r";
+    var message = messageform + "<br><br>\n\r";
+    message += 'dedicated: ' + $('[name="dedicated"]:checked').val() + "<br><br>\n\r";
+    message += 'zone: ' + $('[appuio-price-source]:checked').val() + "<br><br>\n\r";
+    message += "<br><br>\n\rDebugfields:<br>\n\r"
     // add all fields also to the message
     $(":input").each(function(){
       var name = $(this).attr('name')
       var value = $(this).val();
+
+      if (name === 'dedicated') {
+        return;
+      }
+
       message += name + ": " + value + "<br>\n\r";
     });
+    
 
     $('[type="submit"]', this).val(
       $(this).data('loadingMessage')
@@ -126,8 +131,9 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
       nachname: nachname,
       email: email,
       interests: interests,
-      billing: billing,
+      priceSource: priceSource,
       message: messageform,
+      dedicated: $('[name="dedicated"]:checked').val(),
       messageback: message,
       firma: firma,
       telefon: telefon,

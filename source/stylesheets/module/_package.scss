@@ -11,8 +11,6 @@
   align-content: space-between;
   width: 100%;
   margin: rem-calc(32 0);
-  //background-color:#0097a8;
-  //border: 3px solid white;
 }
 
 a.offers-package {
@@ -31,12 +29,13 @@ a.offers-package {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  position: relative;
 
   text-align: center;
   padding: rem-calc(16);
   background-color: $color-blue;
   color: white;
-  margin: rem-calc(16);
+  margin: rem-calc(16) 0;
 
   &.is-third {
     @include susy-breakpoint($break-medium) {
@@ -44,6 +43,11 @@ a.offers-package {
     }
   }
   &.is-fourth {
+    &:not(:last-child) {
+      @include susy-breakpoint($break-medium) {
+        margin-right: 2rem;
+      }
+    }
     @include susy-breakpoint($break-small) {
       width: 100%;
     }
@@ -80,7 +84,6 @@ a.offers-package {
     flex-basis: 100%;
     text-align: left;
     padding: rem-calc(16);
-    margin: rem-calc(16);
 
     & > ul {
       display: flex;
@@ -90,7 +93,6 @@ a.offers-package {
     & > ul > li {
       flex: 1 100%;
       text-align: left;
-      //flex-basis: initial;
       @include susy-breakpoint($break-medium) {
         flex: 3 25%;
       }
@@ -98,6 +100,15 @@ a.offers-package {
     & h3 {
       margin: rem-calc(18 0);
       width: 100%;
+    }
+  }
+}
+
+.offers-package-container--offers2 {
+  .offers-package {
+    flex-flow: column;
+    .offers-package-ribbon {
+      flex: 0 0 auto;
     }
   }
 }
@@ -154,10 +165,19 @@ a.offers-package {
     background-color: white;
     color: black;
 
+    .offers-package-list {
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+
     li.offers-package-item {
       border-bottom: none;
+      &.offer-package-power {
+        margin: 1.125rem 0;
+      }
       @include susy-breakpoint($break-medium) {
-        width: 25rem;
+        width: 31%;
+        flex: unset !important;
       }
       li {
         border-bottom: 1px solid #E5EAED;
@@ -167,5 +187,12 @@ a.offers-package {
         padding: 2rem 0rem;
       }
     }
+  }
+}
+
+.appuio-price-source-selection {
+  padding-bottom: 4rem;
+  label {
+    padding-right: 1rem;
   }
 }
