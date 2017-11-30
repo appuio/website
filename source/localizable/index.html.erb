@@ -9,22 +9,84 @@ title: APPUiO - Swiss Container Platform
 </header>
 
 <main class="main-container" role="main">
-  <section class="home-hero">
+  <section id="overview" class="home-hero">
     <div class="home-news news-banner">
       <div class="grid-container">
         <p><strong><%= t(:homeNewsTitle) %></strong> &nbsp; <%= t(:homeNewsText) %></p>
       </div>
     </div>
     <div class="home-hero-illus">
+      <!-- <div class="home-hero-title-wrapper"><h1 class="home-hero-title"><%= t(:homeHeroTitle) %></h1></div> -->
       <%= image_tag "appuio_logo.svg", :alt => t(:homeHeroAlt), :class => 'home-hero-logo' %>
     </div>
-    <div id="overview" class="grid-container">
+    <div class="grid-container">
       <h1 class="home-hero-title"><%= t(:homeHeroTitle) %></h1>
       <p class="home-hero-cta"><a href="./public.html" class="button is-round is-big"><%= t(:homeHeroSignup) %></a></p>
       <p class="home-hero-desc"><%= t(:homeHeroDesc) %></p>
-      <a href="https://www.openshift.com/" target="_blank" class="home-hero-tech badge">
-        <%= image_tag "openshift_logo.svg", :alt => 'Openshift', :class => 'home-hero-logo' %>
-      </a>
+    </div>
+  </section>
+
+  <section id="home-advantages" class="advantages">
+    <div class="grid-container">
+      <h2 class="advantages-title"><%= t(:homeAdvantagesTitle) %></h2>
+      <ul class="advantages-list callout-list">
+        <li class="callout-item callout-item-block advantage1-image">
+          <img src="/images/advantage1.svg" alt="advantage1-image" />
+          <h3 class="callout-title"><%= t(:homeAdvantagesOneTitle) %></h3>
+          <p class="callout-desc"><%= t(:homeAdvantagesOneDesc) %></p>
+        </li>
+        <li class="callout-item callout-item-block advantage2-image">
+          <img src="/images/advantage2.svg" alt="advantage2-image" />
+          <h3 class="callout-title"><%= t(:homeAdvantagesTwoTitle) %></h3>
+          <p class="callout-desc"><%= t(:homeAdvantagesTwoDesc) %></p>
+        </li>
+        <li class="callout-item callout-item-block advantage3-image">
+          <img src="/images/advantage3.svg" alt="advantage3-image" />
+          <h3 class="callout-title"><%= t(:homeAdvantagesThreeTitle) %></h3>
+          <p class="callout-desc"><%= t(:homeAdvantagesThreeDesc) %></p>
+        </li>
+      </ul>
+      <ul class="advantages-list callout-list">
+        <li class="callout-item callout-item-block advantage4-image">
+          <img src="/images/advantage4.svg" alt="advantage4-image" />
+          <h3 class="callout-title"><%= t(:homeAdvantagesFourTitle) %></h3>
+          <p class="callout-desc"><%= t(:homeAdvantagesFourDesc) %></p>
+        </li>
+        <li class="callout-item callout-item-block advantage5-image">
+          <img src="/images/advantage5.svg" alt="advantage5-image" />
+          <h3 class="callout-title"><%= t(:homeAdvantagesFiveTitle) %></h3>
+          <p class="callout-desc"><%= t(:homeAdvantagesFiveDesc) %></p>
+        </li>
+        <li class="callout-item callout-item-block advantage6-image">
+          <img src="/images/advantage6.svg" alt="advantage6-image" />
+          <h3 class="callout-title"><%= t(:homeAdvantagesSixTitle) %></h3>
+          <p class="callout-desc"><%= t(:homeAdvantagesSixDesc) %></p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="features" class="home-features">
+    <div class="grid-container">
+      <h2 class="home-features-title"><%= t(:homeFeatureTitle) %></h2>
+      <p class="home-features-desc"><%= t(:homeFeatureDesc) %></p>
+      <div class="feature-container">
+        <article class="feature-item">
+            <%= image_tag "feature_beratung.svg", :alt => t(:homeFeatureConsultingAlt), :class => 'feature-img' %>
+            <h3 class="feature-title"><%= t(:homeFeatureConsultingTitle) %></h3>
+            <p class="feature-desc"><%= t(:homeFeatureConsultingDesc) %></p>
+        </article>
+        <article class="feature-item">
+          <%= image_tag "feature_community.svg", :alt =>  t(:homeFeatureCommunityAlt), :class => 'feature-img' %>
+          <h3 class="feature-title"><%= t(:homeFeatureCommunityTitle) %></h3>
+            <p class="feature-desc"><%= t(:homeFeatureCommunityDesc) %></p>
+        </article>
+        <article class="feature-item">
+          <%= image_tag "feature_addons.svg", :alt => t(:homeFeatureAddonsAlt), :class => 'feature-img' %>
+          <h3 class="feature-title"><%= t(:homeFeatureAddonsTitle) %></h3>
+          <p class="feature-desc"><%= t(:homeFeatureAddonsDesc) %></p>
+        </article>
+      </div>
     </div>
   </section>
 
@@ -55,122 +117,140 @@ title: APPUiO - Swiss Container Platform
     </div>
   </section>
 
-  <section id="features" class="home-features">
+  <section id="clients" class="home-clients">
     <div class="grid-container">
-      <h2 class="home-features-title"><%= t(:homeFeatureTitle) %></h2>
-      <p class="home-features-desc"><%= t(:homeFeatureDesc) %></p>
-      <div class="feature-container">
-          <article class="feature-item">
-              <%= image_tag "feature_process.svg", :alt => t(:homeFeatureCycleAlt), :class => 'feature-img' %>
-              <h3 class="feature-title"><%= t(:homeFeatureCycleTitle) %></h3>
-              <p class="feature-desc"><%= t(:homeFeatureCycleDesc) %></p>
-          </article>
-        <article class="feature-item is-small">
-          <a href="https://www.docker.com/" target="_blank" class="feature-image badge is-docker"><%= image_tag "docker_logo.svg", :alt => 'Docker' %></a>
-          <h3 class="feature-title"><%= t(:homeFeatureDockerTitle) %></h3>
-          <p class="feature-desc"><%= t(:homeFeatureDockerDesc) %></p>
-        </article>
-        <article class="feature-item is-small">
-          <a href="http://kubernetes.io/" class="feature-image badge is-kuber"><%= image_tag "kubernetes_logo.svg", :alt => 'Kubernetes' %></a>
-          <h3 class="feature-title"><%= t(:homeFeatureKubernetesTitle) %></h3>
-          <p class="feature-desc"><%= t(:homeFeatureKubernetesDesc) %></p>
-        </article>
-        <article class="feature-item">
-          <%= image_tag "feature_ondemand.svg", :alt =>  t(:homeFeatureOnDemandAlt), :class => 'feature-img' %>
-          <h3 class="feature-title"><%= t(:homeFeatureOnDemandTitle) %></h3>
-            <p class="feature-desc"><%= t(:homeFeatureOnDemandDesc) %></p>
-        </article>
-        <div class="technology-container">
-            <div class="technology-group has-three-col">
-              <h3 class="technology-title"><%= t(:homeFeatureLanguagesTitle) %></h3>
-              <article class="technology-item is-turkislight">
-                  <p class="technology-desc">Java</p>
-              </article>
-              <article class="technology-item is-turkislight">
-                  <p class="technology-desc">Spring</p>
-              </article>
-              <article class="technology-item is-turkislight">
-                  <p class="technology-desc">Wildfly</p>
-              </article>
-              <article class="technology-item is-turkis">
-                  <p class="technology-desc">Ruby<br>2.0</p>
-              </article>
-              <article class="technology-item is-turkis">
-                  <p class="technology-desc">Ruby<br>2.2</p>
-              </article>
-              <article class="technology-item is-turkis">
-                  <p class="technology-desc">Ruby on Rails<br>4</p>
-              </article>
-              <article class="technology-item is-yellow">
-                  <p class="technology-desc">PHP<br>5.5</p>
-              </article>
-              <article class="technology-item is-yellow">
-                  <p class="technology-desc">PHP<br>5.6</p>
-              </article>
-              <article class="technology-item">
-                  <p class="technology-desc">Perl</p>
-              </article>
-              <article class="technology-item">
-                  <p class="technology-desc">Python</p>
-              </article>
-              <article class="technology-item">
-                  <p class="technology-desc">Node.js</p>
-              </article>
-              <article class="technology-item is-orange">
-                  <p class="technology-desc">JBoss EAP</p>
-              </article>
-              <article class="technology-item is-orange">
-                  <p class="technology-desc">JBoss Fuse Integration Services</p>
-              </article>
-              <article class="technology-item is-orange">
-                  <p class="technology-desc">JBoss A-MQ</p>
-              </article>
-              <article class="technology-item is-orange">
-                  <p class="technology-desc">JBoss Data Grid</p>
-              </article>
-              <article class="technology-item">
-                  <p class="technology-desc">ASP.NET (Techpreview)</p>
-              </article>
-            </div>
-            <div class="technology-group has-two-col">
-              <h3 class="technology-title"><%= t(:homeFeatureDatabasesTitle) %></h3>
-              <article class="technology-item is-turkislight">
-                  <p class="technology-desc">PostgreSQL<br>9.2</p>
-              </article>
-              <article class="technology-item is-turkislight">
-                  <p class="technology-desc">PostgreSQL<br>9.4</p>
-              </article>
-              <article class="technology-item is-turkis">
-                  <p class="technology-desc">MySQL<br>5.5</p>
-              </article>
-              <article class="technology-item is-turkis">
-                  <p class="technology-desc">MySQL<br>5.6</p>
-              </article>
-              <article class="technology-item is-yellow">
-                  <p class="technology-desc">MongoDB<br>2.4</p>
-              </article>
-              <article class="technology-item is-yellow">
-                <p class="technology-desc">MongoDB<br>2.6</p>
-              </article>
-              <artticle class="technology-item is-empty"></artticle>
-              <artticle class="technology-item is-empty"></artticle>
-            </div>
+      <h2 class="home-clients-title"><%= t(:homeClientsTitle) %></h2>
+      <ul class="home-clients-list callout-list">
+        <li class="callout-item client1-image">
+          <img src="/images/MatthiasSummer.png" alt="client1-image" />
+          <h3 class="callout-title"><%= t(:homeClientsOneTitle) %></h3>
+          <p class="callout-desc"><%= t(:homeClientsOneDesc) %></p>
+        </li>
+        <li class="callout-item client2-image">
+          <img src="/images/amazeeio.png" alt="client2-image" />
+          <h3 class="callout-title"><%= t(:homeClientsTwoTitle) %></h3>
+          <p class="callout-desc"><%= t(:homeClientsTwoDesc) %></p>
+        </li>
+        <li class="callout-item client3-image">
+          <img src="/images/MichaelGerber.png" alt="client3-image" />
+          <h3 class="callout-title"><%= t(:homeClientsThreeTitle) %></h3>
+          <p class="callout-desc"><%= t(:homeClientsThreeDesc) %></p>
+        </li>
+      </ul>
+    </div>
+    <div class="clientlogo-container grid-container">
+        <div class="clientlogo-group">
+          <div class="clientlogo-item"><img src="/images/Customers/Abacus.svg" alt="clientlogo"/></div>
+          <div class="clientlogo-item"><img src="/images/Customers/Adcubum.svg" alt="clientlogo"/></div>
+          <div class="clientlogo-item"><img src="/images/Customers/amazeeio.png" alt="clientlogo"/></div>
+          <div class="clientlogo-item"><img src="/images/Customers/DiePost.svg" alt="clientlogo"/></div>
+          <div class="clientlogo-item"><img src="/images/Customers/HITOBITO.svg" alt="clientlogo"/></div>
+          <div class="clientlogo-item"><img src="/images/Customers/HRM.svg" alt="clientlogo"/></div>
+          <div class="clientlogo-item"><img src="/images/Customers/Mobiliar.svg" alt="clientlogo"/></div>
+          <div class="clientlogo-item"><img src="/images/Customers/PEAX.svg" alt="clientlogo"/></div>
+          <div class="clientlogo-item"><img src="/images/Customers/toccov2.svg" alt="clientlogo"/></div>
         </div>
-        <article class="feature-item">
-            <h3 class="feature-title"><%= t(:homeFeatureOpenSourceTitle) %></h3>
-            <p class="feature-desc"><%= t(:homeFeatureOpenSourceDesc) %></p>
-        </article>
-        <article class="feature-item">
-          <%= image_tag "feature_secure.svg", :alt => t(:homeFeatureSecureAlt), :class => 'feature-img' %>
-          <h3 class="feature-title"><%= t(:homeFeatureSecureTitle) %></h3>
-          <p class="feature-desc"><%= t(:homeFeatureSecureDesc) %></p>
-        </article>
-        <article class="feature-item">
-          <%= image_tag "feature_letsencrypt.svg", :alt => t(:homeFeatureEncryptAlt), :class => 'feature-img' %>
-          <h3 class="feature-title"><%= t(:homeFeatureEncryptTitle) %></h3>
-          <p class="feature-desc"><%= t(:homeFeatureEncryptDesc) %></p>
-        </article>
+    </div>
+  </section>
+
+  <section id="technologies" class="home-technologies">
+    <div class="grid-container">
+      <h2 class="home-technology-title"><%= t(:homeTechnologiesTitle) %></h2>
+      <article class="is-banner-before">
+        <p><%= t(:homeTechnologiesDescriptionOne) %></p>
+      </article>
+      <ul class="callout-list technology-base-list">
+        <li class="callout-item callout-item-block">
+          <div class="technology-base-image"><img src="/images/openshift_schild.svg" alt="technology1-image" /></div>
+          <h3 class="callout-title"><%= t(:homeTechnologiesOneTitle) %></h3>
+          <p class="callout-desc"><%= t(:homeTechnologiesOneDesc) %></p>
+        </li>
+        <li class="callout-item callout-item-block">
+          <div class="technology-base-image"><img src="/images/docker_logo.svg" alt="technology2-image" /></div>
+          <h3 class="callout-title"><%= t(:homeTechnologiesTwoTitle) %></h3>
+          <p class="callout-desc"><%= t(:homeTechnologiesTwoDesc) %></p>
+        </li>
+        <li class="callout-item callout-item-block">
+          <div class="technology-base-image"><img src="images/kubernetes_logo.svg" alt="technology3-image" /></div>
+          <h3 class="callout-title"><%= t(:homeTechnologiesThreeTitle) %></h3>
+          <p class="callout-desc"><%= t(:homeTechnologiesThreeDesc) %></p>
+        </li>
+      </ul>
+      <div class="technology-container">
+          <div class="technology-group">
+            <article class="technology-item">
+                <span class="font-icon icon-java"></span>
+                <p class="technology-desc">Java</p>
+            </article>
+            <article class="technology-item">
+                  <span class="font-icon icon-java"></span>
+                <p class="technology-desc">Spring</p>
+            </article>
+            <article class="technology-item">
+                <span class="font-icon icon-wildfly"></span>
+                <p class="technology-desc">Wildfly</p>
+            </article>
+            <article class="technology-item">
+              <span class="font-icon icon-ruby"></span>
+                <p class="technology-desc">Ruby</p>
+            </article>
+            <article class="technology-item">
+              <span class="font-icon icon-rails"></span>
+                <p class="technology-desc">Ruby on Rails</p>
+            </article>
+            <article class="technology-item">
+              <span class="font-icon icon-php"></span>
+                <p class="technology-desc">PHP</p>
+            </article>
+            <article class="technology-item">
+              <span class="font-icon icon-perl"></span>
+                <p class="technology-desc">Perl</p>
+            </article>
+            <article class="technology-item">
+              <span class="font-icon icon-python"></span>
+                <p class="technology-desc">Python</p>
+            </article>
+            <article class="technology-item">
+              <span class="font-icon icon-nodejs"></span>
+                <p class="technology-desc">Node.js</p>
+            </article>
+            <article class="technology-item">
+              <span class="font-icon icon-jboss"></span>
+                <p class="technology-desc">JBoss EAP</p>
+            </article>
+            <article class="technology-item">
+              <span class="font-icon icon-jboss"></span>
+                <p class="technology-desc">JBoss Fuse Integration Services</p>
+            </article>
+            <article class="technology-item">
+              <span class="font-icon icon-jboss"></span>
+                <p class="technology-desc">JBoss A-MQ</p>
+            </article>
+            <article class="technology-item">
+              <span class="font-icon icon-jboss"></span>
+                <p class="technology-desc">JBoss Data Grid</p>
+            </article>
+            <article class="technology-item">
+              <span class="font-icon icon-dotnet"></span>
+                <p class="technology-desc">ASP.NET (Techpreview)</p>
+            </article>
+            <article class="technology-item">
+              <span class="font-icon icon-postgresql"></span>
+                <p class="technology-desc">PostgreSQL</p>
+            </article>
+            <article class="technology-item">
+              <span class="font-icon icon-mysql-database"></span>
+                <p class="technology-desc">MySQL</p>
+            </article>
+            <article class="technology-item">
+              <span class="font-icon icon-mongodb"></span>
+                <p class="technology-desc">MongoDB</p>
+            </article>
+          </div>
       </div>
+      <!-- <article class="is-banner-before">
+        <p><%= t(:homeTechnologiesDescriptionTwo) %></p>
+      </article> -->
     </div>
   </section>
   

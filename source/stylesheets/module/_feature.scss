@@ -7,21 +7,16 @@
   flex: 1 100%;
   text-align: center;
   width: 100%;
-  margin: rem-calc(20 0);
-  @include susy-breakpoint($break-medium) {
-    margin: rem-calc(60 0);
-  }
+  margin: 0;
+
 }
 .feature-item.is-small {
   @include susy-breakpoint($break-medium) {
     flex: 1 50%;
   }
 }
-.feature-image {
-  margin: 0 auto rem-calc(20);
-  @include susy-breakpoint($break-medium) {
-    margin: 0 auto rem-calc(60);
-  }
+.feature-img {
+  margin-top: 60px;
 }
 .feature-desc {
   @include susy-breakpoint($break-medium) {

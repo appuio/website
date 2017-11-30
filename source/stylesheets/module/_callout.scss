@@ -17,6 +17,10 @@
   min-height: rem-calc(320);
   overflow: hidden;
   text-align: center;
+
+  &.callout-item-block {
+      display: block;
+  }
   &:first-child {
     margin-top: 0;
   }
@@ -83,6 +87,7 @@
 .callout-desc {
   display: inline-block;
   overflow: hidden;
+  text-align: center;
 }
 .callout-image {
   text-align: center;

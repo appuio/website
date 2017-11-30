@@ -3,186 +3,335 @@
     <div class="offers-image"><%= image_tag "offer2_big.svg", :alt => t(:offerOneTitle) %></div>
     <h2 class="offers-title"><%= t(:offerTwoTitle) %></h2>
     <p class="offers-intro"><%= t(:offerTwoIntro) %></p>
-    <p class="offers-desc">
+    <!-- <p class="offers-desc">
       <%= t(:offerTwoIso) %>
-    </p>
+    </p> -->
   </div>
 </section>
 
-<section class="offer-two-services">
+<section id="offer-two-advantages" class="advantages offer-two-advantages">
   <div class="grid-container">
-    <h3><%= t(:offerTwoServiceTitle) %></h3>
-    <div class="offer-container">
-      <article class="offer-item is-third">
-        <span class="offer-item-image"><%= image_tag "bundles.svg", :alt => t(:offerTwoServices1) %></span>
-        <p class="offer-item-desc"><%= t(:offerTwoServices1) %></p>
-      </article>
-      <article class="offer-item is-third">
-        <span class="offer-item-image"><%= image_tag "community.svg", :alt => t(:offerTwoServices2) %></span>
-        <p class="offer-item-desc"><%= t(:offerTwoServices2) %></p>
-      </article>
-      <article class="offer-item is-third">
-        <span class="offer-item-image"><%= image_tag "backup.svg", :alt => t(:offerTwoServices3) %></span>
-        <p class="offer-item-desc"><%= t(:offerTwoServices3) %></p>
-      </article>
-    </div>
-    <p class="offers-desc">
-      <%= t(:offerTwoServicesDesc) %>
-    </p>
-  </div>
-</section>
-
-<section class="offer-two-offers">
-  <div class="grid-container">
-    <h2 class="offers-package-title"><%= t(:offerTwoPackageTitle) %></h2>
-
-    <div class="offers-package-container">
-      <div class="offers-package is-fourth offer2-micro-icon">
-        <div class="offers-package-ribbon is-orange"><%= t(:offerTwoPackageMicroTitle) %></div>
-        <div class="offer-spacer is-fourth"></div>
-        <ul class="offers-package-list">
-          <li class="offers-package-item"><%= t(:offerTwoPackageMicroItem1) %></li>
-          <li class="offers-package-item"><%= t(:offerTwoPackageMicroItem2) %></li>
-          <li class="offers-package-item"><%= t(:offerTwoPackageMicroItem3) %></li>
-          <li class="offers-package-item"><%= t(:offerTwoPackageMicroItem4) %></li>
-        </ul>
-        <a href="#offers-two-contact" class="callout-button button is-round is-flex" data-check="interest-micro"><%= t(:offerTwoMicroButton) %></a>
-      </div>
-      <div class="offers-package is-fourth offer2-medium-icon">
-        <div class="offers-package-ribbon is-orange"><%= t(:offerTwoPackageMediumTitle) %></div>
-        <div class="offer-spacer is-fourth"></div>
-        <ul class="offers-package-list">
-          <li class="offers-package-item"><%= t(:offerTwoPackageMediumItem1) %></li>
-          <li class="offers-package-item"><%= t(:offerTwoPackageMediumItem2) %></li>
-          <li class="offers-package-item"><%= t(:offerTwoPackageMediumItem3) %></li>
-          <li class="offers-package-item"><%= t(:offerTwoPackageMediumItem4) %></li>
-        </ul>
-        <a href="#offers-two-contact" class="callout-button button is-round is-flex" data-check="interest-medium"><%= t(:offerTwoMediumButton) %></a>
-      </div>
-      <div class="offers-package is-fourth offer2-large-icon">
-        <div class="offers-package-ribbon is-orange"><%= t(:offerTwoPackageLargeTitle) %></div>
-        <div class="offer-spacer is-fourth"></div>
-        <ul class="offers-package-list">
-          <li class="offers-package-item"><%= t(:offerTwoPackageLargeItem1) %></li>
-          <li class="offers-package-item"><%= t(:offerTwoPackageLargeItem2) %></li>
-          <li class="offers-package-item"><%= t(:offerTwoPackageLargeItem3) %></li>
-          <li class="offers-package-item"><%= t(:offerTwoPackageLargeItem4) %></li>
-        </ul>
-        <a href="#offers-two-contact" class="callout-button button is-round is-flex" data-check="interest-large"><%= t(:offerTwoLargeButton) %></a>
-      </div>
-      <div class="offers-package is-fourth offer2-xlarge-icon">
-        <div class="offers-package-ribbon is-orange"><%= t(:offerTwoPackageXlargeTitle) %></div>
-        <div class="offer-spacer is-fourth"></div>
-        <ul class="offers-package-list">
-          <li class="offers-package-item"><%= t(:offerTwoPackageXlargeItem1) %></li>
-          <li class="offers-package-item"><%= t(:offerTwoPackageXlargeItem2) %></li>
-          <li class="offers-package-item"><%= t(:offerTwoPackageXlargeItem3) %></li>
-          <li class="offers-package-item"><%= t(:offerTwoPackageXlargeItem4) %></li>
-        </ul>
-        <a href="#offers-two-contact" class="callout-button button is-round is-flex" data-check="interest-xlarge"><%= t(:offerTwoXlargeButton) %></a>
-      </div>
-      <article class="offers-package is-banner-before">
-        <p><%= t(:offerTwoCPUDescription) %></p>
-      </article>
-
-      <article class="offers-package last-child">
-        <div class="offers-package-ribbon is-orange text-center"><%= t(:offerTwoDedicatedAddonsPretext) %></div>
-        <h3 class="offers-package-list-title m-t-2"><%= t(:offerTwoDedicatedAddonsTitle) %></h3>
-        <ul class="offers-package-list cols-5">
-          <li class="offers-package-item"><%= t(:offerTwoDedicatedAddonsItem1) %></li>
-          <li class="offers-package-item"><%= t(:offerTwoDedicatedAddonsItem2) %></li>
-          <li class="offers-package-item"><%= t(:offerTwoDedicatedAddonsItem3) %></li>
-          
-        </ul>
-        <p><%= t(:offerTwoDedicatedAddonsItem4) %></p>
-      </article>
-      <article class="offers-package is-banner-before">
-        <p><%= t(:offerTwoDedicatedDescription) %></p>
-      </article>
-
-      <article class="offers-package last-child">
-        <div class="offers-package-ribbon is-orange text-center"><%= t(:offerTwoPackageAddonsPretext) %></div>
-        <h3 class="offers-package-list-title m-t-2"><%= t(:offerTwoPackageAddonsTitle) %></h3>
-        <ul class="offers-package-list cols-5">
-          <li class="offers-package-item"><%= t(:offerTwoPackageAddonsItem1) %></li>
-          <li class="offers-package-item"><%= t(:offerTwoPackageAddonsItem2) %></li>
-          <li class="offers-package-item"><%= t(:offerTwoPackageAddonsItem3) %></li>
-        </ul>
-      </article>
-      <article class="offers-package is-banner-before">
-        <p><%= t(:offerTwoStorageDescription) %></p>
-      </article>
-    </div>
-
+    <ul class="advantages-list callout-list">
+      <li class="callout-item aoffer2_dvantage1-image">
+        <img src="/images/offer2_advantage1.svg" alt="offer2_advantage1-image" />
+        <h3 class="callout-title"><%= t(:offerTwoAdvantagesOneTitle) %></h3>
+        <p class="callout-desc"><%= t(:offerTwoAdvantagesOneDesc) %></p>
+      </li>
+      <li class="callout-item offer2_advantage2-image">
+        <img src="/images/offer2_advantage2.svg" alt="offer2_advantage2-image" />
+        <h3 class="callout-title"><%= t(:offerTwoAdvantagesTwoTitle) %></h3>
+        <p class="callout-desc"><%= t(:offerTwoAdvantagesTwoDesc) %></p>
+      </li>
+      <li class="callout-item offer2_advantage3-image">
+        <img src="/images/offer2_advantage3.svg" alt="offer2_advantage3-image" />
+        <h3 class="callout-title"><%= t(:offerTwoAdvantagesThreeTitle) %></h3>
+        <p class="callout-desc"><%= t(:offerTwoAdvantagesThreeDesc) %></p>
+      </li>
+    </ul>
+    <ul class="advantages-list callout-list">
+      <li class="callout-item offer2_advantage4-image">
+        <img src="/images/offer2_advantage4.svg" alt="offer2_advantage4-image" />
+        <h3 class="callout-title"><%= t(:offerTwoAdvantagesFourTitle) %></h3>
+        <p class="callout-desc"><%= t(:offerTwoAdvantagesFourDesc) %></p>
+      </li>
+      <li class="callout-item offer2_advantage5-image">
+        <img src="/images/offer2_advantage5.svg" alt="offer2_advantage5-image" />
+        <h3 class="callout-title"><%= t(:offerTwoAdvantagesFiveTitle) %></h3>
+        <p class="callout-desc"><%= t(:offerTwoAdvantagesFiveDesc) %></p>
+      </li>
+      <li class="callout-item offer2_advantage6-image">
+        <img src="/images/offer2_advantage6.svg" alt="offer2_advantage6-image" />
+        <h3 class="callout-title"><%= t(:offerTwoAdvantagesSixTitle) %></h3>
+        <p class="callout-desc"><%= t(:offerTwoAdvantagesSixDesc) %></p>
+      </li>
+    </ul>
   </div>
 </section>
 
 <section class="offer-two-contents">
   <div class="grid-container">
-    <h3 class="offers-package-title"><%= t(:offerTwoPackageContentsTitle) %></h3>
+    <h2 class="offers-package-title"><%= t(:offerTwoPackageContentsTitle) %></h2>
     <article class="offers-package package-contents">
       <ul class="offers-package-list cols-4">
         <li class="offers-package-item">
             <h4><%= t(:offerTwoPackageContentsFirstTitle) %></h4>
-          <ul class="offers-package-list"><li><%= t(:offerTwoPackageContentsFirstItemOne) %></li><li><%= t(:offerTwoPackageContentsFirstItemTwo) %></li>
-          </ul>
+          <%= t(:offerTwoPackageContentsFirstItemOne) %>
         </li>
         <li class="offers-package-item">
         <h4><%= t(:offerTwoPackageContentsSecondTitle) %></h4>
-          <ul class="offers-package-list"><li><%= t(:offerTwoPackageContentsSecondItemOne) %></li>
-            <li><%= t(:offerTwoPackageContentsSecondItemTwo) %></li>
-          </ul>
+          <%= t(:offerTwoPackageContentsSecondItemOne) %>
         </li>
         <li class="offers-package-item">
         <h4><%= t(:offerTwoPackageContentsThirdTitle) %></h4>
-          <ul class="offers-package-list"><li><%= t(:offerTwoPackageContentsThirdItemOne) %></li>
-            <li><%= t(:offerTwoPackageContentsThirdItemTwo) %></li>
-          </ul>
+          <%= t(:offerTwoPackageContentsThirdItemOne) %>
         </li>
         <li class="offers-package-item">
         <h4><%= t(:offerTwoPackageContentsFourthTitle) %></h4>
-          <ul class="offers-package-list"><li><%= t(:offerTwoPackageContentsFourthItemOne) %></li>
-            <li><%= t(:offerTwoPackageContentsFourthItemTwo) %></li>
-          </ul>
+          <%= t(:offerTwoPackageContentsFourthItemOne) %>
+        </li>
+        <li class="offers-package-item">
+        <h4><%= t(:offerTwoPackageContentsFifthTitle) %></h4>
+          <%= t(:offerTwoPackageContentsFifthItemOne) %>
+        </li>
+        <li class="offers-package-item">
+        <h4><%= t(:offerTwoPackageContentsSixthTitle) %></h4>
+          <%= t(:offerTwoPackageContentsSixthItemOne) %>
         </li>
       </ul>
     </article>
   </div>
 </section>
 
-<a name="offers-two-contact"></a>
-<section class="offer-contact">
+<section class="offer-two-services">
+  <div class="grid-container">
+      <h2 class="offers-package-title"><%= t(:offerTwoServicesTitle) %></h2>
+      <article class="offers-package is-banner-before">
+        <p><%= t(:offerTwoServicesDescription) %></p>
+      </article>
+    <ul class="home-offer-list callout-list">
+      <li class="callout-item">
+        <div class="offers-package-ribbon is-orange"></div>
+        <h3 class="callout-title"><%= t(:offerTwoProductsOneTitel) %></h3>
+        <p class="callout-desc"><%= t(:offerTwoProductsOneDesc) %></p>
+        <a href="#offer-shared" class="callout-button button is-round"><%= t(:offerTwoProductsSharedOrder) %></a>
+      </li>
+      <li class="callout-item">
+        <div class="offers-package-ribbon is-yellow"></div>
+        <h3 class="callout-title"><%= t(:offerTwoProductsTwoTitel) %></h3>
+        <p class="callout-desc"><%= t(:offerTwoProductsTwoDesc) %></p>
+        <a href="#offers-two-contact" onclick="void (document.getElementById('interest-dedicated').checked = true)" class="callout-button button is-round"><%= t(:offerTwoProductsDedOrder) %></a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section id="offer-shared" class="offer-two-offers">
+  <div class="grid-container">
+    <h2 class="offers-package-title"><%= t(:offerTwoPackageTitle) %></h2>
+    <article class="offers-package last-child">
+        <!-- <div class="offers-package-ribbon is-orange text-center"><%= t(:offerDynamicAddonsPretext) %></div> -->
+        <div class="appuio-price-source-selection">
+          <h3 hidden>Title for Price Source Selection</h3>
+          <div class="price-switch-container">
+            <div class="price-switch">
+              <input id="price-switch-appuio" type="radio" name="appuio-price-source" value="appuio" checked>
+              <input id="price-switch-aws" type="radio" name="appuio-price-source" value="aws">
+              <label for="price-switch-appuio">
+                Schweiz
+              </label>
+              <label for="price-switch-aws">
+                AWS Frankfurt
+              </label>
+              <span class="toggle"></span>
+            </div>
+          </div>
+        </div>
+        <!-- <h3 class="offers-package-list-title m-t-2"><%= t(:offerDynamicAddonsTitle) %></h3> -->
+        <input name="memory" data-appuio-range-slider class="range-slider__range" id="memoryslider" type="range" value="512" min="512" max="20480" step="512">
+        <ul class="offers-package-list cols-5">
+          <li class="offers-package-item offer-package-power"><%= t(:offerTwoLabelCpu) %>: <span class="cpuvalue"></span><br><%= t(:offerTwoLabelMemory) %>: <span class="memoryvalue"></span></li>
+          <li class="offers-package-item offers-package-price">
+            <h3 class="offers-package-list-title"><%= t(:offerTwoLabelPreis) %></h3>
+            <div class="offers-package-table-wrapper">
+              <table class="offers-price-table" summary="<%= t(:offerTwoLabelPreis) %>">
+                <tbody>
+                  <tr>
+                    <td class="text-right pricevalueperday"></td>
+                    <td><%= t(:offerTwoLabelPreisPerDay) %></td>
+                  </tr>
+                  <tr>
+                    <td class="text-right pricevaluepermonth"></td>
+                    <td><%= t(:offerTwoLabelPreisPerMonth) %></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </li>
+        </ul>
+        <div class="offers-package-button-wrapper">
+        <div  class="offers-package-button" ><a href="#offers-two-contact" class="button is-round" data-check="interest-custom"><%= t(:offerTwoDynamicButton) %></a></div>
+        <div>
+          <p class="offers-package-dedicated-info"><%= t(:offerPackageDedicatedInfo) %></p>
+        </div>
+      </div>
+      </article>
+      <div class="offers-package-container offers-package-container--offers2">
+       <div class="offers-package offers-package--small is-fourth">
+          <div class="offers-package-ribbon is-orange">Small</div>
+          <ul class="offers-package-list">
+            <%= t(:offerTwoPossibilitiesSmall) %>
+          </ul>
+        </div>
+        <div class="offers-package offers-package--medium is-fourth">
+          <div class="offers-package-ribbon is-orange">Medium</div>
+          <ul class="offers-package-list">
+            <%= t(:offerTwoPossibilitiesMedium) %>
+          </ul>
+        </div>
+        <div class="offers-package offers-package--large is-fourth">
+          <div class="offers-package-ribbon is-orange">Large</div>
+          <ul class="offers-package-list">
+            <%= t(:offerTwoPossibilitiesLarge) %>
+          </ul>
+        </div>
+        <div class="offers-package offers-package--x-large is-fourth">
+          <div class="offers-package-ribbon is-orange">X-Large</div>
+          <ul class="offers-package-list">
+            <%= t(:offerTwoPossibilitiesXLarge) %>
+          </ul>
+        </div>
+      </div>
+      <article class="offers-package is-banner-before">
+        <p><%= t(:offerTwoCPUDescription) %></p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="offers-two-addons" class="offer-addons">
+    <div class="grid-container">
+      <h2 class="offers-addons-title"><%= t(:offerTwoAddonsTitle) %></h2>
+      <article class="offers-package last-child">
+        <ul class="offers-package-list cols-5">
+          <li class="offers-package-item offers-addons-package-title"><%= t(:offerTwoAddon1Title) %></li>
+          <li class="offers-package-item"><%= t(:offerTwoAddon1Description) %></li>
+          <li class="offers-package-item"><%= t(:offerTwoAddon1Price) %></li>
+        </ul>
+        <ul class="offers-package-list cols-5">
+          <li class="offers-package-item offers-addons-package-title"><%= t(:offerTwoAddon2Title) %></li>
+          <li class="offers-package-item"><%= t(:offerTwoAddon2Description) %></li>
+          <li class="offers-package-item"><%= t(:offerTwoAddon2Price) %></li>
+        </ul>
+        <ul class="offers-package-list cols-5">
+          <li class="offers-package-item offers-addons-package-title"><%= t(:offerTwoAddon3Title) %></li>
+          <li class="offers-package-item"><%= t(:offerTwoAddon3Description) %></li>
+          <li class="offers-package-item"><%= t(:offerTwoAddon3Price) %></li>
+        </ul>
+        <ul class="offers-package-list cols-5">
+          <li class="offers-package-item offers-addons-package-title"><%= t(:offerTwoAddon4Title) %></li>
+          <li class="offers-package-item"><%= t(:offerTwoAddon4Description) %></li>
+          <li class="offers-package-item"><%= t(:offerTwoAddon4Price) %></li>
+        </ul>
+      </article>
+      <!-- <article class="offers-package is-banner-before">
+        <p><%= t(:offerTwoStorageDescription) %></p>
+      </article> -->
+  </div>
+</section>
+
+<section id="offers-two-faq" class="offer-faq">
+    <div class="grid-container">
+      <h2 class="offers-faq-title"><%= t(:offerTwoFaqTitle) %></h2>
+      <div class="offers-faq-container">
+        <article class="offers-faq-item">
+          <h4 class="offers-faq-list-title"><%= t(:offerTwoFaqVerOneTitle) %></h4>
+          <p class="offers-faq-list-answer"><%= t(:offerTwoFaqVerOneText) %></p>
+        </article>
+        <article class="offers-faq-item">
+          <h4 class="offers-faq-list-title"><%= t(:offerTwoFaqVerTwoTitle) %></h4>
+          <p class="offers-faq-list-answer"><%= t(:offerTwoFaqVerTwoText) %></p>
+        </article>
+        <article class="offers-faq-item">
+          <h4 class="offers-faq-list-title"><%= t(:offerTwoFaqVerTreeTitle) %></h4>
+          <p class="offers-faq-list-answer"><%= t(:offerTwoFaqVerTreeText) %></p>
+        </article>
+        <article class="offers-faq-item">
+          <h4 class="offers-faq-list-title"><%= t(:offerTwoFaqVerFourTitle) %></h4>
+          <p class="offers-faq-list-answer"><%= t(:offerTwoFaqVerFourText) %></p>
+        </article>
+        <article class="offers-faq-item">
+          <h4 class="offers-faq-list-title"><%= t(:offerTwoFaqVerFiveTitle) %></h4>
+          <p class="offers-faq-list-answer"><%= t(:offerTwoFaqVerFiveText) %></p>
+        </article>
+        <article class="offers-faq-item">
+          <h4 class="offers-faq-list-title"><%= t(:offerTwoFaqVerSixTitle) %></h4>
+          <p class="offers-faq-list-answer"><%= t(:offerTwoFaqVerSixText) %></p>
+        </article>
+        <article class="offers-faq-item">
+          <h4 class="offers-faq-list-title"><%= t(:offerTwoFaqAllOneTitle) %></h4>
+          <p class="offers-faq-list-answer"><%= t(:offerTwoFaqAllOneText) %></p>
+        </article>
+        <article class="offers-faq-item">
+          <h4 class="offers-faq-list-title"><%= t(:offerTwoFaqAllTwoTitle) %></h4>
+          <p class="offers-faq-list-answer"><%= t(:offerTwoFaqAllTwoText) %></p>
+        </article>
+        <article class="offers-faq-item">
+          <h4 class="offers-faq-list-title"><%= t(:offerTwoFaqAllTreeTitle) %></h4>
+          <p class="offers-faq-list-answer"><%= t(:offerTwoFaqAllTreeText) %></p>
+        </article>
+        <article class="offers-faq-item">
+          <h4 class="offers-faq-list-title"><%= t(:offerTwoFaqAllFourTitle) %></h4>
+          <p class="offers-faq-list-answer"><%= t(:offerTwoFaqAllFourText) %></p>
+        </article>
+        <article class="offers-faq-item">
+          <h4 class="offers-faq-list-title"><%= t(:offerTwoFaqAddOneTitle) %></h4>
+          <p class="offers-faq-list-answer"><%= t(:offerTwoFaqAddOneText) %></p>
+        </article>
+        <article class="offers-faq-item">
+          <h4 class="offers-faq-list-title"><%= t(:offerTwoFaqAddTwoTitle) %></h4>
+          <p class="offers-faq-list-answer"><%= t(:offerTwoFaqAddTwoText) %></p>
+        </article>
+        <article class="offers-faq-item">
+          <h4 class="offers-faq-list-title"><%= t(:offerTwoFaqAddTreeTitle) %></h4>
+          <p class="offers-faq-list-answer"><%= t(:offerTwoFaqAddTreeText) %></p>
+        </article>
+      </div>
+  </div>
+</section>
+
+<section id="offers-two-contact" class="offer-contact">
   <div class="grid-container">
     <h2 class="offer-contact-title"><%= t(:offerTwoContactTitle) %></h2>
     <form id="offer-two-contact-form" name="offer-two-contact-form" class="offers-contact-container" data-loading-message="<%= t(:offerTwoLoadingMessage) %>" data-success-message="<%= t(:offerTwoSuccessMessage) %>">
       <div class="home-contact-interest interest-container">
         <h3 class="interest-title"><%= t(:offerTwoContactSubject) %></h3>
         <div class="interest-item">
-          <input id="interest-micro" value="<%= t(:offerTwoPackageMicroTitle) %>" type="checkbox" name="interests[]" class="interest-checkbox">
-          <label for="interest-micro"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerTwoPackageMicroTitle) %> <%= t(:offerTwoPackageMicroItem1) %></label>
+          <input id="interest-custom" value="false" name="dedicated" class="interest-checkbox" type="radio" checked>
+          <label for="interest-custom">
+            <div class="icon icon--ei-close  interest-icon">
+              <svg class="icon__cnt"><use xlink:href="#ei-close-icon"></use></svg>
+            </div>
+            <div class="interest-item">
+              <p class="contract-hint"><%= t(:offerTwoLabelMemory) %>: <span class="memoryvalue"></span></p>
+            </div>
+            <div class="interest-item">
+              <p class="contract-hint"><%= t(:offerTwoLabelCpu) %>: <span class="cpuvalue"></span></p>
+            </div>
+            <div class="interest-item">
+              <p class="contract-hint">
+                Zone:
+                <span class="appuio-price-source appuio-price-source--appuio">Schweiz</span>
+                <span class="appuio-price-source appuio-price-source--aws" hidden>AWS Frankfurt</span>
+              </p>
+            </div>
+            <div class="interest-item interest-item-price">
+              <p class="contract-hint"><%= t(:offerTwoLabelPreis) %>:</p>
+              <table class="offers-price-table" summary="<%= t(:offerTwoLabelPreis) %>">
+                <tbody>
+                  <tr>
+                    <td class="text-right pricevalueperday"></td>
+                    <td><%= t(:offerTwoLabelPreisPerDay) %></td>
+                  </tr>
+                  <tr>
+                    <td class="text-right pricevaluepermonth"></td>
+                    <td><%= t(:offerTwoLabelPreisPerMonth) %></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </label>
         </div>
         <div class="interest-item">
-          <input id="interest-medium" value="<%= t(:offerTwoPackageMediumTitle) %>" type="checkbox" name="interests[]" class="interest-checkbox">
-          <label for="interest-medium"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerTwoPackageMediumTitle) %> <%= t(:offerTwoPackageMediumItem1) %></label>
-        </div>
-        <div class="interest-item">
-          <input id="interest-large" value="<%= t(:offerTwoPackageLargeTitle) %>" type="checkbox" name="interests[]" class="interest-checkbox">
-          <label for="interest-large"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerTwoPackageLargeTitle) %> <%= t(:offerTwoPackageLargeItem1) %></label>
-        </div>
-        <div class="interest-item">
-          <input id="interest-xlarge" value="<%= t(:offerTwoPackageXlargeTitle) %>" type="checkbox" name="interests[]" class="interest-checkbox" >
-          <label for="interest-xlarge"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerTwoPackageXlargeTitle) %> <%= t(:offerTwoPackageXlargeItem1) %></label>
-        </div>
-        <div class="interest-item">
-          <input id="interest-custom" value="<%= t(:offerTwoCustom) %>" type="checkbox" name="interests[]" class="interest-checkbox">
-          <label for="interest-custom"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerTwoCustom) %></label>
+          <input id="interest-dedicated" value="true" name="dedicated" class="interest-checkbox" type="radio">
+          <label for="interest-dedicated">
+            <div class="icon icon--ei-close  interest-icon">
+              <svg class="icon__cnt"><use xlink:href="#ei-close-icon"></use></svg>
+            </div>
+            Dedicated
+          </label>
         </div>
         <div class="interest-item contract-duration">
           <p class="contract-hint"><%= t(:offerTwoBilling) %></p>
-          <input id="monthly-bill" type="radio" name="billing[]" value="Monatlich" class="interest-radio">
-          <label class="radio-label" for="monthly-bill"><%= t(:offerTwoBillingMonthly) %></label>
-          <input id="yearly-bill" type="radio" name="billing[]" value="Jährlich" checked="checked" class="interest-radio">
-          <label class="radio-label" for="yearly-bill"><%= t(:offerTwoBillingYearly) %></label>
         </div>
       </div>
       <div class="home-contact-form">
@@ -208,6 +357,7 @@
       <div class="home-feedback-container">
         <p class="home-feedback"></p>
       </div>
-     </form>
-    </div>
-  </section>
+    </form>
+  </div>
+</section>
+<%= javascript_include_tag 'price-calculator-3.0.1.min.js' %>

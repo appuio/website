@@ -3,7 +3,7 @@
 fr:
   metaDescription: Eine Platform as a Service für das Design, die Entwicklung und den Betrieb Ihrer Anwendung.
   metaKeywords: OpenShift, cluster, PaaS, Docker, Kubernetes, Swiss, Schweiz, Enterprise, Platform as a Service, VSHN AG, Puzzle ITC GmbH,
-  
+
   navOverview: Découvrir
   navOffers: L'offre
   navGlobalBlog: Blog
@@ -34,19 +34,31 @@ fr:
   homeFeatureDockerDesc: Docker ist die offene Plattform für Entwickler und Sysadmins und ihre Applikationen. Wählen Sie das für Ihre Technologie passende Basis-Docker-Image aus, OpenShift baut für Sie nach jedem Build automatisch einen aktualisierten Docker-Container und deployt ihn auf Wunsch auch gleich.
   homeFeatureKubernetesTitle: Kubernetes
   homeFeatureKubernetesDesc: Container orchestrieren und managen mit Kubernetes von Google. Sie definieren wie viele Instanzen Ihrer Applikation parallel laufen sollen, Kubernetes kümmert sich um die Skalierung, das Loadbalancing und die Stabilität.
-  homeFeatureOnDemandTitle: On-Demand Entwicklungs- und Laufzeitumgebung
-  homeFeatureOnDemandAlt: A container that holds all technologies
-  homeFeatureOnDemandDesc: Mit APPUiO erstellen Sie neue Umgebungen per Knopfdruck. Es stehen eine Vielzahl an Technologien und Plattformen "out of the Box" zur Verfügung. Eine Auswahl davon ist in der folgenden Aufstellung zu finden.
+  homeFeatureCommunityTitle: On-Demand Entwicklungs- und Laufzeitumgebung
+  homeFeatureCommunityAlt: A container that holds all technologies
+  homeFeatureCommunityDesc: Mit APPUiO erstellen Sie neue Umgebungen per Knopfdruck. Es stehen eine Vielzahl an Technologien und Plattformen "out of the Box" zur Verfügung. Eine Auswahl davon ist in der folgenden Aufstellung zu finden.
   homeFeatureLanguagesTitle: Plattformen
   homeFeatureDatabasesTitle: Datenbanken
-  homeFeatureCycleTitle: Automatisierte Prozesse
-  homeFeatureCycleAlt: Cycle - Build, Ship, Run, Operate
-  homeFeatureCycleDesc: APPUiO ermöglicht es, den gesamten Prozess von der Entwicklung bis in die Produktion zu automatisieren. Wir kümmern uns um den Betrieb der Plattform und helfen Ihnen so, Ihre Prozesse zu automatisieren.
+  homeFeatureConsultingTitle: Automatisierte Prozesse
+  homeFeatureConsultingAlt: Cycle - Build, Ship, Run, Operate
+  homeFeatureConsultingDesc: APPUiO ermöglicht es, den gesamten Prozess von der Entwicklung bis in die Produktion zu automatisieren. Wir kümmern uns um den Betrieb der Plattform und helfen Ihnen so, Ihre Prozesse zu automatisieren.
   homeFeatureOpenSourceTitle: OpenSource
   homeFeatureOpenSourceDesc: OpenShift, Docker, Kubernetes und weitere Komponenten hinter APPUiO sind Open Source. Diese Offenheit wollen wir übernehmen, indem wir Dokumentationen zu APPUiO der Community zur Verfügung stellen. Die quelloffene Software, die Anwendung offener Standards sowie die frei zugängliche Dokumentation garantieren Ihnen die grösstmögliche Anbieterunabhängigkeit und bewahren Sie vor einem Vendor Lock-in. Weitere Informationen zum Open Source Projekt hinter OpenShift finden Sie auf <a target="_new" href="https://www.openshift.org">openshift.org</a>.
-  homeFeatureSecureTitle: Secured container
-  homeFeatureSecureDesc: Sichere Plattform dank SELinux von Red Hat Enterprise Linux. Datenhaltung in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz.
-  homeFeatureSecureAlt: Safe container with a swiss  éàlkja locker
+  homeFeatureAddonsTitle: Secured container
+  homeFeatureAddonsDesc: Sichere Plattform dank SELinux von Red Hat Enterprise Linux. Datenhaltung in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz.
+  homeFeatureAddonsAlt: Safe container with a swiss  éàlkja locker
+
+# Home: Clients
+  homeClientsTitle: Kunden lieben es
+  homeClientsOneTitle: „Wir erleben mit Appuio eine vertrauensvolle und gelungene Zusammenarbeit.“
+  homeClientsOneDesc: Michael Müller, CTO XYZ
+  homeClientsTwoTitle: „Wir erleben mit Appuio eine vertrauensvolle und gelungene Zusammenarbeit.“
+  homeClientsTwoDesc: Michael Müller, CTO XYZ
+  homeClientsThreeTitle: „Wir erleben mit Appuio eine vertrauensvolle und gelungene Zusammenarbeit.“
+  homeClientsThreeDesc: Michael Müller, CTO XYZ
+
+# Home: Technologies sections
+  homeTechnologiesTitle: Technologien
 
   homeContactTitle: Contact
   homeContactDesc: Gerne treten wir mit Ihnen in Kontakt. Bitte geben Sie uns an, wie wir Sie am besten erreichen können. Ihre Daten behandeln wir vertraulich und werden nicht an Dritte weitergegeben.

@@ -37,14 +37,92 @@
   color: white;
 }
 .offer-two-offers {
+  background-color: $color-blue;
+  color: white;
+  padding: rem-calc(60 0);
+  .offers-package-list {
+    li.offers-package-item {
+      margin: 0;
+      padding-left: 0;
+      padding-right: 0;
+      &.offer-package-power {
+        margin: 1.125rem 0;
+        border-bottom: 0;
+      }
+      &.offers-package-price {
+        border-bottom: 0;
+      }
+    }
+  }
+  .offers-package-button-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    .offers-package-button {
+      text-align: center;
+    }
+    div, a {
+      flex: 0 33%;
+
+    }
+  }
+}
+
+.offer-addons {
   background-color: $color-lightblue;
   color: white;
   padding: rem-calc(60 0);
+  .offers-addons-title {
+    text-align: center;
+  }
+  ul.offers-package-list {
+    border-bottom: 1px solid #E5EAED;
+    li.offers-package-item {
+      border-bottom: none;
+    }
+  }
+  .offers-package {
+    background-color: transparent;
+  }
+  .offers-addons-package-title {
+    font-weight: bold;
+  }
+}
+
+.offer-faq {
+  padding: rem-calc(60 0);
+
+  .offers-faq-title {
+    text-align: center;
+  }
+  .offers-faq-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    .offers-faq-item {
+
+      @include susy-breakpoint($break-large) {
+        flex-basis: 47%;
+      }
+      .offers-faq-list-title {
+        line-height: 1.5rem;
+        text-align: left;
+        font-size: 1.125rem;
+        font-weight: bold;
+        margin-bottom: 0;
+      }
+        &:not(:last-child) {
+          padding-right: 2rem;
+        }
+    }
+
+  }
 }
 
 .offer-contact {
   background-color: $color-blue;
-  background-image: url('/images/icons.svg');
+  //background-image: url('/images/icons.svg');
   background-repeat: repeat;
   background-position: center center;
   text-align: center;
@@ -150,6 +228,11 @@
   }
 }
 
+section#offer-two-advantages {
+  background-image: none;
+  padding: 3.75rem 0;
+}
+
 .offer-two-contact-form {
   margin-top: rem-calc(25);
   float: right;
@@ -166,6 +249,35 @@
     @include span(12 of 12);
     margin-top: rem-calc(50);
     margin-bottom: rem-calc(25);
+  }
+}
+
+section.offer-two-services {
+  background-color: $color-lightblue;
+  color: white;
+  .callout-list {
+    width: 100%;
+    .callout-item {
+      max-width: none;
+      margin: 5px 10px;
+      overflow: visible;
+      .offers-package-ribbon {
+        flex: 0;
+        line-height: normal;
+        height: 30px;
+      }
+      .callout-title {
+        margin-top: 3rem;
+        min-height: 1em;
+        flex: 0;
+      }
+      .callout-desc {
+        color: white;
+        min-height: unset;
+        flex: 1 0;
+        overflow: visible;
+      }
+    }
   }
 }
 
@@ -194,7 +306,7 @@
 .offers-package-ribbon {
   background-color: $color-greyblue;
   padding: rem-calc(16);
-  margin: rem-calc(-16);
+  margin: -1.25rem;
   line-height: rem-calc(2);
   color: black;
   flex: 1 100%;
@@ -262,4 +374,132 @@
 
 .contract-duration {
   margin-top: 4  0px;
+}
+
+.offers-package-price {
+  display: flex;
+  flex-wrap: wrap;
+
+  flex: 1 0 100%;
+
+  > h3 {
+    width: auto !important; // :(
+    text-align: right;
+  }
+  > h3::after {
+    content: ':';
+  }
+
+  > * {
+    flex: 1 0 50%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.offers-package-table-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.offers-price-table {
+  text-transform: none;
+
+  // Mimic <p>
+  font-size: rem-calc(16);
+  line-height: rem-calc(20);
+  @include susy-breakpoint($break-medium) {
+    font-size: rem-calc(18);
+    line-height: rem-calc(24);
+  }
+}
+
+.offers-package-dedicated-info {
+    display: none;
+    margin: 0;
+}
+
+.interest-item-price {
+  display: flex;
+
+  > .contract-hint {
+    margin-top: 0;
+    margin-right: 1ch;
+  }
+}
+
+.offers-package.active {
+  outline: 10px solid $color-yellow;
+  > .offers-package-ribbon {
+    background-color: $color-yellow;
+  }
+}
+
+$height: 32px;
+$width: 72px;
+$toggleOffset: 4px;
+.price-switch-container {
+  height: $height;
+  left: calc(50% - #{$width / 2});
+  margin: -($height / 2) 0 0 -($width / 2);
+  position: absolute;
+  width: $width;
+}
+
+.price-switch {
+  background: #fff;
+  border-radius: $height / 2;
+  display: block;
+  height: $height;
+  position: relative;
+  width: $width;
+
+  > label {
+    white-space: nowrap;
+    color: #fff;
+    font-size: $height * .75;
+    font-weight: 300;
+    line-height: $height;
+    text-transform: uppercase;
+    transition: color .2s ease;
+    position: absolute;
+
+    &:first-of-type {
+      transform: translateX(calc(-100% - 1em));
+      text-align: right;
+    }
+    &:last-of-type {
+      transform: translateX(calc(#{$width} + 1em));
+      text-align: left;
+    }
+  }
+  input {
+    height: $height;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: $width;
+    z-index: 2;
+  }
+  input:checked {
+    z-index: 0;
+  }
+  input:checked ~ .toggle {
+    left: $toggleOffset;
+  }
+  input ~ :checked ~ .toggle {
+    left: $width - $height + $toggleOffset;
+  }
+  .toggle {
+    background: #4a4a4a;
+    border-radius: 50%;
+    width: $height - $toggleOffset * 2;
+    height: $height - $toggleOffset * 2;
+    left: 0;
+    position: absolute;
+    top: $toggleOffset;
+    transition: left .2s ease;
+    z-index: 1;
+  }
 }

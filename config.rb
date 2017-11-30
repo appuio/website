@@ -12,6 +12,12 @@ page '/*.txt', layout: false
 # General configuration
 require 'builder'
 
+activate :external_pipeline,
+  name: :price_calculator,
+  command: 'sh price-calc.sh',
+  source: 'tmp/price-calculator',
+  latency: 1
+
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload, livereload_css_target: 'stylesheets/main.css.scss'
