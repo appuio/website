@@ -90,7 +90,10 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
     var vorname = $("[name='vorname']").val();
     var nachname = $("[name='nachname']").val();
     var email = $("[name='email']").val();
-    var interests = "Memory: " + $('[name="memory"]').val();
+    var interests = $.map($(':checkbox[name=interests\\[\\]]:checked'), function(n, i){
+      return n.value;
+    }).join(',');
+    var memory = $('[name="memory"]').val();
     var priceSource = $('[name="appuio-price-source"]:checked').val();
     var tags = $.map($(':checkbox[name=interests\\[\\]]:checked'), function(n, i){
       return 'q6_interessen[]='+n.value;
@@ -105,6 +108,7 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
     var form = $('form').attr('name');
 
     var message = messageform + "<br><br>\n\r";
+    message += 'memory: ' + memory + "<br><br>\n\r";
     message += 'dedicated: ' + dedicated + "<br><br>\n\r";
     message += 'zone: ' + priceSource + "<br><br>\n\r";
     message += "<br><br>\n\rDebugfields:<br>\n\r"
@@ -132,6 +136,7 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
       email: email,
       interests: interests,
       priceSource: priceSource,
+      memory: memory,
       message: messageform,
       dedicated: dedicated,
       messageback: message,
