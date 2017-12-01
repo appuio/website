@@ -278,28 +278,27 @@ en:
   offerPackageDedicatedInfo: "(At best a Dedicated Node makes sense for you)"
 
   offerTwoPossibilitiesSmall: |-
-    <li class="offers-package-item">Einfache Website mit geringen Zugriffen</li>
-    <li class="offers-package-item">Minimale CakePHP-Applikation mit kleiner Datenbank</li>
-    <li class="offers-package-item">Micro Service, GO Node.JS, Springboot, Ruby, PHP, .Net, Python</li>
+    <li class="offers-package-item">A simple website with little traffic</li>
+    <li class="offers-package-item">Minimal CakePHP application with a small database</li>
+    <li class="offers-package-item">Microservice, Go, Node.JS, Springboot, Ruby, PHP, .Net, Python</li>
   offerTwoPossibilitiesMedium: |-
-    <li class="offers-package-item">Komplexere Website bspw. mit PHP und einer Datenbank</li>
-    <li class="offers-package-item">CakePHP-Applikation mit mittlerer Datenbank</li>
-    <li class="offers-package-item">zwei Instanzen hochverfügbar eines Micro Services</li>
-    <li class="offers-package-item">Keycloak mit Datenbank</li>
+    <li class="offers-package-item">More complex website with PHP and a database for example</li>
+    <li class="offers-package-item">CakePHP application with a medium sized database</li>
+    <li class="offers-package-item">two highavailable instances of a microservice</li>
+    <li class="offers-package-item">Keycloak with database</li>
   offerTwoPossibilitiesLarge: |-
-    <li class="offers-package-item">Komplexe Applikation mit mehreren Serivces</li>
-    <li class="offers-package-item">Jenkins Build Server</li>
-    <li class="offers-package-item">mehrere Instanzen hochverfügbar eines Micro Services, bspw. vier
-    Instanzen zur gleichen Zeit</li>
-    <li class="offers-package-item">Komplexe Java Applikation</li>
-    <li class="offers-package-item">Java EE Applikation JBoss EAP deployed mit Datenbank</li>
+    <li class="offers-package-item">Complex applcation with several services</li>
+    <li class="offers-package-item">Jenkins build server</li>
+    <li class="offers-package-item">Several highavailable instances of a microservice, for example four instances at the same time</li>
+    <li class="offers-package-item">Complex java applications</li>
+    <li class="offers-package-item">Java EE applications JBoss EAP deployed with database</li>
   offerTwoPossibilitiesXLarge: |-
-    <li class="offers-package-item">Komplexe Applikationen mit grösserer Last und Datenbanken</li>
-    <li class="offers-package-item">Hochverfügbare Datenbanken</li>
-    <li class="offers-package-item">Micro Service Architektur etliche Services</li>
-    <li class="offers-package-item">Jenkins Build Infrastruktur mit diversen Buildnodes</li>
+    <li class="offers-package-item">Complex applications with serious load and databases</li>
+    <li class="offers-package-item">Highavailable databases</li>
+    <li class="offers-package-item">Microservice architecture with quite a few services</li>
+    <li class="offers-package-item">Jenkins build infrastructure with multiple buildnodes</li>
   offerTwoCPUDescription: |-
-    Die CPU Resourcen werden als KCU (Kubernetes Compute Units) normalisiert, so entsprechen CPU 1000m ungefähr einem single hyperthreaded CPU Kern. <br>
+    CPU ressources are counted as KCU (Kubernetes Compute Units) therefore CPU 1000m correspond to about a single hyperthreaded CPU core. <br>
 
 
 # Offer Two: Add-Ons
