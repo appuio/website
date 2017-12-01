@@ -239,7 +239,7 @@ de:
 # Offer Two: Im Angebot enthalten
   offerTwoPackageContentsTitle: Im Angebot enthalten
   offerTwoPackageContentsFirstTitle: Backup und Monitoring
-  offerTwoPackageContentsFirstItemOne: Wir erstellen einmal täglich ein Backup aller relevanten Daten. Zudem sind im Portal die verfügbaren Ressourcen ersichtlich. Auf status.appuio.ch siehst du jederzeit den Status der Public Plattform.
+  offerTwoPackageContentsFirstItemOne: Wir erstellen einmal täglich ein Backup aller relevanten Daten. Zudem sind im Portal die verfügbaren Ressourcen ersichtlich. Auf <a href="https://status.appuio.ch">status.appuio.ch</a> siehst du jederzeit den Status der Public Plattform.
   offerTwoPackageContentsSecondTitle: TCP Traffic (Beta)
   offerTwoPackageContentsSecondItemOne: Mit APPUiO kannst du Non-HTTP-Traffic in Public Cluster routen. So können Kunden IPs an Services anbinden und beispielsweise Datenbanken, LDAP Server, SSH Server öffentlich zur Verfügung stellen.
   offerTwoPackageContentsThirdTitle: Let’s Encrypt Zertifikate
@@ -250,10 +250,10 @@ de:
   offerTwoPackageContentsFifthItemOne: |-
     Es gibt eine erste Plattform-Software die wir auf unserer Public Plattform als Service anbieten. Wir  bauen die Software deinen Wünschen entsprechend auf und betreiben sie als Managed Service. <br>
     - 3 Scale API Management(Beta): API Management Lösung von Red Hat. <br>
-    - DataBase as a Service: Postgresql, Mariadb, Mysql <br>
-    - WaF as a Service basierend auf Apache mod_sec (Beta)<br>
+    - Database as a Service: PostgreSQL, MariaDB, MySQL<br>
+    - WaF as a Service basierend auf Apache mod_security (Beta)<br>
   offerTwoPackageContentsSixthTitle: Persistent Storage (File based-, Blockstorage)
-  offerTwoPackageContentsSixthItemOne: Neu steht auf APPUiO Public als persistent Storage nebst File based Storage auch der Storagetype Blockstorage(Beta) zur Verfügung, der in den Container als mounted persistent Volumes eingebunden werden kann. Blockstorage ist vom Typ ReadWriteOnce(RWO) und eignet sich insbesondere für Datenbank Volumes.  
+  offerTwoPackageContentsSixthItemOne: Neu steht auf APPUiO Public als persistent Storage nebst File based Storage auch der Storagetype Blockstorage (Beta) zur Verfügung, der in den Container als mounted persistent Volumes eingebunden werden kann. Blockstorage ist vom Typ ReadWriteOnce (RWO) und eignet sich insbesondere für Datenbank Volumes.  
     
 
  # Offer Two: Produkte
@@ -321,7 +321,7 @@ de:
   offerTwoAddon3Title: SLA 7x24
   offerTwoAddon3Description: Supportzeiten&#58; 7x24, Reaktionszeiten&#58; 1h, Verfügbarkeit&#58; 99,5%
   offerTwoAddon3Price: Nach Absprache
-  offerTwoAddon4Title: Persitant Storage
+  offerTwoAddon4Title: Persistant Storage
   offerTwoAddon4Description: pro GB/Tag
   offerTwoAddon4Price: 0.0935 CHF   
  
@@ -352,7 +352,7 @@ de:
   offerTwoFaqVerOneTitle: Wie kann ich von den früheren “T-Shirt-Grössen” für die Public Platform auf das flexible Pricing migrieren?
   offerTwoFaqVerOneText: Dies kannst du einfach im Self Service Portal umstellen.
   offerTwoFaqVerTwoTitle: In welcher Periodizität erfolgt die Abrechnung?
-  offerTwoFaqVerTwoText: Zu Beginn eines Monats, wird der letzte Monat abgerechnet.
+  offerTwoFaqVerTwoText: Zu Beginn jedes Monats wird der letzte Monat abgerechnet.
   offerTwoFaqVerTreeTitle: Wie funktioniert die Abrechnung?
   offerTwoFaqVerTreeText: Der Maximalwert (MB Memory) der letzten Stunde wird mit dem Preis pro Stunde multipliziert. Alle Stunden des Monats werden zusammengezählt und so entsteht der effektive Preis pro Monat.
   offerTwoFaqVerFourTitle: Welche Einheit wird abgerechnet?
