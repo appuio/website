@@ -72,8 +72,8 @@ de:
     Wir verbessern APPUiO kontinuierlich und entwickeln neue Features. Diese Erweiterungen stellen wir in Form von Add Ons allen Kunden zur Verfügung und helfen bei der Integration. Aktuell stehen folgende Add Ons zur Verfügung:
       <div class="home-table-usps">
         <ul>
-          <li>Backup, Monitoring, Loggging</li>
-          <li>Lets Encrypt</li>
+          <li>Backup, Monitoring, Logging</li>
+          <li>Let's Encrypt</li>
           <li>Secure Docker Builds (Multi Stage Support)</li>
        </ul>
        <ul>
