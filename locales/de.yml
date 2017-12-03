@@ -43,7 +43,7 @@ de:
   homeAdvantagesOneTitle: Schnell am Markt
   homeAdvantagesOneDesc: Mit APPUiO kannst du deine Applikation automatisch builden, testen und deployen. Auch beim Monitoring und bei Updates gewinnst du Zeit. Releases können beliebig durchgeführt werden.
   homeAdvantagesTwoTitle: Collaboration fördern
-  homeAdvantagesTwoDesc: Mit Continous Delivery und der Selfservice-Infrastruktur fördert APPUiO die Zusammenarbeit zwischen Devs und Ops. Applikationen können selber deployed und betreiben werden.
+  homeAdvantagesTwoDesc: Mit Continous Delivery und der Selfservice-Infrastruktur fördert APPUiO die Zusammenarbeit zwischen Devs und Ops. Applikationen können selber deployed und betrieben werden.
   homeAdvantagesThreeTitle: Einheitlich und offen
   homeAdvantagesThreeDesc: Die Entwicklungsumgebung sieht auf deinem Laptop anders aus als die Produktionsumgebung? Mit APPUiO sind deine Umgebungen standardisiert. Offene Standards und OpenSource sind die Basis unserer Plattform.
   homeAdvantagesFourTitle: Selfservice
@@ -72,8 +72,8 @@ de:
     Wir verbessern APPUiO kontinuierlich und entwickeln neue Features. Diese Erweiterungen stellen wir in Form von Add Ons allen Kunden zur Verfügung und helfen bei der Integration. Aktuell stehen folgende Add Ons zur Verfügung:
       <div class="home-table-usps">
         <ul>
-          <li>Backup, Monitoring, Loggging</li>
-          <li>Lets Encrypt</li>
+          <li>Backup, Monitoring, Logging</li>
+          <li>Let's Encrypt</li>
           <li>Secure Docker Builds (Multi Stage Support)</li>
        </ul>
        <ul>
