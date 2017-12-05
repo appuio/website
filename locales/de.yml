@@ -26,10 +26,10 @@ de:
   
 # Home Seite
   homeNewsTitle: News
-  #homeNewsText: |-
-  #  Die APPUiO Roadmap - hilf mit, die Zukunft von APPUiO zu bestimmen<a href="https://trello.com/b/kpVq53J2/appuio-roadmap">&gt;&gt;</a>.
   homeNewsText: |-
-    One Year APPUiO – hier geht es zur Anmeldung <a href="event.html">&gt;&gt;</a>.
+    Die APPUiO Roadmap - hilf mit, die Zukunft von APPUiO zu bestimmen<a href="https://trello.com/b/kpVq53J2/appuio-roadmap">&gt;&gt;</a>.
+  #homeNewsText: |-
+    #One Year APPUiO – hier geht es zur Anmeldung <a href="event.html">&gt;&gt;</a>.
   
   homeHeroAlt: APPUiO - Swiss Container Platform
   homeHeroTitle: Open Container Platform with a powerful Community
