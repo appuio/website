@@ -252,7 +252,8 @@ en:
     - database as a service: manually: Postgresql, Mariadb, Mysql <br>
     - WaF as a Service basierend auf Apache mod_sec (Beta)<br>
   offerTwoPackageContentsSixthTitle: Persistent Storage (File based-, Blockstorage)
-  offerTwoPackageContentsSixthItemOne: As of late, APPUiO Public offers two kinds of persistent storage: In addition to the file-based one, our new storage type “Blockstorage” is now in Public Beta. It can be mounted into the the container and is of type “ReadWriteOnce (RWO)” (where the once means it can only be mounted into a single container) and especially useful for database volumes.
+  offerTwoPackageContentsSixthItemOne: |-
+    As of late, APPUiO Public offers two kinds of persistent storage: In addition to the file-based one, our new storage type “Blockstorage” is now in Public Beta. It can be mounted into the the container and is of type “ReadWriteOnce (RWO)” (where the once means it can only be mounted into a single container) and especially useful for database volumes.
 
 # Offer Two: Produkte
   offerTwoProductsOneTitel: Shared
