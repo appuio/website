@@ -276,7 +276,7 @@ en:
   offerTwoLabelCpu: "CPU"
   offerTwoLabelPreis: "Price"
   offerTwoLabelPreisPerDay: "per day"
-  offerTwoLabelPreisPerMonth: "per month"
+  offerTwoLabelPreisPerMonth: "per 30 days"
   offerPackageDedicatedInfo: "(At best a Dedicated Node makes sense for you)"
 
   offerTwoPossibilitiesSmall: |-
