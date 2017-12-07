@@ -252,7 +252,8 @@ en:
     - database as a service: manually: Postgresql, Mariadb, Mysql <br>
     - WaF as a Service basierend auf Apache mod_sec (Beta)<br>
   offerTwoPackageContentsSixthTitle: Persistent Storage (File based-, Blockstorage)
-  offerTwoPackageContentsSixthItemOne: Blockstorage(Beta) can be integrated into the container as mounted persistent volumes. Blockstorage is of type ReadWriteOnce (RWO) and is particularly suitable for database volumes.
+  offerTwoPackageContentsSixthItemOne: |-
+    As of late, APPUiO Public offers two kinds of persistent storage: In addition to the file-based one, our new storage type “Blockstorage” is now in Public Beta. It can be mounted into the the container and is of type “ReadWriteOnce (RWO)” (where the once means it can only be mounted into a single container) and especially useful for database volumes.
 
 # Offer Two: Produkte
   offerTwoProductsOneTitel: Shared
@@ -283,20 +284,20 @@ en:
     <li class="offers-package-item">Minimal CakePHP application with a small database</li>
     <li class="offers-package-item">Microservice, Go, Node.JS, Springboot, Ruby, PHP, .Net, Python</li>
   offerTwoPossibilitiesMedium: |-
-    <li class="offers-package-item">More complex website with PHP and a database for example</li>
+    <li class="offers-package-item">More complex website, for example using PHP and a database</li>
     <li class="offers-package-item">CakePHP application with a medium sized database</li>
-    <li class="offers-package-item">two highavailable instances of a microservice</li>
+    <li class="offers-package-item">two highly available instances of a micro service</li>
     <li class="offers-package-item">Keycloak with database</li>
   offerTwoPossibilitiesLarge: |-
     <li class="offers-package-item">Complex applcation with several services</li>
     <li class="offers-package-item">Jenkins build server</li>
-    <li class="offers-package-item">Several highavailable instances of a microservice, for example four instances at the same time</li>
-    <li class="offers-package-item">Complex java applications</li>
+    <li class="offers-package-item">several instances of a highly available micro service, e.g. four instances at the same time</li>
+    <li class="offers-package-item">Complex java application</li>
     <li class="offers-package-item">Java EE applications JBoss EAP deployed with database</li>
   offerTwoPossibilitiesXLarge: |-
-    <li class="offers-package-item">Complex applications with serious load and databases</li>
+    <li class="offers-package-item">Complex applications with heavy load and databases</li>
     <li class="offers-package-item">Highavailable databases</li>
-    <li class="offers-package-item">Microservice architecture with quite a few services</li>
+    <li class="offers-package-item">Micro-Service Architecture of several services</li>
     <li class="offers-package-item">Jenkins build infrastructure with multiple buildnodes</li>
   offerTwoCPUDescription: |-
     CPU ressources are counted as KCU (Kubernetes Compute Units) therefore CPU 1000m correspond to about a single hyperthreaded CPU core. <br>
@@ -484,9 +485,10 @@ en:
     </ul>
     <p>Dates:</p>
     <ul>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/72880727856">December 07, 2017 in Zurich</a></li>
     <li><a href="https://app.hatchbuck.com/OnlineForm/72880727855">January 25,  2018 in Bern</a></li>
     </ul>
     <p>Time: 14.00 to 17.30h<br>
     Location: Either Neugasse 10 in Zurich or Belpstrasse 37 in Berne</p>
     <p>Participation is free of charge. Please bring your own laptop for the lab. Number of places is limited.</p>
+    
+    #<li><a href="https://app.hatchbuck.com/OnlineForm/72880727856">December 07, 2017 in Zurich</a></li>
