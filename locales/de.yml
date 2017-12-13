@@ -105,11 +105,11 @@ de:
 # Home: Clients
   homeClientsTitle: Unsere Kunden
   homeClientsOneTitle: „Mit APPUiO haben wir OpenShift-Experten, die uns mit ihrer langjährigen Erfahrung jederzeit unterstützen.“
-  homeClientsOneDesc: Matthias Summer, System Engineer @Adcubum AG
+  homeClientsOneDesc: Matthias Summer, System Engineer <b>@Adcubum AG</b>
   homeClientsTwoTitle: „Von APPUiO profitieren nicht nur wir, sondern auch unsere Endkunden.“
-  homeClientsTwoDesc: Bastian Widmer, System Engineer @Amazee.io
+  homeClientsTwoDesc: Bastian Widmer, System Engineer <b>@Amazee.io</b>
   homeClientsThreeTitle: „APPUiO erfüllt unsere hohen Sicherheitsanforderungen.“
-  homeClientsThreeDesc: Michael Gerber, Software Developer @HRM Systems AG
+  homeClientsThreeDesc: Michael Gerber, Software Developer <b>@HRM Systems AG</b>
 
 
 # Home: Technologies sections
