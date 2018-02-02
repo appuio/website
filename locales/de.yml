@@ -28,8 +28,6 @@ de:
   homeNewsTitle: News
   homeNewsText: |-
     Die APPUiO Roadmap - hilf mit, die Zukunft von APPUiO zu bestimmen<a href="https://trello.com/b/kpVq53J2/appuio-roadmap">&gt;&gt;</a>.
-  #homeNewsText: |-
-    #One Year APPUiO – hier geht es zur Anmeldung <a href="event.html">&gt;&gt;</a>.
   
   homeHeroAlt: APPUiO - Swiss Container Platform
   homeHeroTitle: Open Container Platform with a powerful Community
@@ -59,7 +57,8 @@ de:
   homeFeatureCommunityTitle: Community
   homeFeatureCommunityAlt: Eine Plattform, welche die Kunden zusammen bringt.
   homeFeatureCommunityDesc: |- 
-    Unsere Community ist unser Herzstück, mit der wir wachsen. APPUiO bietet dir einen <a href="https://community.appuio.ch/home">Community Chat</a> sowie diverse Events zum Austausch mit Gleichgesinnten und dem APPUiO-Team. Alle Komponenten hinter APPUiO sind Open Source. Diese Offenheit übernehmen wir, indem wir Dokumentationen und den Code der Community zur Verfügung stellen. Die quelloffene Software, die Anwendung offener Standards sowie die frei zugängliche Dokumentation garantieren dir grösstmögliche Anbieterunabhängigkeit und bewahrt dich vor einem Vendor Lock-in. Auch du kannst Teil der Community werden! Gemeinsam sind wir stärker und wir geben unser Wissen gerne weiter. <br/>
+    Unsere Community ist unser Herzstück, mit der wir wachsen. APPUiO bietet dir einen <a href="https://community.appuio.ch/home">Community Chat</a> sowie diverse 
+    s zum Austausch mit Gleichgesinnten und dem APPUiO-Team. Alle Komponenten hinter APPUiO sind Open Source. Diese Offenheit übernehmen wir, indem wir Dokumentationen und den Code der Community zur Verfügung stellen. Die quelloffene Software, die Anwendung offener Standards sowie die frei zugängliche Dokumentation garantieren dir grösstmögliche Anbieterunabhängigkeit und bewahrt dich vor einem Vendor Lock-in. Auch du kannst Teil der Community werden! Gemeinsam sind wir stärker und wir geben unser Wissen gerne weiter. <br/>
   homeFeatureLanguagesTitle: Plattformen #?
   homeFeatureDatabasesTitle: Datenbanken #?
   homeFeatureConsultingTitle: Alles aus einer Hand
@@ -321,7 +320,7 @@ de:
   offerTwoAddon3Title: SLA 7x24
   offerTwoAddon3Description: Supportzeiten&#58; 7x24, Reaktionszeiten&#58; 1h, Verfügbarkeit&#58; 99,5%
   offerTwoAddon3Price: Nach Absprache
-  offerTwoAddon4Title: Persistant Storage
+  offerTwoAddon4Title: Persistent Storage
   offerTwoAddon4Description: pro GB/Tag
   offerTwoAddon4Price: 0.0935 CHF   
  
@@ -444,104 +443,11 @@ de:
     </ul>
     <p>Daten:</p>
     <ul>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/72880727855">25. Januar   2018 in Bern</a></li>
     <li><a href="https://app.hatchbuck.com/OnlineForm/73530844246">01. März 2018 in Zürich</a></li>
+    <li><a href="https://app.hatchbuck.com/OnlineForm/80315757230">19. April 2018 in Bern</a></li>    
     </ul>
     <p>Zeit: 14:00 bis 17:30 Uhr<br>
     Ort: Neugasse 10, Zürich oder Belpstrasse 37, Bern</p>
     <p>Die Teilnahme ist kostenlos. Bitte bring für das Lab deinen Laptop mit. Die Platzzahl ist beschränkt.</p>
 
 
-# Event Page
-  eventPageTitle: Let's celebrate
-  eventTitle: One Year APPUiO
-  eventSubtitle: Case Studies & Birthday Party
-  eventDetails: |-
-    <p>Im Herbst 2016 lancierten wir von VSHN und Puzzle ITC gemeinsam APPUiO - die erste Schweizer Container Plattform. Seither konnten wir viele Erfahrungen sammeln, unsere Plattform stetig weiterentwickeln und spannende Projekte umsetzen.</p>
-    <p>Am 30. November 2017 blicken wir auf das aufregende und erfolgreiche erste Jahr zurück. Anhand von Case Studies zeigen Kunden, wie die Zukunft der Software-Entwicklung und des Betriebs mit Containern in der Praxis aussieht. Zudem präsentieren wir einige Neuerungen rund um APPUiO - seid gespannt!</p>
-
-    <p><strong>Wann:</strong> Donnerstag, 30. November 2017</p>
-    <p><strong>Wo:</strong> Bogen F, Viaduktstrasse 97, 8005 Zürich</p>
-
-    <p><strong>Programm:</strong></p>
-    <table class="event-table-oneyear">
-      <thead>
-        <tr>
-          <th><strong>Zeit</strong></th>
-          <th><strong>Topic</strong></th>
-          <th><strong>Titel</strong></th>
-          <th><strong>Speaker</strong></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>14:00 <br></td>
-          <td>Eintreffen<br></td>
-          <td class="empty-cell"></td>
-          <td class="empty-cell"></td>
-        </tr>
-        <tr>
-          <td>14:30</td>
-          <td>Begrüssung/Rückblick</td>
-          <td>"Rückblick auf ein Jahr APPUiO und brandneue Features"</td>
-          <td>Thomas Philipona, CTO und einer der Gründerväter, Puzzle ITC</td>
-        </tr>
-        <tr>
-          <td>14:45</td>
-          <td>DevOps Tooling mit APPUiO</td>
-          <td>"Die DevOps-Reise: Kultur, Prozesse und Technologien"</td>
-          <td>Tobias Weinmann, DevOps Transformation Lead SwissRe; Patrick Mathers, CEO, VSHN</td>
-        </tr>
-        <tr>
-          <td>15:15</td>
-          <td>Kundencase HRM Systems AG</td>
-          <td>"Carema by HRM Systems AG"</td>
-          <td>Michael Gerber, Software Engineer, HRM Systems</td>
-        </tr>
-        <tr>
-          <td>15:35</td>
-          <td>Kaffeepause</td>
-          <td class="empty-cell"></td>
-          <td class="empty-cell"></td>
-        </tr>
-        <tr>
-          <td>16:15</td>
-          <td>Kundencase Adcubum AG</td>
-          <td>"#ctrlshift @ adcubum AG"</td>
-          <td>Matthias Summer, Senior System Engineer, Adcubum AG</td>
-        </tr>
-        <tr>
-          <td>16:35</td>
-          <td>Kundencase Amazee.io</td>
-          <td>"Spezialisiertes Drupal Hosting auf basis von APPUiO/OpenShift"</td>
-          <td>Bastian Widmer, System Engineer, Amazee.io</td>
-        </tr>
-        <tr>
-          <td>16:55</td>
-          <td>Ausblick/Roadmap</td>
-          <td>"Die Zukunft von APPUiO"</td>
-          <td>Tobias Tröhler, Produkt Manager APPUiO</td>
-        </tr>
-        <tr>
-          <td>17:05</td>
-          <td>Apéro</td>
-          <td class="empty-cell"></td>
-          <td class="empty-cell"></td>
-        </tr>
-      </tbod>
-    </table>
-    <br>
-    <p>Alle Präsentationen sind in deutscher Sprache</p>
-    <p><iframe frameborder='0' class='appuio-event-form' src='https://app.hatchbuck.com/OnlineForm/72664443500' scrolling='no'></iframe></p>
-    <br>
-    <p>Wir freuen uns auf dich!</p>
-
-    <p>Liebe Grüsse</p>
-    <p>Dein APPUiO-Team</p>
-    <hr>
-
-  eventDetails2: |-
-    <p>Dieser APPUiO-Event wird unterstützt von RedHat Schweiz - herzlichen Dank!</p>
-    <hr>
-
-    <p><a href="https://app.hatchbuck.com/OnlineForm/72664443501">Möchtest du dich wieder abmelden?</a></p>
