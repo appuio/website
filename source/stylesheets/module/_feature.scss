@@ -17,6 +17,8 @@
 }
 .feature-img {
   margin-top: 60px;
+  width: auto;
+  height: auto;
 }
 .feature-desc {
   @include susy-breakpoint($break-medium) {

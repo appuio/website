@@ -31,7 +31,10 @@
   align-items: stretch;
   justify-content: center;
   text-align: center;
-  width: rem-calc(156);
+  width: 33%;  
+  @include susy-breakpoint($break-medium) {
+    width: rem-calc(156);
+  }
   min-height: rem-calc(64);
   box-sizing: border-box;
   margin-bottom: rem-calc(20);

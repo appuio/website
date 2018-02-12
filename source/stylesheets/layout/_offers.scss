@@ -159,8 +159,14 @@
   }
 
 .offers-intro {
-  font-size: rem-calc(36);
-  line-height: rem-calc(44);
+  font-size: rem-calc(26);
+  line-height: rem-calc(34);
+  text-align: left;
+  @include susy-breakpoint($break-medium) {
+    font-size: rem-calc(36);
+    line-height: rem-calc(44);
+    text-align: center;
+  }
   @include susy-breakpoint($break-medium) {
     @include span(10 of 12);
     @include squish(1, 1);

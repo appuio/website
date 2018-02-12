@@ -14,7 +14,11 @@
 }
 .home-hero-illus {
   height: 62vw;
-  background-image: url('/images/landscape.svg');
+
+  background-image: url('/images/landscape_compact.svg');
+  @include susy-breakpoint($break-xlarge) {
+    background-image: url('/images/landscape.svg');
+  }
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 100% auto;
@@ -22,7 +26,7 @@
     height: 53vw;
   }
   @include susy-breakpoint($break-large) {
-    height: 50vw;
+    height: 39vw;
   }
 }
 .home-hero-cta {
@@ -30,12 +34,16 @@
   padding: rem-calc(24);
 }
 .home-hero-logo {
-  margin-top: 15vw;
+  margin-top: 38vw;
   width: 370px;
   max-width: 60%;
   @include susy-breakpoint($break-medium) {
     max-width: none;
-    margin-top: 15vw;
+    margin-top: 34vw;
+  }
+  @include susy-breakpoint($break-large) {
+    max-width: none;
+    margin-top: 21vw;
   }
   @include susy-breakpoint($break-xlarge) {
     max-width: none;
@@ -52,8 +60,12 @@
   margin-right: auto;
   padding: 0 1.25rem;
   text-align: center;
-  font-size: rem-calc(36);
-  line-height: rem-calc(44);
+  font-size: rem-calc(26);
+  line-height: rem-calc(34);
+  @include susy-breakpoint($break-medium) {
+    font-size: rem-calc(36);
+    line-height: rem-calc(44);
+  }
   @include susy-breakpoint($break-medium) {
       max-width: 940px;
       padding: 0;
@@ -69,6 +81,10 @@
 // News
 // ----------------------------------------------
 .home-news {
+  display: none;
+  @include susy-breakpoint($break-medium) {
+    display: block;
+  }
   position: absolute;
   top: 0;
   left: 0;
@@ -151,9 +167,13 @@
     flex-direction: column;
     align-items: stretch;
     justify-content: center;
-    width: 8.75rem;
+    width: 33%;
+    margin: rem-calc(10) rem-calc(20);
+    @include susy-breakpoint($break-medium) {
+      width: 8.75rem;
+      margin: rem-calc(20) rem-calc(40);
+    }
     box-sizing: border-box;
-    margin: rem-calc(20) rem-calc(40);
     img {
       width: 100%;
       height: auto;
@@ -282,7 +302,10 @@
   text-align: left;
 
   ul {
-    width: 50%;
+    width: 100%;
+    @include susy-breakpoint($break-medium) {
+      width: 50%;
+    }
     word-wrap:break-word;
     flex: 1 auto;
     justify-content: space-around;
