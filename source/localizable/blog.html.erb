@@ -21,9 +21,9 @@ title: APPUiO - Swiss Container Platform - Blog
 
                     <div class="date"><div class="month"><%= f["month"] %></div><div class="day"><%= f["day"] %></div></div>
                     <div class="news-text">
-                        <h3><%= f["title"] %></h3>
+                        <h3><a href="#" slide-toggle=".news-details"><%= f["title"] %></a></h3>
                         <p class="news-subtitle"><%= f["subtitle"] %></p>
-                        <%= f["details"] %>
+                        <div class="news-details"><%= f["details"] %></div>
                     </div>
                 </div>
             <% end %>
@@ -36,9 +36,11 @@ title: APPUiO - Swiss Container Platform - Blog
             <div class="news-entry">
               <div class="date"><div class="month"><%= f["month"] %></div><div class="day"><%= f["day"] %></div></div>
               <div class="news-text">
-                <h3><%= f["title"] %></h3>
+                <h3><a href="#" slide-toggle=".news-details"><%= f["title"] %></a></h3>
                 <p class="news-subtitle"><%= f["subtitle"] %></p>
-                <%= f["details"] %>
+                <div class="news-text">
+                  <div class="news-details"><%= f["details"] %></div>
+                </div>
               </div>
             </div>
             <% end %>

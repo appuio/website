@@ -6,9 +6,20 @@
   $("[data-collapse]").click(function(event) {
     event.preventDefault();
     var target = $(event.currentTarget).attr('data-collapse');
-    target = $('#'+target);
+    target = $(target);
     if (target.length) {
       target.toggleClass('is-expanded');
+    }
+  });
+
+  // Collapse
+  $("[slide-toggle]").click(function(event) {
+    event.preventDefault();
+    var target = $(event.currentTarget).attr('slide-toggle');
+    target = $(this).parent().parent().find(target);
+    console.log(target);
+    if (target.length) {
+      target.slideToggle('fast');
     }
   });
 

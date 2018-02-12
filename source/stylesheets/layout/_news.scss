@@ -35,10 +35,17 @@
     justify-content: flex-start;
     align-items: flex-start;
     margin: 0.2rem 0rem 2rem 0rem;
+    width: 100%;
 
     h3 {
       margin: 0px;
+      a {
+        text-decoration: none;
+      }
     }
+  }
+  .news-details {
+    display: none;
   }
   .dot {
     display: none;
