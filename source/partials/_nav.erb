@@ -3,45 +3,46 @@
   <a href="#" class="nav-toggle-menu" data-collapse="nav-header"><%= evil_icon 'ei-navicon' %></a>
   <a href="#" class="nav-toggle-close" data-collapse="nav-header"><%= evil_icon 'ei-close' %></a>
   <ul class="nav nav-main is-horizontal">
-    <li>
-      <a href="./#overview"><%= t(:navOverview) %></a>
-    </li>
+
     <li class="<%= parent_active('managed-private.html', 'public.html', 'on-premises.html') %>">
       <a href="./#offer"><%= t(:navOffers) %></a>
       <ul>
         <li class="<%= nav_active('managed-private.html') %>"><a href="./managed-private.html"><%= t(:navOffer1) %></a></li>
         <li class="<%= nav_active('public.html') %>"><a href="./public.html"><%= t(:navOffer2) %></a></li>
         <li class="<%= nav_active('on-premises.html') %>"><a href="./on-premises.html"><%= t(:navOffer3) %></a></li>
+        <li class="<%= nav_active('faq.html') %>"><a href="faq.html"><%= t(:navGlobalFAQ) %></a></li>
       </ul>
     </li>
     <li>
-      <a href="./#clients"><%= t(:navClients) %></a>
+      <a href="#">Community</a>
+      <ul>
+        <li><a target="_blank" href="http://docs.appuio.ch"><%= t(:navGlobalDocs) %></a></li>
+        <li class="<%= nav_active('faq.html') %>"><a href="faq.html"><%= t(:navGlobalFAQ) %></a></li>
+        <li><a target="_blank" href="https://community.appuio.ch"><%= t(:navGlobalCommunityChat) %></a></li>
+      </ul>
     </li>
-    <li>
-      <a href="./#contact"><%= t(:navContact) %></a>
-    </li>
-    <li class="<%= nav_active('techlabs.html') %>">
-        <a href="techlabs.html"><%= t(:navTechlabs) %></a>
-    </li>
-  </ul>
-  <ul class="nav-global is-horizontal">
-    <li><a target="_blank" href="http://docs.appuio.ch"><%= t(:navGlobalDocs) %></a></li>
-    <li class="<%= nav_active('faq.html') %>"><a href="faq.html"><%= t(:navGlobalFAQ) %></a></li>
-      <li class="<%= nav_active('blog.html') %>"><a href="blog.html"><%= t(:navGlobalBlog) %></a></li>
-      <li><a target="_blank" href="https://community.appuio.ch"><%= t(:navGlobalCommunityChat) %></a></li>
-    <li><a target="_blank" href="https://console.appuio.ch"><%= t(:navGlobalLogin) %></a></li>
+    <li class="<%= nav_active('techlabs.html') %>"><a href="techlabs.html"><%= t(:navTechlabs) %></a></li>
+    <li class="<%= nav_active('blog.html') %>"><a href="blog.html"><%= t(:navGlobalBlog) %></a></li>
+    <li><a href="./#contact"><%= t(:navContact) %></a></li>
   </ul>
   <ul class="nav-lang">
     <% if (I18n.locale == :de) %>
-    <li class="is-current"><a href="#">DE</a></li>
-    <li><a href="<%= change_language('en') %>">EN</a></li>
+    <li class="is-current"><a href="#">DE</a>
+      <ul>
+        <li><a href="<%= change_language('en') %>">EN</a></li>
+      </ul>
+    </li>
     <!--<li><a href="<%= change_language('fr') %>">FR</a></li> -->
     <% end %>
     <% if (I18n.locale == :en) %>
-    <li><a href="<%= change_language('de') %>">DE</a></li>
-    <li class="is-current"><a href="#">EN</a></li>
+    <li class="is-current"><a href="#">EN</a>
+      <ul>
+        <li><a href="<%= change_language('de') %>">DE</a></li>
+      </ul>
+    </li>
     <!--<li><a href="<%= change_language('fr') %>">FR</a></li> -->
     <% end %>
+    <li><a target="_blank" href="https://console.appuio.ch"><%= t(:navGlobalLogin) %></a></li>
     <!-- <% if (I18n.locale == :fr) %>
     <li><a href="<%= change_language('de') %>">DE</a></li>
     <li><a href="<%= change_language('en') %>">EN</a></li>

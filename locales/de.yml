@@ -19,16 +19,16 @@ de:
   navClients: Kunden
   navContact: Kontakt
   navFAQ: FAQ
-  navTechlabs: Techlab
+  navTechlabs: Techlabs
 
 # Footer
   footerTel: Telefonisch erreichst du uns unter +41 44 552 22 40
-  
+
 # Home Seite
   homeNewsTitle: News
   homeNewsText: |-
     Die APPUiO Roadmap - hilf mit, die Zukunft von APPUiO zu bestimmen<a href="https://trello.com/b/kpVq53J2/appuio-roadmap">&gt;&gt;</a>.
-  
+
   homeHeroAlt: APPUiO - Swiss Container Platform
   homeHeroTitle: Open Container Platform with a powerful Community
   homeHeroSignup: Für Public Platform anmelden
@@ -56,8 +56,8 @@ de:
   homeFeatureDesc: APPUiO ist OpenShift “as a Service”. Profitiere von unserer langjährigen Erfahrung als erste Schweizer Container Plattform und nutze alle Vorteile von OpenShift mit vielen zusätzlichen Add-Ons und Services.
   homeFeatureCommunityTitle: Community
   homeFeatureCommunityAlt: Eine Plattform, welche die Kunden zusammen bringt.
-  homeFeatureCommunityDesc: |- 
-    Unsere Community ist unser Herzstück, mit der wir wachsen. APPUiO bietet dir einen <a href="https://community.appuio.ch/home">Community Chat</a> sowie diverse 
+  homeFeatureCommunityDesc: |-
+    Unsere Community ist unser Herzstück, mit der wir wachsen. APPUiO bietet dir einen <a href="https://community.appuio.ch/home">Community Chat</a> sowie diverse
     s zum Austausch mit Gleichgesinnten und dem APPUiO-Team. Alle Komponenten hinter APPUiO sind Open Source. Diese Offenheit übernehmen wir, indem wir Dokumentationen und den Code der Community zur Verfügung stellen. Die quelloffene Software, die Anwendung offener Standards sowie die frei zugängliche Dokumentation garantieren dir grösstmögliche Anbieterunabhängigkeit und bewahrt dich vor einem Vendor Lock-in. Auch du kannst Teil der Community werden! Gemeinsam sind wir stärker und wir geben unser Wissen gerne weiter. <br/>
   homeFeatureLanguagesTitle: Plattformen #?
   homeFeatureDatabasesTitle: Datenbanken #?
@@ -131,7 +131,7 @@ de:
   homeContactSubjectThree: On Premises
   homeContactSubjectFour: Allgemeine Informationen
   homeContactSubjectFive: Newsletter
-  homeContactSubjectSix: Free one month trial 
+  homeContactSubjectSix: Free one month trial
   homeContactYourFirstName: Vorname
   homeContactYourName: Nachname
   homeContactYourFirstNameTitle: Ihr Vorname
@@ -252,8 +252,8 @@ de:
     - Database as a Service: PostgreSQL, MariaDB, MySQL<br>
     - WaF as a Service basierend auf Apache mod_security (Beta)<br>
   offerTwoPackageContentsSixthTitle: Persistent Storage (File based-, Blockstorage)
-  offerTwoPackageContentsSixthItemOne: Neu steht auf APPUiO Public als persistent Storage nebst File based Storage auch der Storagetype Blockstorage (Beta) zur Verfügung, der in den Container als mounted persistent Volumes eingebunden werden kann. Blockstorage ist vom Typ ReadWriteOnce (RWO) und eignet sich insbesondere für Datenbank Volumes.  
-    
+  offerTwoPackageContentsSixthItemOne: Neu steht auf APPUiO Public als persistent Storage nebst File based Storage auch der Storagetype Blockstorage (Beta) zur Verfügung, der in den Container als mounted persistent Volumes eingebunden werden kann. Blockstorage ist vom Typ ReadWriteOnce (RWO) und eignet sich insbesondere für Datenbank Volumes.
+
 
  # Offer Two: Produkte
   offerTwoProductsOneTitel: Shared
@@ -303,7 +303,7 @@ de:
 
   offerTwoCPUDescription: |-
     Die CPU Resourcen werden als KCU (Kubernetes Compute Units) normalisiert, so entsprechen CPU 1000m ungefähr einem single hyperthreaded CPU Kern. <br>
- 
+
 
   #offerTwoIso: |-
   #  Öffentlich (public) ist nur der Name der gemeinsamen Cloud-Plattform. Sicherheit schreiben wir gross: APPUiO wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
@@ -322,8 +322,8 @@ de:
   offerTwoAddon3Price: Nach Absprache
   offerTwoAddon4Title: Persistent Storage
   offerTwoAddon4Description: pro GB/Tag
-  offerTwoAddon4Price: 0.0935 CHF   
- 
+  offerTwoAddon4Price: 0.0935 CHF
+
 
 
   offerTwoDedicatedAddonsPretext: ""
@@ -444,10 +444,8 @@ de:
     <p>Daten:</p>
     <ul>
     <li><a href="https://app.hatchbuck.com/OnlineForm/73530844246">01. März 2018 in Zürich</a></li>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/80315757230">19. April 2018 in Bern</a></li>    
+    <li><a href="https://app.hatchbuck.com/OnlineForm/80315757230">19. April 2018 in Bern</a></li>
     </ul>
     <p>Zeit: 14:00 bis 17:30 Uhr<br>
     Ort: Neugasse 10, Zürich oder Belpstrasse 37, Bern</p>
     <p>Die Teilnahme ist kostenlos. Bitte bring für das Lab deinen Laptop mit. Die Platzzahl ist beschränkt.</p>
-
-

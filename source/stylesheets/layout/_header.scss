@@ -24,7 +24,7 @@ category: Layout
   & + * {
     margin-top: rem-calc(50);
     @include susy-breakpoint($break-medium) {
-      margin-top: rem-calc(75);
+      margin-top: rem-calc(72);
     }
   }
 }
