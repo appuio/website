@@ -17,7 +17,7 @@
 
   background-image: url('/images/landscape_compact.svg');
   @include susy-breakpoint($break-xlarge) {
-    background-image: url('/images/landscape.svg');
+    background-image: url('/images/landscape_compact.svg');
   }
   background-repeat: no-repeat;
   background-position: top center;
@@ -47,6 +47,7 @@
   }
   @include susy-breakpoint($break-xlarge) {
     max-width: none;
+    width: 30vw;
     margin-top: 20vw;
   }
 }
