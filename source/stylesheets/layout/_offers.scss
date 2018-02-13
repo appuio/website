@@ -423,6 +423,11 @@ section.offer-two-services {
 .offers-package-dedicated-info {
     display: none;
     margin: 0;
+    a {
+      &:hover {
+        color: $color-yellow;
+      }
+    }
 }
 
 .interest-item-price {

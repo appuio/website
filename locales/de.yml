@@ -277,7 +277,8 @@ de:
   offerTwoLabelPreis: "Preis"
   offerTwoLabelPreisPerDay: "pro Tag (exkl. MwSt.)"
   offerTwoLabelPreisPerMonth: "pro 30 Tage (exkl. MwSt.)"
-  offerPackageDedicatedInfo: "(Allenfalls macht für Sie ein Dedicated Node Sinn)"
+  offerPackageDedicatedInfo: |-
+    (Allenfalls macht für Sie ein   <a href="#offers-two-contact" onclick="void (document.getElementById('interest-dedicated').checked = true)" >Dedicated Node</a> Sinn)
 
   offerTwoPossibilitiesSmall: |-
     <li class="offers-package-item">Einfache Website mit geringen Zugriffen</li>

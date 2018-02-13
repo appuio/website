@@ -276,7 +276,8 @@ en:
   offerTwoLabelPreis: "Price"
   offerTwoLabelPreisPerDay: "per day (excl. VAT)"
   offerTwoLabelPreisPerMonth: "per 30 days (excl. VAT)"
-  offerPackageDedicatedInfo: "(At best a Dedicated Node makes sense for you)"
+  offerPackageDedicatedInfo:  |-
+    (At best a  <a href="#offers-two-contact" onclick="void (document.getElementById('interest-dedicated').checked = true)" >Dedicated Node</a> makes sense for you)
 
   offerTwoPossibilitiesSmall: |-
     <li class="offers-package-item">A simple website with little traffic</li>
