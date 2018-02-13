@@ -9,6 +9,6 @@
 - question: Where does APPUiO Public Platform run? Where are the data centers located?
   answer: The APPUiO Public Cloud is run on an IaaS platform by cloudscale.ch. The server is located in a data center e-shelter in Rümlang, Switzerland. For details check <a href="https://www.cloudscale.ch/en/about" target="new">https://www.cloudscale.ch/en/about</a>.
 - question: I am having trouble with my APPUiO project. Who can I contact? 
-  answer: For assistance, please contact support@appuio.ch or ask in our <a href="https://community.appuio.ch/" target="new">Community Chat</a>.
+  answer: For assistance, please contact support@appuio.ch or consult our <a href="https://forum.appuio.ch/" target="new">Supportforum</a>.
 - question: Where can I find technical FAQs?
   answer: Technical questions are answered on our documentation page at <a href="http://docs.appuio.ch/en/latest/faq.html" target="new">docs.appuio.ch</a>.
