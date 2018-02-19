@@ -17,9 +17,9 @@
     event.preventDefault();
     var target = $(event.currentTarget).attr('slide-toggle');
     target = $(this).parent().parent().find(target);
-    console.log(target);
     if (target.length) {
       target.slideToggle('fast');
+      $(this).parent().toggleClass('is-expanded');
     }
   });
 
