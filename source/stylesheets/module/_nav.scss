@@ -241,6 +241,20 @@ Responsive hotizontal menu.
   }
   &.is-current > a {
     color: #002F47;
+    display: inline-flex;
+    align-items: center;
+
+      @include susy-breakpoint($break-medium) {
+      &::after {
+        content: " ";
+        width: 0;
+        height: 0;
+        border-left: 3px solid transparent;
+        border-right: 3px solid transparent;
+        border-top: 4px solid #002F47;
+        margin-left: 0.4em;
+      }
+    }
   }
 }
 
@@ -250,6 +264,9 @@ Responsive hotizontal menu.
   flex-flow: row wrap;
   padding: 0;
   @include susy-breakpoint($break-medium) {
+    .for-mobile {
+      display: none;
+    }
   }
 }
 .nav-toggle-menu,
