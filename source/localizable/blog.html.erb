@@ -12,39 +12,21 @@ title: APPUiO - Swiss Container Platform - Blog
   <section class="news-section">
     <div class="grid-container">
       <h2>Blog</h2>
-        <div class="year">2017</div>
+      <% blog.local_articles.group_by {|a| a.date.year }.each do |year, articles| %>
+        <div class="year"><%= year %></div>
         <div class="dot"></div>
         <div class="year-container">
-            <% data["#{I18n.locale}"].blog17.each do |f| %>
-                <a name="<%= f["title"] %>" class="anchor"></a><a name="2017-<%= f["month"] %>-<%= f["day"] %>" class="anchor"></a>
+            <% articles.each do |article| %>
                 <div class="news-entry">
-
-                    <div class="date"><div class="month"><%= f["month"] %></div><div class="day"><%= f["day"] %></div></div>
+                    <div class="date"><div class="month"><%= article.date.strftime('%b') %></div><div class="day"><%= article.date.strftime('%d') %></div></div>
                     <div class="news-text">
-                        <h3><a href="#" slide-toggle=".news-details"><%= f["title"] %></a></h3>
-                        <p class="news-subtitle"><%= f["subtitle"] %></p>
-                        <div class="news-details"><%= f["details"] %></div>
+                        <h3><a href="<%= article.url %>"><%= article.title %></a></h3>
+                        <div class="news-details"><%= article.summary %></div>
                     </div>
                 </div>
             <% end %>
         </div>
-        <div class="year">2016</div>
-        <div class="dot"></div>
-        <div class="year-container">
-            <% data["#{I18n.locale}"].blog16.each do |f| %>
-            <a name="<%= f["title"] %>" class="anchor"></a><a name="2016-<%= f["month"] %>-<%= f["day"] %>" class="anchor"></a>
-            <div class="news-entry">
-              <div class="date"><div class="month"><%= f["month"] %></div><div class="day"><%= f["day"] %></div></div>
-              <div class="news-text">
-                <h3><a href="#" slide-toggle=".news-details"><%= f["title"] %></a></h3>
-                <p class="news-subtitle"><%= f["subtitle"] %></p>
-                <div class="news-text">
-                  <div class="news-details"><%= f["details"] %></div>
-                </div>
-              </div>
-            </div>
-            <% end %>
-          </div>
+        <% end %>
     </div>
   </section>
 </main>

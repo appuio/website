@@ -1,0 +1,42 @@
+---
+title: APPUiO - Swiss Container Platform - Blog
+---
+<% wrap_layout :layout do %>
+<%= partial "partials/github" %>
+<header class="header-container" role="banner">
+  <div class="grid-container">
+    <%= partial "partials/nav" %>
+  </div>
+</header>
+
+<main class="main-container" role="main">
+  <section class="news-section">
+    <div class="grid-container">
+      <h2>Blog</h2>
+      <h3><%= current_article.title unless current_article.nil? %></h3>
+      <div class="posts-container">
+        <article>
+            <time><%= current_article.date.strftime('%b %e, %Y') %></time>
+      <%= yield %>
+
+        </article>
+    </div>
+    <!-- <ul class="blog-article-nav">
+      <% prev_article = current_article.previous_article %>
+        <% if prev_article %>
+      <li>
+          <a href="<%= prev_article.url %>" rel="prev" title="Previous article: <%= prev_article.title %>"> <%= prev_article.title %> </a>
+      </li>
+  <% end %>
+  <% next_article = current_article.next_article %>
+    <% if next_article %>
+      <li>
+          <a href="<%= next_article.url %>" rel="next" title="Next article: <%= next_article.title %>"> <%= next_article.title %> </a>
+      </li>
+        <% end %>
+</ul> -->
+    </div>
+  </section>
+</main>
+<%= partial "partials/footer" %>
+<% end %>

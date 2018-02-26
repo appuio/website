@@ -1,5 +1,5 @@
 .news-section {
-  padding: rem-calc(15 0);
+  padding: rem-calc(15) 0 6rem 0;
   h2 {
     text-align: center;
   }
@@ -28,6 +28,12 @@
       margin-left: 2.25rem;
     }
   }
+  .blog-article-nav {
+    list-style-type: none;
+    li {
+      float: left;
+    }
+  }
   .news-entry {
     display: flex;
     flex-direction: row;
@@ -43,9 +49,6 @@
         text-decoration: none;
       }
     }
-  }
-  .news-details {
-    display: none;
   }
   .dot {
     display: none;
