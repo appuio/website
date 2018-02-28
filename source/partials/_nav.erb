@@ -17,7 +17,6 @@
       <a href="#">Community</a>
       <ul>
         <li><a target="_blank" href="http://docs.appuio.ch"><%= t(:navGlobalDocs) %></a></li>
-        <li class="<%= nav_active('faq.html') %>"><a href="faq.html"><%= t(:navGlobalFAQ) %></a></li>
         <li><a target="_blank" href="https://community.appuio.ch"><%= t(:navGlobalCommunityChat) %></a></li>
       </ul>
     </li>
@@ -32,6 +31,7 @@
         <li><a href="<%= change_language('en') %>">EN</a></li>
       </ul>
     </li>
+    <li class="for-mobile"><a href="<%= change_language('en') %>">EN</a></li>
     <!--<li><a href="<%= change_language('fr') %>">FR</a></li> -->
     <% end %>
     <% if (I18n.locale == :en) %>
@@ -40,6 +40,7 @@
         <li><a href="<%= change_language('de') %>">DE</a></li>
       </ul>
     </li>
+    <li class="for-mobile"><a href="<%= change_language('de') %>">DE</a></li>
     <!--<li><a href="<%= change_language('fr') %>">FR</a></li> -->
     <% end %>
     <li><a target="_blank" href="https://console.appuio.ch"><%= t(:navGlobalLogin) %></a></li>

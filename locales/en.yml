@@ -238,7 +238,7 @@ en:
   offerTwoPackageContentsTitle: Services Included
   offerTwoPackageContentsFirstTitle: Backup and Monitoring
   offerTwoPackageContentsFirstItemOne: We’re backing all relevant data up once a day. Additional, available resources are visible in the portal. On https://status.appuio.ch you can have a look at the current state of the Public Platform at all times.
-  offerTwoPackageContentsSecondTitle: TCP Traffic (Beta)
+  offerTwoPackageContentsSecondTitle: TCP and UDP Traffic
   offerTwoPackageContentsSecondItemOne: With APPUiO, it’s possible to route Non-HTTP-Traffic into Public Clusters. This allows for customer IPs to be bound to services and provide for example databases, LDAP servers or SSH services publicly.
   offerTwoPackageContentsThirdTitle: Let’s Encrypt Certificates
   offerTwoPackageContentsThirdItemOne: APPUiO enables you to configure valid SSL-certificates signed by “Let’s Encrypt" into your routes at the push of a button. Once successfully registered, APPUiO automatically takes care of updating the certificates (that have a validity period of three months) when necessary.
@@ -276,7 +276,8 @@ en:
   offerTwoLabelPreis: "Price"
   offerTwoLabelPreisPerDay: "per day (excl. VAT)"
   offerTwoLabelPreisPerMonth: "per 30 days (excl. VAT)"
-  offerPackageDedicatedInfo: "(At best a Dedicated Node makes sense for you)"
+  offerPackageDedicatedInfo:  |-
+    (At best a  <a href="#offers-two-contact" onclick="void (document.getElementById('interest-dedicated').checked = true)" >Dedicated Node</a> makes sense for you)
 
   offerTwoPossibilitiesSmall: |-
     <li class="offers-package-item">A simple website with little traffic</li>
@@ -317,6 +318,9 @@ en:
   offerTwoAddon4Title: Persistent Storage
   offerTwoAddon4Description: per GB/day
   offerTwoAddon4Price: 0.0935 CHF
+  offerTwoAddon5Title: TCP und UDP Ingress
+  offerTwoAddon5Description: pro Service/Tag
+  offerTwoAddon5Price: 0.35 CHF
 
   offerTwoStorageDescription: Persistent Storage steht dir direkt in der Web Console oder via CLI zur Verfügung und kann als sogenannte Persistent Volumes direkt an deinen Container angebunden werden. Die Abrechnung erfolgt nach Verbrauch.
 
@@ -484,8 +488,9 @@ en:
     </ul>
     <p>Dates:</p>
     <ul>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/73530844246">March 01, 2018 in Zurich</a></li>
     <li><a href="https://app.hatchbuck.com/OnlineForm/80315757230">April 19, 2018 in Bern</a></li>
+    <li><a href="https://app.hatchbuck.com/OnlineForm/80520633618">May 31, 2018 in Zurich</a></li>
+    <li><a href="https://app.hatchbuck.com/OnlineForm/80520633621">July 05, 2018 in Bern</a></li>
     </ul>
     <p>Time: 14.00 to 17.30h<br>
     Location: Either Neugasse 10 in Zurich or Belpstrasse 37 in Berne</p>

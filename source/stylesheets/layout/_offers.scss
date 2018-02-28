@@ -68,6 +68,12 @@
   }
 }
 
+.offer-two-contents {
+  .offers-package-item-description {
+    display: none;
+  }
+}
+
 .offer-addons {
   background-color: $color-lightblue;
   color: white;
@@ -111,12 +117,48 @@
         font-size: 1.125rem;
         font-weight: bold;
         margin-bottom: 0;
+
       }
         &:not(:last-child) {
           padding-right: 2rem;
         }
+
+        .offers-faq-list-answer {
+          display: none;
+        }
     }
 
+  }
+}
+
+
+.expandable-title {
+  &::after {
+    background-image: url("/images/caret_down.svg");
+    background-size: 24px auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    content: " ";
+    width: 24px;
+    height: 12px;
+    margin-left: 1em;
+    transition: transform 500ms;
+    // transform: scaleY(-1);
+    // filter: FlipV;
+  }
+  &.is-expanded {
+    &::after {
+      transform: scaleY(-1);
+      filter: FlipV;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: black;
+
+    &:focus {
+        outline: none;
+    }
   }
 }
 
@@ -423,6 +465,11 @@ section.offer-two-services {
 .offers-package-dedicated-info {
     display: none;
     margin: 0;
+    a {
+      &:hover {
+        color: $color-yellow;
+      }
+    }
 }
 
 .interest-item-price {
