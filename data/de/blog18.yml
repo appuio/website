@@ -3,7 +3,7 @@
   title: "Neu bei APPUiO: Betreibe jegliche Art von Service"
   subtitle: "Von Beginn an unterstützt APPUiO dank OpenShift jegliche Art von Applikationen. Neu ist sogar der Zugriff vom Internet via TCP oder UDP auf die Services möglich."
   details: |
-            <p>„Durch die Containertechnologie ist es möglich, nahezu jede Applikation auf APPUiO zu deployen. Die grösste Einschränkung war bis jetzt, dass der Zugriff vom Internet aus nur über HTTP oder HTTPS möglich war. Das ist ab sofort anders! Wir unterstützen neu den Zugriff vom Internet via TCP oder UDP auf jede Art von Applikation, die auf APPUiO läuft.“</p>
+            <p>Durch die Containertechnologie ist es möglich, nahezu jede Applikation auf APPUiO zu deployen. Die grösste Einschränkung war bis jetzt, dass der Zugriff vom Internet aus nur über HTTP oder HTTPS möglich war. Das ist ab sofort anders! Wir unterstützen neu den Zugriff vom Internet via TCP oder UDP auf jede Art von Applikation, die auf APPUiO läuft.</p>
 
             <h4>Und so funktioniert es</h4>
 
@@ -28,6 +28,6 @@
             <br>
             <p>Nun ist der Service, der in den vom Service selektierten Pods läuft, über die automatisch zugewiesene externe IP-Adresse und dem definierten Port erreichbar.</p>
             <br>
-            <p>Die offizielle Dokumentation zu diesem Feature ist unter <a href="http://docs.appuio.ch/en/latest/">docs.appuio.ch</a> zu finden. Ein solcher Service mit einer öffentlichen IP-Adresse kostet CHF 0.35 pro Tag. Bei Fragen stehen wir jederzeit unter <a href="mailto:support@appuio.ch?Subject=non-http" target="_top">support@appuio.ch</a> zur Verfügung. Wir helfen auch gerne bei der Implementation Ihres Services auf APPUiO.</p>
+            <p>Die offizielle Dokumentation zu diesem Feature ist unter <a href="http://docs.appuio.ch/en/latest/non-http-services.html">docs.appuio.ch</a> zu finden. Ein solcher Service mit einer öffentlichen IP-Adresse kostet CHF 0.35 pro Tag. Bei Fragen stehen wir jederzeit unter <a href="mailto:support@appuio.ch?Subject=non-http" target="_top">support@appuio.ch</a> zur Verfügung. Wir helfen auch gerne bei der Implementation Ihres Services auf APPUiO.</p>
 
 
