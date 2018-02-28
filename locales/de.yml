@@ -239,7 +239,7 @@ de:
   offerTwoPackageContentsTitle: Im Angebot enthalten
   offerTwoPackageContentsFirstTitle: Backup und Monitoring
   offerTwoPackageContentsFirstItemOne: Wir erstellen einmal täglich ein Backup aller relevanten Daten. Zudem sind im Portal die verfügbaren Ressourcen ersichtlich. Auf <a href="https://status.appuio.ch">status.appuio.ch</a> siehst du jederzeit den Status der Public Plattform.
-  offerTwoPackageContentsSecondTitle: TCP Traffic (Beta)
+  offerTwoPackageContentsSecondTitle: TCP und UDP Traffic
   offerTwoPackageContentsSecondItemOne: Mit APPUiO kannst du Non-HTTP-Traffic in Public Cluster routen. So können Kunden IPs an Services anbinden und beispielsweise Datenbanken, LDAP Server, SSH Server öffentlich zur Verfügung stellen.
   offerTwoPackageContentsThirdTitle: Let’s Encrypt Zertifikate
   offerTwoPackageContentsThirdItemOne: APPUiO erlaubt es dir, mittels “Let’s Encrypt" einfach per Knopfdruck echte SSL-Zertifikate in deine Routen zu konfigurieren. Nach erfolgter Registrierung sorgt APPUiO für die Aktualisierung der Lets Encrypt-Zertifikate, die 3 Monate gültig sind, und ersetzt diese automatisch nach Ablauf.
@@ -324,6 +324,9 @@ de:
   offerTwoAddon4Title: Persistent Storage
   offerTwoAddon4Description: pro GB/Tag
   offerTwoAddon4Price: 0.0935 CHF
+  offerTwoAddon5Title: TCP und UDP Ingress
+  offerTwoAddon5Description: pro Service/Tag
+  offerTwoAddon5Price: 0.35 CHF
 
 
 
