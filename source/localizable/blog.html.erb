@@ -12,6 +12,22 @@ title: APPUiO - Swiss Container Platform - Blog
   <section class="news-section">
     <div class="grid-container">
       <h2>Blog</h2>
+        <div class="year">2018</div>
+        <div class="dot"></div>
+        <div class="year-container">
+            <% data["#{I18n.locale}"].blog18.each do |f| %>
+                <a name="<%= f["title"] %>" class="anchor"></a><a name="2018-<%= f["month"] %>-<%= f["day"] %>" class="anchor"></a>
+                <div class="news-entry">
+
+                    <div class="date"><div class="month"><%= f["month"] %></div><div class="day"><%= f["day"] %></div></div>
+                    <div class="news-text">
+                        <h3><a href="#" slide-toggle=".news-details"><%= f["title"] %></a></h3>
+                        <p class="news-subtitle"><%= f["subtitle"] %></p>
+                        <div class="news-details"><%= f["details"] %></div>
+                    </div>
+                </div>
+            <% end %>
+        </div>
         <div class="year">2017</div>
         <div class="dot"></div>
         <div class="year-container">

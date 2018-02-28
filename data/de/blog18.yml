@@ -1,0 +1,33 @@
+- day: 28
+  month: Feb
+  title: "Neu bei APPUiO: Betreibe jegliche Art von Service"
+  subtitle: "Von Beginn an unterstützt APPUiO dank OpenShift jegliche Art von Applikationen. Neu ist sogar der Zugriff vom Internet via TCP oder UDP auf die Services möglich."
+  details: |
+            <p>„Durch die Containertechnologie ist es möglich, nahezu jede Applikation auf APPUiO zu deployen. Die grösste Einschränkung war bis jetzt, dass der Zugriff vom Internet aus nur über HTTP oder HTTPS möglich war. Das ist ab sofort anders! Wir unterstützen neu den Zugriff vom Internet via TCP oder UDP auf jede Art von Applikation, die auf APPUiO läuft.“</p>
+
+            <h4>Und so funktioniert es</h4>
+
+            <p>Da sich Services im Moment noch nicht über das OpenShift Webinterface erstellen lassen, muss dies über den Command Line Client oc gemacht werden. Dies ist aber ganz einfach:</p>
+            <br>
+            <p>1. Anmelden an APPUiO</p>
+
+            <pre><code>oc login console.appuio.ch
+            </code></pre>
+            <br>
+            <p>2. Service erstellen (Beispiel mit TCP)</p>
+
+            <pre><code>oc -n MYPROJECT create service loadbalancer mytcpservice --tcp=587:587
+            </code></pre>
+            <p>Hinweis: Dieser so erstellte Service selektiert automatisch alle Pods mit dem Label app=mytcpservice</p>
+            <br>
+            <p>3. Zugewiesene externe IP Adresse abrufen</p>
+
+            <pre><code>oc -n MYPROJECT describe service mytcpservice
+            </code></pre>
+            <p>Die IP Adresse findet man im Feld "External IPs".</p>
+            <br>
+            <p>Nun ist der Service, der in den vom Service selektierten Pods läuft, über die automatisch zugewiesene externe IP-Adresse und dem definierten Port erreichbar.</p>
+            <br>
+            <p>Die offizielle Dokumentation zu diesem Feature ist unter <a href="http://docs.appuio.ch/en/latest/">docs.appuio.ch</a> zu finden. Ein solcher Service mit einer öffentlichen IP-Adresse kostet CHF 0.35 pro Tag. Bei Fragen stehen wir jederzeit unter <a href="mailto:support@appuio.ch?Subject=non-http" target="_top">support@appuio.ch</a> zur Verfügung. Wir helfen auch gerne bei der Implementation Ihres Services auf APPUiO.</p>
+
+
