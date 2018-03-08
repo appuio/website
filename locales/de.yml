@@ -32,6 +32,7 @@ de:
   homeHeroAlt: APPUiO - Swiss Container Platform
   homeHeroTitle: Open Container Platform with a powerful Community
   homeHeroSignup: Für Public Platform anmelden
+  homeHeroRegister: Voucher einlösen
   homeHeroDesc: |-
     <p>APPUiO ist die erste Schweizer Container Plattform basierend auf OpenShift von Red Hat. Auf Basis bewährter Open Source Konzepte wie Docker und Kubernetes entwickelst, betreibst und skalierst du eine Anwendung nach deinen Bedürfnissen. Mit APPUiO können deine Applikationen sowohl auf Public Clouds als auch unternehmensintern betrieben werden.</p>
     <p>Die Plattform wurde von den beiden IT-Spezialisten <a href="https://www.puzzle.ch/de/">Puzzle ITC</a> und <a href="https://vshn.ch/">VSHN AG</a> ursprünglich für die Professionalisierung der internen IT entwickelt. Heute wird APPUiO bereits von etlichen Kunden produktiv eingesetzt und wird von einer starken Community gestützt.</p>
