@@ -1,3 +1,23 @@
+- day: 14
+  month: Mar
+  title: "APPUiO an den Voxxed Days 2018"
+  subtitle: "Am 8. März 2018 trafen sich rund 400 Entwickler an den Voxxed Days in Zürich. APPUiO unterstützt die Konferenz seit Beginn und empfing die Teilnehmenden dieses Jahr mit einem Photobooth."
+  details: |
+            <p>Bereits zum dritten Mal traf sich Anfang März die Entwickler-Community an den Voxxed Days in Zürich. Spannende Talks zu Themengebieten wie Java, Big Data, Cloud oder Serverless standen auf dem Programm. Für uns vom APPUiO-Team stand der Austausch mit den Entwicklern im Vordergrund. </p>
+
+            <p>Ebenfalls spannend waren für uns folgende Expertentalks:</p>
+            <br>
+            <p><a href="https://www.youtube.com/watch?v=uMCtcZ46gns&index=7&list=PLRsbF2sD7JVoqk0_lddVq-tAdskIimLwL&t=0s">Real world serverless - architecture, patterns and lessons learned</a>: Lessons learned wie eine Applikation mit AWS Lamba betrieben werden kann.</p>
+            <p><a href="https://www.youtube.com/watch?v=t8eXXrUZ54Y&index=30&list=PLRsbF2sD7JVoqk0_lddVq-tAdskIimLwL&t=0s">Troubleshooting & Debugging Production Applications in Kubernetes</a>: Einblick in ein Toolset um debugging aufs nächste Level zu bringen.</p>
+            <p><a href="https://www.youtube.com/watch?v=pz1gi2KW1K8&index=25&list=PLRsbF2sD7JVoqk0_lddVq-tAdskIimLwL&t=0s">One does not simply log in! - SSO for Web APIs</a>: Keycloak, OAuth2, OpenID Connect und JSON Web Tokens (JWT) waren hier das Thema.</p>
+            <p><a href="https://www.youtube.com/watch?v=OXLABLRNuzI&index=10&list=PLRsbF2sD7JVoqk0_lddVq-tAdskIimLwL&t=0s">Introduction to Apache Kafka as Event-Driven Open Source Streaming Platform</a>: Einführung in Apache Kafka.</p>
+            
+            <p>Alle Talks der Voxxed Days können auf YouTube nachgeschaut werden: <a href="https://www.youtube.com/playlist?list=PLRsbF2sD7JVoqk0_lddVq-tAdskIimLwL">YouTube playlist</a></p>
+            
+            <p>Nächstes Jahr finden die Voxxed Days am 21. März 2019 wiederum im Sihlcity Cinema in Zürich statt. Wir freuen uns darauf!</p>
+
+
+
 - day: 28
   month: Feb
   title: "Neu bei APPUiO: Betreibe jegliche Art von Service"
