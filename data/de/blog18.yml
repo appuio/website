@@ -6,7 +6,6 @@
             <p>Bereits zum dritten Mal traf sich Anfang März die Entwickler-Community an den Voxxed Days in Zürich. Spannende Talks zu Themengebieten wie Java, Big Data, Cloud oder Serverless standen auf dem Programm. Für uns vom APPUiO-Team stand der Austausch mit den Entwicklern im Vordergrund. </p>
 
             <p>Ebenfalls spannend waren für uns folgende Expertentalks:</p>
-            <br>
             <p><a href="https://www.youtube.com/watch?v=uMCtcZ46gns&index=7&list=PLRsbF2sD7JVoqk0_lddVq-tAdskIimLwL&t=0s">Real world serverless - architecture, patterns and lessons learned</a>: Lessons learned wie eine Applikation mit AWS Lamba betrieben werden kann.</p>
             <p><a href="https://www.youtube.com/watch?v=t8eXXrUZ54Y&index=30&list=PLRsbF2sD7JVoqk0_lddVq-tAdskIimLwL&t=0s">Troubleshooting & Debugging Production Applications in Kubernetes</a>: Einblick in ein Toolset um debugging aufs nächste Level zu bringen.</p>
             <p><a href="https://www.youtube.com/watch?v=pz1gi2KW1K8&index=25&list=PLRsbF2sD7JVoqk0_lddVq-tAdskIimLwL&t=0s">One does not simply log in! - SSO for Web APIs</a>: Keycloak, OAuth2, OpenID Connect und JSON Web Tokens (JWT) waren hier das Thema.</p>
