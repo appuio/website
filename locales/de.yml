@@ -165,7 +165,7 @@ de:
   offerOneList4: Update und Servermanagement
   offerOneList5: Datenstandort e-Shelter Schweiz
   offerOneList6: Backup an einen zweiten Standort
-  offerOneList7: “Small - Medium - Large&#58; Auf Sie zugeschnittene Angebote“
+  offerOneList7: Mit zusätzlichen Add-Ons
   offerOneIso: Deine APPUiO Managed Private Platform wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
 
   offerOneServiceTitle: Zusätzliche Services
@@ -173,18 +173,18 @@ de:
   offerOneServices2: “Bring my App to the Cloud“ - wir beraten und setzen auch um.
   offerOneServices3: “Automatisierung Ihrer Prozesse&#58; Continuous Delivery und Continuous Deployment deiner Applikationen.“
 
-  offerOnePackageTitle: “Wähle das für deine Bedürfnisse passende Paket&#58;“
+  offerOnePackageTitle: Unser minimales Setup mit zustätzlichen Add-Ons
   offerOnePackageSmallTitle: Small
   offerOnePackageSmallItem1: Master <br> (je 16 GB Ram, 6vCores)
   offerOnePackageSmallItem2: 2 Nodes <br> (je 16 GB Ram, 6vCores, 100 GB Docker Storage)
   offerOnePackageSmallItem3: 200 GB Persistent Storage
   offerOneSmallButton: Small
 
-  offerOnePackageMediumTitle: Medium
+  offerOnePackageMediumTitle: Managed Pirvate
   offerOnePackageMediumItem1: 3 Master <br> (je 16 GB Ram, 6vCores)
   offerOnePackageMediumItem2: 4 Nodes <br> (je 32 GB Ram, 8vCores, 100 GB Docker Storage)
   offerOnePackageMediumItem3: 500 GB Persistent Storage
-  offerOneMediumButton: Medium
+  offerOneMediumButton: Interessiert?
 
   offerOnePackageLargeTitle: Large
   offerOnePackageLargeItem1: 3 Master <br> (je 16 GB Ram, 6vCores)
