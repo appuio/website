@@ -159,10 +159,10 @@ en:
   offerOneList2: 09.00 - 18.00 Phone + Email support
   offerOneList3: Proactive alarming Monitoring
   offerOneList4: Update und server management
-  offerOneList5: Data location and e-Shelter Switzerland
+  offerOneList5: Data location according to customer requirements
   offerOneList6: Backup to second location
-  offerOneList7: "Small - Medium - Large: Tailored Solutions"
-  offerOneIso: Your APPUiO managed private platform runs in data centers certified to ISO27001 and according to FINMA guidelines in Switzerland and is subject to Swiss law.
+  offerOneList7: With additional add-ons
+  offerOneIso: Your APPUiO managed private platform can run in data centers certified to ISO27001 and according to FINMA guidelines in Switzerland and is subject to Swiss law or on your wish on AWS, Azure or Google Cloud 
 
   offerOneServiceTitle: Aside from optimal data protection we also offer you the following additional services
   offerOneServices1: Consulting Setup und initialization
@@ -172,18 +172,18 @@ en:
 
 
   offerOnePackageTitle: |-
-    Choose the package that's right for you:
+    Our standard setup with additional add-ons:
   offerOnePackageSmallTitle: Small
   offerOnePackageSmallItem1: Master <br> (je 16 GB Ram, 6vCores)
   offerOnePackageSmallItem2: 2 Nodes <br> (je 16 GB Ram, 6vCores, 100 GB Docker Storage)
   offerOnePackageSmallItem3: 200 GB Persistent Storage
   offerOneSmallButton: Small
 
-  offerOnePackageMediumTitle: Medium
+  offerOnePackageMediumTitle: Managed Private
   offerOnePackageMediumItem1: 3 Master <br> (je 16 GB Ram, 6vCores)
-  offerOnePackageMediumItem2: 4 Nodes <br> (je 32 GB Ram, 8vCores, 100 GB Docker Storage)
+  offerOnePackageMediumItem2: 3 Nodes <br> (je 32 GB Ram, 8vCores, 100 GB Docker Storage)
   offerOnePackageMediumItem3: 500 GB Persistent Storage
-  offerOneMediumButton: Medium
+  offerOneMediumButton: Interested?
 
   offerOnePackageLargeTitle: Large
   offerOnePackageLargeItem1: 3 Master <br> (je 16 GB Ram, 6vCores)
