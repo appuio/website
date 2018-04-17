@@ -1,7 +1,7 @@
 - day: 06
   month: Apr
   title: "Adcubum und APPUiO"
-  subtitle: "Seit 1997 bietet Adcubum als Marktführer Kranken- und Unfallversicherungen die Standardsoftware adcubum SYRIUS an. Rund 20 Jahre später wird die Software nun mit Hilfe von APPUiO auf OpenShift von Red Hat transferiert."
+  subtitle: "Seit 1997 bietet Adcubum als führender Schweizer Hersteller von Standardsoftware für die Versicherungswirtschaft die Software adcubum SYRIUS an. Rund 20 Jahre später wird die Software nun mit Hilfe von APPUiO auf OpenShift von Red Hat transferiert."
   details: |
             <img src="/images/Partner-037_def_web_01.jpg" alt="Adcubum"/>
             <p>Unflexibilität, hohe Koordination und technische Herausforderungen: „2016 merkten wir, dass die Konfiguration von mehreren Applikationen in der damaligen Umgebung sehr komplex war“, erklärt Matthias Summer, Senior System Engineer bei Adcubum. Nach intensiver Recherche nach Lösungen stand fest: „Wir wollen OpenShift von Red Hat nutzen“. Mit APPUiO habe man sogar einen Partner gefunden, der noch viel mehr bietet. „Erfahrene Experten, die sich tagtäglich mit OpenShift auseinandersetzen, haben die Plattform hier bei uns im Haus aufgebaut und uns geschult”, so Summer. Gemeinsam mit seinem Team von insgesamt fünf System Engineers betreibt Summer rund 500 Testinstallationen von adcubum SYRIUS. „Dank APPUiO können wir nun auf Knopfdruck Testumgebungen deployen“, sagt Summer.</p>
