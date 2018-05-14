@@ -32,6 +32,7 @@ de:
   homeHeroAlt: APPUiO - Swiss Container Platform
   homeHeroTitle: Open Container Platform with a powerful Community
   homeHeroSignup: Für Public Platform anmelden
+  homeHeroRegister: Voucher einlösen
   homeHeroDesc: |-
     <p>APPUiO ist die erste Schweizer Container Plattform basierend auf OpenShift von Red Hat. Auf Basis bewährter Open Source Konzepte wie Docker und Kubernetes entwickelst, betreibst und skalierst du eine Anwendung nach deinen Bedürfnissen. Mit APPUiO können deine Applikationen sowohl auf Public Clouds als auch unternehmensintern betrieben werden.</p>
     <p>Die Plattform wurde von den beiden IT-Spezialisten <a href="https://www.puzzle.ch/de/">Puzzle ITC</a> und <a href="https://vshn.ch/">VSHN AG</a> ursprünglich für die Professionalisierung der internen IT entwickelt. Heute wird APPUiO bereits von etlichen Kunden produktiv eingesetzt und wird von einer starken Community gestützt.</p>
@@ -162,28 +163,28 @@ de:
   offerOneList2: 09&#58;00 - 18&#58;00 Telefon- und E-Mail-Support
   offerOneList3: Proaktives Alarming Monitoring
   offerOneList4: Update und Servermanagement
-  offerOneList5: Datenstandort e-Shelter Schweiz
+  offerOneList5: Datenstandort nach Kundenwunsch
   offerOneList6: Backup an einen zweiten Standort
-  offerOneList7: “Small - Medium - Large&#58; Auf Sie zugeschnittene Angebote“
-  offerOneIso: Deine APPUiO Managed Private Platform wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
+  offerOneList7: Mit zusätzlichen Add-Ons
+  offerOneIso: Deine APPUiO Managed Private Platform kann in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht oder auf deinen Wunsch bei AWS, Azure oder Google Cloud
 
   offerOneServiceTitle: Zusätzliche Services
   offerOneServices1: Consulting Setup und Initialisierung.
   offerOneServices2: “Bring my App to the Cloud“ - wir beraten und setzen auch um.
   offerOneServices3: “Automatisierung Ihrer Prozesse&#58; Continuous Delivery und Continuous Deployment deiner Applikationen.“
 
-  offerOnePackageTitle: “Wähle das für deine Bedürfnisse passende Paket&#58;“
+  offerOnePackageTitle: Unser minimales Setup mit zustätzlichen Add-Ons
   offerOnePackageSmallTitle: Small
   offerOnePackageSmallItem1: Master <br> (je 16 GB Ram, 6vCores)
   offerOnePackageSmallItem2: 2 Nodes <br> (je 16 GB Ram, 6vCores, 100 GB Docker Storage)
   offerOnePackageSmallItem3: 200 GB Persistent Storage
   offerOneSmallButton: Small
 
-  offerOnePackageMediumTitle: Medium
+  offerOnePackageMediumTitle: Managed Private
   offerOnePackageMediumItem1: 3 Master <br> (je 16 GB Ram, 6vCores)
-  offerOnePackageMediumItem2: 4 Nodes <br> (je 32 GB Ram, 8vCores, 100 GB Docker Storage)
+  offerOnePackageMediumItem2: 3 Nodes <br> (je 32 GB Ram, 8vCores, 100 GB Docker Storage)
   offerOnePackageMediumItem3: 500 GB Persistent Storage
-  offerOneMediumButton: Medium
+  offerOneMediumButton: Interessiert?
 
   offerOnePackageLargeTitle: Large
   offerOnePackageLargeItem1: 3 Master <br> (je 16 GB Ram, 6vCores)
@@ -239,7 +240,7 @@ de:
   offerTwoPackageContentsTitle: Im Angebot enthalten
   offerTwoPackageContentsFirstTitle: Backup und Monitoring
   offerTwoPackageContentsFirstItemOne: Wir erstellen einmal täglich ein Backup aller relevanten Daten. Zudem sind im Portal die verfügbaren Ressourcen ersichtlich. Auf <a href="https://status.appuio.ch">status.appuio.ch</a> siehst du jederzeit den Status der Public Plattform.
-  offerTwoPackageContentsSecondTitle: TCP Traffic (Beta)
+  offerTwoPackageContentsSecondTitle: TCP und UDP Traffic
   offerTwoPackageContentsSecondItemOne: Mit APPUiO kannst du Non-HTTP-Traffic in Public Cluster routen. So können Kunden IPs an Services anbinden und beispielsweise Datenbanken, LDAP Server, SSH Server öffentlich zur Verfügung stellen.
   offerTwoPackageContentsThirdTitle: Let’s Encrypt Zertifikate
   offerTwoPackageContentsThirdItemOne: APPUiO erlaubt es dir, mittels “Let’s Encrypt" einfach per Knopfdruck echte SSL-Zertifikate in deine Routen zu konfigurieren. Nach erfolgter Registrierung sorgt APPUiO für die Aktualisierung der Lets Encrypt-Zertifikate, die 3 Monate gültig sind, und ersetzt diese automatisch nach Ablauf.
@@ -324,6 +325,9 @@ de:
   offerTwoAddon4Title: Persistent Storage
   offerTwoAddon4Description: pro GB/Tag
   offerTwoAddon4Price: 0.0935 CHF
+  offerTwoAddon5Title: TCP und UDP Ingress
+  offerTwoAddon5Description: pro Service/Tag
+  offerTwoAddon5Price: 0.35 CHF
 
 
 
@@ -444,8 +448,8 @@ de:
     </ul>
     <p>Daten:</p>
     <ul>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/73530844246">01. März 2018 in Zürich</a></li>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/80315757230">19. April 2018 in Bern</a></li>
+    <li><a href="https://app.hatchbuck.com/OnlineForm/80520633618">31. Mai 2018 in Zürich</a></li>    
+    <li><a href="https://app.hatchbuck.com/OnlineForm/80520633621">05. Juli 2018 in Bern</a></li>
     </ul>
     <p>Zeit: 14:00 bis 17:30 Uhr<br>
     Ort: Neugasse 10, Zürich oder Belpstrasse 37, Bern</p>
