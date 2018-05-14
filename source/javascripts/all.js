@@ -12,6 +12,15 @@
     }
   });
 
+  // Expand blogpost if ancor is in url
+  if(window.location.href.indexOf("blog") > -1 && window.location.hash) {
+     var hash = window.location.hash.substring(1);
+     var target = 'a[name="'+hash+'"]';
+     console.log(target);
+     $(target).parent().addClass('is-expanded');
+     var nextTarget = $(target).parent().find('.news-details');
+     nextTarget.show();
+   }
 
   // Collapse
   $("[slide-toggle]").click(function(event) {
