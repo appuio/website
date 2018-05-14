@@ -12,6 +12,7 @@
     }
   });
 
+
   // Collapse
   $("[slide-toggle]").click(function(event) {
     event.preventDefault();
@@ -19,7 +20,7 @@
     target = $(this).parent().parent().find(target);
     if (target.length) {
       target.slideToggle('fast');
-      $(this).parent().toggleClass('is-expanded');
+      $(this).parent().parent().toggleClass('is-expanded');
     }
   });
 

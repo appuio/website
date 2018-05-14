@@ -106,11 +106,13 @@ de:
   homeClientsTitle: Unsere Kunden
   homeClientsOneTitle: „Mit APPUiO haben wir OpenShift-Experten, die uns mit ihrer langjährigen Erfahrung jederzeit unterstützen.“
   homeClientsOneDesc: Matthias Summer, System Engineer <b>@Adcubum AG</b>
+  homeClientsOneButton: Mehr
   homeClientsTwoTitle: „Von APPUiO profitieren nicht nur wir, sondern auch unsere Endkunden.“
   homeClientsTwoDesc: Bastian Widmer, System Engineer <b>@Amazee.io</b>
+  homeClientsTwoButton: Mehr
   homeClientsThreeTitle: „APPUiO erfüllt unsere hohen Sicherheitsanforderungen.“
   homeClientsThreeDesc: Michael Gerber, Software Developer <b>@HRM Systems AG</b>
-
+  homeClientsThreeButton: Mehr
 
 # Home: Technologies sections
   homeTechnologiesTitle: Technologien
@@ -426,6 +428,9 @@ de:
   mailGotAMessage: We just recieved a message from APPUiO.ch!
   mailSubject: Ich interessiere mich für
 
+# Blog
+  readMoreButton: weiterlesen
+
 # Techlab Page
   techlabPageTitle: Techlab
   techlabTitle: APPUiO & OpenShift Techlabs in Bern und Zürich
@@ -448,7 +453,7 @@ de:
     </ul>
     <p>Daten:</p>
     <ul>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/80520633618">31. Mai 2018 in Zürich</a></li>    
+    <li><a href="https://app.hatchbuck.com/OnlineForm/80520633618">31. Mai 2018 in Zürich</a></li>
     <li><a href="https://app.hatchbuck.com/OnlineForm/80520633621">05. Juli 2018 in Bern</a></li>
     </ul>
     <p>Zeit: 14:00 bis 17:30 Uhr<br>
