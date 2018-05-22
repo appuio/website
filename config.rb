@@ -48,6 +48,11 @@ end
 
 activate :i18n
 activate :automatic_image_sizes
+activate :blog do |blog|
+  blog.sources = "{lang}/{year}-{month}-{day}-{title}.html"
+  blog.layout = "blog"
+  blog.prefix = "blog"
+end
 
 
 # Evil icons https://github.com/outpunk/evil-icons
