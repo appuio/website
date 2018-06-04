@@ -27,7 +27,8 @@ en:
 # Homepage
   homeNewsTitle: News
   homeNewsText: |-
-    The APPUiO Roadmap - help us to shape the future of APPUiO <a href="https://trello.com/b/kpVq53J2/appuio-roadmap">&gt;&gt;</a>.
+    DThe success story of Adcubum with APPUiO! <a href="https://www.appuio.ch/blog.html#2018-Apr-6">Let me see</a>.
+
   homeHeroAlt: APPUiO - Swiss Container Platform
   homeHeroTitle: Open Container Platform with a powerful Community.
   homeHeroSignup: Sign up for Public Platform
@@ -162,7 +163,7 @@ en:
   offerOneList5: Data location according to customer requirements
   offerOneList6: Backup to second location
   offerOneList7: With additional add-ons
-  offerOneIso: Your APPUiO managed private platform can run in data centers certified to ISO27001 and according to FINMA guidelines in Switzerland and is subject to Swiss law or on your wish on AWS, Azure or Google Cloud 
+  offerOneIso: Your APPUiO managed private platform can run in data centers certified to ISO27001 and according to FINMA guidelines in Switzerland and is subject to Swiss law or on your wish on AWS, Azure or Google Cloud
 
   offerOneServiceTitle: Aside from optimal data protection we also offer you the following additional services
   offerOneServices1: Consulting Setup und initialization

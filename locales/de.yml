@@ -23,11 +23,12 @@ de:
 
 # Footer
   footerTel: Telefonisch erreichst du uns unter +41 44 552 22 40
+  footerImpressumDataPrivacy: Impressum & Datenschutz
 
 # Home Seite
   homeNewsTitle: News
   homeNewsText: |-
-    Die APPUiO Roadmap - hilf mit, die Zukunft von APPUiO zu bestimmen<a href="https://trello.com/b/kpVq53J2/appuio-roadmap">&gt;&gt;</a>.
+    Die Erfolgsstory von Adcubum mit APPUiO! <a href="https://www.appuio.ch/blog.html#2018-Apr-6">Will ich lesen</a>
 
   homeHeroAlt: APPUiO - Swiss Container Platform
   homeHeroTitle: Open Container Platform with a powerful Community
@@ -459,3 +460,14 @@ de:
     <p>Zeit: 14:00 bis 17:30 Uhr<br>
     Ort: Neugasse 10, Zürich oder Belpstrasse 37, Bern</p>
     <p>Die Teilnahme ist kostenlos. Bitte bring für das Lab deinen Laptop mit. Die Platzzahl ist beschränkt.</p>
+
+# Impressum und datenschutz
+  impressumTitle: Impressum
+  impressumAddress: |-
+    APPUiO<br />
+    c/o VSHN AG<br />
+    Neugasse 10<br />
+    8005 Zürich<br />
+  dataPrivacyTitle: Datenschutz
+  dataPrivacyText: |-
+    Auf dieser Website werden mit Matomo, einem Open-Source Web-Analyse-Tool <a href="https://matomo.org/">(https://matomo.org/)</a>, Daten zu Marketing- und Optimierungszwecken gesammelt und gespeichert. Aus diesen Daten können unter einem Pseudonym Nutzungsprofile erstellt werden. Hierzu können Cookies eingesetzt werden. Bei Cookies handelt es sich um kleine Textdateien, die lokal im Zwischenspeicher des Internet-Browsers des Seitenbesuchers gespeichert werden. Die Cookies ermöglichen die Wiedererkennung des Internet-Browsers. Die mit Matomo erhobenen Daten werden ohne die gesondert erteilte Zustimmung des Betroffenen nicht dazu benutzt, den Besucher dieser Website persönlich zu identifizieren und auch nicht mit personenbezogenen Daten über den Träger des Pseudonyms zusammengeführt.
