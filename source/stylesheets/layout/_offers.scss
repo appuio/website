@@ -132,7 +132,14 @@
 }
 
 
-.expandable-title {
+.expandable-title a {
+  text-decoration: none;
+  color: black;
+
+  &:focus {
+    outline: none;
+  }
+
   &::after {
     background-image: url("/images/caret_down.svg");
     background-size: 24px auto;
@@ -142,22 +149,11 @@
     width: 24px;
     height: 12px;
     margin-left: 1em;
-    transition: transform 500ms;
-    // transform: scaleY(-1);
-    // filter: FlipV;
+    transition: transform 250ms;
   }
-  &.is-expanded {
+  .is-expanded & {
     &::after {
-      transform: scaleY(-1);
-      filter: FlipV;
-    }
-  }
-  a {
-    text-decoration: none;
-    color: black;
-
-    &:focus {
-        outline: none;
+      transform: rotate(180deg);
     }
   }
 }
