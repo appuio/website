@@ -1,7 +1,9 @@
 - day: 16
   month: Mai
   title: "APPUiO an den DevOpsDays 2018"
-  subtitle: "Als Teil der weltweiten DevOps-Bewegung werden die DevOpsDays regelmässig in verschiedenen Ländern durchgeführt. Am 2. und 3. Mai 2018 fand die Konferenz bereits zum zweiten mal in der Schweiz statt und APPUiO präsentierte vor Ort an einem Stand die Weltneuheit \"APPUiOli\"."
+  subtitle: |
+            <img src="/images/blogposts/DevOpsDays_02" alt="APPUiO and den DevOpsDays Zürich 2018"/>
+            "Als Teil der weltweiten DevOps-Bewegung werden die DevOpsDays regelmässig in verschiedenen Ländern durchgeführt. Am 2. und 3. Mai 2018 fand die Konferenz bereits zum zweiten mal in der Schweiz statt und APPUiO präsentierte vor Ort an einem Stand die Weltneuheit \"APPUiOli\"."
   details: |
             <p>"APPUiOli ist ein Hobbyprojekt, um APPUiO "anfassbar" zu machen", erklärt Tobias Brunner, Mitgründer von APPUiO und Initiant von APPUiOli. Das Projekt umfasst sechs OrangePi Win Plus Boards mit je 2 GB RAM und einem A64 Quad-core Cortex-A53 64 bit Prozessor. Davon ist ein Board der Kubernetes Master, die anderen fünf sind die Kubernetes Nodes. Als Betriebssystem kommt Armbian zum Einsatz.</p>
             <p>1 RayperryPi Board dient als Kontrollsystem und beinhaltet folgendes:</p>
@@ -12,16 +14,16 @@
                <p> - DHCP Server</p>
                <p> - LCD Screen</p>
             <p>Nebst der Präsentation von APPUiOli konnten wir an den DevOpsDays spannende Talks verfolgen und führten interessante Gespräche. Wir freuen uns schon jetzt auf nächstes Jahr!</p>
-            <img src="/images/blogposts/DevOpsDays_02" alt="APPUiO and den DevOpsDays Zürich 2018"/>
             <img src="/images/blogposts/DevOpsDays_01" alt="APPUiO and den DevOpsDays Zürich 2018"/>
             <img src="/images/blogposts/DevOpsDays_03" alt="APPUiO and den DevOpsDays Zürich 2018"/>
 
 - day: 01
   month: Mai
   title: "Amazee.io und APPUiO"
-  subtitle: "Amazee.io bietet in über 16 Ländern basierend auf APPUiO eine Drupal-Webhosting-Plattform mit Microservices an. Die Zusammenarbeit seit der ersten Stunde basiert auf gemeinsamen Werten und hohen technologischen Ansprüchen."
-  details: |
+  subtitle: |
             <img src="/images/Amazeeio" alt="Amazee.io"/>
+            "Amazee.io bietet in über 16 Ländern basierend auf APPUiO eine Drupal-Webhosting-Plattform mit Microservices an. Die Zusammenarbeit seit der ersten Stunde basiert auf gemeinsamen Werten und hohen technologischen Ansprüchen."
+  details: |
             <p>Im Sommer 2017 lancierte Amazee.io ein neues Produkt: Lagoon. Die Open Source Drupal Hosting Plattform nimmt den Programmcode von Entwicklern, bildet damit Docker Images, überträgt diese in OpenShift/Kubernetes und überwacht gleichzeitig die Deployments. Dieser gesamte Prozess läuft auf APPUiO. „Der Entscheid für APPUiO kam nicht von ungefähr: Mit den Initianten der Container Plattform verbindet uns eine jahrelange professionelle Zusammenarbeit im Betrieb“, so Bastian Widmer, System Engineer bei Amazee.io. Zudem teile man die selben Werte und setze konsequent auf OpenSource. “Der gesamte Sourcecode von Lagoon ist als <a href="https://github.com/amazeeio/lagoon">Opensource Projekt</a> veröffentlicht”, erklärt Widmer. Bereits in der Betaphase wurden die ersten Projekte auf APPUiO umgesetzt. Schnell wurde die Zusammenarbeit ausgebaut. „Lagoon ist gemeinsam mit APPUiO gewachsen“, so Widmer.</p>
             
             <p>Die Vorteile von APPUiO sieht der Systemtechniker in der Unterstützung, OpenShift zu verstehen. Um OpenShift unabhängig zu betreiben, bräuchte man viel Wissen und müsste sich stetig auf dem Laufenden halten. “Im Rahmen von Managed Private APPUiO wird uns dies abgenommen. Denn Updates und der Betrieb werden automatisch von den Experten durchgeführt”, erklärt Widmer.</p>
@@ -33,9 +35,10 @@
 - day: 06
   month: Apr
   title: "Adcubum und APPUiO"
-  subtitle: "Seit 1997 bietet Adcubum als führender Schweizer Hersteller von Standardsoftware für die Versicherungswirtschaft die Software adcubum SYRIUS an. Rund 20 Jahre später wird die Software nun mit Hilfe von APPUiO auf OpenShift von Red Hat transferiert."
-  details: |
+  subtitle: |
             <img src="/images/Partner-037_def_web_01.jpg" alt="Adcubum"/>
+            "Seit 1997 bietet Adcubum als führender Schweizer Hersteller von Standardsoftware für die Versicherungswirtschaft die Software adcubum SYRIUS an. Rund 20 Jahre später wird die Software nun mit Hilfe von APPUiO auf OpenShift von Red Hat transferiert."
+  details: |
             <p>Unflexibilität, hohe Koordination und technische Herausforderungen: „2016 merkten wir, dass die Konfiguration von mehreren Applikationen in der damaligen Umgebung sehr komplex war“, erklärt Matthias Summer, Senior System Engineer bei Adcubum. Nach intensiver Recherche nach Lösungen stand fest: „Wir wollen OpenShift von Red Hat nutzen“. Mit APPUiO habe man sogar einen Partner gefunden, der noch viel mehr bietet. „Erfahrene Experten, die sich tagtäglich mit OpenShift auseinandersetzen, haben die Plattform hier bei uns im Haus aufgebaut und uns geschult”, so Summer. Gemeinsam mit seinem Team von insgesamt fünf System Engineers betreibt Summer rund 500 Testinstallationen von adcubum SYRIUS. „Dank APPUiO können wir nun auf Knopfdruck Testumgebungen deployen“, sagt Summer.</p>
             
             <p>Bis Ende 2018 möchte Adcubum 95 Prozent der Entwicklungs- und Testinstanzen auf OpenShift zum Laufen bringen. Die Herausforderung liegt dabei darin, eine 20 Jahre alte Applikation mit mehreren Millionen Zeilen Code für die neue Container Plattform aufzubereiten. Obwohl der Aufwand gross ist, sieht Summer nur Vorteile: „Da wir in Zukunft auf einer einzigen Plattform arbeiten, verbessert sich die Zusammenarbeit zwischen Entwicklung und Betrieb massiv. Zudem werden wir effizienter.“ Profitieren können auch die Kunden wie beispielsweise Helsana, Concordia, Visana und SUVA. Sie könnten zukünftig (frühestens ab 2019) adcubum SYRIUS auch in Form von Containern erhalten und diese auf ihrer eigenen OpenShift Installation betreiben. “Die Entwicklungsplattform der Kunden ist dann identisch mit unserer. Dadurch können Updates automatisch und viel häufiger durchgeführt werden”, erklärt Summer.</p>
@@ -47,7 +50,9 @@
 - day: 14
   month: Mar
   title: "APPUiO an den Voxxed Days 2018"
-  subtitle: "Am 8. März 2018 trafen sich rund 400 Entwickler an den Voxxed Days in Zürich. APPUiO unterstützt die Konferenz seit Beginn und empfing die Teilnehmenden dieses Jahr mit einem Photobooth."
+  subtitle: |
+            <img src="/images/blogposts/VDZH18_1.jpg" alt="APPUiO and den Voxxeddays in Zürich 2018"/>
+            "Am 8. März 2018 trafen sich rund 400 Entwickler an den Voxxed Days in Zürich. APPUiO unterstützt die Konferenz seit Beginn und empfing die Teilnehmenden dieses Jahr mit einem Photobooth."
   details: |
             <p>Bereits zum dritten Mal traf sich Anfang März die Entwickler-Community an den Voxxed Days in Zürich. Spannende Talks zu Themengebieten wie Java, Big Data, Cloud oder Serverless standen auf dem Programm. Für uns vom APPUiO-Team stand der Austausch mit den Entwicklern im Vordergrund. </p>
 
@@ -60,7 +65,6 @@
             <p>Alle Talks der Voxxed Days können auf YouTube nachgeschaut werden: <a href="https://www.youtube.com/playlist?list=PLRsbF2sD7JVoqk0_lddVq-tAdskIimLwL">YouTube playlist</a></p>
             
             <p>Nächstes Jahr finden die Voxxed Days am 21. März 2019 wiederum im Sihlcity Cinema in Zürich statt. Wir freuen uns darauf!</p>
-            <img src="/images/blogposts/VDZH18_1.jpg" alt="APPUiO and den Voxxeddays in Zürich 2018"/>
             <img src="/images/blogposts/VDZH18_2.jpg" alt="APPUiO and den Voxxeddays in Zürich 2018"/>
             <img src="/images/blogposts/VDZH18_3.jpg" alt="APPUiO and den Voxxeddays in Zürich 2018"/>
 - day: 28
