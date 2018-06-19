@@ -33,13 +33,16 @@
     }
   });
 
-  // Enable Button when Terms are checked
-  var checkboxes = $("input[name='terms']"),
-      submitButt = $("input[type='submit']");
+  // Enable Submit button when terms and an offer is checked
+    var formCheckboxes = $('.interest-checkbox'),
+        submitButt = $('#submitButton');
 
-  checkboxes.click(function() {
-    submitButt.attr("disabled", !checkboxes.is(":checked"));
-  });
+    formCheckboxes.click(function () {
+        const result = formCheckboxes.filter(function (index, element) {
+            return element.checked === true;
+        });
+        submitButt.attr("disabled", result.length < 2);
+    });
 
   // Animate to scroll
   $('a[href*="#"]:not([href="#"])').click(function() {
@@ -149,6 +152,8 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
       $(this).data('loadingMessage')
     );
 
+      $('#submitButt').prop("disabled", true);
+
     $(".appuio-contact-button").addClass("is-loading");
     $.post( "/backend.php", {
       form: form,
@@ -165,8 +170,12 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
       telefon: telefon,
       strasse: strasse,
       plz: plz,
-      ort: ort } );
-
+      ort: ort },
+        function () {
+            // Clear user input
+            $("#offer-two-contact-form")[0].reset();
+        }
+    );
     $('<iframe>', {
       src: 'https://app.hatchbuck.com/onlineForm/submit.php?formID=63340310467&enableServerValidation=0&enable303Redirect=1&q1_firstName1='+vorname+'&q3_lastName3='+nachname+'&q4_email='+email+'&'+tags+'&q7_nachricht='+message+'&q8_company8='+firma+'&q9_telefonnummer9[phone]='+telefon+'&q10_adresse10[addr_line1]='+strasse+'&q10_adresse10[city]='+ort+'&q10_adresse10[postal]='+plz+'&q10_adresse10[country]=Switzerland',
       id: 'crmframe',
