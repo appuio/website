@@ -157,6 +157,7 @@ de:
   homeContactSend: Absenden
   homeContactLoadingMessage: Nachricht wird gesendet...
   homeContactSuccessMessage: Nachricht wurde erfolgreich gesendet!
+  homeContactMessage: Message Placeholder #Um eine Bestellung abzuschicken, muss mindestens eine Option ausgewählt sein.
 
 # Offer1: Managed Private PaaS
   offerOneTitle: Managed Private APPUiO
@@ -396,6 +397,7 @@ de:
 
   offerTwoContactTitle: APPUiO - PUBLIC PLATFORM
   offerTwoContactSubject: Hiermit bestelle ich verbindlich ...
+  offerTwoContactMessage: Message Placeholder #Um eine Bestellung abzuschicken, muss mindestens eine Option ausgewählt sein.
 
   offerTwoTerms1: Ich akzeptiere die
   offerTwoTerms2: Terms & Conditions

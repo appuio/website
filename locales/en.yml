@@ -151,6 +151,7 @@ en:
   homeContactYourMessageTitle: |-
     Your message?
   homeContactSend: send
+  homeContactMessage: Message Placeholder #At least one option has to be selected for an order.
 
 # Offer1: Managed Private APPUiO
   offerOneTitle: Managed Private APPUiO
@@ -442,6 +443,7 @@ en:
   offerTwoSend: Order
   offerTwoLoadingMessage: Sending order...
   offerTwoSuccessMessage: Order successfully sent!
+  offerTwoContactMessage: Message Placeholder #At least one option has to be selected for an order.
 
 # Offer3: On Premises PaaS
   offerThreeTitle: On Premise
