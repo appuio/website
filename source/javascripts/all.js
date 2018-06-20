@@ -41,7 +41,7 @@
         const result = formCheckboxes.filter(function (index, element) {
             return element.checked === true;
         });
-        submitButt.attr("disabled", result.length < 2);
+        submitButt.attr("disabled", result.length < submitButt.data("required-checkboxes"));
     });
 
   // Animate to scroll
@@ -97,10 +97,12 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
       target.prop("checked", true);
     }
   });
+  /*
   $('.interest-checkbox').click(function(event) {
     var areChecked = $("input[name='interests[]']:checked");
     if(areChecked.length <= 0) $('#interest-info').prop("checked", true);
   });
+  */
 
   // Mail Forms
   // ------------------
