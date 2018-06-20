@@ -153,6 +153,7 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
     );
 
       $('#submitButt').prop("disabled", true);
+      var formOnly = $('form');
 
     $(".appuio-contact-button").addClass("is-loading");
     $.post( "/backend.php", {
@@ -173,7 +174,7 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
       ort: ort },
         function () {
             // Clear user input
-            $("#offer-two-contact-form")[0].reset();
+            $(formOnly)[0].reset();
         }
     );
     $('<iframe>', {
