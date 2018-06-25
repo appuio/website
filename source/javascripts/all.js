@@ -67,26 +67,6 @@ if (window.location.pathname === '/') {
 }
 
 $('body').scrollspy({ target: '#nav-header', offset: 100 })
-// // Change active class on scroll
-//   $(window).scroll(function() {
-//     var windscroll = $(window).scrollTop();
-//     if (windscroll >= 100) {
-//         //$('nav').addClass('fixed');
-//         $('main section').each(function(i) {
-//             console.log(windscroll, this, $(this).offset().top)
-//             if ($(this).offset().top <= windscroll - 20) {
-//                 console.log("true");
-//                 $('nav a.active').removeClass('active');
-//                 $('nav a').eq(i).addClass('active');
-//             }
-//         });
-//     } else {
-//         //$('nav').removeClass('fixed');
-//         $('nav a.active').removeClass('active');
-//         $('nav a:first').addClass('active');
-//     }
-//
-// }).scroll();
 
   // Checkboxes
   $("[data-check]").click(function(event) {
@@ -97,12 +77,6 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
       target.prop("checked", true);
     }
   });
-  /*
-  $('.interest-checkbox').click(function(event) {
-    var areChecked = $("input[name='interests[]']:checked");
-    if(areChecked.length <= 0) $('#interest-info').prop("checked", true);
-  });
-  */
 
   // Mail Forms
   // ------------------
@@ -187,15 +161,8 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
       width: 0,
       style: 'position: absolute; left: -5000px;',
       tabindex: -1,
-//        sandbox: 'allow-forms allow-scripts allow-same-origin',
-//        the CRM redirects the main window (window.top) and uses that to track success. sandboxing the iframe prevents this, but also prevents the CRM to accept the submission :(
     }).appendTo('body').load(function(){
       sendProgressButton('check');
-//        var url = 'https://app.hatchbuck.com/TrackOnlineForm?sid=326172713212511452';
-//        if ($('#crmframe').attr('src') != url) {
-//          // trying to manually do the redirect that was prevented with the sandboxing above
-//          $('#crmframe').attr('src',url);
-//        }
     });
   });
   var sendProgressButton = function(status){
