@@ -33,15 +33,31 @@
     }
   });
 
-  // Enable Submit button when terms and an offer is checked
-    var formCheckboxes = $('.interest-checkbox'),
-        submitButt = $('#submitButton');
+// Enable Submit button when terms and an offer is checked
+    var checkboxes = $("input[name='terms']"),
+        submitButt = $("input[type='submit']");
 
-    formCheckboxes.click(function () {
-        const result = formCheckboxes.filter(function (index, element) {
-            return element.checked === true;
+    checkboxes.click(function () {
+        submitButt.attr("disabled", !checkboxes.is(":checked"));
+    });
+
+// Jump to anchor and display message if no option was checked
+    var radios = $('.interest-checkbox'),
+        messageSelectOffer = $('#message-select-offer');
+
+    submitButt.click(function () {
+        const result = radios.filter(function (index, element) {
+            return element.checked === true
         });
-        submitButt.attr("disabled", result.length < submitButt.data("required-checkboxes"));
+        if (result.length < submitButt.data("required-checkboxes")){
+            messageSelectOffer.removeClass("is-hidden");
+            messageSelectOffer.addClass("is-displayed");
+            $("html, body").animate({scrollTop: messageSelectOffer.offset().top - 90}, 0)
+        } else {
+            messageSelectOffer.removeClass("is-displayed");
+            messageSelectOffer.addClass("is-hidden");
+            $("html, body").animate({scrollTop: messageSelectOffer.offset().top - 100}, 0)
+        }
     });
 
   // Animate to scroll
@@ -151,6 +167,7 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
         function () {
             // Clear user input
             $(formOnly)[0].reset();
+            submitButt.prop("disabled", true)
         }
     );
     $('<iframe>', {

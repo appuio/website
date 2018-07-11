@@ -288,10 +288,13 @@
   <div class="grid-container">
     <h2 class="offer-contact-title"><%= t(:offerTwoContactTitle) %></h2>
     <form id="offer-two-contact-form" name="offer-two-contact-form" class="offers-contact-container" data-loading-message="<%= t(:offerTwoLoadingMessage) %>" data-success-message="<%= t(:offerTwoSuccessMessage) %>">
+      <h3 class="interest-title"><%= t(:offerTwoContactSubject) %></h3>
+      <div id="message-select-offer" class="is-hidden">
+        <p class="contract-hint hint-border"><%=t(:offerTwoSelectOfferMessage)%></p>
+      </div>
       <div class="home-contact-interest interest-container">
-        <h3 class="interest-title"><%= t(:offerTwoContactSubject) %></h3>
         <div class="interest-item">
-          <input id="interest-custom" value="false" name="dedicated" class="interest-checkbox" type="radio">
+          <input id="interest-custom" value="false" name="dedicated" class="interest-checkbox" type="radio" required>
           <label for="interest-custom">
             <div class="icon icon--ei-close  interest-icon">
               <svg class="icon__cnt"><use xlink:href="#ei-close-icon"></use></svg>
@@ -355,9 +358,6 @@
           <input type="checkbox" name="terms" id="terms" class="interest-checkbox">
           <label for="terms"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerTwoTerms1) %> <a href="./pdf/APPUiO-terms-and-conditions-v1.2-<%=I18n.locale %>.pdf" target="_blank"><%= t(:offerTwoTerms2) %></a></label>
         </div>
-      </div>
-      <div class="offer-three-terms">
-        <label><%= t(:offerTwoContactMessage) %></label>
       </div>
       <label class="appuio-contact-button button-progress">
         <input id="submitButton" type="submit" class="button is-round" value="<%= t(:offerTwoSend) %>" data-required-checkboxes="2" disabled>

@@ -397,7 +397,7 @@ de:
 
   offerTwoContactTitle: APPUiO - PUBLIC PLATFORM
   offerTwoContactSubject: Hiermit bestelle ich verbindlich ...
-  offerTwoContactMessage: Message Placeholder #Um eine Bestellung abzuschicken, muss mindestens eine Option ausgewählt sein.
+  offerTwoSelectOfferMessage: Unsere APPUiO Public Platform gibt es auf geteilter Infrastruktur oder als dedizierter Node für dich alleine. Bitte wähle je nach deinen Bedürfnissen zwischen den beiden Angeboten.
 
   offerTwoTerms1: Ich akzeptiere die
   offerTwoTerms2: Terms & Conditions

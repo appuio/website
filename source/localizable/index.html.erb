@@ -263,8 +263,8 @@ title: APPUiO - Swiss Container Platform
       <h2 class="home-contact-title"><%= t(:homeContactTitle) %></h2>
       <p class="home-contact-desc"><%= t(:homeContactDesc) %></p>
       <form id="contact-form" name="contact-form" class="home-contact-container" data-loading-message="<%= t(:homeContactLoadingMessage) %>" data-success-message="<%= t(:homeContactSuccessMessage) %>">
+        <h3 class="interest-title"><%= t(:homeContactSubject) %></h3>
         <div class="home-contact-interest interest-container">
-          <h3 class="interest-title"><%= t(:homeContactSubject) %></h3>
           <div class="interest-item">
             <input id="interest-newsletter" value="<%= t(:homeContactSubjectFive) %>" type="checkbox" name="interests[]" class="interest-checkbox" >
             <label for="interest-newsletter"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:homeContactSubjectFive) %></label>
@@ -284,11 +284,8 @@ title: APPUiO - Swiss Container Platform
           <input type="email" name="email" class="contact-input" placeholder="<%= t(:homeContactYourEmail) %>" required>
           <textarea title="<%= t(:homeContactYourMessageTitle) %>" id="message" name="message" cols="30" rows="6" class="contact-textarea" placeholder="<%= t(:homeContactYourMessage) %>" required></textarea>
         </div>
-        <div class="offer-three-terms">
-          <label><%= t(:homeContactMessage) %></label>
-        </div>
         <label class="appuio-contact-button button-progress">
-          <input id="submitButton" type="submit" class="button is-round" value="<%= t(:homeContactSend) %>" data-required-checkboxes="1" disabled>
+          <input id="submitButton" type="submit" class="button is-round" value="<%= t(:homeContactSend) %>">
         </label>
         <div class="home-feedback-container">
           <p class="home-feedback"></p>
