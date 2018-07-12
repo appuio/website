@@ -151,7 +151,6 @@ en:
   homeContactYourMessageTitle: |-
     Your message?
   homeContactSend: send
-  homeContactMessage: Message Placeholder #At least one option has to be selected for an order.
 
 # Offer1: Managed Private APPUiO
   offerOneTitle: Managed Private APPUiO
@@ -443,7 +442,7 @@ en:
   offerTwoSend: Order
   offerTwoLoadingMessage: Sending order...
   offerTwoSuccessMessage: Order successfully sent!
-  offerTwoSelectOfferMessage: Message Placeholder
+  offerTwoSelectOfferMessage: Our APPUiO Public Platform exists on shared infrastructure or as a dedicated node for you alone. Choose between the two offers depending on your needs.
 
 # Offer3: On Premises PaaS
   offerThreeTitle: On Premise
