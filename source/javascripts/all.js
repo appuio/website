@@ -33,13 +33,32 @@
     }
   });
 
-  // Enable Button when Terms are checked
-  var checkboxes = $("input[name='terms']"),
-      submitButt = $("input[type='submit']");
+// Enable Submit button when terms and an offer is checked
+    var checkboxes = $("input[name='terms']"),
+        submitButt = $("input[type='submit']");
 
-  checkboxes.click(function() {
-    submitButt.attr("disabled", !checkboxes.is(":checked"));
-  });
+    checkboxes.click(function () {
+        submitButt.attr("disabled", !checkboxes.is(":checked"));
+    });
+
+// Jump to anchor and display message if no option was checked
+    var radios = $('.interest-checkbox'),
+        messageSelectOffer = $('#message-select-offer');
+
+    submitButt.click(function () {
+        const result = radios.filter(function (index, element) {
+            return element.checked === true
+        });
+        if (result.length < submitButt.data("required-checkboxes")){
+            messageSelectOffer.removeClass("is-hidden");
+            messageSelectOffer.addClass("is-displayed");
+            $("html, body").animate({scrollTop: messageSelectOffer.offset().top - 90}, 0)
+        } else {
+            messageSelectOffer.removeClass("is-displayed");
+            messageSelectOffer.addClass("is-hidden");
+            $("html, body").animate({scrollTop: messageSelectOffer.offset().top - 100}, 0)
+        }
+    });
 
   // Animate to scroll
   $('a[href*="#"]:not([href="#"])').click(function() {
@@ -64,26 +83,6 @@ if (window.location.pathname === '/') {
 }
 
 $('body').scrollspy({ target: '#nav-header', offset: 100 })
-// // Change active class on scroll
-//   $(window).scroll(function() {
-//     var windscroll = $(window).scrollTop();
-//     if (windscroll >= 100) {
-//         //$('nav').addClass('fixed');
-//         $('main section').each(function(i) {
-//             console.log(windscroll, this, $(this).offset().top)
-//             if ($(this).offset().top <= windscroll - 20) {
-//                 console.log("true");
-//                 $('nav a.active').removeClass('active');
-//                 $('nav a').eq(i).addClass('active');
-//             }
-//         });
-//     } else {
-//         //$('nav').removeClass('fixed');
-//         $('nav a.active').removeClass('active');
-//         $('nav a:first').addClass('active');
-//     }
-//
-// }).scroll();
 
   // Checkboxes
   $("[data-check]").click(function(event) {
@@ -93,10 +92,6 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
       $('.interest-checkbox').prop("checked", false);
       target.prop("checked", true);
     }
-  });
-  $('.interest-checkbox').click(function(event) {
-    var areChecked = $("input[name='interests[]']:checked");
-    if(areChecked.length <= 0) $('#interest-info').prop("checked", true);
   });
 
   // Mail Forms
@@ -149,6 +144,9 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
       $(this).data('loadingMessage')
     );
 
+      $('#submitButt').prop("disabled", true);
+      var formOnly = $('form');
+
     $(".appuio-contact-button").addClass("is-loading");
     $.post( "/backend.php", {
       form: form,
@@ -165,8 +163,13 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
       telefon: telefon,
       strasse: strasse,
       plz: plz,
-      ort: ort } );
-
+      ort: ort },
+        function () {
+            // Clear user input
+            $(formOnly)[0].reset();
+            submitButt.prop("disabled", true)
+        }
+    );
     $('<iframe>', {
       src: 'https://app.hatchbuck.com/onlineForm/submit.php?formID=63340310467&enableServerValidation=0&enable303Redirect=1&q1_firstName1='+vorname+'&q3_lastName3='+nachname+'&q4_email='+email+'&'+tags+'&q7_nachricht='+message+'&q8_company8='+firma+'&q9_telefonnummer9[phone]='+telefon+'&q10_adresse10[addr_line1]='+strasse+'&q10_adresse10[city]='+ort+'&q10_adresse10[postal]='+plz+'&q10_adresse10[country]=Switzerland',
       id: 'crmframe',
@@ -175,15 +178,8 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
       width: 0,
       style: 'position: absolute; left: -5000px;',
       tabindex: -1,
-//        sandbox: 'allow-forms allow-scripts allow-same-origin',
-//        the CRM redirects the main window (window.top) and uses that to track success. sandboxing the iframe prevents this, but also prevents the CRM to accept the submission :(
     }).appendTo('body').load(function(){
       sendProgressButton('check');
-//        var url = 'https://app.hatchbuck.com/TrackOnlineForm?sid=326172713212511452';
-//        if ($('#crmframe').attr('src') != url) {
-//          // trying to manually do the redirect that was prevented with the sandboxing above
-//          $('#crmframe').attr('src',url);
-//        }
     });
   });
   var sendProgressButton = function(status){

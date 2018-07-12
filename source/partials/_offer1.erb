@@ -82,14 +82,8 @@
       <h2 class="offer-contact-title"><%= t(:offerOneContactTitle) %></h2>
       <p class="home-contact-desc"><%= t(:offerOneContactDesc) %></p>
       <form id="offer-one-contact-form" name="offer-one-contact-form" class="offers-contact-container" data-loading-message="<%= t(:offerOneLoadingMessage) %>" data-success-message="<%= t(:offerOneSuccessMessage) %>">
-        <div class="home-contact-interest interest-container">
-          <h3 class="interest-title"><%= t(:offerOneContactSubject) %></h3>
-          <div class="interest-item">
-            <input id="interest-medium" value="<%= t(:offerOnePackageMediumTitle) %>" type="checkbox" name="interests[]" class="interest-checkbox">
-            <label for="interest-medium"><%= evil_icon 'ei-close', class: "interest-icon" %> <%= t(:offerOnePackageMediumTitle) %></label>
-          </div>
-        </div>
-        <div class="home-contact-form">
+        <div class="offer-three-contact-form">
+          <input id="interest-medium" value="<%= t(:offerOnePackageMediumTitle) %>" type="hidden" name="interests[]" class="interest-checkbox">
           <input title="<%= t(:homeContactYourFirstNameTitle) %>" type="text" name="vorname" class="contact-input" placeholder="<%= t(:homeContactYourFirstName) %>" required>
           <input title="<%= t(:homeContactYourNameTitle) %>" type="text" name="nachname" class="contact-input" placeholder="<%= t(:homeContactYourName) %>" required>
           <input title="<%= t(:homeContactYourFirmTitle) %>" type="text" name="firma" class="contact-input" placeholder="<%= t(:homeContactYourFirm) %>" required>

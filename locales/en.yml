@@ -442,6 +442,7 @@ en:
   offerTwoSend: Order
   offerTwoLoadingMessage: Sending order...
   offerTwoSuccessMessage: Order successfully sent!
+  offerTwoSelectOfferMessage: Our APPUiO Public Platform exists on shared infrastructure or as a dedicated node for you alone. Choose between the two offers depending on your needs.
 
 # Offer3: On Premises PaaS
   offerThreeTitle: On Premise
@@ -490,8 +491,8 @@ en:
     </ul>
     <p>Dates:</p>
     <ul>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/80520633618">May 31, 2018 in Zurich</a></li>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/80520633621">July 05, 2018 in Bern</a></li>
+    <li><a href="https://app.hatchbuck.com/OnlineForm/81914719905">August 23, 2018 in Zurich</a></li>
+    <li><a href="https://app.hatchbuck.com/OnlineForm/81914719904">Sepember 30, 2018 in Bern</a></li>
     </ul>
     <p>Time: 14.00 to 17.30h<br>
     Location: Either Neugasse 10 in Zurich or Belpstrasse 37 in Berne</p>

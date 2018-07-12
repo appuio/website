@@ -157,6 +157,7 @@ de:
   homeContactSend: Absenden
   homeContactLoadingMessage: Nachricht wird gesendet...
   homeContactSuccessMessage: Nachricht wurde erfolgreich gesendet!
+  homeContactMessage: Message Placeholder #Um eine Bestellung abzuschicken, muss mindestens eine Option ausgewählt sein.
 
 # Offer1: Managed Private PaaS
   offerOneTitle: Managed Private APPUiO
@@ -396,6 +397,7 @@ de:
 
   offerTwoContactTitle: APPUiO - PUBLIC PLATFORM
   offerTwoContactSubject: Hiermit bestelle ich verbindlich ...
+  offerTwoSelectOfferMessage: Unsere APPUiO Public Platform gibt es auf geteilter Infrastruktur oder als dedizierter Node für dich alleine. Bitte wähle je nach deinen Bedürfnissen zwischen den beiden Angeboten.
 
   offerTwoTerms1: Ich akzeptiere die
   offerTwoTerms2: Terms & Conditions
@@ -454,8 +456,8 @@ de:
     </ul>
     <p>Daten:</p>
     <ul>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/80520633618">31. Mai 2018 in Zürich</a></li>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/80520633621">05. Juli 2018 in Bern</a></li>
+    <li><a href="https://app.hatchbuck.com/OnlineForm/81914719905">23. August 2018 in Zürich</a></li>
+    <li><a href="https://app.hatchbuck.com/OnlineForm/81914719904">30. September 2018 in Bern</a></li>
     </ul>
     <p>Zeit: 14:00 bis 17:30 Uhr<br>
     Ort: Neugasse 10, Zürich oder Belpstrasse 37, Bern</p>
