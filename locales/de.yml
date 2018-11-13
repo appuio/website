@@ -437,6 +437,7 @@ de:
 # Techlab Page
   techlabPageTitle: Techlab
   techlabTitle: APPUiO & OpenShift Techlabs in Bern, Zürich & Basel
+
   techlabSubtitle: Mit einer Container Plattform ändert sich die Art, wie wir Software entwickeln. Puzzle stellt OpenShift V3 - die Container Plattform von Red Hat - in einem Techlab vor.
   techlabDetails: |-
     <p>Die Teilnehmer lernen dabei&nbsp;hands-on die wichtigsten Schritte, wie eine Applikation in die Cloud gebracht wird und wie Container auf einer PaaS deployed und betrieben&nbsp;werden können.</p>
