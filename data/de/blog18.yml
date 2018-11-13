@@ -6,7 +6,8 @@
             Neu: APPUiO bietet Schulungen zum Betrieb von OpenShift an. Sie ist für Betreiber einer Openshift Plattform gedacht, die sich praktische Inputs und Erfahrungsberichte in Sache Betrieb wünschen.
   details: |
             <p>Der Hype um OpenShift ist aktuell sehr gross und die Vorteile einer solchen Plattform kennen mittlerweile die meisten ITler - schneller am Markt, einheitlich und offen, fördert die Collaboration und vereinfacht den Softwareentwicklungsprozess. Doch eine neue Plattform bringt auch neue Herausforderungen und die Integration in ein Unternehmen (Prozesse und Kultur) ist nicht immer so einfach. Eine neue Technologie verlangt auch nach zusätzlichem Know-How auf Seiten der Infrastruktur Betrieber/Engineers und der Entwickler.</p>
-            <p>Wir nutzen seit 4 Jahren OpenShift und konnten dabei viele Erfahrungen in beiden Bereichen sammeln. Auch dank vergangenen Meetups konnten wir unser Wissen erweitern.<br /> Ganz nach dem Motto unserer ganzen <a href="https://community.appuio.ch/home">Community</a> «Wissen ist am besten, wenn es geteilt wird» möchten wir unsere Erfahrungen und Best practices weitergeben. Denn gemeinsam sind wir stärker und können mehr bewegen!</p>
+            <p>Wir nutzen seit 4 Jahren OpenShift und konnten dabei viele Erfahrungen in beiden Bereichen sammeln. <br /> Ganz nach dem Motto unserer ganzen <a href="https://community.appuio.ch/home">Community</a> «Wissen ist am besten, wenn es geteilt wird» möchten wir unsere Erfahrungen und Best practices nicht nur an Meetups sondern neu auch in Form einer Schulung weitergeben. Denn gemeinsam sind wir stärker und können mehr bewegen!</p>
+
             <p>In einem ersten Schritt bieten wir eine zweitägige Schulung für den Betrieb einer OpenShift Plattform an. Dabei lernen die Teilnehmer hands-on, auf einer eigenen AWS Testplattform, praktische Tricks und mögliche Lösungen für Probleme im Alltag. Zusätzlich gehen wir noch auf die Spezialitäten der eigenen Plattform ein. </p>
             <p><i>"Die Schulung war genau auf unsere Bedürfnisse angepasst und die Bespiele waren gut verständlich. Gefallen hat uns vor allem, dass es eher in einer Art Workshop abgelaufen ist und der Teacher auf unsere Fragen eingegangen ist und diese auch beantworten konnten. Wir können die Schulung jedem Empfehlen, der eine OpenShift Plattform betreiben will."</i> - Matthias Summer, Teilnehmer einer vergangenen OpenShift Betriebsschulung.</p>
             <p>Die APPUiO-Schulung gilt als Ergänzung zur Red Hat Schulung. Wir setzen unseren Fokus auf die praktische Anwendung im Daily Business (Updates, Konfigurationen, Problemumgang, Monitoring etc.).</p>
@@ -27,12 +28,13 @@
                <div> 7. OpenShift Upgrade, OpenShift und OS gefahrlos auf den neusten Stand bringen</div>
             <br>
             <p>Die Schulung ist für Betreiber einer Openshift Plattform gedacht, die sich praktische Inputs und Erfahrungsberichte in Sache Betrieb wünschen. In naher Zukunft werden wir auch Schulungen für OpenShift Entwickler anbieten, wobei Themen wie CI/CD, 12 Factor Apps etc. im Zentrum stehen. Weitere Infos folgen.</p>
-            <p>Die OpenShift Betriebsschulung wird bis max. 8 Teilnehmer durchgeführt. Auf Anfrage ist eine Durchführung auch für ganze Gruppen möglich.</p>
-            <div><b>Ort:</b> Bern oder Zürich</div>
+
+            <p>Die OpenShift Betriebsschulung wird bis max. 8 Teilnehmer durchgeführt. Auf Anfrage ist eine Durchführung auch für ganze Gruppen dedizert und bei dir am Standort möglich.</p>
+            <div><b>Ort:</b> Dediziert bei dir, in Bern oder Zürich</div>
+
             <div><b>Kosten:</b> auf Anfrage</div>
             <div><b>Kontakt für Rückfragen:</b> <a href="info@appuio.ch">info@appuio.ch</a>, Tobias Tröhler</div>
             <p>Wir freuen uns auf deine Kontaktaufnahme!</p>
-
 
 - day: 03
   month: August
