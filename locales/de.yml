@@ -362,7 +362,7 @@ de:
   offerTwoFaqVerTwoTitle: In welcher Periodizität erfolgt die Abrechnung?
   offerTwoFaqVerTwoText: Zu Beginn jedes Monats wird der letzte Monat abgerechnet.
   offerTwoFaqVerTreeTitle: Wie funktioniert die Abrechnung?
-  offerTwoFaqVerTreeText: Der Maximalwert (MB Memory) der letzten Stunde wird mit dem Preis pro Stunde multipliziert. Alle Stunden des Monats werden zusammengezählt und so entsteht der effektive Preis pro Monat.
+  offerTwoFaqVerTreeText: Das eingestellte Quota (MB Memory) der letzten Stunde wird mit dem Preis pro Stunde multipliziert. Alle Stunden des Monats werden zusammengezählt und so entsteht der effektive Preis pro Monat. Das Quota kann jederzeit angepasst werden.
   offerTwoFaqVerFourTitle: Welche Einheit wird abgerechnet?
   offerTwoFaqVerFourText: Die Abrechnung erfolgt in Megabytes.
   offerTwoFaqVerFiveTitle: Wo sind die laufenden Kosten ersichtlich?
