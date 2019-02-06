@@ -362,7 +362,7 @@ de:
   offerTwoFaqVerTwoTitle: In welcher Periodizität erfolgt die Abrechnung?
   offerTwoFaqVerTwoText: Zu Beginn jedes Monats wird der letzte Monat abgerechnet.
   offerTwoFaqVerTreeTitle: Wie funktioniert die Abrechnung?
-  offerTwoFaqVerTreeText: Der Maximalwert (MB Memory) der letzten Stunde wird mit dem Preis pro Stunde multipliziert. Alle Stunden des Monats werden zusammengezählt und so entsteht der effektive Preis pro Monat.
+  offerTwoFaqVerTreeText: Das eingestellte Quota (MB Memory) der letzten Stunde wird mit dem Preis pro Stunde multipliziert. Alle Stunden des Monats werden zusammengezählt und so entsteht der effektive Preis pro Monat. Das Quota kann jederzeit angepasst werden.
   offerTwoFaqVerFourTitle: Welche Einheit wird abgerechnet?
   offerTwoFaqVerFourText: Die Abrechnung erfolgt in Megabytes.
   offerTwoFaqVerFiveTitle: Wo sind die laufenden Kosten ersichtlich?
@@ -458,7 +458,7 @@ de:
     <p>Daten:</p>
     <ul>
     <li><a href="https://app.hatchbuck.com/OnlineForm/83123721277">28. Februar 2019 in Zürich</a></li>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/90145426388">11. April 2019 in Bern</a></li>
+    <li><a href="https://app.hatchbuck.com/OnlineForm/90145426388">04. April 2019 in Bern</a></li>
     <li><a href="https://app.hatchbuck.com/OnlineForm/90145426389">23. Mai 2019 in Zürich</a></li>
     </ul>
     <p>Zeit: 14:00 bis 17:30 Uhr<br>
