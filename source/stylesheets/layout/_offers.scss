@@ -7,7 +7,7 @@
 .offer-one-services,
 .offer-one-offers,
 .offer-two-services,
-.offer-three-services  {
+.offer-three-services {
   padding: rem-calc(60 0);
   text-align: center;
 }
@@ -15,9 +15,11 @@
 .offer-one {
   border-bottom: 32px solid $color-greyblue;
 }
+
 .offer-two {
   border-bottom: 32px solid $color-orange;
 }
+
 .offer-three {
   border-bottom: 32px solid $color-green;
 }
@@ -29,38 +31,68 @@
   background-color: $color-blue;
 }
 
+.offer-image-position {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  background: #002F47;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.offer-header-image {
+  overflow: hidden;
+  position: relative;
+
+   svg.header_image {
+     position: absolute;
+     top: 0;
+     left: 0;
+   }
+}
+
 .offer-one-services {
   background-color: white;
 }
+
 .offer-one-offers {
   background-color: $color-lightblue;
   color: white;
 }
+
 .offer-two-offers {
   background-color: $color-blue;
   color: white;
   padding: rem-calc(60 0);
+
   .offers-package-list {
     li.offers-package-item {
       margin: 0;
       padding-left: 0;
       padding-right: 0;
+
       &.offer-package-power {
         margin: 1.125rem 0;
         border-bottom: 0;
       }
+
       &.offers-package-price {
         border-bottom: 0;
       }
     }
   }
+
   .offers-package-button-wrapper {
     width: 100%;
     display: flex;
     justify-content: flex-end;
+
     .offers-package-button {
       text-align: center;
     }
+
     div, a {
       flex: 0 33%;
 
@@ -74,22 +106,37 @@
   }
 }
 
+.offer-two-partner {
+  text-align: center;
+  padding: rem-calc(60);
+}
+
+.blue-section {
+  background-color: $color-lightblue;
+  color: white;
+}
+
 .offer-addons {
   background-color: $color-lightblue;
   color: white;
   padding: rem-calc(60 0);
+
   .offers-addons-title {
     text-align: center;
   }
+
   ul.offers-package-list {
     border-bottom: 1px solid #E5EAED;
+
     li.offers-package-item {
       border-bottom: none;
     }
   }
+
   .offers-package {
     background-color: transparent;
   }
+
   .offers-addons-package-title {
     font-weight: bold;
   }
@@ -101,6 +148,7 @@
   .offers-faq-title {
     text-align: center;
   }
+
   .offers-faq-container {
     display: flex;
     flex-flow: row wrap;
@@ -111,6 +159,7 @@
       @include susy-breakpoint($break-large) {
         flex-basis: 47%;
       }
+
       .offers-faq-list-title {
         line-height: 1.5rem;
         text-align: left;
@@ -119,13 +168,14 @@
         margin-bottom: 0;
 
       }
-        &:not(:last-child) {
-          padding-right: 2rem;
-        }
 
-        .offers-faq-list-answer {
-          display: none;
-        }
+      &:not(:last-child) {
+        padding-right: 2rem;
+      }
+
+      .offers-faq-list-answer {
+        display: none;
+      }
     }
 
   }
@@ -151,6 +201,7 @@
     margin-left: 1em;
     transition: transform 250ms;
   }
+
   .is-expanded & {
     &::after {
       transform: rotate(180deg);
@@ -178,9 +229,14 @@
 
 .offers-title {
   position: relative;
+  text-align: center;
   z-index: 9;
-  padding-top: rem-calc(128);
+  @include susy-breakpoint($break-medium) {
+    text-align: right;
+    color: #002337;
+  }
 }
+
 .offers-image {
   position: absolute;
 }
@@ -191,25 +247,52 @@
 
 .offer-two-intro .offers-image {
   margin-left: 10%;
-  }
+}
+
 .offer-three-intro .offers-image {
   margin-left: 15%;
+}
+
+.offer-start-text {
+  text-align: center;
+  margin-left: 0%;
+  margin-right: 0%;
+  position: relative;
+  margin-top: 6em;
+
+
+  @include susy-breakpoint($break-medium) {
+    margin-top: 0;
   }
+
+  @include susy-breakpoint($break-large) {
+    margin-left: 40%;
+    margin-right: 10%;
+    margin-top: 5%;
+    text-align: right;
+    p {
+      margin-top: 25%;
+      text-align: right;
+    }
+  }
+}
 
 .offers-intro {
   font-size: rem-calc(26);
   line-height: rem-calc(34);
-  text-align: left;
+  text-align: center;
+  margin-left: 0 !important;
+  width: 100% !important;
   @include susy-breakpoint($break-medium) {
     font-size: rem-calc(36);
     line-height: rem-calc(44);
-    text-align: center;
   }
   @include susy-breakpoint($break-medium) {
     @include span(10 of 12);
     @include squish(1, 1);
   }
 }
+
 .offers-desc,
 .offers-package-desc {
   @include susy-breakpoint($break-medium) {
@@ -260,6 +343,7 @@
   @include susy-breakpoint($break-medium) {
     margin: rem-calc(60 0);
   }
+
   &.is-third {
     width: 100%;
 
@@ -267,6 +351,7 @@
       width: 25%;
     }
   }
+
   &.has-white-font {
     color: white;
   }
@@ -287,6 +372,7 @@ section#offer-two-advantages {
     margin-bottom: rem-calc(25);
   }
 }
+
 .offer-three-contact-form {
   margin-top: rem-calc(25);
   @include susy-breakpoint($break-medium) {
@@ -299,22 +385,27 @@ section#offer-two-advantages {
 section.offer-two-services {
   background-color: $color-lightblue;
   color: white;
+
   .callout-list {
     width: 100%;
+
     .callout-item {
       max-width: none;
       margin: 5px 10px;
       overflow: visible;
+
       .offers-package-ribbon {
         flex: 0;
         line-height: normal;
         height: 30px;
       }
+
       .callout-title {
         margin-top: 3rem;
         min-height: 1em;
         flex: 0;
       }
+
       .callout-desc {
         color: white;
         min-height: unset;
@@ -347,6 +438,7 @@ section.offer-two-services {
     }
   }
 }
+
 .offers-package-ribbon {
   background-color: $color-greyblue;
   padding: rem-calc(16);
@@ -355,36 +447,45 @@ section.offer-two-services {
   color: black;
   flex: 1 100%;
 }
+
 .is-orange {
   background-color: $color-orange;
 }
+
 .is-green {
   background-color: $color-green;
 }
+
 .offer1-small-icon {
   background: $color-blue url('/images/offer1_small.svg') no-repeat;
   background-size: 100%;
 }
+
 .offer1-medium-icon {
   background: $color-blue url('/images/offer1_medium.svg') no-repeat;
   background-size: 100%;
 }
+
 .offer1-large-icon {
   background: $color-blue url('/images/offer1_large.svg') no-repeat;
   background-size: 100%;
 }
+
 .offer2-micro-icon {
   background: $color-blue url('/images/offer2_micro.svg') no-repeat;
   background-size: 100%;
 }
+
 .offer2-medium-icon {
   background: $color-blue url('/images/offer2_medium.svg') no-repeat;
   background-size: 100%;
 }
+
 .offer2-large-icon {
   background: $color-blue url('/images/offer2_large.svg') no-repeat;
   background-size: 100%;
 }
+
 .offer2-xlarge-icon {
   background: $color-blue url('/images/offer2_xlarge.svg') no-repeat;
   background-size: 100%;
@@ -402,6 +503,7 @@ section.offer-two-services {
   @include susy-breakpoint($break-large) {
     height: rem-calc(160);
   }
+
   &.is-fourth {
     height: rem-calc(416);
     @include susy-breakpoint($break-small) {
@@ -417,7 +519,7 @@ section.offer-two-services {
 }
 
 .contract-duration {
-  margin-top: 4  0px;
+  margin-top: 40px;
 }
 
 .offers-package-price {
@@ -430,6 +532,7 @@ section.offer-two-services {
     width: auto !important; // :(
     text-align: right;
   }
+
   > h3::after {
     content: ':';
   }
@@ -459,13 +562,14 @@ section.offer-two-services {
 }
 
 .offers-package-dedicated-info {
-    display: none;
-    margin: 0;
-    a {
-      &:hover {
-        color: $color-yellow;
-      }
+  display: none;
+  margin: 0;
+
+  a {
+    &:hover {
+      color: $color-yellow;
     }
+  }
 }
 
 .interest-item-price {
@@ -479,6 +583,7 @@ section.offer-two-services {
 
 .offers-package.active {
   outline: 10px solid $color-yellow;
+
   > .offers-package-ribbon {
     background-color: $color-yellow;
   }
@@ -517,11 +622,13 @@ $toggleOffset: 4px;
       transform: translateX(calc(-100% - 1em));
       text-align: right;
     }
+
     &:last-of-type {
       transform: translateX(calc(#{$width} + 1em));
       text-align: left;
     }
   }
+
   input {
     height: $height;
     left: 0;
@@ -531,15 +638,19 @@ $toggleOffset: 4px;
     width: $width;
     z-index: 2;
   }
+
   input:checked {
     z-index: 0;
   }
+
   input:checked ~ .toggle {
     left: $toggleOffset;
   }
+
   input ~ :checked ~ .toggle {
     left: $width - $height + $toggleOffset;
   }
+
   .toggle {
     background: #4a4a4a;
     border-radius: 50%;
@@ -550,5 +661,47 @@ $toggleOffset: 4px;
     top: $toggleOffset;
     transition: left .2s ease;
     z-index: 1;
+  }
+}
+
+.offer-table {
+  background-color: #15b0bf;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+
+  td, th {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid white;
+  }
+
+  .cell-included-services {
+    width: 20%;
+    padding-left: 3%;
+  }
+
+  .cell-offer-include {
+    width: 10%;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .offer-table {
+    width: 80%;
+  }
+
+  td:nth-of-type(1):before {
+    content: none;
+  }
+  td:nth-of-type(2):before {
+    content: none;
+  }
+  td:nth-of-type(3):before {
+    content: none;
+  }
+  td:nth-of-type(4):before {
+    content: none;
   }
 }

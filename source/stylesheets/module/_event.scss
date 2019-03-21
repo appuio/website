@@ -20,18 +20,11 @@
 }
 
 @media only screen and (max-width: 640px) {
-
-  table, thead, tbody, th, td, tr {
-    display: block;
-  }
-
   thead tr {
     position: absolute;
     top: -9999px;
     left: -9999px;
   }
-
-  tr { border: 1px solid #ddd; }
 
   td {
     border: none;

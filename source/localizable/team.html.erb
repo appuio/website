@@ -1,0 +1,33 @@
+---
+title: APPUiO - Swiss Container Platform - Team page
+---
+<%= partial "partials/github" %>
+<header class="header-container" role="banner">
+  <div class="grid-container">
+    <%= partial "partials/nav" %>
+  </div>
+</header>
+
+<main class="main-container" role="main">
+  <section class="news-section team-title">
+    <div class="grid-container">
+      <h2><%= t(:teamPageTitle) %></h2>
+    </div>
+  </section>
+
+  <section class="news-section team-subtitle">
+    <div class="grid-container">
+      <h3><%= t(:teamSubtitle) %></h3>
+    </div>
+  </section>
+
+  <section class="news-section team-picture">
+    <div class="grid-container">
+      <h3><%= t(:teamTitle) %></h3>
+      <div class="grid-container team-container">
+        <img alt="team-photo" src="images/Team_APPUiO.jpg">
+      </div>
+    </div>
+  </section>
+</main>
+<%= partial "partials/footer" %>

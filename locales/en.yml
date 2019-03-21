@@ -13,13 +13,17 @@ en:
   navGlobalLogin: Login
   navOverview: Overview
   navOffers: Offering
-  navOffer1: Managed Private APPUiO
-  navOffer2: Public Platform
-  navOffer3: On-Premises APPUiO
+  navOffer1: Managed
+  navOffer2: Public
+  navOffer3: UnManaged
   navClients: Customers
   navContact: Contact
   navFAQ: FAQ
   navTechlabs: Techlabs
+  partner: Partner
+  team: Team
+  behindAppuio: Story behind APPUiO
+  about: About APPUiO
 
 # Footer
   footerTel: You can reach us by phone&#58; +41 44 552 22 40 or email hello@appuio.ch
@@ -81,7 +85,6 @@ en:
           <li>Persistent Storage (File based-, Blockstorage)</li>
        </ul>
       </div>
-    On the <a href="https://trello.com/b/kpVq53J2/appuio-roadmap">APPUiO Roadmap</a> you can see which features we plan to work on next.
   homeFeatureAddonsAlt: Safe container with a swiss locker
   homeFeatureEncryptTitle: Lets Encrypt SSL/TLS Routen auf Knopfdruck
   homeFeatureEncryptDesc: APPUiO erlaubt es ihnen mittels Lets Encrypt einfach per Knopfdruck echte SSL Zertifikate in ihren Routen zu konfigurieren. Nach erfolgter Registrierung sorgt APPUiO für die Aktualisierung der Lets Encrypt Zertifikate, welche nur 3 Monate gültig sind, und ersetzt diese automatisch nach Ablauf. Sie müssen sich danach nicht mehr darum kümmern.
@@ -97,12 +100,36 @@ en:
   homeOfferTwoDesc: |-
     Are you in need of standardized development environments or do you want to deploy your productive applications on a Swiss cloud?
   homeOfferTwoButton: Details
-  homeOfferThreeTitle: On-Premises APPUiO
+  homeOfferThreeTitle: UnManaged APPUiO
   homeOfferThreeDesc: Your Container Platform in your own data centre, optimally integrated into your infrastructure. We guide you through the whole process, from idea stage to operation of a fully functional platform.
   homeOfferThreeButton: Details
   homeOfferDesc: All APPUiO Public Platform offerings are held and operated in ISO27001-certified and FINMA-audited data centres within Switzerland and are subject to Swiss law.
 
-# Home: Clients
+  # Home: Offer Table
+  homeTableHeaderText: Welches Modell brauche ich?
+  homeTableHeaderServiceDescription: Inbegriffen
+
+  homeTableSubject1: IaaS partner frei wählbar
+
+  homeTableSubject2: ISO-20071 Zertifizierung & FINMA
+
+  homeTableSubject3: OpenShift Consulting
+
+  homeTableSubject4: ISOMaintenance & Updates inbegriffen
+
+  homeTableSubject5: Community Chat
+
+  homeTableSubject6: Backup & Monitoring inbegriffen
+
+  homeTableSubject7: On premise
+
+  homeTableSubject8: Betrieb übernimmt APPUiO
+
+  homeTableSubject9: Eigener Betrieb
+
+  homeTableSubject10: Sofort loslegen
+
+  # Home: Clients
   homeClientsTitle: Our Clients
   homeClientsOneTitle: „APPUiO provides us with OpenShift-Experts who support us with their long-standing experience at any time.“
   homeClientsOneDesc: Matthias Summer, System Engineer <b>@Adcubum AG</b>
@@ -111,10 +138,9 @@ en:
   homeClientsThreeTitle: „APPUiO complies with our high security requirements.”
   homeClientsThreeDesc: Michael Gerber, Software Developer <b>@HRM Systems AG</b>
 
-# Home: Technologies sections
+  # Home: Technologies sections
   homeTechnologiesTitle: Technologies
   homeTechnologiesDescriptionOne: With APPUiO, you’re creating new environments at the push of a button. There’s a multitude of Technologies and Platforms available right “out of the Box”. Docker, the foundation on which APPUiO is built, brings along a whole ecosystem of additional runtime environments and frameworks.
-  homeTechnologiesDescriptionTwo:  Mit APPUiO kannst du deine Applikation automatisch builden, testen und deployen.
   homeTechnologiesOneTitle: OpenShift
   homeTechnologiesOneDesc: APPUiO is based on on the OpenShift Container Platform by Red Hat, a software that allows development and operations of containers. OpenShift is combining Docker and Kubernetes in a single platform bundled with many additional features simplifying operations of containers and thereby revolutionising IT as we know it.
   homeTechnologiesTwoTitle: Docker
@@ -122,13 +148,15 @@ en:
   homeTechnologiesThreeTitle: Kubernetes
   homeTechnologiesThreeDesc: On APPUiO, you orchestrate and manage your containers with Kubernetes by Google. You define how many of your application instances should run in parallel and Kubernetes then takes care of scaling, load balancing and stability.
 
-# Home: Contact Section
+  homeTechnologiesDetails: Detailed information
+
+  # Home: Contact Section
   homeContactTitle: Contact
   homeContactDesc: We would love to get in touch with you! Do let us know how we can reach you. Your data will be kept confidentially, and will not be shared with third parties.
   homeContactSubject: I’m interested in
   homeContactSubjectOne: Managed Private APPUiO
   homeContactSubjectTwo: attending beta test
-  homeContactSubjectThree: On PREMISE APPUiO
+  homeContactSubjectThree: UnManaged APPUiO
   homeContactSubjectFour: general information
   homeContactSubjectFive: Newsletter
   homeContactYourFirstName: first name
@@ -165,50 +193,79 @@ en:
   offerOneList7: With additional add-ons
   offerOneIso: Your APPUiO managed private platform can run in data centers certified to ISO27001 and according to FINMA guidelines in Switzerland and is subject to Swiss law or on your wish on AWS, Azure or Google Cloud
 
-  offerOneServiceTitle: Aside from optimal data protection we also offer you the following additional services
-  offerOneServices1: Consulting Setup und initialization
-  offerOneServices2: Bring my App to the Cloud - we consult and implement
-  offerOneServices3: |-
-    Automatization of your Processes: Continuous Delivery and Deployment of your application
+  # Offer1: Advantages
+  offerOneAdvantagesTitle: Advantages
+  offerOneAdvantagesOneTitle: UnManaged title placeholder
+  offerOneAdvantagesOneDesc: UnManaged description text placeholder.
+  offerOneAdvantagesTwoTitle: UnManaged title placeholder
+  offerOneAdvantagesTwoDesc: UnManaged description text placeholder.
+  offerOneAdvantagesThreeTitle: UnManaged title placeholder
+  offerOneAdvantagesThreeDesc: UnManaged description text placeholder.
+  offerOneAdvantagesFourTitle: UnManaged title placeholder
+  offerOneAdvantagesFourDesc: UnManaged description text placeholder.
+  offerOneAdvantagesFiveTitle: UnManaged title placeholder
+  offerOneAdvantagesFiveDesc: UnManaged description text placeholder.
+  offerOneAdvantagesSixTitle: UnManaged title placeholder
+  offerOneAdvantagesSixDesc: UnManaged description text placeholder.
 
+  # Offer1: Im Angebot enthalten
+  offerOnePackageContentsTitle: Services Included
+  offerOnePackageContentsTitleFirstTitle: Included service name placeholder
+  offerOnePackageContentsTitleFirstItemOne: Included service description placeholder.
+  offerOnePackageContentsTitleSecondTitle: Included service name placeholder
+  offerOnePackageContentsTitleSecondItemOne: Included service description placeholder.
+  offerOnePackageContentsTitleThirdTitle: Included service name placeholder
+  offerOnePackageContentsTitleThirdItemOne: Included service description placeholder.
+  offerOnePackageContentsTitleFourthTitle: Included service name placeholder
+  offerOnePackageContentsTitleFourthItemOne: Included service description placeholder.
+  offerOnePackageContentsTitleFifthTitle: Included service name placeholder
+  offerOnePackageContentsTitleFifthItemOne: Included service description placeholder
+  offerOnePackageContentsTitleSixthTitle: Included service name placeholder
+  offerOnePackageContentsTitleSixthItemOne: Included service description placeholder
 
-  offerOnePackageTitle: |-
-    Our standard setup with additional add-ons:
-  offerOnePackageSmallTitle: Small
-  offerOnePackageSmallItem1: Master <br> (je 16 GB Ram, 6vCores)
-  offerOnePackageSmallItem2: 2 Nodes <br> (je 16 GB Ram, 6vCores, 100 GB Docker Storage)
-  offerOnePackageSmallItem3: 200 GB Persistent Storage
-  offerOneSmallButton: Small
+  # Offer1: Additional services
+  offerOneAddonsTitle: Additional Services
+  offerOneAddon1Title: Additional service title placeholder # SLA Office Hours
+  offerOneAddon1Description: Additional service description placeholder # Support times&#58; 09&#58;00-12&#58;00 and 13&#58;00-18&#58;00 Uhr (5x8), Reaction time&#58; 2h, Availability&#58; 99%
+  offerOneAddon1Price: Additional service price placeholder # included
+  offerOneAddon2Title: Additional service title placeholder # SLA Office Hours Plus
+  offerOneAddon2Description: Additional service description placeholder # Support times&#58; 08&#58;00-20&#58;00 Uhr (5x12), Reaction time&#58; 2h, Availability&#58; 99,3%
+  offerOneAddon2Price: Additional service price placeholder # according to the arrangement
+  offerOneAddon3Title: Additional service title placeholder # SLA 7x24
+  offerOneAddon3Description: Additional service description placeholder # Support times&#58; 7x24, Reaction time&#58; 1h, Availability&#58; 99,5%
+  offerOneAddon3Price: Additional service price placeholder # according to the arrangement
+  offerOneAddon4Title: Additional service title placeholder # Persistent Storage
+  offerOneAddon4Description: Additional service description placeholder # per GB/day
+  offerOneAddon4Price: Additional service price placeholder # 0.0935 CHF
+  offerOneAddon5Title: Additional service title placeholder # TCP and UDP Ingress
+  offerOneAddon5Description: Additional service description placeholder # per Service/Day
+  offerOneAddon5Price: Additional service price placeholder # 0.35 CHF
 
+  # Offer1: IaaS Partner
+  offerOneIaasTitle: IaaS Partner
+  offerOneIaasName1: IaaS name placeholder
+  offerOneIaasDescription1: IaaS description placeholder
+  offerOneIaasName2: IaaS name placeholder
+  offerOneIaasDescription2: IaaS name placeholder
+  offerOneIaasName3: IaaS name placeholder
+  offerOneIaasDescription3: IaaS description placeholder
+
+  # Offer1: Customer
+  offerOneCustomerTitle: Customer title
+  offerOneCustomerName1: Customer name
+  offerOneCustomerDescription1: Customer description
+
+# Offer1: FAQ
+  offerOneFAQTitle: FAQ title placeholder
+  offerOneFAQQuestion1: FAQ question placeholder
+  offerOneFAQAnswer1: FAQ answer placeholder
+  offerOneFAQQuestion2: FAQ question placeholder
+  offerOneFAQAnswer2: FAQ answer placeholder
+  offerOneFAQQuestion3: FAQ question placeholder
+  offerOneFAQAnswer3: FAQ answer placeholder
+
+# Offer1: Contact form
   offerOnePackageMediumTitle: Managed Private
-  offerOnePackageMediumItem1: 3 Master <br> (je 16 GB Ram, 6vCores)
-  offerOnePackageMediumItem2: 3 Nodes <br> (je 32 GB Ram, 8vCores, 100 GB Docker Storage)
-  offerOnePackageMediumItem3: 500 GB Persistent Storage
-  offerOneMediumButton: Interested?
-
-  offerOnePackageLargeTitle: Large
-  offerOnePackageLargeItem1: 3 Master <br> (je 16 GB Ram, 6vCores)
-  offerOnePackageLargeItem2: 8 Nodes <br> (je 32 GB Ram, 8vCores, 200 GB Docker Storage)
-  offerOnePackageLargeItem3: 1 TB Persistent Storage
-  offerOneLargeButton: Large
-
-  offerOnePackageAddonsTitle: |-
-    Add-Ons
-  offerOnePackageAddonsPretext: By request
-  offerOnePackageAddonsItem1: SLA 7*24 Reaktive
-  offerOnePackageAddonsItem2: SLA 7*24 Proaktive
-  offerOnePackageAddonsItem3: extended Backup of databases Pods
-  offerOnePackageAddonsItem4: Monitoring, application monitoring und alarming, per 5 applications
-  offerOnePackageAddonsItem5: JBoss Middleware subscriptions
-  offerOnePackageAddonsItem6: Additional Nodes / Masters
-  offerOnePackageAddonsItem7: Additional Memory
-  offerOnePackageAddonsItem8: Additional CPU
-  offerOnePackageAddonsItem9: Additional Storage
-
-  offerContactOneSmall: Small
-  offerContactOneMedium: Medium
-  offerContactOneLarge: Large
-
   offerOneContactTitle: MY APPUiO PRIVATE PLATFORM
   offerOneContactDesc: We would love to get in touch with you! Do let us know how we can reach you. Your data will be kept confidentially, and will not be shared with third parties.
   offerOneContactSubject: I'm interested in...
@@ -270,7 +327,6 @@ en:
 
 # Offer Two: Schieber
   offerDynamicAddonsPretext: "APPUiO Public Platform Calculator"
-  offerTwoPackageTitle: "Die passende Grösse für deine Public Platform"
   offerDynamicAddonsTitle: "Choose size"
   offerTwoDynamicButton: "Order"
   offerTwoLabelMemory: "Memory"
@@ -324,11 +380,7 @@ en:
   offerTwoAddon5Description: pro Service/Tag
   offerTwoAddon5Price: 0.35 CHF
 
-  offerTwoStorageDescription: Persistent Storage steht dir direkt in der Web Console oder via CLI zur Verfügung und kann als sogenannte Persistent Volumes direkt an deinen Container angebunden werden. Die Abrechnung erfolgt nach Verbrauch.
-
-  offerTwoBilling: Abrechnungsperiode ist einmal pro Monat<br>Es gelten die APPUiO Servicebestimmungen
-
-
+  offerTwoBilling: Monthly billing cycle<br>Please refer to our service conditions.
 
   # Offer Two: FAQ
   offerTwoFaqTitle: Frequently Asked Questions
@@ -367,6 +419,15 @@ en:
 
   offerTwoFaqAddTreeTitle: What is "guaranteed availability"?
   offerTwoFaqAddTreeText: Not during announced maintenance work, excluding customer errors, reachable according to monitoring, similarly to VSHN's terms and conditions.
+
+# Offer Three: FAQ
+  offerThreeFAQTitle: FAQ title placeholder
+  offerThreeFAQQuestion1: FAQ question placeholder
+  offerThreeFAQAnswer1: FAQ answer placeholder
+  offerThreeFAQQuestion2: FAQ question placeholder
+  offerThreeFAQAnswer2: FAQ answer placeholder
+  offerThreeFAQQuestion3: FAQ question placeholder
+  offerThreeFAQAnswer3: FAQ answer placeholder
 
   offerTwoServiceTitle: Select the right offer and get going
   offerTwoServices1: Bundles tailored to your needs
@@ -408,8 +469,6 @@ en:
   offerTwoPackageXlargeItem4: Persistent Volume <br> 50 GB
   offerTwoXlargeButton: X-Large
 
-  offerTwoCPUDescription: CPU resources are normalized as KCU (Kubernetes Compute Units), and CPU 1000m approximately represent one single hyperthreaded CPU Core.
-
   offerTwoDedicatedAddonsPretext: ""
   offerTwoDedicatedAddonsTitle: Dedicated APPUiO
   offerTwoDedicatedAddonsItem1: unlimited projects
@@ -428,7 +487,6 @@ en:
 
   offerTwoStorageDescription: Persistent Storage is at your direct disposal via Web Console or via CLI and so-called Persistent Volumes can be attached directly to your container. Accounts are balanced after usage.
 
-  offerTwoBilling: The contract period is currently one year.<br>Please refer to our service conditions.
   offerTwoBillingMonthly: Monthly
   offerTwoBillingYearly: Yearly
 
@@ -444,8 +502,8 @@ en:
   offerTwoSuccessMessage: Order successfully sent!
   offerTwoSelectOfferMessage: Our APPUiO Public Platform exists on shared infrastructure or as a dedicated node for you alone. Choose between the two offers depending on your needs.
 
-# Offer3: On Premises PaaS
-  offerThreeTitle: On Premise
+# Offer3: UnManaged PaaS
+  offerThreeTitle: UnManaged
   offerThreeIntro: Your PaaS in your data centre, optimally integrated into your infrastructure. We guide you through the whole process, from idea stage to operation of a fully functional platform.
   offerThreeServicesTitle: Open components and interfaces allow integration into complex existing infrastructures
   offerThreeServicesDesc: APPUiO's flexibility allows for integration into complex, existing infrastructures. Please find below a list of possible integrations that can be covered by APPUiO or OpenShift.
@@ -460,9 +518,72 @@ en:
   offerThreeServices9: Connection to Active Directory (AD) or LDAP
 
   offerThreeContactTitle: Contact
-  offerThreeContactDesc: Your On Premises APPUiO offer sounds interesting. I would like a personal consultation.
+  offerThreeContactDesc: Your UnManaged APPUiO offer sounds interesting. I would like a personal consultation.
   offerThreeLoadingMessage: Sending message...
   offerThreeSuccessMessage: Message successfully sent!
+
+# Offer three: Advantages
+  offerThreeAdvantagesTitle: Advantages
+  offerThreeAdvantagesOneTitle: UnManaged title placeholder
+  offerThreeAdvantagesOneDesc: UnManaged description text placeholder.
+  offerThreeAdvantagesTwoTitle: UnManaged title placeholder
+  offerThreeAdvantagesTwoDesc: UnManaged description text placeholder.
+  offerThreeAdvantagesThreeTitle: UnManaged title placeholder
+  offerThreeAdvantagesThreeDesc: UnManaged description text placeholder.
+  offerThreeAdvantagesFourTitle: UnManaged title placeholder
+  offerThreeAdvantagesFourDesc: UnManaged description text placeholder.
+  offerThreeAdvantagesFiveTitle: UnManaged title placeholder
+  offerThreeAdvantagesFiveDesc: UnManaged description text placeholder.
+  offerThreeAdvantagesSixTitle: UnManaged title placeholder
+  offerThreeAdvantagesSixDesc: UnManaged description text placeholder.
+
+# Offer three: Im Angebot enthalten
+  offerThreePackageContentsTitle: Services Included
+  offerThreePackageContentsTitleFirstTitle: Included service name placeholder
+  offerThreePackageContentsTitleFirstItemOne: Included service description placeholder.
+  offerThreePackageContentsTitleSecondTitle: Included service name placeholder
+  offerThreePackageContentsTitleSecondItemOne: Included service description placeholder.
+  offerThreePackageContentsTitleThirdTitle: Included service name placeholder
+  offerThreePackageContentsTitleThirdItemOne: Included service description placeholder.
+  offerThreePackageContentsTitleFourthTitle: Included service name placeholder
+  offerThreePackageContentsTitleFourthItemOne: Included service description placeholder.
+  offerThreePackageContentsTitleFifthTitle: Included service name placeholder
+  offerThreePackageContentsTitleFifthItemOne: Included service description placeholder
+  offerThreePackageContentsTitleSixthTitle: Included service name placeholder
+  offerThreePackageContentsTitleSixthItemOne: Included service description placeholder
+
+
+# Offer Three: Additional services
+  offerThreeAddonsTitle: Additional Services
+  offerThreeAddon1Title: Additional service title placeholder # SLA Office Hours
+  offerThreeAddon1Description: Additional service description placeholder # Support times&#58; 09&#58;00-12&#58;00 and 13&#58;00-18&#58;00 Uhr (5x8), Reaction time&#58; 2h, Availability&#58; 99%
+  offerThreeAddon1Price: Additional service price placeholder # included
+  offerThreeAddon2Title: Additional service title placeholder # SLA Office Hours Plus
+  offerThreeAddon2Description: Additional service description placeholder # Support times&#58; 08&#58;00-20&#58;00 Uhr (5x12), Reaction time&#58; 2h, Availability&#58; 99,3%
+  offerThreeAddon2Price: Additional service price placeholder # according to the arrangement
+  offerThreeAddon3Title: Additional service title placeholder # SLA 7x24
+  offerThreeAddon3Description: Additional service description placeholder # Support times&#58; 7x24, Reaction time&#58; 1h, Availability&#58; 99,5%
+  offerThreeAddon3Price: Additional service price placeholder # according to the arrangement
+  offerThreeAddon4Title: Additional service title placeholder # Persistent Storage
+  offerThreeAddon4Description: Additional service description placeholder # per GB/day
+  offerThreeAddon4Price: Additional service price placeholder # 0.0935 CHF
+  offerThreeAddon5Title: Additional service title placeholder # TCP and UDP Ingress
+  offerThreeAddon5Description: Additional service description placeholder # per Service/Day
+  offerThreeAddon5Price: Additional service price placeholder # 0.35 CHF
+
+# Offer Three: IaaS Partner
+  offerThreeIaasTitle: IaaS Partner
+  offerThreeIaasName1: IaaS name placeholder
+  offerThreeIaasDescription1: IaaS description placeholder
+  offerThreeIaasName2: IaaS name placeholder
+  offerThreeIaasDescription2: IaaS name placeholder
+  offerThreeIaasName3: IaaS name placeholder
+  offerThreeIaasDescription3: IaaS description placeholder
+
+# Offer Three: Customer
+  offerThreeCustomerTitle: Customer title
+  offerThreeCustomerName1: Customer name
+  offerThreeCustomerDescription1: Customer description
 
 # Formular Defaults
   mailGotAMessage: We just received a message from APPUiO.ch!
@@ -498,7 +619,15 @@ en:
     Location: Either Neugasse 10 in Zurich or Belpstrasse 37 in Berne</p>
     <p>Participation is free of charge. Please bring your own laptop for the lab. Number of places is limited.</p>
 
-# Impressum and privacy policy
+  # Team Page
+  teamPageTitle: Team
+  teamTitle: Unsere fantastische Crew
+  teamSubtitle: Wir begeistern mit unserer Faszination für APPUiO unsere Kunden und sind ein kompetenter, persönlicher Ansprechpartner.
+  teamMemberOneDesc: Matthias Summer, System Engineer <b>@Adcubum AG</b>
+  teamMemberTwoDesc: Matthias Summer, System Engineer <b>@Adcubum AG</b>
+  teamMemberThreeDesc: Matthias Summer, System Engineer <b>@Adcubum AG</b>
+
+  # Impressum and privacy policy
   impressumTitle: Impressum
   impressumAddress: |-
     APPUiO<br />

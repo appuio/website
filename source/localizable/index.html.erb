@@ -16,13 +16,13 @@ title: APPUiO - Swiss Container Platform
       </div>
     </div>
     <div class="home-hero-illus">
+      <%= partial "partials/svgs/landscape_compact" %>
       <!-- <div class="home-hero-title-wrapper"><h1 class="home-hero-title"><%= t(:homeHeroTitle) %></h1></div> -->
       <%= image_tag "appuio_logo.svg", :alt => t(:homeHeroAlt), :class => 'home-hero-logo' %>
     </div>
     <div class="grid-container">
       <h1 class="home-hero-title"><%= t(:homeHeroTitle) %></h1>
-      <p class="home-hero-cta"><a href="./public.html" class="button is-round is-big"><%= t(:homeHeroSignup) %></a></p>
-      <p class="home-hero-cta"><a href="https://register.appuio.ch" class="button is-round is-big"><%= t(:homeHeroRegister) %></a></p>
+      <p class="home-hero-cta"><a href="./public.html" class="button is-round is-big"><%= t(:homeHeroSignup) %></a><a href="https://register.appuio.ch" class="button is-round is-big"><%= t(:homeHeroRegister) %></a></p>
       <p class="home-hero-desc"><%= t(:homeHeroDesc) %></p>
     </div>
   </section>
@@ -111,10 +111,81 @@ title: APPUiO - Swiss Container Platform
           <div class="callout-ribbon offer3-bg"></div>
           <h3 class="callout-title"><%= t(:homeOfferThreeTitle) %></h3>
           <p class="callout-desc"><%= t(:homeOfferThreeDesc) %></p>
-          <a href="./on-premises.html" class="callout-button button is-round"><%= t(:homeOfferThreeButton) %></a>
+          <a href="./unmanaged.html" class="callout-button button is-round"><%= t(:homeOfferThreeButton) %></a>
         </li>
       </ul>
       <p class="home-offer-desc"><%= t(:homeOfferDesc) %></p>
+    </div>
+    <div>
+      <p class="is-banner-before"><%= t(:homeTableHeaderText) %></p>
+      <table class="offer-table">
+        <tr>
+          <th class="cell-included-services text-align-left"><%= t(:homeTableHeaderServiceDescription) %></th>
+          <th class="cell-offer-include"><%= t(:navOffer2) %></th>
+          <th class="cell-offer-include"><%= t(:navOffer1) %></th>
+          <th class="cell-offer-include"><%= t(:navOffer3) %></th>
+        </tr>
+        <tr>
+          <td class="text-align-left"><%= t(:homeTableSubject1) %></td>
+          <td></td>
+          <td><img src="images/tick.svg"></td>
+          <td><img src="images/tick.svg"></td>
+        </tr>
+        <tr>
+          <td class="text-align-left"><%= t(:homeTableSubject2) %></td>
+          <td><img src="images/tick.svg"></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="text-align-left"><%= t(:homeTableSubject3) %></td>
+          <td></td>
+          <td></td>
+          <td><img src="images/tick.svg"></td>
+        </tr>
+        <tr>
+          <td class="text-align-left"><%= t(:homeTableSubject4) %></td>
+          <td><img src="images/tick.svg"></td>
+          <td><img src="images/tick.svg"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="text-align-left"><%= t(:homeTableSubject5) %></td>
+          <td><img src="images/tick.svg"></td>
+          <td><img src="images/tick.svg"></td>
+          <td><img src="images/tick.svg"></td>
+        </tr>
+        <tr>
+          <td class="text-align-left"><%= t(:homeTableSubject6) %></td>
+          <td><img src="images/tick.svg"></td>
+          <td><img src="images/tick.svg"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="text-align-left"><%= t(:homeTableSubject7) %></td>
+          <td></td>
+          <td><img src="images/tick.svg"></td>
+          <td><img src="images/tick.svg"></td>
+        </tr>
+        <tr>
+          <td class="text-align-left"><%= t(:homeTableSubject8) %></td>
+          <td><img src="images/tick.svg"></td>
+          <td><img src="images/tick.svg"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="text-align-left"><%= t(:homeTableSubject9) %></td>
+          <td></td>
+          <td></td>
+          <td><img src="images/tick.svg"></td>
+        </tr>
+        <tr>
+          <td class="text-align-left"><%= t(:homeTableSubject10) %></td>
+          <td><img src="images/tick.svg"></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
     </div>
   </section>
 
@@ -144,7 +215,6 @@ title: APPUiO - Swiss Container Platform
     </div>
     <div class="clientlogo-container grid-container">
         <div class="clientlogo-group">
-          <div class="clientlogo-item"><img src="/images/Customers/Abacus.svg" alt="clientlogo"/></div>
           <div class="clientlogo-item"><img src="/images/Customers/Adcubum.svg" alt="clientlogo"/></div>
           <div class="clientlogo-item"><img src="/images/Customers/amazeeio.png" alt="clientlogo"/></div>
           <div class="clientlogo-item"><img src="/images/Customers/DiePost.svg" alt="clientlogo"/></div>
@@ -165,96 +235,99 @@ title: APPUiO - Swiss Container Platform
       </article>
       <ul class="callout-list technology-base-list">
         <li class="callout-item callout-item-block">
-          <div class="technology-base-image"><img src="/images/openshift_schild.svg" alt="technology1-image" /></div>
+          <div class="technology-base-image"><img src="/images/openshift_schild.svg" alt="technology1-image"/></div>
           <h3 class="callout-title"><%= t(:homeTechnologiesOneTitle) %></h3>
           <p class="callout-desc"><%= t(:homeTechnologiesOneDesc) %></p>
         </li>
         <li class="callout-item callout-item-block">
-          <div class="technology-base-image"><img src="/images/docker_logo.svg" alt="technology2-image" /></div>
+          <div class="technology-base-image"><img src="/images/docker_logo.svg" alt="technology2-image"/></div>
           <h3 class="callout-title"><%= t(:homeTechnologiesTwoTitle) %></h3>
           <p class="callout-desc"><%= t(:homeTechnologiesTwoDesc) %></p>
         </li>
         <li class="callout-item callout-item-block">
-          <div class="technology-base-image"><img src="images/kubernetes_logo.svg" alt="technology3-image" /></div>
+          <div class="technology-base-image">
+            <img src="images/kubernetes_logo.svg" class="kubernetes-logo" alt="technology3-image"/></div>
           <h3 class="callout-title"><%= t(:homeTechnologiesThreeTitle) %></h3>
           <p class="callout-desc"><%= t(:homeTechnologiesThreeDesc) %></p>
         </li>
       </ul>
       <div class="technology-container">
-          <div class="technology-group">
-            <article class="technology-item">
-                <span class="font-icon icon-java"></span>
-                <p class="technology-desc">Java</p>
-            </article>
-            <article class="technology-item">
-                  <span class="font-icon icon-java"></span>
-                <p class="technology-desc">Spring</p>
-            </article>
-            <article class="technology-item">
-                <span class="font-icon icon-wildfly"></span>
-                <p class="technology-desc">Wildfly</p>
-            </article>
-            <article class="technology-item">
-              <span class="font-icon icon-ruby"></span>
-                <p class="technology-desc">Ruby</p>
-            </article>
-            <article class="technology-item">
-              <span class="font-icon icon-rails"></span>
-                <p class="technology-desc">Ruby on Rails</p>
-            </article>
-            <article class="technology-item">
-              <span class="font-icon icon-php"></span>
-                <p class="technology-desc">PHP</p>
-            </article>
-            <article class="technology-item">
-              <span class="font-icon icon-perl"></span>
-                <p class="technology-desc">Perl</p>
-            </article>
-            <article class="technology-item">
-              <span class="font-icon icon-python"></span>
-                <p class="technology-desc">Python</p>
-            </article>
-            <article class="technology-item">
-              <span class="font-icon icon-nodejs"></span>
-                <p class="technology-desc">Node.js</p>
-            </article>
-            <article class="technology-item">
-              <span class="font-icon icon-jboss"></span>
-                <p class="technology-desc">JBoss EAP</p>
-            </article>
-            <article class="technology-item">
-              <span class="font-icon icon-jboss"></span>
-                <p class="technology-desc">JBoss Fuse Integration Services</p>
-            </article>
-            <article class="technology-item">
-              <span class="font-icon icon-jboss"></span>
-                <p class="technology-desc">JBoss A-MQ</p>
-            </article>
-            <article class="technology-item">
-              <span class="font-icon icon-jboss"></span>
-                <p class="technology-desc">JBoss Data Grid</p>
-            </article>
-            <article class="technology-item">
-              <span class="font-icon icon-dotnet"></span>
-                <p class="technology-desc">ASP.NET (Techpreview)</p>
-            </article>
-            <article class="technology-item">
-              <span class="font-icon icon-postgresql"></span>
-                <p class="technology-desc">PostgreSQL</p>
-            </article>
-            <article class="technology-item">
-              <span class="font-icon icon-mysql-database"></span>
-                <p class="technology-desc">MySQL</p>
-            </article>
-            <article class="technology-item">
-              <span class="font-icon icon-mongodb"></span>
-                <p class="technology-desc">MongoDB</p>
-            </article>
-          </div>
+        <div class="technology-group">
+          <article class="technology-item">
+            <span class="font-icon icon-java"></span>
+            <p class="technology-desc">Java</p>
+          </article>
+          <article class="technology-item">
+            <span class="font-icon icon-java"></span>
+            <p class="technology-desc">Spring</p>
+          </article>
+          <article class="technology-item">
+            <span class="font-icon icon-wildfly"></span>
+            <p class="technology-desc">Wildfly</p>
+          </article>
+          <article class="technology-item">
+            <span class="font-icon icon-ruby"></span>
+            <p class="technology-desc">Ruby</p>
+          </article>
+          <article class="technology-item">
+            <span class="font-icon icon-rails"></span>
+            <p class="technology-desc">Ruby on Rails</p>
+          </article>
+          <article class="technology-item">
+            <span class="font-icon icon-php"></span>
+            <p class="technology-desc">PHP</p>
+          </article>
+          <article class="technology-item">
+            <span class="font-icon icon-perl"></span>
+            <p class="technology-desc">Perl</p>
+          </article>
+          <article class="technology-item">
+            <span class="font-icon icon-python"></span>
+            <p class="technology-desc">Python</p>
+          </article>
+          <article class="technology-item">
+            <span class="font-icon icon-nodejs"></span>
+            <p class="technology-desc">Node.js</p>
+          </article>
+          <article class="technology-item">
+            <span class="font-icon icon-jboss"></span>
+            <p class="technology-desc">JBoss EAP</p>
+          </article>
+          <article class="technology-item">
+            <span class="font-icon icon-jboss"></span>
+            <p class="technology-desc">JBoss Fuse Integration Services</p>
+          </article>
+          <article class="technology-item">
+            <span class="font-icon icon-jboss"></span>
+            <p class="technology-desc">JBoss A-MQ</p>
+          </article>
+          <article class="technology-item">
+            <span class="font-icon icon-jboss"></span>
+            <p class="technology-desc">JBoss Data Grid</p>
+          </article>
+          <article class="technology-item">
+            <span class="font-icon icon-dotnet"></span>
+            <p class="technology-desc">ASP.NET (Techpreview)</p>
+          </article>
+          <article class="technology-item">
+            <span class="font-icon icon-postgresql"></span>
+            <p class="technology-desc">PostgreSQL</p>
+          </article>
+          <article class="technology-item">
+            <span class="font-icon icon-mysql-database"></span>
+            <p class="technology-desc">MySQL</p>
+          </article>
+          <article class="technology-item">
+            <span class="font-icon icon-mongodb"></span>
+            <p class="technology-desc">MongoDB</p>
+          </article>
+        </div>
       </div>
-      <!-- <article class="is-banner-before">
-        <p><%= t(:homeTechnologiesDescriptionTwo) %></p>
-      </article> -->
+      <article>
+        <p>
+          <a class="text-white" href="https://www.openshift.com/products/features/technologies/"><%= t(:homeTechnologiesDetails) %></a>
+        </p>
+      </article>
     </div>
   </section>
 
