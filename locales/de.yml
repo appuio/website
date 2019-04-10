@@ -15,11 +15,15 @@ de:
   navOffers: Angebot
   navOffer1: Managed Private APPUiO
   navOffer2: Public Platform
-  navOffer3: On-Premises APPUiO
+  navOffer3: Unmanaged APPUiO
   navClients: Kunden
   navContact: Kontakt
   navFAQ: FAQ
   navTechlabs: Techlabs
+  partner: Partner
+  team: Team
+  behindAppuio: APPUiO's Geschichte
+  about: Über
 
 # Footer
   footerTel: Du erreichst uns unter Tel. +41 44 552 22 40 oder per Mail an hello@appuio.ch.
