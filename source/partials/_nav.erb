@@ -4,12 +4,12 @@
   <a href="#" class="nav-toggle-close" data-collapse="#nav-header"><%= evil_icon 'ei-close' %></a>
   <ul class="nav nav-main is-horizontal">
 
-    <li class="<%= parent_active('managed-private.html', 'public.html', 'on-premises.html') %>">
+    <li class="<%= parent_active('managed-private.html', 'public.html', 'unmanaged.html') %>">
       <a href="./#offer"><%= t(:navOffers) %></a>
       <ul>
         <li class="<%= nav_active('public.html') %>"><a href="./public.html"><%= t(:navOffer2) %></a></li>
         <li class="<%= nav_active('managed-private.html') %>"><a href="./managed-private.html"><%= t(:navOffer1) %></a></li>
-        <li class="<%= nav_active('on-premises.html') %>"><a href="./on-premises.html"><%= t(:navOffer3) %></a></li>
+        <li class="<%= nav_active('unmanaged.html') %>"><a href="./unmanaged.html"><%= t(:navOffer3) %></a></li>
         <li class="<%= nav_active('faq.html') %>"><a href="faq.html"><%= t(:navGlobalFAQ) %></a></li>
       </ul>
     </li>
