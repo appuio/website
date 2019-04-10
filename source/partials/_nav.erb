@@ -7,8 +7,8 @@
     <li class="<%= parent_active('managed-private.html', 'public.html', 'on-premises.html') %>">
       <a href="./#offer"><%= t(:navOffers) %></a>
       <ul>
-        <li class="<%= nav_active('managed-private.html') %>"><a href="./managed-private.html"><%= t(:navOffer1) %></a></li>
         <li class="<%= nav_active('public.html') %>"><a href="./public.html"><%= t(:navOffer2) %></a></li>
+        <li class="<%= nav_active('managed-private.html') %>"><a href="./managed-private.html"><%= t(:navOffer1) %></a></li>
         <li class="<%= nav_active('on-premises.html') %>"><a href="./on-premises.html"><%= t(:navOffer3) %></a></li>
         <li class="<%= nav_active('faq.html') %>"><a href="faq.html"><%= t(:navGlobalFAQ) %></a></li>
       </ul>
@@ -18,10 +18,18 @@
       <ul>
         <li><a target="_blank" href="http://docs.appuio.ch"><%= t(:navGlobalDocs) %></a></li>
         <li><a target="_blank" href="https://community.appuio.ch"><%= t(:navGlobalCommunityChat) %></a></li>
+        <li class="<%= nav_active('blog.html') %>"><a href="blog.html"><%= t(:navGlobalBlog) %></a></li>
       </ul>
     </li>
     <li class="<%= nav_active('techlabs.html') %>"><a href="techlabs.html"><%= t(:navTechlabs) %></a></li>
-    <li class="<%= nav_active('blog.html') %>"><a href="blog.html"><%= t(:navGlobalBlog) %></a></li>
+    <li>
+      <a href="#"><%= t(:about) %></a>
+      <ul>
+        <li class="<%= nav_active('partner.html') %>"><a href="#"><%= t(:partner) %></a></li>
+        <li class="<%= nav_active('team.html') %>"><a href="#"><%= t(:team) %></a></li>
+        <li class="<%= nav_active('behind-appuio.html') %>"><a href="behind-appuio.html"><%= t(:behindAppuio) %></a></li>
+      </ul>
+    </li>
     <li><a href="./#contact"><%= t(:navContact) %></a></li>
   </ul>
   <ul class="nav-lang">
