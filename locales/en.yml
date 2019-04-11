@@ -498,6 +498,25 @@ en:
   offerThreePackageContentsTitleSixthTitle: Included service name placeholder
   offerThreePackageContentsTitleSixthItemOne: Included service description placeholder
 
+
+# Offer Three: Additional services
+  offerThreeAddonsTitle: Additional Services
+  offerThreeAddon1Title: Additional service title placeholder # SLA Office Hours
+  offerThreeAddon1Description: Additional service description placeholder # Support times&#58; 09&#58;00-12&#58;00 and 13&#58;00-18&#58;00 Uhr (5x8), Reaction time&#58; 2h, Availability&#58; 99%
+  offerThreeAddon1Price: Additional service price placeholder # included
+  offerThreeAddon2Title: Additional service title placeholder # SLA Office Hours Plus
+  offerThreeAddon2Description: Additional service description placeholder # Support times&#58; 08&#58;00-20&#58;00 Uhr (5x12), Reaction time&#58; 2h, Availability&#58; 99,3%
+  offerThreeAddon2Price: Additional service price placeholder # according to the arrangement
+  offerThreeAddon3Title: Additional service title placeholder # SLA 7x24
+  offerThreeAddon3Description: Additional service description placeholder # Support times&#58; 7x24, Reaction time&#58; 1h, Availability&#58; 99,5%
+  offerThreeAddon3Price: Additional service price placeholder # according to the arrangement
+  offerThreeAddon4Title: Additional service title placeholder # Persistent Storage
+  offerThreeAddon4Description: Additional service description placeholder # per GB/day
+  offerThreeAddon4Price: Additional service price placeholder # 0.0935 CHF
+  offerThreeAddon5Title: Additional service title placeholder # TCP and UDP Ingress
+  offerThreeAddon5Description: Additional service description placeholder # per Service/Day
+  offerThreeAddon5Price: Additional service price placeholder # 0.35 CHF
+
 # Formular Defaults
   mailGotAMessage: We just received a message from APPUiO.ch!
   mailSubject: I'm interested in?
