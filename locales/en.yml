@@ -468,7 +468,7 @@ en:
   offerThreeLoadingMessage: Sending message...
   offerThreeSuccessMessage: Message successfully sent!
 
-  # Offer three: Advantages
+# Offer three: Advantages
   offerThreeAdvantagesTitle: Advantages
   offerThreeAdvantagesOneTitle: UnManaged title placeholder
   offerThreeAdvantagesOneDesc: UnManaged description text placeholder.
@@ -482,6 +482,21 @@ en:
   offerThreeAdvantagesFiveDesc: UnManaged description text placeholder.
   offerThreeAdvantagesSixTitle: UnManaged title placeholder
   offerThreeAdvantagesSixDesc: UnManaged description text placeholder.
+
+# Offer three: Im Angebot enthalten
+  offerThreePackageContentsTitle: Services Included
+  offerThreePackageContentsTitleFirstTitle: Included service name placeholder
+  offerThreePackageContentsTitleFirstItemOne: Included service description placeholder.
+  offerThreePackageContentsTitleSecondTitle: Included service name placeholder
+  offerThreePackageContentsTitleSecondItemOne: Included service description placeholder.
+  offerThreePackageContentsTitleThirdTitle: Included service name placeholder
+  offerThreePackageContentsTitleThirdItemOne: Included service description placeholder.
+  offerThreePackageContentsTitleFourthTitle: Included service name placeholder
+  offerThreePackageContentsTitleFourthItemOne: Included service description placeholder.
+  offerThreePackageContentsTitleFifthTitle: Included service name placeholder
+  offerThreePackageContentsTitleFifthItemOne: Included service description placeholder
+  offerThreePackageContentsTitleSixthTitle: Included service name placeholder
+  offerThreePackageContentsTitleSixthItemOne: Included service description placeholder
 
 # Formular Defaults
   mailGotAMessage: We just received a message from APPUiO.ch!
