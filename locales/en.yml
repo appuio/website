@@ -15,7 +15,7 @@ en:
   navOffers: Offering
   navOffer1: Managed Private APPUiO
   navOffer2: Public Platform
-  navOffer3: Unmanaged APPUiO
+  navOffer3: UnManaged APPUiO
   navClients: Customers
   navContact: Contact
   navFAQ: FAQ
@@ -101,7 +101,7 @@ en:
   homeOfferTwoDesc: |-
     Are you in need of standardized development environments or do you want to deploy your productive applications on a Swiss cloud?
   homeOfferTwoButton: Details
-  homeOfferThreeTitle: Unmanaged APPUiO
+  homeOfferThreeTitle: UnManaged APPUiO
   homeOfferThreeDesc: Your Container Platform in your own data centre, optimally integrated into your infrastructure. We guide you through the whole process, from idea stage to operation of a fully functional platform.
   homeOfferThreeButton: Details
   homeOfferDesc: All APPUiO Public Platform offerings are held and operated in ISO27001-certified and FINMA-audited data centres within Switzerland and are subject to Swiss law.
@@ -132,7 +132,7 @@ en:
   homeContactSubject: I’m interested in
   homeContactSubjectOne: Managed Private APPUiO
   homeContactSubjectTwo: attending beta test
-  homeContactSubjectThree: Unmanaged APPUiO
+  homeContactSubjectThree: UnManaged APPUiO
   homeContactSubjectFour: general information
   homeContactSubjectFive: Newsletter
   homeContactYourFirstName: first name
@@ -448,8 +448,8 @@ en:
   offerTwoSuccessMessage: Order successfully sent!
   offerTwoSelectOfferMessage: Our APPUiO Public Platform exists on shared infrastructure or as a dedicated node for you alone. Choose between the two offers depending on your needs.
 
-# Offer3: Unmanaged PaaS
-  offerThreeTitle: Unmanaged
+# Offer3: UnManaged PaaS
+  offerThreeTitle: UnManaged
   offerThreeIntro: Your PaaS in your data centre, optimally integrated into your infrastructure. We guide you through the whole process, from idea stage to operation of a fully functional platform.
   offerThreeServicesTitle: Open components and interfaces allow integration into complex existing infrastructures
   offerThreeServicesDesc: APPUiO's flexibility allows for integration into complex, existing infrastructures. Please find below a list of possible integrations that can be covered by APPUiO or OpenShift.
@@ -464,7 +464,7 @@ en:
   offerThreeServices9: Connection to Active Directory (AD) or LDAP
 
   offerThreeContactTitle: Contact
-  offerThreeContactDesc: Your Unmanaged APPUiO offer sounds interesting. I would like a personal consultation.
+  offerThreeContactDesc: Your UnManaged APPUiO offer sounds interesting. I would like a personal consultation.
   offerThreeLoadingMessage: Sending message...
   offerThreeSuccessMessage: Message successfully sent!
 
