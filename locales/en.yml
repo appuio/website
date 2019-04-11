@@ -468,6 +468,21 @@ en:
   offerThreeLoadingMessage: Sending message...
   offerThreeSuccessMessage: Message successfully sent!
 
+  # Offer three: Advantages
+  offerThreeAdvantagesTitle: Advantages
+  offerThreeAdvantagesOneTitle: UnManaged title placeholder
+  offerThreeAdvantagesOneDesc: UnManaged description text placeholder.
+  offerThreeAdvantagesTwoTitle: UnManaged title placeholder
+  offerThreeAdvantagesTwoDesc: UnManaged description text placeholder.
+  offerThreeAdvantagesThreeTitle: UnManaged title placeholder
+  offerThreeAdvantagesThreeDesc: UnManaged description text placeholder.
+  offerThreeAdvantagesFourTitle: UnManaged title placeholder
+  offerThreeAdvantagesFourDesc: UnManaged description text placeholder.
+  offerThreeAdvantagesFiveTitle: UnManaged title placeholder
+  offerThreeAdvantagesFiveDesc: UnManaged description text placeholder.
+  offerThreeAdvantagesSixTitle: UnManaged title placeholder
+  offerThreeAdvantagesSixDesc: UnManaged description text placeholder.
+
 # Formular Defaults
   mailGotAMessage: We just received a message from APPUiO.ch!
   mailSubject: I'm interested in?
