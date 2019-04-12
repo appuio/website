@@ -488,6 +488,11 @@ de:
   offerThreeIaasName3: IaaS name placeholder
   offerThreeIaasDescription3: IaaS description placeholder
 
+# Offer Three: Customer
+  offerThreeCustomerTitle: Customer title
+  offerThreeCustomerName1: Customer name
+  offerThreeCustomerDescription1: Customer description
+
 # Formular Defaults
   mailGotAMessage: We just recieved a message from APPUiO.ch!
   mailSubject: Ich interessiere mich für
