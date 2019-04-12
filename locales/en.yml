@@ -169,51 +169,6 @@ en:
   offerOneList7: With additional add-ons
   offerOneIso: Your APPUiO managed private platform can run in data centers certified to ISO27001 and according to FINMA guidelines in Switzerland and is subject to Swiss law or on your wish on AWS, Azure or Google Cloud
 
-# Offer1: Additional services
-  offerOneServiceTitle: Aside from optimal data protection we also offer you the following additional services
-  offerOneServices1: Consulting Setup und initialization
-  offerOneServices2: Bring my App to the Cloud - we consult and implement
-  offerOneServices3: |-
-    Automatization of your Processes: Continuous Delivery and Deployment of your application
-
-# Offer1: Standard setup
-  offerOnePackageTitle: |-
-    Our standard setup with additional add-ons:
-  offerOnePackageSmallTitle: Small
-  offerOnePackageSmallItem1: Master <br> (je 16 GB Ram, 6vCores)
-  offerOnePackageSmallItem2: 2 Nodes <br> (je 16 GB Ram, 6vCores, 100 GB Docker Storage)
-  offerOnePackageSmallItem3: 200 GB Persistent Storage
-  offerOneSmallButton: Small
-
-  offerOnePackageMediumTitle: Managed Private
-  offerOnePackageMediumItem1: 3 Master <br> (je 16 GB Ram, 6vCores)
-  offerOnePackageMediumItem2: 3 Nodes <br> (je 32 GB Ram, 8vCores, 100 GB Docker Storage)
-  offerOnePackageMediumItem3: 500 GB Persistent Storage
-  offerOneMediumButton: Interested?
-
-  offerOnePackageLargeTitle: Large
-  offerOnePackageLargeItem1: 3 Master <br> (je 16 GB Ram, 6vCores)
-  offerOnePackageLargeItem2: 8 Nodes <br> (je 32 GB Ram, 8vCores, 200 GB Docker Storage)
-  offerOnePackageLargeItem3: 1 TB Persistent Storage
-  offerOneLargeButton: Large
-
-  offerOnePackageAddonsTitle: |-
-    Add-Ons
-  offerOnePackageAddonsPretext: By request
-  offerOnePackageAddonsItem1: SLA 7*24 Reaktive
-  offerOnePackageAddonsItem2: SLA 7*24 Proaktive
-  offerOnePackageAddonsItem3: extended Backup of databases Pods
-  offerOnePackageAddonsItem4: Monitoring, application monitoring und alarming, per 5 applications
-  offerOnePackageAddonsItem5: JBoss Middleware subscriptions
-  offerOnePackageAddonsItem6: Additional Nodes / Masters
-  offerOnePackageAddonsItem7: Additional Memory
-  offerOnePackageAddonsItem8: Additional CPU
-  offerOnePackageAddonsItem9: Additional Storage
-
-  offerContactOneSmall: Small
-  offerContactOneMedium: Medium
-  offerContactOneLarge: Large
-
 # Offer1: Contact form
   offerOneContactTitle: MY APPUiO PRIVATE PLATFORM
   offerOneContactDesc: We would love to get in touch with you! Do let us know how we can reach you. Your data will be kept confidentially, and will not be shared with third parties.

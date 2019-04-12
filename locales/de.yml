@@ -176,49 +176,6 @@ de:
   offerOneList7: Mit zusätzlichen Add-Ons
   offerOneIso: Deine APPUiO Managed Private Platform kann in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht oder auf deinen Wunsch bei AWS, Azure oder Google Cloud
 
-# Offer1: Additional services
-  offerOneServiceTitle: Zusätzliche Services
-  offerOneServices1: Consulting Setup und Initialisierung.
-  offerOneServices2: “Bring my App to the Cloud“ - wir beraten und setzen auch um.
-  offerOneServices3: “Automatisierung Ihrer Prozesse&#58; Continuous Delivery und Continuous Deployment deiner Applikationen.“
-
-# Offer1: Standard setup
-  offerOnePackageTitle: Unser minimales Setup mit zustätzlichen Add-Ons
-  offerOnePackageSmallTitle: Small
-  offerOnePackageSmallItem1: Master <br> (je 16 GB Ram, 6vCores)
-  offerOnePackageSmallItem2: 2 Nodes <br> (je 16 GB Ram, 6vCores, 100 GB Docker Storage)
-  offerOnePackageSmallItem3: 200 GB Persistent Storage
-  offerOneSmallButton: Small
-
-  offerOnePackageMediumTitle: Managed Private
-  offerOnePackageMediumItem1: 3 Master <br> (je 16 GB Ram, 6vCores)
-  offerOnePackageMediumItem2: 3 Nodes <br> (je 32 GB Ram, 8vCores, 100 GB Docker Storage)
-  offerOnePackageMediumItem3: 500 GB Persistent Storage
-  offerOneMediumButton: Interessiert?
-
-  offerOnePackageLargeTitle: Large
-  offerOnePackageLargeItem1: 3 Master <br> (je 16 GB Ram, 6vCores)
-  offerOnePackageLargeItem2: 8 Nodes <br> (je 32 GB Ram, 8vCores, 200 GB Docker Storage)
-  offerOnePackageLargeItem3: 1 TB Persistent Storage
-  offerOneLargeButton: Large
-
-  offerOnePackageAddonsTitle: |-
-    Add-Ons
-  offerOnePackageAddonsPretext: Auf Anfrage
-  offerOnePackageAddonsItem1: SLA 7*24 Reaktiv
-  offerOnePackageAddonsItem2: SLA 7*24 Proaktiv
-  offerOnePackageAddonsItem3: erweitertes Backup der Datenbanken Pods
-  offerOnePackageAddonsItem4: Monitoring, Applikationsmonitoring und -alarming, pro 5 Applikationen
-  offerOnePackageAddonsItem5: JBoss Middleware Subscriptions
-  offerOnePackageAddonsItem6: Zusätzliche Nodes / Masters
-  offerOnePackageAddonsItem7: Zusätzliches Memory
-  offerOnePackageAddonsItem8: Zusätzliche CPU
-  offerOnePackageAddonsItem9: Zusätzliche Storage
-
-  offerContactOneSmall: Small
-  offerContactOneMedium: Medium
-  offerContactOneLarge: Large
-
 # Offer1: Contact form
   offerOneContactTitle: MEINE APPUiO PRIVATE PLATFORM
   offerOneContactDesc: Gerne treten wir mit dir in Kontakt. Bitte teile uns mit, wie wir dich am besten erreichen. Deine Daten behandeln wir vertraulich.<br>Bei Fragen erreichst du uns auch telefonisch unter +41 44 552 22 40.
