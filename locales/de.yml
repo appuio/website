@@ -479,6 +479,15 @@ de:
   offerThreeAddon5Description: Additional service description placeholder # pro Service/Tag
   offerThreeAddon5Price: Additional service price placeholder # 0.35 CHF
 
+# Offer Three: IaaS Partner
+  offerThreeIaasTitle: IaaS Partner
+  offerThreeIaasName1: IaaS name placeholder
+  offerThreeIaasDescription1: IaaS description placeholder
+  offerThreeIaasName2: IaaS name placeholder
+  offerThreeIaasDescription2: IaaS name placeholder
+  offerThreeIaasName3: IaaS name placeholder
+  offerThreeIaasDescription3: IaaS description placeholder
+
 # Formular Defaults
   mailGotAMessage: We just recieved a message from APPUiO.ch!
   mailSubject: Ich interessiere mich für
