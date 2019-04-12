@@ -401,6 +401,15 @@ en:
   offerTwoFaqAddTreeTitle: What is "guaranteed availability"?
   offerTwoFaqAddTreeText: Not during announced maintenance work, excluding customer errors, reachable according to monitoring, similarly to VSHN's terms and conditions.
 
+# Offer Three: FAQ
+  offerThreeFAQTitle: FAQ title placeholder
+  offerThreeFAQQuestion1: FAQ question placeholder
+  offerThreeFAQAnswer1: FAQ answer placeholder
+  offerThreeFAQQuestion2: FAQ question placeholder
+  offerThreeFAQAnswer2: FAQ answer placeholder
+  offerThreeFAQQuestion3: FAQ question placeholder
+  offerThreeFAQAnswer3: FAQ answer placeholder
+
   offerTwoServiceTitle: Select the right offer and get going
   offerTwoServices1: Bundles tailored to your needs
   offerTwoServices2: "By Developers for Developers: Forum, documentation and community"
@@ -496,6 +505,69 @@ en:
   offerThreeContactDesc: Your UnManaged APPUiO offer sounds interesting. I would like a personal consultation.
   offerThreeLoadingMessage: Sending message...
   offerThreeSuccessMessage: Message successfully sent!
+
+# Offer three: Advantages
+  offerThreeAdvantagesTitle: Advantages
+  offerThreeAdvantagesOneTitle: UnManaged title placeholder
+  offerThreeAdvantagesOneDesc: UnManaged description text placeholder.
+  offerThreeAdvantagesTwoTitle: UnManaged title placeholder
+  offerThreeAdvantagesTwoDesc: UnManaged description text placeholder.
+  offerThreeAdvantagesThreeTitle: UnManaged title placeholder
+  offerThreeAdvantagesThreeDesc: UnManaged description text placeholder.
+  offerThreeAdvantagesFourTitle: UnManaged title placeholder
+  offerThreeAdvantagesFourDesc: UnManaged description text placeholder.
+  offerThreeAdvantagesFiveTitle: UnManaged title placeholder
+  offerThreeAdvantagesFiveDesc: UnManaged description text placeholder.
+  offerThreeAdvantagesSixTitle: UnManaged title placeholder
+  offerThreeAdvantagesSixDesc: UnManaged description text placeholder.
+
+# Offer three: Im Angebot enthalten
+  offerThreePackageContentsTitle: Services Included
+  offerThreePackageContentsTitleFirstTitle: Included service name placeholder
+  offerThreePackageContentsTitleFirstItemOne: Included service description placeholder.
+  offerThreePackageContentsTitleSecondTitle: Included service name placeholder
+  offerThreePackageContentsTitleSecondItemOne: Included service description placeholder.
+  offerThreePackageContentsTitleThirdTitle: Included service name placeholder
+  offerThreePackageContentsTitleThirdItemOne: Included service description placeholder.
+  offerThreePackageContentsTitleFourthTitle: Included service name placeholder
+  offerThreePackageContentsTitleFourthItemOne: Included service description placeholder.
+  offerThreePackageContentsTitleFifthTitle: Included service name placeholder
+  offerThreePackageContentsTitleFifthItemOne: Included service description placeholder
+  offerThreePackageContentsTitleSixthTitle: Included service name placeholder
+  offerThreePackageContentsTitleSixthItemOne: Included service description placeholder
+
+
+# Offer Three: Additional services
+  offerThreeAddonsTitle: Additional Services
+  offerThreeAddon1Title: Additional service title placeholder # SLA Office Hours
+  offerThreeAddon1Description: Additional service description placeholder # Support times&#58; 09&#58;00-12&#58;00 and 13&#58;00-18&#58;00 Uhr (5x8), Reaction time&#58; 2h, Availability&#58; 99%
+  offerThreeAddon1Price: Additional service price placeholder # included
+  offerThreeAddon2Title: Additional service title placeholder # SLA Office Hours Plus
+  offerThreeAddon2Description: Additional service description placeholder # Support times&#58; 08&#58;00-20&#58;00 Uhr (5x12), Reaction time&#58; 2h, Availability&#58; 99,3%
+  offerThreeAddon2Price: Additional service price placeholder # according to the arrangement
+  offerThreeAddon3Title: Additional service title placeholder # SLA 7x24
+  offerThreeAddon3Description: Additional service description placeholder # Support times&#58; 7x24, Reaction time&#58; 1h, Availability&#58; 99,5%
+  offerThreeAddon3Price: Additional service price placeholder # according to the arrangement
+  offerThreeAddon4Title: Additional service title placeholder # Persistent Storage
+  offerThreeAddon4Description: Additional service description placeholder # per GB/day
+  offerThreeAddon4Price: Additional service price placeholder # 0.0935 CHF
+  offerThreeAddon5Title: Additional service title placeholder # TCP and UDP Ingress
+  offerThreeAddon5Description: Additional service description placeholder # per Service/Day
+  offerThreeAddon5Price: Additional service price placeholder # 0.35 CHF
+
+# Offer Three: IaaS Partner
+  offerThreeIaasTitle: IaaS Partner
+  offerThreeIaasName1: IaaS name placeholder
+  offerThreeIaasDescription1: IaaS description placeholder
+  offerThreeIaasName2: IaaS name placeholder
+  offerThreeIaasDescription2: IaaS name placeholder
+  offerThreeIaasName3: IaaS name placeholder
+  offerThreeIaasDescription3: IaaS description placeholder
+
+# Offer Three: Customer
+  offerThreeCustomerTitle: Customer title
+  offerThreeCustomerName1: Customer name
+  offerThreeCustomerDescription1: Customer description
 
 # Formular Defaults
   mailGotAMessage: We just received a message from APPUiO.ch!
