@@ -13,7 +13,7 @@ en:
   navGlobalLogin: Login
   navOverview: Overview
   navOffers: Offering
-  navOffer1: Private
+  navOffer1: Managed
   navOffer2: Public
   navOffer3: UnManaged
   navClients: Customers
@@ -169,50 +169,79 @@ en:
   offerOneList7: With additional add-ons
   offerOneIso: Your APPUiO managed private platform can run in data centers certified to ISO27001 and according to FINMA guidelines in Switzerland and is subject to Swiss law or on your wish on AWS, Azure or Google Cloud
 
-  offerOneServiceTitle: Aside from optimal data protection we also offer you the following additional services
-  offerOneServices1: Consulting Setup und initialization
-  offerOneServices2: Bring my App to the Cloud - we consult and implement
-  offerOneServices3: |-
-    Automatization of your Processes: Continuous Delivery and Deployment of your application
+  # Offer1: Advantages
+  offerOneAdvantagesTitle: Advantages
+  offerOneAdvantagesOneTitle: UnManaged title placeholder
+  offerOneAdvantagesOneDesc: UnManaged description text placeholder.
+  offerOneAdvantagesTwoTitle: UnManaged title placeholder
+  offerOneAdvantagesTwoDesc: UnManaged description text placeholder.
+  offerOneAdvantagesThreeTitle: UnManaged title placeholder
+  offerOneAdvantagesThreeDesc: UnManaged description text placeholder.
+  offerOneAdvantagesFourTitle: UnManaged title placeholder
+  offerOneAdvantagesFourDesc: UnManaged description text placeholder.
+  offerOneAdvantagesFiveTitle: UnManaged title placeholder
+  offerOneAdvantagesFiveDesc: UnManaged description text placeholder.
+  offerOneAdvantagesSixTitle: UnManaged title placeholder
+  offerOneAdvantagesSixDesc: UnManaged description text placeholder.
 
+  # Offer1: Im Angebot enthalten
+  offerOnePackageContentsTitle: Services Included
+  offerOnePackageContentsTitleFirstTitle: Included service name placeholder
+  offerOnePackageContentsTitleFirstItemOne: Included service description placeholder.
+  offerOnePackageContentsTitleSecondTitle: Included service name placeholder
+  offerOnePackageContentsTitleSecondItemOne: Included service description placeholder.
+  offerOnePackageContentsTitleThirdTitle: Included service name placeholder
+  offerOnePackageContentsTitleThirdItemOne: Included service description placeholder.
+  offerOnePackageContentsTitleFourthTitle: Included service name placeholder
+  offerOnePackageContentsTitleFourthItemOne: Included service description placeholder.
+  offerOnePackageContentsTitleFifthTitle: Included service name placeholder
+  offerOnePackageContentsTitleFifthItemOne: Included service description placeholder
+  offerOnePackageContentsTitleSixthTitle: Included service name placeholder
+  offerOnePackageContentsTitleSixthItemOne: Included service description placeholder
 
-  offerOnePackageTitle: |-
-    Our standard setup with additional add-ons:
-  offerOnePackageSmallTitle: Small
-  offerOnePackageSmallItem1: Master <br> (je 16 GB Ram, 6vCores)
-  offerOnePackageSmallItem2: 2 Nodes <br> (je 16 GB Ram, 6vCores, 100 GB Docker Storage)
-  offerOnePackageSmallItem3: 200 GB Persistent Storage
-  offerOneSmallButton: Small
+  # Offer1: Additional services
+  offerOneAddonsTitle: Additional Services
+  offerOneAddon1Title: Additional service title placeholder # SLA Office Hours
+  offerOneAddon1Description: Additional service description placeholder # Support times&#58; 09&#58;00-12&#58;00 and 13&#58;00-18&#58;00 Uhr (5x8), Reaction time&#58; 2h, Availability&#58; 99%
+  offerOneAddon1Price: Additional service price placeholder # included
+  offerOneAddon2Title: Additional service title placeholder # SLA Office Hours Plus
+  offerOneAddon2Description: Additional service description placeholder # Support times&#58; 08&#58;00-20&#58;00 Uhr (5x12), Reaction time&#58; 2h, Availability&#58; 99,3%
+  offerOneAddon2Price: Additional service price placeholder # according to the arrangement
+  offerOneAddon3Title: Additional service title placeholder # SLA 7x24
+  offerOneAddon3Description: Additional service description placeholder # Support times&#58; 7x24, Reaction time&#58; 1h, Availability&#58; 99,5%
+  offerOneAddon3Price: Additional service price placeholder # according to the arrangement
+  offerOneAddon4Title: Additional service title placeholder # Persistent Storage
+  offerOneAddon4Description: Additional service description placeholder # per GB/day
+  offerOneAddon4Price: Additional service price placeholder # 0.0935 CHF
+  offerOneAddon5Title: Additional service title placeholder # TCP and UDP Ingress
+  offerOneAddon5Description: Additional service description placeholder # per Service/Day
+  offerOneAddon5Price: Additional service price placeholder # 0.35 CHF
 
+  # Offer1: IaaS Partner
+  offerOneIaasTitle: IaaS Partner
+  offerOneIaasName1: IaaS name placeholder
+  offerOneIaasDescription1: IaaS description placeholder
+  offerOneIaasName2: IaaS name placeholder
+  offerOneIaasDescription2: IaaS name placeholder
+  offerOneIaasName3: IaaS name placeholder
+  offerOneIaasDescription3: IaaS description placeholder
+
+  # Offer1: Customer
+  offerOneCustomerTitle: Customer title
+  offerOneCustomerName1: Customer name
+  offerOneCustomerDescription1: Customer description
+
+# Offer1: FAQ
+  offerOneFAQTitle: FAQ title placeholder
+  offerOneFAQQuestion1: FAQ question placeholder
+  offerOneFAQAnswer1: FAQ answer placeholder
+  offerOneFAQQuestion2: FAQ question placeholder
+  offerOneFAQAnswer2: FAQ answer placeholder
+  offerOneFAQQuestion3: FAQ question placeholder
+  offerOneFAQAnswer3: FAQ answer placeholder
+
+# Offer1: Contact form
   offerOnePackageMediumTitle: Managed Private
-  offerOnePackageMediumItem1: 3 Master <br> (je 16 GB Ram, 6vCores)
-  offerOnePackageMediumItem2: 3 Nodes <br> (je 32 GB Ram, 8vCores, 100 GB Docker Storage)
-  offerOnePackageMediumItem3: 500 GB Persistent Storage
-  offerOneMediumButton: Interested?
-
-  offerOnePackageLargeTitle: Large
-  offerOnePackageLargeItem1: 3 Master <br> (je 16 GB Ram, 6vCores)
-  offerOnePackageLargeItem2: 8 Nodes <br> (je 32 GB Ram, 8vCores, 200 GB Docker Storage)
-  offerOnePackageLargeItem3: 1 TB Persistent Storage
-  offerOneLargeButton: Large
-
-  offerOnePackageAddonsTitle: |-
-    Add-Ons
-  offerOnePackageAddonsPretext: By request
-  offerOnePackageAddonsItem1: SLA 7*24 Reaktive
-  offerOnePackageAddonsItem2: SLA 7*24 Proaktive
-  offerOnePackageAddonsItem3: extended Backup of databases Pods
-  offerOnePackageAddonsItem4: Monitoring, application monitoring und alarming, per 5 applications
-  offerOnePackageAddonsItem5: JBoss Middleware subscriptions
-  offerOnePackageAddonsItem6: Additional Nodes / Masters
-  offerOnePackageAddonsItem7: Additional Memory
-  offerOnePackageAddonsItem8: Additional CPU
-  offerOnePackageAddonsItem9: Additional Storage
-
-  offerContactOneSmall: Small
-  offerContactOneMedium: Medium
-  offerContactOneLarge: Large
-
   offerOneContactTitle: MY APPUiO PRIVATE PLATFORM
   offerOneContactDesc: We would love to get in touch with you! Do let us know how we can reach you. Your data will be kept confidentially, and will not be shared with third parties.
   offerOneContactSubject: I'm interested in...
