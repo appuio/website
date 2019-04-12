@@ -176,11 +176,13 @@ de:
   offerOneList7: Mit zusätzlichen Add-Ons
   offerOneIso: Deine APPUiO Managed Private Platform kann in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht oder auf deinen Wunsch bei AWS, Azure oder Google Cloud
 
+# Offer1: Additional services
   offerOneServiceTitle: Zusätzliche Services
   offerOneServices1: Consulting Setup und Initialisierung.
   offerOneServices2: “Bring my App to the Cloud“ - wir beraten und setzen auch um.
   offerOneServices3: “Automatisierung Ihrer Prozesse&#58; Continuous Delivery und Continuous Deployment deiner Applikationen.“
 
+# Offer1: Standard setup
   offerOnePackageTitle: Unser minimales Setup mit zustätzlichen Add-Ons
   offerOnePackageSmallTitle: Small
   offerOnePackageSmallItem1: Master <br> (je 16 GB Ram, 6vCores)
@@ -217,6 +219,7 @@ de:
   offerContactOneMedium: Medium
   offerContactOneLarge: Large
 
+# Offer1: Contact form
   offerOneContactTitle: MEINE APPUiO PRIVATE PLATFORM
   offerOneContactDesc: Gerne treten wir mit dir in Kontakt. Bitte teile uns mit, wie wir dich am besten erreichen. Deine Daten behandeln wir vertraulich.<br>Bei Fragen erreichst du uns auch telefonisch unter +41 44 552 22 40.
   offerOneContactSubject: Ich interessiere mich für ...
