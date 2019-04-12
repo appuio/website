@@ -239,6 +239,15 @@ de:
   offerOneCustomerName1: Customer name
   offerOneCustomerDescription1: Customer description
 
+# Offer1: FAQ
+  offerOneFAQTitle: FAQ title placeholder
+  offerOneFAQQuestion1: FAQ question placeholder
+  offerOneFAQAnswer1: FAQ answer placeholder
+  offerOneFAQQuestion2: FAQ question placeholder
+  offerOneFAQAnswer2: FAQ answer placeholder
+  offerOneFAQQuestion3: FAQ question placeholder
+  offerOneFAQAnswer3: FAQ answer placeholder
+
 # Offer1: Contact form
   offerOnePackageMediumTitle: Managed Private
   offerOneContactTitle: MEINE APPUiO PRIVATE PLATFORM
