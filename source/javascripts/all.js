@@ -199,6 +199,61 @@ $('body').scrollspy({ target: '#nav-header', offset: 100 })
       $("input", this).val(submitText);
       $(this).removeClass("is-check is-exclamation is-loading").dequeue();
     });
-  }
+  };
+
+  jQuery('.slider-platinum').lbSlider({
+    leftBtn: '.sa-left-p', // left button selector
+    rightBtn: '.sa-right-p', // right button selector
+    visible: 3, // visible elements quantity
+    autoPlay: true, // autoscroll
+    autoPlayDelay: 10 // delay of autoscroll in seconds
+  });
+
+  jQuery('.slider-gold').lbSlider({
+    leftBtn: '.sa-left-g', // left button selector
+    rightBtn: '.sa-right-g', // right button selector
+    visible: 3, // visible elements quantity
+    autoPlay: true, // autoscroll
+    autoPlayDelay: 10 // delay of autoscroll in seconds
+  });
+
+  jQuery('.slider-silver').lbSlider({
+    leftBtn: '.sa-left-s', // left button selector
+    rightBtn: '.sa-right-s', // right button selector
+    visible: 3, // visible elements quantity
+    autoPlay: true, // autoscroll
+    autoPlayDelay: 10 // delay of autoscroll in seconds
+  });
+
+  jQuery('.slider-dev').lbSlider({
+    leftBtn: '.sa-left-d', // left button selector
+    rightBtn: '.sa-right-d', // right button selector
+    visible: 3, // visible elements quantity
+    autoPlay: true, // autoscroll
+    autoPlayDelay: 10 // delay of autoscroll in seconds
+  });
+
+  $(".owl-carousel").owlCarousel({
+    loop:true,
+    center:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+      0:{
+        items:1,
+        nav:false,
+        center:true
+      },
+      600:{
+        items:3,
+        nav:false
+      },
+      1000:{
+        items:3,
+        nav:false,
+        loop:true
+      }
+    }
+  });
 
 })( window );

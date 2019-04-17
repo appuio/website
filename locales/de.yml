@@ -427,6 +427,14 @@ de:
   offerTwoFaqAddTreeTitle: Was ist die "garantierte" Verfügbarkeit?
   offerTwoFaqAddTreeText: Ausserhalb der angekündigten Wartungsarbeiten, Kundenfehler ausschliessen, Erreichbar gemäss Monitoring, analog AGBs VSHN.
 
+#Offer Two Partner
+  offerTwoIaasPartnerTitle: IaaS Partner
+  offerTwoPlatPartnerTitle: Platinum
+  offerTwoGoldPartnerTitle: Gold
+  offerTwoSilvPartnerTitle: Silver
+  offerTwoDevPartnerTitle: Dev Partner
+
+
 # Offer Three: FAQ
   offerThreeFAQTitle: FAQ title placeholder
   offerThreeFAQQuestion1: FAQ question placeholder
