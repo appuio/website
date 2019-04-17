@@ -74,6 +74,13 @@
   }
 }
 
+.offer-partner {
+  padding: rem-calc(60 0);
+  .offers-partner-title {
+    text-align: center;
+  }
+}
+
 .offer-addons {
   background-color: $color-lightblue;
   color: white;
