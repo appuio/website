@@ -241,17 +241,16 @@
 
 <section id="offers-two-partner" class="offer-partner">
   <div class="grid-container">
-    <div class="owl-carousel owl-theme">
-      <div class="item" style="width:250px"> <img src="../images/openshift_logo.svg"></div>
-      <div class="item" style="width:250px"> <img src="../images/openshift_logo.svg"></div>
-      <div class="item" style="width:250px"> <img src="../images/openshift_logo.svg"></div>
-      <div class="item" style="width:250px"> <img src="../images/openshift_logo.svg"></div>
-      <div class="item" style="width:250px"> <img src="../images/openshift_logo.svg"></div>
-      <div class="item" style="width:250px"> <img src="../images/openshift_logo.svg"></div>
-      <div class="item" style="width:250px"> <img src="../images/openshift_logo.svg"></div>
-    </div>
+    <h2 class="offers-partner-title"><%= t(:offerTwoIaasPartnerTitle) %></h2>
+    <h3 class="offers-partner-title"><%= t(:offerTwoPlatPartnerTitle) %></h3>
+    <%= partial "partials/partners/platinum" %>
+    <h3 class="offers-partner-title"><%= t(:offerTwoGoldPartnerTitle) %></h3>
+    <%= partial "partials/partners/gold" %>
+    <h3 class="offers-partner-title"><%= t(:offerTwoSilvPartnerTitle) %></h3>
+    <%= partial "partials/partners/silver" %>
+    <h2 class="offers-partner-title"><%= t(:offerTwoDevPartnerTitle) %></h2>
+    <%= partial "partials/partners/dev" %>
   </div>
-
 </section>
 
 
