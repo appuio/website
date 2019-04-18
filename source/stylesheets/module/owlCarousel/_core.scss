@@ -43,10 +43,72 @@
 
 	}
 
+	.hoverfx {
+		position: relative;
+		display: block;
+		overflow: hidden;
+		text-align: center;
+	}
+
+	.hoverfx img {
+		position: absolute;
+		top:0;
+		left: 0;
+		width: 100%;
+	}
+
+	.hoverfx:before {
+		display: inline-block;
+	}
+
+	.hoverfx .figure {
+		min-height: 250px;
+		position: relative;
+		z-index: 2;
+		display: inline-block;
+		max-width: 100%;
+		color: #ecf0f1;
+		text-transform: uppercase;
+		font-size: 0.8rem;
+		opacity: 0;
+		-webkit-transition: all .3s ease;
+		-moz-transition: all .3s ease;
+		-o-transition: all .3s ease;
+		transition-property: all .3s ease;
+	}
+
+	.hoverfx .figure p{
+		font-size: 0.6rem;
+	}
+
+	.hoverfx .figure:hover {
+		background: #e9e9e9;
+		color: #333;
+	}
+
+	.hoverfx .overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		padding: 0%;
+		background: rgba(0, 0, 0, .7);
+		opacity: 0;
+		-webkit-transition: all .3s ease;
+		-moz-transition: all .3s ease;
+		-o-transition: all .3s ease;
+		transition-property: all .3s ease;
+	}
+
+	.item:hover .figure,
+	.item:hover .overlay {
+		opacity: 1;
+	}
+
 	.owl-item {
 		position: relative;
 		padding-left: 1%;
-		min-height: 500px;
+		min-height: 250px;
 
 		text-align: center;
 		float: left;
@@ -57,7 +119,6 @@
 	.owl-item img {
 		display: inline-block;
 		width: 100%;
-		margin: 0 auto
 
 	}
 
