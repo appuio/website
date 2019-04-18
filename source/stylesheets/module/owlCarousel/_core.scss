@@ -40,19 +40,25 @@
 		-webkit-transform: translate3d(0,0,0);
 		-moz-transform: translate3d(0,0,0);
 		-ms-transform: translate3d(0,0,0);
+
 	}
 
 	.owl-item {
 		position: relative;
-		min-height: 1px;
+		padding-left: 1%;
+		min-height: 500px;
+
+		text-align: center;
 		float: left;
 		-webkit-backface-visibility: hidden;
 		-webkit-tap-highlight-color: transparent;
 		-webkit-touch-callout: none;
 	}
 	.owl-item img {
-		display: block;
+		display: inline-block;
 		width: 100%;
+		margin: 0 auto
+
 	}
 
 	.owl-nav.disabled,
