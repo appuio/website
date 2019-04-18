@@ -206,7 +206,7 @@
         loop: true,
         center: true,
         margin: 10,
-        autoplay: true,
+        autoplay: false,
         autoplayTimeout: 8000,
         autoplayHoverPause: true,
         responsiveClass: true,
