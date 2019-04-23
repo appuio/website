@@ -13,7 +13,7 @@ de:
   navGlobalLogin: Login
   navOverview: Übersicht
   navOffers: Angebot
-  navOffer1: Manged
+  navOffer1: Managed
   navOffer2: Public
   navOffer3: UnManaged
   navClients: Kunden
@@ -433,6 +433,8 @@ de:
   offerTwoGoldPartnerTitle: Gold
   offerTwoSilvPartnerTitle: Silver
   offerTwoDevPartnerTitle: Dev Partner
+
+  offerTwoPlatPartner1: Dummy Partner Text auf Deutsch, weil Texte etwas gutes sind.
 
 
 # Offer Three: FAQ
