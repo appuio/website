@@ -146,6 +146,21 @@
 		border: none;
 		padding:0!important;
 		font: inherit;
+		font-size: 50px;
+	}
+
+	.owl-prev,
+	.owl-next {
+		position: absolute;
+		top: -5px;
+		height: 250px;
+		width: 50px;
+	}
+	.owl-prev {
+		left: -40px;
+	}
+	.owl-next {
+		right: -40px;
 	}
 
 	&.owl-loaded {

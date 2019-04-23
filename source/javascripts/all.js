@@ -202,27 +202,28 @@
         });
     };
 
+    // Partner carousels and settings
+
+
     $(".platinum-carousel").owlCarousel({
         loop: true,
         center: true,
         margin: 10,
-        autoplay: false,
+        autoplay: true,
         autoplayTimeout: 8000,
         autoplayHoverPause: true,
+        nav:true,
         responsiveClass: true,
         responsive: {
             0: {
                 items: 1,
-                nav: false,
                 center: true
             },
             600: {
                 items: 3,
-                nav: false
             },
             1000: {
                 items: 3,
-                nav: false,
                 loop: true
             }
         }
@@ -231,24 +232,21 @@
     $(".gold-carousel").owlCarousel({
         loop: true,
         center: true,
-        margin: 10,
         autoplay: true,
         autoplayTimeout: 8000,
         autoplayHoverPause: true,
+        nav:true,
         responsiveClass: true,
         responsive: {
             0: {
                 items: 1,
-                nav: false,
                 center: true
             },
             600: {
                 items: 3,
-                nav: false
             },
             1000: {
                 items: 3,
-                nav: false,
                 loop: true
             }
         }
@@ -261,20 +259,18 @@
         autoplay: true,
         autoplayTimeout: 8000,
         autoplayHoverPause: true,
+        nav:true,
         responsiveClass: true,
         responsive: {
             0: {
                 items: 1,
-                nav: false,
                 center: true
             },
             600: {
                 items: 3,
-                nav: false
             },
             1000: {
                 items: 3,
-                nav: false,
                 loop: true
             }
         }
@@ -287,20 +283,18 @@
         autoplay: true,
         autoplayTimeout: 8000,
         autoplayHoverPause: true,
+        nav:true,
         responsiveClass: true,
         responsive: {
             0: {
                 items: 1,
-                nav: false,
                 center: true
             },
             600: {
                 items: 3,
-                nav: false
             },
             1000: {
                 items: 3,
-                nav: false,
                 loop: true
             }
         }
