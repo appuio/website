@@ -239,17 +239,17 @@
   </div>
 </section>
 
-<section id="offers-two-partner" class="offer-partner">
-  <div class="grid-container">
-    <h2 class="offers-partner-title"><%= t(:offerTwoIaasPartnerTitle) %></h2>
-    <h3 class="offers-partner-title"><%= t(:offerTwoPlatPartnerTitle) %></h3>
-    <%= partial "partials/partners/publicplatinum" %>
-    <h3 class="offers-partner-title"><%= t(:offerTwoGoldPartnerTitle) %></h3>
-    <%= partial "partials/partners/publicgold" %>
-    <h3 class="offers-partner-title"><%= t(:offerTwoSilvPartnerTitle) %></h3>
-    <%= partial "partials/partners/publicsilver" %>
-    <h2 class="offers-partner-title"><%= t(:offerTwoDevPartnerTitle) %></h2>
-    <%= partial "partials/partners/publicdev" %>
+<section class="offer-two-contents">
+  <div class="grid-container offer-two-partner">
+    <h2><%= t(:offerOneIaasTitle) %></h2>
+    <%= partial "partials/partners/publicIaas" %>
+  </div>
+</section>
+
+<section class="offer-two-contents blue-section">
+  <div class="grid-container offer-two-partner">
+    <h2><%= t(:offerOneCustomerTitle) %></h2>
+    <%= partial "partials/partners/publicPartner" %>
   </div>
 </section>
 

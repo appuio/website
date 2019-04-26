@@ -134,52 +134,16 @@
 </section>
 
 <section class="offer-two-contents">
-  <div class="grid-container">
-    <h2 class="offers-package-title"><%= t(:offerOneIaasTitle) %></h2>
-    <article class="offers-package package-contents">
-      <ul class="offers-package-list cols-4">
-        <li class="offers-package-item">
-          <img src="http://placeholder.pics/svg/250" alt="offer3_IaasPartner-image" />
-          <h3 class="text-black"><%= t(:offerOneIaasName1) %></h3>
-          <p class="callout-desc"><%= t(:offerOneIaasDescription1) %></p>
-        </li>
-        <li class="offers-package-item">
-          <img src="http://placeholder.pics/svg/250" alt="offer3_IaasPartner-image" />
-          <h3 class="text-black"><%= t(:offerOneIaasName2) %></h3>
-          <p class="callout-desc"><%= t(:offerOneIaasDescription2) %></p>
-        </li>
-        <li class="offers-package-item">
-          <img src="http://placeholder.pics/svg/250" alt="offer3_IaasPartner-image" />
-          <h3 class="text-black"><%= t(:offerOneIaasName3) %></h3>
-          <p class="callout-desc"><%= t(:offerOneIaasDescription3) %></p>
-        </li>
-      </ul>
-    </article>
+  <div class="grid-container offer-two-partner">
+    <h2><%= t(:offerOneIaasTitle) %></h2>
+    <%= partial "partials/partners/managedIaas" %>
   </div>
 </section>
 
-<section id="offers-two-addons" class="offer-addons">
-  <div class="grid-container">
-    <h2 class="offers-package-title"><%= t(:offerOneCustomerTitle) %></h2>
-    <article class="offers-package last-child">
-      <ul class="offers-package-list cols-4">
-        <li class="offers-package-item">
-          <img src="http://placeholder.pics/svg/250" alt="offer3_IaasPartner-image" />
-          <h3 class="callout-title"><%= t(:offerOneCustomerName1) %></h3>
-          <p class="callout-desc"><%= t(:offerOneCustomerDescription1) %></p>
-        </li>
-        <li class="offers-package-item">
-          <img src="http://placeholder.pics/svg/250" alt="offer3_IaasPartner-image" />
-          <h3 class="callout-title"><%= t(:offerOneCustomerName1) %></h3>
-          <p class="callout-desc"><%= t(:offerOneCustomerDescription1) %></p>
-        </li>
-        <li class="offers-package-item">
-          <img src="http://placeholder.pics/svg/250" alt="offer3_IaasPartner-image" />
-          <h3 class="callout-title"><%= t(:offerOneCustomerName1) %></h3>
-          <p class="callout-desc"><%= t(:offerOneCustomerDescription1) %></p>
-        </li>
-      </ul>
-    </article>
+<section class="offer-two-contents blue-section">
+  <div class="grid-container offer-two-partner">
+    <h2><%= t(:offerOneCustomerTitle) %></h2>
+    <%= partial "partials/partners/managedPartner" %>
   </div>
 </section>
 

@@ -207,7 +207,6 @@
 
     $(".platinum-carousel").owlCarousel({
         loop: true,
-        center: true,
         margin: 10,
         autoplay: true,
         autoplayTimeout: 8000,
@@ -223,7 +222,7 @@
                 items: 3,
             },
             1000: {
-                items: 3,
+                items: 4,
                 loop: true
             }
         }
@@ -231,7 +230,6 @@
 
     $(".gold-carousel").owlCarousel({
         loop: true,
-        center: true,
         autoplay: true,
         autoplayTimeout: 8000,
         autoplayHoverPause: true,
@@ -246,7 +244,7 @@
                 items: 3,
             },
             1000: {
-                items: 3,
+                items: 4,
                 loop: true
             }
         }
@@ -254,7 +252,6 @@
 
     $(".silver-carousel").owlCarousel({
         loop: true,
-        center: true,
         margin: 10,
         autoplay: true,
         autoplayTimeout: 8000,
@@ -270,7 +267,7 @@
                 items: 3,
             },
             1000: {
-                items: 3,
+                items: 4,
                 loop: true
             }
         }
@@ -278,7 +275,6 @@
 
     $(".dev-carousel").owlCarousel({
         loop: true,
-        center: true,
         margin: 10,
         autoplay: true,
         autoplayTimeout: 8000,
@@ -294,7 +290,139 @@
                 items: 3,
             },
             1000: {
+                items: 4,
+                loop: true
+            }
+        }
+    });
+
+    $(".public-iaas-carousel").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 8000,
+        autoplayHoverPause: true,
+        nav:true,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                center: true
+            },
+            600: {
                 items: 3,
+            },
+            1000: {
+                items: 4,
+                loop: true
+            }
+        }
+    });
+
+    $(".public-partner-carousel").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 8000,
+        autoplayHoverPause: true,
+        nav:true,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                center: true
+            },
+            600: {
+                items: 3,
+            },
+            1000: {
+                items: 4,
+                loop: true
+            }
+        }
+    });
+
+    $(".managed-iaas-carousel").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 8000,
+        autoplayHoverPause: true,
+        nav:true,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                center: true
+            },
+            600: {
+                items: 3,
+            },
+            1000: {
+                items: 4,
+                loop: true
+            }
+        }
+    });
+
+    $(".managed-partner-carousel").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 8000,
+        autoplayHoverPause: true,
+        nav:true,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                center: true
+            },
+            600: {
+                items: 3,
+            },
+            1000: {
+                items: 4,
+                loop: true
+            }
+        }
+    });
+
+    $(".unmanaged-iaas-carousel").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 8000,
+        autoplayHoverPause: true,
+        nav:true,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                center: true
+            },
+            600: {
+                items: 3,
+            },
+            1000: {
+                items: 4,
+                loop: true
+            }
+        }
+    });
+
+    $(".unmanaged-partner-carousel").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 8000,
+        autoplayHoverPause: true,
+        nav:true,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                center: true
+            },
+            600: {
+                items: 3,
+            },
+            1000: {
+                items: 4,
                 loop: true
             }
         }
