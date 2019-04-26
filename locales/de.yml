@@ -428,11 +428,8 @@ de:
   offerTwoFaqAddTreeText: Ausserhalb der angekündigten Wartungsarbeiten, Kundenfehler ausschliessen, Erreichbar gemäss Monitoring, analog AGBs VSHN.
 
 #Offer Two Partner
-  offerTwoIaasPartnerTitle: IaaS Partner
-  offerTwoPlatPartnerTitle: Platinum
-  offerTwoGoldPartnerTitle: Gold
-  offerTwoSilvPartnerTitle: Silver
-  offerTwoDevPartnerTitle: Dev Partner
+  offerTwoIaasTitle: IaaS Kunden
+  offerTwoPartnerTitle: Kunden
 
   offerTwoPlatPartner1: Dummy Partner Text auf Deutsch, weil Texte etwas gutes sind.
 
