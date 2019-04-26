@@ -87,6 +87,9 @@ $color-third: lighten($color-blue, 15%);
 @import 'module/advantages';
 @import 'module/event';
 
+@import 'module/owlCarousel/owl.carousel.scss';
+@import 'module/owlCarousel/owl.theme.default.scss';
+
 
 
 // Layout

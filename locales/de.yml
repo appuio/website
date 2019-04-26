@@ -13,7 +13,7 @@ de:
   navGlobalLogin: Login
   navOverview: Übersicht
   navOffers: Angebot
-  navOffer1: Manged
+  navOffer1: Managed
   navOffer2: Public
   navOffer3: UnManaged
   navClients: Kunden
@@ -426,6 +426,13 @@ de:
     Der Kunde meldet um 16:00 ein Supportfall. Mit der Bearbeitung des Supportfalls in der Variante A wird spätestens am nächsten Tag um 17:00 begonnen
   offerTwoFaqAddTreeTitle: Was ist die "garantierte" Verfügbarkeit?
   offerTwoFaqAddTreeText: Ausserhalb der angekündigten Wartungsarbeiten, Kundenfehler ausschliessen, Erreichbar gemäss Monitoring, analog AGBs VSHN.
+
+#Offer Two Partner
+  offerTwoIaasTitle: IaaS Kunden
+  offerTwoPartnerTitle: Kunden
+
+  offerTwoPlatPartner1: Dummy Partner Text auf Deutsch, weil Texte etwas gutes sind.
+
 
 # Offer Three: FAQ
   offerThreeFAQTitle: FAQ title placeholder
