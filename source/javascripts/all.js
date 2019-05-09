@@ -212,6 +212,7 @@
         autoplayTimeout: 8000,
         autoplayHoverPause: true,
         nav:true,
+        dots: false,
         responsiveClass: true,
         responsive: {
             0: {
@@ -223,6 +224,7 @@
             },
             1000: {
                 items: 4,
+                nav: true,
                 loop: true
             }
         }
@@ -234,6 +236,7 @@
         autoplayTimeout: 8000,
         autoplayHoverPause: true,
         nav:true,
+        dots: false,
         responsiveClass: true,
         responsive: {
             0: {
@@ -257,6 +260,7 @@
         autoplayTimeout: 8000,
         autoplayHoverPause: true,
         nav:true,
+        dots: false,
         responsiveClass: true,
         responsive: {
             0: {
@@ -280,6 +284,7 @@
         autoplayTimeout: 8000,
         autoplayHoverPause: true,
         nav:true,
+        dots: false,
         responsiveClass: true,
         responsive: {
             0: {
@@ -302,6 +307,7 @@
         autoplayTimeout: 8000,
         autoplayHoverPause: true,
         nav:true,
+        dots: false,
         responsiveClass: true,
         responsive: {
             0: {
@@ -324,6 +330,7 @@
         autoplayTimeout: 8000,
         autoplayHoverPause: true,
         nav:true,
+        dots: false,
         responsiveClass: true,
         responsive: {
             0: {
@@ -346,6 +353,7 @@
         autoplayTimeout: 8000,
         autoplayHoverPause: true,
         nav:true,
+        dots: false,
         responsiveClass: true,
         responsive: {
             0: {
@@ -368,6 +376,7 @@
         autoplayTimeout: 8000,
         autoplayHoverPause: true,
         nav:true,
+        dots: false,
         responsiveClass: true,
         responsive: {
             0: {
@@ -390,6 +399,7 @@
         autoplayTimeout: 8000,
         autoplayHoverPause: true,
         nav:true,
+        dots: false,
         responsiveClass: true,
         responsive: {
             0: {
@@ -412,6 +422,7 @@
         autoplayTimeout: 8000,
         autoplayHoverPause: true,
         nav:true,
+        dots: false,
         responsiveClass: true,
         responsive: {
             0: {
@@ -426,6 +437,11 @@
                 loop: true
             }
         }
+    });
+
+    $('.owl-carousel').find('.owl-nav').removeClass('disabled');
+    $('.owl-carousel').on('changed.owl.carousel', function(event) {
+        $(this).find('.owl-nav').removeClass('disabled');
     });
 
 })(window);
