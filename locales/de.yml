@@ -227,17 +227,29 @@ de:
 
   # Offer One: IaaS Partner
   offerOneIaasTitle: IaaS Partner
-  offerOneIaasName1: IaaS name placeholder
-  offerOneIaasDescription1: IaaS description placeholder
-  offerOneIaasName2: IaaS name placeholder
-  offerOneIaasDescription2: IaaS name placeholder
-  offerOneIaasName3: IaaS name placeholder
-  offerOneIaasDescription3: IaaS description placeholder
+  offerOneIaasName1: IaaS Partner 1 name placeholder
+  offerOneIaasDescription1: IaaS Partner 1 description placeholder
+  offerOneIaasName2: IaaS Partner 2 name placeholder
+  offerOneIaasDescription2: IaaS Partner 2 name placeholder
+  offerOneIaasName3: IaaS Partner 3 name placeholder
+  offerOneIaasDescription3: IaaS Partner 3 description placeholder
+  offerOneIaasName4: IaaS Partner 4 name placeholder
+  offerOneIaasDescription4: IaaS Partner 4 description placeholder
+  offerOneIaasName5: IaaS Partner 5 name placeholder
+  offerOneIaasDescription5: IaaS Partner 5 description placeholder
 
   # Offer One: Customer
   offerOneCustomerTitle: Customer title
-  offerOneCustomerName1: Customer name
-  offerOneCustomerDescription1: Customer description
+  offerOneCustomerName1: Customer 1name
+  offerOneCustomerDescription1: Customer1 description
+  offerOneCustomerName2: Customer2 name
+  offerOneCustomerDescription2: Customer2 description
+  offerOneCustomerName3: Customer3 name
+  offerOneCustomerDescription3: Customer3 description
+  offerOneCustomerName4: Customer4 name
+  offerOneCustomerDescription4: Customer4 description
+  offerOneCustomerName5: Customer5 name
+  offerOneCustomerDescription5: Customer5 description
 
 # Offer1: FAQ
   offerOneFAQTitle: FAQ title placeholder
@@ -525,15 +537,6 @@ de:
   offerThreeAddon5Title: Additional service title placeholder # TCP und UDP Ingress
   offerThreeAddon5Description: Additional service description placeholder # pro Service/Tag
   offerThreeAddon5Price: Additional service price placeholder # 0.35 CHF
-
-# Offer Three: IaaS Partner
-  offerThreeIaasTitle: IaaS Partner
-  offerThreeIaasName1: IaaS name placeholder
-  offerThreeIaasDescription1: IaaS description placeholder
-  offerThreeIaasName2: IaaS name placeholder
-  offerThreeIaasDescription2: IaaS name placeholder
-  offerThreeIaasName3: IaaS name placeholder
-  offerThreeIaasDescription3: IaaS description placeholder
 
 # Offer Three: Customer
   offerThreeCustomerTitle: Customer title
