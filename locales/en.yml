@@ -85,7 +85,6 @@ en:
           <li>Persistent Storage (File based-, Blockstorage)</li>
        </ul>
       </div>
-    On the <a href="https://trello.com/b/kpVq53J2/appuio-roadmap">APPUiO Roadmap</a> you can see which features we plan to work on next.
   homeFeatureAddonsAlt: Safe container with a swiss locker
   homeFeatureEncryptTitle: Lets Encrypt SSL/TLS Routen auf Knopfdruck
   homeFeatureEncryptDesc: APPUiO erlaubt es ihnen mittels Lets Encrypt einfach per Knopfdruck echte SSL Zertifikate in ihren Routen zu konfigurieren. Nach erfolgter Registrierung sorgt APPUiO für die Aktualisierung der Lets Encrypt Zertifikate, welche nur 3 Monate gültig sind, und ersetzt diese automatisch nach Ablauf. Sie müssen sich danach nicht mehr darum kümmern.
@@ -303,7 +302,6 @@ en:
 
 # Offer Two: Schieber
   offerDynamicAddonsPretext: "APPUiO Public Platform Calculator"
-  offerTwoPackageTitle: "Die passende Grösse für deine Public Platform"
   offerDynamicAddonsTitle: "Choose size"
   offerTwoDynamicButton: "Order"
   offerTwoLabelMemory: "Memory"
