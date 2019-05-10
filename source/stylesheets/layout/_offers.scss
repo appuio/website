@@ -668,3 +668,21 @@ $toggleOffset: 4px;
     z-index: 1;
   }
 }
+
+.offer-table {
+  background-color: white;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+
+  td, th {
+    color: #002F47;
+    border: 1px solid #002F47;
+    text-align: left;
+    padding: 8px;
+  }
+}
+
+.dummy-center {
+  justify-content: center;
+}
