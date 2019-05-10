@@ -106,57 +106,6 @@ de:
   homeOfferThreeButton: Details
   homeOfferDesc: Unser APPUiO Angebot wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
 
-  # Home: Offer Table
-  homeTableSubject1: IaaS partner frei wählbar
-  publicSubject1: X
-  managedSubject1: V
-  unmanagedSubject1: V
-
-  homeTableSubject2: ISO-20071 Zertifizierung & FINMA
-  publicSubject2: V
-  managedSubject2: "?"
-  unmanagedSubject2: "?"
-
-  homeTableSubject3: OpenShift Consulting
-  publicSubject3: X
-  managedSubject3: X
-  unmanagedSubject3: V
-
-  homeTableSubject4: ISOMaintenance & Updates inbegriffen
-  publicSubject4: V
-  managedSubject4: V
-  unmanagedSubject4: "?"
-
-  homeTableSubject5: Community Chat
-  publicSubject5: V
-  managedSubject5: V
-  unmanagedSubject5: V
-
-  homeTableSubject6: Backup & Monitoring inbegriffen
-  publicSubject6: V
-  managedSubject6: V
-  unmanagedSubject6: "?"
-
-  homeTableSubject7: On premise
-  publicSubject7: X
-  managedSubject7: V
-  unmanagedSubject7: V
-
-  homeTableSubject8: Betrieb übernimmt APPUiO
-  publicSubject8: V
-  managedSubject8: V
-  unmanagedSubject8: "?"
-
-  homeTableSubject9: Eigener Betrieb
-  publicSubject9: X
-  managedSubject9: X
-  unmanagedSubject9: V
-
-  homeTableSubject10: Sofort loslegen
-  publicSubject10: V
-  managedSubject10: X
-  unmanagedSubject10: X
-
   # Home: Clients
   homeClientsTitle: Unsere Kunden
   homeClientsOneTitle: „Mit APPUiO haben wir OpenShift-Experten, die uns mit ihrer langjährigen Erfahrung jederzeit unterstützen.“
