@@ -114,10 +114,9 @@ en:
   homeClientsThreeTitle: „APPUiO complies with our high security requirements.”
   homeClientsThreeDesc: Michael Gerber, Software Developer <b>@HRM Systems AG</b>
 
-# Home: Technologies sections
+  # Home: Technologies sections
   homeTechnologiesTitle: Technologies
   homeTechnologiesDescriptionOne: With APPUiO, you’re creating new environments at the push of a button. There’s a multitude of Technologies and Platforms available right “out of the Box”. Docker, the foundation on which APPUiO is built, brings along a whole ecosystem of additional runtime environments and frameworks.
-  homeTechnologiesDescriptionTwo:  Mit APPUiO kannst du deine Applikation automatisch builden, testen und deployen.
   homeTechnologiesOneTitle: OpenShift
   homeTechnologiesOneDesc: APPUiO is based on on the OpenShift Container Platform by Red Hat, a software that allows development and operations of containers. OpenShift is combining Docker and Kubernetes in a single platform bundled with many additional features simplifying operations of containers and thereby revolutionising IT as we know it.
   homeTechnologiesTwoTitle: Docker
@@ -125,7 +124,9 @@ en:
   homeTechnologiesThreeTitle: Kubernetes
   homeTechnologiesThreeDesc: On APPUiO, you orchestrate and manage your containers with Kubernetes by Google. You define how many of your application instances should run in parallel and Kubernetes then takes care of scaling, load balancing and stability.
 
-# Home: Contact Section
+  homeTechnologiesDetails: Detailed information
+
+  # Home: Contact Section
   homeContactTitle: Contact
   homeContactDesc: We would love to get in touch with you! Do let us know how we can reach you. Your data will be kept confidentially, and will not be shared with third parties.
   homeContactSubject: I’m interested in
