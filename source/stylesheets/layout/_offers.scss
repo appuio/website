@@ -31,8 +31,7 @@
   background-color: $color-blue;
 }
 
-
-.offer-one-image {
+.offer-image-position {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: scroll;
@@ -41,6 +40,9 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.offer-one-image {
   @include susy-breakpoint($break-medium) {
     background-image: url("../images/offers/Angebot_Managed.svg");
     background-size: 100%;
@@ -49,14 +51,6 @@
 }
 
 .offer-two-image {
-  background-repeat: no-repeat;
-  background-position: center;
-  background: #002F47;
-  background-attachment: scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   @include susy-breakpoint($break-medium) {
     background-image: url("../images/offers/Angebot_Public.svg");
     background-size: 100%;
@@ -65,14 +59,6 @@
 }
 
 .offer-three-image {
-  background-repeat: no-repeat;
-  background-position: center;
-  background: #002F47;
-  background-attachment: scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   @include susy-breakpoint($break-medium) {
     background-image: url("../images/offers/Angebot_Unmanaged.svg");
     background-size: 100%;
