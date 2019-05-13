@@ -31,6 +31,55 @@
   background-color: $color-blue;
 }
 
+
+.offer-one-image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  background: #002F47;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  @include susy-breakpoint($break-medium) {
+    background-image: url("../images/offers/Angebot_Managed.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+.offer-two-image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background: #002F47;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  @include susy-breakpoint($break-medium) {
+    background-image: url("../images/offers/Angebot_Public.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+.offer-three-image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background: #002F47;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  @include susy-breakpoint($break-medium) {
+    background-image: url("../images/offers/Angebot_Unmanaged.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+
 .offer-one-services {
   background-color: white;
 }
@@ -207,8 +256,12 @@
 
 .offers-title {
   position: relative;
+  text-align: center;
   z-index: 9;
-  padding-top: rem-calc(128);
+  @include susy-breakpoint($break-medium) {
+    text-align: right;
+    color: #002337;
+  }
 }
 
 .offers-image {
@@ -227,14 +280,31 @@
   margin-left: 15%;
 }
 
+.offer-start-text {
+  text-align: center;
+  margin-left: 0%;
+  margin-right: 0%;
+  @include susy-breakpoint($break-large) {
+    margin-left: 40%;
+    margin-right: 10%;
+    margin-top: 5%;
+    text-align: right;
+    p {
+      margin-top: 25%;
+      text-align: right;
+    }
+  }
+}
+
 .offers-intro {
   font-size: rem-calc(26);
   line-height: rem-calc(34);
-  text-align: left;
+  text-align: center;
+  margin-left: 0 !important;
+  width: 100% !important;
   @include susy-breakpoint($break-medium) {
     font-size: rem-calc(36);
     line-height: rem-calc(44);
-    text-align: center;
   }
   @include susy-breakpoint($break-medium) {
     @include span(10 of 12);
