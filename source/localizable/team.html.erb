@@ -1,5 +1,5 @@
 ---
-title: APPUiO - Swiss Container Platform - Techlab
+title: APPUiO - Swiss Container Platform - Team page
 ---
 <%= partial "partials/github" %>
 <header class="header-container" role="banner">
@@ -9,42 +9,23 @@ title: APPUiO - Swiss Container Platform - Techlab
 </header>
 
 <main class="main-container" role="main">
-  <section class="news-section">
+  <section class="news-section team-title">
     <div class="grid-container">
       <h2><%= t(:teamPageTitle) %></h2>
+    </div>
+  </section>
+
+  <section class="news-section team-subtitle">
+    <div class="grid-container">
+      <h3><%= t(:teamSubtitle) %></h3>
+    </div>
+  </section>
+
+  <section class="news-section team-picture">
+    <div class="grid-container">
       <h3><%= t(:teamTitle) %></h3>
-      <h4><%= t(:teamSubtitle) %></h4>
-
       <div class="grid-container team-container">
-        <ul class="faces-list callout-list">
-          <li class="callout-item callout-item-team-member">
-            <img src="/images/MatthiasSummer.png" alt="member1-image"/>
-            <p class="callout-desc"><%= t(:teamMemberOneDesc) %></p>
-          </li>
-          <li class="callout-item callout-item-team-member">
-            <img src="/images/amazeeio.png" alt="member2-image"/>
-            <p class="callout-desc"><%= t(:teamMemberTwoDesc) %></p>
-          </li>
-          <li class="callout-item callout-item-team-member">
-            <img src="/images/MichaelGerber.png" alt="member3-image"/>
-            <p class="callout-desc"><%= t(:teamMemberThreeDesc) %></p>
-          </li>
-        </ul>
-        <ul class="faces-list callout-list">
-          <li class="callout-item callout-item-team-member">
-            <img src="/images/MatthiasSummer.png" alt="member1-image"/>
-            <p class="callout-desc"><%= t(:teamMemberOneDesc) %></p>
-          </li>
-          <li class="callout-item callout-item-team-member">
-            <img src="/images/amazeeio.png" alt="member2-image"/>
-            <p class="callout-desc"><%= t(:teamMemberTwoDesc) %></p>
-          </li>
-          <li class="callout-item callout-item-team-member">
-            <img src="/images/MichaelGerber.png" alt="member3-image"/>
-            <p class="callout-desc"><%= t(:teamMemberThreeDesc) %></p>
-          </li>
-        </ul>
-
+        <img alt="team-photo" src="https://picsum.photos/1440/1024">
       </div>
     </div>
   </section>
