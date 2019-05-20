@@ -356,11 +356,7 @@ en:
   offerTwoAddon5Description: pro Service/Tag
   offerTwoAddon5Price: 0.35 CHF
 
-  offerTwoStorageDescription: Persistent Storage steht dir direkt in der Web Console oder via CLI zur Verfügung und kann als sogenannte Persistent Volumes direkt an deinen Container angebunden werden. Die Abrechnung erfolgt nach Verbrauch.
-
-  offerTwoBilling: Abrechnungsperiode ist einmal pro Monat<br>Es gelten die APPUiO Servicebestimmungen
-
-
+  offerTwoBilling: Monthly billing cycle<br>Please refer to our service conditions.
 
   # Offer Two: FAQ
   offerTwoFaqTitle: Frequently Asked Questions
@@ -449,8 +445,6 @@ en:
   offerTwoPackageXlargeItem4: Persistent Volume <br> 50 GB
   offerTwoXlargeButton: X-Large
 
-  offerTwoCPUDescription: CPU resources are normalized as KCU (Kubernetes Compute Units), and CPU 1000m approximately represent one single hyperthreaded CPU Core.
-
   offerTwoDedicatedAddonsPretext: ""
   offerTwoDedicatedAddonsTitle: Dedicated APPUiO
   offerTwoDedicatedAddonsItem1: unlimited projects
@@ -469,7 +463,6 @@ en:
 
   offerTwoStorageDescription: Persistent Storage is at your direct disposal via Web Console or via CLI and so-called Persistent Volumes can be attached directly to your container. Accounts are balanced after usage.
 
-  offerTwoBilling: The contract period is currently one year.<br>Please refer to our service conditions.
   offerTwoBillingMonthly: Monthly
   offerTwoBillingYearly: Yearly
 
