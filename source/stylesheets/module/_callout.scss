@@ -3,6 +3,10 @@
   @include susy-breakpoint($break-large) {
     display: flex;
   }
+
+  .callout-item-team-member {
+    background: white;
+  }
 }
 .callout-item {
   display: flex;
