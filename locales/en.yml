@@ -105,7 +105,31 @@ en:
   homeOfferThreeButton: Details
   homeOfferDesc: All APPUiO Public Platform offerings are held and operated in ISO27001-certified and FINMA-audited data centres within Switzerland and are subject to Swiss law.
 
-# Home: Clients
+  # Home: Offer Table
+  homeTableHeaderText: Welches Modell brauche ich?
+  homeTableHeaderServiceDescription: Inbegriffen
+
+  homeTableSubject1: IaaS partner frei wählbar
+
+  homeTableSubject2: ISO-20071 Zertifizierung & FINMA
+
+  homeTableSubject3: OpenShift Consulting
+
+  homeTableSubject4: ISOMaintenance & Updates inbegriffen
+
+  homeTableSubject5: Community Chat
+
+  homeTableSubject6: Backup & Monitoring inbegriffen
+
+  homeTableSubject7: On premise
+
+  homeTableSubject8: Betrieb übernimmt APPUiO
+
+  homeTableSubject9: Eigener Betrieb
+
+  homeTableSubject10: Sofort loslegen
+
+  # Home: Clients
   homeClientsTitle: Our Clients
   homeClientsOneTitle: „APPUiO provides us with OpenShift-Experts who support us with their long-standing experience at any time.“
   homeClientsOneDesc: Matthias Summer, System Engineer <b>@Adcubum AG</b>
