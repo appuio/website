@@ -105,7 +105,31 @@ en:
   homeOfferThreeButton: Details
   homeOfferDesc: All APPUiO Public Platform offerings are held and operated in ISO27001-certified and FINMA-audited data centres within Switzerland and are subject to Swiss law.
 
-# Home: Clients
+  # Home: Offer Table
+  homeTableHeaderText: Welches Modell brauche ich?
+  homeTableHeaderServiceDescription: Inbegriffen
+
+  homeTableSubject1: IaaS partner frei wählbar
+
+  homeTableSubject2: ISO-20071 Zertifizierung & FINMA
+
+  homeTableSubject3: OpenShift Consulting
+
+  homeTableSubject4: ISOMaintenance & Updates inbegriffen
+
+  homeTableSubject5: Community Chat
+
+  homeTableSubject6: Backup & Monitoring inbegriffen
+
+  homeTableSubject7: On premise
+
+  homeTableSubject8: Betrieb übernimmt APPUiO
+
+  homeTableSubject9: Eigener Betrieb
+
+  homeTableSubject10: Sofort loslegen
+
+  # Home: Clients
   homeClientsTitle: Our Clients
   homeClientsOneTitle: „APPUiO provides us with OpenShift-Experts who support us with their long-standing experience at any time.“
   homeClientsOneDesc: Matthias Summer, System Engineer <b>@Adcubum AG</b>
@@ -169,20 +193,20 @@ en:
   offerOneList7: With additional add-ons
   offerOneIso: Your APPUiO managed private platform can run in data centers certified to ISO27001 and according to FINMA guidelines in Switzerland and is subject to Swiss law or on your wish on AWS, Azure or Google Cloud
 
-  # Offer One: Managed: Advantages
-  offerOneAdvantagesTitle: Vorteile
-  offerOneAdvantagesOneTitle: Zeit gewinnen
-  offerOneAdvantagesOneDesc: Endlich auf das Entwickeln der Applikation konzentrieren und nicht auf den Betrieb.
-  offerOneAdvantagesTwoTitle: Schnelligkeit
-  offerOneAdvantagesTwoDesc: Bereitstellung von Applikationen & Microservices im Handumdrehen.
-  offerOneAdvantagesThreeTitle: Automatisierung
-  offerOneAdvantagesThreeDesc: Automatisierung der Entwicklung von Apps und leichte Skalierung.
-  offerOneAdvantagesFourTitle: DevOps
-  offerOneAdvantagesFourDesc: Devs profitieren in der Entwicklung und beim ausrollen und Ops im Container-Betrieb.
-  offerOneAdvantagesFiveTitle: Flexibilität
-  offerOneAdvantagesFiveDesc: Freie Wahl von Cloud-Provider oder On-Premises (eigenes RZ).
-  offerOneAdvantagesSixTitle: Know-How
-  offerOneAdvantagesSixDesc: Persönliche Ansprechpartner und Know-How sharing.
+  # Offer1: Advantages
+  offerOneAdvantagesTitle: Advantages
+  offerOneAdvantagesOneTitle: UnManaged title placeholder
+  offerOneAdvantagesOneDesc: UnManaged description text placeholder.
+  offerOneAdvantagesTwoTitle: UnManaged title placeholder
+  offerOneAdvantagesTwoDesc: UnManaged description text placeholder.
+  offerOneAdvantagesThreeTitle: UnManaged title placeholder
+  offerOneAdvantagesThreeDesc: UnManaged description text placeholder.
+  offerOneAdvantagesFourTitle: UnManaged title placeholder
+  offerOneAdvantagesFourDesc: UnManaged description text placeholder.
+  offerOneAdvantagesFiveTitle: UnManaged title placeholder
+  offerOneAdvantagesFiveDesc: UnManaged description text placeholder.
+  offerOneAdvantagesSixTitle: UnManaged title placeholder
+  offerOneAdvantagesSixDesc: UnManaged description text placeholder.
 
   # Offer1: Im Angebot enthalten
   offerOnePackageContentsTitle: Services Included
