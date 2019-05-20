@@ -680,6 +680,14 @@ de:
     Ort: Limmatstrasse 214, Zürich oder Belpstrasse 37, Bern</p>
     <p>Die Teilnahme ist kostenlos. Bitte bring für das Lab deinen Laptop mit. Die Platzzahl ist beschränkt.</p>
 
+  # Team Page
+  teamPageTitle: Team
+  teamTitle: Unsere fantastische Crew
+  teamSubtitle: Wir begeistern mit unserer Faszination für APPUiO unsere Kunden und sind ein kompetenter, persönlicher Ansprechpartner.
+  teamMemberOneDesc: Matthias Summer, System Engineer <b>@Adcubum AG</b>
+  teamMemberTwoDesc: Matthias Summer, System Engineer <b>@Adcubum AG</b>
+  teamMemberThreeDesc: Matthias Summer, System Engineer <b>@Adcubum AG</b>
+
   # Impressum und datenschutz
   impressumTitle: Impressum
   impressumAddress: |-
