@@ -14,11 +14,6 @@
 }
 .home-hero-illus {
   height: 62vw;
-
-  background-image: url('/images/landscape_compact.svg');
-  @include susy-breakpoint($break-xlarge) {
-    background-image: url('/images/landscape_compact.svg');
-  }
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 100% auto;
@@ -31,24 +26,32 @@
 }
 .home-hero-cta {
   clear: both;
-  padding: rem-calc(24);
+  padding: 0;
+  a.button {
+    margin: rem-calc(24);
+  }
 }
 .home-hero-logo {
-  margin-top: 38vw;
+  position: absolute;
+  top: 38vw;
+  left: 50px;
+  right: 50px;
+  margin: auto;
   width: 370px;
   max-width: 60%;
+  z-index: 9;
   @include susy-breakpoint($break-medium) {
     max-width: none;
-    margin-top: 34vw;
+    top: 34vw;
   }
   @include susy-breakpoint($break-large) {
     max-width: none;
-    margin-top: 21vw;
+    top: 21vw;
   }
   @include susy-breakpoint($break-xlarge) {
     max-width: none;
     width: 30vw;
-    margin-top: 20vw;
+    top: 20vw;
   }
 }
 .home-hero-title-wrapper {

@@ -444,4 +444,96 @@
         $(this).find('.owl-nav').removeClass('disabled');
     });
 
+    // Home Animation GSAP
+
+    var triggerOffset = 0;
+    var duration = 10;
+    console.log("Duration: "+duration);
+
+    var requestId = null;
+
+    var tl = new TimelineMax({
+      repeat:-1,
+      yoyo: true
+    });
+
+    // var tlTwo = new TweenMax({
+    //   repeat:-1,
+    //   yoyo: true
+    // });
+
+    tl.staggerTo(".balloon", duration/3, {
+      rotation:-3,
+      yoyo:true,
+      transformOrigin: '0% 100%',
+      repeat: -1,
+      ease:Power1.easeInOut
+    },0);
+
+    tl.staggerTo(".ad_ons", duration/3, {
+      rotation:-2,
+      x:-3,
+      y:-4,
+      yoyo:true,
+      transformOrigin: '0% 100%',
+      repeat: -1,
+      ease:Power1.easeInOut
+    },0);
+
+    tl.staggerTo("#arm", duration/3, {
+      rotation:-3,
+      yoyo:true,
+      transformOrigin: '0% 100%',
+      repeat: -1,
+      ease:Power1.easeInOut
+    },0);
+
+    // tl.to("#sprechblase",duration/2,{
+    //   scale:0,
+    //   repeat:-1,
+    //   yoyo:true
+    // });
+
+    tl.to("#clouds_right",
+    duration*2,{
+      x:340,
+      y:0
+    },0);
+
+    tl.to(".cls-93",duration*2,{
+      x:-250
+    },0);
+    tl.to("#ad_ons", duration, {
+      x:-80,
+      y:-40,
+      ease:Power1.easeInOut,
+      repeat:-1,
+      yoyo:true
+    },0);
+    tl.to("#kran_container, #kran_haken", duration/2, {
+      y:-18,
+      x:+20,
+      ease:Power1.easeInOut,
+      repeat:-1,
+      yoyo:true
+    },0);
+
+    // // Only update on animation frames
+    // window.addEventListener("scroll", function() {
+    //   if (!requestId) {
+    //     requestId = requestAnimationFrame(update);
+    //   }
+    // });
+    //
+    // update();
+    //
+    // // Set timeline time to scrollTop
+    // function update() {
+    //   console.log(window.pageYOffset);
+    //   tl.time(window.pageYOffset + triggerOffset);
+    //   requestId = null;
+    // }
+
+
+
 })(window);

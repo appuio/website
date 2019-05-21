@@ -16,13 +16,13 @@ title: APPUiO - Swiss Container Platform
       </div>
     </div>
     <div class="home-hero-illus">
+      <%= partial "partials/svgs/landscape_compact" %>
       <!-- <div class="home-hero-title-wrapper"><h1 class="home-hero-title"><%= t(:homeHeroTitle) %></h1></div> -->
       <%= image_tag "appuio_logo.svg", :alt => t(:homeHeroAlt), :class => 'home-hero-logo' %>
     </div>
     <div class="grid-container">
       <h1 class="home-hero-title"><%= t(:homeHeroTitle) %></h1>
-      <p class="home-hero-cta"><a href="./public.html" class="button is-round is-big"><%= t(:homeHeroSignup) %></a></p>
-      <p class="home-hero-cta"><a href="https://register.appuio.ch" class="button is-round is-big"><%= t(:homeHeroRegister) %></a></p>
+      <p class="home-hero-cta"><a href="./public.html" class="button is-round is-big"><%= t(:homeHeroSignup) %></a><a href="https://register.appuio.ch" class="button is-round is-big"><%= t(:homeHeroRegister) %></a></p>
       <p class="home-hero-desc"><%= t(:homeHeroDesc) %></p>
     </div>
   </section>
