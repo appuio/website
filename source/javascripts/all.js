@@ -203,8 +203,6 @@
     };
 
     // Partner carousels and settings
-
-
     $(".platinum-carousel").owlCarousel({
         loop: true,
         margin: 10,
@@ -533,6 +531,126 @@
     //   tl.time(window.pageYOffset + triggerOffset);
     //   requestId = null;
     // }
+
+
+// Angebot Public Animation GSAP
+
+ if ($('svg#angebot_public_image').length > 0) {
+
+  var tlPublic = new TimelineMax({
+     repeat:-1,
+     yoyo: true
+    });
+
+
+  tlPublic.to("#container, #cloud-53",3,{
+   y:-5,
+   x:-10,
+   yoyo:true,
+   ease:Power1.easeInOut,
+   repeat:-1},2);
+
+  tlPublic.to("#container-2",3,{
+   y:-10,
+   x:-5,
+   yoyo:true,
+   ease:Power1.easeInOut,
+   repeat:-1},2
+      );
+
+  tlPublic.to("#container",3,{
+   y:-5,
+   yoyo:true,
+   ease:Power1.easeInOut,
+   repeat:-1},4
+      );
+
+  tlPublic.to("#container-2",3,{
+   y:-10,
+   yoyo:true,
+   ease:Power1.easeInOut,
+   repeat:-1},0
+      );
+
+  tlPublic.to("#container-3",6,{
+   y:-10,
+   x:5,
+   yoyo:true,
+   ease:Power1.easeInOut,
+   repeat:-1},2);
+ }
+
+
+  // Angebot Managed Animation GSAP
+  if ($('svg#angebot_managed_image').length > 0) {
+
+    var tlManaged = new TimelineMax({
+      repeat:-1,
+      yoyo: true
+    });
+
+    tlManaged.to("#container-2",6,{
+      y:-35,
+      x:-20,
+      yoyo:true,
+      ease:Power1.easeInOut,
+      repeat:-1},2
+         );
+
+    tlManaged.to("#cloud,#cloud-2",6,{
+      x:-20,
+      yoyo:true,
+      ease:Power1.easeInOut,
+      repeat:-1},2
+         );
+      }
+
+      // Angebot Unmanaged Animation GSAP
+      if ($('svg#angebot_unmanaged_image').length > 0) {
+        var tlUnmanaged = new TimelineMax({
+          repeat:-1,
+          yoyo: true
+        });
+
+        tlUnmanaged.add("labelStart");
+
+        tlUnmanaged.to("#arm",2,{
+          rotation:-20,
+          yoyo:true,
+          ease:Power1.easeOut,
+          transformOrigin: '0% 100%',
+          repeat:-1},0);
+
+        tlUnmanaged.to(".head",2,{
+          rotation:-5,
+          yoyo:true,
+          ease:Power1.easeInOut,
+          transformOrigin: '70% 100%',
+          repeat:-1},0);
+
+        tlUnmanaged.to(".cls-41",1,{
+          rotation:-20,
+          yoyo:true,
+          ease:Power1.easeOut,
+          transformOrigin: '0% 100%',
+          repeat:-1},0);
+
+        tlUnmanaged.to("#container-3",4,{
+          y:-35,
+          x:-20,
+          yoyo:true,
+          ease:Power1.easeInOut,
+          repeat:-1},2
+             );
+
+        tlUnmanaged.to("#cloud-2,#cloud-3",4,{
+          x:-20,
+          yoyo:true,
+          ease:Power1.easeInOut,
+          repeat:-1},2
+             );
+
+      }
 
 
 
