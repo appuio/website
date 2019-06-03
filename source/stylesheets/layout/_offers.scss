@@ -42,28 +42,15 @@
   background-size: cover;
 }
 
-.offer-one-image {
-  @include susy-breakpoint($break-medium) {
-    background-image: url("../images/offers/Angebot_Managed.svg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-  }
-}
+.offer-header-image {
+  overflow: hidden;
+  position: relative;
 
-.offer-two-image {
-  @include susy-breakpoint($break-medium) {
-    background-image: url("../images/offers/Angebot_Public.svg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-  }
-}
-
-.offer-three-image {
-  @include susy-breakpoint($break-medium) {
-    background-image: url("../images/offers/Angebot_Unmanaged.svg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-  }
+   svg.header_image {
+     position: absolute;
+     top: 0;
+     left: 0;
+   }
 }
 
 .offer-one-services {
@@ -270,6 +257,16 @@
   text-align: center;
   margin-left: 0%;
   margin-right: 0%;
+  position: relative;
+
+
+  margin-top: 4em;
+
+
+  @include susy-breakpoint($break-medium) {
+    margin-top: 0;
+  }
+
   @include susy-breakpoint($break-large) {
     margin-left: 40%;
     margin-right: 10%;
