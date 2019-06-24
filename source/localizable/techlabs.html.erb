@@ -9,13 +9,48 @@ title: APPUiO - Swiss Container Platform - Techlab
 </header>
 
 <main class="main-container" role="main">
+  <section class="home-hero title-padding">
+    <h2><%= t(:techlabPageTitle) %></h2>
+  </section>
+
   <section class="news-section">
     <div class="grid-container">
-      <h2><%= t(:techlabPageTitle) %></h2>
       <h3><%= t(:techlabTitle) %></h3>
       <h4><%= t(:techlabSubtitle) %></h4>
       <%= t(:techlabDetails) %>
     </div>
   </section>
+
+  <!--  Techlab-->
+  <section class="news-section text-center home-hero">
+    <div class="grid-container">
+      <h3>Durchgeführte Techlabs</h3>
+      <img alt="previous_techlab" src="images/twitter_techlab.jpg">
+
+      <div class="owl-carousel techlabs-feedback-carousel owl-theme" style="width: 50%; margin: auto;">
+        <div class="item">
+          <a class="hoverfx">
+            <h4>Ein super Einstieg ins Thema Container Management</h4>
+            <h5>Puzzle ITC, IT-Dude, Master IT-ler</h5>
+          </a>
+        </div>
+        <div class="item">
+          <a class="hoverfx">
+            <h4>Die verschiedenen Aufgaben, die’s im Workshop zu lösen gilt, bauen schön aufeinander auf und führen
+              interaktiv ins Thema ein</h4>
+            <h5>Puzzle ITC, IT-Dude, Master IT-ler</h5>
+          </a>
+        </div>
+        <div class="item">
+          <a class="hoverfx">
+            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua</h4>
+            <h5>Puzzle ITC, IT-Dude, Master IT-ler</h5>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </main>
 <%= partial "partials/footer" %>
