@@ -704,6 +704,15 @@ de:
     Ort: Limmatstrasse 214, Zürich oder Belpstrasse 37, Bern</p>
     <p>Die Teilnahme ist kostenlos. Bitte bring für das Lab deinen Laptop mit. Die Platzzahl ist beschränkt.</p>
 
+  realizedTechlab: Durchgeführte Techlabs
+
+  techlabFeedback1: Hier wird ein positives Feedback zum Techlab stehen.
+  techlabFeedbackAuthor1: Firma, Rolle, Titel
+  techlabFeedback2: Hier wird ein positives Feedback zum Techlab stehen.
+  techlabFeedbackAuthor2: Firma, Rolle, Titel
+  techlabFeedback3: Hier wird ein positives Feedback zum Techlab stehen.
+  techlabFeedbackAuthor3: Firma, Rolle, Titel
+
   # Team Page
   teamPageTitle: Team
   teamTitle: Unsere fantastische Crew
