@@ -10,7 +10,7 @@
         </style>
     </defs>
     <title>Freie Wahl</title>
-    <g id="Freie_Wahl">
+    <g id="Freie_Wahl" stroke-width="0.5">
         <line class="cls-1" x1="12" y1="2.90128" x2="12" y2="19.50068"/>
         <circle class="cls-1" cx="12" cy="1.70064" r="1.20064"/>
         <rect class="cls-1" x="10" y="19.50068" width="4" height="3.99932"/>
