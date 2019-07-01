@@ -597,6 +597,20 @@
       repeat:-1},2
          );
 
+   tlManaged.to("#hand",2,{
+     rotation:-20,
+     yoyo:true,
+     ease:Power1.easeOut,
+     transformOrigin: '0% 100%',
+     repeat:-1},0);
+
+   // tlManaged.to("#kopf-2, #helm",2,{
+   //   rotation:-5,
+   //   yoyo:true,
+   //   ease:Power1.easeInOut,
+   //   transformOrigin: '70% 100%',
+   //   repeat:-1},0);
+
     tlManaged.to("#cloud,#cloud-2",6,{
       x:-20,
       yoyo:true,
