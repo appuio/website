@@ -325,3 +325,16 @@
 
 
 }
+
+// Beer Button
+// -----------------------------------------------
+
+.beer-button {
+  position: fixed;
+  bottom: rem-calc(10);
+  right: rem-calc(10);
+  border-radius: 100%;
+  background: #FFD301;
+  width: rem-calc(100);
+  padding: rem-calc(10);
+}

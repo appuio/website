@@ -209,7 +209,7 @@
         autoplay: true,
         autoplayTimeout: 8000,
         autoplayHoverPause: true,
-        nav:true,
+        nav: true,
         dots: false,
         responsiveClass: true,
         responsive: {
@@ -233,7 +233,7 @@
         autoplay: true,
         autoplayTimeout: 8000,
         autoplayHoverPause: true,
-        nav:true,
+        nav: true,
         dots: false,
         responsiveClass: true,
         responsive: {
@@ -257,7 +257,7 @@
         autoplay: true,
         autoplayTimeout: 8000,
         autoplayHoverPause: true,
-        nav:true,
+        nav: true,
         dots: false,
         responsiveClass: true,
         responsive: {
@@ -281,7 +281,7 @@
         autoplay: true,
         autoplayTimeout: 8000,
         autoplayHoverPause: true,
-        nav:true,
+        nav: true,
         dots: false,
         responsiveClass: true,
         responsive: {
@@ -304,7 +304,7 @@
         autoplay: true,
         autoplayTimeout: 8000,
         autoplayHoverPause: true,
-        nav:true,
+        nav: true,
         dots: false,
         responsiveClass: true,
         responsive: {
@@ -327,7 +327,7 @@
         autoplay: true,
         autoplayTimeout: 8000,
         autoplayHoverPause: true,
-        nav:true,
+        nav: true,
         dots: false,
         responsiveClass: true,
         responsive: {
@@ -350,7 +350,7 @@
         autoplay: true,
         autoplayTimeout: 8000,
         autoplayHoverPause: true,
-        nav:true,
+        nav: true,
         dots: false,
         responsiveClass: true,
         responsive: {
@@ -373,7 +373,7 @@
         autoplay: true,
         autoplayTimeout: 8000,
         autoplayHoverPause: true,
-        nav:true,
+        nav: true,
         dots: false,
         responsiveClass: true,
         responsive: {
@@ -396,7 +396,7 @@
         autoplay: true,
         autoplayTimeout: 8000,
         autoplayHoverPause: true,
-        nav:true,
+        nav: true,
         dots: false,
         responsiveClass: true,
         responsive: {
@@ -419,7 +419,7 @@
         autoplay: true,
         autoplayTimeout: 8000,
         autoplayHoverPause: true,
-        nav:true,
+        nav: true,
         dots: false,
         responsiveClass: true,
         responsive: {
@@ -450,7 +450,7 @@
     });
 
     $('.owl-carousel').find('.owl-nav').removeClass('disabled');
-    $('.owl-carousel').on('changed.owl.carousel', function(event) {
+    $('.owl-carousel').on('changed.owl.carousel', function (event) {
         $(this).find('.owl-nav').removeClass('disabled');
     });
 
@@ -458,13 +458,13 @@
 
     var triggerOffset = 0;
     var duration = 10;
-    console.log("Duration: "+duration);
+    console.log("Duration: " + duration);
 
     var requestId = null;
 
     var tl = new TimelineMax({
-      repeat:-1,
-      yoyo: true
+        repeat: -1,
+        yoyo: true
     });
 
     // var tlTwo = new TweenMax({
@@ -472,31 +472,31 @@
     //   yoyo: true
     // });
 
-    tl.staggerTo(".balloon", duration/3, {
-      rotation:-3,
-      yoyo:true,
-      transformOrigin: '0% 100%',
-      repeat: -1,
-      ease:Power1.easeInOut
-    },0);
+    tl.staggerTo(".balloon", duration / 3, {
+        rotation: -3,
+        yoyo: true,
+        transformOrigin: '0% 100%',
+        repeat: -1,
+        ease: Power1.easeInOut
+    }, 0);
 
-    tl.staggerTo(".ad_ons", duration/3, {
-      rotation:-2,
-      x:-3,
-      y:-4,
-      yoyo:true,
-      transformOrigin: '0% 100%',
-      repeat: -1,
-      ease:Power1.easeInOut
-    },0);
+    tl.staggerTo(".ad_ons", duration / 3, {
+        rotation: -2,
+        x: -3,
+        y: -4,
+        yoyo: true,
+        transformOrigin: '0% 100%',
+        repeat: -1,
+        ease: Power1.easeInOut
+    }, 0);
 
-    tl.staggerTo("#arm", duration/3, {
-      rotation:-3,
-      yoyo:true,
-      transformOrigin: '0% 100%',
-      repeat: -1,
-      ease:Power1.easeInOut
-    },0);
+    tl.staggerTo("#arm", duration / 3, {
+        rotation: -3,
+        yoyo: true,
+        transformOrigin: '0% 100%',
+        repeat: -1,
+        ease: Power1.easeInOut
+    }, 0);
 
     // tl.to("#sprechblase",duration/2,{
     //   scale:0,
@@ -505,28 +505,28 @@
     // });
 
     tl.to("#clouds_right",
-    duration*2,{
-      x:340,
-      y:0
-    },0);
+        duration * 2, {
+            x: 340,
+            y: 0
+        }, 0);
 
-    tl.to(".cls-93",duration*2,{
-      x:-250
-    },0);
+    tl.to(".cls-93", duration * 2, {
+        x: -250
+    }, 0);
     tl.to("#ad_ons", duration, {
-      x:-80,
-      y:-40,
-      ease:Power1.easeInOut,
-      repeat:-1,
-      yoyo:true
-    },0);
-    tl.to("#kran_container, #kran_haken", duration/2, {
-      y:-18,
-      x:+20,
-      ease:Power1.easeInOut,
-      repeat:-1,
-      yoyo:true
-    },0);
+        x: -80,
+        y: -40,
+        ease: Power1.easeInOut,
+        repeat: -1,
+        yoyo: true
+    }, 0);
+    tl.to("#kran_container, #kran_haken", duration / 2, {
+        y: -18,
+        x: +20,
+        ease: Power1.easeInOut,
+        repeat: -1,
+        yoyo: true
+    }, 0);
 
     // // Only update on animation frames
     // window.addEventListener("scroll", function() {
@@ -547,137 +547,157 @@
 
 // Angebot Public Animation GSAP
 
- if ($('svg#angebot_public_image').length > 0) {
+    if ($('svg#angebot_public_image').length > 0) {
 
-  var tlPublic = new TimelineMax({
-     repeat:-1,
-     yoyo: true
-    });
-
-
-  tlPublic.to("#container, #cloud-53",3,{
-   y:-5,
-   x:-10,
-   yoyo:true,
-   ease:Power1.easeInOut,
-   repeat:-1},2);
-
-  tlPublic.to("#container-2",3,{
-   y:-10,
-   x:-5,
-   yoyo:true,
-   ease:Power1.easeInOut,
-   repeat:-1},2
-      );
-
-  tlPublic.to("#container",3,{
-   y:-5,
-   yoyo:true,
-   ease:Power1.easeInOut,
-   repeat:-1},4
-      );
-
-  tlPublic.to("#container-2",3,{
-   y:-10,
-   yoyo:true,
-   ease:Power1.easeInOut,
-   repeat:-1},0
-      );
-
-  tlPublic.to("#container-3",6,{
-   y:-10,
-   x:5,
-   yoyo:true,
-   ease:Power1.easeInOut,
-   repeat:-1},2);
- }
+        var tlPublic = new TimelineMax({
+            repeat: -1,
+            yoyo: true
+        });
 
 
-  // Angebot Managed Animation GSAP
-  if ($('svg#angebot_managed_image').length > 0) {
+        tlPublic.to("#container, #cloud-53", 3, {
+            y: -5,
+            x: -10,
+            yoyo: true,
+            ease: Power1.easeInOut,
+            repeat: -1
+        }, 2);
 
-    var tlManaged = new TimelineMax({
-      repeat:-1,
-      yoyo: true
-    });
+        tlPublic.to("#container-2", 3, {
+                y: -10,
+                x: -5,
+                yoyo: true,
+                ease: Power1.easeInOut,
+                repeat: -1
+            }, 2
+        );
 
-    tlManaged.to("#container-2",6,{
-      y:-35,
-      x:-20,
-      yoyo:true,
-      ease:Power1.easeInOut,
-      repeat:-1},2
-         );
+        tlPublic.to("#container", 3, {
+                y: -5,
+                yoyo: true,
+                ease: Power1.easeInOut,
+                repeat: -1
+            }, 4
+        );
 
-   tlManaged.to("#hand",2,{
-     rotation:-20,
-     yoyo:true,
-     ease:Power1.easeOut,
-     transformOrigin: '0% 100%',
-     repeat:-1},0);
+        tlPublic.to("#container-2", 3, {
+                y: -10,
+                yoyo: true,
+                ease: Power1.easeInOut,
+                repeat: -1
+            }, 0
+        );
 
-   // tlManaged.to("#kopf-2, #helm",2,{
-   //   rotation:-5,
-   //   yoyo:true,
-   //   ease:Power1.easeInOut,
-   //   transformOrigin: '70% 100%',
-   //   repeat:-1},0);
+        tlPublic.to("#container-3", 6, {
+            y: -10,
+            x: 5,
+            yoyo: true,
+            ease: Power1.easeInOut,
+            repeat: -1
+        }, 2);
+    }
 
-    tlManaged.to("#cloud,#cloud-2",6,{
-      x:-20,
-      yoyo:true,
-      ease:Power1.easeInOut,
-      repeat:-1},2
-         );
-      }
 
-      // Angebot Unmanaged Animation GSAP
-      if ($('svg#angebot_unmanaged_image').length > 0) {
+    // Angebot Managed Animation GSAP
+    if ($('svg#angebot_managed_image').length > 0) {
+
+        var tlManaged = new TimelineMax({
+            repeat: -1,
+            yoyo: true
+        });
+
+        tlManaged.to("#container-2", 6, {
+                y: -35,
+                x: -20,
+                yoyo: true,
+                ease: Power1.easeInOut,
+                repeat: -1
+            }, 2
+        );
+
+        tlManaged.to("#hand", 2, {
+            rotation: -20,
+            yoyo: true,
+            ease: Power1.easeOut,
+            transformOrigin: '0% 100%',
+            repeat: -1
+        }, 0);
+
+        // tlManaged.to("#kopf-2, #helm",2,{
+        //   rotation:-5,
+        //   yoyo:true,
+        //   ease:Power1.easeInOut,
+        //   transformOrigin: '70% 100%',
+        //   repeat:-1},0);
+
+        tlManaged.to("#cloud,#cloud-2", 6, {
+                x: -20,
+                yoyo: true,
+                ease: Power1.easeInOut,
+                repeat: -1
+            }, 2
+        );
+    }
+
+    // Angebot Unmanaged Animation GSAP
+    if ($('svg#angebot_unmanaged_image').length > 0) {
         var tlUnmanaged = new TimelineMax({
-          repeat:-1,
-          yoyo: true
+            repeat: -1,
+            yoyo: true
         });
 
         tlUnmanaged.add("labelStart");
 
-        tlUnmanaged.to("#arm",2,{
-          rotation:-20,
-          yoyo:true,
-          ease:Power1.easeOut,
-          transformOrigin: '0% 100%',
-          repeat:-1},0);
+        tlUnmanaged.to("#arm", 2, {
+            rotation: -20,
+            yoyo: true,
+            ease: Power1.easeOut,
+            transformOrigin: '0% 100%',
+            repeat: -1
+        }, 0);
 
-        tlUnmanaged.to(".head",2,{
-          rotation:-5,
-          yoyo:true,
-          ease:Power1.easeInOut,
-          transformOrigin: '70% 100%',
-          repeat:-1},0);
+        tlUnmanaged.to(".head", 2, {
+            rotation: -5,
+            yoyo: true,
+            ease: Power1.easeInOut,
+            transformOrigin: '70% 100%',
+            repeat: -1
+        }, 0);
 
-        tlUnmanaged.to(".cls-41",1,{
-          rotation:-20,
-          yoyo:true,
-          ease:Power1.easeOut,
-          transformOrigin: '0% 100%',
-          repeat:-1},0);
+        tlUnmanaged.to(".cls-41", 1, {
+            rotation: -20,
+            yoyo: true,
+            ease: Power1.easeOut,
+            transformOrigin: '0% 100%',
+            repeat: -1
+        }, 0);
 
-        tlUnmanaged.to("#container-3",4,{
-          y:-35,
-          x:-20,
-          yoyo:true,
-          ease:Power1.easeInOut,
-          repeat:-1},2
-             );
+        tlUnmanaged.to("#container-3", 4, {
+                y: -35,
+                x: -20,
+                yoyo: true,
+                ease: Power1.easeInOut,
+                repeat: -1
+            }, 2
+        );
 
-        tlUnmanaged.to("#cloud-2,#cloud-3",4,{
-          x:-20,
-          yoyo:true,
-          ease:Power1.easeInOut,
-          repeat:-1},2
-             );
+        tlUnmanaged.to("#cloud-2,#cloud-3", 4, {
+                x: -20,
+                yoyo: true,
+                ease: Power1.easeInOut,
+                repeat: -1
+            }, 2
+        );
 
-      }
+    }
 
+// Beer Button
 
+    $('#beer-button').click((function () {
+        $('div#thedialog').dialog('open');
+    })
 
-})(window);
+    $('div.thedialog').dialog({autoOpen: false})
+
+})
+(window);
