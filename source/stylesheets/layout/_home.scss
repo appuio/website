@@ -6,12 +6,13 @@
   color: white;
   text-align: center;
   padding-bottom: rem-calc(100);
-  overflow:hidden;
+  overflow: hidden;
 
   & a:hover {
-    color:$color-lightblue;
+    color: $color-lightblue;
   }
 }
+
 .home-hero-illus {
   height: 62vw;
   background-repeat: no-repeat;
@@ -24,13 +25,16 @@
     height: 39vw;
   }
 }
+
 .home-hero-cta {
   clear: both;
   padding: 0;
+
   a.button {
     margin: rem-calc(24);
   }
 }
+
 .home-hero-logo {
   position: absolute;
   top: 38vw;
@@ -54,11 +58,13 @@
     top: 20vw;
   }
 }
+
 .home-hero-title-wrapper {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
 }
+
 .home-hero-title {
   margin-left: auto;
   margin-right: auto;
@@ -71,10 +77,11 @@
     line-height: rem-calc(44);
   }
   @include susy-breakpoint($break-medium) {
-      max-width: 940px;
-      padding: 0;
+    max-width: 940px;
+    padding: 0;
   }
 }
+
 .home-hero-tech {
   margin: rem-calc(20) auto;
   @include susy-breakpoint($break-medium) {
@@ -111,6 +118,7 @@
   color: white;
   text-align: center;
 }
+
 .home-offer-desc {
   @include susy-breakpoint($break-medium) {
     @include span(10 of 12);
@@ -128,6 +136,7 @@
   padding: rem-calc(100 0);
   text-align: center;
 }
+
 .home-features-desc {
   @include susy-breakpoint($break-medium) {
     @include span(10 of 12);
@@ -140,14 +149,16 @@
 .home-clients {
   text-align: center;
   padding: 6.25rem 0;
+
   .callout-item {
     background-color: transparent;
     @include susy-breakpoint($break-large) {
-        margin-left: 2rem;
-        &:first-child {
-          margin-left: 0;
-        }
+      margin-left: 2rem;
+      &:first-child {
+        margin-left: 0;
+      }
     }
+
     .callout-title {
       min-height: auto;
       margin-bottom: 0px;
@@ -156,6 +167,7 @@
       font-size: 1.125rem;
 
     }
+
     .callout-desc {
       min-height: auto;
       font-size: 1rem;
@@ -169,22 +181,23 @@
     align-items: stretch;
     justify-content: center;
 
-  .clientlogo-item {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: center;
-    width: 33%;
-    margin: rem-calc(10) rem-calc(20);
-    @include susy-breakpoint($break-medium) {
-      width: 8.75rem;
-      margin: rem-calc(20) rem-calc(40);
-    }
-    box-sizing: border-box;
-    img {
-      width: 100%;
-      height: auto;
-    }
+    .clientlogo-item {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      justify-content: center;
+      width: 33%;
+      margin: rem-calc(10) rem-calc(20);
+      @include susy-breakpoint($break-medium) {
+        width: 8.75rem;
+        margin: rem-calc(20) rem-calc(40);
+      }
+      box-sizing: border-box;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
     }
   }
 }
@@ -202,10 +215,13 @@
     .technology-base-image {
       height: 10rem;
     }
+
     padding-top: 2rem;
+
     .callout-title {
       min-height: initial;
     }
+
     .callout-item {
       background-color: transparent;
     }
@@ -228,12 +244,14 @@
   color: white;
   text-align: center;
 }
+
 .home-contact-desc {
   @include susy-breakpoint($break-medium) {
     @include span(10 of 12);
     @include squish(1, 1);
   }
 }
+
 .home-contact-container {
   clear: both;
   @include susy-breakpoint($break-medium) {
@@ -241,12 +259,14 @@
 
   }
 }
+
 .home-contact-interest {
   @include susy-breakpoint($break-medium) {
     @include span(6 of 12);
     margin-bottom: rem-calc(25);
   }
 }
+
 .home-contact-form {
   margin-top: rem-calc(25);
   @include susy-breakpoint($break-medium) {
@@ -262,36 +282,44 @@
   background: #E5EAED;
   padding: rem-calc(50 0);
 }
+
 .home-footer-copy {
   padding: rem-calc(25 0);
   text-align: center;
   line-height: rem-calc(24);
+
   a {
     color: #4A4A4A;
     text-decoration: none;
   }
+
   a:hover,
   a:focus {
     text-decoration: underline;
   }
 }
+
 .home-footer-tel {
   margin: 2rem 1rem 1rem 1rem;
   font-size: 1.125rem;
   color: #4A4A4A;
 }
+
 .home-footer-twitter {
   font-size: rem-calc(18);
   margin-left: rem-calc(-20);
+
   .icon {
     color: #5D9EC9;
     transform: translateY(rem-calc(15));
   }
 }
+
 .home-footer-wac {
   color: #4A4A4A;
   margin-top: rem-calc(28);
   font-size: rem-calc(12);
+
   .icon {
     transform: translateY(rem-calc(5));
   }
@@ -318,7 +346,7 @@
     @include susy-breakpoint($break-medium) {
       width: 50%;
     }
-    word-wrap:break-word;
+    word-wrap: break-word;
     flex: 1 auto;
     justify-content: space-around;
   }
@@ -338,3 +366,43 @@
   width: rem-calc(100);
   padding: rem-calc(10);
 }
+
+.beer-dialog {
+  position: fixed;
+  bottom: rem-calc(10);
+  right: rem-calc(10);
+  width: rem-calc(300);
+  height: rem-calc(200);
+  background: #FFD301;
+  border-radius: 25px;
+  padding: rem-calc(10 30);
+}
+
+.beer-form-mail {
+  float: left;
+  height: rem-calc(50);
+  border: 0;
+}
+
+.beer-button-small {
+  height: rem-calc(40);
+}
+
+.beer-form {
+  display: flex;
+  input:focus {
+    outline: none;
+  }
+}
+
+.beer-form-submit {
+  background: url(../../images/beermug.png) no-repeat right center;
+  background-size: rem-calc(50);
+  background-color: #002F47;
+  border: 0;
+  border-radius: 5px;
+  width: rem-calc(80);
+  height: rem-calc(50);
+  color: #002f47;
+}
+
