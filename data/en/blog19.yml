@@ -1,3 +1,42 @@
+
+- day: 31
+  month: Jul
+  title: "Neu: OpenShift Dev Schulung"
+  subtitle: |
+            <img src="/images/blogposts/Fotoxy.png" alt="DevSchulung"/>
+            Ab sofort bietet APPUiO OpenShift Dev Schulungen an. Wir zeigen dir, wie du deine Business Applikationen auf der OpenShift Plattform entwickeln, betreiben und monitoren kannst.
+  details: |
+            <p>Um unser langjähriges Wissen im Bereich der Software Entwicklung, Automatisierung und Betrieb von Cloud Native Applikationen auf OpenShift Container Plattformen weiterzugeben, haben wir die zweitägige OpenShift Dev Schulung erarbeitet. Sie baut das Know-How der Teilnehmer in einer guten Mischung aus Theorie und Hands-on Lab auf.</p>
+            <p>Die Schulung beinhaltet folgende Themen, kann aber je nach Bedürfnissen angepasst werden:</p>
+            <div><b>Agenda – day 1</b></div>
+            <div>1. Introduction Linux Container / OpenShift Plattform</div>
+            <div>2. Application Architecture / Cloud Native / 12 Factor Apps / Service Broker</div>
+            <div>3. Introduction to develop an Application on OpenShift</div>
+            <div>4. Hands-on: Build Strategies on OpenShift (s2i, binary, docker)</div>
+            <div>5. Application Configuration / Service Discovery</div>
+            <div>6. Hands-on: Build applications with different runtimes & deploy them on Openshift</div>
+            <div>7. Share & Discuss exercise results / Wrapup</div>
+            <br>
+            <div><b>Agenda – day 1</b></div>
+            <div>1. Recap day 1</div>            
+            <div>2. Troubleshooting & Debugging</div>            
+            <div>3. Hands-on - Troubleshooting & Debugging</div> 
+            <div>4. Backup / restore for Applications</div>
+            <div>5. CI/CD Pipelines Introduction and Concepts</div>
+            <div>6. Q&A for compamy specific usecases</div>
+            <br>
+            <div><b>Zusätzliche Themen auf Anfrage</b></div>
+            <div>1. Coolstore Example (Microservice application showing different concepts and languages)</div>            
+            <div>2. Operator Framework</div>            
+            <div>3. Application Monitoring with Prometheus</div> 
+            <div style="padding-left: 30px;">▸ Deploy Prometheus and Grafana</div>
+            <div style="padding-left: 30px;">▸ Monitoring of a Spring Boot application</div>
+            <p>Die Schulung wird von Christoph Raaflaub, unserem Software Architect & Middleware Engineer, durchgeführt. Christoph ist unser Spezialist in Sache automatisierte Software Entwicklung und teilt gerne seine langjährige Erfahrung mit euch.</p>
+            <p>Die OpenShift Betriebsschulung wird bis max. 8 Teilnehmer durchgeführt. Auf Anfrage ist eine Durchführung auch für ganze Gruppen möglich, dediziert oder bei dir am Standort. Die Schulung ist in Deutsch oder Englisch möglich.</p>
+            <p>Ist das etwas für dich und deine Mitarbeiter? Gerne senden wir dir das Angebot zur OpenShift Dev Schulung zu und freuen uns auf deine Kontaktaufnahme.</p>
+            <div><b>Ort:</b> Dediziert bei dir (oder an unseren Standorten in Bern/Zürich)</div>
+            <div><b>Kosten:</b> auf Anfrage</div>
+            <div><b>Kontakt für Rückfragen:</b> <a href="mailto:hello@appuio.ch">hello@appuio.ch</a>, Anna Pfeifhofer</div>
 - day: 11
   month: Apr
   title: "Ein kurzer Rückblick auf das erste beerup von APPUiO"
