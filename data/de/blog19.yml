@@ -1,3 +1,4 @@
+
 - day: 11
   month: Apr
   title: "Ein kurzer Rückblick auf das erste beerup von APPUiO"
@@ -9,8 +10,9 @@
             <p>Das erste beerup hat am 28. März im Anschluss an dem OpenShift RoundTable von Red Hat stattgefunden. Dabei durften wir rund 75 Gäste in der Rüsterei in Zürich empfangen. Unsere Community konnte sich bei einem Apéro verpflegen und sich über dies und jenes austauschen. In den vielen tollen Gesprächen stiess das APPUiO-Team auf verschiedenste Ideen und Bedürfnisse der Community. Durch das Feedback jedes Einzelnen durften wir eine grosse Anzahl an Inputs aufnehmen. Dafür bedanken wir uns noch einmal herzlich bei euch und bei Red Hat für die Unterstützung.</p>
             <img src="/images/blogposts/RoundTable.JPG" alt="Roundtable"/>
             <img src="/images/blogposts/beerup1.jpg" alt="Beerup1"/>
-            <b>Doch wie geht es nun weiter?</b> 
-            <p>Das APPUiO-Team wird sich einen Überblick über eure Ideen verschaffen und versuchen, sie baldmöglichst zu realisieren. Du kannst dich also jetzt schon über die weitere Entwicklung von APPUiO freuen!</p>
+            <br>
+            <b>Doch wie geht es nun weiter?</b>
+            <div>Das APPUiO-Team wird sich einen Überblick über eure Ideen verschaffen und versuchen, sie baldmöglichst zu realisieren. Du kannst dich also jetzt schon über die weitere Entwicklung von APPUiO freuen!</div>
             <b>Du hast noch einen Input oder eine Idee aber konntest diese nicht mitteilen?</b> 
             <div>Wir freuen uns jederzeit über euer Feedback. <a href="mailto:hello@appuio.ch">Schreib uns</a> einfach und teile uns mit, wie wir APPUiO weiter verbessern können.</div>
             <p>Es hat Spass gemacht, eine so grosse Anzahl von Leuten aus den unterschiedlichsten Branchen und Kantonen bei uns am beerup begrüssen zu dürfen, mit euch zu plaudern und euch näher kennenzulernen.</p>
