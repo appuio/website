@@ -1,46 +1,130 @@
 <!doctype html>
 <html lang="<%= I18n.locale %>">
-  <head>
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta charset="utf-8">
-    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
-    <title><%= current_page.data.title || "Middleman" %></title>
-    <meta name="description" content="<%= t(:metaDescription) %>" />
-    <meta name="keywords" content="<%= t(:metaKeywords) %>" />
+<head>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta charset="utf-8">
+  <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+  <title><%= current_page.data.title || "Middleman" %></title>
+  <meta name="description" content="<%= t(:metaDescription) %>"/>
+  <meta name="keywords" content="<%= t(:metaKeywords) %>"/>
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <%= stylesheet_link_tag :main %>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-    <%= javascript_include_tag :modernizr %>
-  </head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <%= stylesheet_link_tag :main %>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <%= javascript_include_tag :modernizr %>
+</head>
 
-  <body class="<%= page_classes %>">
-    <%= evil_icons_sprite %>
-    <%= yield %>
+<body class="<%= page_classes %>">
+<%= evil_icons_sprite %>
+<%= yield %>
 
-    <%= javascript_include_tag :jquery %>
-    <%= javascript_include_tag :jqueryUi %>
-    <%= javascript_include_tag :scrollspy %>
-    <%= javascript_include_tag :jquerylbslider %>
-    <%= javascript_include_tag :owlCarousel %>
-    <%= javascript_include_tag :TweenMax %>
-    <%= javascript_include_tag :all %>
-    <script>(function (){var url = window.location; var oImg = document.createElement("img");oImg.setAttribute('src','https://app.hatchbuck.com/TrackWebPage?ACID=3526&URL=' + url);})();  </script>
-    <script>(function(){window.webtracking_cookies_banner_required = "yes"; window.webtracking_cookies_banner_own_process = "no"; window.webtracking_cookies_banner_position = "bottom"; window.webtracking_cookies_banner_style = "light"; window.webtracking_cookies_banner_domain = 'https://app.hatchbuck.com/'; window.webtracking_cookies_banner_hash = '4141';})();</script> <script src='https://cdn.hatchbuck.com/webPageTrackingAgreement.min.js'></script>
-  <script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
-  _paq.push(["setCookieDomain", "*.appuio.ch"]);
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//matomo.puzzle.ch/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', 5]);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
+<%= javascript_include_tag :jquery %>
+<%= javascript_include_tag :jqueryUi %>
+<%= javascript_include_tag :scrollspy %>
+<%= javascript_include_tag :jquerylbslider %>
+<%= javascript_include_tag :owlCarousel %>
+<%= javascript_include_tag :TweenMax %>
+<%= javascript_include_tag :all %>
+<script>(function () {
+    var url = window.location;
+    var oImg = document.createElement("img");
+    oImg.setAttribute('src', 'https://app.hatchbuck.com/TrackWebPage?ACID=3526&URL=' + url);
+})();  </script>
+<script>(function () {
+    window.webtracking_cookies_banner_required = "yes";
+    window.webtracking_cookies_banner_own_process = "no";
+    window.webtracking_cookies_banner_position = "top";
+    window.webtracking_cookies_banner_style = "light";
+    window.webtracking_cookies_banner_domain = 'https://app.hatchbuck.com/';
+    window.webtracking_cookies_banner_hash = '4141';
+})();</script>
+<script>
+    function setCookie(e, o, i) {
+        var n;
+        if (i) {
+            var t = new Date;
+            t.setTime(t.getTime() + 24 * i * 60 * 60 * 1e3), n = "; expires=" + t.toGMTString()
+        } else n = "";
+        document.cookie = e + "=" + o + n + "; path=/"
+    }
+
+    function getCookie(e) {
+        for (var o = e + "=", i = document.cookie.split(";"), n = 0; n < i.length; n++) {
+            for (var t = i[n]; " " == t.charAt(0);) t = t.substring(1, t.length);
+            if (0 == t.indexOf(o)) return t.substring(o.length, t.length)
+        }
+        return null
+    }
+
+    function deleteCookie(e) {
+        setCookie(e, "", -1)
+    }
+
+    function closeBannerAlert() {
+        var e = document.getElementById("cookies_banner_alert");
+        e.parentNode.removeChild(e)
+    }
+
+    function allowWebPageTracking() {
+        var e = window.location;
+        document.createElement("img").setAttribute("src", window.webtracking_cookies_banner_domain + "TrackWebPage?ACID=" + window.webtracking_cookies_banner_hash + "&URL=" + e)
+    }
+
+    function dismissBannerAlert(e, o) {
+        setCookie("doNotShowAgain", e, 90), setCookie("agreeTracking", o, 90), 1 == o ? allowWebPageTracking() :
+            (deleteCookie("SystematicCookie" + window.webtracking_cookies_banner_hash), deleteCookie("OnlineFormCookie" + window.webtracking_cookies_banner_hash)), closeBannerAlert()
+    }
+
+    function bannerStyleOnResize() {
+        var e = document.getElementById("cookies_actions_container");
+        e && (window.innerWidth >= 1024 ? e.style.display = "inline" : e.style.display = "block")
+    }
+
+    window.onload = function () {
+        if ("no" != window.webtracking_cookies_banner_required) {
+            if ("yes" != window.webtracking_cookies_banner_own_process) {
+                var e = "true" == getCookie("doNotShowAgain"), o = "true" == getCookie("agreeTracking");
+                if (!e) {
+                    var i = document.createElement("div");
+                    i.innerHTML = '<div id="cookies_banner_alert" style="all: initial;box-sizing: border-box; display: inline-block; ' +
+                        'position: fixed;z-index: 99999;width: 100%;left: 0; top: 72px !important;' + window.webtracking_cookies_banner_position + ": 0;background: " +
+                        ("dark" === window.webtracking_cookies_banner_style ? "rgba(0, 0, 0, .8)" : "#0e2f47") + "; " +
+                        "font-family: Arial, sans-serif;font-size: inherit;font-weight: normal;color: " +
+                        ("dark" === window.webtracking_cookies_banner_style ? "#fff" : "#fff") + ';text-align: center;' +
+                        'padding: 0;"> <div style="padding: 0 0;display: inline-block;"> <img src="../images/cookie_button.png" alt="cookie_button" style="width: 40px; vertical-align: middle"> Um deinen Besuch möglichst angenehm zu gestalten verwenden wir Cookies </div>' +
+                        '<div id="cookies_actions_container"' + (window.innerWidth >= 1024 ? ' style="display: inline;"' : "") + '>' +
+                        '<a style="cursor: pointer;' + 'text-decoration: underline;margin: 0 30px;color: inherit;font-family: inherit;font-size: inherit;font-weight: normal;"' +
+                        ' onclick="dismissBannerAlert(true, false)" onMouseOver="this.style.opacity=0.8"  onMouseOut="this.style.opacity=1"></a>' +
+                        '<button style="background: #f9d207; border-radius: 50px; border: none;color: #0e2f47;cursor: pointer;padding: 10px 15px;margin: 1% 0;font-family: inherit;font-size: inherit;' +
+                        'font-weight: bold;width: auto;height: auto;" ' +
+                        'onclick="dismissBannerAlert(true, true)" onMouseOver="this.style.opacity=0.8" onMouseOut="this.style.opacity=1">Akzeptieren</button>' +
+                        '<span style="color: ' + ("dark" === window.webtracking_cookies_banner_style ? "#fff" : "#fff") + ';font-size: inherit;' +
+                        'cursor: pointer;float: right;position: absolute;top: 38%;right: 10%;" onclick="closeBannerAlert()" onMouseOver="this.style.opacity=0.6" ' +
+                        'onMouseOut="this.style.opacity=1">&#x2716</span></div></div>', document.body.appendChild(i)
+                }
+                o && allowWebPageTracking(), window.addEventListener("resize", bannerStyleOnResize)
+            }
+        } else allowWebPageTracking()
+    };
 </script>
-<noscript><p><img src="//matomo.puzzle.ch/piwik.php?idsite=5&amp;rec=1" style="border:0;" alt="" /></p></noscript>
-  </body>
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+    _paq.push(["setCookieDomain", "*.appuio.ch"]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function () {
+        var u = "//matomo.puzzle.ch/";
+        _paq.push(['setTrackerUrl', u + 'piwik.php']);
+        _paq.push(['setSiteId', 5]);
+        var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+        g.type = 'text/javascript';
+        g.async = true;
+        g.defer = true;
+        g.src = u + 'piwik.js';
+        s.parentNode.insertBefore(g, s);
+    })();
+</script>
+<noscript><p><img src="//matomo.puzzle.ch/piwik.php?idsite=5&amp;rec=1" style="border:0;" alt=""/></p></noscript>
+</body>
 </html>
