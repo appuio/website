@@ -692,12 +692,15 @@
     }
 
 // Beer Button
-
-    $('div#beer-dialog').dialog({autoOpen: false})
+    $('div#beer-dialog').dialog({autoOpen: false});
     $('#beer-button').click((function () {
-        $('#beer-dialog').dialog('open');
-        return false;
+        if (!$('#beer-dialog').dialog('isOpen')) {
+            $('#beer-dialog').dialog('open');
+            return false;
+        } else {
+            $('#beer-dialog').dialog('close');
+            return false;
+        }
     }))
-
 })
 (window);
