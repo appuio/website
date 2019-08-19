@@ -691,8 +691,16 @@
 
     }
 
-// Beer Button
-    $('div#beer-dialog').dialog({autoOpen: false});
+    // Beer Button
+    $('div#beer-dialog').dialog({
+        autoOpen: false,
+        closeOnEscape: true,
+        open: function (event, ui) {
+            $(".ui-dialog-titlebar-close", ui.dialog).hide();
+        }
+    });
+
+
     $('#beer-button').click((function () {
         if (!$('#beer-dialog').dialog('isOpen')) {
             $('#beer-dialog').dialog('open');
