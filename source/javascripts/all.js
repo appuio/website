@@ -35,21 +35,55 @@
 
 // Enable Submit button when terms and an offer is checked
     var checkboxes = $("input[name='terms']"),
-        submitButt = $("input[type='submit']");
+        submitButton = $("#submitButton"),
+        beerButtonForm = $('#beerButtonForm');
+
+    // send beer mail
+    beerButtonForm.submit(function (event) {
+        event.preventDefault();
+        var email = $("[name='beerMail']").val();
+
+        var message = messageform + "<br><br>\n\r";
+        // add all fields also to the message
+        $(":input").each(function () {
+            var name = $(this).attr('name');
+            var value = $(this).val();
+
+            message += name + ": " + value + "<br>\n\r";
+        });
+
+        $('[type="submit"]', this).val(
+            $(this).data('loadingMessage')
+        );
+
+        $.post("/beer-button.php", {});
+
+        $('<iframe>', {
+            src: 'https://app.hatchbuck.com/onlineForm/submit.php?formID=63340310467&enableServerValidation=0&enable303Redirect=1&q1_firstName1=' + vorname + '&q3_lastName3=' + nachname + '&q4_email=' + email + '&' + tags + '&q7_nachricht=' + message + '&q8_company8=' + firma + '&q9_telefonnummer9[phone]=' + telefon + '&q10_adresse10[addr_line1]=' + strasse + '&q10_adresse10[city]=' + ort + '&q10_adresse10[postal]=' + plz + '&q10_adresse10[country]=Switzerland',
+            id: 'crmframe',
+            frameborder: 0,
+            height: 0,
+            width: 0,
+            style: 'position: absolute; left: -5000px;',
+            tabindex: -1,
+        }).appendTo('body').load(function () {
+            sendProgressButton('check');
+        });
+    });
 
     checkboxes.click(function () {
-        submitButt.attr("disabled", !checkboxes.is(":checked"));
+        submitButton.attr("disabled", !checkboxes.is(":checked"));
     });
 
 // Jump to anchor and display message if no option was checked
     var radios = $('.interest-checkbox'),
         messageSelectOffer = $('#message-select-offer');
 
-    submitButt.click(function () {
+    submitButton.click(function () {
         const result = radios.filter(function (index, element) {
             return element.checked === true
         });
-        if (result.length < submitButt.data("required-checkboxes")) {
+        if (result.length < submitButton.data("required-checkboxes")) {
             messageSelectOffer.removeClass("is-hidden");
             messageSelectOffer.addClass("is-displayed");
             $("html, body").animate({scrollTop: messageSelectOffer.offset().top - 90}, 0)
@@ -144,7 +178,7 @@
             $(this).data('loadingMessage')
         );
 
-        $('#submitButt').prop("disabled", true);
+        $('#submitButton').prop("disabled", true);
         var formOnly = $('form');
 
         $(".appuio-contact-button").addClass("is-loading");
@@ -168,7 +202,7 @@
             function () {
                 // Clear user input
                 $(formOnly)[0].reset();
-                submitButt.prop("disabled", true)
+                submitButton.prop("disabled", true)
             }
         );
         $('<iframe>', {
