@@ -437,6 +437,18 @@
         }
     });
 
+    $(".techlabs-feedback-carousel").owlCarousel({
+        loop: true,
+        autoplay: false,
+        autoplayTimeout: 8000,
+        autoplayHoverPause: true,
+        nav: true,
+        dots: false,
+        center: true,
+        responsiveClass: true,
+        items: 1
+    });
+
     $('.owl-carousel').find('.owl-nav').removeClass('disabled');
     $('.owl-carousel').on('changed.owl.carousel', function(event) {
         $(this).find('.owl-nav').removeClass('disabled');
