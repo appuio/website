@@ -136,8 +136,6 @@
     -webkit-touch-callout: none;
   }
 
-
-
   .owl-item img {
     display: inline-block;
     width: 100%;
@@ -229,4 +227,19 @@
 /* No Js */
 .no-js .owl-carousel {
   display: block;
+}
+
+.owl-carousel-techlab {
+  margin: auto;
+  width: 50%;
+}
+
+.owl-carousel-techlab .owl-item {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+
+  .item {
+    margin: auto;
+  }
 }
