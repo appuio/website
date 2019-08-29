@@ -35,18 +35,19 @@ de:
     Die Erfolgsstory von Adcubum mit APPUiO! <a href="https://www.appuio.ch/blog.html#2018-Apr-6">Will ich lesen</a>
 
   homeHeroAlt: APPUiO - Swiss Container Platform
-  homeHeroTitle: Open Container Platform with a powerful Community
-  homeHeroSignup: Für Public Platform anmelden
-  homeHeroRegister: Voucher einlösen
+  homeHeroTitle: Die offene Container-Plattform mit starker Community für deine Applikationen.
+  homeHeroSignup: Mehr zu APPUiO Public
+  homeHeroRegister: Code einlösen
   homeHeroDesc: |-
-    <p>APPUiO ist die erste Schweizer Container Plattform basierend auf OpenShift von Red Hat. Auf Basis bewährter Open Source Konzepte wie Docker und Kubernetes entwickelst, betreibst und skalierst du eine Anwendung nach deinen Bedürfnissen. Mit APPUiO können deine Applikationen sowohl auf Public Clouds als auch unternehmensintern betrieben werden.</p>
-    <p>Die Plattform wurde von den beiden IT-Spezialisten <a href="https://www.puzzle.ch/de/">Puzzle ITC</a> und <a href="https://vshn.ch/">VSHN AG</a> ursprünglich für die Professionalisierung der internen IT entwickelt. Heute wird APPUiO bereits von etlichen Kunden produktiv eingesetzt und wird von einer starken Community gestützt.</p>
+    APPUiO ist die führende OpenShift Container-Plattform für das Design, die Entwicklung und den Betrieb von Applikationen.
+    Auf Basis bewährter Open Source Konzepte wie Docker und Kubernetes ermöglicht APPUiO DevOps: Durch Automatisierung und Self-Service werden Entwicklung,
+    Deployment und Betriebsprozesse beschleunigt und die Zusammenarbeit von Software-Entwicklern und Betriebsorganisation verbessert.
 
   # Home: Vorteile
   homeAdvantagesTitle: Wieso APPUiO?
   homeAdvantagesOneTitle: Schnell am Markt
   homeAdvantagesOneDesc: Mit APPUiO kannst du deine Applikation automatisch builden, testen und deployen. Auch beim Monitoring und bei Updates gewinnst du Zeit. Releases können beliebig durchgeführt werden.
-  homeAdvantagesTwoTitle: Collaboration fördern
+  homeAdvantagesTwoTitle: Kollaboration fördern
   homeAdvantagesTwoDesc: Mit Continous Delivery und der Selfservice-Infrastruktur fördert APPUiO die Zusammenarbeit zwischen Devs und Ops. Applikationen können selber deployed und betrieben werden.
   homeAdvantagesThreeTitle: Einheitlich und offen
   homeAdvantagesThreeDesc: Die Entwicklungsumgebung sieht auf deinem Laptop anders aus als die Produktionsumgebung? Mit APPUiO sind deine Umgebungen standardisiert. Offene Standards und OpenSource sind die Basis unserer Plattform.
@@ -59,12 +60,14 @@ de:
 
   # Home: Feature Section
   homeFeatureTitle: Mehr als OpenShift
-  homeFeatureDesc: APPUiO ist OpenShift “as a Service”. Profitiere von unserer langjährigen Erfahrung als erste Schweizer Container Plattform und nutze alle Vorteile von OpenShift mit vielen zusätzlichen Add-Ons und Services.
+  homeFeatureDesc:  |-
+    <p> APPUiO basiert auf Red Hat OpenShift, der führenden Kubernetes Container-Plattform im Business-Bereich und hilft auf dem Weg, Applikationen in die Cloud zu bringen, die Produktivität zu steigern und Innovationen zu fördern. </p>
+    <p>APPUiO ist OpenShift as a Service - Profitiere von unserer langjährigen Erfahrung als erste Schweizer Container-Plattform und nutze alle Vorteile von OpenShift mit vielen zusätzlichen Add-Ons und Services.</p>
+
   homeFeatureCommunityTitle: Community
   homeFeatureCommunityAlt: Eine Plattform, welche die Kunden zusammen bringt.
   homeFeatureCommunityDesc: |-
-    Unsere Community ist unser Herzstück, mit der wir wachsen. APPUiO bietet dir einen <a href="https://community.appuio.ch/home">Community Chat</a> sowie diverse
-    s zum Austausch mit Gleichgesinnten und dem APPUiO-Team. Alle Komponenten hinter APPUiO sind Open Source. Diese Offenheit übernehmen wir, indem wir Dokumentationen und den Code der Community zur Verfügung stellen. Die quelloffene Software, die Anwendung offener Standards sowie die frei zugängliche Dokumentation garantieren dir grösstmögliche Anbieterunabhängigkeit und bewahrt dich vor einem Vendor Lock-in. Auch du kannst Teil der Community werden! Gemeinsam sind wir stärker und wir geben unser Wissen gerne weiter. <br/>
+    Unsere Community ist unser Herzstück. APPUiO bietet dir einen <a href="https://community.appuio.ch/home">Community Chat</a> zum Austausch mit Gleichgesinnten und dem APPUiO-Team. Alle Komponenten hinter APPUiO sind Open Source. Diese Offenheit übernehmen wir, indem wir Dokumentationen und den Code der Community zur Verfügung stellen. Die quelloffene Software, die Anwendung offener Standards sowie die frei zugängliche Dokumentation garantieren dir grösstmögliche Anbieterunabhängigkeit und bewahrt dich vor einem Vendor Lock-in. Werde auch du Teil unserer Community!
   homeFeatureLanguagesTitle: Plattformen #?
   homeFeatureDatabasesTitle: Datenbanken #?
   homeFeatureConsultingTitle: Alles aus einer Hand
@@ -77,14 +80,14 @@ de:
     Wir verbessern APPUiO kontinuierlich und entwickeln neue Features. Diese Erweiterungen stellen wir in Form von Add Ons allen Kunden zur Verfügung und helfen bei der Integration. Aktuell stehen folgende Add Ons zur Verfügung:
       <div class="home-table-usps">
         <ul>
-          <li>Backup, Monitoring, Logging</li>
-          <li>Let's Encrypt</li>
+          <li>Backup, Monitoring, Logging der Applikation</li>
           <li>Secure Docker Builds (Multi Stage Support)</li>
+          <li>TCP Traffic</li>
        </ul>
        <ul>
-          <li>TCP Traffic</li>
-          <li>Managed Services (3Scale, WAF, DB)</li>
-          <li>Persistent Storage (File based-, Blockstorage)</li>
+          <li>Managed Services (3Scale, WAF, DB und mehr)</li>
+          <li>CI/CD & Applikationsbetrieb</li>
+          <li>Application Data Backup mit K8up</li>
        </ul>
       </div>
   homeFeatureAddonsAlt: Safe container with a swiss locker
@@ -95,13 +98,13 @@ de:
   # Home: Angebotsbereich
   homeOfferTitle: Angebot
   homeOfferOneTitle: Managed
-  homeOfferOneDesc: Du willst eine private Container-Instanz nutzen und dabei nichts mit dem Setup und dem Betrieb zu tun haben?
+  homeOfferOneDesc: Du willst eine private Container-Plattform in der Cloud deiner Wahl oder On-Premise und nichts mit Setup und Betrieb zu tun haben?
   homeOfferOneButton: Details
   homeOfferTwoTitle: Public
-  homeOfferTwoDesc: Du brauchst kurzfristig standardisierte Entwicklungsumgebungen oder möchtest deine produktiven Applikationen in eine Schweizer Cloud deployen?
+  homeOfferTwoDesc: Du willst in kürzester Zeit deine produktiven Applikationen in eine Schweizer Cloud deployen?
   homeOfferTwoButton: Details
   homeOfferThreeTitle: UnManaged
-  homeOfferThreeDesc: Du möchtest deine Container Plattform in deinem Rechenzentrum oder in einer gewünschten IaaS Cloud selber betreiben, benötigst aber Hilfe beim Setup?
+  homeOfferThreeDesc: Du willst eine eigene Container-Plattform aufbauen und betrieben, dir fehlt aber das nötige Wissen oder Kapazität?
   homeOfferThreeButton: Details
   homeOfferDesc: Unser APPUiO Angebot wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
 
