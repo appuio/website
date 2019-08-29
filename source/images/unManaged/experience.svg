@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        stroke-width: 0.76077px;
+      }
+
+      .cls-3 {
+        stroke-width: 0.57246px;
+      }
+    </style>
+  </defs>
+  <title>Erfahrung</title>
+  <g id="Erfahrung2" stroke-width="0.5">
+    <g>
+      <path class="cls-1" d="M21.40209,18.5H5.09791a2.5,2.5,0,0,0,0,5H21.40209"/>
+      <line class="cls-1" x1="20.72292" y1="18.5" x2="20.72292" y2="23.5"/>
+    </g>
+    <g>
+      <path class="cls-1" d="M3.83007,18.5H18.63425a2.5,2.5,0,0,0,0-5H3.83007"/>
+      <line class="cls-1" x1="4.50923" y1="18.5" x2="4.50923" y2="13.5"/>
+    </g>
+    <circle class="cls-2" cx="15.29592" cy="10.57974" r="2.88953"/>
+    <circle class="cls-2" cx="7.53447" cy="10.57974" r="2.88953"/>
+    <path class="cls-2" d="M10.424,10.57974a1.18694,1.18694,0,0,1,.98176-.72836,1.22856,1.22856,0,0,1,1.00064.72836"/>
+    <rect class="cls-3" x="4.1" y="9.57974" width="0.5" height="2" rx="0.25"/>
+    <rect class="cls-3" x="18.2" y="9.57974" width="0.5" height="2" rx="0.25"/>
+  </g>
+</svg>
