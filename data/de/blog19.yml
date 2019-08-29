@@ -2,7 +2,7 @@
   month: Aug
   title: "10 wissenswerte Fakten zu Kubernetes und OpenShift"
   subtitle: |
-            <img src="/images/blogposts/Kubernetes_OpenShift.png" alt="Kubernetes und OpenShift"/>
+            <img src="/images/blogposts/Kubernetes_OpenShift.png" alt="Kubernetes und OpenShift"/><br>
             Bei APPUiO setzen wir auf OpenShift von Red Hat. OpenShift ist eine Kubernetes Distribution. Kubernetes ist eine Plattform zur Orchestrierung von Container-Systemen. Alles klar? Bist du noch dabei? :-) Wenn ja, dann lies weiter und erfahre im folgenden Blogpost, was Kubernetes, eine Kubernetes Distribution und OpenShift ist und warum wir APPUiO auf den Grundlagen von Kubernetes und OpenShift aufgebaut haben.
   details: |
             <h4>1. Was ist Kubernetes?</h4>
