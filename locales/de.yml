@@ -513,7 +513,7 @@ de:
 
   # Offer3: UnManaged APPUiO
   offerThreeTitle: UnManaged
-  offerThreeIntro: Deine Container Plattform in deinem Rechenzentrum, optimal integriert in deine Infrastruktur. Wir begleiten dich gerne von der Idee über die Umsetzung bis zum Betrieb.
+  offerThreeIntro: Möchtest du selber eine Container Plattform bauen, dir fehlt aber das nötige Wissen oder die Zeit?  Von der Planung, über den Aufbau bis hin zum Betrieb. Auch euren Entwicklern zeigen wir gerne wie eine Container Plattform am besten genutzt wird.
   offerThreeServicesTitle: Offene Komponenten und -Schnittstellen ermöglichen die Integration in komplexe, bestehende Infrastrukturen.
   offerThreeServicesDesc: Die Flexibiltät von APPUiO erlaubt die Integration in komplexe, bestehende Infrastrukturen. Hier eine Liste möglicher Integrationspunkte, welche durch APPUiO resp. OpenShift abgedeckt werden können.
   offerThreeServices1: APPUiO läuft auf Red Hat Enterprise Linux (RHEL) 7 (bare metal, virtuell, Cloud)
@@ -532,52 +532,46 @@ de:
   offerThreeSuccessMessage: Nachricht wurde erfolgreich gesendet
 
   # Offer three: Advantages
-  offerThreeAdvantagesTitle: Advantages
-  offerThreeAdvantagesOneTitle: UnManaged title placeholder
-  offerThreeAdvantagesOneDesc: UnManaged description text placeholder.
-  offerThreeAdvantagesTwoTitle: UnManaged title placeholder
-  offerThreeAdvantagesTwoDesc: UnManaged description text placeholder.
-  offerThreeAdvantagesThreeTitle: UnManaged title placeholder
-  offerThreeAdvantagesThreeDesc: UnManaged description text placeholder.
-  offerThreeAdvantagesFourTitle: UnManaged title placeholder
-  offerThreeAdvantagesFourDesc: UnManaged description text placeholder.
-  offerThreeAdvantagesFiveTitle: UnManaged title placeholder
-  offerThreeAdvantagesFiveDesc: UnManaged description text placeholder.
-  offerThreeAdvantagesSixTitle: UnManaged title placeholder
-  offerThreeAdvantagesSixDesc: UnManaged description text placeholder.
+  offerThreeAdvantagesTitle: Vorteile
+  offerThreeAdvantagesOneTitle: Know How
+  offerThreeAdvantagesOneDesc: Wir bringen unser grosses Know-How zu unseren Kunden.
+  offerThreeAdvantagesTwoTitle: Langjährige Erfahrung
+  offerThreeAdvantagesTwoDesc: Seit der BetaPhase von OpenShift arbeiten wir mit und beraten wir Firmen.
+  offerThreeAdvantagesThreeTitle: Flexibilität
+  offerThreeAdvantagesThreeDesc: Freie Wahl von Cloud-Provider oder On-Premises (eigenes RZ).
+  offerThreeAdvantagesFourTitle: DevOps
+  offerThreeAdvantagesFourDesc: Devs profitieren in der Entwicklung und beim ausrollen und Ops im Container-Betrieb.
+  offerThreeAdvantagesFiveTitle: Learning Organisation
+  offerThreeAdvantagesFiveDesc: Wir bringen Learnings aus anderen Projekten in neue Aufträge.
+  offerThreeAdvantagesSixTitle: Langjährige Unterstützung
+  offerThreeAdvantagesSixDesc: Wir begleiten unsere Kunden über längere Zeit mit konstanten Experten.
 
   # Offer Three: Im Angebot enthalten
   offerThreePackageContentsTitle: Im Angebot enthalten
-  offerThreePackageContentsFirstTitle: Included service title placeholder
-  offerThreePackageContentsFirstItemOne: Included service description placeholder.
-  offerThreePackageContentsSecondTitle: Included service title placeholder
-  offerThreePackageContentsSecondItemOne: Included service description placeholder.
-  offerThreePackageContentsThirdTitle: Included service title placeholder
-  offerThreePackageContentsThirdItemOne: Included service description placeholder.
-  offerThreePackageContentsFourthTitle: Included service title placeholder
-  offerThreePackageContentsFourthItemOne: Included service description placeholder.
-  offerThreePackageContentsFifthTitle: Included service title placeholder
-  offerThreePackageContentsFifthItemOne: Included service description placeholder.
-  offerThreePackageContentsSixthTitle: Included service title placeholder
-  offerThreePackageContentsSixthItemOne: Included service description placeholder.
+  offerThreePackageContentsFirstTitle: Architektur Workshop
+  offerThreePackageContentsFirstItemOne: Gemeinsam definieren wir die Architektur. Perfekt auf die Infrastruktur zugeschnitten.
+  offerThreePackageContentsSecondTitle: Aufbau der Plattform
+  offerThreePackageContentsSecondItemOne: Gemeinsam bauen wir die definierte Plattform, sei dies als POC, Dev oder Prd auf.
+  offerThreePackageContentsThirdTitle: Know-How Transfer
+  offerThreePackageContentsThirdItemOne: Wir geben unser Know-How und Erfahrung sehr gerne weiter, damit das Wissen ins Unternehmen einfliessen kann.
+  offerThreePackageContentsFourthTitle: Dokumentation des Setups
+  offerThreePackageContentsFourthItemOne: Wir dokumentieren gemeinsam die Architektur, damit unsere Kunden alle nötigen Informationen jederzeit schriftlich zur Verfügung steht.
+  offerThreePackageContentsFifthTitle: Integration in Monitoring
+  offerThreePackageContentsFifthItemOne: Auf Wunsch kann die Plattform in das gewünschte Monitorin Tool integriert werden.
+  offerThreePackageContentsSixthTitle: Unterstützung im Daily Business
+  offerThreePackageContentsSixthItemOne: Gerne Unterstützen wir längerfristig unsere Kunden auch im Engineering oder Betrieb der Plattform.
 
   # Offer Three: Additional services
   offerThreeAddonsTitle: Zusätzliche Services
-  offerThreeAddon1Title: Additional service title placeholder # SLA Office Hours
-  offerThreeAddon1Description: Additional service description placeholder # Supportzeiten&#58; 09&#58;00-12&#58;00 Und 13&#58;00-18&#58;00 Uhr (5x8), Reaktionszeiten&#58; 2h, Verfügbarkeit&#58; 99%
-  offerThreeAddon1Price: Additional service price placeholder # Im Preis inbegriffen
-  offerThreeAddon2Title: Additional service title placeholder # SLA Office Hours Plus
-  offerThreeAddon2Description: Additional service description placeholder # Supportzeiten&#58; 08&#58;00-20&#58;00 Uhr (5x12), Reaktionszeiten&#58; 2h, Verfügbarkeit&#58; 99,3%
-  offerThreeAddon2Price: Additional service price placeholder # Nach Absprache
-  offerThreeAddon3Title: Additional service title placeholder # SLA 7x24
-  offerThreeAddon3Description: Additional service description placeholder # Supportzeiten&#58; 7x24, Reaktionszeiten&#58; 1h, Verfügbarkeit&#58; 99,5%
-  offerThreeAddon3Price: Additional service price placeholder # Nach Absprache
-  offerThreeAddon4Title: Additional service title placeholder # Persistent Storage
-  offerThreeAddon4Description: Additional service description placeholder # pro GB/Tag
-  offerThreeAddon4Price: Additional service price placeholder # 0.0935 CHF
-  offerThreeAddon5Title: Additional service title placeholder # TCP und UDP Ingress
-  offerThreeAddon5Description: Additional service description placeholder # pro Service/Tag
-  offerThreeAddon5Price: Additional service price placeholder # 0.35 CHF
+  offerThreeAddon1Title: Operation Schulung
+  offerThreeAddon1Description: In 2 Tagen geben wir in einem Hands-on Lab die wichtigsten Tipps und Tricks für den Betrieb einer OpenShift Plattform weiter. Von einem Cluster Update über Best Practices bei der Konfiguration
+  offerThreeAddon1Price: Preis auf Anfrage
+  offerThreeAddon2Title: Dev Schulung
+  offerThreeAddon2Description: In 2 Tagen zeigen wir den Entwicklern wie die Vorteile einer OpenShift Plattform richtig genutzt werden können. Hands-on werden z.b. Applikation deployt, CI/CD Piplines, Backup/Restores usw. erarbeitet
+  offerThreeAddon2Price: Preis auf Anfrage
+  offerThreeAddon3Title: 3rd Level Support
+  offerThreeAddon3Description: Brauchst du Support von Experten, welche deine Plattform kennen und deine Sprache sprechen? Gerne bieten wir Hilfe, wenn die Erfahrung noch etwas fehlt
+  offerThreeAddon3Price: Preis auf Anfrage
 
   # Offer Three: IaaS Partner
   offerThreeIaasTitle: IaaS Partner
