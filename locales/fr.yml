@@ -17,13 +17,13 @@ fr:
   homeHeroDesc: APPUiO - die Schweizer Enterprise PaaS von Entwicklern für Entwickler. APPUiO basiert auf der “next generation PaaS” OpenShift Enterprise V3 von Red Hat. Auf der Basis bewährter Open Source Konzepte wie Docker und Kubernetes entwickeln, betreiben und skalieren Sie Ihre Anwendung passend auf Ihre Bedürfnisse. Anders als andere PaaS-Angebote können Applikationen mit dieser Technologie sowohl auf Public Clouds als auch unternehmensintern betrieben werden.
 
   homeOfferTitle: L'offre
-  homeOfferOneTitle: Managed Private PaaS
+  homeOfferOneTitle: Managed
   homeOfferOneDesc: Sie wollen eine eigene private APPUiO Instanz nutzen, die auf unserer Infrastruktur läuft? Wir deployen und betreiben die auf Ihre Bedürfnisse massgeschneiderte Lösung.
   homeOfferOneButton: Get my private APPUiO
-  homeOfferTwoTitle: Public PaaS
+  homeOfferTwoTitle: Public
   homeOfferTwoDesc: BETA - Melden Sie sich gratis für das APPUiO-Betaprogramm an und werden Sie Teil der Community. Das Betaprogramm startet im März 2016.
   homeOfferTwoButton: Join the community
-  homeOfferThreeTitle: On premise PaaS
+  homeOfferThreeTitle: UnManaged
   homeOfferThreeDesc: Ihre PaaS in Ihrem Rechenzentrum, optimal integriert in Ihre Infrastruktur. Wir begleiten Sie von der Idee über die Umsetzung und falls gewünscht bis zum Betrieb.
   homeOfferThreeButton: Cloud engineering
   homeOfferDesc: Unser APPUiO Public PaaS Angebot wird in in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.

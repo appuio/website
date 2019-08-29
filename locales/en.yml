@@ -92,15 +92,14 @@ en:
 
 # Home: Offering section
   homeOfferTitle: Offering
-  homeOfferOneTitle: Managed Private APPUiO
+  homeOfferOneTitle: Managed
   homeOfferOneDesc: Do you want to run your own private APPUiO instance on our infrastructure? We deploy and operate a customized solution tailored to your specific requirements.
   homeOfferOneButton: Details
-  homeOfferTwoRibbon: Customer favorite
-  homeOfferTwoTitle: Public platform
+  homeOfferTwoTitle: Public
   homeOfferTwoDesc: |-
     Are you in need of standardized development environments or do you want to deploy your productive applications on a Swiss cloud?
   homeOfferTwoButton: Details
-  homeOfferThreeTitle: UnManaged APPUiO
+  homeOfferThreeTitle: UnManaged
   homeOfferThreeDesc: Your Container Platform in your own data centre, optimally integrated into your infrastructure. We guide you through the whole process, from idea stage to operation of a fully functional platform.
   homeOfferThreeButton: Details
   homeOfferDesc: All APPUiO Public Platform offerings are held and operated in ISO27001-certified and FINMA-audited data centres within Switzerland and are subject to Swiss law.
