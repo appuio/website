@@ -609,6 +609,11 @@ en:
     Location: Either Neugasse 10 in Zurich or Belpstrasse 37 in Berne</p>
     <p>Participation is free of charge. Please bring your own laptop for the lab. Number of places is limited.</p>
 
+  realizedTechlab: Completed Techlabs
+
+  techlabFeedback1: A great introduction to the topic container management.
+  techlabFeedbackAuthor1: from IT Facilitator of Energie Zukunft Schweiz AG
+
   # Team Page
   teamPageTitle: Team
   teamTitle: Unsere fantastische Crew
