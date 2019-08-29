@@ -180,8 +180,8 @@ en:
   homeContactSend: send
 
 # Offer1: Managed Private APPUiO
-  offerOneTitle: Managed Private APPUiO
-  offerOneIntro: Do you want to use your own private APPUiO instance that runs on our infrastructure? We deploy and operate the solution tailored to your needs.
+  offerOneTitle: Managed
+  offerOneIntro: Your own APPUiO Managed Private Cluster in your CC On-Premises or in the cloud of your choice. APPUiO takes care of the setup, operation of the container platform and lets you concentrate on your core business.
 
   offerOneList1: Basis for DevOps
   offerOneList2: 09.00 - 18.00 Phone + Email support
@@ -194,51 +194,46 @@ en:
 
   # Offer1: Advantages
   offerOneAdvantagesTitle: Advantages
-  offerOneAdvantagesOneTitle: UnManaged title placeholder
-  offerOneAdvantagesOneDesc: UnManaged description text placeholder.
-  offerOneAdvantagesTwoTitle: UnManaged title placeholder
-  offerOneAdvantagesTwoDesc: UnManaged description text placeholder.
-  offerOneAdvantagesThreeTitle: UnManaged title placeholder
-  offerOneAdvantagesThreeDesc: UnManaged description text placeholder.
-  offerOneAdvantagesFourTitle: UnManaged title placeholder
-  offerOneAdvantagesFourDesc: UnManaged description text placeholder.
-  offerOneAdvantagesFiveTitle: UnManaged title placeholder
-  offerOneAdvantagesFiveDesc: UnManaged description text placeholder.
-  offerOneAdvantagesSixTitle: UnManaged title placeholder
-  offerOneAdvantagesSixDesc: UnManaged description text placeholder.
+  offerOneAdvantagesOneTitle: Gain time
+  offerOneAdvantagesOneDesc: Finally you can concentrate on the development of the application and not on its operation.
+  offerOneAdvantagesTwoTitle: Speed
+  offerOneAdvantagesTwoDesc: Quick provision of applications & micro-services.
+  offerOneAdvantagesThreeTitle: Automatization
+  offerOneAdvantagesThreeDesc: Automatization of applications' development and easily scalable.
+  offerOneAdvantagesFourTitle: DevOps
+  offerOneAdvantagesFourDesc: Devs profit when it comes to development and Ops when it comes to container operations.
+  offerOneAdvantagesFiveTitle: Flexibility
+  offerOneAdvantagesFiveDesc: Free choice from cloud providers or On-Premises (own data center).
+  offerOneAdvantagesSixTitle: Know-How
+  offerOneAdvantagesSixDesc: Personal contact person and know-how sharing.
 
   # Offer1: Im Angebot enthalten
   offerOnePackageContentsTitle: Services Included
-  offerOnePackageContentsTitleFirstTitle: Included service name placeholder
-  offerOnePackageContentsTitleFirstItemOne: Included service description placeholder.
-  offerOnePackageContentsTitleSecondTitle: Included service name placeholder
-  offerOnePackageContentsTitleSecondItemOne: Included service description placeholder.
-  offerOnePackageContentsTitleThirdTitle: Included service name placeholder
-  offerOnePackageContentsTitleThirdItemOne: Included service description placeholder.
-  offerOnePackageContentsTitleFourthTitle: Included service name placeholder
-  offerOnePackageContentsTitleFourthItemOne: Included service description placeholder.
-  offerOnePackageContentsTitleFifthTitle: Included service name placeholder
-  offerOnePackageContentsTitleFifthItemOne: Included service description placeholder
-  offerOnePackageContentsTitleSixthTitle: Included service name placeholder
-  offerOnePackageContentsTitleSixthItemOne: Included service description placeholder
+  offerOnePackageContentsIntro: With APPUiO Managed you get your own Managed Private Cluster in the cloud of your choice or On-Premise and you can leave the operation to the professionals. Through the Open Source technologies Kubernetes and Docker APPUiO is easily integrateable into existing development environments. APPUiO increases speed through shorter lifecycles, automatization & self-service. With APPUiO Managed you can fully concentrate on your business - on the application.
+  offerOnePackageContentsTitleFirstTitle: APPUiO Managed
+  offerOnePackageContentsTitleFirstItemOne: OpenShift as a Service with many additonal Managed Services.
+  offerOnePackageContentsTitleSecondTitle: Basis for DevOps
+  offerOnePackageContentsTitleSecondItemOne: Connect Development and Operations and together satisfy client needs.
+  offerOnePackageContentsTitleThirdTitle: Phone and E-Mail support
+  offerOnePackageContentsTitleThirdItemOne: APPUiO  supports you gladly and on status.appuio.ch you can check the Public platform's status anytime.
+  offerOnePackageContentsTitleFourthTitle: Proactive Management
+  offerOnePackageContentsTitleFourthItemOne: Our professionals detect problems immediately and take care of updates and server management.
+  offerOnePackageContentsTitleFifthTitle: Data Location according to Your Demand
+  offerOnePackageContentsTitleFifthItemOne: On-Premises in your CC or in the public cloud of your choice
+  offerOnePackageContentsTitleSixthTitle: Backup
+  offerOnePackageContentsTitleSixthItemOne: One time daily we back up all the relevant data, if you wish additionally in a second location
 
   # Offer1: Additional services
   offerOneAddonsTitle: Additional Services
-  offerOneAddon1Title: Additional service title placeholder # SLA Office Hours
-  offerOneAddon1Description: Additional service description placeholder # Support times&#58; 09&#58;00-12&#58;00 and 13&#58;00-18&#58;00 Uhr (5x8), Reaction time&#58; 2h, Availability&#58; 99%
-  offerOneAddon1Price: Additional service price placeholder # included
-  offerOneAddon2Title: Additional service title placeholder # SLA Office Hours Plus
-  offerOneAddon2Description: Additional service description placeholder # Support times&#58; 08&#58;00-20&#58;00 Uhr (5x12), Reaction time&#58; 2h, Availability&#58; 99,3%
-  offerOneAddon2Price: Additional service price placeholder # according to the arrangement
-  offerOneAddon3Title: Additional service title placeholder # SLA 7x24
-  offerOneAddon3Description: Additional service description placeholder # Support times&#58; 7x24, Reaction time&#58; 1h, Availability&#58; 99,5%
-  offerOneAddon3Price: Additional service price placeholder # according to the arrangement
-  offerOneAddon4Title: Additional service title placeholder # Persistent Storage
-  offerOneAddon4Description: Additional service description placeholder # per GB/day
-  offerOneAddon4Price: Additional service price placeholder # 0.0935 CHF
-  offerOneAddon5Title: Additional service title placeholder # TCP and UDP Ingress
-  offerOneAddon5Description: Additional service description placeholder # per Service/Day
-  offerOneAddon5Price: Additional service price placeholder # 0.35 CHF
+  offerOneAddon1Title: Consulting
+  offerOneAddon1Description: We help with the set-up, initialisation and operations
+  offerOneAddon1Price: Price on request
+  offerOneAddon2Title: Bring my App to the Cloud
+  offerOneAddon2Description: We advise on whether or not to containerize an application
+  offerOneAddon2Price: Price on request
+  offerOneAddon3Title: Automatization of processes
+  offerOneAddon3Description: We support with Continuous Delivery and Continuous Deployment of your application
+  offerOneAddon3Price: Price on request
 
   # Offer1: IaaS Partner
   offerOneIaasTitle: IaaS Partner
