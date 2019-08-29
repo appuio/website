@@ -693,12 +693,8 @@ de:
 
   realizedTechlab: Durchgeführte Techlabs
 
-  techlabFeedback1: Hier wird ein positives Feedback zum Techlab stehen.
-  techlabFeedbackAuthor1: Firma, Rolle, Titel
-  techlabFeedback2: Hier wird ein positives Feedback zum Techlab stehen.
-  techlabFeedbackAuthor2: Firma, Rolle, Titel
-  techlabFeedback3: Hier wird ein positives Feedback zum Techlab stehen.
-  techlabFeedbackAuthor3: Firma, Rolle, Titel
+  techlabFeedback1: Ein super Einstieg ins Thema Container Management.
+  techlabFeedbackAuthor1: von IT Facilitator der Energie Zukunft Schweiz AG
 
   # Team Page
   teamPageTitle: Team
