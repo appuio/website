@@ -34,12 +34,13 @@ en:
     The success story of Adcubum with APPUiO! <a href="https://www.appuio.ch/blog.html#2018-Apr-6">Let me see</a>.
 
   homeHeroAlt: APPUiO - Swiss Container Platform
-  homeHeroTitle: Open Container Platform with a powerful Community.
-  homeHeroSignup: Sign up for Public Platform
-  homeHeroRegister: Redeem voucher
-  homeHeroDesc:  |-
-    <p> APPUiO - The Swiss container platform, built on top of Red Hat OpenShift. Reliable open source concepts such as Docker and Kubernetes allow you to develop, operate and scale your application according to your needs. With APPUiO, your applications can be operated both on public clouds as well as on in-house data centres. </p>
-    <p>The platform was originally built by the two IT specialists <a href="https://www.puzzle.ch/de/">Puzzle ITC</a> and <a href="https://vshn.ch/">VSHN AG</a> to professionalize internal IT. Today, APPUiO is already used in production by several customers and supported by a strong community.</p>
+  homeHeroTitle: The open Container Platform with a strong Community for your Applications.
+  homeHeroSignup: ABOUT APPUiO PUBLIC
+  homeHeroRegister: REDEEM CODE
+  homeHeroDesc: |-
+    APPUiO is the leading OpenShift Container Platform when it comes to design, development and operation of applications.
+    Based on reliable Open Source concepts such as Docker and Kubernetes APPUiO enables DevOps: Through automatization and self-serivce
+    development are deployment and operation processes accelerated and the cooperation of software developers and operations is improved.
 
 # Home: Advantages
   homeAdvantagesTitle: Why APPUiO?
@@ -58,11 +59,11 @@ en:
 
 # Home: Feature Section
   homeFeatureTitle: More than OpenShift
-  homeFeatureDesc: APPUiO is OpenShift “as a Service”. Benefit from our long-standing experience as the first Swiss container platform and take advantage of all the assets of OpenShift with many additional Add-Ons and services.
+  homeFeatureDesc: APPUiO bases on Red Hat OpenShift, the leading Kubernetes container platform in the business segment and supports with moving applications to the cloud, to increase productivity and innovation.
   homeFeatureCommunityTitle: Community
   homeFeatureCommunityAlt: Eine Plattform, welche die Kunden zusammen bringt.
   homeFeatureCommunityDesc: |-
-    Our Community is the centrepiece along with which we’re growing. APPUiO features a <a href="https://community.appuio.ch/home">community-chat</a> and various events to exchange ideas with like-minded engineers and the APUiO-team. Just as APPUiO is built entirely on Open-Source-components we assume the same kind of openness by providing our documentation and code to the community. Together, open-sourced software, open standards and openly available documentation guarantee supplier-independence to the highest possible extent and protect you from vendor lock-in. You can be a part of the community, too! Together we’re stronger and we gladly pass our knowledge on. <br/>
+    Our Community is the centrepiece. APPUiO features a <a href="https://community.appuio.ch/home">community chat</a> to exchange ideas with like-minded engineers and with the APPUiO-team. APPUiO is entirely built on Open-Source-components. We assume the same kind of openness by providing our documentation and code to the community. Together, open-sourced software, open standards and openly available documentation guarantee supplier-independence to the highest possible extent and protect you from vendor lock-in. Come join and become part of our community!
   homeFeatureLanguagesTitle: Plattformen #?
   homeFeatureDatabasesTitle: Datenbanken #?
   homeFeatureConsultingTitle: One-Stop Solution
@@ -75,14 +76,14 @@ en:
     We’re continually improving APPUiO and developing additional features. These extensions are provided to all our customers as Add-Ons and help with integration. Currently, the following Add-Ons are available:
       <div class="home-table-usps">
         <ul>
-          <li>Backup, Monitoring Loggging</li>
-          <li>Lets Encrypt</li>
+          <li>Backup, Monitoring Loggging of applications</li>
+          <li>Secure Docker Builds (Multi Stage Support)</li>
           <li>TCP Traffic</li>
        </ul>
        <ul>
-          <li>Secure Docker Builds (Multi Stage Support)</li>
-          <li>Managed Services (3Scale, WAF, DB)</li>
-          <li>Persistent Storage (File based-, Blockstorage)</li>
+          <li>Managed Services (3Scale, WAF, DB and more)</li>
+          <li>CI/CD & application operation</li>
+          <li>Application Data Backup with K8up</li>
        </ul>
       </div>
   homeFeatureAddonsAlt: Safe container with a swiss locker
@@ -93,14 +94,13 @@ en:
 # Home: Offering section
   homeOfferTitle: Offering
   homeOfferOneTitle: Managed
-  homeOfferOneDesc: Do you want to run your own private APPUiO instance on our infrastructure? We deploy and operate a customized solution tailored to your specific requirements.
+  homeOfferOneDesc: You would like to have a private container platform in the cloud of your choice or On-Premise and not having anything to do with setup and operation?
   homeOfferOneButton: Details
   homeOfferTwoTitle: Public
-  homeOfferTwoDesc: |-
-    Are you in need of standardized development environments or do you want to deploy your productive applications on a Swiss cloud?
+  homeOfferTwoDesc: You would like to deploy your productive applications as fast as possible into a Swiss cloud?
   homeOfferTwoButton: Details
   homeOfferThreeTitle: UnManaged
-  homeOfferThreeDesc: Your Container Platform in your own data centre, optimally integrated into your infrastructure. We guide you through the whole process, from idea stage to operation of a fully functional platform.
+  homeOfferThreeDesc: You would like to build and operate your own container platform but you lack the required know-how or capacity?
   homeOfferThreeButton: Details
   homeOfferDesc: All APPUiO Public Platform offerings are held and operated in ISO27001-certified and FINMA-audited data centres within Switzerland and are subject to Swiss law.
 
