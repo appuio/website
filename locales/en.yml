@@ -274,7 +274,7 @@ en:
 
 # Offer2: Public Platform
   offerTwoTitle: Public Platform
-  offerTwoIntro: Do you want to deploy your application on a Swiss cloud or are you in need of flexible, standardized development environments ? Use our APPUiO Public Platform.
+  offerTwoIntro: Benefit from APPUiO Public for your productive applications or for flexible, standardized development environments. All components are standardized highly available.
 
 # Offer Two: Advantages
   offerTwoAdvantagesTitle: Advantages
@@ -308,15 +308,14 @@ en:
     - 3 Scale API Management (Beta): API Management solution by Red Hat. <br>
     - database as a service: manually: Postgresql, Mariadb, Mysql <br>
     - WaF as a Service basierend auf Apache mod_sec (Beta)<br>
-  offerTwoPackageContentsSixthTitle: Persistent Storage (File based-, Blockstorage)
-  offerTwoPackageContentsSixthItemOne: |-
-    As of late, APPUiO Public offers two kinds of persistent storage: In addition to the file-based one, our new storage type “Blockstorage” is now in Public Beta. It can be mounted into the the container and is of type “ReadWriteOnce (RWO)” (where the once means it can only be mounted into a single container) and especially useful for database volumes.
+  offerTwoPackageContentsSixthTitle: Persistent Storage (File based)
+  offerTwoPackageContentsSixthItemOne: On APPUiO Pubilc we offer persistent storage as file-based storage based on GlusterFS.
 
 # Offer Two: Produkte
   offerTwoProductsOneTitel: Shared
-  offerTwoProductsOneDesc: Order your Public Platform in our Self-service portal on shared infrastructure. You’re receiving an OpenShift project with memory at discretion.
+  offerTwoProductsOneDesc: Order your Public Platform on a shared infrastructure through our self service portal. You receive an OpenShift-project with unlimited GB memory.
   offerTwoProductsTwoTitel: Dedicated
-  offerTwoProductsTwoDesc: Do you want to manage your projects autonomously? Then chose our APPUiO Dedicated product. You can create as many projects as you’d like, starting at 16GB Memory.
+  offerTwoProductsTwoDesc: You want a dedicated node and wish to independently manage several projects? That is exactly what APPUiO dedicated with unlimited projects starting at 16 GB memory offers you.
   offerTwoProductsSharedOrder: Order Shared
   offerTwoProductsDedOrder:  Order Dedicated
 
@@ -369,7 +368,7 @@ en:
   offerTwoAddon2Title: SLA Office Hours Plus
   offerTwoAddon2Description: Support times&#58; 08&#58;00-20&#58;00 Uhr (5x12), Reaction time&#58; 2h, Availability&#58; 99,3%
   offerTwoAddon2Price: according to the arrangement
-  offerTwoAddon3Title: SLA 7x24
+  offerTwoAddon3Title: SLA 24/7
   offerTwoAddon3Description: Support times&#58; 7x24, Reaction time&#58; 1h, Availability&#58; 99,5%
   offerTwoAddon3Price: according to the arrangement
   offerTwoAddon4Title: Persistent Storage
