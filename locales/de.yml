@@ -35,18 +35,19 @@ de:
     Die Erfolgsstory von Adcubum mit APPUiO! <a href="https://www.appuio.ch/blog.html#2018-Apr-6">Will ich lesen</a>
 
   homeHeroAlt: APPUiO - Swiss Container Platform
-  homeHeroTitle: Open Container Platform with a powerful Community
-  homeHeroSignup: Für Public Platform anmelden
-  homeHeroRegister: Voucher einlösen
+  homeHeroTitle: Die offene Container-Plattform mit starker Community für deine Applikationen.
+  homeHeroSignup: Mehr zu APPUiO Public
+  homeHeroRegister: Code einlösen
   homeHeroDesc: |-
-    <p>APPUiO ist die erste Schweizer Container Plattform basierend auf OpenShift von Red Hat. Auf Basis bewährter Open Source Konzepte wie Docker und Kubernetes entwickelst, betreibst und skalierst du eine Anwendung nach deinen Bedürfnissen. Mit APPUiO können deine Applikationen sowohl auf Public Clouds als auch unternehmensintern betrieben werden.</p>
-    <p>Die Plattform wurde von den beiden IT-Spezialisten <a href="https://www.puzzle.ch/de/">Puzzle ITC</a> und <a href="https://vshn.ch/">VSHN AG</a> ursprünglich für die Professionalisierung der internen IT entwickelt. Heute wird APPUiO bereits von etlichen Kunden produktiv eingesetzt und wird von einer starken Community gestützt.</p>
+    APPUiO ist die führende OpenShift Container-Plattform für das Design, die Entwicklung und den Betrieb von Applikationen.
+    Auf Basis bewährter Open Source Konzepte wie Docker und Kubernetes ermöglicht APPUiO DevOps: Durch Automatisierung und Self-Service werden Entwicklung,
+    Deployment und Betriebsprozesse beschleunigt und die Zusammenarbeit von Software-Entwicklern und Betriebsorganisation verbessert.
 
   # Home: Vorteile
   homeAdvantagesTitle: Wieso APPUiO?
   homeAdvantagesOneTitle: Schnell am Markt
   homeAdvantagesOneDesc: Mit APPUiO kannst du deine Applikation automatisch builden, testen und deployen. Auch beim Monitoring und bei Updates gewinnst du Zeit. Releases können beliebig durchgeführt werden.
-  homeAdvantagesTwoTitle: Collaboration fördern
+  homeAdvantagesTwoTitle: Kollaboration fördern
   homeAdvantagesTwoDesc: Mit Continous Delivery und der Selfservice-Infrastruktur fördert APPUiO die Zusammenarbeit zwischen Devs und Ops. Applikationen können selber deployed und betrieben werden.
   homeAdvantagesThreeTitle: Einheitlich und offen
   homeAdvantagesThreeDesc: Die Entwicklungsumgebung sieht auf deinem Laptop anders aus als die Produktionsumgebung? Mit APPUiO sind deine Umgebungen standardisiert. Offene Standards und OpenSource sind die Basis unserer Plattform.
@@ -59,12 +60,14 @@ de:
 
   # Home: Feature Section
   homeFeatureTitle: Mehr als OpenShift
-  homeFeatureDesc: APPUiO ist OpenShift “as a Service”. Profitiere von unserer langjährigen Erfahrung als erste Schweizer Container Plattform und nutze alle Vorteile von OpenShift mit vielen zusätzlichen Add-Ons und Services.
+  homeFeatureDesc:  |-
+    <p> APPUiO basiert auf Red Hat OpenShift, der führenden Kubernetes Container-Plattform im Business-Bereich und hilft auf dem Weg, Applikationen in die Cloud zu bringen, die Produktivität zu steigern und Innovationen zu fördern. </p>
+    <p>APPUiO ist OpenShift as a Service - Profitiere von unserer langjährigen Erfahrung als erste Schweizer Container-Plattform und nutze alle Vorteile von OpenShift mit vielen zusätzlichen Add-Ons und Services.</p>
+
   homeFeatureCommunityTitle: Community
   homeFeatureCommunityAlt: Eine Plattform, welche die Kunden zusammen bringt.
   homeFeatureCommunityDesc: |-
-    Unsere Community ist unser Herzstück, mit der wir wachsen. APPUiO bietet dir einen <a href="https://community.appuio.ch/home">Community Chat</a> sowie diverse
-    s zum Austausch mit Gleichgesinnten und dem APPUiO-Team. Alle Komponenten hinter APPUiO sind Open Source. Diese Offenheit übernehmen wir, indem wir Dokumentationen und den Code der Community zur Verfügung stellen. Die quelloffene Software, die Anwendung offener Standards sowie die frei zugängliche Dokumentation garantieren dir grösstmögliche Anbieterunabhängigkeit und bewahrt dich vor einem Vendor Lock-in. Auch du kannst Teil der Community werden! Gemeinsam sind wir stärker und wir geben unser Wissen gerne weiter. <br/>
+    Unsere Community ist unser Herzstück. APPUiO bietet dir einen <a href="https://community.appuio.ch/home">Community Chat</a> zum Austausch mit Gleichgesinnten und dem APPUiO-Team. Alle Komponenten hinter APPUiO sind Open Source. Diese Offenheit übernehmen wir, indem wir Dokumentationen und den Code der Community zur Verfügung stellen. Die quelloffene Software, die Anwendung offener Standards sowie die frei zugängliche Dokumentation garantieren dir grösstmögliche Anbieterunabhängigkeit und bewahrt dich vor einem Vendor Lock-in. Werde auch du Teil unserer Community!
   homeFeatureLanguagesTitle: Plattformen #?
   homeFeatureDatabasesTitle: Datenbanken #?
   homeFeatureConsultingTitle: Alles aus einer Hand
@@ -77,14 +80,14 @@ de:
     Wir verbessern APPUiO kontinuierlich und entwickeln neue Features. Diese Erweiterungen stellen wir in Form von Add Ons allen Kunden zur Verfügung und helfen bei der Integration. Aktuell stehen folgende Add Ons zur Verfügung:
       <div class="home-table-usps">
         <ul>
-          <li>Backup, Monitoring, Logging</li>
-          <li>Let's Encrypt</li>
+          <li>Backup, Monitoring, Logging der Applikation</li>
           <li>Secure Docker Builds (Multi Stage Support)</li>
+          <li>TCP Traffic</li>
        </ul>
        <ul>
-          <li>TCP Traffic</li>
-          <li>Managed Services (3Scale, WAF, DB)</li>
-          <li>Persistent Storage (File based-, Blockstorage)</li>
+          <li>Managed Services (3Scale, WAF, DB und mehr)</li>
+          <li>CI/CD & Applikationsbetrieb</li>
+          <li>Application Data Backup mit K8up</li>
        </ul>
       </div>
   homeFeatureAddonsAlt: Safe container with a swiss locker
@@ -94,15 +97,14 @@ de:
 
   # Home: Angebotsbereich
   homeOfferTitle: Angebot
-  homeOfferOneTitle: Managed Private APPUiO
-  homeOfferOneDesc: Du willst eine private Container-Instanz nutzen und dabei nichts mit dem Setup und dem Betrieb zu tun haben?
+  homeOfferOneTitle: Managed
+  homeOfferOneDesc: Du willst eine private Container-Plattform in der Cloud deiner Wahl oder On-Premise und nichts mit Setup und Betrieb zu tun haben?
   homeOfferOneButton: Details
-  homeOfferTwoRibbon: Meist gewählt
-  homeOfferTwoTitle: Public Platform
-  homeOfferTwoDesc: Du brauchst kurzfristig standardisierte Entwicklungsumgebungen oder möchtest deine produktiven Applikationen in eine Schweizer Cloud deployen?
+  homeOfferTwoTitle: Public
+  homeOfferTwoDesc: Du willst in kürzester Zeit deine produktiven Applikationen in eine Schweizer Cloud deployen?
   homeOfferTwoButton: Details
-  homeOfferThreeTitle: UnManaged APPUiO
-  homeOfferThreeDesc: Du möchtest deine Container Plattform in deinem Rechenzentrum oder in einer gewünschten IaaS Cloud selber betreiben, benötigst aber Hilfe beim Setup?
+  homeOfferThreeTitle: UnManaged
+  homeOfferThreeDesc: Du willst eine eigene Container-Plattform aufbauen und betrieben, dir fehlt aber das nötige Wissen oder Kapazität?
   homeOfferThreeButton: Details
   homeOfferDesc: Unser APPUiO Angebot wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
 
@@ -189,7 +191,7 @@ de:
 
   # Offer1: Managed Private PaaS
   offerOneTitle: Managed
-  offerOneIntro: Du möchtest eine eigene private APPUiO Instanz nutzen, die auf unserer Infrastruktur läuft? Wir deployen und betreiben eine massgeschneiderte Lösung nach deinen Bedürfnissen.
+  offerOneIntro: Dein eigener APPUiO Managed Private Cluster in deinem RZ On-Premises oder in der Cloud deiner Wahl. APPUiO übernimmt das Setup und den Betrieb der Container-Plattform und du kannst dich auf dein Kerngeschäft konzentrieren.
 
   offerOneList1: Basis für DevOps
   offerOneList2: 09&#58;00 - 18&#58;00 Telefon- und E-Mail-Support
@@ -216,38 +218,33 @@ de:
   offerOneAdvantagesSixDesc: Persönliche Ansprechpartner und Know-How sharing.
 
   # Offer One: Im Angebot enthalten
-  offerOnePackageContentsTitle: Services Included
-  offerOnePackageContentsTitleFirstTitle: Included service name placeholder
-  offerOnePackageContentsTitleFirstItemOne: Included service description placeholder.
-  offerOnePackageContentsTitleSecondTitle: Included service name placeholder
-  offerOnePackageContentsTitleSecondItemOne: Included service description placeholder.
-  offerOnePackageContentsTitleThirdTitle: Included service name placeholder
-  offerOnePackageContentsTitleThirdItemOne: Included service description placeholder.
-  offerOnePackageContentsTitleFourthTitle: Included service name placeholder
-  offerOnePackageContentsTitleFourthItemOne: Included service description placeholder.
-  offerOnePackageContentsTitleFifthTitle: Included service name placeholder
-  offerOnePackageContentsTitleFifthItemOne: Included service description placeholder
-  offerOnePackageContentsTitleSixthTitle: Included service name placeholder
-  offerOnePackageContentsTitleSixthItemOne: Included service description placeholder
+  offerOnePackageContentsTitle: Im Angebot enthalten
+  offerOnePackageContentsIntro: Mit APPUiO Managed erhältst du deinen eigenen Managed Private Cluster in der Cloud deiner Wahl oder On-Premise und überlässt den Betrieb den Profis. Durch die Open Source Technologien Kubernetes und Docker lässt sich APPUiO leicht in bestehende Umgebungen integrieren. APPUiO erhöht die Geschwindigkeit durch kürzere Lifecycles, Automatisierung & Self-Service. Mit APPUiO Managed kannst du dich voll und ganz auf dein Business - die Applikation - konzentrieren.
+  offerOnePackageContentsTitleFirstTitle: APPUiO Managed
+  offerOnePackageContentsTitleFirstItemOne: OpenShift as a Service mit vielen zusätzlichen Managed Services.
+  offerOnePackageContentsTitleSecondTitle: Basis für DevOps
+  offerOnePackageContentsTitleSecondItemOne: Development und Operations verbinden und gemeinsam für zufriedene Kunden sorgen.
+  offerOnePackageContentsTitleThirdTitle: Telefon- und E-Mail-Support
+  offerOnePackageContentsTitleThirdItemOne: APPUiO unterstützt dich gerne und auf status.appuio.ch siehst du jederzeit den Status der Public Plattform.
+  offerOnePackageContentsTitleFourthTitle: Proaktives Management
+  offerOnePackageContentsTitleFourthItemOne: Unsere Profis erkennen Probleme sofort und übernehmen Updates und Servermanagement.
+  offerOnePackageContentsTitleFifthTitle: Datenstandort nach Kundenwunsch
+  offerOnePackageContentsTitleFifthItemOne: On-Premises in deinem RZ oder in der Public Cloud deiner Wahl
+  offerOnePackageContentsTitleSixthTitle: Backup
+  offerOnePackageContentsTitleSixthItemOne: Wir erstellen einmal täglich ein Backup aller relevanten Daten, auf Wunsch auch an einen zweiten Standort
 
 
   # Offer One: Additional services
-  offerOneAddonsTitle: Additional Services
-  offerOneAddon1Title: Additional service title placeholder # SLA Office Hours
-  offerOneAddon1Description: Additional service description placeholder # Support times&#58; 09&#58;00-12&#58;00 and 13&#58;00-18&#58;00 Uhr (5x8), Reaction time&#58; 2h, Availability&#58; 99%
-  offerOneAddon1Price: Additional service price placeholder # included
-  offerOneAddon2Title: Additional service title placeholder # SLA Office Hours Plus
-  offerOneAddon2Description: Additional service description placeholder # Support times&#58; 08&#58;00-20&#58;00 Uhr (5x12), Reaction time&#58; 2h, Availability&#58; 99,3%
-  offerOneAddon2Price: Additional service price placeholder # according to the arrangement
-  offerOneAddon3Title: Additional service title placeholder # SLA 7x24
-  offerOneAddon3Description: Additional service description placeholder # Support times&#58; 7x24, Reaction time&#58; 1h, Availability&#58; 99,5%
-  offerOneAddon3Price: Additional service price placeholder # according to the arrangement
-  offerOneAddon4Title: Additional service title placeholder # Persistent Storage
-  offerOneAddon4Description: Additional service description placeholder # per GB/day
-  offerOneAddon4Price: Additional service price placeholder # 0.0935 CHF
-  offerOneAddon5Title: Additional service title placeholder # TCP and UDP Ingress
-  offerOneAddon5Description: Additional service description placeholder # per Service/Day
-  offerOneAddon5Price: Additional service price placeholder # 0.35 CHF
+  offerOneAddonsTitle: Zusätzliche Services
+  offerOneAddon1Title: Consulting
+  offerOneAddon1Description: Wir helfen dir bei Setup, Initialisierung und dem 24/7 Betrieb
+  offerOneAddon1Price: Preis auf Anfrage
+  offerOneAddon2Title: Bring my App to the Cloud
+  offerOneAddon2Description: Wir beraten dich gerne, wenn eine Applikationen containerisiert werden soll
+  offerOneAddon2Price: Preis auf Anfrage
+  offerOneAddon3Title: Automatisierung der Prozesse
+  offerOneAddon3Description: Wir unterstützen beim Continuous Delivery und Continuous Deployment deiner Applikationen
+  offerOneAddon3Price: Preis auf Anfrage
 
   # Offer One: IaaS Partner
   offerOneIaasTitle: IaaS Partner
@@ -295,7 +292,7 @@ de:
 
   # Offer2: Public Platform
   offerTwoTitle: Public
-  offerTwoIntro: Du möchtest deine produktiven Applikationen in eine Schweizer Cloud deployen oder brauchst kurzfristig flexible, standardisierte Entwicklungsumgebungen? Nutze dafür unsere APPUiO Public Platform. Alle Komponenten sind standardmässig hochverfügbar.
+  offerTwoIntro: Nutze APPUiO Public für deine produktiven Applikationen oder für flexible, standardisierte Entwicklungsumgebungen. Alle Komponenten sind standardmässig hochverfügbar.
 
 
   # Offer Two: Vorteile
@@ -329,15 +326,15 @@ de:
     - 3 Scale API Management(Beta): API Management Lösung von Red Hat. <br>
     - Database as a Service: PostgreSQL, MariaDB, MySQL<br>
     - WaF as a Service basierend auf Apache mod_security (Beta)<br>
-  offerTwoPackageContentsSixthTitle: Persistent Storage (File based-, Blockstorage)
-  offerTwoPackageContentsSixthItemOne: Neu steht auf APPUiO Public als persistent Storage nebst File based Storage auch der Storagetype Blockstorage (Beta) zur Verfügung, der in den Container als mounted persistent Volumes eingebunden werden kann. Blockstorage ist vom Typ ReadWriteOnce (RWO) und eignet sich insbesondere für Datenbank Volumes.
+  offerTwoPackageContentsSixthTitle: Persistent Storage (File based)
+  offerTwoPackageContentsSixthItemOne: Auf APPUiO Public bieten wir persistent Storage als File-based Storage auf Basis von GlusterFS.
 
 
   # Offer Two: Produkte
   offerTwoProductsOneTitel: Shared
-  offerTwoProductsOneDesc: Bestelle in unserem Selfservice-Portal deine Public Platform auf einer geteilten Infrastruktur. Du erhältst ein OpenShift-Projekt mit beliebig viel GB Memory.
+  offerTwoProductsOneDesc: Bestelle in unserem Selfservice-Portal APPUiO Public auf geteilter Infrastruktur. Du erhältst ein OpenShift-Projekt mit beliebig viel GB Memory.
   offerTwoProductsTwoTitel: Dedicated
-  offerTwoProductsTwoDesc: Willst du deine Projekte eigenständig verwalten? Dann bestelle unsere APPUiO Dedicated über das Kontaktformular. Du kannst beliebig viele Projekte ab 16 GB Memory eröffnen.
+  offerTwoProductsTwoDesc: Du willst einen dedizierten Node und mehrere Projekte verwalten? Dann nutze APPUiO Dedicated mit beliebig vielen Projekten ab 16 GB Memory.
   offerTwoProductsSharedOrder: Shared bestellen
   offerTwoProductsDedOrder:  Dedicated bestellen
 
@@ -390,13 +387,13 @@ de:
   # Offer Two: Add-Ons
 
   offerTwoAddonsTitle: Zusätzliche Services
-  offerTwoAddon1Title: SLA Office Hours
+  offerTwoAddon1Title: SLA Bürozeiten
   offerTwoAddon1Description: Supportzeiten&#58; 09&#58;00-12&#58;00 Und 13&#58;00-18&#58;00 Uhr (5x8), Reaktionszeiten&#58; 2h, Verfügbarkeit&#58; 99%
   offerTwoAddon1Price: Im Preis inbegriffen
   offerTwoAddon2Title: SLA Office Hours Plus
   offerTwoAddon2Description: Supportzeiten&#58; 08&#58;00-20&#58;00 Uhr (5x12), Reaktionszeiten&#58; 2h, Verfügbarkeit&#58; 99,3%
   offerTwoAddon2Price: Nach Absprache
-  offerTwoAddon3Title: SLA 7x24
+  offerTwoAddon3Title: SLA 24/7
   offerTwoAddon3Description: Supportzeiten&#58; 7x24, Reaktionszeiten&#58; 1h, Verfügbarkeit&#58; 99,5%
   offerTwoAddon3Price: Nach Absprache
   offerTwoAddon4Title: Persistent Storage
@@ -516,7 +513,7 @@ de:
 
   # Offer3: UnManaged APPUiO
   offerThreeTitle: UnManaged
-  offerThreeIntro: Deine Container Plattform in deinem Rechenzentrum, optimal integriert in deine Infrastruktur. Wir begleiten dich gerne von der Idee über die Umsetzung bis zum Betrieb.
+  offerThreeIntro: Möchtest du selber eine Container Plattform bauen, dir fehlt aber das nötige Wissen oder die Zeit?  Von der Planung, über den Aufbau bis hin zum Betrieb. Auch euren Entwicklern zeigen wir gerne wie eine Container Plattform am besten genutzt wird.
   offerThreeServicesTitle: Offene Komponenten und -Schnittstellen ermöglichen die Integration in komplexe, bestehende Infrastrukturen.
   offerThreeServicesDesc: Die Flexibiltät von APPUiO erlaubt die Integration in komplexe, bestehende Infrastrukturen. Hier eine Liste möglicher Integrationspunkte, welche durch APPUiO resp. OpenShift abgedeckt werden können.
   offerThreeServices1: APPUiO läuft auf Red Hat Enterprise Linux (RHEL) 7 (bare metal, virtuell, Cloud)
@@ -535,52 +532,46 @@ de:
   offerThreeSuccessMessage: Nachricht wurde erfolgreich gesendet
 
   # Offer three: Advantages
-  offerThreeAdvantagesTitle: Advantages
-  offerThreeAdvantagesOneTitle: UnManaged title placeholder
-  offerThreeAdvantagesOneDesc: UnManaged description text placeholder.
-  offerThreeAdvantagesTwoTitle: UnManaged title placeholder
-  offerThreeAdvantagesTwoDesc: UnManaged description text placeholder.
-  offerThreeAdvantagesThreeTitle: UnManaged title placeholder
-  offerThreeAdvantagesThreeDesc: UnManaged description text placeholder.
-  offerThreeAdvantagesFourTitle: UnManaged title placeholder
-  offerThreeAdvantagesFourDesc: UnManaged description text placeholder.
-  offerThreeAdvantagesFiveTitle: UnManaged title placeholder
-  offerThreeAdvantagesFiveDesc: UnManaged description text placeholder.
-  offerThreeAdvantagesSixTitle: UnManaged title placeholder
-  offerThreeAdvantagesSixDesc: UnManaged description text placeholder.
+  offerThreeAdvantagesTitle: Vorteile
+  offerThreeAdvantagesOneTitle: Know How
+  offerThreeAdvantagesOneDesc: Wir bringen unser grosses Know-How zu unseren Kunden.
+  offerThreeAdvantagesTwoTitle: Langjährige Erfahrung
+  offerThreeAdvantagesTwoDesc: Seit der BetaPhase von OpenShift arbeiten wir mit und beraten wir Firmen.
+  offerThreeAdvantagesThreeTitle: Flexibilität
+  offerThreeAdvantagesThreeDesc: Freie Wahl von Cloud-Provider oder On-Premises (eigenes RZ).
+  offerThreeAdvantagesFourTitle: DevOps
+  offerThreeAdvantagesFourDesc: Devs profitieren in der Entwicklung und beim ausrollen und Ops im Container-Betrieb.
+  offerThreeAdvantagesFiveTitle: Learning Organisation
+  offerThreeAdvantagesFiveDesc: Wir bringen Learnings aus anderen Projekten in neue Aufträge.
+  offerThreeAdvantagesSixTitle: Langjährige Unterstützung
+  offerThreeAdvantagesSixDesc: Wir begleiten unsere Kunden über längere Zeit mit konstanten Experten.
 
   # Offer Three: Im Angebot enthalten
   offerThreePackageContentsTitle: Im Angebot enthalten
-  offerThreePackageContentsFirstTitle: Included service title placeholder
-  offerThreePackageContentsFirstItemOne: Included service description placeholder.
-  offerThreePackageContentsSecondTitle: Included service title placeholder
-  offerThreePackageContentsSecondItemOne: Included service description placeholder.
-  offerThreePackageContentsThirdTitle: Included service title placeholder
-  offerThreePackageContentsThirdItemOne: Included service description placeholder.
-  offerThreePackageContentsFourthTitle: Included service title placeholder
-  offerThreePackageContentsFourthItemOne: Included service description placeholder.
-  offerThreePackageContentsFifthTitle: Included service title placeholder
-  offerThreePackageContentsFifthItemOne: Included service description placeholder.
-  offerThreePackageContentsSixthTitle: Included service title placeholder
-  offerThreePackageContentsSixthItemOne: Included service description placeholder.
+  offerThreePackageContentsFirstTitle: Architektur Workshop
+  offerThreePackageContentsFirstItemOne: Gemeinsam definieren wir die Architektur. Perfekt auf die Infrastruktur zugeschnitten.
+  offerThreePackageContentsSecondTitle: Aufbau der Plattform
+  offerThreePackageContentsSecondItemOne: Gemeinsam bauen wir die definierte Plattform, sei dies als POC, Dev oder Prd auf.
+  offerThreePackageContentsThirdTitle: Know-How Transfer
+  offerThreePackageContentsThirdItemOne: Wir geben unser Know-How und Erfahrung sehr gerne weiter, damit das Wissen ins Unternehmen einfliessen kann.
+  offerThreePackageContentsFourthTitle: Dokumentation des Setups
+  offerThreePackageContentsFourthItemOne: Wir dokumentieren gemeinsam die Architektur, damit unsere Kunden alle nötigen Informationen jederzeit schriftlich zur Verfügung steht.
+  offerThreePackageContentsFifthTitle: Integration in Monitoring
+  offerThreePackageContentsFifthItemOne: Auf Wunsch kann die Plattform in das gewünschte Monitorin Tool integriert werden.
+  offerThreePackageContentsSixthTitle: Unterstützung im Daily Business
+  offerThreePackageContentsSixthItemOne: Gerne Unterstützen wir längerfristig unsere Kunden auch im Engineering oder Betrieb der Plattform.
 
   # Offer Three: Additional services
   offerThreeAddonsTitle: Zusätzliche Services
-  offerThreeAddon1Title: Additional service title placeholder # SLA Office Hours
-  offerThreeAddon1Description: Additional service description placeholder # Supportzeiten&#58; 09&#58;00-12&#58;00 Und 13&#58;00-18&#58;00 Uhr (5x8), Reaktionszeiten&#58; 2h, Verfügbarkeit&#58; 99%
-  offerThreeAddon1Price: Additional service price placeholder # Im Preis inbegriffen
-  offerThreeAddon2Title: Additional service title placeholder # SLA Office Hours Plus
-  offerThreeAddon2Description: Additional service description placeholder # Supportzeiten&#58; 08&#58;00-20&#58;00 Uhr (5x12), Reaktionszeiten&#58; 2h, Verfügbarkeit&#58; 99,3%
-  offerThreeAddon2Price: Additional service price placeholder # Nach Absprache
-  offerThreeAddon3Title: Additional service title placeholder # SLA 7x24
-  offerThreeAddon3Description: Additional service description placeholder # Supportzeiten&#58; 7x24, Reaktionszeiten&#58; 1h, Verfügbarkeit&#58; 99,5%
-  offerThreeAddon3Price: Additional service price placeholder # Nach Absprache
-  offerThreeAddon4Title: Additional service title placeholder # Persistent Storage
-  offerThreeAddon4Description: Additional service description placeholder # pro GB/Tag
-  offerThreeAddon4Price: Additional service price placeholder # 0.0935 CHF
-  offerThreeAddon5Title: Additional service title placeholder # TCP und UDP Ingress
-  offerThreeAddon5Description: Additional service description placeholder # pro Service/Tag
-  offerThreeAddon5Price: Additional service price placeholder # 0.35 CHF
+  offerThreeAddon1Title: Operation Schulung
+  offerThreeAddon1Description: In 2 Tagen geben wir in einem Hands-on Lab die wichtigsten Tipps und Tricks für den Betrieb einer OpenShift Plattform weiter. Von einem Cluster Update über Best Practices bei der Konfiguration
+  offerThreeAddon1Price: Preis auf Anfrage
+  offerThreeAddon2Title: Dev Schulung
+  offerThreeAddon2Description: In 2 Tagen zeigen wir den Entwicklern wie die Vorteile einer OpenShift Plattform richtig genutzt werden können. Hands-on werden z.b. Applikation deployt, CI/CD Piplines, Backup/Restores usw. erarbeitet
+  offerThreeAddon2Price: Preis auf Anfrage
+  offerThreeAddon3Title: 3rd Level Support
+  offerThreeAddon3Description: Brauchst du Support von Experten, welche deine Plattform kennen und deine Sprache sprechen? Gerne bieten wir Hilfe, wenn die Erfahrung noch etwas fehlt
+  offerThreeAddon3Price: Preis auf Anfrage
 
   # Offer Three: IaaS Partner
   offerThreeIaasTitle: IaaS Partner
@@ -706,12 +697,8 @@ de:
 
   realizedTechlab: Durchgeführte Techlabs
 
-  techlabFeedback1: Hier wird ein positives Feedback zum Techlab stehen.
-  techlabFeedbackAuthor1: Firma, Rolle, Titel
-  techlabFeedback2: Hier wird ein positives Feedback zum Techlab stehen.
-  techlabFeedbackAuthor2: Firma, Rolle, Titel
-  techlabFeedback3: Hier wird ein positives Feedback zum Techlab stehen.
-  techlabFeedbackAuthor3: Firma, Rolle, Titel
+  techlabFeedback1: Ein super Einstieg ins Thema Container Management.
+  techlabFeedbackAuthor1: von IT Facilitator der Energie Zukunft Schweiz AG
 
   # Team Page
   teamPageTitle: Team
