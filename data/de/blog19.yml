@@ -1,6 +1,6 @@
 - day: 29
   month: Aug
-  title: "OpenShift 4 Blogpost"
+  title: "OpenShift 4"
   subtitle: |
             <img src="/images/blogposts/OpenShift4.png" alt="OpenShift4"/>
             Seit Juni dieses Jahres ist OpenShift 4.1 verfügbar, der erste öffentlich zugängliche Release von Red Hat (Version 4.0 war ein rein interner Release).
