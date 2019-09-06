@@ -15,7 +15,7 @@ de:
   navOffers: Angebot
   navOffer1: Managed
   navOffer2: Public
-  navOffer3: UnManaged
+  navOffer3: Self Managed
   navClients: Kunden
   navContact: Kontakt
   navFAQ: FAQ
@@ -103,34 +103,36 @@ de:
   homeOfferTwoTitle: Public
   homeOfferTwoDesc: Du willst in kürzester Zeit deine produktiven Applikationen in eine Schweizer Cloud deployen?
   homeOfferTwoButton: Details
-  homeOfferThreeTitle: UnManaged
+  homeOfferThreeTitle: Self Managed
   homeOfferThreeDesc: Du willst eine eigene Container-Plattform aufbauen und betrieben, dir fehlt aber das nötige Wissen oder Kapazität?
   homeOfferThreeButton: Details
   homeOfferDesc: Unser APPUiO Angebot wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
 
   # Home: Offer Table
   homeTableHeaderText: Welches Modell brauche ich?
-  homeTableHeaderServiceDescription: Inbegriffen
+  homeTableHeaderServiceDescription: Beschreibung
+  homeTableServiceDescription1: Shared oder Dedicated
+  homeTableServiceDescription2: Setup & Betrieb Managed Private Cluster
+  homeTableServiceDescription3: Setup Private Cluster nach Wahl
 
-  homeTableSubject1: IaaS partner frei wählbar
-
-  homeTableSubject2: ISO-20071 Zertifizierung & FINMA
-
-  homeTableSubject3: OpenShift Consulting
-
-  homeTableSubject4: ISOMaintenance & Updates inbegriffen
-
-  homeTableSubject5: Community Chat
-
+  homeTableSubject1: Sofort loslegen
+  homeTableSubject2: Betrieb übernimmt APPUiO
+  homeTableSubject3: Eigener Betrieb
+  homeTableSubject4: Container Consulting
+  homeTableSubject5: On Premise
   homeTableSubject6: Backup & Monitoring inbegriffen
-
-  homeTableSubject7: On premise
-
-  homeTableSubject8: Betrieb übernimmt APPUiO
-
-  homeTableSubject9: Eigener Betrieb
-
-  homeTableSubject10: Sofort loslegen
+  homeTableSubject7: Maintenance & Updates inbegriffen
+  homeTableSubject8: ISO-20071 Zertifizierung & FINMA
+  homeTableSubject9: IaaS-Partner frei wählbar
+  homeTableSubject10: Datenstandort / IaaS-Provider
+  homeTableSubject10Public1: Cloudscale.ch
+  homeTableSubject10Public2: AWS Frankfurt
+  homeTableSubject10Managed1: Alle IaaS
+  homeTableSubject10Managed2: On-Premise
+  homeTableSubject10SelfManaged1: Alle IaaS
+  homeTableSubject10SelfManaged2: On-Premise
+  homeTableSubject11: Community Chat
+  homeTableSubject12: How to dev on APPUiO
 
   # Home: Clients
   homeClientsTitle: Unsere Kunden
@@ -162,7 +164,7 @@ de:
   homeContactSubject: Ich interessiere mich für ...
   homeContactSubjectOne: Managed Private Platform
   homeContactSubjectTwo: Public Platform
-  homeContactSubjectThree: UnManaged APPUiO
+  homeContactSubjectThree: Self Managed APPUiO
   homeContactSubjectFour: Allgemeine Informationen
   homeContactSubjectFive: Newsletter
   homeContactSubjectSix: Free one month trial
@@ -283,7 +285,7 @@ de:
 
   # Offer1: Contact form
   offerOnePackageMediumTitle: Managed Private
-  offerOneContactTitle: MEINE APPUiO PRIVATE PLATFORM
+  offerOneContactTitle: APPUiO Managed Platform
   offerOneContactDesc: Gerne treten wir mit dir in Kontakt. Bitte teile uns mit, wie wir dich am besten erreichen. Deine Daten behandeln wir vertraulich.<br>Bei Fragen erreichst du uns auch telefonisch unter +41 44 552 22 40.
   offerOneContactSubject: Ich interessiere mich für ...
   offerOneOrderSend: Absenden
@@ -511,8 +513,8 @@ de:
 
 
 
-  # Offer3: UnManaged APPUiO
-  offerThreeTitle: UnManaged
+  # Offer3: Self Managed APPUiO
+  offerThreeTitle: Self Managed
   offerThreeIntro: Möchtest du selber eine Container Plattform bauen, dir fehlt aber das nötige Wissen oder die Zeit?  Von der Planung, über den Aufbau bis hin zum Betrieb. Auch euren Entwicklern zeigen wir gerne wie eine Container Plattform am besten genutzt wird.
   offerThreeServicesTitle: Offene Komponenten und -Schnittstellen ermöglichen die Integration in komplexe, bestehende Infrastrukturen.
   offerThreeServicesDesc: Die Flexibiltät von APPUiO erlaubt die Integration in komplexe, bestehende Infrastrukturen. Hier eine Liste möglicher Integrationspunkte, welche durch APPUiO resp. OpenShift abgedeckt werden können.
@@ -526,8 +528,8 @@ de:
   offerThreeServices8: CI/CD Workflows anbinden
   offerThreeServices9: Anbindung an Active Directory (AD) oder LDAP
 
-  offerThreeContactTitle: Kontakt
-  offerThreeContactDesc: Das UnManaged APPUiO Angebot klingt spannend. Ich wünsche eine persönliche Beratung.
+  offerThreeContactTitle: APPUiO Self Managed Platform
+  offerThreeContactDesc: Das Self Managed APPUiO Angebot klingt spannend. Ich wünsche eine persönliche Beratung.
   offerThreeLoadingMessage: Nachricht wird gesendet...
   offerThreeSuccessMessage: Nachricht wurde erfolgreich gesendet
 
@@ -662,7 +664,7 @@ de:
   readMoreButton: weiterlesen
 
   # Techlab Page
-  techlabPageTitle: Techlab
+  techlabPageTitle: Techlabs
   techlabTitle: APPUiO & OpenShift Techlabs in Bern & Zürich
 
   techlabSubtitle: Mit einer Container Plattform ändert sich die Art, wie wir Software entwickeln. Puzzle stellt OpenShift V3 - die Container Plattform von Red Hat - in einem Techlab vor.

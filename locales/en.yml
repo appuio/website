@@ -15,7 +15,7 @@ en:
   navOffers: Offering
   navOffer1: Managed
   navOffer2: Public
-  navOffer3: UnManaged
+  navOffer3: Self Managed
   navClients: Customers
   navContact: Contact
   navFAQ: FAQ
@@ -99,34 +99,36 @@ en:
   homeOfferTwoTitle: Public
   homeOfferTwoDesc: You would like to deploy your productive applications as fast as possible into a Swiss cloud?
   homeOfferTwoButton: Details
-  homeOfferThreeTitle: UnManaged
+  homeOfferThreeTitle: Self Managed
   homeOfferThreeDesc: You would like to build and operate your own container platform but you lack the required know-how or capacity?
   homeOfferThreeButton: Details
   homeOfferDesc: All APPUiO Public Platform offerings are held and operated in ISO27001-certified and FINMA-audited data centres within Switzerland and are subject to Swiss law.
 
   # Home: Offer Table
-  homeTableHeaderText: Welches Modell brauche ich?
-  homeTableHeaderServiceDescription: Inbegriffen
+  homeTableHeaderText: Which Model do i need?
+  homeTableHeaderServiceDescription: Description
+  homeTableServiceDescription1: Shared or Dedicated
+  homeTableServiceDescription2: Setup & operation Managed Private Cluster
+  homeTableServiceDescription3: Setup Private Cluster of choice
 
-  homeTableSubject1: IaaS partner frei wählbar
-
-  homeTableSubject2: ISO-20071 Zertifizierung & FINMA
-
-  homeTableSubject3: OpenShift Consulting
-
-  homeTableSubject4: ISOMaintenance & Updates inbegriffen
-
-  homeTableSubject5: Community Chat
-
-  homeTableSubject6: Backup & Monitoring inbegriffen
-
-  homeTableSubject7: On premise
-
-  homeTableSubject8: Betrieb übernimmt APPUiO
-
-  homeTableSubject9: Eigener Betrieb
-
-  homeTableSubject10: Sofort loslegen
+  homeTableSubject1: Start immediately
+  homeTableSubject2: Operated by APPUiO
+  homeTableSubject3: Own Operation
+  homeTableSubject4: Container Consulting
+  homeTableSubject5: On Premise
+  homeTableSubject6: Backup & Monitoring included
+  homeTableSubject7: Maintenance & Updates included
+  homeTableSubject8: ISO-20071 Certification & FINMA
+  homeTableSubject9: OpenShift Consulting
+  homeTableSubject10: Free choice of IaaS
+  homeTableSubject10Public1: Cloudscale.ch
+  homeTableSubject10Public2: AWS Frankfurt
+  homeTableSubject10Managed1: All IaaS
+  homeTableSubject10Managed2: On-Premise
+  homeTableSubject10SelfManaged1: All IaaS
+  homeTableSubject10SelfManaged2: On-Premise
+  homeTableSubject11: Community Chat
+  homeTableSubject12: How to dev on APPUiO
 
   # Home: Clients
   homeClientsTitle: Our Clients
@@ -155,7 +157,7 @@ en:
   homeContactSubject: I’m interested in
   homeContactSubjectOne: Managed Private APPUiO
   homeContactSubjectTwo: attending beta test
-  homeContactSubjectThree: UnManaged APPUiO
+  homeContactSubjectThree: Self Managed APPUiO
   homeContactSubjectFour: general information
   homeContactSubjectFive: Newsletter
   homeContactYourFirstName: first name
@@ -260,7 +262,7 @@ en:
 
 # Offer1: Contact form
   offerOnePackageMediumTitle: Managed Private
-  offerOneContactTitle: MY APPUiO PRIVATE PLATFORM
+  offerOneContactTitle: APPUiO Managed Platform
   offerOneContactDesc: We would love to get in touch with you! Do let us know how we can reach you. Your data will be kept confidentially, and will not be shared with third parties.
   offerOneContactSubject: I'm interested in...
   offerOneOrderSend: Send
@@ -495,9 +497,9 @@ en:
   offerTwoSuccessMessage: Order successfully sent!
   offerTwoSelectOfferMessage: Our APPUiO Public Platform exists on shared infrastructure or as a dedicated node for you alone. Choose between the two offers depending on your needs.
 
-# Offer3: UnManaged PaaS
-  offerThreeTitle: UnManaged
-  offerThreeIntro: Would you like to build your own Container Platform but you lack the necessary know-how or time? Reaching from Planning and Set-up to Operations. With pleasure we advise your developers on how to best use the Container Platform.
+# Offer3: Self Managed PaaS
+  offerThreeTitle: Self Managed
+  offerThreeIntro: Would you like to build your own container platform but you lack the necessary know-how or time? Reaching from planning and set-up to operations. With pleasure we advise your developers on how to best use the container platform.
   offerThreeServicesTitle: Open components and interfaces allow integration into complex existing infrastructures
   offerThreeServicesDesc: APPUiO's flexibility allows for integration into complex, existing infrastructures. Please find below a list of possible integrations that can be covered by APPUiO or OpenShift.
   offerThreeServices1: APPUiO runs on Red Hat Enterprise Linux (RHEL) 7 (bare metal, virtuell, Cloud)
@@ -510,8 +512,8 @@ en:
   offerThreeServices8: CI/CD Workflows connection
   offerThreeServices9: Connection to Active Directory (AD) or LDAP
 
-  offerThreeContactTitle: Contact
-  offerThreeContactDesc: Your UnManaged APPUiO offer sounds interesting. I would like a personal consultation.
+  offerThreeContactTitle: APPUiO Self Managed Platform
+  offerThreeContactDesc: Your Self Managed APPUiO offer sounds interesting. I would like a personal consultation.
   offerThreeLoadingMessage: Sending message...
   offerThreeSuccessMessage: Message successfully sent!
 
@@ -532,18 +534,18 @@ en:
 
 # Offer three: Im Angebot enthalten
   offerThreePackageContentsTitle: Services Included
-  offerThreePackageContentsTitleFirstTitle: Architecture Workshop
-  offerThreePackageContentsTitleFirstItemOne: Together we define the architecture. Perfectly matching your infrastructure.
-  offerThreePackageContentsTitleSecondTitle: Setup of the Platform
-  offerThreePackageContentsTitleSecondItemOne: Together we build the defined platform, either on POC, Dev or Prod.
-  offerThreePackageContentsTitleThirdTitle: Know-How Transfer
-  offerThreePackageContentsTitleThirdItemOne: We gladly pass on our know-how and experience in order that this knowledge can flow into your company.
-  offerThreePackageContentsTitleFourthTitle: Documentation of Setups
-  offerThreePackageContentsTitleFourthItemOne: Together we document the architecture in order that our clients have all the necessary information at hand at all times.
-  offerThreePackageContentsTitleFifthTitle: Integration in Monitoring
-  offerThreePackageContentsTitleFifthItemOne: On Request the platform can be integrated in the desired monitoring tool
-  offerThreePackageContentsTitleSixthTitle: Support in Daily Business
-  offerThreePackageContentsTitleSixthItemOne: We further gladly long-term support our clients in engineering or operations of the platform
+  offerThreePackageContentsFirstTitle: Architecture Workshop
+  offerThreePackageContentsFirstItemOne: Together we define the architecture. Perfectly matching your infrastructure.
+  offerThreePackageContentsSecondTitle: Setup of the Platform
+  offerThreePackageContentsSecondItemOne: Together we build the defined platform, either on POC, Dev or Prod.
+  offerThreePackageContentsThirdTitle: Know-How Transfer
+  offerThreePackageContentsThirdItemOne: We gladly pass on our know-how and experience in order that this knowledge can flow into your company.
+  offerThreePackageContentsFourthTitle: Documentation of Setups
+  offerThreePackageContentsFourthItemOne: Together we document the architecture in order that our clients have all the necessary information at hand at all times.
+  offerThreePackageContentsFifthTitle: Integration in Monitoring
+  offerThreePackageContentsFifthItemOne: On Request the platform can be integrated in the desired monitoring tool
+  offerThreePackageContentsSixthTitle: Support in Daily Business
+  offerThreePackageContentsSixthItemOne: We further gladly long-term support our clients in engineering or operations of the platform
 
 # Offer Three: Additional services
   offerThreeAddonsTitle: Additional Services
@@ -576,7 +578,7 @@ en:
   mailSubject: I'm interested in?
 
 # Techlab Page
-  techlabPageTitle: Techlab
+  techlabPageTitle: Techlabs
   techlabTitle: |-
     APPUiO & OpenShift Techlabs in Berne, Zurich & Basel
   techlabSubtitle: Platform as a Service (PaaS) changes the way we develop software. Puzzle presents OpenShift V3 - the Container Platform by Red Hat - in a Techlab.
@@ -609,15 +611,15 @@ en:
     Location: Either Neugasse 10 in Zurich or Belpstrasse 37 in Berne</p>
     <p>Participation is free of charge. Please bring your own laptop for the lab. Number of places is limited.</p>
 
-  realizedTechlab: Completed Techlabs
+  realizedTechlab: Previous Techlabs
 
   techlabFeedback1: A great introduction to the topic container management.
   techlabFeedbackAuthor1: from IT Facilitator of Energie Zukunft Schweiz AG
 
   # Team Page
   teamPageTitle: Team
-  teamTitle: Unsere fantastische Crew
-  teamSubtitle: Wir begeistern mit unserer Faszination für APPUiO unsere Kunden und sind ein kompetenter, persönlicher Ansprechpartner.
+  teamTitle: Our fantastic crew
+  teamSubtitle: We inspire our clients with our fascination for APPUiO and are a competent, personal contact person for them.
   teamMemberOneDesc: Matthias Summer, System Engineer <b>@Adcubum AG</b>
   teamMemberTwoDesc: Matthias Summer, System Engineer <b>@Adcubum AG</b>
   teamMemberThreeDesc: Matthias Summer, System Engineer <b>@Adcubum AG</b>
