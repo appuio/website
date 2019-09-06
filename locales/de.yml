@@ -285,7 +285,7 @@ de:
 
   # Offer1: Contact form
   offerOnePackageMediumTitle: Managed Private
-  offerOneContactTitle: MEINE APPUiO PRIVATE PLATFORM
+  offerOneContactTitle: APPUiO Managed Platform
   offerOneContactDesc: Gerne treten wir mit dir in Kontakt. Bitte teile uns mit, wie wir dich am besten erreichen. Deine Daten behandeln wir vertraulich.<br>Bei Fragen erreichst du uns auch telefonisch unter +41 44 552 22 40.
   offerOneContactSubject: Ich interessiere mich für ...
   offerOneOrderSend: Absenden
@@ -528,7 +528,7 @@ de:
   offerThreeServices8: CI/CD Workflows anbinden
   offerThreeServices9: Anbindung an Active Directory (AD) oder LDAP
 
-  offerThreeContactTitle: Kontakt
+  offerThreeContactTitle: APPUiO Self Managed Platform
   offerThreeContactDesc: Das Self Managed APPUiO Angebot klingt spannend. Ich wünsche eine persönliche Beratung.
   offerThreeLoadingMessage: Nachricht wird gesendet...
   offerThreeSuccessMessage: Nachricht wurde erfolgreich gesendet
@@ -664,7 +664,7 @@ de:
   readMoreButton: weiterlesen
 
   # Techlab Page
-  techlabPageTitle: Techlab
+  techlabPageTitle: Techlabs
   techlabTitle: APPUiO & OpenShift Techlabs in Bern & Zürich
 
   techlabSubtitle: Mit einer Container Plattform ändert sich die Art, wie wir Software entwickeln. Puzzle stellt OpenShift V3 - die Container Plattform von Red Hat - in einem Techlab vor.

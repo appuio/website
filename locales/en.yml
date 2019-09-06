@@ -262,7 +262,7 @@ en:
 
 # Offer1: Contact form
   offerOnePackageMediumTitle: Managed Private
-  offerOneContactTitle: MY APPUiO PRIVATE PLATFORM
+  offerOneContactTitle: APPUiO Managed Platform
   offerOneContactDesc: We would love to get in touch with you! Do let us know how we can reach you. Your data will be kept confidentially, and will not be shared with third parties.
   offerOneContactSubject: I'm interested in...
   offerOneOrderSend: Send
@@ -499,7 +499,7 @@ en:
 
 # Offer3: Self Managed PaaS
   offerThreeTitle: Self Managed
-  offerThreeIntro: Would you like to build your own Container Platform but you lack the necessary know-how or time? Reaching from Planning and Set-up to Operations. With pleasure we advise your developers on how to best use the Container Platform.
+  offerThreeIntro: Would you like to build your own container platform but you lack the necessary know-how or time? Reaching from planning and set-up to operations. With pleasure we advise your developers on how to best use the container platform.
   offerThreeServicesTitle: Open components and interfaces allow integration into complex existing infrastructures
   offerThreeServicesDesc: APPUiO's flexibility allows for integration into complex, existing infrastructures. Please find below a list of possible integrations that can be covered by APPUiO or OpenShift.
   offerThreeServices1: APPUiO runs on Red Hat Enterprise Linux (RHEL) 7 (bare metal, virtuell, Cloud)
@@ -512,7 +512,7 @@ en:
   offerThreeServices8: CI/CD Workflows connection
   offerThreeServices9: Connection to Active Directory (AD) or LDAP
 
-  offerThreeContactTitle: Contact
+  offerThreeContactTitle: APPUiO Self Managed Platform
   offerThreeContactDesc: Your Self Managed APPUiO offer sounds interesting. I would like a personal consultation.
   offerThreeLoadingMessage: Sending message...
   offerThreeSuccessMessage: Message successfully sent!
@@ -534,18 +534,18 @@ en:
 
 # Offer three: Im Angebot enthalten
   offerThreePackageContentsTitle: Services Included
-  offerThreePackageContentsTitleFirstTitle: Architecture Workshop
-  offerThreePackageContentsTitleFirstItemOne: Together we define the architecture. Perfectly matching your infrastructure.
-  offerThreePackageContentsTitleSecondTitle: Setup of the Platform
-  offerThreePackageContentsTitleSecondItemOne: Together we build the defined platform, either on POC, Dev or Prod.
-  offerThreePackageContentsTitleThirdTitle: Know-How Transfer
-  offerThreePackageContentsTitleThirdItemOne: We gladly pass on our know-how and experience in order that this knowledge can flow into your company.
-  offerThreePackageContentsTitleFourthTitle: Documentation of Setups
-  offerThreePackageContentsTitleFourthItemOne: Together we document the architecture in order that our clients have all the necessary information at hand at all times.
-  offerThreePackageContentsTitleFifthTitle: Integration in Monitoring
-  offerThreePackageContentsTitleFifthItemOne: On Request the platform can be integrated in the desired monitoring tool
-  offerThreePackageContentsTitleSixthTitle: Support in Daily Business
-  offerThreePackageContentsTitleSixthItemOne: We further gladly long-term support our clients in engineering or operations of the platform
+  offerThreePackageContentsFirstTitle: Architecture Workshop
+  offerThreePackageContentsFirstItemOne: Together we define the architecture. Perfectly matching your infrastructure.
+  offerThreePackageContentsSecondTitle: Setup of the Platform
+  offerThreePackageContentsSecondItemOne: Together we build the defined platform, either on POC, Dev or Prod.
+  offerThreePackageContentsThirdTitle: Know-How Transfer
+  offerThreePackageContentsThirdItemOne: We gladly pass on our know-how and experience in order that this knowledge can flow into your company.
+  offerThreePackageContentsFourthTitle: Documentation of Setups
+  offerThreePackageContentsFourthItemOne: Together we document the architecture in order that our clients have all the necessary information at hand at all times.
+  offerThreePackageContentsFifthTitle: Integration in Monitoring
+  offerThreePackageContentsFifthItemOne: On Request the platform can be integrated in the desired monitoring tool
+  offerThreePackageContentsSixthTitle: Support in Daily Business
+  offerThreePackageContentsSixthItemOne: We further gladly long-term support our clients in engineering or operations of the platform
 
 # Offer Three: Additional services
   offerThreeAddonsTitle: Additional Services
@@ -578,7 +578,7 @@ en:
   mailSubject: I'm interested in?
 
 # Techlab Page
-  techlabPageTitle: Techlab
+  techlabPageTitle: Techlabs
   techlabTitle: |-
     APPUiO & OpenShift Techlabs in Berne, Zurich & Basel
   techlabSubtitle: Platform as a Service (PaaS) changes the way we develop software. Puzzle presents OpenShift V3 - the Container Platform by Red Hat - in a Techlab.
@@ -611,15 +611,15 @@ en:
     Location: Either Neugasse 10 in Zurich or Belpstrasse 37 in Berne</p>
     <p>Participation is free of charge. Please bring your own laptop for the lab. Number of places is limited.</p>
 
-  realizedTechlab: Completed Techlabs
+  realizedTechlab: Previous Techlabs
 
   techlabFeedback1: A great introduction to the topic container management.
   techlabFeedbackAuthor1: from IT Facilitator of Energie Zukunft Schweiz AG
 
   # Team Page
   teamPageTitle: Team
-  teamTitle: Unsere fantastische Crew
-  teamSubtitle: Wir begeistern mit unserer Faszination für APPUiO unsere Kunden und sind ein kompetenter, persönlicher Ansprechpartner.
+  teamTitle: Our fantastic crew
+  teamSubtitle: We inspire our clients with our fascination for APPUiO and are a competent, personal contact person for them.
   teamMemberOneDesc: Matthias Summer, System Engineer <b>@Adcubum AG</b>
   teamMemberTwoDesc: Matthias Summer, System Engineer <b>@Adcubum AG</b>
   teamMemberThreeDesc: Matthias Summer, System Engineer <b>@Adcubum AG</b>
