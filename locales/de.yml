@@ -15,7 +15,7 @@ de:
   navOffers: Angebot
   navOffer1: Managed
   navOffer2: Public
-  navOffer3: UnManaged
+  navOffer3: Self Managed
   navClients: Kunden
   navContact: Kontakt
   navFAQ: FAQ
@@ -103,7 +103,7 @@ de:
   homeOfferTwoTitle: Public
   homeOfferTwoDesc: Du willst in kürzester Zeit deine produktiven Applikationen in eine Schweizer Cloud deployen?
   homeOfferTwoButton: Details
-  homeOfferThreeTitle: UnManaged
+  homeOfferThreeTitle: Self Managed
   homeOfferThreeDesc: Du willst eine eigene Container-Plattform aufbauen und betrieben, dir fehlt aber das nötige Wissen oder Kapazität?
   homeOfferThreeButton: Details
   homeOfferDesc: Unser APPUiO Angebot wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
@@ -164,7 +164,7 @@ de:
   homeContactSubject: Ich interessiere mich für ...
   homeContactSubjectOne: Managed Private Platform
   homeContactSubjectTwo: Public Platform
-  homeContactSubjectThree: UnManaged APPUiO
+  homeContactSubjectThree: Self Managed APPUiO
   homeContactSubjectFour: Allgemeine Informationen
   homeContactSubjectFive: Newsletter
   homeContactSubjectSix: Free one month trial
@@ -513,8 +513,8 @@ de:
 
 
 
-  # Offer3: UnManaged APPUiO
-  offerThreeTitle: UnManaged
+  # Offer3: Self Managed APPUiO
+  offerThreeTitle: Self Managed
   offerThreeIntro: Möchtest du selber eine Container Plattform bauen, dir fehlt aber das nötige Wissen oder die Zeit?  Von der Planung, über den Aufbau bis hin zum Betrieb. Auch euren Entwicklern zeigen wir gerne wie eine Container Plattform am besten genutzt wird.
   offerThreeServicesTitle: Offene Komponenten und -Schnittstellen ermöglichen die Integration in komplexe, bestehende Infrastrukturen.
   offerThreeServicesDesc: Die Flexibiltät von APPUiO erlaubt die Integration in komplexe, bestehende Infrastrukturen. Hier eine Liste möglicher Integrationspunkte, welche durch APPUiO resp. OpenShift abgedeckt werden können.
@@ -529,7 +529,7 @@ de:
   offerThreeServices9: Anbindung an Active Directory (AD) oder LDAP
 
   offerThreeContactTitle: Kontakt
-  offerThreeContactDesc: Das UnManaged APPUiO Angebot klingt spannend. Ich wünsche eine persönliche Beratung.
+  offerThreeContactDesc: Das Self Managed APPUiO Angebot klingt spannend. Ich wünsche eine persönliche Beratung.
   offerThreeLoadingMessage: Nachricht wird gesendet...
   offerThreeSuccessMessage: Nachricht wurde erfolgreich gesendet
 
