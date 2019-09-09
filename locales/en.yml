@@ -59,7 +59,10 @@ en:
 
 # Home: Feature Section
   homeFeatureTitle: More than OpenShift
-  homeFeatureDesc: APPUiO bases on Red Hat OpenShift, the leading Kubernetes container platform in the business segment and supports with moving applications to the cloud, to increase productivity and innovation.
+  homeFeatureDesc: |-
+    <p> APPUiO bases on Red Hat OpenShift, the leading Kubernetes container platform in the business segment and supports with moving applications to the cloud, to increase productivity and innovation. </p>
+    <p> APPUiO is OpenShift as a Service: Profit from our long-lived experience as the first Swiss container platform and make use of all the advantages provided by OpenShift with many additional add-ons and services. </p>
+
   homeFeatureCommunityTitle: Community
   homeFeatureCommunityAlt: Eine Plattform, welche die Kunden zusammen bringt.
   homeFeatureCommunityDesc: |-
@@ -118,11 +121,13 @@ en:
   homeTableSubject5: On Premise
   homeTableSubject6: Backup & Monitoring included
   homeTableSubject7: Maintenance & Updates included
-  homeTableSubject8: ISO-20071 Certification & FINMA
+  homeTableSubject8: ISO-20071 Certification & FINMA compliant
   homeTableSubject9: OpenShift Consulting
   homeTableSubject10: Free choice of IaaS
   homeTableSubject10Public1: Cloudscale.ch
   homeTableSubject10Public2: AWS Frankfurt
+  homeTableSubject10Public3: exoscale.ch
+  homeTableSubject10Public4: Swisscom DCS+
   homeTableSubject10Managed1: All IaaS
   homeTableSubject10Managed2: On-Premise
   homeTableSubject10SelfManaged1: All IaaS
@@ -611,9 +616,7 @@ en:
     Location: Either Neugasse 10 in Zurich or Belpstrasse 37 in Berne</p>
     <p>Participation is free of charge. Please bring your own laptop for the lab. Number of places is limited.</p>
 
-  realizedTechlab: Previous Techlabs
-
-  techlabFeedback1: A great introduction to the topic container management.
+  techlabFeedback1: '"A great introduction to the topic container management."'
   techlabFeedbackAuthor1: from IT Facilitator of Energie Zukunft Schweiz AG
 
   # Team Page

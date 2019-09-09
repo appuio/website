@@ -52,16 +52,16 @@ de:
   homeAdvantagesThreeTitle: Einheitlich und offen
   homeAdvantagesThreeDesc: Die Entwicklungsumgebung sieht auf deinem Laptop anders aus als die Produktionsumgebung? Mit APPUiO sind deine Umgebungen standardisiert. Offene Standards und OpenSource sind die Basis unserer Plattform.
   homeAdvantagesFourTitle: Selfservice
-  homeAdvantagesFourDesc: Innert Sekunden kannst du dir deine Plattform per Knopfdruck bestellen und direkt nutzen. Dabei bist du unabhängig von anderen Teams und Personen und geniesst die volle Kontrolle. Starte jetzt gleich mit deiner Container Platform!
+  homeAdvantagesFourDesc: Du kannst dir deine Plattform per Knopfdruck bestellen und direkt nutzen. Dabei bist du unabhängig von anderen Teams/Personen und geniesst die volle Kontrolle. Starte jetzt gleich mit deiner Container Platform!
   homeAdvantagesFiveTitle: Hohe Sicherheit
   homeAdvantagesFiveDesc: APPUiO nutzt SELinux, Let’s Encrypt und bietet Federation Authentication (LDAP Anbindung). Die Daten der Public Platform werden in ISO-zertifizierten Rechenzentren in der Schweiz gehalten.
   homeAdvantagesSixTitle: Kosten reduzieren
-  homeAdvantagesSixDesc: Wenn du APPUiO nutzt, entstehen keine internen Kosten für ein Setup einer Plattform oder den Aufbau von Know How. Die Kosten sind stets transparent und du kannst sie jederzeit über das Portal kontrollieren und anpassen.
+  homeAdvantagesSixDesc: Wenn du APPUiO nutzt, entstehen keine internen Kosten für ein Setup einer Plattform oder den Aufbau von Know-how. Die Kosten sind stets transparent und du kannst sie jederzeit über das Portal kontrollieren und anpassen.
 
   # Home: Feature Section
   homeFeatureTitle: Mehr als OpenShift
-  homeFeatureDesc:  |-
-    <p> APPUiO basiert auf Red Hat OpenShift, der führenden Kubernetes Container-Plattform im Business-Bereich und hilft auf dem Weg, Applikationen in die Cloud zu bringen, die Produktivität zu steigern und Innovationen zu fördern. </p>
+  homeFeatureDesc: |-
+    <p>APPUiO basiert auf Red Hat OpenShift, der führenden Kubernetes Container-Plattform im Business-Bereich. Es bietet dir Hilfe auf dem Weg, Applikationen in die Cloud zu bringen, die Produktivität zu steigern und Innovationen zu fördern.</p>
     <p>APPUiO ist OpenShift as a Service - Profitiere von unserer langjährigen Erfahrung als erste Schweizer Container-Plattform und nutze alle Vorteile von OpenShift mit vielen zusätzlichen Add-Ons und Services.</p>
 
   homeFeatureCommunityTitle: Community
@@ -72,7 +72,7 @@ de:
   homeFeatureDatabasesTitle: Datenbanken #?
   homeFeatureConsultingTitle: Alles aus einer Hand
   homeFeatureConsultingAlt: Build, Ship, Operate
-  homeFeatureConsultingDesc: Wir begleiten unsere Kunden über die gesamte Wertschöpfungskette ihrer Plattform und Applikation - von der Planung, über den Aufbau bis hin zum Betrieb. Zusätzlich stehen wir mit unserer langjährigen Erfahrung mit der Container-Technologie beratend zur Seite. Die Zusammenarbeit gestaltet sich modular und unsere Services können individuell oder gruppiert bezogen werden. Nebst Architektur, Setup und Betrieb bieten wir auch 3rd-Level-Support, Schulungen zu Betrieb und Monitoring von OpenShift und Container sowie Consulting rund um die Themen “Apps in die Cloud”, DevOps, Automatisierung und vielem mehr.
+  homeFeatureConsultingDesc: Wir begleiten unsere Kunden über die gesamte Wertschöpfungskette ihrer Plattform und Applikation - von der Planung, über den Aufbau bis hin zum Betrieb. Zusätzlich stehen wir mit unserer langjährigen Erfahrung mit der Container-Technologie beratend zur Seite. Die Zusammenarbeit gestaltet sich modular und unsere Services können individuell oder gruppiert bezogen werden. Nebst Architektur, Setup und Betrieb bieten wir auch 3rd-Level-Support, Schulungen zu Betrieb und Monitoring von OpenShift und Container sowie Consulting rund um die Themen “Apps in die Cloud”, DevOps, Automatisierung und vielem mehr an.
   homeFeatureOpenSourceTitle: Open Source
   homeFeatureOpenSourceDesc: OpenShift, Docker, Kubernetes und weitere Komponenten hinter APPUiO sind Open Source. Diese Offenheit wollen wir übernehmen, indem wir Dokumentationen zu APPUiO der Community zur Verfügung stellen. Die quelloffene Software, die Anwendung offener Standards sowie die frei zugängliche Dokumentation garantieren Ihnen die grösstmögliche Anbieterunabhängigkeit und bewahren Sie vor einem Vendor Lock-in. Weitere Informationen zum Open Source Projekt hinter OpenShift finden Sie auf <a target="_new" href="https://www.openshift.org">openshift.org</a>.
   homeFeatureAddonsTitle: Add-ons
@@ -98,13 +98,13 @@ de:
   # Home: Angebotsbereich
   homeOfferTitle: Angebot
   homeOfferOneTitle: Managed
-  homeOfferOneDesc: Du willst eine private Container-Plattform in der Cloud deiner Wahl oder On-Premise und nichts mit Setup und Betrieb zu tun haben?
+  homeOfferOneDesc: Du willst eine private Container-Plattform in der Cloud deiner Wahl oder On-Premise und nichts mit dem Setup und Betrieb zu tun haben?
   homeOfferOneButton: Details
   homeOfferTwoTitle: Public
   homeOfferTwoDesc: Du willst in kürzester Zeit deine produktiven Applikationen in eine Schweizer Cloud deployen?
   homeOfferTwoButton: Details
   homeOfferThreeTitle: Self Managed
-  homeOfferThreeDesc: Du willst eine eigene Container-Plattform aufbauen und betrieben, dir fehlt aber das nötige Wissen oder Kapazität?
+  homeOfferThreeDesc: Du willst eine eigene Container-Plattform aufbauen und betrieben, dir fehlt aber das nötige Wissen oder die Kapazität?
   homeOfferThreeButton: Details
   homeOfferDesc: Unser APPUiO Angebot wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
 
@@ -122,11 +122,13 @@ de:
   homeTableSubject5: On Premise
   homeTableSubject6: Backup & Monitoring inbegriffen
   homeTableSubject7: Maintenance & Updates inbegriffen
-  homeTableSubject8: ISO-20071 Zertifizierung & FINMA
+  homeTableSubject8: ISO-20071 Zertifizierung & FINMA compliant
   homeTableSubject9: IaaS-Partner frei wählbar
   homeTableSubject10: Datenstandort / IaaS-Provider
   homeTableSubject10Public1: Cloudscale.ch
   homeTableSubject10Public2: AWS Frankfurt
+  homeTableSubject10Public3: exoscale.ch
+  homeTableSubject10Public4: Swisscom DCS+
   homeTableSubject10Managed1: Alle IaaS
   homeTableSubject10Managed2: On-Premise
   homeTableSubject10SelfManaged1: Alle IaaS
@@ -227,7 +229,7 @@ de:
   offerOnePackageContentsTitleSecondTitle: Basis für DevOps
   offerOnePackageContentsTitleSecondItemOne: Development und Operations verbinden und gemeinsam für zufriedene Kunden sorgen.
   offerOnePackageContentsTitleThirdTitle: Telefon- und E-Mail-Support
-  offerOnePackageContentsTitleThirdItemOne: APPUiO unterstützt dich gerne und auf status.appuio.ch siehst du jederzeit den Status der Public Plattform.
+  offerOnePackageContentsTitleThirdItemOne: APPUiO unterstützt dich gerne. Auf status.appuio.ch siehst du jederzeit den Status der Public Plattform.
   offerOnePackageContentsTitleFourthTitle: Proaktives Management
   offerOnePackageContentsTitleFourthItemOne: Unsere Profis erkennen Probleme sofort und übernehmen Updates und Servermanagement.
   offerOnePackageContentsTitleFifthTitle: Datenstandort nach Kundenwunsch
@@ -323,18 +325,14 @@ de:
   offerTwoPackageContentsFourthTitle: Secure Docker Builds
   offerTwoPackageContentsFourthItemOne: Unsere Plattform erlaubt es, Docker Image Native als Docker Builds laufen zu lassen. Dafür haben wir die Buildumgebung extrahiert. Die Builds laufen in dynamischen, abgeschotteten VMs pro Mandant ausserhalb des Clusters. Zusätzlich zu den sicheren Builds, erlaubt unsere Erweiterung <b>Docker Multi-Stage Builds</b>. Docker Multi-Stage Builds helfen Dockerfiles zu optimieren und sie einfacher und lesbarer zu machen.
   offerTwoPackageContentsFifthTitle: Managed Services
-  offerTwoPackageContentsFifthItemOne: |-
-    Es gibt eine erste Plattform-Software die wir auf unserer Public Plattform als Service anbieten. Wir  bauen die Software deinen Wünschen entsprechend auf und betreiben sie als Managed Service. <br>
-    - 3 Scale API Management(Beta): API Management Lösung von Red Hat. <br>
-    - Database as a Service: PostgreSQL, MariaDB, MySQL<br>
-    - WaF as a Service basierend auf Apache mod_security (Beta)<br>
+  offerTwoPackageContentsFifthItemOne: 'Auf Wunsch bieten wir dir zusätzliche Managed Services an, wie zum Beispiel: Database as a Service (PostgreSQL, MariaDB, MySQL).'
   offerTwoPackageContentsSixthTitle: Persistent Storage (File based)
   offerTwoPackageContentsSixthItemOne: Auf APPUiO Public bieten wir persistent Storage als File-based Storage auf Basis von GlusterFS.
 
 
   # Offer Two: Produkte
   offerTwoProductsOneTitel: Shared
-  offerTwoProductsOneDesc: Bestelle in unserem Selfservice-Portal APPUiO Public auf geteilter Infrastruktur. Du erhältst ein OpenShift-Projekt mit beliebig viel GB Memory.
+  offerTwoProductsOneDesc: APPUiO Public kannst du durch unser Selfservice-Portal auch auf geteilter Infrastruktur bestellen. Du erhältst ein OpenShift-Projekt mit beliebig viel GB Memory.
   offerTwoProductsTwoTitel: Dedicated
   offerTwoProductsTwoDesc: Du willst einen dedizierten Node und mehrere Projekte verwalten? Dann nutze APPUiO Dedicated mit beliebig vielen Projekten ab 16 GB Memory.
   offerTwoProductsSharedOrder: Shared bestellen
@@ -515,7 +513,7 @@ de:
 
   # Offer3: Self Managed APPUiO
   offerThreeTitle: Self Managed
-  offerThreeIntro: Möchtest du selber eine Container Plattform bauen, dir fehlt aber das nötige Wissen oder die Zeit?  Von der Planung, über den Aufbau bis hin zum Betrieb. Auch euren Entwicklern zeigen wir gerne wie eine Container Plattform am besten genutzt wird.
+  offerThreeIntro: Möchtest du selber eine Container Plattform bauen, dir fehlt aber das nötige Wissen oder die Zeit? Wir helfen dir von der Planung, über den Aufbau bis hin zum Betrieb. Auch euren Entwicklern zeigen wir gerne wie eine Container Plattform am besten genutzt wird.
   offerThreeServicesTitle: Offene Komponenten und -Schnittstellen ermöglichen die Integration in komplexe, bestehende Infrastrukturen.
   offerThreeServicesDesc: Die Flexibiltät von APPUiO erlaubt die Integration in komplexe, bestehende Infrastrukturen. Hier eine Liste möglicher Integrationspunkte, welche durch APPUiO resp. OpenShift abgedeckt werden können.
   offerThreeServices1: APPUiO läuft auf Red Hat Enterprise Linux (RHEL) 7 (bare metal, virtuell, Cloud)
@@ -538,11 +536,11 @@ de:
   offerThreeAdvantagesOneTitle: Know How
   offerThreeAdvantagesOneDesc: Wir bringen unser grosses Know-How zu unseren Kunden.
   offerThreeAdvantagesTwoTitle: Langjährige Erfahrung
-  offerThreeAdvantagesTwoDesc: Seit der BetaPhase von OpenShift arbeiten wir mit und beraten wir Firmen.
+  offerThreeAdvantagesTwoDesc: Seit der BetaPhase von OpenShift arbeiten wir mit Firmen und beraten sie.
   offerThreeAdvantagesThreeTitle: Flexibilität
   offerThreeAdvantagesThreeDesc: Freie Wahl von Cloud-Provider oder On-Premises (eigenes RZ).
   offerThreeAdvantagesFourTitle: DevOps
-  offerThreeAdvantagesFourDesc: Devs profitieren in der Entwicklung und beim ausrollen und Ops im Container-Betrieb.
+  offerThreeAdvantagesFourDesc: Devs profitieren in der Entwicklung sowie beim Ausrollen und Ops im Container-Betrieb.
   offerThreeAdvantagesFiveTitle: Learning Organisation
   offerThreeAdvantagesFiveDesc: Wir bringen Learnings aus anderen Projekten in neue Aufträge.
   offerThreeAdvantagesSixTitle: Langjährige Unterstützung
@@ -553,15 +551,15 @@ de:
   offerThreePackageContentsFirstTitle: Architektur Workshop
   offerThreePackageContentsFirstItemOne: Gemeinsam definieren wir die Architektur. Perfekt auf die Infrastruktur zugeschnitten.
   offerThreePackageContentsSecondTitle: Aufbau der Plattform
-  offerThreePackageContentsSecondItemOne: Gemeinsam bauen wir die definierte Plattform, sei dies als POC, Dev oder Prd auf.
+  offerThreePackageContentsSecondItemOne: Gemeinsam definieren wir die Architektur, perfekt auf die Infrastruktur zugeschnitten.
   offerThreePackageContentsThirdTitle: Know-How Transfer
   offerThreePackageContentsThirdItemOne: Wir geben unser Know-How und Erfahrung sehr gerne weiter, damit das Wissen ins Unternehmen einfliessen kann.
   offerThreePackageContentsFourthTitle: Dokumentation des Setups
   offerThreePackageContentsFourthItemOne: Wir dokumentieren gemeinsam die Architektur, damit unsere Kunden alle nötigen Informationen jederzeit schriftlich zur Verfügung steht.
   offerThreePackageContentsFifthTitle: Integration in Monitoring
-  offerThreePackageContentsFifthItemOne: Auf Wunsch kann die Plattform in das gewünschte Monitorin Tool integriert werden.
+  offerThreePackageContentsFifthItemOne: Auf Wunsch kann die Plattform in das gewünschte Monitoring Tool integriert werden.
   offerThreePackageContentsSixthTitle: Unterstützung im Daily Business
-  offerThreePackageContentsSixthItemOne: Gerne Unterstützen wir längerfristig unsere Kunden auch im Engineering oder Betrieb der Plattform.
+  offerThreePackageContentsSixthItemOne: Gerne unterstützen wir längerfristig unsere Kunden, auch im Engineering oder Betrieb der Plattform.
 
   # Offer Three: Additional services
   offerThreeAddonsTitle: Zusätzliche Services
@@ -572,7 +570,7 @@ de:
   offerThreeAddon2Description: In 2 Tagen zeigen wir den Entwicklern wie die Vorteile einer OpenShift Plattform richtig genutzt werden können. Hands-on werden z.b. Applikation deployt, CI/CD Piplines, Backup/Restores usw. erarbeitet
   offerThreeAddon2Price: Preis auf Anfrage
   offerThreeAddon3Title: 3rd Level Support
-  offerThreeAddon3Description: Brauchst du Support von Experten, welche deine Plattform kennen und deine Sprache sprechen? Gerne bieten wir Hilfe, wenn die Erfahrung noch etwas fehlt
+  offerThreeAddon3Description: Brauchst du Support von Experten, welche deine Plattform kennen und deine Sprache sprechen? Gerne bieten wir dir Hilfe an.
   offerThreeAddon3Price: Preis auf Anfrage
 
   # Offer Three: IaaS Partner
@@ -697,9 +695,7 @@ de:
     Ort: Limmatstrasse 214, Zürich oder Belpstrasse 37, Bern</p>
     <p>Die Teilnahme ist kostenlos. Bitte bring für das Lab deinen Laptop mit. Die Platzzahl ist beschränkt.</p>
 
-  realizedTechlab: Durchgeführte Techlabs
-
-  techlabFeedback1: Ein super Einstieg ins Thema Container Management.
+  techlabFeedback1: '"Ein super Einstieg ins Thema Container Management."'
   techlabFeedbackAuthor1: von IT Facilitator der Energie Zukunft Schweiz AG
 
   # Team Page
@@ -719,7 +715,7 @@ de:
     8005 Zürich<br />
   dataPrivacyTitle: Datenschutz
   dataPrivacyText: |-
-    <p>Sie können grundsätzlich unsere Website besuchen, ohne dass Sie Angaben zu Ihrer Person machen müssen. Auf dieser Website werden mit Matomo, einem Open-Source Web-Analyse-Tool <a href="https://matomo.org/">(https://matomo.org/)</a>, Daten zu Marketing- und Optimierungszwecken gesammelt und gespeichert. Aus diesen Daten können unter einem Pseudonym Nutzungsprofile erstellt werden. Hierzu können Cookies eingesetzt werden. Bei Cookies handelt es sich um kleine Textdateien, die lokal im Zwischenspeicher des Internet-Browsers des Seitenbesuchers gespeichert werden. Die Cookies ermöglichen die Wiedererkennung des Internet-Browsers. Die mit Matomo erhobenen Daten werden ohne die gesondert erteilte Zustimmung des Betroffenen nicht dazu benutzt, den Besucher dieser Website persönlich zu identifizieren und auch nicht mit personenbezogenen Daten über den Träger des Pseudonyms zusammengeführt.</p> 
+    <p>Sie können grundsätzlich unsere Website besuchen, ohne dass Sie Angaben zu Ihrer Person machen müssen. Auf dieser Website werden mit Matomo, einem Open-Source Web-Analyse-Tool <a href="https://matomo.org/">(https://matomo.org/)</a>, Daten zu Marketing- und Optimierungszwecken gesammelt und gespeichert. Aus diesen Daten können unter einem Pseudonym Nutzungsprofile erstellt werden. Hierzu können Cookies eingesetzt werden. Bei Cookies handelt es sich um kleine Textdateien, die lokal im Zwischenspeicher des Internet-Browsers des Seitenbesuchers gespeichert werden. Die Cookies ermöglichen die Wiedererkennung des Internet-Browsers. Die mit Matomo erhobenen Daten werden ohne die gesondert erteilte Zustimmung des Betroffenen nicht dazu benutzt, den Besucher dieser Website persönlich zu identifizieren und auch nicht mit personenbezogenen Daten über den Träger des Pseudonyms zusammengeführt.</p>
     <iframe
         style="border: 0; height: 200px; width: 1000px;"
         src="https://matomo.puzzle.ch/index.php?module=CoreAdminHome&action=optOut&language=de&backgroundColor=002f47&fontColor=ffffff&fontSize=17px&fontFamily=lato"
