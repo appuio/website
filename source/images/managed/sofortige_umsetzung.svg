@@ -1,0 +1,22 @@
+<svg id="Sofortige_Umsetzung"
+     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1, .cls-2 {
+            fill: none;
+            }
+
+            .cls-1 {
+            stroke: #fff;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            }
+        </style>
+    </defs>
+    <title>Sofortige Umsetzung</title>
+    <g stroke-width="0.5">
+        <path class="cls-1"
+              d="M.90506,23.01,12.91506,11m3-7V1m2.89619,4.21505,2.12132-2.12132M20,8.12214h3m-4.21505,2.89619,2.12132,2.12132m-5.02841-.93258v3M11.79293,8.08494h-3M13.008,5.18875,10.88666,3.06743"/>
+        <circle class="cls-2" cx="15.89646" cy="8.10354" r="3.85897"/>
+    </g>
+</svg>

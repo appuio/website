@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  <title>Langjährige Unterstützung</title>
+  <g id="m6" stroke-width="0.5">
+    <g>
+      <path class="cls-1" d="M4.5,11.53105H.5v8h4Z"/>
+      <path class="cls-2" d="M16.183,15.96105l4.317-1.367a2.76,2.76,0,0,1,3,1c-12,6-8.5,6-19,2.5m5.5-1.563h5.5c1,0,1-2,0-2H12c-.5,0-2.147-2-4.5-2h-3"/>
+    </g>
+    <g>
+      <circle class="cls-2" cx="15.48582" cy="4.81182" r="2.24054"/>
+      <path class="cls-2" d="M15.558,7.31007a4.59859,4.59859,0,0,0-4.68472,4.50733h9.36951A4.59866,4.59866,0,0,0,15.558,7.31007Z"/>
+    </g>
+  </g>
+</svg>
