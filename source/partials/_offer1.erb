@@ -1,82 +1,160 @@
-<section class="offer-one offer-one-intro">
-  <div class="grid-container is-relative">
-    <div class="offers-image"><%= image_tag "offer1_big.svg", :alt => t(:offerOneTitle) %></div>
+<section class="offer-one offer-one-intro offer-one-image offer-header-image">
+  <%= partial "partials/svgs/angebot_managed" %>
+  <div class="grid-container is-relative offer-start-text" >
     <h2 class="offers-title"><%= t(:offerOneTitle) %></h2>
     <p class="offers-intro"><%= t(:offerOneIntro) %></p>
-    <div class="offers-bulletpoints">
-      <div class="flex-item">
-        <ul>
-          <li><%= t(:offerOneList1) %></li>
-          <li><%= t(:offerOneList2) %></li>
-          <li><%= t(:offerOneList3) %></li>
-          <li><%= t(:offerOneList4) %></li>
-        </ul>
-      </div>
-      <div class="flex-item">
-        <ul>
-          <li><%= t(:offerOneList5) %></li>
-          <li><%= t(:offerOneList6) %></li>
-          <li><%= t(:offerOneList7) %></li>
-        </ul>
-      </div>
-    </div>
-    <p class="offers-desc"><%= t(:offerOneIso) %></p>
   </div>
 </section>
-  <section class="offer-one-services">
-    <div class="grid-container">
-      <h3><%= t(:offerOneServiceTitle) %></h3>
-      <div class="offer-container">
-        <article class="offer-item is-third">
-          <span class="offer-item-image"><%= image_tag "service1.svg", :alt => 'Consulting Setup und Initialisierung' %></span>
-          <p class="offer-item-desc"><%= t(:offerOneServices1) %></p>
-        </article>
-        <article class="offer-item is-third">
-          <span class="offer-item-image"><%= image_tag "service2.svg", :alt => 'Bring my App to the Cloud' %></span>
-          <p class="offer-item-desc"><%= t(:offerOneServices2) %></p>
-        </article>
-        <article class="offer-item is-third">
-          <span class="offer-item-image"><%= image_tag "service3.svg", :alt => 'Automatisierung Ihrer Prozesse' %></span>
-          <p class="offer-item-desc"><%= t(:offerOneServices3) %></p>
-        </article>
-      </div>
-    </div>
-  </section>
 
-  <section class="offer-one-offers">
-      <div class="grid-container">
-        <h3 class="offers-package-title"><%= t(:offerOnePackageTitle) %></h3>
-        <div class="offers-package-container">
-
-          <div class="offers-package is-third">
-            <div class="offers-package-ribbon text-center"><%= t(:offerOnePackageMediumTitle) %></div>
-            <ul class="offers-package-list">
-              <li class="offers-package-item text-center"><%= t(:offerOnePackageMediumItem1) %></li>
-              <li class="offers-package-item text-center"><%= t(:offerOnePackageMediumItem2) %></li>
-            </ul>
-            <a href="#offers-one-contact" class="callout-button button is-round is-flex" data-check="interest-medium"><%= t(:offerOneMediumButton) %></a>
-          </div>
-
-          <article class="offers-package last-child">
-            <div class="offers-package-ribbon text-center"><%= t(:offerOnePackageAddonsPretext) %></div>
-            <h3 class="offers-package-list-title m-t-2"><%= t(:offerOnePackageAddonsTitle) %></h3>
-            <ul class="offers-package-list 3-cols">
-              <li class="offers-package-item"><%= t(:offerOnePackageAddonsItem1) %></li>
-              <li class="offers-package-item"><%= t(:offerOnePackageAddonsItem2) %></li>
-              <li class="offers-package-item"><%= t(:offerOnePackageAddonsItem3) %></li>
-              <li class="offers-package-item"><%= t(:offerOnePackageAddonsItem4) %></li>
-              <li class="offers-package-item"><%= t(:offerOnePackageAddonsItem5) %></li>
-              <li class="offers-package-item"><%= t(:offerOnePackageAddonsItem6) %></li>
-              <li class="offers-package-item"><%= t(:offerOnePackageAddonsItem7) %></li>
-              <li class="offers-package-item"><%= t(:offerOnePackageAddonsItem8) %></li>
-              <li class="offers-package-item"><%= t(:offerOnePackageAddonsItem9) %></li>
-            </ul>
-          </article>
+<section id="offer-two-advantages" class="advantages">
+  <div class="grid-container">
+    <ul class="callout-list">
+      <li class="callout-item">
+        <div class="advantage-dot">
+          <img src="/images/managed/entwickeln.svg" alt="time saving" class="advantage-image"/>
         </div>
-      </div>
-  </section>
+        <h3 class="callout-title"><%= t(:offerOneAdvantagesOneTitle) %></h3>
+        <p class="callout-desc advantages-height-spacing-min"><%= t(:offerOneAdvantagesOneDesc) %></p>
+      </li>
+      <li class="callout-item">
+        <div class="advantage-dot">
+          <img src="/images/managed/sofortige_umsetzung.svg" alt="sofortige-umsetzung" class="advantage-image"/>
+        </div>
+        <h3 class="callout-title"><%= t(:offerOneAdvantagesTwoTitle) %></h3>
+        <p class="callout-desc advantages-height-spacing-min"><%= t(:offerOneAdvantagesTwoDesc) %></p>
+      </li>
+      <li class="callout-item">
+        <div class="advantage-dot">
+          <img src="/images/managed/automatisierung.svg" alt="automation" class="advantage-image"/>
+        </div>
+        <h3 class="callout-title"><%= t(:offerOneAdvantagesThreeTitle) %></h3>
+        <p class="callout-desc advantages-height-spacing-min"><%= t(:offerOneAdvantagesThreeDesc) %></p>
+      </li>
+    </ul>
+    <ul class="callout-list">
+      <li class="callout-item">
+        <div class="advantage-dot">
+          <img src="/images/managed/devOps.svg" alt="dev-ops" class="advantage-image"/>
+        </div>
+        <h3 class="callout-title"><%= t(:offerOneAdvantagesFourTitle) %></h3>
+        <p class="callout-desc advantages-height-spacing-min"><%= t(:offerOneAdvantagesFourDesc) %></p>
+      </li>
+      <li class="callout-item">
+        <div class="advantage-dot">
+          <img src="/images/managed/freie_wahl.svg" alt="flexible" class="advantage-image"/>
+        </div>
+        <h3 class="callout-title"><%= t(:offerOneAdvantagesFiveTitle) %></h3>
+        <p class="callout-desc advantages-height-spacing-min"><%= t(:offerOneAdvantagesFiveDesc) %></p>
+      </li>
+      <li class="callout-item">
+        <div class="advantage-dot">
+          <img src="/images/managed/knowHow_sharing.svg" alt="know-how" class="advantage-image"/>
+        </div>
+        <h3 class="callout-title"><%= t(:offerOneAdvantagesSixTitle) %></h3>
+        <p class="callout-desc advantages-height-spacing-min"><%= t(:offerOneAdvantagesSixDesc) %></p>
+      </li>
+    </ul>
+  </div>
+</section>
 
-  <a name="offers-one-contact"></a>
+<section class="offer-two-contents">
+  <div class="grid-container">
+    <h2 class="offers-package-title"><%= t(:offerOnePackageContentsTitle) %></h2>
+    <p class="home-contact-desc included-services-intro-text"><%= t(:offerOnePackageContentsIntro) %></p>
+    <article class="offers-package package-contents">
+      <ul class="offers-package-list cols-4">
+        <li class="offers-package-item">
+          <h4 class="expandable-title"><a href="#" slide-toggle=".offers-package-item-description"><%= t(:offerOnePackageContentsTitleFirstTitle) %></a></h4>
+          <div class="offers-package-item-description"><%= t(:offerOnePackageContentsTitleFirstItemOne) %></div>
+        </li>
+        <li class="offers-package-item">
+          <h4 class="expandable-title"><a href="#" slide-toggle=".offers-package-item-description"><%= t(:offerOnePackageContentsTitleSecondTitle) %></a></h4>
+          <div class="offers-package-item-description"><%= t(:offerOnePackageContentsTitleSecondItemOne) %></div>
+        </li>
+        <li class="offers-package-item">
+          <h4 class="expandable-title"><a href="#" slide-toggle=".offers-package-item-description"><%= t(:offerOnePackageContentsTitleThirdTitle) %></a></h4>
+          <div class="offers-package-item-description"><%= t(:offerOnePackageContentsTitleThirdItemOne) %></div>
+        </li>
+        <li class="offers-package-item">
+          <h4 class="expandable-title"><a href="#" slide-toggle=".offers-package-item-description"><%= t(:offerOnePackageContentsTitleFourthTitle) %></a></h4>
+          <div class="offers-package-item-description"><%= t(:offerOnePackageContentsTitleFourthItemOne) %></div>
+        </li>
+        <li class="offers-package-item">
+          <h4 class="expandable-title"><a href="#" slide-toggle=".offers-package-item-description"><%= t(:offerOnePackageContentsTitleFifthTitle) %></a></h4>
+          <div class="offers-package-item-description"><%= t(:offerOnePackageContentsTitleFifthItemOne) %></div>
+        </li>
+        <li class="offers-package-item">
+          <h4 class="expandable-title"><a href="#" slide-toggle=".offers-package-item-description"><%= t(:offerOnePackageContentsTitleSixthTitle) %></a></h4>
+          <div class="offers-package-item-description"><%= t(:offerOnePackageContentsTitleSixthItemOne) %></div>
+        </li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<section id="offers-two-addons" class="offer-addons">
+  <div class="grid-container">
+    <h2 class="offers-addons-title"><%= t(:offerOneAddonsTitle) %></h2>
+    <article class="offers-package last-child">
+      <ul class="offers-package-list cols-5">
+        <li class="offers-package-item offers-addons-package-title"><%= t(:offerOneAddon1Title) %></li>
+        <li class="offers-package-item"><%= t(:offerOneAddon1Description) %></li>
+        <li class="offers-package-item"><%= t(:offerOneAddon1Price) %></li>
+      </ul>
+      <ul class="offers-package-list cols-5">
+        <li class="offers-package-item offers-addons-package-title"><%= t(:offerOneAddon2Title) %></li>
+        <li class="offers-package-item"><%= t(:offerOneAddon2Description) %></li>
+        <li class="offers-package-item"><%= t(:offerOneAddon2Price) %></li>
+      </ul>
+      <ul class="offers-package-list cols-5">
+        <li class="offers-package-item offers-addons-package-title"><%= t(:offerOneAddon3Title) %></li>
+        <li class="offers-package-item"><%= t(:offerOneAddon3Description) %></li>
+        <li class="offers-package-item"><%= t(:offerOneAddon3Price) %></li>
+      </ul>
+    </article>
+    <!-- <article class="offers-package is-banner-before">
+        <p><%= t(:offerTwoStorageDescription) %></p>
+      </article> -->
+  </div>
+</section>
+
+<!--<section class="offer-two-contents">-->
+<!--  <div class="grid-container offer-two-partner">-->
+<!--    <h2><%#= t(:offerOneIaasTitle) %></h2>-->
+    <%#= partial "partials/partners/managedIaas" %>
+<!--  </div>-->
+<!--</section>-->
+
+<!--<section class="offer-two-contents blue-section">-->
+<!--  <div class="grid-container offer-two-partner">-->
+<!--    <h2><%#= t(:offerOneCustomerTitle) %></h2>-->
+    <%#= partial "partials/partners/managedPartner" %>
+<!--  </div>-->
+<!--</section>-->
+
+<!--<section class="offer-two-contents">-->
+<!--  <div class="grid-container">-->
+<!--    <h2 class="offers-package-title"><%#= t(:offerOneFAQTitle) %></h2>-->
+<!--    <article class="offers-package package-contents">-->
+<!--      <ul class="offers-package-list cols-4">-->
+<!--        <li class="offers-package-item">-->
+<!--          <h4 class="expandable-title"><a href="#" slide-toggle=".offers-package-item-description"><%#= t(:offerOneFAQQuestion1) %></a></h4>-->
+<!--          <div class="offers-package-item-description"><%#= t(:offerOneFAQAnswer1) %></div>-->
+<!--        </li>-->
+<!--        <li class="offers-package-item">-->
+<!--          <h4 class="expandable-title"><a href="#" slide-toggle=".offers-package-item-description"><%#= t(:offerOneFAQQuestion2) %></a></h4>-->
+<!--          <div class="offers-package-item-description"><%#= t(:offerOneFAQAnswer2) %></div>-->
+<!--        </li>-->
+<!--        <li class="offers-package-item">-->
+<!--          <h4 class="expandable-title"><a href="#" slide-toggle=".offers-package-item-description"><%#= t(:offerOneFAQQuestion3) %></a></h4>-->
+<!--          <div class="offers-package-item-description"><%#= t(:offerOneFAQAnswer3) %></div>-->
+<!--        </li>-->
+<!--      </ul>-->
+<!--    </article>-->
+<!--  </div>-->
+<!--</section>-->
+
+<a id="offers-one-contact"></a>
   <section class="offer-contact">
     <div class="grid-container">
       <h2 class="offer-contact-title"><%= t(:offerOneContactTitle) %></h2>
@@ -92,7 +170,7 @@
           <textarea title="<%= t(:homeContactYourMessageTitle) %>" id="message" name="message" cols="30" rows="6" class="contact-textarea" placeholder="<%= t(:homeContactYourMessage) %>" required></textarea>
         </div>
         <label class="appuio-contact-button button-progress">
-          <input type="submit" class="button is-round" value="<%= t(:offerOneOrderSend) %>">
+          <input id="submitButton" type="submit" class="button is-round" value="<%= t(:offerOneOrderSend) %>">
         </label>
         <div class="home-feedback-container">
           <p class="home-feedback"></p>

@@ -3,6 +3,10 @@
   @include susy-breakpoint($break-large) {
     display: flex;
   }
+
+  .callout-item-team-member {
+    background: white;
+  }
 }
 .callout-item {
   display: flex;
@@ -14,7 +18,7 @@
   padding: rem-calc(20);
   margin: rem-calc(20) auto 0;
   max-width: rem-calc(320);
-  min-height: rem-calc(320);
+  min-height: rem-calc(340);
   overflow: hidden;
   text-align: center;
 
@@ -25,15 +29,15 @@
     margin-top: 0;
   }
   &.offer1-image {
-    background: $color-blue url('/images/offer1.svg') no-repeat;
+    background: $color-blue url('/images/cards/card_managed_white_noText.svg') no-repeat;
     background-size: 100%;
   }
   &.offer2-image {
-    background: $color-blue url('/images/offer2.svg') no-repeat;
+    background: $color-blue url('/images/cards/card_public_white_noText.svg') no-repeat;
     background-size: 100%;
   }
   &.offer3-image {
-    background: $color-blue url('/images/offer3.svg') no-repeat;
+    background: $color-blue url('/images/cards/card_unmanaged_white_noText.svg') no-repeat;
     background-size: 100%;
   }
   @include susy-breakpoint($break-large) {
@@ -74,7 +78,7 @@
   font-size: rem-calc(24);
   line-height: rem-calc(28);
   color: #FFFFFF;
-  min-height: rem-calc(160);
+  margin-bottom: 0;
 }
 .callout-desc {
   min-height: rem-calc(192);
@@ -82,6 +86,7 @@
 }
 .callout-button {
   flex: none;
+  margin-top: rem-calc(140);
 }
 .callout-title,
 .callout-desc {

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1 {
+            fill: none;
+            stroke: #fff;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            }
+        </style>
+    </defs>
+    <title>Automatisierung</title>
+    <g id="Automatisierung_1" stroke-width="0.5">
+        <polygon class="cls-1" points="16.503 23.5 5.028 23.5 5.028 19.563 10.765 19.563 16.503 19.563 16.503 23.5"/>
+        <polyline class="cls-1" points="14.43 6.403 14.43 4.364 16.658 2 20.598 5"/>
+        <polyline class="cls-1" points="14.43 6.403 14.43 8.442 16.658 10.805 20.598 7.805"/>
+        <circle class="cls-1" cx="5.0277" cy="6.40257" r="2.39745"/>
+        <line class="cls-1" x1="5.0277" y1="8.80002" x2="10.76524" y2="19.56302"/>
+        <rect class="cls-1" x="12" y="4.79476" width="2.10411" height="3.21562"/>
+        <line class="cls-1" x1="11.55206" y1="6.40257" x2="7.42514" y2="6.40257"/>
+    </g>
+</svg>
