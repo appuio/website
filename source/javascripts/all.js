@@ -236,6 +236,29 @@
         });
     };
 
+    /* Expand navigation dropdown */
+    var navOfferingDropdown = $("#navOfferingDropdown");
+    var navCommunityDropdown = $("#navCommunityDropdown");
+
+    navOfferingDropdown.click(function () {
+        document.getElementById("offeringDropdown").classList.toggle("show");
+    });
+
+    navCommunityDropdown.click(function () {
+        document.getElementById("communityDropdown").classList.toggle("show");
+    });
+
+    window.onclick = function(e) {
+        if (!e.target.matches('.dropbtn-offerings')) {
+            var offeringDropdown = document.getElementById("offeringDropdown");
+            offeringDropdown.classList.remove('show');
+        }
+        if (!e.target.matches('.dropbtn-community')) {
+            var communityDropdown = document.getElementById("communityDropdown");
+            communityDropdown.classList.remove('show');
+        }
+    };
+
     // Partner carousels and settings
     $(".platinum-carousel").owlCarousel({
         loop: true,
