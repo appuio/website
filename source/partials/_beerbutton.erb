@@ -8,11 +8,14 @@
       (Wir haben auch andere Getränke)
     </small>
   </p>
-  <div class="beer-form">
-    <form id="beerButtonForm">
-      <input id="beerFormEmail" name="beerMail" class="beer-form-mail" type="email" placeholder="Deine Email">
-<!--      <input id="beerButtonTest" type="submit" value="" class="beer-form-submit">-->
-      <input type="submit" value="Submit" id="someTestyButton">
+  <div class="beer-form-wrapper">
+    <form  method="POST" id="emailForm" class="beer-form">
+      <div class="beer-form-input-wrapper">
+        <input name="emailInput" id="emailInput" class="beer-form-mail" type="email" placeholder="Deine Email" />
+      </div>
+      <div>
+        <input type="submit" id="submitEmail" value="" class="beer-form-submit" />
+      </div>
     </form>
   </div>
 </div>

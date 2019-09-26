@@ -35,40 +35,11 @@
 
 // Enable Submit button when terms and an offer is checked
     var checkboxes = $("input[name='terms']"),
-        submitButton = $("#submitButton"),
-        beerButtonForm = $('#beerButtonForm');
+        submitButton = $("#submitButton");
 
-    // send beer mail
-    beerButtonForm.submit(function (event) {
-        event.preventDefault();
-        var email = $("[name='beerMail']").val();
-
-        var message = messageform + "<br><br>\n\r";
-        // add all fields also to the message
-        $(":input").each(function () {
-            var name = $(this).attr('name');
-            var value = $(this).val();
-
-            message += name + ": " + value + "<br>\n\r";
-        });
-
-        $('[type="submit"]', this).val(
-            $(this).data('loadingMessage')
-        );
-
-        $.post("/beer-button.php", {});
-
-        $('<iframe>', {
-            src: 'https://app.hatchbuck.com/onlineForm/submit.php?formID=63340310467&enableServerValidation=0&enable303Redirect=1&q1_firstName1=' + vorname + '&q3_lastName3=' + nachname + '&q4_email=' + email + '&' + tags + '&q7_nachricht=' + message + '&q8_company8=' + firma + '&q9_telefonnummer9[phone]=' + telefon + '&q10_adresse10[addr_line1]=' + strasse + '&q10_adresse10[city]=' + ort + '&q10_adresse10[postal]=' + plz + '&q10_adresse10[country]=Switzerland',
-            id: 'crmframe',
-            frameborder: 0,
-            height: 0,
-            width: 0,
-            style: 'position: absolute; left: -5000px;',
-            tabindex: -1,
-        }).appendTo('body').load(function () {
-            sendProgressButton('check');
-        });
+    $("#submitEmail").click( function(e) {
+        e.preventDefault();
+        document.getElementById("emailInput").value = "";
     });
 
     checkboxes.click(function () {

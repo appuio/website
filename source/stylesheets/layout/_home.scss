@@ -388,21 +388,32 @@
   height: rem-calc(40);
 }
 
-.beer-form {
+.beer-form-wrapper {
   display: flex;
   input:focus {
     outline: none;
   }
 }
 
+.beer-form {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center
+}
+
+.beer-form-input-wrapper {
+  width: 80%;
+}
+
 .beer-form-submit {
-  background: url(../../images/beermug.png) no-repeat right center;
+  background: url(../../images/beermug.png) no-repeat center;
   background-size: rem-calc(50);
   background-color: #002F47;
   border: 0;
-  border-radius: 5px;
-  width: rem-calc(80);
-  height: rem-calc(50);
+  border-radius: 50px;
+  width: rem-calc(70);
+  height: rem-calc(70);
   color: #002f47;
 }
 
