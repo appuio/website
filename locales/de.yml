@@ -31,9 +31,9 @@ de:
 
   # Beer Button
   beerInvite: Du interessierst dich für Appuio? Komm und trink ein Bier mit uns.
-  beerMail: Sag uns deine Mailadresse und wir melden uns bei dir.
+  beerMail: Teil uns deine Mailadresse mit und wir melden uns bei dir.
   beerAlternatives: (Wir haben auch andere Getränke)
-  beerMailPlaceholders: E-mail
+  beerMailPlaceholders: E-Mail
 
   # Home Seite
   homeNewsTitle: News
@@ -456,7 +456,7 @@ de:
   offerTwoFaqAllFourText: Der gesamte Cluster, die Objekte und die Daten vom Perstistent Storage werden laufend gesichert. Es gibt keine Applikationskonsistente Backups und der Restore durch unseren Support ist kostenpflichtig.
   #Categorie: Add-Ons
   offerTwoFaqAddOneTitle: Was sind die Supportzeiten des SLA?
-  offerTwoFaqAddOneText: Supportfälle können per Telefon oder Email an das Supportteam gemeldet werden. Der Kunde erhält die direkte Telefonnummer des Supportsteams. Das Supportteammitglied, welches den Supportfall entgegen nimmt, bestätigt den Eingang per Mail auf eine durch den Kunden zu definierende Mail-Adresse.
+  offerTwoFaqAddOneText: Supportfälle können per Telefon oder E-Mail an das Supportteam gemeldet werden. Der Kunde erhält die direkte Telefonnummer des Supportsteams. Das Supportteammitglied, welches den Supportfall entgegen nimmt, bestätigt den Eingang per Mail auf eine durch den Kunden zu definierende Mail-Adresse.
   offerTwoFaqAddTwoTitle: SLA, Was ist die Reaktionszeit?
   offerTwoFaqAddTwoText: |-
     Die Reaktionszeit beginnt mit der Meldung des Supportfalls zu laufen und bezieht sich auf den Zeitraum der Supportzeit.
