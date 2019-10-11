@@ -26,7 +26,13 @@ en:
   about: About APPUiO
 
 # Footer
-  footerTel: You can reach us by phone&#58; +41 44 552 22 40 or email hello@appuio.ch
+  footerTel: You can reach us by phone&#58; +41 44 552 22 40 or e-mail hello@appuio.ch
+
+  # Beer Button
+  beerInvite: Are you interested in APPUiO? Come and have a beer with us!
+  beerMail: Share your e-mail address with us and we will arange a meeting.
+  beerAlternatives: (We also offer other beverages)
+  beerMailPlaceholders: E-mail
 
 # Homepage
   homeNewsTitle: News
@@ -46,7 +52,7 @@ en:
   homeAdvantagesTitle: Why APPUiO?
   homeAdvantagesOneTitle: Fast time-to-market
   homeAdvantagesOneDesc: With APPUiO, you can automate the building, testing and deployment of your applications. Additionally, you save time in relation to monitoring and updates. Releases become easy.
-  homeAdvantagesTwoTitle: Foster Collaboration
+  homeAdvantagesTwoTitle: Foster collaboration
   homeAdvantagesTwoDesc: APPUiO facilitates cooperation between Developers and Operations with Continous Delivery and it’s Selfservice-Infrastructure. Applications can be deployed and operated by yourself.
   homeAdvantagesThreeTitle: Consistent and open
   homeAdvantagesThreeDesc: The development environment on your laptop is looking different from the production environment? With APPUiO all environments are standardised. OpenSource software and open standards are the foundation of our platform.
@@ -108,7 +114,7 @@ en:
   homeOfferDesc: All APPUiO Public Platform offerings are held and operated in ISO27001-certified and FINMA-audited data centres within Switzerland and are subject to Swiss law.
 
   # Home: Offer Table
-  homeTableHeaderText: Which Model do i need?
+  homeTableHeaderText: Which Model do I need?
   homeTableHeaderServiceDescription: Description
   homeTableServiceDescription1: Shared or Dedicated
   homeTableServiceDescription2: Setup & operation Managed Private Cluster
@@ -172,7 +178,7 @@ en:
   homeContactYourFirmTitle: Firm
   homeContactYourFirm: Firm
   homeContactYourPhone: phone
-  homeContactYourEmail: email
+  homeContactYourEmail: E-mail
   homeContactYourStreet: street address
   homeContactYourStreetTitle: street address
   homeContactYourORT: City
@@ -191,7 +197,7 @@ en:
   offerOneIntro: Your own APPUiO Managed Private Cluster in your CC On-Premises or in the cloud of your choice. APPUiO takes care of the setup, operation of the container platform and lets you concentrate on your core business.
 
   offerOneList1: Basis for DevOps
-  offerOneList2: 09.00 - 18.00 Phone + Email support
+  offerOneList2: 09.00 - 18.00 Phone + e-mail support
   offerOneList3: Proactive alarming Monitoring
   offerOneList4: Update und server management
   offerOneList5: Data location according to customer requirements
@@ -221,7 +227,7 @@ en:
   offerOnePackageContentsTitleFirstItemOne: OpenShift as a Service with many additonal Managed Services.
   offerOnePackageContentsTitleSecondTitle: Basis for DevOps
   offerOnePackageContentsTitleSecondItemOne: Connect Development and Operations and together satisfy client needs.
-  offerOnePackageContentsTitleThirdTitle: Phone and E-Mail support
+  offerOnePackageContentsTitleThirdTitle: Phone and e-mail support
   offerOnePackageContentsTitleThirdItemOne: APPUiO  supports you gladly and on status.appuio.ch you can check the Public platform's status anytime.
   offerOnePackageContentsTitleFourthTitle: Proactive Management
   offerOnePackageContentsTitleFourthItemOne: Our professionals detect problems immediately and take care of updates and server management.

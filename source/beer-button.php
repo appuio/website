@@ -1,15 +1,4 @@
 <?php
-function clean_string($string){
-    $bad = array("content-type", "bcc:", "to:", "cc:", "href");
-    return str_replace($bad, "", $string);
-}
-
-function addToMessage($key, $lable){
-    if(array_key_exists($key, $_POST)){
-        return $lable. ": " .clean_string($_POST[$key]) . "\r\n";
-    }
-}
-
 // function createLogMessage($subject, $from_email, $message, $message_back){
 //     $log = "*********************************\n";
 //     $log .= "Date: " . date("Y-m-d H:i:s") . "\n";
@@ -21,26 +10,18 @@ function addToMessage($key, $lable){
 //     return $log;
 // }
 
-// From which form
-$form = clean_string("beerFormPlaceholder");
+$message = isset($_POST['emailInput']) ? $_POST['emailInput'] : false;
 
-// To which email
-$email_to = clean_string("mailPlaceholder");
+if($message != false) {
+    $to = "hello@appuio.ch";.
+    $subject = "Someone wants to drink a beer!";
+    $message = $message;
+    $success = sendMail($to, $subject, $message);
+}
 
-$email_subject = "Someone wants to drink a beer!";
-$email_from = $_POST["beerMail"];
-
-// Add content to mail
-$email_message .= addToMessage("email", "beerMail");
-
-if (isset($_POST['beerMail'])) {
-
-    // create email headers
-    $headers = 'From: ' . $email_to . "\r\n" .
-        'Reply-To: ' . $email_from . "\r\n" .
-        'Content-type: text/plain; charset=UTF-8' . "\r\n" .
-        'X-Mailer: PHP/' . phpversion();
-    mail($email_to, $email_subject, $email_message, $headers);
-} else {
-    echo "email not set";
+function sendMail($toEmail, $subject, $message) {
+    $validFromEmail = spamcheck($fromEmail);
+    if($validFromEmail) {
+        mail($toEmail, $subject, $message, "From: $message");
+    }
 }
