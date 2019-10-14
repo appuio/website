@@ -228,6 +228,14 @@
             const communityDropdown = document.getElementById("communityDropdown");
             communityDropdown.classList.remove('show');
         }
+        if (!e.target.matches('.sidenav-button-offers')) {
+            var sidenavOffersDropdown = document.getElementById("sidenavOffersDropdown");
+            sidenavOffersDropdown.classList.remove('show');
+        }
+        if (!e.target.matches('.sidenav-button-community')) {
+            var sidenavCommunityDropdown = document.getElementById("sidenavCommunityDropdown");
+            sidenavCommunityDropdown.classList.remove('show');
+        }
     };
 
     // Mobile view: Side navigation
@@ -249,19 +257,6 @@
     sidenavCommunityButton.click(function () {
         document.getElementById("sidenavCommunityDropdown").classList.toggle("show");
     });
-
-
-    // Sidenav close list for offers and community when no dropdown element is clicked
-    window.onclick = function(e) {
-        if (!e.target.matches('.sidenav-button-offers')) {
-            var sidenavOffersDropdown = document.getElementById("sidenavOffersDropdown");
-            sidenavOffersDropdown.classList.remove('show');
-        }
-        if (!e.target.matches('.sidenav-button-community')) {
-            var sidenavCommunityDropdown = document.getElementById("sidenavCommunityDropdown");
-            sidenavCommunityDropdown.classList.remove('show');
-        }
-    };
 
     // Partner carousels and settings
     $(".platinum-carousel").owlCarousel({

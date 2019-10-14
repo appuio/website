@@ -52,11 +52,11 @@
 
   <div class="sidenav-style">
     <div class="dropdown-content sidenav-color-setting" id="sidenavId">
-      <div class="dropdown nav-element">
-        <button class="dropbtn nav-button <%= nav_active('index.html') %>" onclick="window.location.href = 'index.html';">Home</button>
+      <div class="dropdown nav-element sidenav-element <%= nav_active('index.html') %>">
+        <button class="dropbtn nav-button" onclick="window.location.href = 'index.html';">Home</button>
       </div>
       <!-- offers dropdown -->
-      <div class="dropdown nav-element <%= parent_active('managed-private.html', 'public.html', 'unmanaged.html') %>">
+      <div class="dropdown nav-element sidenav-element <%= parent_active('managed-private.html', 'public.html', 'unmanaged.html') %>">
         <button class="dropbtn sidenav-button-offers nav-button" id="sidenavOffersButton">
           <%= t(:navOffers) %>
           <i class="material-icons">arrow_drop_down</i>
@@ -70,7 +70,7 @@
       </div>
 
 <!--      community-->
-      <div class="dropdown nav-element <%= nav_active('blog.html') %>">
+      <div class="dropdown nav-element sidenav-element <%= nav_active('blog.html') %>">
         <button class="dropbtn sidenav-button-community nav-button" id="sidenavCommunityButton">
           Community
           <i class="material-icons">arrow_drop_down</i>
@@ -82,17 +82,17 @@
         </div>
       </div>
 
-      <div class="dropdown nav-element <%= nav_active('techlabs.html') %>">
+      <div class="dropdown nav-element sidenav-element <%= nav_active('techlabs.html') %>">
         <button class="dropbtn nav-button" onclick="window.location.href = 'techlabs.html';">
           <%= t(:navTechlabs) %>
         </button>
       </div>
 
-      <div class="dropdown nav-element <%= nav_active('team.html') %>">
+      <div class="dropdown nav-element  sidenav-element<%= nav_active('team.html') %>">
         <button class="dropbtn nav-button" onclick="window.location.href = 'team.html';"><%= t(:team) %></button>
       </div>
 
-      <div class="dropdown nav-element">
+      <div class="dropdown nav-element sidenav-element">
         <button class="dropbtn nav-button <%= nav_active('index.html') %>" onclick="window.location.href = './#contact';"><%= t(:navContact) %></button>
       </div>
 
