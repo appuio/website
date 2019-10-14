@@ -50,6 +50,34 @@
     </div>
   </div>
 
+  <ul class="nav-lang">
+    <% if (I18n.locale == :de) %>
+      <li class="is-current"><a href="#">DE</a>
+        <ul>
+          <li><a href="<%= change_language('en') %>">EN</a></li>
+        </ul>
+      </li>
+      <li class="for-mobile"><a href="<%= change_language('en') %>">EN</a></li>
+      <!--<li><a href="<%= change_language('fr') %>">FR</a></li> -->
+    <% end %>
+    <% if (I18n.locale == :en) %>
+      <li class="is-current"><a href="#">EN</a>
+        <ul>
+          <li><a href="<%= change_language('de') %>">DE</a></li>
+        </ul>
+      </li>
+      <li class="for-mobile"><a href="<%= change_language('de') %>">DE</a></li>
+      <!--<li><a href="<%= change_language('fr') %>">FR</a></li> -->
+    <% end %>
+    <li><a target="_blank" href="https://console.appuio.ch"><%= t(:navGlobalLogin) %></a></li>
+    <!-- <% if (I18n.locale == :fr) %>
+    <li><a href="<%= change_language('de') %>">DE</a></li>
+    <li><a href="<%= change_language('en') %>">EN</a></li>
+    <li class="is-current"><a href="#">FR</a></li>
+    <% end %>
+    -->
+  </ul>
+
   <div class="sidenav-style">
     <div class="dropdown-content sidenav-color-setting" id="sidenavId">
       <div class="dropdown nav-element sidenav-element <%= nav_active('index.html') %>">
