@@ -350,8 +350,12 @@
     flex: 1 auto;
     justify-content: space-around;
   }
+}
 
-
+.index-table-hidden {
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
 }
 
 // Beer Button
