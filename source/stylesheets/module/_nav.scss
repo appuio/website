@@ -45,7 +45,7 @@ Responsive hotizontal menu.
     display: none;
   }
 
-  @include susy-breakpoint($break-medium) {
+  @include susy-breakpoint($nav-break-collapse) {
     overflow: visible;
   }
 
@@ -64,7 +64,7 @@ Responsive hotizontal menu.
 }
 .nav-header,
 .nav-header.is-expanded {
-  @include susy-breakpoint($break-medium) {
+  @include susy-breakpoint($nav-break-collapse) {
     position: relative;
     display: flex;
     flex-flow: row wrap;
@@ -83,7 +83,7 @@ Responsive hotizontal menu.
   display: flex;
   flex-flow: column wrap;
   align-items: flex-start;
-  @include susy-breakpoint($break-medium) {
+  @include susy-breakpoint($nav-break-collapse) {
     flex-flow: row wrap;
     padding: 0;
     align-items: flex-end;
@@ -92,7 +92,7 @@ Responsive hotizontal menu.
 .nav-main {
   position:relative;
   order: 1;
-  @include susy-breakpoint($break-medium) {
+  @include susy-breakpoint($nav-break-collapse) {
     width: 61%;
     order: 2;
   }
@@ -105,7 +105,7 @@ Responsive hotizontal menu.
   position:relative;
   width: 100%;
   order: 1;
-  @include susy-breakpoint($break-medium) {
+  @include susy-breakpoint($nav-break-collapse) {
     //width:40%;
     order: 1;
   }
@@ -118,7 +118,7 @@ Responsive hotizontal menu.
   position:relative;
   width: 40%;
   order: 3;
-  @include susy-breakpoint($break-medium) {
+  @include susy-breakpoint($nav-break-collapse) {
     width:30%;
     order: 3;
     right: 3em;
@@ -137,14 +137,14 @@ Responsive hotizontal menu.
   .nav-main,
   .nav-lang > li,
   .nav-main > li {
-    @include susy-breakpoint($break-medium) {
+    @include susy-breakpoint($nav-break-collapse) {
       display: inline-block;
     }
   }
   .nav-main,
   .nav-global {
     position:relative;
-    @include susy-breakpoint($break-medium) {
+    @include susy-breakpoint($nav-break-collapse) {
       float: left;
     }
   }
@@ -177,7 +177,7 @@ Responsive hotizontal menu.
   width: 100%;
   text-align: center;
   margin-bottom: 0;
-  @include susy-breakpoint($break-medium) {
+  @include susy-breakpoint($nav-break-collapse) {
     width: auto;
     text-align: left;
   }
@@ -220,7 +220,7 @@ Responsive hotizontal menu.
   &:hover > ul {
     display: none;
 
-    @include susy-breakpoint($break-medium) {
+    @include susy-breakpoint($nav-break-collapse) {
       display: block !important;
     }
   }
@@ -233,7 +233,7 @@ Responsive hotizontal menu.
     text-decoration: none;
     transition: background-color 200ms ease, color 200ms ease;
 
-    @include susy-breakpoint($break-medium) {
+    @include susy-breakpoint($nav-break-collapse) {
       margin-top: 0;
       padding: rem-calc(10 20);
     }
@@ -247,7 +247,7 @@ Responsive hotizontal menu.
     display: inline-flex;
     align-items: center;
 
-      @include susy-breakpoint($break-medium) {
+      @include susy-breakpoint($nav-break-collapse) {
       &::after {
         content: " ";
         width: 0;
@@ -266,7 +266,7 @@ Responsive hotizontal menu.
   display: flex;
   flex-flow: row wrap;
   padding: 0;
-  @include susy-breakpoint($break-medium) {
+  @include susy-breakpoint($nav-break-collapse) {
     .for-mobile {
       display: none;
     }
@@ -284,17 +284,18 @@ div.active {
   }
 }
 
-@media only screen and (max-width: 639px) {
+@media only screen and (max-width: 60em) {
   .nav {
-    align-items: center;
+    align-items: start;
   }
   .nav-element {
-    width: 100%;
+    width: 150px;
     display: flex;
-    justify-content: center;
+    justify-content: start;
   }
   .dropdown .dropbtn {
-    width: 100%
+    width: 100%;
+    text-align: start;
   }
 }
 
@@ -350,7 +351,9 @@ a.nav-element-route.active {
 
 @media only screen and (max-width: 639px) {
   .dropdown-content-offerings {
+    position: absolute;
     top: 55px;
+    left: 160px;
   }
   .dropdown-content-community {
     top: 110px;
@@ -390,7 +393,24 @@ a.nav-element-route.active {
     background-color: #FFD301;
     color: #002F47;
   }
-  @include susy-breakpoint($break-medium) {
+  @include susy-breakpoint($nav-break-collapse) {
     display: none !important;
   }
+}
+
+.sidenav-style {
+  position: absolute;
+  top: 50px;
+  @include susy-breakpoint($nav-break-collapse) {
+    display: none;
+  }
+}
+
+.sidenav-color-setting {
+  background: #98e2ea;
+}
+
+.sidenav-sub-nav-dropdown {
+  position: absolute;
+  left: 160px;
 }

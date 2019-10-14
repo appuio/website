@@ -3,14 +3,14 @@
     'use strict';
 
     // Collapse
-    $("[data-collapse]").click(function (event) {
-        event.preventDefault();
-        var target = $(event.currentTarget).attr('data-collapse');
-        target = $(target);
-        if (target.length) {
-            target.toggleClass('is-expanded');
-        }
-    });
+    // $("[data-collapse]").click(function (event) {
+    //     event.preventDefault();
+    //     var target = $(event.currentTarget).attr('data-collapse');
+    //     target = $(target);
+    //     if (target.length) {
+    //         target.toggleClass('is-expanded');
+    //     }
+    // });
 
     // Expand blogpost if ancor is in url
     if (window.location.href.indexOf("blog") > -1 && window.location.hash) {
@@ -207,7 +207,7 @@
         });
     };
 
-    /* Expand navigation dropdown */
+    // Desktip view: Navigation
     var navOfferingDropdown = $("#navOfferingDropdown");
     var navCommunityDropdown = $("#navCommunityDropdown");
 
@@ -221,12 +221,45 @@
 
     window.onclick = function(e) {
         if (!e.target.matches('.dropbtn-offerings')) {
-            var offeringDropdown = document.getElementById("offeringDropdown");
+            const offeringDropdown = document.getElementById("offeringDropdown");
             offeringDropdown.classList.remove('show');
         }
         if (!e.target.matches('.dropbtn-community')) {
-            var communityDropdown = document.getElementById("communityDropdown");
+            const communityDropdown = document.getElementById("communityDropdown");
             communityDropdown.classList.remove('show');
+        }
+    };
+
+    // Mobile view: Side navigation
+    // open sidenav
+    const expandSidenav = $("#expandSidenav");
+    expandSidenav.click(function () {
+        document.getElementById("sidenavId").classList.toggle("show");
+    });
+
+    const sidenavOffersButton = $("#sidenavOffersButton");
+    const sidenavCommunityButton = $("#sidenavCommunityButton");
+
+    // Open Offers dropdown list in sidenav
+    sidenavOffersButton.click(function () {
+        document.getElementById("sidenavOffersDropdown").classList.toggle("show");
+    });
+
+    // Open Community dropdown list in sidenav
+    sidenavCommunityButton.click(function () {
+        document.getElementById("sidenavCommunityDropdown").classList.toggle("show");
+    });
+
+
+    // Sidenav close list for offers and community when no dropdown element is clicked
+    window.onclick = function(e) {
+        if (!e.target.matches('.sidenav-button-offers')) {
+            var sidenavOffersDropdown = document.getElementById("sidenavOffersDropdown");
+            sidenavOffersDropdown.classList.remove('show');
+        }
+        if (!e.target.matches('.sidenav-button-community')) {
+            var sidenavCommunityDropdown = document.getElementById("sidenavCommunityDropdown");
+            sidenavCommunityDropdown.classList.remove('show');
         }
     };
 

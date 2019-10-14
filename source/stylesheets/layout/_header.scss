@@ -23,7 +23,7 @@ category: Layout
 
   & + * {
     margin-top: rem-calc(50);
-    @include susy-breakpoint($break-medium) {
+    @include susy-breakpoint($nav-break-collapse) {
       margin-top: rem-calc(72);
     }
   }
