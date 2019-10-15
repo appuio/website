@@ -150,7 +150,6 @@
   }
 
   .offers-faq-container {
-    display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
 
@@ -166,15 +165,13 @@
         font-size: 1.125rem;
         font-weight: bold;
         margin-bottom: 0;
-
-      }
-
-      &:not(:last-child) {
         padding-right: 2rem;
+        padding-left: 2rem;
       }
-
       .offers-faq-list-answer {
         display: none;
+        padding-right: 2rem;
+        padding-left: 2rem;
       }
     }
 
