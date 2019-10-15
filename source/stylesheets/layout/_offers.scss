@@ -271,8 +271,12 @@
     margin-top: 5%;
     text-align: right;
     p {
-      margin-top: 30%;
       text-align: right;
+    }
+  }
+  @include susy-breakpoint($break-offer-intro) {
+    p {
+      margin-top: 25%;
     }
   }
 }
@@ -284,12 +288,13 @@
   margin-left: 0 !important;
   width: 100% !important;
   @include susy-breakpoint($break-medium) {
-    font-size: rem-calc(36);
-    line-height: rem-calc(44);
+    padding-top: 8%;
   }
-  @include susy-breakpoint($break-medium) {
+  @include susy-breakpoint($break-large) {
     @include span(10 of 12);
     @include squish(1, 1);
+    font-size: rem-calc(36);
+    line-height: rem-calc(44);
   }
 }
 

@@ -72,11 +72,9 @@
   text-align: center;
   font-size: rem-calc(26);
   line-height: rem-calc(34);
-  @include susy-breakpoint($break-medium) {
+  @include susy-breakpoint($break-large) {
     font-size: rem-calc(36);
     line-height: rem-calc(44);
-  }
-  @include susy-breakpoint($break-medium) {
     max-width: 940px;
     padding: 0;
   }
