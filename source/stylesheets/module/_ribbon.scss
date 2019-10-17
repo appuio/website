@@ -1,7 +1,7 @@
 .ribbon-fixed {
   display: block;
   visibility: visible;
-  @include susy-breakpoint($break-medium) {
+  @include susy-breakpoint($break-large) {
     display: none;
     visibility: hidden;
   }
@@ -18,7 +18,7 @@
     pointer-events: none;
     display: none;
     visibility: hidden;
-    @include susy-breakpoint($break-medium) {
+    @include susy-breakpoint($break-large) {
       display: block;
       visibility: visible;
     }
