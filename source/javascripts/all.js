@@ -2,21 +2,10 @@
 
     'use strict';
 
-    // Collapse
-    // $("[data-collapse]").click(function (event) {
-    //     event.preventDefault();
-    //     var target = $(event.currentTarget).attr('data-collapse');
-    //     target = $(target);
-    //     if (target.length) {
-    //         target.toggleClass('is-expanded');
-    //     }
-    // });
-
     // Expand blogpost if ancor is in url
     if (window.location.href.indexOf("blog") > -1 && window.location.hash) {
         var hash = window.location.hash.substring(1);
         var target = 'a[name="' + hash + '"]';
-        console.log(target);
         $(target).parent().addClass('is-expanded');
         var nextTarget = $(target).parent().find('.news-details');
         nextTarget.show();
@@ -32,6 +21,23 @@
             $(this).parent().parent().toggleClass('is-expanded');
         }
     });
+
+    // Info slide toggle
+    $("[info-slide-toggle]").click(function (event) {
+       event.preventDefault();
+       let target = $(event.currentTarget).attr('info-slide-toggle');
+        target = $(this).parent().find(target);
+
+        let test = $(event.currentTarget);
+        test = $(this).parent().find(test);
+
+       if (target.length) {
+           target.slideToggle('fast');
+           test.toggleClass('is-expanded');
+           target.toggleClass('is-expanded')
+       }
+    });
+
 
 // Enable Submit button when terms and an offer is checked
     var checkboxes = $("input[name='terms']"),
@@ -71,7 +77,6 @@
             var target = $(this.hash);
             var headerHeight = $('.header-container').outerHeight();
             target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-            console.log(headerHeight);
             if (target.length) {
                 $('html, body').animate({
                     scrollTop: target.offset().top - headerHeight
@@ -241,7 +246,8 @@
     // Mobile view: Side navigation
     // open sidenav
     const expandSidenav = $("#expandSidenav");
-    expandSidenav.click(function () {
+    expandSidenav.click(function (e) {
+        e.preventDefault();
         document.getElementById("sidenavId").classList.toggle("show");
     });
 
@@ -514,7 +520,6 @@
 
     var triggerOffset = 0;
     var duration = 10;
-    console.log("Duration: " + duration);
 
     var requestId = null;
 

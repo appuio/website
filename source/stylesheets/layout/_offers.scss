@@ -178,6 +178,33 @@
   }
 }
 
+.expandable-info-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.expandable-info-title {
+  width: 80%;
+}
+
+.expandable-info-list {
+  justify-content: space-around !important;
+}
+
+.offers-package-item {
+  .is-expanded {
+    .is-caret  {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.is-caret {
+  transition: transform 250ms;
+  width: 24px;
+  display: flex;
+  justify-self: end;
+}
 
 .expandable-title a {
   text-decoration: none;
