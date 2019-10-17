@@ -231,6 +231,10 @@
   @include susy-breakpoint($break-medium) {
     text-align: right;
     color: #002337;
+    font-size: 3rem;
+  }
+  @include susy-breakpoint($break-large) {
+    font-size: 4rem;
   }
 }
 
