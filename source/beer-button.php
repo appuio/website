@@ -13,7 +13,7 @@
 $message = isset($_POST['emailInput']) ? $_POST['emailInput'] : false;
 
 if($message != false) {
-    $to = "hello@appuio.ch";.
+    $to = "hello@appuio.ch";
     $subject = "Someone wants to drink a beer!";
     $message = $message;
     $success = sendMail($to, $subject, $message);

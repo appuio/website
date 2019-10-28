@@ -5,13 +5,13 @@
   <p>
     <%= t(:beerInvite) %>
     <br>
-    <%= t(:beerMail) %>
+    <%= t(:beerMail) %><br>
     <small>
       <%= t(:beerAlternatives) %>
     </small>
   </p>
   <div class="beer-form-wrapper">
-    <form id="emailForm" class="beer-form" action="/source/beer-button.php">
+    <form id="emailForm" class="beer-form" action="/beer-button.php">
       <div class="beer-form-input-wrapper">
         <input name="emailInput" id="emailInput" class="beer-form-mail" type="email" placeholder="<%= t(:beerMailPlaceholders) %>"/>
       </div>
