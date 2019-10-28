@@ -753,23 +753,14 @@
     }
 
 
-    // Beer Button
-    $('div#beer-dialog').dialog({
-        autoOpen: false,
-        closeOnEscape: true,
-        open: function (event, ui) {
-            $(".ui-dialog-titlebar-close", ui.dialog).hide();
-        }
-    });
-
     // Validating Form Fields.....
-    $("#beer-dialog #submitEmail").click(function(e) {
-      var email = $("#emailInput").val();
-      if (email != '') {
+    $("#beerSubmit").click(function(e) {
+      e.preventDefault();
+      var email = $('#emailForm').serialize();
+      if (email === '') {
         alert("Invalid Email");
-        e.preventDefault();
       } else {
-        $.post( '/beer-button.php', $('#beer-dialog #submitEmail').serialize(), function(data) {
+        $.post( '/beer-button.php', email, function(data) {
           if (data == 1) {
             $("#beer-dialog").html("<p>Thank you! We will get back to you soon.</p>");
             alert("Form Submitted Successfully......");
@@ -785,21 +776,21 @@
           var container = $("#beer-dialog");
 
           // if the target of the click isn't the container nor a descendant of the container
-          if (!container.is(e.target) && container.has(e.target).length === 0 && container.dialog('isOpen'))
+          if (!container.is(e.target) && container.has(e.target).length === 0 && container.is(':visible'))
           {
-              container.dialog('close');
+              container.hide();
           }
           });
 
 
-    $('#beer-button').click((function () {
-        if (!$('#beer-dialog').dialog('isOpen')) {
-            $('#beer-dialog').dialog('open');
+    $('#beer-button').click(function () {
+        if ($('#beer-dialog').is(':hidden')) {
+            $('#beer-dialog').show();
             return false;
         } else {
-            $('#beer-dialog').dialog('close');
+            $('#beer-dialog').hide();
             return false;
         }
-    }))
+    });
 })
 (window);

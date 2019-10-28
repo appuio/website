@@ -10,10 +10,10 @@
 //     return $log;
 // }
 
-$message = isset($_POST['emailInput']) ? $_POST['emailInput'] : false;
+$message = isset($_POST['beerEmail']) ? $_POST['beerEmail'] : false;
 
 if($message != false) {
-    $to = "hello@appuio.ch";
+    $to = "hertig@puzzle.ch";
     $subject = "Someone wants to drink a beer!";
     $message = $message;
     $success = sendMail($to, $subject, $message);

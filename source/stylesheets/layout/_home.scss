@@ -375,15 +375,18 @@
 }
 
 .beer-dialog {
+  display: none;
   position: fixed;
   bottom: 1em;
   right: 1em;
+  width: auto;
+  min-height: 127px;
+  height: auto;
+
   @include susy-breakpoint($break-medium) {
     bottom: 3em;
     right: 3em;
   }
-  width: rem-calc(300);
-  height: rem-calc(200);
   background: #FFD301;
   border-radius: 25px;
   padding: rem-calc(10 30);
