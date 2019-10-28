@@ -763,7 +763,6 @@
         $.post( '/beer-button.php', email, function(data) {
           if (data == 1) {
             $("#beer-dialog").html("<p>Thank you! We will get back to you soon.</p>");
-            alert("Form Submitted Successfully......");
           } else {
               $("#beer-dialog").html("<p>Oops something went wrong, please try again.</p>");
           }
