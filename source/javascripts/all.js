@@ -752,6 +752,7 @@
 
     }
 
+
     // Beer Button
     $('div#beer-dialog').dialog({
         autoOpen: false,
@@ -759,6 +760,24 @@
         open: function (event, ui) {
             $(".ui-dialog-titlebar-close", ui.dialog).hide();
         }
+    });
+
+    // Validating Form Fields.....
+    $("#beer-dialog #submitEmail").click(function(e) {
+      var email = $("#emailInput").val();
+      if (email != '') {
+        alert("Invalid Email");
+        e.preventDefault();
+      } else {
+        $.post( '/beer-button.php', $('#beer-dialog #submitEmail').serialize(), function(data) {
+          if (data == 1) {
+            $("#beer-dialog").html("<p>Thank you! We will get back to you soon.</p>");
+            alert("Form Submitted Successfully......");
+          } else {
+              $("#beer-dialog").html("<p>Oops something went wrong, please try again.</p>");
+          }
+        });
+      }
     });
 
     $(document).mouseup(function(e)

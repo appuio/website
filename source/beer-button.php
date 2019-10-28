@@ -17,6 +17,7 @@ if($message != false) {
     $subject = "Someone wants to drink a beer!";
     $message = $message;
     $success = sendMail($to, $subject, $message);
+    return $success;
 }
 
 function sendMail($toEmail, $subject, $message) {
@@ -24,4 +25,5 @@ function sendMail($toEmail, $subject, $message) {
     if($validFromEmail) {
         mail($toEmail, $subject, $message, "From: $message");
     }
+    return 1;
 }
