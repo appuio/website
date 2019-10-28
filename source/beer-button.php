@@ -1,6 +1,6 @@
 <?php
 
-$message = isset($_GET['beerEmail']) ? $_GET['beerEmail'] : false;
+$message = isset($_POST['beerEmail']) ? $_POST['beerEmail'] : false;
 
 
 if($message != false) {
