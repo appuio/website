@@ -361,23 +361,36 @@
 
 .beer-button {
   position: fixed;
-  bottom: rem-calc(10);
-  right: rem-calc(10);
+  bottom: 1em;
+  right: 1em;
+  @include susy-breakpoint($break-medium) {
+    bottom: 3em;
+    right: 3em;
+  }
   border-radius: 100%;
   background: #FFD301;
-  width: rem-calc(100);
-  padding: rem-calc(10);
+  width: 6rem;
+  padding: 1.2em;
+  z-index: 998;
 }
 
 .beer-dialog {
+  display: none;
   position: fixed;
-  bottom: rem-calc(10);
-  right: rem-calc(120);
-  width: rem-calc(300);
-  height: rem-calc(200);
+  bottom: 1em;
+  right: 1em;
+  width: auto;
+  min-height: 127px;
+  height: auto;
+
+  @include susy-breakpoint($break-medium) {
+    bottom: 3em;
+    right: 3em;
+  }
   background: #FFD301;
   border-radius: 25px;
   padding: rem-calc(10 30);
+  z-index: 999;
 }
 
 .beer-form-mail {
@@ -410,12 +423,11 @@
 
 .beer-form-submit {
   background: url(../../images/beermug.png) no-repeat center;
-  background-size: rem-calc(50);
+  background-size: 3em;
   background-color: #002F47;
   border: 0;
   border-radius: 50px;
-  width: rem-calc(70);
-  height: rem-calc(70);
+  width: 4.25em;
+  height: 4.25em;
   color: #002f47;
 }
-
