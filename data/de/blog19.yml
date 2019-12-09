@@ -13,7 +13,8 @@
             <p>To start Quarkus locally you just need to have Java 8 installed. With the command <b>./mvnw compile quarkus:dev</b> you can start the application in development mode. Changes in the Java code are applied directly in the running application via hot deployment. Thus, a time-consuming application restart is not necessary 😃.</p>
             <h4>Create a REST Web Service</h4>
             <p>As an example application, we develop a REST web service that calculates a specific number in the <a href="https://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci sequence</a>. The sequence is named after <a href="https://en.wikipedia.org/wiki/Fibonacci">Leonardo Fibonacci</a>, who described the growth of a rabbit population in 1202. The Fibonacci sequence can be calculated recursively as well as iteratively. To push the CPU a little bit, I use the recursive variant.</p>
-            <pre><code>package nxt;
+            <pre><code>
+            package nxt;
             
             import javax.ws.rs.GET;
             import javax.ws.rs.Path;
@@ -39,10 +40,10 @@
             }
             </code></pre>
             <p>The application can be tested with curl as follows:</p>
-            <code><pre>curl http://0.0.0.0:8080/fibonacci/10</code></pre>
+            <pre><code>curl http://0.0.0.0:8080/fibonacci/10</code></pre>
             <h4>Test a REST Web Service</h4>
             <p>Quarkus uses the well-known library <a href="http://rest-assured.io/">REST-assured</a> for REST web service tests. The web service created earlier can be tested with the following code:</p>
-            <code><pre>
+            <pre><code>
             package nxt;
             
             import io.quarkus.test.junit.QuarkusTest;
