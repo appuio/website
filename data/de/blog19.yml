@@ -110,7 +110,7 @@
             <p>On OpenShift, you can run multistage docker builds. The first of the following two commands creates the image stream for the new lean docker image and the second one creates the docker build.</p>
             <pre><code>
             oc create is quarkus-fibonacci
-            oc create -f - | <<EOF
+            oc create -f - | << EOF
             {
                 "apiVersion": "build.openshift.io/v1",
                 "kind": "BuildConfig",
