@@ -3,7 +3,7 @@
   title: "Quarkus on APPUiO"
   subtitle: |
             <img src="/images/blogposts/Quarkus_on_APPUiO.png" alt="Quarkus on APPUiO"/>
-            With the release of Quarkus 1.0.0, Java has once again become attractive for microservices. In this blog post I show you how to run native applications on APPUiO using Quarkus. This is a guest article by <a href="https://nxt.engineering/en/team/mig/">Michael Gerber</a>.
+            With the release of Quarkus 1.0.0, Java has once again become attractive for microservices. In this blog post I show you how to run native applications on APPUiO using Quarkus. This is a guest article by <a href="https://nxt.engineering/en/team/mig/">Michael Gerber</a> form <a href="https://nxt.engineering/en/">nxt Engineering GmbH</a>.
   details: |
             <h4>Create a Quarkus Project</h4>
             <p>The easiest starting point to create a <a href="https://quarkus.io/">Quarkus</a> project is the website <a href="https://code.quarkus.io">https://code.quarkus.io</a>. The same concept is already known from Spring Boot <a href="https://start.spring.io/">https://start.spring.io</a>. This makes it easy to create a project with the needed libraries.</p>
