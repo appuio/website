@@ -611,8 +611,8 @@ en:
     </ul>
     <p>Dates:</p>
     <ul>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/92394736708">October 31 2019 in Zurich</a></li>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/92394736713">December 05 2019 in Basel</a></li>
+    # <li><a href="https://app.hatchbuck.com/OnlineForm/92394736708">October 31 2019 in Zurich</a></li>
+    # <li><a href="https://app.hatchbuck.com/OnlineForm/92394736713">December 05 2019 in Basel</a></li>
     <li><a href="https://app.hatchbuck.com/OnlineForm/92394736709">January 16 2020 in Zurich</a></li>
     <li><a href="https://app.hatchbuck.com/OnlineForm/92394736712">February 27 2020 in Bern</a></li>
     <li><a href="https://app.hatchbuck.com/OnlineForm/92394736710">April 16 2020 in Zurich</a></li>
