@@ -12,7 +12,7 @@
              <p><b>2. Networking:</b> Je nach Cloud Plattform gibt es logischerweise Unterschiede (z.B. Load Balancer). Wir haben aber auch Unterschiede zwischen OpenShift 3.11 und 4.2 festgestellt.</p>
              <p><b>3. Storage:</b> Jeder Cloud Provider bietet diverse Typen von Storage zur Integration in OpenShift an. Wir zeigen euch, was es für Möglichkeiten gibt.</p>
              <b><u>1. Installation Pitfalls</u></b>
-             <img src="/images/blogposts/Pitfalls.jpg" alt="Pitfalls"/>
+             <p><img src="/images/blogposts/Pitfalls.jpg" alt="Pitfalls"/></p>
              <p>Wenn du in diesem Blog nach einer Anleitung suchst, wie OpenShift 4.2 installiert wird, bist du leider falsch. Für die Installationen haben auch wir die offiziellen <a href="https://docs.openshift.com/container-platform/4.2/welcome/index.html">Anleitungen von RedHat</a> verwendet.</p>
              <p>Vorneweg: Die Installation wird mit OpenShift Version 4.2 deutlich einfacher und schneller als mit 3.11. Generell - egal für welche Zielplattform - haben wir Folgendes festgestellt:</p>
              <li>Kleinere Umgebungen als 3 Master / 3 Node (Standardvorgabe) sollten nicht gewählt werden. Es wird sehr langsam oder die Installation schlägt teilweise sogar fehl. </li>
@@ -51,7 +51,7 @@
              <p><b>AWS</b></p>
              <p>Die Installation auf AWS war am einfachsten. Das liegt wohl daran, dass bereits Openshift 4.0 darauf ausgelegt war.</p>
              <b><u>2. Networking</u></b>
-             <img src="/images/blogposts/networking.png" alt="networking"/>
+             <p><img src="/images/blogposts/networking.png" alt="networking"/></p>
              <p><b>Load Balancing</b></p>
              <p>Für eine RedHat OpenShift 4.2 Installation werden zwei Load Balancer vor dem Cluster benötigt:</p>
              <li><b>API Load Balancer:</b> Für eine Hochverfügbarkeit der Kubernetes-API (welche auf dem Master läuft), müssen alle API Calls an diese Master Nodes verteilt werden.</li>
@@ -66,7 +66,7 @@
              <li><b>EngressNetworkPolicy</b> wir auf OpenShift 4.2 nicht unterstützt </li>
              <li><b>EgressRouter</b> wird auf OpenShift 4.2 nicht unterstützt </li>
              <b><u>3. Storage</u></b>
-             <img src="/images/blogposts/storage.jpg" alt="storage"/>
+             <p><img src="/images/blogposts/storage.jpg" alt="storage"/></p>
              <p>Abschliessend schauen wir uns noch die diversen Storage Integrationen für OpenShift 4.2 an. Wir teilen Storage in drei Kategorien ein: Block Storage, File Storage und Object Storage.</p>
              <p><b>Black Storage</b></p>
              <p>Erfreulicherweise hatten wir mit keinem Provider (onpremise wie auch Cloud) Probleme. Nach der Installation gemäss Anleitung konnten wir Block Storage von allen Cloud Providern beziehen. Alle Infos dazu sind in der entsprechenden Dokumentation von RedHat zu finden.</p>
