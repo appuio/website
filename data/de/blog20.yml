@@ -1,7 +1,6 @@
 - day: 30
   month: Jan
-  title: "Red Hat OpenShift 4.2 – Installations Pitfalls, 
-  king und Storage"
+  title: "Red Hat OpenShift 4.2 – Installations Pitfalls, Networking und Storage"
   subtitle: |
             <img src="/images/blogposts/OpenShift_4.2.png" alt="OpenShift 4.2"/>
             <br>
