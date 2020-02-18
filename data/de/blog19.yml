@@ -3,7 +3,7 @@
   title: "Quarkus on APPUiO"
   subtitle: |
             <img src="/images/blogposts/Quarkus_on_APPUiO.png" alt="Quarkus on APPUiO"/>
-            With the release of Quarkus 1.0.0, Java has once again become attractive for microservices. In this blog post I show you how to run native applications on APPUiO using Quarkus. This is a guest article by <a href="https://nxt.engineering/en/team/mig/">Michael Gerber</a>.
+            With the release of Quarkus 1.0.0, Java has once again become attractive for microservices. In this blog post I show you how to run native applications on APPUiO using Quarkus. This is a guest article by <a href="https://nxt.engineering/en/team/mig/">Michael Gerber</a> form <a href="https://nxt.engineering/en/">nxt Engineering GmbH</a>.
   details: |
             <h4>Create a Quarkus Project</h4>
             <p>The easiest starting point to create a <a href="https://quarkus.io/">Quarkus</a> project is the website <a href="https://code.quarkus.io">https://code.quarkus.io</a>. The same concept is already known from Spring Boot <a href="https://start.spring.io/">https://start.spring.io</a>. This makes it easy to create a project with the needed libraries.</p>
@@ -13,8 +13,7 @@
             <p>To start Quarkus locally you just need to have Java 8 installed. With the command <em>./mvnw compile quarkus:dev</em> you can start the application in development mode. Changes in the Java code are applied directly in the running application via hot deployment. Thus, a time-consuming application restart is not necessary 😃.</p>
             <h4>Create a REST Web Service</h4>
             <p>As an example application, we develop a REST web service that calculates a specific number in the <a href="https://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci sequence</a>. The sequence is named after <a href="https://en.wikipedia.org/wiki/Fibonacci">Leonardo Fibonacci</a>, who described the growth of a rabbit population in 1202. The Fibonacci sequence can be calculated recursively as well as iteratively. To push the CPU a little bit, I use the recursive variant.</p>
-            <pre><code>
-            package nxt;
+            <pre><code>package nxt;
             
             import javax.ws.rs.GET;
             import javax.ws.rs.Path;
@@ -43,8 +42,7 @@
             <pre><code>curl http://0.0.0.0:8080/fibonacci/10</code></pre>
             <h4>Test a REST Web Service</h4>
             <p>Quarkus uses the well-known library <a href="http://rest-assured.io/">REST-assured</a> for REST web service tests. The web service created earlier can be tested with the following code:</p>
-            <pre><code>
-            package nxt;
+            <pre><code>package nxt;
             
             import io.quarkus.test.junit.QuarkusTest;
             import org.junit.jupiter.api.Test;
@@ -78,14 +76,12 @@
             <h4>Build Application on APPUiO</h4>
             <p>For the application to run on APPUiO, a Swiss OpenShift platform, it must first be built. The Quarkus team provides an OpenShift Source-to-Image (S2I) build.</p>
             <p>With the following command you can create a new build on OpenShift and start it automatically:</p>
-            <pre><code>
-            oc new-build quay.io/quarkus/ubi-quarkus-native-s2i:19.2.1~https://gitlab.com/nxt/public/quarkus-fibonacci.git \
+            <pre><code>oc new-build quay.io/quarkus/ubi-quarkus-native-s2i:19.2.1~https://gitlab.com/nxt/public/quarkus-fibonacci.git \
               --name=quarkus-fibonacci-build
             </code></pre>
             <p>The <a href="https://www.graalvm.org/">GraalVM</a>, which creates a native image from the Java code, needs a lot of computing power. In order for the build on APPUiO to acquire the needed resources, it has to be configured appropriately.</p>
-            <pre><code>
-            oc patch bc/quarkus-fibonacci-build \
-              -p '{"spec":{"resources":{"requests":{"cpu":"0.5", "memory":"2Gi"},"limits":{"cpu":"4", "memory":"4Gi"}}}}'
+            <pre><code>oc patch bc/quarkus-fibonacci-build \
+            -p '{"spec":{"resources":{"requests":{"cpu":"0.5", "memory":"2Gi"},"limits":{"cpu":"4", "memory":"4Gi"}}}}'
             </code></pre>
             <p>The above command sets the build job limit to 4 CPUs and 4 gigabytes of RAM.</p>
             <p>The great thing about APPUiO is that the resources needed for the build are not pulled from the project’s own resources. So you can push your own project to the limit and still run builds on OpenShift 😎.</p>
@@ -225,7 +221,8 @@
             <h4>Operators</h4>
             <p>Dass Operators ein wesentlicher Bestandteil von OpenShift 4 sein werden, ist bereits weitherum bekannt. Was Operators aber genau sind, wohl noch weniger: Ein Operator ist eine Methode für die Paketierung, das Deployment sowie die Verwaltung von Kubernetes-nativen Applikationen. Eine Kubernetes-native Applikation ist eine Applikation, welche sowohl auf Kubernetes deployt wie auch über die Kubernetes API verwaltet werden kann.</p>
             <p>Ein Operator ist grundsätzlich ein Custom Controller, wobei der Controller zu den Kernkonzepten von Kubernetes gehört. Er vergleicht regelmässig den gewünschten mit dem effektiven Zustand einer oder mehrerer Ressourcen auf dem Cluster und korrigiert diesen falls nötig. Ähnlich wie dies auch Puppet tut. Ein Operator selbst läuft als Pod auf dem Cluster.</p>
-            <p>Operators übernehmen in OpenShift 4 eine zentrale Rolle. Sie sind für die Steuerung und Überwachung von so ziemlich jeder einzelnen Komponente verantwortlich, darunter auch kritische Netzwerk- und Credential-Dienste. Wiederum ein Operator übernimmt die Verwaltung aller dieser Operators, der sog. Cluster Version Operator. Nebst diesen vom Cluster Version Operator verwalteten Plattform-Operators können auch Applikationen Gebrauch vom Operator Framework machen. Sie werden allerdings nicht vom Cluster Version Operator, sondern vom Operator Lifecycle Manager (OLM) verwaltet. Eine Übersicht verfügbarer Operators ist auf <a href="https://operatorhub.io/">OperatorHub.io</a> ersichtlich. Analog zu bspw. dem in Rancher integrierten App Catalog für Helm Charts, ist auch der OperatorHub in OpenShift 4 integriert und ermöglicht eine einfache, grafische Installation über die Web Console.</p>
+            <p>Operators übernehmen in OpenShift 4 eine zentrale Rolle. Sie sind für die Steuerung und Überwachung von so ziemlich jeder einzelnen Komponente verantwortlich, darunter auch kritische Netzwerk- und Credential-Dienste. Wiederum ein Operator übernimmt die Verwaltung aller dieser Operators, der sog. Cluster Version Operator. Nebst diesen vom Cluster Version Operator verwalteten Plattform-Operators können auch Applikationen Gebrauch vom Operator Framework machen. Sie werden allerdings nicht vom Cluster Version Operator, sondern vom Operator Lifecycle Manager (OLM) verwaltet. Eine Übersicht verfügbarer Operators ist auf <a href="https://operatorhub.io/">OperatorHub.io</a> ersichtlich. Analog zu bspw. dem in Rancher integrierten App Catalog für 
+            Charts, ist auch der OperatorHub in OpenShift 4 integriert und ermöglicht eine einfache, grafische Installation über die Web Console.</p>
             <h4>Operator Framework</h4>
             <p>Operators können aber auch selbst geschrieben werden, bspw. mithilfe des Operator Frameworks. Das Framework unterstützt Helm, Ansible sowie Go, wobei jede Variante natürlich seine eigenen Vor- und Nachteile hat:</p>
             <li>Helm ist sehr einfach zu schreiben, da kein Code geschrieben werden muss. Zudem wird auch kein Tiller mehr benötigt.</li>
