@@ -81,7 +81,7 @@
             </code></pre>
             <p>The <a href="https://www.graalvm.org/">GraalVM</a>, which creates a native image from the Java code, needs a lot of computing power. In order for the build on APPUiO to acquire the needed resources, it has to be configured appropriately.</p>
             <pre><code>oc patch bc/quarkus-fibonacci-build \
-              -p '{"spec":{"resources":{"requests":{"cpu":"0.5", "memory":"2Gi"},"limits":{"cpu":"4", "memory":"4Gi"}}}}'
+            -p '{"spec":{"resources":{"requests":{"cpu":"0.5", "memory":"2Gi"},"limits":{"cpu":"4", "memory":"4Gi"}}}}'
             </code></pre>
             <p>The above command sets the build job limit to 4 CPUs and 4 gigabytes of RAM.</p>
             <p>The great thing about APPUiO is that the resources needed for the build are not pulled from the project’s own resources. So you can push your own project to the limit and still run builds on OpenShift 😎.</p>
@@ -104,8 +104,9 @@
             EXPOSE 8080
             CMD ["./application", "-Dquarkus.http.host=0.0.0.0"]</code></pre>
             <p>On OpenShift, you can run multistage docker builds. The first of the following two commands creates the image stream for the new lean docker image and the second one creates the docker build.</p>
-            <pre><code>oc create is quarkus-fibonacci
-            oc create -f - | << EOF
+            <pre><code>
+            oc create is quarkus-fibonacci
+            oc create -f - | <<EOF
             {
                 "apiVersion": "build.openshift.io/v1",
                 "kind": "BuildConfig",
@@ -147,14 +148,15 @@
             </code></pre>
             <h4>Publish Application to APPUiO</h4>
             <p>The previously built application can be published on APPUiO with the following two commands:</p>
-            <pre><code>oc new-app --image-stream=quarkus-fibonacci:latest
+            <pre>code>
+            oc new-app --image-stream=quarkus-fibonacci:latest
             oc expose svc quarkus-fibonacci
             </code></pre>
             <p>The first command creates a deployment with a Pod and a corresponding service. The second command creates a route for the given service that makes the microservice available to the public.</p>
             <p>The command below allows you to test the newly deployed application:</p>
             <pre><code>curl http://$(oc get route | grep quarkus-fibonacci | awk '{print $2}')/fibonacci/1</code></pre>
             <h4>Set up Health Checks</h4>
-            <p>Quarkus has an extension that offers health checks out of the box. If the extension has not yet been added to the project, it can be added with the command <em>./mvnw quarkus:add-extension -Dextensions="health"</em>. Quarkus will then automatically create health check endpoints that can be called via the URL <em>/health/live</em> and <b>/health/ready</b>.</p>
+            <p>Quarkus has an extension that offers health checks out of the box. If the extension has not yet been added to the project, it can be added with the command <em>./mvnw quarkus:add-extension -Dextensions="health"</em>. Quarkus will then automatically create health check endpoints that can be called via the URL <em>/health/live</em> and <em>/health/ready</em>.</p>
             <p>In OpenShift the health checks can be added with the following command:</p>
             <pre><code>oc set probe dc/quarkus-fibonacci --liveness --get-url=http://:8080/health/live --initial-delay-seconds=1
             oc set probe dc/quarkus-fibonacci --readiness --get-url=http://:8080/health/ready --initial-delay-seconds=1</code></pre>
