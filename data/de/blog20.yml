@@ -12,7 +12,7 @@
              <p><b>3. Storage:</b> Jeder Cloud Provider bietet diverse Typen von Storage zur Integration in OpenShift an. Wir zeigen euch, was es für Möglichkeiten gibt.</p>
              <b><u>1. Installation Pitfalls</u></b>
              <p><img src="/images/blogposts/Pitfalls.jpg" alt="Pitfalls"/></p>
-             <p>Wenn du in diesem Blog nach einer Anleitung suchst, wie OpenShift 4.2 installiert wird, bist du leider falsch. Für die Installationen haben auch wir die offiziellen <a href="https://docs.openshift.com/container-platform/4.2/welcome/index.html">Anleitungen von RedHat</a> verwendet.</p>
+             <p>Wenn du in diesem Blog nach einer Anleitung suchst, wie OpenShift 4.2 installiert wird, bist du leider falsch. Für die Installationen haben auch wir die offiziellen <a href="https://docs.openshift.com/container-platform/4.2/welcome/index.html">Anleitungen von Red Hat</a> verwendet.</p>
              <p>Vorneweg: Die Installation wird mit OpenShift Version 4.2 deutlich einfacher und schneller als mit 3.11. Generell - egal für welche Zielplattform - haben wir Folgendes festgestellt:</p>
              <li>Kleinere Umgebungen als 3 Master / 3 Node (Standardvorgabe) sollten nicht gewählt werden. Es wird sehr langsam oder die Installation schlägt teilweise sogar fehl. </li>
              <li>Für den OpenShift Installer wird ein <em>install-config.yaml</em> File erstellt. Dies sollte vor Beginn der Installation gesichert werden, da der Installer dieses anschliessend löscht.</li>
@@ -52,7 +52,7 @@
              <b><u>2. Networking</u></b>
              <p><img src="/images/blogposts/networking.png" alt="networking"/></p>
              <p><b>Load Balancing</b></p>
-             <p>Für eine RedHat OpenShift 4.2 Installation werden zwei Load Balancer vor dem Cluster benötigt:</p>
+             <p>Für eine Red Hat OpenShift 4.2 Installation werden zwei Load Balancer vor dem Cluster benötigt:</p>
              <li><b>API Load Balancer:</b> Für eine Hochverfügbarkeit der Kubernetes-API (welche auf dem Master läuft), müssen alle API Calls an diese Master Nodes verteilt werden.</li>
              <p>Auf den drei Cloud Provider konnten wir dafür jeweils den Load Balancer Service des Providers verwenden. Dieser wird mit dem OpenShift Installer automatisch konfiguriert. Auf VMware vSphere mussten wir dafür selber einen Load Balancer konfigurieren. Wir haben dafür eine CentOS VM mit HAProxy verwendet. Für die hohe Verfügbarkeit kann z.B. keepalived verwendet werden.</p>
              <li><b>Client Access Load Balancer:</b> Für den Zugriff auf den Applikation Workload wird ein Load Balancer benötigt, der die Ingress Controller weiterleitet.</li>
@@ -68,7 +68,7 @@
              <p><img src="/images/blogposts/storage.jpg" alt="storage"/></p>
              <p>Abschliessend schauen wir uns noch die diversen Storage Integrationen für OpenShift 4.2 an. Wir teilen Storage in drei Kategorien ein: Block Storage, File Storage und Object Storage.</p>
              <p><b>Black Storage</b></p>
-             <p>Erfreulicherweise hatten wir mit keinem Provider (onpremise wie auch Cloud) Probleme. Nach der Installation gemäss Anleitung konnten wir Block Storage von allen Cloud Providern beziehen. Alle Infos dazu sind in der entsprechenden Dokumentation von RedHat zu finden.</p>
+             <p>Erfreulicherweise hatten wir mit keinem Provider (onpremise wie auch Cloud) Probleme. Nach der Installation gemäss Anleitung konnten wir Block Storage von allen Cloud Providern beziehen. Alle Infos dazu sind in der entsprechenden Dokumentation von Red Hat zu finden.</p>
              <li><a href="https://docs.openshift.com/container-platform/4.2/storage/persistent-storage/persistent-storage-gce.html">GCP</a></li>
              <li><a href="https://docs.openshift.com/container-platform/4.2/storage/persistent-storage/persistent-storage-azure.html">Azure</a></li>
              <li><a href="https://docs.openshift.com/container-platform/4.2/storage/persistent-storage/persistent-storage-aws.html">AWS</a></li>
@@ -81,7 +81,7 @@
              <li>Quotas können nicht forciert werden.</li>
              <li>Keine Usage Metrics</li>
              <li><em>size</em> in einem PVC wird nicht berücksichtigt.</li>
-             <li>RedHat sagt zu EFS: <em>"Elastic File System is a Technology Preview feature only.[...]"</em> <a href="https://docs.openshift.com/container-platform/4.2/storage/persistent-storage/persistent-storage-efs.html">Openshift doc on EFS</a></li>
+             <li>Red Hat sagt zu EFS: <em>"Elastic File System is a Technology Preview feature only.[...]"</em> <a href="https://docs.openshift.com/container-platform/4.2/storage/persistent-storage/persistent-storage-efs.html">Openshift doc on EFS</a></li>
              <li>upstream efs-provisioner: <a href="https://github.com/kubernetes-incubator/external-storage/tree/master/aws/efs">detailed doc & code</a></li>
              <p>Weiter kann auch Netapp Trident verwendet werden. In unserer /mid Week haben wir dies jedoch nicht angeschaut (auch nicht auf den anderen Cloud Provider Plattformen). Dafür wird ein AWS Account mit konfiguriertem NetApp CVS (1TB / 100$ / Monat) benötigt. Infos dazu in der <a href="https://netapp-trident.readthedocs.io/en/stable-v19.07/kubernetes/operations/tasks/backends/cvs_aws.html">Netapp Trident Dokumentation</a>.</p>
              <p><b>Azure</b></p>
@@ -91,14 +91,14 @@
              <li>Extended attributes</li>
              <li>Sparse files</li>
              <li>Named pipes</li>
-             <p>Alle Informationen dazu sind in der <a href="https://docs.openshift.com/container-platform/4.2/storage/dynamic-provisioning.html#azure-disk-definition_dynamic-provisioning">RedHat OpenShift Dokumentation</a> zu finden. Auch auf Azure kann <a href="https://netapp-trident.readthedocs.io/en/stable-v19.07/kubernetes/operations/tasks/backends/anf.html">Netapp Trident</a> verwendet werden.</p>
+             <p>Alle Informationen dazu sind in der <a href="https://docs.openshift.com/container-platform/4.2/storage/dynamic-provisioning.html#azure-disk-definition_dynamic-provisioning">Red Hat OpenShift Dokumentation</a> zu finden. Auch auf Azure kann <a href="https://netapp-trident.readthedocs.io/en/stable-v19.07/kubernetes/operations/tasks/backends/anf.html">Netapp Trident</a> verwendet werden.</p>
              <p><b>GCP</b></p>
              <p>Auf GCP stehen <a href="https://cloud.google.com/solutions/filers-on-compute-engine">mehrere Möglichkeite</a>n zur Verfügung.</p>
              <p>Für <a href="https://cloud.google.com/community/tutorials/gke-filestore-dynamic-provisioning">Cloud File Store kann der nfs-client-provisioner</a> verwendet weren. Auch hier können Quotas nicht forciert werden. Weiter gibt es einen nicht offiziell supporteten <a href="https://github.com/kubernetes-sigs/gcp-filestore-csi-driver">CSI Treiber</a>, den wir aber nicht wirklich zum Laufen gebracht haben.</p>
              <p>Weiter kann auch hier NetApp Cloud Volumes mit Trident verwendet werden. Wir haben hierzu aber keine Dokumentation gefunden. Dies sollte aber ähnlich wie bei <a href="https://netapp-trident.readthedocs.io/en/stable-v19.04/kubernetes/operations/tasks/backends/cvs_aws.html">AWS</a> seine. Weitere Infos dazu sind <a href="https://cloud.google.com/solutions/filers-on-compute-engine#netapp">hier</a> zu finden.</p>
              <p>Eine weitere Möglichkeit ist die Verwendung von <a href="https://github.com/Elastifile/elastifile-provisioner">Elastifile</a> oder <a href="https://github.com/quobyte/quobyte-csi">Quoabyte</a>. Diese müssen aber alle lizenziert werden. Elastifile ist nur für einen eingeschränkten Kundenkreis verfügbar. Quoabyte sieht zur Zeit noch nicht wirklich Enterprise-like aus.</p>
              <p><b>VMware vSphere</b></p>
-             <p>In einer on-premise VMware vSphere Umgebung muss einen File Storage Service selbst aufgebaut werden (z.B. mit <a href="https://www.openshift.com/products/container-storage/">RedHat Contrainer Storage</a> basierend auf <a href="https://rook.io/">rook.io</a>).</p>
+             <p>In einer on-premise VMware vSphere Umgebung muss einen File Storage Service selbst aufgebaut werden (z.B. mit <a href="https://www.openshift.com/products/container-storage/">Red Hat Contrainer Storage</a> basierend auf <a href="https://rook.io/">rook.io</a>).</p>
              <p><b>Object Storage</b></p>
              <p>Auch Object Storage wird von den drei Cloud Provider angeboten. Dieser wird aber in der Regeln nicht als PV in einen Pod gemounted, sondern direkt aus einer Applikation bezogen. Der Vollständigkeit halber hier eine Auflistung der Object Storage Services.</p>
              <li>GCP mit <a href="https://cloud.google.com/storage/">Google Cloud Storage</a></li>
