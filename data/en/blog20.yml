@@ -1,4 +1,18 @@
  139 lines (133 sloc) 16.9 KB
+- day: 20
+  month: Apr
+  title: "Free Upgrade: Higher performance on APPUiO Public"
+  subtitle: |
+            <img src="/images/blogposts/faster_is_better.png" alt="faster is better"/>
+            Fantastic news for all APPUiO Public Shared users: we recently have successfully upgraded our APPUiO Public infrastructure to a whole new level. All APPUiO Public Shared Nodes and Storage Nodes were upgraded to the new Plus flavors on <a href="https://www.cloudscale.ch/de/">cloudscale.ch</a>. This means that you will now profit automatically from increased speed and performance while paying the same price. Some APPUiO customers reported to us a performance increase of around 15% compared to the old infrastructure. 
+            
+  details: |
+             <p>The new Plus flavors are high performance cloud servers on the newest available hardware platform and the underlying physical computing power is not overcommitted. We hope that you are as happy with this upgrade as we are and would love to hear about your experience.</p>
+             <p><b>APPUiO Public on <a href="https://www.cloudscale.ch/de/">cloudscale.ch</a></b></p>
+             <p><a href="https://www.cloudscale.ch/de/">cloudscale.ch</a> is a APPUiO infrastructure partner since the beginning of APPUiO. Thanks to their brand new AMD-based hardware platform, customers can benefit from high performance environments. This way, the computing power they need is guaranteed to be readily available at any time. This offer is made possible by the use of leading-edge hardware. <a href="https://www.cloudscale.ch/de/">cloudscale.ch</a> is one of the very first IaaS providers to employ compute nodes with the recently launched AMD EPYC "Rome" processors, which feature up to 64 physical cores per socket.</p>
+             <p>You can find more information on the <a href="https://www.cloudscale.ch/en/news/2019/11/19/even-more-power-thanks-to-plus-flavor">cloudscale.ch blog</a>.</p>
+             
+
 - day: 25
   month: Mar
   title: "Coronavirus: APPUiO 90 Tage kostenlos"
