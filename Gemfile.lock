@@ -69,7 +69,7 @@ GEM
     image_size (2.0.2)
     in_threads (1.5.4)
     kramdown (1.17.0)
-    libv8 (3.16.14.19)
+    libv8 (7.3.492.27.1)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -125,6 +125,8 @@ GEM
       middleman-core (>= 3.3)
       rack-livereload (~> 0.3.15)
     mini_portile2 (2.4.0)
+    mini_racer (0.2.10)
+      libv8 (> 7.3)
     minitest (5.14.0)
     net-sftp (2.1.2)
       net-ssh (>= 2.6.5)
@@ -161,7 +163,6 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    ref (2.0.0)
     sass (3.4.25)
     sass-rails (5.0.7)
       railties (>= 4.0.0, < 6)
@@ -184,9 +185,6 @@ GEM
     susy (2.2.14)
       sass (>= 3.3.0, < 3.5)
     temple (0.8.2)
-    therubyracer (0.12.3)
-      libv8 (~> 3.16.14.15)
-      ref
     thor (1.0.1)
     thread_safe (0.3.6)
     tilt (2.0.10)
@@ -208,9 +206,9 @@ DEPENDENCIES
   middleman-blog (~> 4.0)
   middleman-deploy (>= 2.0.0.pre.alpha)
   middleman-livereload
+  mini_racer (~> 0.2.10)
   sass-rails (~> 5.0.0)
   susy
-  therubyracer (~> 0.12.2)
   tzinfo-data
   wdm (~> 0.1.0)
 
