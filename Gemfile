@@ -28,4 +28,4 @@ gem 'image_optim_pack'
 gem 'evil_icons'
 
 # Call JavaScript code and manipulate JavaScript objects from Ruby. Call Ruby code and manipulate Ruby objects from JavaScript.
-gem 'mini_racer', '~> 0.2.10'
+gem 'therubyracer', '~> 0.12.2'
