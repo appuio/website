@@ -37,16 +37,19 @@
 
 .home-hero-logo {
   position: absolute;
-  top: 38vw;
+  top: 27vw;
   left: 50px;
   right: 50px;
   margin: auto;
   width: 370px;
   max-width: 60%;
   z-index: 9;
+  @include susy-breakpoint($break-medium-small) {
+    top: 33vw;
+  }
   @include susy-breakpoint($break-medium) {
     max-width: none;
-    top: 34vw;
+    top: 28vw;
   }
   @include susy-breakpoint($break-large) {
     max-width: none;
