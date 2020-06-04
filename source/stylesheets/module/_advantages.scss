@@ -1,12 +1,10 @@
 // Advantages
 // ----------------------------------------------
 .advantages {
-  background-color: #15B0BF;
-  background-image: url('/images/clouds.svg');
+  background-color: #ffffff;
   background-repeat: no-repeat;
   background-position: top right;
   padding: rem-calc(200 0 100);
-  color: white;
   text-align: center;
   overflow: hidden;
 
@@ -14,6 +12,7 @@
     background-color: transparent;
     .callout-title {
       min-height: 0;
+      color: #012F47;
       margin-bottom: 0px;
       width: 100%;
     }
