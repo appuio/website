@@ -591,15 +591,16 @@ en:
 # Techlab Page
   techlabPageTitle: Techlabs
   techlabTitle: |-
-    APPUiO & OpenShift Techlabs in Berne, Zurich & Basel
-  techlabSubtitle: Platform as a Service (PaaS) changes the way we develop software. Puzzle presents OpenShift V3 - the Container Platform by Red Hat - in a Techlab.
+    APPUiO & OpenShift 4.3 Techlabs in Berne, Zurich & Basel
+  techlabSubtitle: Platform as a Service (PaaS) changes the way we develop software. Puzzle presents OpenShift V4.3 - the Container Platform by Red Hat - in a Techlab.
   techlabDetails: |-
     <p>Participants learn the key steps hands-on way, learning how applications are deployed to the cloud, and how a container on a PaaS can be deployed and operated.</p>
     <p>With OpenShift IT processes are automated and deployment of IT-Services can be streamlined. Techlabs touch on the following subjects:</p>
     <p><strong>Hands on Workshop</strong></p>
     <ul>
     <li>Setting up CLI</li>
-    <li>Quicktour through OpenShift V3</li>
+    <li>Quicktour through OpenShift V4.3</li>
+    <li>Differents between OpenShift 3.11 an 4.3</li>
     <li>Deploying the first application</li>
     <li>Advanced CLI Commands</li>
     <li>Creating routes </li>
@@ -608,17 +609,15 @@ en:
     <li>Direct integration of code changes via Webhook</li>
     <li>Linking and using Persistent Storage for database </li>
     <li>Application templates</li>
+    <li>Operator Lab</li>
     </ul>
     <p>Dates:</p>
     <ul>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/92394736708">October 31 2019 in Zurich</a></li>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/92394736713">December 05 2019 in Basel</a></li>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/92394736709">January 16 2020 in Zurich</a></li>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/92394736712">February 27 2020 in Bern</a></li>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/92394736710">April 16 2020 in Zurich</a></li>
+    <li><a href="https://app.hatchbuck.com/OnlineForm/93633619676">June 18 2020 remote!</a></li>
+    <li><a href="https://app.hatchbuck.com/OnlineForm/93633619678">Juli 30 2020 remote!</a></li>   
     </ul>
     <p>Time: 14.00 to 17.30h<br>
-    Location: Either Neugasse 10 in Zurich or Belpstrasse 37 in Berne</p>
+    Location: Either Limmatstrasse 214 in Zurich or Belpstrasse 37 in Berne</p>
     <p>Participation is free of charge. Please bring your own laptop for the lab. Number of places is limited.</p>
 
   techlabFeedback1: '"A great introduction to the topic container management."'

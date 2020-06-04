@@ -669,16 +669,18 @@ de:
 
   # Techlab Page
   techlabPageTitle: Techlabs
-  techlabTitle: APPUiO & OpenShift Techlabs in Bern & Zürich
+  techlabTitle: APPUiO & OpenShift 4.3 Techlabs in Bern & Zürich
+    <p><strong><u>Aufgrund der aktuellen Lage führen wir die Techlabs virtuell durch.</u></strong></p>
 
-  techlabSubtitle: Mit einer Container Plattform ändert sich die Art, wie wir Software entwickeln. Puzzle stellt OpenShift V3 - die Container Plattform von Red Hat - in einem Techlab vor.
+  techlabSubtitle: Mit einer Container Plattform ändert sich die Art, wie wir Software entwickeln. Puzzle stellt OpenShift V4.3 - die Container Plattform von Red Hat - in einem Techlab vor.
   techlabDetails: |-
     <p>Die Teilnehmer lernen dabei&nbsp;hands-on die wichtigsten Schritte, wie eine Applikation in die Cloud gebracht wird und wie Container auf einer PaaS deployed und betrieben&nbsp;werden können.</p>
     <p>Mit OpenShift werden IT-Prozesse automatisiert und die Bereitstellung&nbsp;von IT-Services gestrafft. Im Techlab erwarten dich folgende Themen:</p>
     <p><strong>Hands on Workshop</strong></p>
     <ul>
     <li>Einrichten CLI</li>
-    <li>Quicktour durch OpenShift V3</li>
+    <li>Quicktour durch OpenShift V4.3</li>
+    <li>Unterschiede von OpenShift 3.11 zu 4.3</li>
     <li>Die erste Applikation deployen</li>
     <li>Advanced CLI Commands</li>
     <li>Routen erstellen</li>
@@ -687,17 +689,16 @@ de:
     <li>Code Änderungen via Webhook direkt integrieren</li>
     <li>Persistent Storage anbinden und verwenden für Datenbank</li>
     <li>Applikationstemplates</li>
+    <li>Operator Lab</li>
     </ul>
     <p>Daten:</p>
     <ul>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/92394736708">31. Oktober 2019 in Zürich</a></li>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/92394736713">05. Dezember 2019 in Basel</a></li>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/92394736709">16. Januar 2020 in Zürich</a></li>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/92394736712">27. Februar 2020 in Bern</a></li>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/92394736710">16. April 2020 in Zürich</a></li>
-    </ul>
+    <li><a href="https://app.hatchbuck.com/OnlineForm/93633619676">18. Juni 2020 findet remote statt!</a></li>
+    <li><a href="https://app.hatchbuck.com/OnlineForm/93633619678">30. Juli 2020 findet remote statt!</a></li>
+    <li><a href="https://app.hatchbuck.com/OnlineForm/93633620084">10. September 2020 in Basel</a></li>
+     </ul>
     <p>Zeit: 14:00 bis 17:30 Uhr<br>
-    Ort: Limmatstrasse 214, Zürich oder Belpstrasse 37, Bern</p>
+    Ort: remote per Hangout Meet (Link wird kurz vor dem Techlab zugeschickt) oder Limmatstrasse 214, Zürich / Belpstrasse 37, Bern</p>
     <p>Die Teilnahme ist kostenlos. Bitte bring für das Lab deinen Laptop mit. Die Platzzahl ist beschränkt.</p>
 
   techlabFeedback1: '"Ein super Einstieg ins Thema Container Management."'
