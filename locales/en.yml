@@ -153,12 +153,15 @@ en:
   # Home: Technologies sections
   homeTechnologiesTitle: Technologies
   homeTechnologiesDescriptionOne: With APPUiO, you’re creating new environments at the push of a button. There’s a multitude of Technologies and Platforms available right “out of the Box”. Docker, the foundation on which APPUiO is built, brings along a whole ecosystem of additional runtime environments and frameworks.
+
   homeTechnologiesOneTitle: OpenShift
   homeTechnologiesOneDesc: APPUiO is based on on the OpenShift Container Platform by Red Hat, a software that allows development and operations of containers. OpenShift is combining Docker and Kubernetes in a single platform bundled with many additional features simplifying operations of containers and thereby revolutionising IT as we know it.
-  homeTechnologiesTwoTitle: Docker
-  homeTechnologiesTwoDesc: Docker is the open platform for developers, sysadmins and their applications. With APPUiO, simply select the Docker-image based on your needs and the technology you want to use. OpenShift automatically creates an updated Docker-container after every build, and can even deploy it on your behalf.
-  homeTechnologiesThreeTitle: Kubernetes
-  homeTechnologiesThreeDesc: On APPUiO, you orchestrate and manage your containers with Kubernetes by Google. You define how many of your application instances should run in parallel and Kubernetes then takes care of scaling, load balancing and stability.
+  homeTechnologiesTwoTitle: Rancher
+  homeTechnologiesTwoDesc: # TODO
+  homeTechnologiesThreeTitle: Docker
+  homeTechnologiesThreeDesc: Docker is the open platform for developers, sysadmins and their applications. With APPUiO, simply select the Docker-image based on your needs and the technology you want to use. OpenShift automatically creates an updated Docker-container after every build, and can even deploy it on your behalf.
+  homeTechnologiesFourTitle: Kubernetes
+  homeTechnologiesFourDesc: On APPUiO, you orchestrate and manage your containers with Kubernetes by Google. You define how many of your application instances should run in parallel and Kubernetes then takes care of scaling, load balancing and stability.
 
   homeTechnologiesDetails: Detailed information
 
