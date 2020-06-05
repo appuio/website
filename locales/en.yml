@@ -157,8 +157,8 @@ en:
 
   homeTechnologiesOneTitle: OpenShift / Rancher
   homeTechnologiesOneDesc: The two container platforms OpenShift and Rancher are two distributions of Kubernetes selected by us. Both combine Docker and Kubernetes in one platform and offer numerous useful features that simplify the operation of containers and thus revolutionize IT. Both distributions have their individual advantages. We would be happy to support you in deciding which of the two solutions best suits you and your company.
-  homeTechnologiesTwoTitle: Rancher (delete)
-  homeTechnologiesTwoDesc: # TODO
+  homeTechnologiesTwoTitle: # delete
+  homeTechnologiesTwoDesc: # delete
   homeTechnologiesThreeTitle: Docker
   homeTechnologiesThreeDesc: Docker is the open platform for developers, sysadmins and their applications. With APPUiO, simply select the Docker-image based on your needs and the technology you want to use. OpenShift automatically creates an updated Docker-container after every build, and can even deploy it on your behalf.
   homeTechnologiesFourTitle: Kubernetes
