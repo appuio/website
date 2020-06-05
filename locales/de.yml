@@ -45,7 +45,10 @@ de:
   homeHeroSignup: Mehr zu APPUiO Public
   homeHeroRegister: Code einlösen
   homeHeroDesc: |-
-    APPUiO ist die führende, auf Kubernetes basierende, Container-Plattform im Design, Entwicklung und Betrieb von Applikationen. Auf Basis bewährter Open-Source-Konzepten wie Docker und Kubernetes unterstützt APPUiO den DevOps Ansatz. So werden Entwicklung, Deployment und Betriebsprozesse durch Automatisierung und Self-Service beschleunigt. Ebenso wird die Zusammenarbeit zwischen Software-Entwicklern und Betriebsorganisation verbessert.
+    APPUiO ist die führende, auf Kubernetes basierende, Container-Plattform im Design, Entwicklung und Betrieb von Applikationen. 
+    Auf Basis bewährter Open-Source-Konzepten wie Docker und Kubernetes unterstützt APPUiO den DevOps Ansatz. 
+    So werden Entwicklung, Deployment und Betriebsprozesse durch Automatisierung und Self-Service beschleunigt. 
+    Ebenso wird die Zusammenarbeit zwischen Software-Entwicklern und Betriebsorganisation verbessert.
 
   # Home: Vorteile
   homeAdvantagesTitle: Wieso APPUiO?
@@ -63,7 +66,7 @@ de:
   homeAdvantagesSixDesc: Wenn du APPUiO nutzt, entstehen keine internen Kosten für ein Setup einer Plattform oder den Aufbau von Know-how. Die Kosten sind stets transparent und du kannst sie jederzeit über das Portal kontrollieren und anpassen.
 
   # Home: Feature Section
-  homeFeatureTitle: Mehr als OpenShift
+  homeFeatureTitle: Mehr als Container
   homeFeatureDesc: |-
     <p>Bei APPUiO kannst du zwischen den beiden Kubernetes-Distributionen Red Hat OpenShift und Rancher wählen. Diese helfen dir dabei, deine Applikationen in die Cloud zu bringen, die Produktivität zu steigern und Innovationen zu fördern.</p>
     <p>APPUiO bietet drei verscheidene Möglichkeiten, um dich optimal beim Aufbau und/oder Betrieb einer Container-Plattform zu unterstützen. Profitiere von der langjährigen Erfahrung unserer Spezialisten, um OpenShift oder Rancher mit all ihren Add-ons und Services ideal in deinen Betrieb zu integrieren.</p>
