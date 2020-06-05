@@ -41,13 +41,11 @@ de:
     Die Erfolgsstory von Adcubum mit APPUiO! <a href="https://www.appuio.ch/blog.html#2018-Apr-6">Will ich lesen</a>
 
   homeHeroAlt: APPUiO - Swiss Container Platform
-  homeHeroTitle: Deine Open-Container-Plattform mit einer einzigartiger Community!
+  homeHeroTitle: Deine Open-Container-Plattform mit einer einzigartigen Community!
   homeHeroSignup: Mehr zu APPUiO Public
   homeHeroRegister: Code einlösen
   homeHeroDesc: |-
-    APPUiO ist die führende OpenShift Container-Plattform für das Design, die Entwicklung und den Betrieb von Applikationen.
-    Auf Basis bewährter Open Source Konzepte wie Docker und Kubernetes ermöglicht APPUiO DevOps: Durch Automatisierung und Self-Service werden Entwicklung,
-    Deployment und Betriebsprozesse beschleunigt und die Zusammenarbeit von Software-Entwicklern und Betriebsorganisation verbessert.
+    APPUiO ist die führende, auf Kubernetes basierende, Container-Plattform im Design, Entwicklung und Betrieb von Applikationen. Auf Basis bewährter Open-Source-Konzepten wie Docker und Kubernetes unterstützt APPUiO den DevOps Ansatz. So werden Entwicklung, Deployment und Betriebsprozesse durch Automatisierung und Self-Service beschleunigt. Ebenso wird die Zusammenarbeit zwischen Software-Entwicklern und Betriebsorganisation verbessert.
 
   # Home: Vorteile
   homeAdvantagesTitle: Wieso APPUiO?
