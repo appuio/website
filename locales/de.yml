@@ -65,8 +65,8 @@ de:
   # Home: Feature Section
   homeFeatureTitle: Mehr als OpenShift
   homeFeatureDesc: |-
-    <p>APPUiO basiert auf Red Hat OpenShift, der führenden Kubernetes Container-Plattform im Business-Bereich. Es bietet dir Hilfe auf dem Weg, Applikationen in die Cloud zu bringen, die Produktivität zu steigern und Innovationen zu fördern.</p>
-    <p>APPUiO ist OpenShift as a Service - Profitiere von unserer langjährigen Erfahrung als erste Schweizer Container-Plattform und nutze alle Vorteile von OpenShift mit vielen zusätzlichen Add-Ons und Services.</p>
+    <p>Bei APPUiO kannst du zwischen den beiden Kubernetes-Distributionen Red Hat OpenShift und Rancher wählen. Diese helfen dir dabei, deine Applikationen in die Cloud zu bringen, die Produktivität zu steigern und Innovationen zu fördern.</p>
+    <p>APPUiO bietet drei verscheidene Möglichkeiten, um dich optimal beim Aufbau und/oder Betrieb einer Container-Plattform zu unterstützen. Profitiere von der langjährigen Erfahrung unserer Spezialisten, um OpenShift oder Rancher mit all ihren Add-ons und Services ideal in deinen Betrieb zu integrieren.</p>
 
   homeFeatureCommunityTitle: Community
   homeFeatureCommunityAlt: Eine Plattform, welche die Kunden zusammen bringt.
@@ -76,7 +76,7 @@ de:
   homeFeatureDatabasesTitle: Datenbanken #?
   homeFeatureConsultingTitle: Alles aus einer Hand
   homeFeatureConsultingAlt: Build, Ship, Operate
-  homeFeatureConsultingDesc: Wir begleiten unsere Kunden über die gesamte Wertschöpfungskette ihrer Plattform und Applikation - von der Planung, über den Aufbau bis hin zum Betrieb. Zusätzlich stehen wir mit unserer langjährigen Erfahrung mit der Container-Technologie beratend zur Seite. Die Zusammenarbeit gestaltet sich modular und unsere Services können individuell oder gruppiert bezogen werden. Nebst Architektur, Setup und Betrieb bieten wir auch 3rd-Level-Support, Schulungen zu Betrieb und Monitoring von OpenShift und Container sowie Consulting rund um die Themen “Apps in die Cloud”, DevOps, Automatisierung und vielem mehr an.
+  homeFeatureConsultingDesc: Von der Planung über den Aufbau bis hin zum Betrieb - Wir begleiten dich über die gesamte Wertschöpfungskette deiner Plattform und Applikation. Unser Angebot ist modular aufgebaut und kann sehr individuell gestaltet werden. Nebst Architektur, Setup und Betrieb bieten wir auch 3rd-Level-Support oder verschiedene Schulungen an. Zudem stellen wir dir unsere langjährige Container-Erfahrung in Form von Consulting rund um die Themen Apps-in-die-Cloud, DevOps, Automatisierung etc. zur Verfügung.
   homeFeatureOpenSourceTitle: Open Source
   homeFeatureOpenSourceDesc: OpenShift, Docker, Kubernetes und weitere Komponenten hinter APPUiO sind Open Source. Diese Offenheit wollen wir übernehmen, indem wir Dokumentationen zu APPUiO der Community zur Verfügung stellen. Die quelloffene Software, die Anwendung offener Standards sowie die frei zugängliche Dokumentation garantieren Ihnen die grösstmögliche Anbieterunabhängigkeit und bewahren Sie vor einem Vendor Lock-in. Weitere Informationen zum Open Source Projekt hinter OpenShift finden Sie auf <a target="_new" href="https://www.openshift.org">openshift.org</a>.
   homeFeatureAddonsTitle: Add-ons
@@ -155,10 +155,10 @@ de:
   # Home: Technologies sections
   homeTechnologiesTitle: Technologien
   homeTechnologiesDescriptionOne: Mit APPUiO erstellst du neue Umgebungen per Knopfdruck. Es stehen eine Vielzahl an Technologien und Plattformen "out of the Box" zur Verfügung. Docker als Grundtechnologie hinter APPUiO bringt ein ganzes Ökosystem an zusätzlichen Laufzeitumgebungen und Frameworks mit.
-  homeTechnologiesOneTitle: OpenShift
-  homeTechnologiesOneDesc: APPUiO basiert auf der OpenShift Container Plattform von Red Hat , einer Software für die Entwicklung und den Betrieb von Containern. OpenShift kombiniert Docker und Kubernetes in einer Plattform und bietet viele zusätzliche Features, die den Betrieb von Containern vereinfachen und dadurch die IT revolutionieren.
-  homeTechnologiesTwoTitle: Rancher
-  homeTechnologiesTwoDesc: Die Rancher Container Plattform ist eine weitere von uns ausgewählte Distribution von Kubernetes. Auch Rancher verbindet Docker und Kubernetes zu einer Plattform und bietet viele zusätzliche Features, die den Betrieb von Container vereinfachen und dadurch die IT revolutionieren. Gerne helfen wir dir bei der Entscheidungsfindung, welche der beiden Distributionen am besten zu dir und deiner Organisation passt.
+  homeTechnologiesOneTitle: OpenShift / Rancher
+  homeTechnologiesOneDesc: Die beiden Container-Plattformen OpenShift und Rancher sind zwei von uns ausgewählten Distributionen von Kubernetes. Beide kombinieren Docker und Kubernetes in einer Plattform und bieten zahlreiche nützliche Features, die den Betrieb von Containern vereinfachen und dadurch die IT revolutionieren. Beide Distributionen haben ihre individuellen Vorteile. Gerne unterstützen wir dich bei der Entscheidung, welche der beiden Lösungen am besten zu dir und deinem Unternehmen passt.
+  homeTechnologiesTwoTitle: löschen
+  homeTechnologiesTwoDesc: löschen
   homeTechnologiesThreeTitle: Docker
   homeTechnologiesThreeDesc: Docker ist die offene Plattform für Entwickler und Sysadmins und ihre Applikationen. Wähle mit APPUiO das für deine Technologie passende Basis-Docker-Image aus. OpenShift baut für dich nach jedem Build automatisch einen aktualisierten Docker-Container und deployt ihn auf Wunsch auch gleich.
   homeTechnologiesFourTitle: Kubernetes
