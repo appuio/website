@@ -215,6 +215,7 @@
     // Desktip view: Navigation
     var navOfferingDropdown = $("#navOfferingDropdown");
     var navCommunityDropdown = $("#navCommunityDropdown");
+    var navTechlabsDropdown = $("#navTechlabsDropdown");
 
     navOfferingDropdown.click(function () {
         document.getElementById("offeringDropdown").classList.toggle("show");
@@ -222,6 +223,9 @@
 
     navCommunityDropdown.click(function () {
         document.getElementById("communityDropdown").classList.toggle("show");
+    });
+    navTechlabsDropdown.click(function () {
+        document.getElementById("techlabsDropdown").classList.toggle("show");
     });
 
     window.onclick = function(e) {

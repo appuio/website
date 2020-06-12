@@ -62,6 +62,7 @@ helpers EvilIcons::Helpers
 # Redirects
 # sadly doesnt work for I18n
 # redirect "/offers/", to: "/index.html"
+redirect "techlabs.html", to: "ostechlab.html"
 
 
 ###
