@@ -155,17 +155,23 @@ de:
   homeClientsThreeDesc: Michael Gerber, Software Developer <b>@HRM Systems AG</b>
   homeClientsThreeButton: Mehr
 
+  # Home: Distributions sections
+  homeDistributionsTitle: Distributionen
+  homeDistributionsDescriptionOne: Beschreibung TODO
+
+  homeDistributionsOneTitle: OpenShift
+  homeDistributionsOneDesc: Die OpenShift Container-Plattform von Red Hat ist eine von uns ausgewählte Distribution von Kubernetes. OpenShift kombiniert Docker und Kubernetes in einer Plattform und bietet zahlreiche nützliche Features, die den Betrieb von Containern vereinfachen und dadurch die IT revolutionieren.
+  homeDistributionsTwoTitle: Rancher
+  homeDistributionsTwoDesc: Die Rancher Container Plattform ist eine weitere von uns ausgewählte Distribution von Kubernetes. Auch Rancher verbindet Docker und Kubernetes zu einer Plattform und bietet viele zusätzliche Features, die den Betrieb von Container vereinfachen und dadurch die IT revolutionieren. Gerne helfen wir dir bei der Entscheidungsfindung, welche der beiden Distributionen am besten zu dir und deiner Organisation passt.
+
   # Home: Technologies sections
   homeTechnologiesTitle: Technologien
   homeTechnologiesDescriptionOne: Mit APPUiO erstellst du neue Umgebungen per Knopfdruck. Es stehen eine Vielzahl an Technologien und Plattformen "out of the Box" zur Verfügung. Docker als Grundtechnologie hinter APPUiO bringt ein ganzes Ökosystem an zusätzlichen Laufzeitumgebungen und Frameworks mit.
-  homeTechnologiesOneTitle: OpenShift / Rancher
-  homeTechnologiesOneDesc: Die beiden Container-Plattformen OpenShift und Rancher sind zwei von uns ausgewählten Distributionen von Kubernetes. Beide kombinieren Docker und Kubernetes in einer Plattform und bieten zahlreiche nützliche Features, die den Betrieb von Containern vereinfachen und dadurch die IT revolutionieren. Beide Distributionen haben ihre individuellen Vorteile. Gerne unterstützen wir dich bei der Entscheidung, welche der beiden Lösungen am besten zu dir und deinem Unternehmen passt.
-  homeTechnologiesTwoTitle: # delete
-  homeTechnologiesTwoDesc: # delete
-  homeTechnologiesThreeTitle: Docker
-  homeTechnologiesThreeDesc: Docker ist die offene Plattform für Entwickler und Sysadmins und ihre Applikationen. Wähle mit APPUiO das für deine Technologie passende Basis-Docker-Image aus. OpenShift baut für dich nach jedem Build automatisch einen aktualisierten Docker-Container und deployt ihn auf Wunsch auch gleich.
-  homeTechnologiesFourTitle: Kubernetes
-  homeTechnologiesFourDesc: Auf APPUiO kannst du Container mit Kubernetes von Google orchestrieren und managen. Du definierst wie viele Instanzen deiner Applikation parallel laufen sollen, Kubernetes kümmert sich um die Skalierung, das Loadbalancing und die Stabilität.
+
+  homeTechnologiesOneTitle: Docker
+  homeTechnologiesOneDesc: Docker ist die offene Plattform für Entwickler und Sysadmins und ihre Applikationen. Wähle mit APPUiO das für deine Technologie passende Basis-Docker-Image aus. OpenShift baut für dich nach jedem Build automatisch einen aktualisierten Docker-Container und deployt ihn auf Wunsch auch gleich.
+  homeTechnologiesTwoTitle: Kubernetes
+  homeTechnologiesTwoDesc: Auf APPUiO kannst du Container mit Kubernetes von Google orchestrieren und managen. Du definierst wie viele Instanzen deiner Applikation parallel laufen sollen, Kubernetes kümmert sich um die Skalierung, das Loadbalancing und die Stabilität.
 
   homeTechnologiesDetails: Detaillierte Informationen
 

@@ -201,10 +201,38 @@
 }
 
 
+// Distributions
+// ----------------------------------------------
+.home-distributions {
+  padding: rem-calc(100 0);
+  padding-bottom: 0.5rem;
+  background-color: #15B0BF;
+  color: white;
+  text-align: center;
+
+  .distribution-base-list {
+    .distribution-base-image {
+      height: 10rem;
+    }
+
+    padding-top: 2rem;
+
+    .callout-title {
+      min-height: initial;
+    }
+
+    .callout-item {
+      background-color: transparent;
+      max-width: 24rem;
+    }
+  }
+}
+
 // Technologies
 // ----------------------------------------------
 .home-technologies {
   padding: rem-calc(100 0);
+  padding-top: 0.5rem;
   background-color: #15B0BF;
   color: white;
   text-align: center;

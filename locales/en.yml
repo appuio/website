@@ -151,18 +151,23 @@ en:
   homeClientsThreeTitle: „APPUiO complies with our high security requirements.”
   homeClientsThreeDesc: Michael Gerber, Software Developer <b>@HRM Systems AG</b>
 
+  # Home: Distributions sections
+  homeDistributionsTitle: Distributions
+  # homeDistributionsDescriptionOne: TODO
+
+  homeDistributionsOneTitle: OpenShift
+  # homeDistributionsOneDesc: TODO
+  homeDistributionsTwoTitle: Rancher
+  # homeDistributionsTwoDesc: TODO
+
   # Home: Technologies sections
   homeTechnologiesTitle: Technologies
   homeTechnologiesDescriptionOne: With APPUiO, you’re creating new environments at the push of a button. There’s a multitude of Technologies and Platforms available right “out of the Box”. Docker, the foundation on which APPUiO is built, brings along a whole ecosystem of additional runtime environments and frameworks.
 
-  homeTechnologiesOneTitle: OpenShift / Rancher
-  homeTechnologiesOneDesc: The two container platforms OpenShift and Rancher are two distributions of Kubernetes selected by us. Both combine Docker and Kubernetes in one platform and offer numerous useful features that simplify the operation of containers and thus revolutionize IT. Both distributions have their individual advantages. We would be happy to support you in deciding which of the two solutions best suits you and your company.
-  homeTechnologiesTwoTitle: # delete
-  homeTechnologiesTwoDesc: # delete
-  homeTechnologiesThreeTitle: Docker
-  homeTechnologiesThreeDesc: Docker is the open platform for developers, sysadmins and their applications. With APPUiO, simply select the Docker-image based on your needs and the technology you want to use. OpenShift automatically creates an updated Docker-container after every build, and can even deploy it on your behalf.
-  homeTechnologiesFourTitle: Kubernetes
-  homeTechnologiesFourDesc: On APPUiO, you orchestrate and manage your containers with Kubernetes by Google. You define how many of your application instances should run in parallel and Kubernetes then takes care of scaling, load balancing and stability.
+  homeTechnologiesOneTitle: Docker
+  homeTechnologiesOneDesc: Docker is the open platform for developers, sysadmins and their applications. With APPUiO, simply select the Docker-image based on your needs and the technology you want to use. OpenShift automatically creates an updated Docker-container after every build, and can even deploy it on your behalf.
+  homeTechnologiesTwoTitle: Kubernetes
+  homeTechnologiesTwoDesc: On APPUiO, you orchestrate and manage your containers with Kubernetes by Google. You define how many of your application instances should run in parallel and Kubernetes then takes care of scaling, load balancing and stability.
 
   homeTechnologiesDetails: Detailed information
 
