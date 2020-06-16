@@ -26,7 +26,12 @@
                <p><b>Public</b></p>
                <p>Für unsere Public Cloud, welche abhängig von den automatisierten Abläufen und dem Testing des Managed Produkts ist, wird es im Q3 ein Beta-Programm geben. Gerne dürfen Kunden daran teilnehmen. Dabei erhältst du Early Access auf die OpenShift 4 Plattform und kannst deine Applikationen darauf testen. Falls du dich für OpenShift 4 interessierst, kannst du dich hier für das Early Access Programm anmelden.</p>
                <script charset="utf-8" type="text/javascript" src="js.hsforms.net/forms/v2.js"></script>
-               <script>hbspt.forms.create({ portalId: "7105834", formId: "e440b5d4-1d8f-481a-8dc3-3a73368701ac" }); </script>
+               <script>
+               hbspt.forms.create({
+               portalId: "7105834",
+               formId: "e440b5d4-1d8f-481a-8dc3-3a73368701ac"
+               });
+               </script>
                <p><b>Schulungen und Techlabs</b></p>
                <p>Natürlich läuft unser <a href="https://appuio.ch/blog.html#2020-Mar-18">APPUiO Techlab auch auf der neuen OpenShift Version</a>. Falls du an einem Nachmittag mehr über OpenShift 4 und Operators erfahren möchtest, darfst du dich gerne hier <a href="https://appuio.ch/techlabs.html">anmelden</a>. Ab dem Sommer werden wir ein weiteres Techlab durchführen, das <a href="https://appuio.ch/ammtechlab.html">Application Migration and Modernization (AMM) Techlab</a>. Es zeigt dir auf, wie du Applikationen deiner Systemlandschaft auf die neue Container Plattform bringst. Weiter sind unsere Schulungsunterlagen für die Operations und die Apps on OpenShift Schulung auf der neusten OpenShift Version.</p>
                <p>Brauchst du Unterstützung mit deiner Plattform oder möchtest gerne eine neue Plattform aufbauen? Melde dich bei uns und wir trinken gemeinsam einen Kaffee oder ein Bier (geht auch remote). Melde dich bei <a href="mailto:hello@appuio.ch">hello@appuio.ch</a>.</p>
