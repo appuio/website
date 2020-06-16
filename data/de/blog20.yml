@@ -16,13 +16,15 @@
                <p>Dabei haben wir bereits verschiedene OpenShift 4.3 und 4.4 Plattformen aufgebaut, sei es bei einer Verwaltung in Basel oder einem Amt in Bern. Weiter haben wir erste Migrationen von OpenShift 3.11 auf 4.3 durchgeführt. Weil es keinen Upgrade-Pfad gibt, muss ein neuer Cluster aufgebaut und der Workload migriert werden. Dies konnten wir ebenfalls bereits bei verschiedenen Kunden umsetzen, z.B. bei der <a href="https://www.puzzle.ch/referenzen/openshift-plattform-fuer-die-bls-ag">BLS</a>.</p>
                <p><b>Managed</b></p>
                <p>Entscheidet sich der Kunde für unser Managed Produkt, übernehmen wir den Aufbau und zusätzlich den Betrieb der Container Plattform. Damit der Betrieb reibungslos und weithin automatisiert vonstattengeht, müssen verschiedenste Prozesse angepasst und automatisiert werden. Die Plattform muss zuerst akkurat getestet werden. Weil dies etwas Zeit in Anspruch nimmt, sieht die Roadmap für die Managed Cluster je nach Infrastruktur wie folgt aus:</p>
-               <li>Google GCP Q2 2020</li>
-               <li>cloudscale.ch Q3 2020</li>
-               <li>Azure Q3 2020</li>
-               <li>AWS Q3 2020</li>
-               <li>Exoscale Q4 2020</li>
-               <li>VMware Q4 2020</li>
-               <li>Hyper-V Q4 2020</li>
+               <div style="padding-left: 30px;">▸ Google GCP Q2 2020</div>
+               <div style="padding-left: 30px;">▸ cloudscale.ch Q3 2020</div>
+               <div style="padding-left: 30px;">▸ Azure Q3 2020</div>
+               <div style="padding-left: 30px;">▸ AWS Q3 2020</div>
+               <div style="padding-left: 30px;">▸ Exoscale Q4 2020</div>
+               <div style="padding-left: 30px;">▸ VMware Q4 2020</div>
+               <div style="padding-left: 30px;">▸ Hyper-V Q4 2020</div>
+               <div style="padding-left: 30px;">▸ </div>
+               <div style="padding-left: 30px;">▸ </div>
                <p><b>Public</b></p>
                <p>Für unsere Public Cloud, welche abhängig von den automatisierten Abläufen und dem Testing des Managed Produkts ist, wird es im Q3 ein Beta-Programm geben. Gerne dürfen Kunden daran teilnehmen. Dabei erhältst du Early Access auf die OpenShift 4 Plattform und kannst deine Applikationen darauf testen. Falls du dich für OpenShift 4 interessierst, kannst du dich hier für das Early Access Programm anmelden.</p>
                <script charset="utf-8" type="text/javascript" src="js.hsforms.net/forms/v2.js"></script>
