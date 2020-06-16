@@ -25,9 +25,6 @@
                <li>Hyper-V Q4 2020</li>
                <p><b>Public</b></p>
                <p>Für unsere Public Cloud, welche abhängig von den automatisierten Abläufen und dem Testing des Managed Produkts ist, wird es im Q3 ein Beta-Programm geben. Gerne dürfen Kunden daran teilnehmen. Dabei erhältst du Early Access auf die OpenShift 4 Plattform und kannst deine Applikationen darauf testen. Falls du dich für OpenShift 4 interessierst, kannst du dich hier für das Early Access Programm anmelden.</p>
-               <!--[if lte IE 8]>
-               <script charset="utf-8" type="text/javascript" src="js.hsforms.net/forms/v2-legacy.js"></script>
-               <![endif]-->
                <script charset="utf-8" type="text/javascript" src="js.hsforms.net/forms/v2.js"></script>
                <script>
                hbspt.forms.create({
