@@ -18,6 +18,13 @@ title: Application Migration and Modernization on APPUiO / OpenShift Techlab
     </div>
   </section>
 
+  <section class="section-audience">
+    <div class="grid-container">
+      <h3><%= t(:ostechTargetAudienceTitle) %></h3>
+      <p><%= t(:ostechTargetAudienceDesc) %></p>
+    </div>
+  </section>
+
   <section class="section-target">
     <div class="grid-container">
       <h3><%= t(:ostechTargetTitle) %></h3>
@@ -35,13 +42,6 @@ title: Application Migration and Modernization on APPUiO / OpenShift Techlab
 
       <h4><%= t(:ostechLabsTitle) %></h4>
       <ul><%= t(:ostechLabsList) %></ul>
-    </div>
-  </section>
-
-  <section class="section-audience">
-    <div class="grid-container">
-      <h3><%= t(:ostechTargetAudienceTitle) %></h3>
-      <p><%= t(:ostechTargetAudienceDesc) %></p>
     </div>
   </section>
 
@@ -64,16 +64,20 @@ title: Application Migration and Modernization on APPUiO / OpenShift Techlab
       <h3><%= t(:ostechPriceTitle) %></h3>
       <p><%= t(:ostechPriceDesc) %></p>
 
-      <h4><%= t(:ostechDateTitle) %></h4>
-      <ul><%= t(:ostechDateList) %></ul>
-
-      <h4><%= t(:ostechTimeTitle) %></h4>
-      <p><%= t(:ostechTimeDesc) %></p>
-      
-      <h4><%= t(:ostechLocationTitle) %></h4>
-      <p><%= t(:ostechLocationDesc) %></p>
-
-      <p><%= t(:ostechInfos) %></p>
+      <div class="techlab-boxes">
+        <div class="box">
+          <h4><%= t(:ostechDateTitle) %></h4>
+          <ul><%= t(:ostechDateList) %></ul>
+        </div>
+        <div class="box">
+          <h4><%= t(:ostechTimeTitle) %></h4>
+          <p><%= t(:ostechTimeDesc) %></p>
+        </div>
+        <div class="box">
+          <h4><%= t(:ostechLocationTitle) %></h4>
+          <p><%= t(:ostechLocationDesc) %></p>
+        </div>
+      </div>
     </div>
   </section>
 

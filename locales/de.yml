@@ -732,8 +732,6 @@ de:
   ammtechLocationTitle: Ort
   ammtechLocationDesc: Belpstrasse 37, 3007 Bern oder Limmatstrasse 214, 8005 Zürich
 
-  ammtechInfos: -- Anmeldeform --
-
   # OS Techlab Page
   ostechlabPageTitle: OS Techlabs
   ostechlabPageIntro: Mit einer Container Plattform ändert sich die Art, wie wir Software entwickeln, ausliefern und betreiben. Puzzle stellt OpenShift 4 - die Container Plattform von Red Hat - in einem Techlab vor.
@@ -769,7 +767,9 @@ de:
     <li>Persistent Storage anbinden und verwenden für Datenbank</li>
     <li>Applikationstemplates</li>
     <li>Eigene Templates erstellen</li>
-    <br><b>Zusätzliche Labs</b><br><br>
+    </ul>
+    <h4>Zusätzliche Labs</h4>
+    <ul>
     <li>Cron Jobs in OpenShift</li>
     <li>ConfigMaps</li>
     <li>Operators</li>
@@ -796,9 +796,6 @@ de:
   ostechTimeDesc: 14.00-17.00 Uhr
   ostechLocationTitle: Ort
   ostechLocationDesc: Belpstrasse 37, 3007 Bern oder Limmatstrasse 214, 8005 Zürich
-
-  ostechInfos:  -- Anmeldeform --
-
 
   # Team Page
   teamPageTitle: Team

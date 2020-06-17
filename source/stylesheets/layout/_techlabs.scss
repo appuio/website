@@ -1,3 +1,40 @@
+section.home-hero {
+  padding: 4rem 0;
+  margin-bottom: 6rem;
+}
+
 section.section-price {
   padding-bottom: 5rem;
+}
+
+section.section-content {
+  margin: 6rem 0;
+  padding: 6rem 0;
+  background: #15B0BF;
+  color: #fff;
+}
+
+section.section-price {
+  margin-top: 6rem;
+  padding: 6rem 0;
+  background: #012F47;
+  color: #fff;
+  h3 {
+    margin-top: 0;
+  }
+}
+.techlab-boxes {
+  display: flex;
+  > div {
+    background: #fff;
+    color: #012F47;
+    padding: 1rem;
+    margin: 1rem 0.5rem;
+    flex: 1;
+    h4 {
+      margin: 0 0 0.5rem 0;
+      font-weight: normal;
+      font-size: rem-calc(24);
+    }
+  }
 }
