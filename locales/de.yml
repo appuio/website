@@ -705,7 +705,7 @@ de:
       <li>Monitoring und Application Metrics</li>
       <li>Autoscaling</li>
       <li>Backup</li>
-      <li>Cronjobs</li>
+      <li>Cron Jobs</li>
       <li>Debugging</li>
     </ul>
 
@@ -716,7 +716,7 @@ de:
   ammtechRequirementsDesc: Alle Teilnehmenden benötigen für die Schulung einen Laptop (Dual-Core Prozessor, mind. 2GB RAM) mit Admin-Rechten (wird für Container und Kubernetes Installation benötigt). Eine vorgängige Installation von `oc-tool` wird empfohlen.
 
   ammtechLanguageTitle: Sprache
-  ammtechLanguageDesc: Das Techlab findet in Deutsch oder Englisch statt, die Unterlagen stehen auf XX zur Verfügung
+  ammtechLanguageDesc: Das Techlab findet in Deutsch oder Englisch statt.
 
   ammtechPriceTitle: Kosten und Rahmenbedingungen
   ammtechPriceDesc: Das ganztägige Application Migration and Modernization on APPUiO / OpenShift Techlab ist kostenlos.
@@ -732,72 +732,72 @@ de:
   ammtechLocationTitle: Ort
   ammtechLocationDesc: Belpstrasse 37, 3007 Bern oder Limmatstrasse 214, 8005 Zürich
 
-  ammtechInfos: Die Teilnahme ist kostenlos. Die Platzzahl ist beschränkt.
+  ammtechInfos: -- Anmeldeform --
 
   # OS Techlab Page
   ostechlabPageTitle: OS Techlabs
-  ostechlabPageIntro: Im "Application Migration and Modernization Techlab” lernen die Teilnehmenden anhand Präsentationen und Hands-on Labs, wie Applikationen in ihrer Systemlandschaft auf die neue Container Plattform gebracht werden können und welche architektonischen Grundprinzipien beachtet werden müssen, damit die Flexiblität und das Featureset der Container Plattform wirklich ausgereizt werden können. Anhand eines Kriterienkatalog lernen sie zudem die unterschiedlichen Migrationsarten kennen.
+  ostechlabPageIntro: Mit einer Container Plattform ändert sich die Art, wie wir Software entwickeln, ausliefern und betreiben. Puzzle stellt OpenShift 4 - die Container Plattform von Red Hat - in einem Techlab vor.
 
   ostechTargetTitle: Lernziele
   ostechTargetList: |-
-    <li>Kennen die grundlegenden Kriterien, die zu beachten sind, um eine Applikation auf eine Container Plattform zu migrieren und zu deployen.</li>
-    <li>Lernen erweiterte Kubernetes resp. OpenShift Konzepte kennen, welche zum Betrieb von Applikationen auf OpenShift nötig sind.</li>
-    <li>Architektonische Best Practices für containerisierte Applikationen werden vermittelt</li>
+    <li>Funktionsweise von OpenShift und Kubernetes kennenlernen</li>
+    <li>Erste Erfahrungen auf OpenShift zu machen</li>
+    <li>Deployen einer ersten Applikation</li>
 
-  ostechContentTitle: Inhalt
-  ostechContentDesc: Gemeinsam mit dem Teacher wird, anhand einer Mischung aus Präsentation und Hands-on Labs, folgender Inhalt behandelt.
+  ostechContentTitle: Inhalte
+  ostechContentDesc: Im ersten Teil des Techlabs lernen die Teilnehmenden die wichtigsten Konzepte kennen, welche OpenShift zu Grunde liegen. Danach kann das Gelernte in den hands-on Labs direkt angewendet werden. Dabei werden erste Applikationen deployed und konfiguriert, um so die Möglichkeiten aufzuzeigen, welche OpenShift für Entwickler und Betreiber bereitstellt.
 
   ostechPresentationTitle: Präsentation
   ostechPresentationList: |-
-    <li>Kurze Einführung von OpenShift und Container</li>
-    <li>Migrationsarten aufzeigen (Kriterienkatalog)</li>
-    <li>12 Factor Apps und Best Practices für moderne Applikationen</li>
-    <li>Was muss besonders beachtet werden, wenn Workload auf eine Container Plattform migriert wird?</li>
+    <li>Containers</li>
+    <li>OpenShift</li>
+    <li>Architektur</li>
+    <li>Unterschiede zwischen OpenShift 3.11 und 4</li>
+    <li>Workshop</li>
 
   ostechLabsTitle: Labs
   ostechLabsList: |-
-    <li>Containerisierung einer Applikation an Best Practices</li>
-    <li>Builden und deployen einer Applikation auf OpenShift</li>
-    <li>CI/CD (1.5h)</li>
-    <ul>
-      <li>CI/CD anhand von verschiedenen Beispielen von Best Practices</li>
-      <li>OpenShift Pipelines</li>
-      <li>GitOps</li>
-    </ul>
-    <li>Betriebsaspekte (1h)</li>
-    <ul>
-      <li>Requests and Limits</li>
-      <li>Monitoring und Application Metrics</li>
-      <li>Autoscaling</li>
-      <li>Backup</li>
-      <li>Cronjobs</li>
-      <li>Debugging</li>
-    </ul>
+    <li>Quicktour durch OpenShift 4</li>
+    <li>OpenShift CLI installieren</li>
+    <li>Erste Schritte auf der Lab Plattform</li>
+    <li>Ein Container Image deployen</li>
+    <li>Routen erstellen</li>
+    <li>Skalieren</li>
+    <li>Troubleshooting</li>
+    <li>Datenbank deployen und anbindeng</li>
+    <li>Code Änderungen via Webhook direkt integrieren</li>
+    <li>Persistent Storage anbinden und verwenden für Datenbank</li>
+    <li>Applikationstemplates</li>
+    <li>Eigene Templates erstellen</li>
+    <br><b>Zusätzliche Labs</b><br><br>
+    <li>Cron Jobs in OpenShift</li>
+    <li>ConfigMaps</li>
+    <li>Operators</li>
+    <li>Eigene OpenShift Entwicklungsumgebung</li>
+
 
   ostechTargetAudienceTitle: Zielpublikum
-  ostechTargetAudienceDesc: Das Techlab richtet sich an OpenShift und Kubernetes Engineers mit Entwickler Fokus. Grundlegende Kenntnisse im Bereich Container Plattform sollten vorhanden sein. Dieses Techlab baut auf dem <a href="https://appuio.ch/techlabs.html">APPUiO Techlab</a> auf.
+  ostechTargetAudienceDesc: Das OpenShift Techlab richtet sich an alle, die verstehen möchten, wie eine containerisierte Applikation auf OpenShift deployed und betrieben werden kann.
 
   ostechRequirementsTitle: Voraussetzungen
-  ostechRequirementsDesc: Alle Teilnehmenden benötigen für die Schulung einen Laptop (Dual-Core Prozessor, mind. 2GB RAM) mit Admin-Rechten (wird für Container und Kubernetes Installation benötigt). Eine vorgängige Installation von `oc-tool` wird empfohlen.
+  ostechRequirementsDesc: Alle Teilnehmenden benötigen für die Schulung einen Laptop (Dual-Core Prozessor, mind. 2GB RAM) mit Admin-Rechten (wird für Container und Kubernetes Installation benötigt).
 
   ostechLanguageTitle: Sprache
-  ostechLanguageDesc: Das Techlab findet in Deutsch oder Englisch statt, die Unterlagen stehen auf XX zur Verfügung
+  ostechLanguageDesc: Die Präsentation kann auf Deutsch oder Englisch gehalten werden. Die Labs sind in Deutsch verfasst, Google Translate übersetzt sie aber gut verständlich.
 
   ostechPriceTitle: Kosten und Rahmenbedingungen
-  ostechPriceDesc: Das ganztägige Application Migration and Modernization on APPUiO / OpenShift Techlab ist kostenlos.
+  ostechPriceDesc: Die Teilnahme ist kostenlos. Bitte bring für das Lab deinen Laptop mit. Die Platzzahl ist beschränkt.
 
   ostechDateTitle: Daten
   ostechDateList: |-
-    <li>Mi. 22.07.2020 in Bern</li>
-    <li>Do. 24.09.2020 in Bern</li>
-    <li>Mi. 21.10.2020 in Zürich</li>
+    <li>Do. 30.07.2020 (remote)</li>
 
   ostechTimeTitle: Zeit
-  ostechTimeDesc: 09.00-17.00 Uhr
+  ostechTimeDesc: 14.00-17.00 Uhr
   ostechLocationTitle: Ort
   ostechLocationDesc: Belpstrasse 37, 3007 Bern oder Limmatstrasse 214, 8005 Zürich
 
-  ostechInfos: Die Teilnahme ist kostenlos. Die Platzzahl ist beschränkt.
+  ostechInfos:  -- Anmeldeform --
 
 
   # Team Page
