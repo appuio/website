@@ -25,29 +25,15 @@
                <div style="padding-left: 30px;">▸ Hyper-V Q4 2020</div>
                <p><b>Public</b></p>
                <p>Für unsere Public Cloud, welche abhängig von den automatisierten Abläufen und dem Testing des Managed Produkts ist, wird es im Q3 ein Beta-Programm geben. Gerne dürfen Kunden daran teilnehmen. Dabei erhältst du Early Access auf die OpenShift 4 Plattform und kannst deine Applikationen darauf testen. Falls du dich für OpenShift 4 interessierst, kannst du dich hier für das Early Access Programm anmelden.</p>
+               
+               <!--[if lte IE 8]> <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/v2-legacy.js"></script> <![endif]-->
+               <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/v2.js"></script>
                <script>
-               var isLocal = window.location.host.indexOf('local.') > -1
-               var isQa = /hubspotqa|hsformsqa/.test(window.location.hostname)
-               
-               var embedScript = document.createElement('script')
-               embedScript.type = 'text/javascript';
-               embedScript.onreadystatechange = function () {
-                 if (this.readyState == 'complete' || this.readyState == 'loaded') {
-                   window.renderStandalone();
-                 }
-               }
-               embedScript.onload = function() { window.renderStandalone(); }
-               
-               if(isLocal){
-                 embedScript.src = '../FormsNext/static-3.510/bundles/project_for_test.js'
-               }else if (isQa) {
-                 embedScript.src = '//js.hsformsqa.net/forms/v2.js'
-               } else {
-                 embedScript.src = '//js.hsforms.net/forms/v2.js'
-               }
-               document.getElementsByTagName('head')[0].appendChild(embedScript);
+               hbspt.forms.create({
+               portalId: "7105834",
+               formId: "e440b5d4-1d8f-481a-8dc3-3a73368701ac"
+               });
                </script>
-               <script type="text/javascript" async="" defer="" src="https://js.hs-scripts.com/7105834.js"></script>
                <p><b>Schulungen und Techlabs</b></p>
                <p>Natürlich läuft unser <a href="https://appuio.ch/blog.html#2020-Mar-18">APPUiO Techlab auch auf der neuen OpenShift Version</a>. Falls du an einem Nachmittag mehr über OpenShift 4 und Operators erfahren möchtest, darfst du dich gerne hier <a href="https://appuio.ch/techlabs.html">anmelden</a>. Ab dem Sommer werden wir ein weiteres Techlab durchführen, das <a href="https://appuio.ch/ammtechlab.html">Application Migration and Modernization (AMM) Techlab</a>. Es zeigt dir auf, wie du Applikationen deiner Systemlandschaft auf die neue Container Plattform bringst. Weiter sind unsere Schulungsunterlagen für die Operations und die Apps on OpenShift Schulung auf der neusten OpenShift Version.</p>
                <p>Brauchst du Unterstützung mit deiner Plattform oder möchtest gerne eine neue Plattform aufbauen? Melde dich bei uns und wir trinken gemeinsam einen Kaffee oder ein Bier (geht auch remote). Melde dich bei <a href="mailto:hello@appuio.ch">hello@appuio.ch</a>.</p>
