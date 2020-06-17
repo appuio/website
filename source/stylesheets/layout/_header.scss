@@ -44,3 +44,25 @@ category: Layout
 
   }
 }
+
+#cookies_banner_alert {
+  box-sizing: border-box;
+  display: inline-block;
+  position: fixed;
+  z-index: 9;
+  width: 100%;
+  left: 0;
+  top: 50px !important;
+  padding: 1em 0;
+  @include susy-breakpoint($break-large) {
+    top: 87px !important;
+    padding: 0;
+  }
+  top: 0;
+  background: #0e2f47;
+  font-family: Arial, sans-serif;
+  font-size: inherit;
+  font-weight: normal;
+  color: #fff;
+  text-align: center;
+}
