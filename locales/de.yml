@@ -723,9 +723,9 @@ de:
 
   ammtechDateTitle: Daten
   ammtechDateList: |-
-    <li>Mi. 22.07.2020 in Bern</li>
-    <li>Do. 24.09.2020 in Bern</li>
-    <li>Mi. 21.10.2020 in Zürich</li>
+    <li><a href="https://app.hatchbuck.com/OnlineForm/93633620212">Mi. 22.07.2020 in Bern</a></li>
+    <li><a href="https://app.hatchbuck.com/OnlineForm/93633620214">Do. 24.09.2020 in Bern</a></li>
+    <li><a href="https://app.hatchbuck.com/OnlineForm/93633620215">Mi. 21.10.2020 in Zürich</a></li>
 
   ammtechTimeTitle: Zeit
   ammtechTimeDesc: 09.00-17.00 Uhr
