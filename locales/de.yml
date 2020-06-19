@@ -710,7 +710,7 @@ de:
     </ul>
 
   ammtechTargetAudienceTitle: Zielpublikum
-  ammtechTargetAudienceDesc: Das Techlab richtet sich an OpenShift und Kubernetes Engineers mit Entwickler-Fokus. Grundlegende Kenntnisse im Bereich Container Plattform sollten vorhanden sein. Dieses Techlab baut auf dem <a href="https://appuio.ch/techlabs.html">APPUiO Techlab</a> auf.
+  ammtechTargetAudienceDesc: Das Techlab richtet sich an OpenShift und Kubernetes Engineers mit Entwickler-Fokus. Grundlegende Kenntnisse im Bereich Container Plattform sollten vorhanden sein. Dieses Techlab baut auf dem <a href="https://appuio.ch/techlabs.html">APPUiO OS Techlab</a> auf.
 
   ammtechRequirementsTitle: Voraussetzungen
   ammtechRequirementsDesc: Alle Teilnehmenden benötigen für die Schulung einen Laptop (Dual-Core Prozessor, mind. 2GB RAM) mit Admin-Rechten (wird für Container und Kubernetes Installation benötigt). Eine vorgängige Installation von `oc-tool` wird empfohlen.
