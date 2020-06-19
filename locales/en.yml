@@ -590,7 +590,7 @@ en:
 
   # AMM Techlab Page
   ammtechlabPageTitle: Application Migration and Modernization on APPUiO / OpenShift Techlab
-  ammtechlabPageIntro: In the "Application Migration and Modernization Techlab" the participants learn by means of presentations and hands-on labs how applications in their system landscape can be brought to the new container platform and which basic architectural principles have to be considered in order to really exploit the flexibility and feature set of the container platform. Using a catalogue of criteria, they also learn about the different types of migration.
+  ammtechlabPageIntro: In the "Application Migration and Modernization Techlab" the participants learn by means of presentations and hands-on labs how applications in their system landscape can be brought to the new container platform. It will be shown which basic architectural principles have to be considered in order to really exploit the flexibility and features of the container platform. Using a catalogue of criteria, they also learn about the different types of migration.
 
   ammtechTargetTitle: Learning Objectives
   ammtechTargetList: |-
@@ -635,7 +635,7 @@ en:
   ammtechRequirementsDesc: All participants need a laptop (dual-core processor, min. 2GB RAM) with admin rights (required for Container and Kubernetes installation). A prior installation of 'oc-tool' is recommended.
 
   ammtechLanguageTitle: Language
-  ammtechLanguageDesc: The Techlab is held in English
+  ammtechLanguageDesc: The Techlab is held in English.
 
   ammtechPriceTitle: Costs and general conditions
   ammtechPriceDesc: The full day Application Migration and Modernization on APPUiO / OpenShift Techlab is free of charge.
