@@ -40,7 +40,7 @@ en:
     The success story of Adcubum with APPUiO! <a href="https://www.appuio.ch/blog.html#2018-Apr-6">Let me see</a>.
 
   homeHeroAlt: APPUiO - Swiss Container Platform
-  homeHeroTitle: The open Container Platform with a strong Community for your Applications.
+  homeHeroTitle: Your Open Container Platform with a unique community!
   homeHeroSignup: ABOUT APPUiO PUBLIC
   homeHeroRegister: REDEEM CODE
   homeHeroDesc: |-
@@ -142,7 +142,7 @@ en:
   homeTableSubject12: How to dev on APPUiO
 
   # Home: Clients
-  homeClientsTitle: Our Clients
+  homeClientsTitle: What customers say about APPUiO
   homeClientsOneTitle: „APPUiO provides us with OpenShift-Experts who support us with their long-standing experience at any time.“
   homeClientsOneDesc: Matthias Summer, System Engineer <b>@Adcubum AG</b>
   homeClientsTwoTitle: „It’s not only us benefiting from APPUiO, but our end customers as well.“
@@ -588,40 +588,132 @@ en:
   mailGotAMessage: We just received a message from APPUiO.ch!
   mailSubject: I'm interested in?
 
-# Techlab Page
-  techlabPageTitle: Techlabs
-  techlabTitle: |-
-    APPUiO & OpenShift 4.3 Techlabs in Berne, Zurich & Basel
-  techlabSubtitle: Platform as a Service (PaaS) changes the way we develop software. Puzzle presents OpenShift V4.3 - the Container Platform by Red Hat - in a Techlab.
-  techlabDetails: |-
-    <p>Participants learn the key steps hands-on way, learning how applications are deployed to the cloud, and how a container on a PaaS can be deployed and operated.</p>
-    <p>With OpenShift IT processes are automated and deployment of IT-Services can be streamlined. Techlabs touch on the following subjects:</p>
-    <p><strong>Hands on Workshop</strong></p>
-    <ul>
-    <li>Setting up CLI</li>
-    <li>Quicktour through OpenShift V4.3</li>
-    <li>Differents between OpenShift 3.11 an 4.3</li>
-    <li>Deploying the first application</li>
-    <li>Advanced CLI Commands</li>
-    <li>Creating routes </li>
-    <li>Scaling applications</li>
-    <li>Deploying and connecting databases </li>
-    <li>Direct integration of code changes via Webhook</li>
-    <li>Linking and using Persistent Storage for database </li>
-    <li>Application templates</li>
-    <li>Operator Lab</li>
-    </ul>
-    <p>Dates:</p>
-    <ul>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/93633619676">June 18 2020 remote!</a></li>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/93633619678">Juli 30 2020 remote!</a></li>   
-    </ul>
-    <p>Time: 14.00 to 17.30h<br>
-    Location: Either Limmatstrasse 214 in Zurich or Belpstrasse 37 in Berne</p>
-    <p>Participation is free of charge. Please bring your own laptop for the lab. Number of places is limited.</p>
+  # AMM Techlab Page
+  ammtechlabPageTitle: Application Migration and Modernization on APPUiO / OpenShift Techlab
+  ammtechlabPageIntro: In the "Application Migration and Modernization Techlab" the participants learn by means of presentations and hands-on labs how applications in their system landscape can be brought to the new container platform. It will be shown which basic architectural principles have to be considered in order to really exploit the flexibility and features of the container platform. Using a catalogue of criteria, they also learn about the different types of migration.
 
-  techlabFeedback1: '"A great introduction to the topic container management."'
-  techlabFeedbackAuthor1: from IT Facilitator of Energie Zukunft Schweiz AG
+  ammtechTargetTitle: Learning Objectives
+  ammtechTargetList: |-
+    <li>Know the basic criteria to be observed when migrating and deploying an application to a container platform.</li>
+    <li>Learn about advanced Kubernet and OpenShift concepts which are necessary to run applications on OpenShift.</li>
+    <li>Architectural best practices for containerized applications are taught</li>
+
+  ammtechContentTitle: Content
+  ammtechContentDesc: Together with the expert, the following content will be covered using a mixture of presentation and hands-on labs.
+
+  ammtechPresentationTitle: Presentation
+  ammtechPresentationList: |-
+    <li>Short introduction to OpenShift and Container</li>
+    <li>Show types of migration (catalogue of criteria)</li>
+    <li>12 factor apps and best practices for modern applications</li>
+    <li>What needs special attention when migrating workload to a container platform?</li>
+
+  ammtechLabsTitle: Labs
+  ammtechLabsList: |-
+    <li>Containerization of an application to Best Practices</li>
+    <li>Build and deploy an application on OpenShift</li>
+    <li>CI/CD (1.5h)</li>
+    <ul>
+      <li>CI/CD using various examples of best practices</li>
+      <li>OpenShift Pipelines</li>
+      <li>GitOps</li>
+    </ul>
+    <li>Operating aspects (1h)</li>
+    <ul>
+      <li>Requests and limits</li>
+      <li>Monitoring and Application Metrics</li>
+      <li>Autoscaling</li>
+      <li>Backup</li>
+      <li>Cron Jobs</li>
+      <li>Debugging</li>
+    </ul>
+
+  ammtechTargetAudienceTitle: Target audience
+  ammtechTargetAudienceDesc: The Techlab addresses OpenShift and Kubernetes Engineers with developer focus. Basic knowledge in the field of container platform should be available. This Techlab is based on the <a href="https://appuio.ch/techlabs.html">OS Techlab</a>.
+
+  ammtechRequirementsTitle: Requirements
+  ammtechRequirementsDesc: All participants need a laptop (dual-core processor, min. 2GB RAM) with admin rights (required for Container and Kubernetes installation). A prior installation of 'oc-tool' is recommended.
+
+  ammtechLanguageTitle: Language
+  ammtechLanguageDesc: The Techlab is held in English.
+
+  ammtechPriceTitle: Costs and general conditions
+  ammtechPriceDesc: The full day Application Migration and Modernization on APPUiO / OpenShift Techlab is free of charge.
+
+  ammtechDateTitle: Dates
+  ammtechDateList: |-
+    <li><a href="https://app.hatchbuck.com/OnlineForm/93633620212">We. 22.07.2020 in Bern</a></li>
+    <li><a href="https://app.hatchbuck.com/OnlineForm/93633620214">Thu. 24.09.2020 in Bern</a></li>
+    <li><a href="https://app.hatchbuck.com/OnlineForm/93633620215">We. 21.10.2020 in Zurich</a></li>
+
+  ammtechTimeTitle: Time
+  ammtechTimeDesc: 09.00-17.00 Uhr
+  ammtechLocationTitle: Location (unless remote)
+  ammtechLocationDesc: Belpstrasse 37, 3007 Bern or Limmatstrasse 214, 8005 Zürich
+
+  # OS Techlab Page
+  ostechlabPageTitle: OS Techlabs
+  ostechlabPageIntro: A container platform changes the way we develop, deliver and operate software. Puzzle presents OpenShift 4 - the container platform from Red Hat - in a Techlab.
+
+  ostechTargetTitle: Learning Objectives
+  ostechTargetList: |-
+    <li>Learn how OpenShift and Kubernetes work</li>
+    <li>Making your first experiences on OpenShift</li>
+    <li>Deploy a first application</li>
+
+  ostechContentTitle: Content
+  ostechContentDesc: In the first part of the Techlab, participants will learn the most important concepts underlying OpenShift. Afterwards, what has been learned can be directly applied in the hands-on labs. Initial applications will be deployed and configured to demonstrate the possibilities that OpenShift offers to developers and operators.
+
+  ostechPresentationTitle: Presentation
+  ostechPresentationList: |-
+    <li>Containers</li>
+    <li>OpenShift</li>
+    <li>Architecture</li>
+    <li>Differences between OpenShift 3.11 and 4</li>
+    <li>Workshop</li>
+
+  ostechLabsTitle: Labs
+  ostechLabsList: |-
+    <li>Workshop</li>
+    <li>Install OpenShift CLI</li>
+    <li>First steps on the Lab platform</li>
+    <li>Deploy a container image</li>
+    <li>Create routes</li>
+    <li>Scaling</li>
+    <li>Troubleshooting</li>
+    <li>Deploy and connect database</li>
+    <li>Integrate code changes directly via Webhook</li>
+    <li>Connect and use Persistent Storage for database</li>
+    <li>Application templates</li>
+    <li>Create your own templates</li>
+    </ul>
+    <h4>Additional Labs</h4>
+    <ul>
+    <li>Cron Jobs in OpenShift</li>
+    <li>ConfigMaps</li>
+    <li>Operators</li>
+    <li>Own OpenShift development environment</li>
+
+  ostechTargetAudienceTitle: Target audience
+  ostechTargetAudienceDesc: The OpenShift Techlab is for anyone who wants to understand how a containerized application can be deployed and run on OpenShift.
+
+  ostechRequirementsTitle: Requirements
+  ostechRequirementsDesc: All participants need a laptop (dual-core processor, min. 2GB RAM) with admin rights (required for Container and Kubernetes installation).
+
+  ostechLanguageTitle: Language
+  ostechLanguageDesc: The presentation can be held in German or English. The labs are written in German, but Google Translate translates them in a way that is easy to understand.
+
+  ostechPriceTitle: Costs and general conditions
+  ostechPriceDesc: The participation is free of charge. Please bring your laptop for the lab. The number of seats is limited.
+
+  ostechDateTitle: Dates
+  ostechDateList: |-
+    <li>Th. 30.07.2020 (remote)</li>
+
+  ostechTimeTitle: Time
+  ostechTimeDesc: 14.00-17.00 Uhr
+  ostechLocationTitle: Location (unless remote)
+  ostechLocationDesc: Belpstrasse 37, 3007 Bern or Limmatstrasse 214, 8005 Zürich
 
   # Team Page
   teamPageTitle: Team

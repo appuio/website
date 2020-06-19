@@ -215,6 +215,7 @@
     // Desktip view: Navigation
     var navOfferingDropdown = $("#navOfferingDropdown");
     var navCommunityDropdown = $("#navCommunityDropdown");
+    var navTechlabsDropdown = $("#navTechlabsDropdown");
 
     navOfferingDropdown.click(function () {
         document.getElementById("offeringDropdown").classList.toggle("show");
@@ -223,21 +224,25 @@
     navCommunityDropdown.click(function () {
         document.getElementById("communityDropdown").classList.toggle("show");
     });
+    navTechlabsDropdown.click(function () {
+        document.getElementById("techlabsDropdown").classList.toggle("show");
+    });
 
     window.onclick = function(e) {
-        if (!e.target.matches('.dropbtn-offerings')) {
+        this.console.log(e);
+        if (!e.target.matches('.dropbtn-offerings') && !e.target.parentNode.matches('.dropbtn-offerings')) {
             const offeringDropdown = document.getElementById("offeringDropdown");
             offeringDropdown.classList.remove('show');
         }
-        if (!e.target.matches('.dropbtn-community')) {
+        if (!e.target.matches('.dropbtn-community') && !e.target.parentNode.matches('.dropbtn-community')) {
             const communityDropdown = document.getElementById("communityDropdown");
             communityDropdown.classList.remove('show');
         }
-        if (!e.target.matches('.sidenav-button-offers')) {
+        if (!e.target.matches('.sidenav-button-offers') && !e.target.parentNode.matches('.sidenav-button-offers')) {
             var sidenavOffersDropdown = document.getElementById("sidenavOffersDropdown");
             sidenavOffersDropdown.classList.remove('show');
         }
-        if (!e.target.matches('.sidenav-button-community')) {
+        if (!e.target.matches('.sidenav-button-community') && !e.target.parentNode.matches('.sidenav-button-community')) {
             var sidenavCommunityDropdown = document.getElementById("sidenavCommunityDropdown");
             sidenavCommunityDropdown.classList.remove('show');
         }

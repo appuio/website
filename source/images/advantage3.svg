@@ -10,8 +10,8 @@
                 <g id="Service-Automation" transform="translate(659.000000, 150.000000)">
                     <g id="Group-Copy">
                         <g id="icon-einheitlich" transform="translate(81.000000, 45.000000)">
-                            <path d="M62,0 C96.2416142,0 124,27.7583858 124,62 C124,96.2416142 96.2416142,124 62,124 C27.7583858,124 0,96.2416142 0,62 C0,27.7583858 27.7583858,0 62,0 Z" id="Fill-26-Copy" fill="#002F47"></path>
-                            <g id="Group" transform="translate(21.000000, 20.000000)" stroke-linecap="round" stroke-width="2" stroke="#FFFFFF" stroke-linejoin="round">
+                            <path d="M62,0 C96.2416142,0 124,27.7583858 124,62 C124,96.2416142 96.2416142,124 62,124 C27.7583858,124 0,96.2416142 0,62 C0,27.7583858 27.7583858,0 62,0 Z" id="Fill-26-Copy" fill="#FFFFFF"></path>
+                            <g id="Group" transform="translate(21.000000, 20.000000)" stroke-linecap="round" stroke-width="2" stroke="#002F47" stroke-linejoin="round">
                                 <polygon id="Stroke-17" points="33.2494046 56 25 70 33.2494046 84 49.7482139 84 58 70 49.7482139 56"></polygon>
                                 <polygon id="Stroke-17-Copy" points="33.2494046 28 25 42 33.2494046 56 49.7482139 56 58 42 49.7482139 28"></polygon>
                                 <polygon id="Stroke-17-Copy-2" points="33.2494046 0 25 14 33.2494046 28 49.7482139 28 58 14 49.7482139 0"></polygon>
