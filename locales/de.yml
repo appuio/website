@@ -157,12 +157,12 @@ de:
 
   # Home: Distributions sections
   homeDistributionsTitle: Distributionen
-  homeDistributionsDescriptionOne: Beschreibung TODO
+  homeDistributionsDescriptionOne: APPUiO bietet zwei etablierte Kubernetes-Distributionen an, welche ihre Anforderung an eine Container-Orchestrierungs-Plattform optimal abdecken. Beide Distributionen bieten nebst den bekannten Kubernetes Features, viele weitere Features, die durch Integration und Kombination von Cloud-Native Produkten ergänzt worden sind. Durch eine sorgfältige Evaluation begleitet APPUiO die Kunden bei der Entscheidung der geeigneten Distribution.
 
   homeDistributionsOneTitle: OpenShift
-  homeDistributionsOneDesc: Die OpenShift Container-Plattform von Red Hat ist eine von uns ausgewählte Distribution von Kubernetes. OpenShift kombiniert Docker und Kubernetes in einer Plattform und bietet zahlreiche nützliche Features, die den Betrieb von Containern vereinfachen und dadurch die IT revolutionieren.
+  homeDistributionsOneDesc: Der Fokus von Red Hat OpenShift liegt auf einer Full-Stack Kubernetes-Plattform. Die Plattform bietet einen wichtigen Support, welcher sich vom Betriebssystem über die Container Plattform bis hin zu Middlware Applikationen erstreckt. Im OpenShift Ökosystem befinden sich bereits viele selektierte Tools, die bei der Software-Entwicklung helfen.
   homeDistributionsTwoTitle: Rancher
-  homeDistributionsTwoDesc: Die Rancher Container Plattform ist eine weitere von uns ausgewählte Distribution von Kubernetes. Auch Rancher verbindet Docker und Kubernetes zu einer Plattform und bietet viele zusätzliche Features, die den Betrieb von Container vereinfachen und dadurch die IT revolutionieren. Gerne helfen wir dir bei der Entscheidungsfindung, welche der beiden Distributionen am besten zu dir und deiner Organisation passt.
+  homeDistributionsTwoDesc: Der Fokus von Rancher liegt im einfachen Betrieb von Kubernetes, das auf beliebiger Infrastruktur sowohl On-premises wie auch auf Cloud Plattformen funktioniert. Dazu hat Rancher Labs die Rancher Kubernetes Engine (RKE), ein CNCF-certified Kubernetes Distribution, entwickelt. Dies ergänzt Rancher mit einer zentralen Web- und API-basierten Multi-Cluster-Management Plattform. Durch die Integration von vielen bekannten Open Source Tools aus der CNCF Landschaft, beschleunigt Rancher ihre DevOps Transformation.
 
   # Home: Technologies sections
   homeTechnologiesTitle: Technologien

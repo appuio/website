@@ -153,12 +153,12 @@ en:
 
   # Home: Distributions sections
   homeDistributionsTitle: Distributions
-  # homeDistributionsDescriptionOne: TODO
+  homeDistributionsDescriptionOne: APPUiO offers two well-established Kubernetes distributions which optimally cover your requirements for a container orchestration platform. In addition to the well-known Kubernetes features, both distributions offer many more features that have been enhanced by integration and combination of cloud-native products. APPUiO accompanies its customers through a thorough evaluation process to help them decide which distribution is the right one for them.
 
   homeDistributionsOneTitle: OpenShift
-  # homeDistributionsOneDesc: TODO
+  homeDistributionsOneDesc: The focus of Red Hat OpenShift is on a full-stack Kubernetes platform. The platform provides key support for the operating system, the container platform and middlware applications. The OpenShift ecosystem already contains many selected tools that help with software development.
   homeDistributionsTwoTitle: Rancher
-  # homeDistributionsTwoDesc: TODO
+  homeDistributionsTwoDesc: The focus of Rancher is the simple operation of Kubernetes, which works on any infrastructure, both on-premises and cloud platforms. For this purpose Rancher Labs has developed the Rancher Kubernetes Engine (RKE), a CNCF-certified Kubernetes distribution. This complements Rancher with a central web and API based multi-cluster management platform. By integrating many well-known open source tools from the CNCF landscape, Rancher accelerates your DevOps transformation.
 
   # Home: Technologies sections
   homeTechnologiesTitle: Technologies
