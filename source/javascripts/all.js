@@ -246,6 +246,10 @@
             var sidenavCommunityDropdown = document.getElementById("sidenavCommunityDropdown");
             sidenavCommunityDropdown.classList.remove('show');
         }
+        if (!e.target.matches('.sidenav-button-techlabs') && !e.target.parentNode.matches('.sidenav-button-techlabs')) {
+            var sidenavTechlabsDropdown = document.getElementById("sidenavTechlabsDropdown");
+            sidenavTechlabsDropdown.classList.remove('show');
+        }
     };
 
     // Mobile view: Side navigation
@@ -258,6 +262,7 @@
 
     const sidenavOffersButton = $("#sidenavOffersButton");
     const sidenavCommunityButton = $("#sidenavCommunityButton");
+    const sidenavTechlabsButton = $("#sidenavTechlabsButton");
 
     // Open Offers dropdown list in sidenav
     sidenavOffersButton.click(function () {
@@ -267,6 +272,11 @@
     // Open Community dropdown list in sidenav
     sidenavCommunityButton.click(function () {
         document.getElementById("sidenavCommunityDropdown").classList.toggle("show");
+    });
+
+    // Open Techlabs dropdown list in sidenav
+    sidenavTechlabsButton.click(function () {
+        document.getElementById("sidenavTechlabsDropdown").classList.toggle("show");
     });
 
     // Partner carousels and settings
