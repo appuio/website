@@ -57,6 +57,15 @@ fr:
   homeClientsThreeTitle: „Wir erleben mit Appuio eine vertrauensvolle und gelungene Zusammenarbeit.“
   homeClientsThreeDesc: Michael Müller, CTO XYZ
 
+  # Home: Distributions sections
+  homeDistributionsTitle: Distributionen
+  # homeDistributionsDescriptionOne: TODO
+
+  homeDistributionsOneTitle: OpenShift
+  # homeDistributionsOneDesc: TODO
+  homeDistributionsTwoTitle: Rancher
+  # homeDistributionsTwoDesc: TODO
+
 # Home: Technologies sections
   homeTechnologiesTitle: Technologien
 

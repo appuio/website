@@ -257,6 +257,27 @@ title: APPUiO - Swiss Container Platform
     </div>
   </section>
 
+  <section id="distributions" class="home-distributions">
+    <div class="grid-container">
+      <h2 class="home-distribution-title"><%= t(:homeDistributionsTitle) %></h2>
+      <article class="is-banner-before">
+        <p><%= t(:homeDistributionsDescriptionOne) %></p>
+      </article>
+      <ul class="callout-list distribution-base-list">
+        <li class="callout-item callout-item-block">
+          <div class="distribution-base-image"><img src="/images/openshift_schild.svg" alt="distribution1-image"/></div>
+          <h3 class="callout-title"><%= t(:homeDistributionsOneTitle) %></h3>
+          <p class="callout-desc"><%= t(:homeDistributionsOneDesc) %></p>
+        </li>
+        <li class="callout-item callout-item-block">
+          <div class="distribution-base-image"><img src="/images/rancher_schild.svg" alt="distribution2-image"/></div>
+          <h3 class="callout-title"><%= t(:homeDistributionsTwoTitle) %></h3>
+          <p class="callout-desc"><%= t(:homeDistributionsTwoDesc) %></p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
   <section id="technologies" class="home-technologies">
     <div class="grid-container">
       <h2 class="home-technology-title"><%= t(:homeTechnologiesTitle) %></h2>
@@ -265,7 +286,8 @@ title: APPUiO - Swiss Container Platform
       </article>
       <ul class="callout-list technology-base-list">
         <li class="callout-item callout-item-block">
-          <div class="technology-base-image"><img src="/images/openshift_schild.svg" alt="technology1-image"/></div>
+          <div class="technology-base-image">
+            <img src="/images/kubernetes_logo.svg" class="kubernetes-logo" alt="technology1-image"/></div>
           <h3 class="callout-title"><%= t(:homeTechnologiesOneTitle) %></h3>
           <p class="callout-desc"><%= t(:homeTechnologiesOneDesc) %></p>
         </li>
@@ -273,12 +295,6 @@ title: APPUiO - Swiss Container Platform
           <div class="technology-base-image"><img src="/images/docker_logo.svg" alt="technology2-image"/></div>
           <h3 class="callout-title"><%= t(:homeTechnologiesTwoTitle) %></h3>
           <p class="callout-desc"><%= t(:homeTechnologiesTwoDesc) %></p>
-        </li>
-        <li class="callout-item callout-item-block">
-          <div class="technology-base-image">
-            <img src="/images/kubernetes_logo.svg" class="kubernetes-logo" alt="technology3-image"/></div>
-          <h3 class="callout-title"><%= t(:homeTechnologiesThreeTitle) %></h3>
-          <p class="callout-desc"><%= t(:homeTechnologiesThreeDesc) %></p>
         </li>
       </ul>
       <div class="technology-container">
