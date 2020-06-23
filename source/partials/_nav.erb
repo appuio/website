@@ -113,10 +113,16 @@
         </div>
       </div>
 
-      <div class="dropdown nav-element sidenav-element <%= nav_active('techlabs.html') %>">
-        <button class="dropbtn nav-button" onclick="window.location.href = 'techlabs.html';">
+      <!-- techlabs -->
+      <div class="dropdown nav-element sidenav-element <%= nav_active('techlab.html') %>">
+        <button class="dropbtn sidenav-button-techlabs nav-button" id="sidenavTechlabsButton">
           <%= t(:navTechlabs) %>
+          <i class="material-icons">arrow_drop_down</i>
         </button>
+        <div class="dropdown-content dropdown-content-techlabs sidenav-sub-nav-dropdown" id="sidenavTechlabsDropdown">
+          <a href="./ostechlab.html" class="nav-element-route <%= nav_active('ostechlab.html') %>"><%= t(:navOstechlab) %></a>
+          <a href="./ammtechlab.html" class="nav-element-route <%= nav_active('ammtechlab.html') %>"><%= t(:navAmmtechlab) %></a>
+        </div>
       </div>
 
       <div class="dropdown nav-element  sidenav-element<%= nav_active('team.html') %>">

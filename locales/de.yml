@@ -20,8 +20,8 @@ de:
   navContact: Kontakt
   navFAQ: FAQ
   navTechlabs: Techlabs
-  navOstechlab: OS Techlabs
-  navAmmtechlab: AMM Techlabs
+  navOstechlab: OS Techlab
+  navAmmtechlab: AMM Techlab
   partner: Partner
   team: Team
   behindAppuio: Story behind APPUiO
@@ -693,13 +693,13 @@ de:
   ammtechLabsList: |-
     <li>Containerisierung einer Applikation an Best Practices</li>
     <li>Builden und deployen einer Applikation auf OpenShift</li>
-    <li>CI/CD (1.5h)</li>
+    <li>CI/CD</li>
     <ul>
       <li>CI/CD anhand von verschiedenen Beispielen von Best Practices</li>
       <li>OpenShift Pipelines</li>
       <li>GitOps</li>
     </ul>
-    <li>Betriebsaspekte (1h)</li>
+    <li>Betriebsaspekte</li>
     <ul>
       <li>Requests and Limits</li>
       <li>Monitoring und Application Metrics</li>
@@ -730,10 +730,10 @@ de:
   ammtechTimeTitle: Zeit
   ammtechTimeDesc: 09.00-17.00 Uhr
   ammtechLocationTitle: Ort
-  ammtechLocationDesc: Belpstrasse 37, 3007 Bern oder Limmatstrasse 214, 8005 Zürich
+  ammtechLocationDesc: Belpstr. 37, 3007 <b>Bern</b>,<br>Limmatstr. 214, 8005 <b>Zürich</b>,<br>Peter Merian-Str. 54. 4052 <b>Basel</b>
 
   # OS Techlab Page
-  ostechlabPageTitle: OS Techlabs
+  ostechlabPageTitle: OS Techlab
   ostechlabPageIntro: Mit einer Container Plattform ändert sich die Art, wie wir Software entwickeln, ausliefern und betreiben. Puzzle stellt OpenShift 4 - die Container Plattform von Red Hat - in einem Techlab vor.
 
   ostechTargetTitle: Lernziele
@@ -791,11 +791,12 @@ de:
   ostechDateTitle: Daten
   ostechDateList: |-
     <li>Do. 30.07.2020 (remote)</li>
+    <li>Do. 10.09.2020 in Basel</li>
 
   ostechTimeTitle: Zeit
   ostechTimeDesc: 14.00-17.00 Uhr
   ostechLocationTitle: Ort
-  ostechLocationDesc: Belpstrasse 37, 3007 Bern oder Limmatstrasse 214, 8005 Zürich
+  ostechLocationDesc: Belpstr. 37, 3007 <b>Bern</b>,<br>Limmatstr. 214, 8005 <b>Zürich</b>,<br>Peter Merian-Str. 54. 4052 <b>Basel</b>
 
   # Team Page
   teamPageTitle: Team

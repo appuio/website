@@ -612,13 +612,13 @@ en:
   ammtechLabsList: |-
     <li>Containerization of an application to Best Practices</li>
     <li>Build and deploy an application on OpenShift</li>
-    <li>CI/CD (1.5h)</li>
+    <li>CI/CD</li>
     <ul>
       <li>CI/CD using various examples of best practices</li>
       <li>OpenShift Pipelines</li>
       <li>GitOps</li>
     </ul>
-    <li>Operating aspects (1h)</li>
+    <li>Operating aspects</li>
     <ul>
       <li>Requests and limits</li>
       <li>Monitoring and Application Metrics</li>
@@ -649,10 +649,10 @@ en:
   ammtechTimeTitle: Time
   ammtechTimeDesc: 09.00-17.00 Uhr
   ammtechLocationTitle: Location (unless remote)
-  ammtechLocationDesc: Belpstrasse 37, 3007 Bern or Limmatstrasse 214, 8005 Zürich
+  ammtechLocationDesc: Belpstr. 37, 3007 <b>Bern</b>,<br>Limmatstr. 214, 8005 <b>Zürich</b>,<br>Peter Merian-Str. 54. 4052 <b>Basel</b>
 
   # OS Techlab Page
-  ostechlabPageTitle: OS Techlabs
+  ostechlabPageTitle: OS Techlab
   ostechlabPageIntro: A container platform changes the way we develop, deliver and operate software. Puzzle presents OpenShift 4 - the container platform from Red Hat - in a Techlab.
 
   ostechTargetTitle: Learning Objectives
@@ -709,11 +709,12 @@ en:
   ostechDateTitle: Dates
   ostechDateList: |-
     <li>Th. 30.07.2020 (remote)</li>
+    <li>Th. 10.09.2020 in Basel</li>
 
   ostechTimeTitle: Time
   ostechTimeDesc: 14.00-17.00 Uhr
-  ostechLocationTitle: Location (unless remote)
-  ostechLocationDesc: Belpstrasse 37, 3007 Bern or Limmatstrasse 214, 8005 Zürich
+  ostechLocationTitle: Location
+  ostechLocationDesc: Belpstr. 37, 3007 <b>Bern</b>,<br>Limmatstr. 214, 8005 <b>Zürich</b>,<br>Peter Merian-Str. 54. 4052 <b>Basel</b>
 
   # Team Page
   teamPageTitle: Team
