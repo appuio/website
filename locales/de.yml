@@ -730,7 +730,7 @@ de:
   ammtechTimeTitle: Zeit
   ammtechTimeDesc: 09.00-17.00 Uhr
   ammtechLocationTitle: Ort
-  ammtechLocationDesc: Belpstrasse 37, 3007 Bern oder Limmatstrasse 214, 8005 Zürich
+  ammtechLocationDesc: Belpstr. 37, 3007 <b>Bern</b>,<br>Limmatstr. 214, 8005 <b>Zürich</b>,<br>Peter Merian-Str. 54. 4052 <b>Basel</b>
 
   # OS Techlab Page
   ostechlabPageTitle: OS Techlabs
@@ -796,7 +796,7 @@ de:
   ostechTimeTitle: Zeit
   ostechTimeDesc: 14.00-17.00 Uhr
   ostechLocationTitle: Ort
-  ostechLocationDesc: Belpstrasse 37, 3007 Bern oder Limmatstrasse 214, 8005 Zürich
+  ostechLocationDesc: Belpstr. 37, 3007 <b>Bern</b>,<br>Limmatstr. 214, 8005 <b>Zürich</b>,<br>Peter Merian-Str. 54. 4052 <b>Basel</b>
 
   # Team Page
   teamPageTitle: Team

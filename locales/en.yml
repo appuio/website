@@ -649,7 +649,7 @@ en:
   ammtechTimeTitle: Time
   ammtechTimeDesc: 09.00-17.00 Uhr
   ammtechLocationTitle: Location (unless remote)
-  ammtechLocationDesc: Belpstrasse 37, 3007 Bern or Limmatstrasse 214, 8005 Zürich
+  ammtechLocationDesc: Belpstr. 37, 3007 <b>Bern</b>,<br>Limmatstr. 214, 8005 <b>Zürich</b>,<br>Peter Merian-Str. 54. 4052 <b>Basel</b>
 
   # OS Techlab Page
   ostechlabPageTitle: OS Techlabs
@@ -709,11 +709,12 @@ en:
   ostechDateTitle: Dates
   ostechDateList: |-
     <li>Th. 30.07.2020 (remote)</li>
+    <li>Th. 10.09.2020 in Basel</li>
 
   ostechTimeTitle: Time
   ostechTimeDesc: 14.00-17.00 Uhr
-  ostechLocationTitle: Location (unless remote)
-  ostechLocationDesc: Belpstrasse 37, 3007 Bern or Limmatstrasse 214, 8005 Zürich
+  ostechLocationTitle: Location
+  ostechLocationDesc: Belpstr. 37, 3007 <b>Bern</b>,<br>Limmatstr. 214, 8005 <b>Zürich</b>,<br>Peter Merian-Str. 54. 4052 <b>Basel</b>
 
   # Team Page
   teamPageTitle: Team
