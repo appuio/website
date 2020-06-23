@@ -1,5 +1,5 @@
 section.home-hero {
-  padding: 4rem 0;
+  padding: 2.25rem 0;
   margin-bottom: 0rem;
 }
 
@@ -8,23 +8,13 @@ section.section-price {
 }
 
 section.section-content {
-  margin: 6rem 0;
-  padding: 6rem 0;
   background: #15B0BF;
   color: #fff;
-  h3 {
-    margin-top: 0;
-  }
 }
 
 section.section-price {
-  margin-top: 6rem;
-  padding: 6rem 0;
   background: #adb5b9;
   color: #fff;
-  h3 {
-    margin-top: 0;
-  }
 }
 .techlab-boxes {
   display: flex;
@@ -40,4 +30,34 @@ section.section-price {
       font-size: rem-calc(24);
     }
   }
+}
+
+.ammtechlab,
+.ostechlab {
+  section {
+    margin: 2.25rem 0;
+    padding: 2.25rem 0;
+    h3 {
+      margin-top: 0;
+    }
+  }
+
+  .section-audience,
+  .section-requirements {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .section-target,
+  .section-language {
+    margin-top: 0;
+    padding-top: 0;
+    h3 {
+      margin-top: 1em;
+    }
+  }
+
+  .section-price {
+    margin-bottom: 0;
+  }
+
 }
