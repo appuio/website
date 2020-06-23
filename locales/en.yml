@@ -612,13 +612,13 @@ en:
   ammtechLabsList: |-
     <li>Containerization of an application to Best Practices</li>
     <li>Build and deploy an application on OpenShift</li>
-    <li>CI/CD (1.5h)</li>
+    <li>CI/CD</li>
     <ul>
       <li>CI/CD using various examples of best practices</li>
       <li>OpenShift Pipelines</li>
       <li>GitOps</li>
     </ul>
-    <li>Operating aspects (1h)</li>
+    <li>Operating aspects</li>
     <ul>
       <li>Requests and limits</li>
       <li>Monitoring and Application Metrics</li>
