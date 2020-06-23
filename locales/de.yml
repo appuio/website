@@ -167,12 +167,8 @@ de:
   homeTechnologiesTitle: Technologien
   homeTechnologiesDescriptionOne: Mit APPUiO erstellst du neue Umgebungen per Knopfdruck. Es stehen eine Vielzahl an Technologien und Plattformen "out of the Box" zur Verfügung. Docker als Grundtechnologie hinter APPUiO bringt ein ganzes Ökosystem an zusätzlichen Laufzeitumgebungen und Frameworks mit.
 
-
   homeTechnologiesOneTitle: Kubernetes
   homeTechnologiesOneDesc: Auf APPUiO kannst du Container mit Kubernetes von Google orchestrieren und managen. Du definierst wie viele Instanzen deiner Applikation parallel laufen sollen, Kubernetes kümmert sich um die Skalierung, das Loadbalancing und die Stabilität.
-
-  ## homeTechnologiesOneTitle: OpenShift
-  ## homeTechnologiesOneDesc: APPUiO basiert auf der OpenShift Container-Plattform von Red Hat , einer Software für die Entwicklung und den Betrieb von Containern. OpenShift kombiniert Docker und Kubernetes in einer Plattform und bietet viele zusätzliche Features, die den Betrieb von Containern vereinfachen und dadurch die IT revolutionieren.
 
   homeTechnologiesTwoTitle: Docker
   homeTechnologiesTwoDesc: Docker ist die offene Plattform für Entwickler und Sysadmins und ihre Applikationen. Wähle mit APPUiO das für deine Technologie passende Basis-Docker-Image aus. OpenShift baut für dich nach jedem Build automatisch einen aktualisierten Docker-Container und deployt ihn auf Wunsch auch gleich.
