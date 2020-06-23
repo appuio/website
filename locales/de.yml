@@ -1,7 +1,7 @@
 ---
 # Translate comfortably with https://weblate.appuio.ch/
 de:
-  metaDescription: APPUiO - die Schweizer Container Plattform mit einer starken Community. Betreibe deinen Container Workload auf APPUiO.
+  metaDescription: APPUiO - die Schweizer Container-Plattform mit einer starken Community. Betreibe deinen Container Workload auf APPUiO.
   metaKeywords: OpenShift, container runtime, Container Platform, Cluster, PaaS, Platform as a Service, Docker, Kubernetes, Swiss, Switzerland, VSHN AG, Puzzle ITC GmbH
 
   # Globale Navigation
@@ -20,6 +20,8 @@ de:
   navContact: Kontakt
   navFAQ: FAQ
   navTechlabs: Techlabs
+  navOstechlab: OS Techlab
+  navAmmtechlab: AMM Techlab
   partner: Partner
   team: Team
   behindAppuio: Story behind APPUiO
@@ -56,10 +58,10 @@ de:
   homeAdvantagesThreeTitle: Einheitlich und offen
   homeAdvantagesThreeDesc: Die Entwicklungsumgebung sieht auf deinem Laptop anders aus als die Produktionsumgebung? Mit APPUiO sind deine Umgebungen standardisiert. Offene Standards und OpenSource sind die Basis unserer Plattform.
   homeAdvantagesFourTitle: Selfservice
-  homeAdvantagesFourDesc: Du kannst dir deine Plattform per Knopfdruck bestellen und direkt nutzen. Dabei bist du unabhängig von anderen Teams/Personen und geniesst die volle Kontrolle. Starte jetzt gleich mit deiner Container Platform!
+  homeAdvantagesFourDesc: Du kannst dir deine Plattform per Knopfdruck bestellen und direkt nutzen. Dabei bist du unabhängig von anderen Teams/Personen und geniesst die volle Kontrolle. Starte jetzt gleich mit deiner Container-Platform!
   homeAdvantagesFiveTitle: Hohe Sicherheit
   homeAdvantagesFiveDesc: APPUiO nutzt SELinux, Let’s Encrypt und bietet Federation Authentication (LDAP Anbindung). Die Daten der Public Platform werden in ISO-zertifizierten Rechenzentren in der Schweiz gehalten.
-  homeAdvantagesSixTitle: Kosten reduzieren
+  homeAdvantagesSixTitle: Kostenersparnis
   homeAdvantagesSixDesc: Wenn du APPUiO nutzt, entstehen keine internen Kosten für ein Setup einer Plattform oder den Aufbau von Know-how. Die Kosten sind stets transparent und du kannst sie jederzeit über das Portal kontrollieren und anpassen.
 
   # Home: Feature Section
@@ -81,7 +83,7 @@ de:
   homeFeatureOpenSourceDesc: OpenShift, Docker, Kubernetes und weitere Komponenten hinter APPUiO sind Open Source. Diese Offenheit wollen wir übernehmen, indem wir Dokumentationen zu APPUiO der Community zur Verfügung stellen. Die quelloffene Software, die Anwendung offener Standards sowie die frei zugängliche Dokumentation garantieren Ihnen die grösstmögliche Anbieterunabhängigkeit und bewahren Sie vor einem Vendor Lock-in. Weitere Informationen zum Open Source Projekt hinter OpenShift finden Sie auf <a target="_new" href="https://www.openshift.org">openshift.org</a>.
   homeFeatureAddonsTitle: Add-ons
   homeFeatureAddonsDesc: |-
-    Wir verbessern APPUiO kontinuierlich und entwickeln neue Features. Diese Erweiterungen stellen wir in Form von Add Ons allen Kunden zur Verfügung und helfen bei der Integration. Aktuell stehen folgende Add Ons zur Verfügung:
+    Wir verbessern APPUiO kontinuierlich und entwickeln neue Features. Diese Erweiterungen stellen wir in Form von Add-ons allen Kunden zur Verfügung und helfen bei der Integration. Aktuell stehen folgende Add-ons zur Verfügung:
       <div class="home-table-usps">
         <ul>
           <li>Backup, Monitoring, Logging der Applikation</li>
@@ -102,7 +104,7 @@ de:
   # Home: Angebotsbereich
   homeOfferTitle: Angebot
   homeOfferOneTitle: Managed
-  homeOfferOneDesc: Du willst eine private Container-Plattform in der Cloud deiner Wahl oder On-Premise und nichts mit dem Setup und Betrieb zu tun haben?
+  homeOfferOneDesc: Du willst eine private Container-Plattform in der Cloud deiner Wahl oder On-Premises und nichts mit dem Setup und Betrieb zu tun haben?
   homeOfferOneButton: Details
   homeOfferTwoTitle: Public
   homeOfferTwoDesc: Du willst in kürzester Zeit deine produktiven Applikationen in eine Cloud deployen?
@@ -141,7 +143,7 @@ de:
   homeTableSubject12: How to dev on APPUiO
 
   # Home: Clients
-  homeClientsTitle: Unsere Kunden
+  homeClientsTitle: Was Kunden über APPUiO sagen
   homeClientsOneTitle: „Mit APPUiO haben wir OpenShift-Experten, die uns mit ihrer langjährigen Erfahrung jederzeit unterstützen.“
   homeClientsOneDesc: Matthias Summer, System Engineer <b>@Adcubum AG</b>
   homeClientsOneButton: Mehr
@@ -165,8 +167,13 @@ de:
   homeTechnologiesTitle: Technologien
   homeTechnologiesDescriptionOne: Mit APPUiO erstellst du neue Umgebungen per Knopfdruck. Es stehen eine Vielzahl an Technologien und Plattformen "out of the Box" zur Verfügung. Docker als Grundtechnologie hinter APPUiO bringt ein ganzes Ökosystem an zusätzlichen Laufzeitumgebungen und Frameworks mit.
 
+
   homeTechnologiesOneTitle: Kubernetes
   homeTechnologiesOneDesc: Auf APPUiO kannst du Container mit Kubernetes von Google orchestrieren und managen. Du definierst wie viele Instanzen deiner Applikation parallel laufen sollen, Kubernetes kümmert sich um die Skalierung, das Loadbalancing und die Stabilität.
+
+  ## homeTechnologiesOneTitle: OpenShift
+  ## homeTechnologiesOneDesc: APPUiO basiert auf der OpenShift Container-Plattform von Red Hat , einer Software für die Entwicklung und den Betrieb von Containern. OpenShift kombiniert Docker und Kubernetes in einer Plattform und bietet viele zusätzliche Features, die den Betrieb von Containern vereinfachen und dadurch die IT revolutionieren.
+
   homeTechnologiesTwoTitle: Docker
   homeTechnologiesTwoDesc: Docker ist die offene Plattform für Entwickler und Sysadmins und ihre Applikationen. Wähle mit APPUiO das für deine Technologie passende Basis-Docker-Image aus. OpenShift baut für dich nach jedem Build automatisch einen aktualisierten Docker-Container und deployt ihn auf Wunsch auch gleich.
 
@@ -235,7 +242,7 @@ de:
 
   # Offer One: Im Angebot enthalten
   offerOnePackageContentsTitle: Im Angebot enthalten
-  offerOnePackageContentsIntro: Mit APPUiO Managed erhältst du deinen eigenen Managed Private Cluster in der Cloud deiner Wahl oder On-Premise und überlässt den Betrieb den Profis. Durch die Open Source Technologien Kubernetes und Docker lässt sich APPUiO leicht in bestehende Umgebungen integrieren. APPUiO erhöht die Geschwindigkeit durch kürzere Lifecycles, Automatisierung & Self-Service. Mit APPUiO Managed kannst du dich voll und ganz auf dein Business - die Applikation - konzentrieren.
+  offerOnePackageContentsIntro: Mit APPUiO Managed erhältst du deinen eigenen Managed Private Cluster in der Cloud deiner Wahl oder On-Premises und überlässt den Betrieb den Profis. Durch die Open Source Technologien Kubernetes und Docker lässt sich APPUiO leicht in bestehende Umgebungen integrieren. APPUiO erhöht die Geschwindigkeit durch kürzere Lifecycles, Automatisierung & Self-Service. Mit APPUiO Managed kannst du dich voll und ganz auf dein Business - die Applikation - konzentrieren.
   offerOnePackageContentsTitleFirstTitle: APPUiO Managed
   offerOnePackageContentsTitleFirstItemOne: OpenShift as a Service mit vielen zusätzlichen Managed Services.
   offerOnePackageContentsTitleSecondTitle: Basis für DevOps
@@ -525,7 +532,7 @@ de:
 
   # Offer3: Self Managed APPUiO
   offerThreeTitle: Self Managed
-  offerThreeIntro: Möchtest du selber eine Container Plattform bauen, dir fehlt aber das nötige Wissen oder die Zeit? Wir helfen dir von der Planung, über den Aufbau bis hin zum Betrieb. Auch euren Entwicklern zeigen wir gerne wie eine Container Plattform am besten genutzt wird.
+  offerThreeIntro: Möchtest du selber eine Container-Plattform bauen, dir fehlt aber das nötige Wissen oder die Zeit? Wir helfen dir von der Planung, über den Aufbau bis hin zum Betrieb. Auch euren Entwicklern zeigen wir gerne wie eine Container-Plattform am besten genutzt wird.
   offerThreeServicesTitle: Offene Komponenten und -Schnittstellen ermöglichen die Integration in komplexe, bestehende Infrastrukturen.
   offerThreeServicesDesc: Die Flexibiltät von APPUiO erlaubt die Integration in komplexe, bestehende Infrastrukturen. Hier eine Liste möglicher Integrationspunkte, welche durch APPUiO resp. OpenShift abgedeckt werden können.
   offerThreeServices1: APPUiO läuft auf Red Hat Enterprise Linux (RHEL) 7 (bare metal, virtuell, Cloud)
@@ -673,42 +680,134 @@ de:
   # Blog
   readMoreButton: weiterlesen
 
-  # Techlab Page
-  techlabPageTitle: Techlabs
-  techlabTitle: APPUiO & OpenShift 4.3 Techlabs in Bern & Zürich
-    <p><strong><u>Aufgrund der aktuellen Lage führen wir die Techlabs virtuell durch.</u></strong></p>
+  # AMM Techlab Page
+  ammtechlabPageTitle: Application Migration and Modernization on APPUiO / OpenShift Techlab
+  ammtechlabPageIntro: Im "Application Migration and Modernization Techlab” lernen die Teilnehmenden anhand Präsentationen und Hands-on Labs, wie sie Applikationen in ihrer Systemlandschaft auf die neue Container Plattform bringen. Es wird aufgezeigt, welche architektonischen Grundprinzipien beachtet werden müssen, damit die Flexibilität und die Features der Container Plattform wirklich ausgereizt werden können. Anhand eines Kriterienkatalog lernen sie zudem die unterschiedlichen Migrationsarten kennen.
 
-  techlabSubtitle: Mit einer Container Plattform ändert sich die Art, wie wir Software entwickeln. Puzzle stellt OpenShift V4.3 - die Container Plattform von Red Hat - in einem Techlab vor.
-  techlabDetails: |-
-    <p>Die Teilnehmer lernen dabei&nbsp;hands-on die wichtigsten Schritte, wie eine Applikation in die Cloud gebracht wird und wie Container auf einer PaaS deployed und betrieben&nbsp;werden können.</p>
-    <p>Mit OpenShift werden IT-Prozesse automatisiert und die Bereitstellung&nbsp;von IT-Services gestrafft. Im Techlab erwarten dich folgende Themen:</p>
-    <p><strong>Hands on Workshop</strong></p>
+  ammtechTargetTitle: Lernziele
+  ammtechTargetList: |-
+    <li>Kennen die grundlegenden Kriterien, die zu beachten sind, um eine Applikation auf eine Container Plattform zu migrieren und zu deployen.</li>
+    <li>Lernen erweiterte Kubernetes resp. OpenShift Konzepte kennen, welche zum Betrieb von Applikationen auf OpenShift nötig sind.</li>
+    <li>Architektonische Best Practices für containerisierte Applikationen werden vermittelt</li>
+
+  ammtechContentTitle: Inhalt
+  ammtechContentDesc: Gemeinsam mit dem Teacher wird, anhand einer Mischung aus Präsentation und Hands-on Labs, folgender Inhalt behandelt.
+
+  ammtechPresentationTitle: Präsentation
+  ammtechPresentationList: |-
+    <li>Kurze Einführung von OpenShift und Container</li>
+    <li>Migrationsarten aufzeigen (Kriterienkatalog)</li>
+    <li>12 Factor Apps und Best Practices für moderne Applikationen</li>
+    <li>Was muss besonders beachtet werden, wenn Workload auf eine Container Plattform migriert wird?</li>
+
+  ammtechLabsTitle: Labs
+  ammtechLabsList: |-
+    <li>Containerisierung einer Applikation an Best Practices</li>
+    <li>Builden und deployen einer Applikation auf OpenShift</li>
+    <li>CI/CD</li>
     <ul>
-    <li>Einrichten CLI</li>
-    <li>Quicktour durch OpenShift V4.3</li>
-    <li>Unterschiede von OpenShift 3.11 zu 4.3</li>
-    <li>Die erste Applikation deployen</li>
-    <li>Advanced CLI Commands</li>
+      <li>CI/CD anhand von verschiedenen Beispielen von Best Practices</li>
+      <li>OpenShift Pipelines</li>
+      <li>GitOps</li>
+    </ul>
+    <li>Betriebsaspekte</li>
+    <ul>
+      <li>Requests and Limits</li>
+      <li>Monitoring und Application Metrics</li>
+      <li>Autoscaling</li>
+      <li>Backup</li>
+      <li>Cron Jobs</li>
+      <li>Debugging</li>
+    </ul>
+
+  ammtechTargetAudienceTitle: Zielpublikum
+  ammtechTargetAudienceDesc: Das Techlab richtet sich an OpenShift und Kubernetes Engineers mit Entwickler-Fokus. Grundlegende Kenntnisse im Bereich Container Plattform sollten vorhanden sein. Dieses Techlab baut auf dem <a href="https://appuio.ch/techlabs.html">OS Techlab</a> auf.
+
+  ammtechRequirementsTitle: Voraussetzungen
+  ammtechRequirementsDesc: Alle Teilnehmenden benötigen für die Schulung einen Laptop (Dual-Core Prozessor, mind. 2GB RAM) mit Admin-Rechten (wird für Container und Kubernetes Installation benötigt). Eine vorgängige Installation von `oc-tool` wird empfohlen.
+
+  ammtechLanguageTitle: Sprache
+  ammtechLanguageDesc: Das Techlab findet in Englisch statt.
+
+  ammtechPriceTitle: Kosten und Rahmenbedingungen
+  ammtechPriceDesc: Das ganztägige Application Migration and Modernization on APPUiO / OpenShift Techlab ist kostenlos.
+
+  ammtechDateTitle: Daten
+  ammtechDateList: |-
+    <li><a href="https://app.hatchbuck.com/OnlineForm/93633620212">Mi. 22.07.2020 in Bern</a></li>
+    <li><a href="https://app.hatchbuck.com/OnlineForm/93633620214">Do. 24.09.2020 in Bern</a></li>
+    <li><a href="https://app.hatchbuck.com/OnlineForm/93633620215">Mi. 21.10.2020 in Zürich</a></li>
+
+  ammtechTimeTitle: Zeit
+  ammtechTimeDesc: 09.00-17.00 Uhr
+  ammtechLocationTitle: Ort
+  ammtechLocationDesc: Belpstr. 37, 3007 <b>Bern</b>,<br>Limmatstr. 214, 8005 <b>Zürich</b>,<br>Peter Merian-Str. 54. 4052 <b>Basel</b>
+
+  # OS Techlab Page
+  ostechlabPageTitle: OS Techlab
+  ostechlabPageIntro: Mit einer Container Plattform ändert sich die Art, wie wir Software entwickeln, ausliefern und betreiben. Puzzle stellt OpenShift 4 - die Container Plattform von Red Hat - in einem Techlab vor.
+
+  ostechTargetTitle: Lernziele
+  ostechTargetList: |-
+    <li>Funktionsweise von OpenShift und Kubernetes kennenlernen</li>
+    <li>Erste Erfahrungen auf OpenShift zu machen</li>
+    <li>Deployen einer ersten Applikation</li>
+
+  ostechContentTitle: Inhalte
+  ostechContentDesc: Im ersten Teil des Techlabs lernen die Teilnehmenden die wichtigsten Konzepte kennen, welche OpenShift zu Grunde liegen. Danach kann das Gelernte in den hands-on Labs direkt angewendet werden. Dabei werden erste Applikationen deployed und konfiguriert, um so die Möglichkeiten aufzuzeigen, welche OpenShift für Entwickler und Betreiber bereitstellt.
+
+  ostechPresentationTitle: Präsentation
+  ostechPresentationList: |-
+    <li>Containers</li>
+    <li>OpenShift</li>
+    <li>Architektur</li>
+    <li>Unterschiede zwischen OpenShift 3.11 und 4</li>
+    <li>Workshop</li>
+
+  ostechLabsTitle: Labs
+  ostechLabsList: |-
+    <li>Quicktour durch OpenShift 4</li>
+    <li>OpenShift CLI installieren</li>
+    <li>Erste Schritte auf der Lab Plattform</li>
+    <li>Ein Container Image deployen</li>
     <li>Routen erstellen</li>
-    <li>Skalieren von Applikationen</li>
-    <li>Datenbank deployen und anbinden</li>
+    <li>Skalieren</li>
+    <li>Troubleshooting</li>
+    <li>Datenbank deployen und anbindeng</li>
     <li>Code Änderungen via Webhook direkt integrieren</li>
     <li>Persistent Storage anbinden und verwenden für Datenbank</li>
     <li>Applikationstemplates</li>
-    <li>Operator Lab</li>
+    <li>Eigene Templates erstellen</li>
     </ul>
-    <p>Daten:</p>
+    <h4>Zusätzliche Labs</h4>
     <ul>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/93633619676">18. Juni 2020 findet remote statt!</a></li>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/93633619678">30. Juli 2020 findet remote statt!</a></li>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/93633620084">10. September 2020 in Basel</a></li>
-     </ul>
-    <p>Zeit: 14:00 bis 17:30 Uhr<br>
-    Ort: remote per Hangout Meet (Link wird kurz vor dem Techlab zugeschickt) oder Limmatstrasse 214, Zürich / Belpstrasse 37, Bern</p>
-    <p>Die Teilnahme ist kostenlos. Bitte bring für das Lab deinen Laptop mit. Die Platzzahl ist beschränkt.</p>
+    <li>Cron Jobs in OpenShift</li>
+    <li>ConfigMaps</li>
+    <li>Operators</li>
+    <li>Eigene OpenShift Entwicklungsumgebung</li>
 
-  techlabFeedback1: '"Ein super Einstieg ins Thema Container Management."'
-  techlabFeedbackAuthor1: von IT Facilitator der Energie Zukunft Schweiz AG
+
+  ostechTargetAudienceTitle: Zielpublikum
+  ostechTargetAudienceDesc: Das OpenShift Techlab richtet sich an alle, die verstehen möchten, wie eine containerisierte Applikation auf OpenShift deployed und betrieben werden kann.
+
+  ostechRequirementsTitle: Voraussetzungen
+  ostechRequirementsDesc: Alle Teilnehmenden benötigen für die Schulung einen Laptop (Dual-Core Prozessor, mind. 2GB RAM) mit Admin-Rechten (wird für Container und Kubernetes Installation benötigt).
+
+  ostechLanguageTitle: Sprache
+  ostechLanguageDesc: Die Präsentation kann auf Deutsch oder Englisch gehalten werden. Die Labs sind in Deutsch verfasst, Google Translate übersetzt sie aber gut verständlich.
+
+  ostechPriceTitle: Kosten und Rahmenbedingungen
+  ostechPriceDesc: Die Teilnahme ist kostenlos. Bitte bring für das Lab deinen Laptop mit. Die Platzzahl ist beschränkt.
+
+  ostechDateTitle: Daten
+  ostechDateList: |-
+    <li>Do. 30.07.2020 (remote)</li>
+    <li>Do. 10.09.2020 in Basel</li>
+
+  ostechTimeTitle: Zeit
+  ostechTimeDesc: 14.00-17.00 Uhr
+  ostechLocationTitle: Ort
+  ostechLocationDesc: Belpstr. 37, 3007 <b>Bern</b>,<br>Limmatstr. 214, 8005 <b>Zürich</b>,<br>Peter Merian-Str. 54. 4052 <b>Basel</b>
 
   # Team Page
   teamPageTitle: Team
@@ -727,7 +826,7 @@ de:
     8005 Zürich<br />
   dataPrivacyTitle: Datenschutz
   dataPrivacyText: |-
-    <p>Sie können grundsätzlich unsere Website besuchen, ohne dass Sie Angaben zu Ihrer Person machen müssen. Auf dieser Website werden mit Matomo, einem Open-Source Web-Analyse-Tool <a href="https://matomo.org/">(https://matomo.org/)</a>, Daten zu Marketing- und Optimierungszwecken gesammelt und gespeichert. Aus diesen Daten können unter einem Pseudonym Nutzungsprofile erstellt werden. Hierzu können Cookies eingesetzt werden. Bei Cookies handelt es sich um kleine Textdateien, die lokal im Zwischenspeicher des Internet-Browsers des Seitenbesuchers gespeichert werden. Die Cookies ermöglichen die Wiedererkennung des Internet-Browsers. Die mit Matomo erhobenen Daten werden ohne die gesondert erteilte Zustimmung des Betroffenen nicht dazu benutzt, den Besucher dieser Website persönlich zu identifizieren und auch nicht mit personenbezogenen Daten über den Träger des Pseudonyms zusammengeführt.</p>
+    <p>Sie können grundsätzlich unsere Website besuchen, ohne dass Sie Angaben zu Ihrer Person machen müssen. Auf dieser Website werden mit Matomo, einem Open Source Web-Analyse-Tool <a href="https://matomo.org/">(https://matomo.org/)</a>, Daten zu Marketing- und Optimierungszwecken gesammelt und gespeichert. Aus diesen Daten können unter einem Pseudonym Nutzungsprofile erstellt werden. Hierzu können Cookies eingesetzt werden. Bei Cookies handelt es sich um kleine Textdateien, die lokal im Zwischenspeicher des Internet-Browsers des Seitenbesuchers gespeichert werden. Die Cookies ermöglichen die Wiedererkennung des Internet-Browsers. Die mit Matomo erhobenen Daten werden ohne die gesondert erteilte Zustimmung des Betroffenen nicht dazu benutzt, den Besucher dieser Website persönlich zu identifizieren und auch nicht mit personenbezogenen Daten über den Träger des Pseudonyms zusammengeführt.</p>
     <iframe
         style="border: 0; height: 200px; width: 1000px;"
         src="https://matomo.puzzle.ch/index.php?module=CoreAdminHome&action=optOut&language=de&backgroundColor=002f47&fontColor=ffffff&fontSize=17px&fontFamily=lato"

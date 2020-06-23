@@ -37,16 +37,19 @@
 
 .home-hero-logo {
   position: absolute;
-  top: 38vw;
+  top: 27vw;
   left: 50px;
   right: 50px;
   margin: auto;
   width: 370px;
   max-width: 60%;
   z-index: 9;
+  @include susy-breakpoint($break-medium-small) {
+    top: 33vw;
+  }
   @include susy-breakpoint($break-medium) {
     max-width: none;
-    top: 34vw;
+    top: 28vw;
   }
   @include susy-breakpoint($break-large) {
     max-width: none;
@@ -110,6 +113,7 @@
 // ----------------------------------------------
 .home-offer {
   background-color: #15B0BF;
+  background-image: url('/images/clouds.svg');
   background-repeat: no-repeat;
   background-position: top right;
   padding: rem-calc(100 0);
@@ -169,6 +173,11 @@
     .callout-desc {
       min-height: auto;
       font-size: 1rem;
+    }
+
+    .callout-button {
+      margin-top: 2rem;
+      margin-bottom: 4rem;
     }
   }
 
@@ -338,7 +347,6 @@
 
   .icon {
     color: #5D9EC9;
-    transform: translateY(rem-calc(15));
   }
 }
 
@@ -346,10 +354,6 @@
   color: #4A4A4A;
   margin-top: rem-calc(28);
   font-size: rem-calc(12);
-
-  .icon {
-    transform: translateY(rem-calc(5));
-  }
 }
 
 

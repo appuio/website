@@ -1,3 +1,58 @@
+- day: 23
+  month: Jun
+  title: "New: Partnership with Rancher"
+  subtitle: |
+            <img src="/images/blogposts/Rancher_Partnerschaft.png" alt="Rancher Partnerschaft"/>
+            With Rancher, we are adding another Kubernetes distribution to our portfolio in addition to Red Hat OpenShift. 
+  details: |
+               <p>The growing requirements and specific use cases of our customers can now be covered with different distributions. With APPUiO we are now in the position to include additional use cases and always offer our customers the optimal solution.</p>
+               <p><b>Rancher partnerships</b></p>
+               <p>Both companies behind APPUiO are rancher partners. Already for one year <a href="https://vshn.ch/">VSHN AG</a> maintains the partnership with Rancher. <a href="https://www.puzzle.ch/de/home">Puzzle ITC GmbH</a> has recently become a proud Platinum Partner. In order to use these synergies in the best possible way, we have decided to complete the common Open Container platform APPUiO with Rancher.</p>
+               <p>Together with some customers we could already evaluate the suitable container platform in a study. This resulted in follow-up projects in which we have built a Kubernetes platform based on Rancher. One project, for example, we were able to carry out with the <a href="https://www.puzzle.ch/referenzen/rancher-container-plattform-fuer-lichtenstein">Liechtenstein National Administration (LLV)</a>.</p>
+               <p><b>Rancher</b></p>
+               <p><a href="https://rancher.com/">Rancher Labs</a> is a California-based open source software company that helps manage Kubernetes. With Rancher it is possible to run Kubernetes on any infrastructure. Rancher has a Kubernetes distribution and a web-based multi-cluster management tool for operation. With the multi-cluster management tool you can administer your own and other Kubernetes distributions as well as managed Kubernetes offers such as those from Amazon, Google or Microsoft. Rancher provides companies with a fast and uncomplicated way into the world of container orchestration and offers a lot of flexibility when designing a container platform. Rancher's distribution is based on Vanilla Kubernetes and integrates further tools from the <a href="https://landscape.cncf.io/">CNCF landscape</a> such as monitoring, logging, service mesh etc.</p>
+               <p>The addition of a further distribution enables APPUiO to offer a diversified range of container solutions. Through a careful evaluation, we will help you decide which Kubernetes distribution is right for you and your business. <a href="mailto:hello@appuio.ch">Contact</a> us and we will meet for a coffee.</p>
+               
+
+- day: 16
+  month: Jun
+  title: "Productive workload with OpenShift 4"
+  subtitle: |
+            <img src="/images/blogposts/Produktiver_Workload.png" alt="Produktiver Workload"/>
+            Almost a year after the initial release of OpenShift 4, we believe the OpenShift Container Platform (OCP) version 4.4 is ready for productive workloads.
+  details: |
+               <p>Our experience has shown that it made sense to wait with upgrades - or in the case of OpenShift 4 with migrations - until all the initial issues of the new major release were resolved. Therefore, since the first release 4.1 we have put all OpenShift versions through their paces and checked their maturity level. Right at the beginning we wrote a <a href="https://appuio.ch/blog.html#2019-Aug-29">blog post</a> about the essential differences to version 3. Subsequently, VSHN and Puzzle, the companies behind APPUiO, gained experience with the new versions. For example, some engineers from VSHN spent a week dedicated to testing the latest version on their <a href="https://www.appuio.ch/managed-private.html">managed platform</a>. At Puzzle, experience was gained during a <a href="https://appuio.ch/blog.html#2020-Jan-30">mid-week</a> (a "project week" of the middleware team) on how best to support customers with <a href="https://www.appuio.ch/unmanaged.html">self-managed platforms</a>. We shared this experience with our community at our last APPUiO BeerUp.</p>
+               <p><b>Advantages of switching to OpenShift 4</b></p>
+               <p>From our point of view, the latest OpenShift version brings many advantages for both the operator and the user.</p>
+               <p>Meanwhile, the level of maturity of the newly appointed operators leaves little to be desired. For the operation of a cluster, updates are on the one hand much faster and on the other hand much easier and more stable. This also simplifies operations, as operators can react to changes and correct them if necessary. Operators are a new concept also for the operation of applications as users of OpenShift. This new world of course requires a training period until debugging feels as easy as it used to be for deployments.</p>
+               <p>The switch from Docker to Buildah for container builds now allows to build container images in a more secure way. This is a welcome innovation for all multitenant clusters such as public platform providers and corporate clusters with multiple users. With the introduction of the OpenShift Service Mesh, developers in particular will gain new insight and new possibilities to visualize, secure and optimize the communication of their applications.</p>
+               <p>A list of the <a href="https://docs.openshift.com/container-platform/4.4/release_notes/ocp-4-4-release-notes.html">latest features</a> can be found here.</p>
+               <p><b>Self Managed</b></p>
+               <p>If the customer chooses our Self Managed product, we help him to set up the container platform, pass on our know-how and provide support in engineering and automating deployments (CI/CD).</p>
+               <p>We have already set up various OpenShift 4.3 and 4.4 platforms, whether for an public administration in Basel or an authority in Bern. We have also performed first migrations from OpenShift 3.11 to 4.3. Because there is no upgrade path, a new cluster must be built and the workload migrated. We have also already been able to implement this for various customers, e.g. <a href="https://www.puzzle.ch/referenzen/openshift-plattform-fuer-die-bls-ag">BLS</a>.</p>
+               <p><b>Managed</b></p>
+               <p>If the customer decides in favour of our Managed product, we take over the setup and additionally the operation of the container platform. In order to ensure that operations run smoothly and are automated to a large extent, a wide variety of processes must be adapted and automated. The platform must first be accurately tested. Because this takes some time, the roadmap for managed clusters is as follows, depending on the infrastructure:</p>
+               <div style="padding-left: 30px;">▸ Google GCP Q2 2020</div>
+               <div style="padding-left: 30px;">▸ cloudscale.ch Q3 2020</div>
+               <div style="padding-left: 30px;">▸ Azure Q3 2020</div>
+               <div style="padding-left: 30px;">▸ AWS Q3 2020</div>
+               <div style="padding-left: 30px;">▸ Exoscale Q4 2020</div>
+               <div style="padding-left: 30px;">▸ VMware Q4 2020</div>
+               <div style="padding-left: 30px;">▸ Hyper-V Q4 2020</div>
+               <p><b>Public</b></p>
+               <p>For our Public product, which is dependent on the automated processes and testing of the Managed product, there will be a beta program in Q3. Customers are welcome to participate. You get early access to the OpenShift 4 platform and can test your applications on it. If you are interested in OpenShift 4, you can register for the Early Access Program here.</p>            
+               <!--[if lte IE 8]> <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/v2-legacy.js"></script> <![endif]-->
+               <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/v2.js"></script>
+               <script>
+               hbspt.forms.create({
+               portalId: "7105834",
+               formId: "e440b5d4-1d8f-481a-8dc3-3a73368701ac"
+               });
+               </script>
+               <p><b>Trainings and Techlabs</b></p>
+               <p>Of course our <a href="https://appuio.ch/blog.html#2020-Mar-18">APPUiO Techlab also runs on the new OpenShift version</a>. If you would like to learn more about OpenShift 4 and Operators in an afternoon, please <a href="https://appuio.ch/techlabs.html">register here</a>. Starting this summer, we will be conducting another Techlab, the Application Migration and Modernization (AMM) Techlab. It shows you how to bring applications from your system landscape onto the new container platform. Furthermore our training material for the Operations and the Apps on OpenShift training is on the latest OpenShift version.</p>
+               <p>Do you need support with your platform or would you like to build a new platform? Get in touch with us and we will have a coffee or a beer together (can also be done remotely). Please contact us on <a href="mailto:hello@appuio.ch">hello@appuio.ch</a>.</p>
+
 - day: 28
   month: Mai
   title: "Das Amt für Informatik & Organisation und APPUiO"

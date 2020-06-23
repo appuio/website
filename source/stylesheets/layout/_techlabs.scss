@@ -1,0 +1,63 @@
+section.home-hero {
+  padding: 2.25rem 0;
+  margin-bottom: 0rem;
+}
+
+section.section-price {
+  padding-bottom: 5rem;
+}
+
+section.section-content {
+  background: #15B0BF;
+  color: #fff;
+}
+
+section.section-price {
+  background: #adb5b9;
+  color: #fff;
+}
+.techlab-boxes {
+  display: flex;
+  > div {
+    background: #fff;
+    color: #012F47;
+    padding: 1rem;
+    margin: 1rem 0.5rem;
+    flex: 1;
+    h4 {
+      margin: 0 0 0.5rem 0;
+      font-weight: normal;
+      font-size: rem-calc(24);
+    }
+  }
+}
+
+.ammtechlab,
+.ostechlab {
+  section {
+    margin: 2.25rem 0;
+    padding: 2.25rem 0;
+    h3 {
+      margin-top: 0;
+    }
+  }
+
+  .section-audience,
+  .section-requirements {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .section-target,
+  .section-language {
+    margin-top: 0;
+    padding-top: 0;
+    h3 {
+      margin-top: 1em;
+    }
+  }
+
+  .section-price {
+    margin-bottom: 0;
+  }
+
+}

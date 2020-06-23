@@ -265,6 +265,7 @@ Responsive hotizontal menu.
   @include reset-list;
   display: flex;
   flex-flow: row wrap;
+  align-items: center;
   padding: 0;
   @include susy-breakpoint($nav-break-collapse) {
     .for-mobile {
