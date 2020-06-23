@@ -652,7 +652,7 @@ en:
   ammtechLocationDesc: Belpstr. 37, 3007 <b>Bern</b>,<br>Limmatstr. 214, 8005 <b>Zürich</b>,<br>Peter Merian-Str. 54. 4052 <b>Basel</b>
 
   # OS Techlab Page
-  ostechlabPageTitle: OS Techlabs
+  ostechlabPageTitle: OS Techlab
   ostechlabPageIntro: A container platform changes the way we develop, deliver and operate software. Puzzle presents OpenShift 4 - the container platform from Red Hat - in a Techlab.
 
   ostechTargetTitle: Learning Objectives
