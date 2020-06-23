@@ -670,7 +670,7 @@ de:
   readMoreButton: weiterlesen
 
   # AMM Techlab Page
-  ammtechlabPageTitle: Application Migration and Modernization on APPUiO / OpenShift Techlab
+  ammtechlabPageTitle: Application Migration and Modernization on APPUiO / OpenShift Techlabs
   ammtechlabPageIntro: Im "Application Migration and Modernization Techlab” lernen die Teilnehmenden anhand Präsentationen und Hands-on Labs, wie sie Applikationen in ihrer Systemlandschaft auf die neue Container Plattform bringen. Es wird aufgezeigt, welche architektonischen Grundprinzipien beachtet werden müssen, damit die Flexibilität und die Features der Container Plattform wirklich ausgereizt werden können. Anhand eines Kriterienkatalog lernen sie zudem die unterschiedlichen Migrationsarten kennen.
 
   ammtechTargetTitle: Lernziele
@@ -791,6 +791,7 @@ de:
   ostechDateTitle: Daten
   ostechDateList: |-
     <li>Do. 30.07.2020 (remote)</li>
+    <li>Do. 10.09.2020 in Basel</li>
 
   ostechTimeTitle: Zeit
   ostechTimeDesc: 14.00-17.00 Uhr
