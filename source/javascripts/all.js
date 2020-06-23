@@ -586,9 +586,9 @@
             y: 0
         }, 0);
 
-    tl.to(".cls-93", duration * 2, {
-        x: -250
-    }, 0);
+    // tl.to(".cls-93", duration * 2, {
+    //     x: -250
+    // }, 0);
     tl.to("#ad_ons", duration, {
         x: -80,
         y: -40,
@@ -599,6 +599,14 @@
     tl.to("#kran_container, #kran_haken", duration / 2, {
         y: -18,
         x: +20,
+        ease: Power1.easeInOut,
+        repeat: -1,
+        yoyo: true
+    }, 0);
+    
+    tl.to("#Ballon", duration/2.2, {
+        rotation: 8,
+        transformOrigin:"center bottom",
         ease: Power1.easeInOut,
         repeat: -1,
         yoyo: true
