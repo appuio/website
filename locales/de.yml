@@ -45,10 +45,7 @@ de:
   homeHeroSignup: Mehr zu APPUiO Public
   homeHeroRegister: Code einlösen
   homeHeroDesc: |-
-    APPUiO ist die führende, auf Kubernetes basierende, Container-Plattform im Design, Entwicklung und Betrieb von Applikationen. 
-    Auf Basis bewährter Open-Source-Konzepten wie Docker und Kubernetes unterstützt APPUiO den DevOps Ansatz. 
-    So werden Entwicklung, Deployment und Betriebsprozesse durch Automatisierung und Self-Service beschleunigt. 
-    Ebenso wird die Zusammenarbeit zwischen Software-Entwicklern und Betriebsorganisation verbessert.
+    APPUiO ist die führende, auf Kubernetes basierende Container-Plattform für das Design, die Entwicklung und den Betrieb von Applikationen. Auf Basis bewährter Open-Source-Konzepte wie Docker und Kubernetes unterstützt APPUiO den DevOps-Ansatz. So werden Entwicklung, Deployment und Betriebsprozesse durch Automatisierung und Self-Service beschleunigt. Ebenso wird die Zusammenarbeit zwischen Software-Entwicklern und Betriebsorganisation verbessert.
 
   # Home: Vorteile
   homeAdvantagesTitle: Wieso APPUiO?
@@ -157,12 +154,12 @@ de:
 
   # Home: Distributions sections
   homeDistributionsTitle: Distributionen
-  homeDistributionsDescriptionOne: APPUiO bietet zwei etablierte Kubernetes-Distributionen an, welche ihre Anforderung an eine Container-Orchestrierungs-Plattform optimal abdecken. Beide Distributionen bieten nebst den bekannten Kubernetes Features, viele weitere Features, die durch Integration und Kombination von Cloud-Native Produkten ergänzt worden sind. Durch eine sorgfältige Evaluation begleitet APPUiO die Kunden bei der Entscheidung der geeigneten Distribution.
+  homeDistributionsDescriptionOne: APPUiO bietet zwei etablierte Kubernetes-Distributionen, die verschiedene Anforderungen an eine Container-Orchestrierungs-Plattform optimal abdecken. Beide Distributionen bieten nebst den bekannten Kubernetes-Features zusätzliche Funktionen und Tools, die durch die Integration und Kombination von Cloud-Native Produkten ergänzt wurden. Durch eine sorgfältige Evaluation begleitet dich APPUiO bei der Entscheidung, welche der Kubernetes-Distributionen die Richtige für dich ist.
 
   homeDistributionsOneTitle: OpenShift
-  homeDistributionsOneDesc: Der Fokus von Red Hat OpenShift liegt auf einer Full-Stack Kubernetes-Plattform. Die Plattform bietet einen wichtigen Support, welcher sich vom Betriebssystem über die Container Plattform bis hin zu Middlware Applikationen erstreckt. Im OpenShift Ökosystem befinden sich bereits viele selektierte Tools, die bei der Software-Entwicklung helfen.
+  homeDistributionsOneDesc: Der Fokus von Red Hat OpenShift liegt auf einer Full-Stack Kubernetes-Plattform. Die Plattform bietet einen durchgängigen Enterprise Support vom Betriebssystem über die Container-Plattform bis hin zu Middleware-Applikationen. Im OpenShift-Ökosystem finden sich bereits viele Tools, die dich bei der Software-Entwicklung unterstützen.
   homeDistributionsTwoTitle: Rancher
-  homeDistributionsTwoDesc: Der Fokus von Rancher liegt im einfachen Betrieb von Kubernetes, das auf beliebiger Infrastruktur sowohl On-premises wie auch auf Cloud Plattformen funktioniert. Dazu hat Rancher Labs die Rancher Kubernetes Engine (RKE), ein CNCF-certified Kubernetes Distribution, entwickelt. Dies ergänzt Rancher mit einer zentralen Web- und API-basierten Multi-Cluster-Management Plattform. Durch die Integration von vielen bekannten Open Source Tools aus der CNCF Landschaft, beschleunigt Rancher ihre DevOps Transformation.
+  homeDistributionsTwoDesc: Der Fokus von Rancher liegt darin, den Betrieb von Kubernetes auf beliebiger Infrastruktur zu vereinfachen, sowohl On-Premises wie auch auf Cloud-Plattformen. Dazu hat Rancher Labs die Rancher Kubernetes Engine (RKE), eine CNCF-certified Kubernetes-Distribution, entwickelt. Rancher bietet eine zentrale Web- und API-basierte Multi-Cluster-Management Plattform.
 
   # Home: Technologies sections
   homeTechnologiesTitle: Technologien
