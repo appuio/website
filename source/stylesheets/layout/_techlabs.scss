@@ -13,7 +13,7 @@ section.section-content {
 }
 
 section.section-price {
-  background: #adb5b9;
+  background: #012F47;
   color: #fff;
 }
 .techlab-boxes {
@@ -29,6 +29,9 @@ section.section-price {
       font-weight: normal;
       font-size: rem-calc(24);
     }
+  }
+  p b {
+    vertical-align: top;
   }
 }
 
