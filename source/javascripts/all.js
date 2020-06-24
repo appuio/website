@@ -238,6 +238,10 @@
             const communityDropdown = document.getElementById("communityDropdown");
             communityDropdown.classList.remove('show');
         }
+        if (!e.target.matches('.dropbtn-techlabs') && !e.target.parentNode.matches('.dropbtn-techlabs')) {
+            const techlabsDropdown = document.getElementById("techlabsDropdown");
+            techlabsDropdown.classList.remove('show');
+        }
         if (!e.target.matches('.sidenav-button-offers') && !e.target.parentNode.matches('.sidenav-button-offers')) {
             var sidenavOffersDropdown = document.getElementById("sidenavOffersDropdown");
             sidenavOffersDropdown.classList.remove('show');
