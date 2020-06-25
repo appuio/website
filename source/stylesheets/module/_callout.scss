@@ -30,17 +30,24 @@
   }
   &.offer1-image {
     background: $color-blue url('/images/cards/card_managed_white_noText.svg') no-repeat;
-    background-size: 100%;
+    background-position: center center;
   }
   &.offer2-image {
     background: $color-blue url('/images/cards/card_public_white_noText.svg') no-repeat;
-    background-size: 100%;
+    background-position: center center;
   }
   &.offer3-image {
     background: $color-blue url('/images/cards/card_unmanaged_white_noText.svg') no-repeat;
-    background-size: 100%;
+    background-position: center center;
   }
+
   @include susy-breakpoint($break-large) {
+    &.offer1-image,
+    &.offer2-image,
+    &.offer3-image {
+      background-position: inherit;
+      background-size: 100%;
+    }
     flex: 1;
     margin-top: rem-calc(20);
     margin-left: rem-calc(60);
