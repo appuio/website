@@ -64,6 +64,8 @@ helpers EvilIcons::Helpers
 # redirect "/offers/", to: "/index.html"
 redirect "techlabs.html", to: "ostechlab.html"
 redirect "news.html", to: "blog.html"
+redirect "managed-private.html", to: "managed.html"
+redirect "unmanaged.html", to: "self-managed.html"
 
 
 ###

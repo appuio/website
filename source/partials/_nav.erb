@@ -6,15 +6,15 @@
 
   <div class="nav nav-main is-horizontal">
     <!-- offers dropdown -->
-    <div class="dropdown nav-element <%= parent_active('managed-private.html', 'public.html', 'unmanaged.html') %>">
+    <div class="dropdown nav-element <%= parent_active('managed.html', 'public.html', 'self-managed.html') %>">
       <button class="dropbtn dropbtn-offerings nav-button" id="navOfferingDropdown">
         <%= t(:navOffers) %>
         <i class="material-icons">arrow_drop_down</i>
       </button>
       <div class="dropdown-content dropdown-content-offerings" id="offeringDropdown">
         <a href="./public.html" class="nav-element-route <%= nav_active('public.html') %>"><%= t(:navOffer2) %></a>
-        <a href="./managed-private.html" class="nav-element-route <%= nav_active('managed-private.html') %>"><%= t(:navOffer1) %></a>
-        <a href="./unmanaged.html" class="nav-element-route <%= nav_active('unmanaged.html') %>"><%= t(:navOffer3) %></a>
+        <a href="./managed.html" class="nav-element-route <%= nav_active('managed.html') %>"><%= t(:navOffer1) %></a>
+        <a href="./self-managed.html" class="nav-element-route <%= nav_active('self-managed.html') %>"><%= t(:navOffer3) %></a>
         <a href="./faq.html" class="nav-element-route <%= nav_active('faq.html') %>"><%= t(:navGlobalFAQ) %></a>
       </div>
     </div>
@@ -87,15 +87,15 @@
         <button class="dropbtn nav-button" onclick="window.location.href = 'index.html';">Home</button>
       </div>
       <!-- offers dropdown -->
-      <div class="dropdown nav-element sidenav-element <%= parent_active('managed-private.html', 'public.html', 'unmanaged.html') %>">
+      <div class="dropdown nav-element sidenav-element <%= parent_active('managed.html', 'public.html', 'self-managed.html') %>">
         <button class="dropbtn sidenav-button-offers nav-button" id="sidenavOffersButton">
           <%= t(:navOffers) %>
           <i class="material-icons">arrow_drop_down</i>
         </button>
         <div class="dropdown-content dropdown-content-offerings sidenav-sub-nav-dropdown" id="sidenavOffersDropdown">
           <a href="./public.html" class="nav-element-route <%= nav_active('public.html') %>"><%= t(:navOffer2) %></a>
-          <a href="./managed-private.html" class="nav-element-route <%= nav_active('managed-private.html') %>"><%= t(:navOffer1) %></a>
-          <a href="./unmanaged.html" class="nav-element-route <%= nav_active('unmanaged.html') %>"><%= t(:navOffer3) %></a>
+          <a href="./managed.html" class="nav-element-route <%= nav_active('managed.html') %>"><%= t(:navOffer1) %></a>
+          <a href="./self-managed.html" class="nav-element-route <%= nav_active('self-managed.html') %>"><%= t(:navOffer3) %></a>
           <a href="./faq.html" class="nav-element-route <%= nav_active('faq.html') %>"><%= t(:navGlobalFAQ) %></a>
         </div>
       </div>
