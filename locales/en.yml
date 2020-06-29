@@ -141,34 +141,6 @@ en:
   homeOfferThreeButton: Details
   homeOfferDesc: All APPUiO Public Platform offerings are held and operated in ISO27001-certified and FINMA-audited data centres within Switzerland and are subject to Swiss law.
 
-  # Home: Offer Table
-  homeTableHeaderText: Which Model do I need?
-  homeTableHeaderServiceDescription: Description
-  homeTableServiceDescription1: Shared or Dedicated
-  homeTableServiceDescription2: Setup & operation Managed Private Cluster
-  homeTableServiceDescription3: Setup Private Cluster of choice
-
-  homeTableSubject1: Start immediately
-  homeTableSubject2: Operated by APPUiO
-  homeTableSubject3: Own Operation
-  homeTableSubject4: Container Consulting
-  homeTableSubject5: On-premises
-  homeTableSubject6: Backup & Monitoring included
-  homeTableSubject7: Maintenance & Updates included
-  homeTableSubject8: ISO-20071 Certification & FINMA compliant
-  homeTableSubject9: OpenShift Consulting
-  homeTableSubject10: Free choice of IaaS
-  homeTableSubject10Public1: Cloudscale.ch
-  homeTableSubject10Public2: AWS Frankfurt
-  homeTableSubject10Public3: exoscale.ch
-  homeTableSubject10Public4: Swisscom DCS+
-  homeTableSubject10Managed1: All IaaS
-  homeTableSubject10Managed2: On-premises
-  homeTableSubject10SelfManaged1: All IaaS
-  homeTableSubject10SelfManaged2: On-premises
-  homeTableSubject11: Community Chat
-  homeTableSubject12: How to dev on APPUiO
-
   # Home: Clients
   homeClientsTitle: What customers say about APPUiO
   homeClientsOneTitle: „APPUiO provides us with OpenShift-Experts who support us with their long-standing experience at any time.“
