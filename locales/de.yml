@@ -108,9 +108,9 @@ de:
   homeOfferOneList: |-
     <li>Aufbau & Betrieb Managed Private Cluster</li>
     <li>&ndash;</li>
-    <li>Plattform inkl. Wartung & Updates betrieben von APPUiO</li>
-    <li>Backup & Monitoring<br />Wartung & Updates betrieben von APPUiO</li>
-    <li>Community Chat How-To APPUiO</li>
+    <li>Betriebene Plattform</li>
+    <li>Backup & Monitoring<br />Wartung & Updates</li>
+    <li>Community Chat/li>
     <li>Freie Wahl der IaaS oder on premises</li>
     <li>24 x 7 proaktiv und reaktiv*</li>
     <li>Schulungen für Entwickler*</li>
@@ -120,9 +120,9 @@ de:
   homeOfferTwoList: |-
     <li>Shared oder Dedicated</li>
     <li>Sofort starten</li>
-    <li>Plattform inkl. Wartung & Updates betrieben von APPUiO</li>
-    <li>Backup & Monitoring<br />Wartung & Updates betrieben von APPUiO</li>
-    <li>APPUiO Community Chat</li>
+    <li>Betriebene Plattform</li>
+    <li>Backup & Monitoring<br />Wartung & Updates</li>
+    <li>Community Chat</li>
     <li>Cloudscale.ch, AWS Frankfurt, Exoscale.ch, Swisscom DCS+</li>
     <li>24 x 7 Support</li>
     <li>Schulungen für Entwickler*</li>
@@ -132,9 +132,9 @@ de:
   homeOfferThreeList: |-
     <li>Aufbau Private Cluster und Know-How</li>
     <li>&ndash;</li>
-    <li>Plattform betrieben vom Kunden</li>
-    <li>Backup & Monitoring<br />Wartung & Updates betrieben vom Kunden</li>
-    <li>Community Chat How-To APPUiO</li>
+    <li>-</li>
+    <li>-</li>
+    <li>Community Chat</li>
     <li>Freie Wahl der IaaS oder on premises</li>
     <li>3rd Level Support*</li>
     <li>Schulungen für Betrieb und Entwickler*</li>
