@@ -15,7 +15,7 @@ en:
   navOffers: Offering
   navOffer1: Managed
   navOffer2: Public
-  navOffer3: Self Managed
+  navOffer3: Self-Managed
   navClients: Customers
   navContact: Contact
   navFAQ: FAQ
@@ -57,10 +57,10 @@ en:
   homeAdvantagesTwoDesc: APPUiO facilitates cooperation between Developers and Operations with Continous Delivery and it’s Selfservice-Infrastructure. Applications can be deployed and operated by yourself.
   homeAdvantagesThreeTitle: Consistent and open
   homeAdvantagesThreeDesc: The development environment on your laptop is looking different from the production environment? With APPUiO all environments are standardised. OpenSource software and open standards are the foundation of our platform.
-  homeAdvantagesFourTitle: Self-service
+  homeAdvantagesFourTitle: Self-Service
   homeAdvantagesFourDesc: It only takes a few seconds from ordering your own platform to using it. And yet you’re independent of other teams and persons and in full control. Start you very own Container platform right now!
   homeAdvantagesFiveTitle: High security standards
-  homeAdvantagesFiveDesc: APPUiO is using SELinux, Let’s Encrypt and offers Federation Authentication (LDAP connection). Data on the public platform is stored in ISO-certificated data-centres in Switzerland.
+  homeAdvantagesFiveDesc: APPUiO is using SELinux, Let’s Encrypt and offers Federation Authentication (LDAP connection). Data on the Public Platform is stored in ISO-certificated data-centres in Switzerland.
   homeAdvantagesSixTitle: Reduce costs
   homeAdvantagesSixDesc: When using APPUiO, no internal costs for setting up a platform or acquiring know-how are generated. Costs are always transparent and can be controlled and adapted on our portal at all times.
 
@@ -73,7 +73,7 @@ en:
   homeFeatureCommunityTitle: Community
   homeFeatureCommunityAlt: Eine Plattform, welche die Kunden zusammen bringt.
   homeFeatureCommunityDesc: |-
-    Our Community is the centrepiece. APPUiO features a <a href="https://community.appuio.ch/home">community chat</a> to exchange ideas with like-minded engineers and with the APPUiO-team. APPUiO is entirely built on Open-Source-components. We assume the same kind of openness by providing our documentation and code to the community. Together, open-sourced software, open standards and openly available documentation guarantee supplier-independence to the highest possible extent and protect you from vendor lock-in. Come join and become part of our community!
+    Our Community is the centrepiece. APPUiO features a <a href="https://community.appuio.ch/home">community chat</a> to exchange ideas with like-minded engineers and with the APPUiO-team. APPUiO is entirely built on Open Source-components. We assume the same kind of openness by providing our documentation and code to the community. Together, Open Sourced software, open standards and openly available documentation guarantee supplier-independence to the highest possible extent and protect you from vendor lock-in. Come join and become part of our community!
   homeFeatureLanguagesTitle: Plattformen #?
   homeFeatureDatabasesTitle: Datenbanken #?
   homeFeatureConsultingTitle: One-Stop Solution
@@ -104,7 +104,7 @@ en:
 # Home: Offering section
   homeOfferTitle: Offering
   homeOfferOneTitle: Managed
-  homeOfferOneDesc: You would like to have a private container platform in the cloud of your choice or On-Premise and not having anything to do with setup and operation?
+  homeOfferOneDesc: You would like to have a private container platform in the cloud of your choice or on-premises and not having anything to do with setup and operation?
   homeOfferOneList: |-
     <li>Setup & Operation Managed Private Cluster</li>
     <li>&ndash;</li>
@@ -127,7 +127,7 @@ en:
     <li>24 x 7 Support</li>
     <li>Training for developers*</li>
   homeOfferTwoButton: Details
-  homeOfferThreeTitle: Self Managed
+  homeOfferThreeTitle: Self-Managed
   homeOfferThreeDesc: You would like to build and operate your own container platform but you lack the required know-how or capacity?
   homeOfferThreeList: |-
     <li>Development of Private Cluster and Know-how</li>
@@ -152,7 +152,7 @@ en:
   homeTableSubject2: Operated by APPUiO
   homeTableSubject3: Own Operation
   homeTableSubject4: Container Consulting
-  homeTableSubject5: On Premise
+  homeTableSubject5: On-premises
   homeTableSubject6: Backup & Monitoring included
   homeTableSubject7: Maintenance & Updates included
   homeTableSubject8: ISO-20071 Certification & FINMA compliant
@@ -163,9 +163,9 @@ en:
   homeTableSubject10Public3: exoscale.ch
   homeTableSubject10Public4: Swisscom DCS+
   homeTableSubject10Managed1: All IaaS
-  homeTableSubject10Managed2: On-Premise
+  homeTableSubject10Managed2: On-premises
   homeTableSubject10SelfManaged1: All IaaS
-  homeTableSubject10SelfManaged2: On-Premise
+  homeTableSubject10SelfManaged2: On-premises
   homeTableSubject11: Community Chat
   homeTableSubject12: How to dev on APPUiO
 
@@ -201,11 +201,11 @@ en:
 
   # Home: Contact Section
   homeContactTitle: Contact
-  homeContactDesc: We would love to get in touch with you! Do let us know how we can reach you. Your data will be kept confidentially, and will not be shared with third parties.
+  homeContactDesc: We would love to get in touch with you! Do let us know-how we can reach you. Your data will be kept confidentially, and will not be shared with third parties.
   homeContactSubject: I’m interested in
   homeContactSubjectOne: Managed Private APPUiO
   homeContactSubjectTwo: attending beta test
-  homeContactSubjectThree: Self Managed APPUiO
+  homeContactSubjectThree: Self-Managed APPUiO
   homeContactSubjectFour: general information
   homeContactSubjectFive: Newsletter
   homeContactYourFirstName: first name
@@ -231,7 +231,7 @@ en:
 
 # Offer1: Managed Private APPUiO
   offerOneTitle: Managed
-  offerOneIntro: Your own APPUiO Managed Private Cluster in your CC On-Premises or in the cloud of your choice. APPUiO takes care of the setup, operation of the container platform and lets you concentrate on your core business.
+  offerOneIntro: Your own APPUiO Managed Private Cluster in your CC on-premises or in the cloud of your choice. APPUiO takes care of the setup, operation of the container platform and lets you concentrate on your core business.
 
   offerOneList1: Basis for DevOps
   offerOneList2: 09.00 - 18.00 Phone + e-mail support
@@ -253,13 +253,13 @@ en:
   offerOneAdvantagesFourTitle: DevOps
   offerOneAdvantagesFourDesc: Devs profit when it comes to development and Ops when it comes to container operations.
   offerOneAdvantagesFiveTitle: Flexibility
-  offerOneAdvantagesFiveDesc: Free choice from cloud providers or On-Premises (own data center).
+  offerOneAdvantagesFiveDesc: Free choice from cloud providers or on-premises (own data center).
   offerOneAdvantagesSixTitle: Know-How
   offerOneAdvantagesSixDesc: Personal contact person and know-how sharing.
 
   # Offer1: Im Angebot enthalten
   offerOnePackageContentsTitle: Services Included
-  offerOnePackageContentsIntro: With APPUiO Managed you get your own Managed Private Cluster in the cloud of your choice or On-Premise and you can leave the operation to the professionals. Through the Open Source technologies Kubernetes and Docker APPUiO is easily integrateable into existing development environments. APPUiO increases speed through shorter lifecycles, automatization & self-service. With APPUiO Managed you can fully concentrate on your business - on the application.
+  offerOnePackageContentsIntro: With APPUiO Managed you get your own Managed Private Cluster in the cloud of your choice or on-premises and you can leave the operation to the professionals. Through the Open Source technologies Kubernetes and Docker APPUiO is easily integrateable into existing development environments. APPUiO increases speed through shorter lifecycles, automatization & self-service. With APPUiO Managed you can fully concentrate on your business - on the application.
   offerOnePackageContentsTitleFirstTitle: APPUiO Managed
   offerOnePackageContentsTitleFirstItemOne: OpenShift as a Service with many additonal Managed Services.
   offerOnePackageContentsTitleSecondTitle: Basis for DevOps
@@ -269,7 +269,7 @@ en:
   offerOnePackageContentsTitleFourthTitle: Proactive Management
   offerOnePackageContentsTitleFourthItemOne: Our professionals detect problems immediately and take care of updates and server management.
   offerOnePackageContentsTitleFifthTitle: Data Location according to Your Demand
-  offerOnePackageContentsTitleFifthItemOne: On-Premises in your CC or in the public cloud of your choice
+  offerOnePackageContentsTitleFifthItemOne: On-premises in your CC or in the public cloud of your choice
   offerOnePackageContentsTitleSixthTitle: Backup
   offerOnePackageContentsTitleSixthItemOne: One time daily we back up all the relevant data, if you wish additionally in a second location
 
@@ -311,7 +311,7 @@ en:
 # Offer1: Contact form
   offerOnePackageMediumTitle: Managed Private
   offerOneContactTitle: APPUiO Managed Platform
-  offerOneContactDesc: We would love to get in touch with you! Do let us know how we can reach you. Your data will be kept confidentially, and will not be shared with third parties.
+  offerOneContactDesc: We would love to get in touch with you! Do let us know-how we can reach you. Your data will be kept confidentially, and will not be shared with third parties.
   offerOneContactSubject: I'm interested in...
   offerOneOrderSend: Send
   offerOneLoadingMessage: Sending message...
@@ -522,7 +522,7 @@ en:
 
 
 
-  offerTwoPackageAddonsTitle: Persistent Storage Add Ons
+  offerTwoPackageAddonsTitle: Persistent Storage add-ons
   offerTwoPackageAddonsPretext: By usage
   offerTwoPackageAddonsItem1: 10 GB CHF 6.00
   offerTwoPackageAddonsItem2: 20 GB CHF 10.00
@@ -546,7 +546,7 @@ en:
   offerTwoSelectOfferMessage: Our APPUiO Public Platform exists on shared infrastructure or as a dedicated node for you alone. Choose between the two offers depending on your needs.
 
 # Offer3: Self Managed PaaS
-  offerThreeTitle: Self Managed
+  offerThreeTitle: Self-Managed
   offerThreeIntro: Would you like to build your own container platform but you lack the necessary know-how or time? Reaching from planning and set-up to operations. With pleasure we advise your developers on how to best use the container platform.
   offerThreeServicesTitle: Open components and interfaces allow integration into complex existing infrastructures
   offerThreeServicesDesc: APPUiO's flexibility allows for integration into complex, existing infrastructures. Please find below a list of possible integrations that can be covered by APPUiO or OpenShift.
@@ -560,8 +560,8 @@ en:
   offerThreeServices8: CI/CD Workflows connection
   offerThreeServices9: Connection to Active Directory (AD) or LDAP
 
-  offerThreeContactTitle: APPUiO Self Managed Platform
-  offerThreeContactDesc: Your Self Managed APPUiO offer sounds interesting. I would like a personal consultation.
+  offerThreeContactTitle: APPUiO Self-Managed Platform
+  offerThreeContactDesc: Your Self-Managed APPUiO offer sounds interesting. I would like a personal consultation.
   offerThreeLoadingMessage: Sending message...
   offerThreeSuccessMessage: Message successfully sent!
 
@@ -572,7 +572,7 @@ en:
   offerThreeAdvantagesTwoTitle: Long-lived Experience
   offerThreeAdvantagesTwoDesc: Since the Beta phase of OpenShift we work with and advise firms.
   offerThreeAdvantagesThreeTitle: Flexibility
-  offerThreeAdvantagesThreeDesc: Free choice of cloud providers or On-Premises (own CC).
+  offerThreeAdvantagesThreeDesc: Free choice of cloud providers or on-premises (own CC).
   offerThreeAdvantagesFourTitle: DevOps
   offerThreeAdvantagesFourDesc: Devs profit from development and Ops in container operations.
   offerThreeAdvantagesFiveTitle: Learning Organization
@@ -598,7 +598,7 @@ en:
 # Offer Three: Additional services
   offerThreeAddonsTitle: Additional Services
   offerThreeAddon1Title: Operations Training
-  offerThreeAddon1Description: During 2 days in a hands-on lab we pass on the most important tipps and tricks for the operations of an OpenShift platform. From a cluster update to best practices when configuring
+  offerThreeAddon1Description: During 2 days in a Hands-on lab we pass on the most important tipps and tricks for the operations of an OpenShift platform. From a cluster update to best practices when configuring
   offerThreeAddon1Price: Price on request
   offerThreeAddon2Title: Dev Training
   offerThreeAddon2Description: During 2 days we show software developers how to really profit from an OpenShift platform. Hands-on we for example deploy applications, CI/CD pipelines, backup
@@ -627,7 +627,7 @@ en:
 
   # AMM Techlab Page
   ammtechlabPageTitle: Application Migration and Modernization on APPUiO / OpenShift Techlab
-  ammtechlabPageIntro: In the "Application Migration and Modernization Techlab" the participants learn by means of presentations and hands-on labs how applications in their system landscape can be brought to the new container platform. It will be shown which basic architectural principles have to be considered in order to really exploit the flexibility and features of the container platform. Using a catalogue of criteria, they also learn about the different types of migration.
+  ammtechlabPageIntro: In the "Application Migration and Modernization Techlab" the participants learn by means of presentations and Hands-on labs how applications in their system landscape can be brought to the new container platform. It will be shown which basic architectural principles have to be considered in order to really exploit the flexibility and features of the container platform. Using a catalogue of criteria, they also learn about the different types of migration.
 
   ammtechTargetTitle: Learning Objectives
   ammtechTargetList: |-
@@ -636,7 +636,7 @@ en:
     <li>Architectural best practices for containerized applications are taught</li>
 
   ammtechContentTitle: Content
-  ammtechContentDesc: Together with the expert, the following content will be covered using a mixture of presentation and hands-on labs.
+  ammtechContentDesc: Together with the expert, the following content will be covered using a mixture of presentation and Hands-on labs.
 
   ammtechPresentationTitle: Presentation
   ammtechPresentationList: |-
@@ -699,7 +699,7 @@ en:
     <li>Deploy a first application</li>
 
   ostechContentTitle: Content
-  ostechContentDesc: In the first part of the Techlab, participants will learn the most important concepts underlying OpenShift. Afterwards, what has been learned can be directly applied in the hands-on labs. Initial applications will be deployed and configured to demonstrate the possibilities that OpenShift offers to developers and operators.
+  ostechContentDesc: In the first part of the Techlab, participants will learn the most important concepts underlying OpenShift. Afterwards, what has been learned can be directly applied in the Hands-on labs. Initial applications will be deployed and configured to demonstrate the possibilities that OpenShift offers to developers and operators.
 
   ostechPresentationTitle: Presentation
   ostechPresentationList: |-
@@ -770,7 +770,7 @@ en:
     8005 Zürich<br />
   dataPrivacyTitle: Privacy policy
   dataPrivacyText: |-
-    <p>You can visit our website without having to provide any personal information. This website uses Matomo, an open-source web analytics tool (https://matomo.org/), to collect and store data for marketing and optimization purposes. From this data, usage profiles can be created under a pseudonym. Cookies can be used. Cookies are small text files stored locally in the cache of the site visitor's Internet browser. Cookies enable recognition of the Internet browser. The data collected by Matomo will not be used to personally identify the visitor to this website, nor will it be combined with personal data about the bearer of the pseudonym, without the specific consent of the data subject.</p>
+    <p>You can visit our website without having to provide any personal information. This website uses Matomo, an Open Source web analytics tool (https://matomo.org/), to collect and store data for marketing and optimization purposes. From this data, usage profiles can be created under a pseudonym. Cookies can be used. Cookies are small text files stored locally in the cache of the site visitor's Internet browser. Cookies enable recognition of the Internet browser. The data collected by Matomo will not be used to personally identify the visitor to this website, nor will it be combined with personal data about the bearer of the pseudonym, without the specific consent of the data subject.</p>
     <iframe
         style="border: 0; height: 200px; width: 900px;"
         src="https://matomo.puzzle.ch/index.php?module=CoreAdminHome&action=optOut&language=en&backgroundColor=002f47&fontColor=ffffff&fontSize=&fontFamily=helvetica"
