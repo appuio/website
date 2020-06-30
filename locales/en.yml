@@ -140,6 +140,8 @@ en:
     <li>Training for developers and operations*</li>
   homeOfferThreeButton: Details
   homeOfferDesc: All APPUiO Public Platform offerings are held and operated in ISO27001-certified and FINMA-audited data centres within Switzerland and are subject to Swiss law.
+  homeOfferMore: More
+  homeOfferLess: Less
 
   # Home: Clients
   homeClientsTitle: What customers say about APPUiO
