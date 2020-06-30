@@ -38,12 +38,6 @@
        }
     });
 
-    // toggle-offer-feature
-    $('.toggle-offer-feature').click(function(event) {
-        event.preventDefault();
-        $(this).parents('.callout-item').toggleClass('visible');
-    })
-
 
 // Enable Submit button when terms and an offer is checked
     var checkboxes = $("input[name='terms']"),
@@ -235,6 +229,7 @@
     });
 
     window.onclick = function(e) {
+        this.console.log(e);
         if (!e.target.matches('.dropbtn-offerings') && !e.target.parentNode.matches('.dropbtn-offerings')) {
             const offeringDropdown = document.getElementById("offeringDropdown");
             offeringDropdown.classList.remove('show');

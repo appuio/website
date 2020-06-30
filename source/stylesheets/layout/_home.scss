@@ -157,39 +157,6 @@
     } 
   }
 }
-.toggle-offer-feature {
-  margin-top: 1rem;
-  &:hover {
-    color: #FFD301;
-  }
-}
-.callout-item {
-  .less,
-  ul.offer-feature-list {
-    display: none;
-  }
-  &.visible {
-    .more {
-      display: none;
-    }
-    .less {
-      display: block;
-    }
-    ul.offer-feature-list {  
-      display: flex;
-    }
-  }
-}
-@include susy-breakpoint($break-large) {
-  .home-offer-list {
-    .toggle-offer-feature {
-      display: none;
-    }
-    ul.offer-feature-list {
-      display: flex;
-    }
-  }
-}
 
 
 .hint-border {
