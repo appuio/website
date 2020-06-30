@@ -133,6 +133,7 @@
     min-height: 23rem;
   }
   .callout-button {
+    flex: 1;
     margin-top: 0;
   }
   ul.offer-feature-list {
@@ -157,28 +158,25 @@
     } 
   }
 }
-.toggle-offer-feature {
-  margin-top: 1rem;
+.callout-item h3 a {
+  color: #fff;
+  text-decoration: none;
   &:hover {
     color: #FFD301;
   }
 }
-.callout-item {
-  .less,
-  ul.offer-feature-list {
-    display: none;
+.toggle-offer-feature {
+  margin-top: 1rem;
+  color: #FFD301;
+  &:hover {
+    color: #fff;
   }
-  &.visible {
-    .more {
-      display: none;
-    }
-    .less {
-      display: block;
-    }
-    ul.offer-feature-list {  
-      display: flex;
-    }
-  }
+}
+.callout-item ul.offer-feature-list {
+  display: none;
+}
+.callout-item.visible ul.offer-feature-list {
+  display: flex;
 }
 @include susy-breakpoint($break-large) {
   .home-offer-list {

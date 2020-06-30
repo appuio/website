@@ -31,14 +31,17 @@
   &.offer1-image {
     background: $color-blue url('/images/cards/card_managed_white_noText.svg') no-repeat;
     background-position: center -3rem;
+    background-size: 100%;
   }
   &.offer2-image {
     background: $color-blue url('/images/cards/card_public_white_noText.svg') no-repeat;
     background-position: center -3rem;
+    background-size: 100%;
   }
   &.offer3-image {
     background: $color-blue url('/images/cards/card_unmanaged_white_noText.svg') no-repeat;
     background-position: center -3rem;
+    background-size: 100%;
   }
 
   @include susy-breakpoint($break-large) {

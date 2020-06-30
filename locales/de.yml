@@ -114,7 +114,7 @@ de:
     <li>Freie Wahl der IaaS oder On-Premises</li>
     <li>24 x 7 proaktiv und reaktiv*</li>
     <li>Schulungen für Entwickler*</li>
-  homeOfferOneButton: Details
+  homeOfferOneButton: Zum Angebot
   homeOfferTwoTitle: Public
   homeOfferTwoDesc: Du willst in kürzester Zeit deine produktiven Applikationen in eine Cloud deployen?
   homeOfferTwoList: |-
@@ -126,7 +126,7 @@ de:
     <li>Cloudscale.ch, AWS Frankfurt, Exoscale.ch, Swisscom DCS+</li>
     <li>24 x 7 Support</li>
     <li>Schulungen für Entwickler*</li>
-  homeOfferTwoButton: Details
+  homeOfferTwoButton: Zum Angebot
   homeOfferThreeTitle: Self-Managed
   homeOfferThreeDesc: Du willst eine eigene Container-Plattform aufbauen und betreiben, dir fehlt aber das nötige Wissen oder die nötige Kapazität?
   homeOfferThreeList: |-
@@ -138,10 +138,9 @@ de:
     <li>Freie Wahl der IaaS oder On-Premises</li>
     <li>3rd Level Support*</li>
     <li>Schulungen für Betrieb und Entwickler*</li>
-  homeOfferThreeButton: Details
+  homeOfferThreeButton: Zum Angebot
   homeOfferDesc: Unser APPUiO Angebot wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
-  homeOfferMore: Mehr
-  homeOfferLess: Weniger
+  homeOfferDetails: Details
 
   # Home: Clients
   homeClientsTitle: Was Kunden über APPUiO sagen

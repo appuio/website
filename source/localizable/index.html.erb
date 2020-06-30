@@ -29,41 +29,56 @@ title: APPUiO - Swiss Container Platform
       <ul class="home-offer-list callout-list">
         <li class="callout-item offer2-image">
           <div class="callout-ribbon offer2-bg"></div>
-          <h3 class="callout-title"><%= t(:homeOfferTwoTitle) %></h3>
+          <h3 class="callout-title">
+            <a href="./public.html">
+              <%= t(:homeOfferTwoTitle) %>
+            </a>
+          </h3>
           <p class="callout-desc"><%= t(:homeOfferTwoDesc) %></p>
-          <a href="./public.html" class="callout-button button is-round"><%= t(:homeOfferTwoButton) %></a>
           <a href="javascript:void(0)" class="toggle-offer-feature">
-            <span class="more"><%= t('homeOfferMore')%></span>
-            <span class="less"><%= t('homeOfferLess')%></span>
+            <%= t('homeOfferDetails')%>
           </a>
           <ul class="offer-feature-list">
             <%= t(:homeOfferTwoList) %>
+            <li>
+              <a href="./public.html" class="callout-button button is-round"><%= t(:homeOfferTwoButton) %></a>
+            </li>
           </ul>
         </li>
         <li class="callout-item offer1-image">
           <div class="callout-ribbon offer1-bg"></div>
-          <h3 class="callout-title"><%= t(:homeOfferOneTitle) %></h3>
+          <h3 class="callout-title">
+            <a href="./managed-private.html">
+              <%= t(:homeOfferOneTitle) %>
+            </a>
+          </h3>
           <p class="callout-desc"><%= t(:homeOfferOneDesc) %></p>
-          <a href="./managed-private.html" class="callout-button button is-round"><%= t(:homeOfferOneButton) %></a>
           <a href="javascript:void(0)" class="toggle-offer-feature">
-            <span class="more"><%= t('homeOfferMore')%></span>
-            <span class="less"><%= t('homeOfferLess')%></span>
+            <%= t('homeOfferDetails')%>
           </a>
           <ul class="offer-feature-list">
             <%= t(:homeOfferOneList) %>
+            <li>
+              <a href="./managed-private.html" class="callout-button button is-round"><%= t(:homeOfferOneButton) %></a>
+            </li>
           </ul>
         </li>
         <li class="callout-item offer3-image">
           <div class="callout-ribbon offer3-bg"></div>
-          <h3 class="callout-title"><%= t(:homeOfferThreeTitle) %></h3>
+          <h3 class="callout-title">
+            <a href="./unmanaged.html">
+              <%= t(:homeOfferThreeTitle) %>
+            </a>
+          </h3>
           <p class="callout-desc"><%= t(:homeOfferThreeDesc) %></p>
-          <a href="./unmanaged.html" class="callout-button button is-round"><%= t(:homeOfferThreeButton) %></a>
           <a href="javascript:void(0)" class="toggle-offer-feature">
-            <span class="more"><%= t('homeOfferMore')%></span>
-            <span class="less"><%= t('homeOfferLess')%></span>
+            <%= t('homeOfferDetails')%>
           </a>
           <ul class="offer-feature-list">
             <%= t(:homeOfferThreeList) %>
+            <li>
+              <a href="./unmanaged.html" class="callout-button button is-round"><%= t(:homeOfferThreeButton) %></a>
+            </li>
           </ul>
         </li>
       </ul>
