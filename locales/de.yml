@@ -110,8 +110,8 @@ de:
     <li>&ndash;</li>
     <li>Betriebene Plattform</li>
     <li>Backup & Monitoring<br />Wartung & Updates</li>
-    <li>Community Chat/li>
-    <li>Freie Wahl der IaaS oder on premises</li>
+    <li>Community Chat</li>
+    <li>Freie Wahl der IaaS oder On-Premises</li>
     <li>24 x 7 proaktiv und reaktiv*</li>
     <li>Schulungen für Entwickler*</li>
   homeOfferOneButton: Details
@@ -127,15 +127,15 @@ de:
     <li>24 x 7 Support</li>
     <li>Schulungen für Entwickler*</li>
   homeOfferTwoButton: Details
-  homeOfferThreeTitle: Self Managed
-  homeOfferThreeDesc: Du willst eine eigene Container-Plattform aufbauen und betreiben, dir fehlt aber das nötige Wissen oder Kapazität?
+  homeOfferThreeTitle: Self-Managed
+  homeOfferThreeDesc: Du willst eine eigene Container-Plattform aufbauen und betreiben, dir fehlt aber das nötige Wissen oder die nötige Kapazität?
   homeOfferThreeList: |-
     <li>Aufbau Private Cluster und Know-How</li>
     <li>&ndash;</li>
     <li>-</li>
     <li>-</li>
     <li>Community Chat</li>
-    <li>Freie Wahl der IaaS oder on premises</li>
+    <li>Freie Wahl der IaaS oder On-Premises</li>
     <li>3rd Level Support*</li>
     <li>Schulungen für Betrieb und Entwickler*</li>
   homeOfferThreeButton: Details
