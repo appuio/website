@@ -2,7 +2,7 @@
 # Translate comfortably with https://weblate.appuio.ch/
 de:
   metaDescription: APPUiO - die Schweizer Container-Plattform mit einer starken Community. Betreibe deinen Container Workload auf APPUiO.
-  metaKeywords: OpenShift, container runtime, Container Platform, Cluster, PaaS, Platform as a Service, Docker, Kubernetes, Swiss, Switzerland, VSHN AG, Puzzle ITC GmbH
+  metaKeywords: OpenShift, container runtime, Container-Platform, Cluster, PaaS, Platform as a Service, Docker, Kubernetes, Swiss, Switzerland, VSHN AG, Puzzle ITC GmbH
 
   # Globale Navigation
   navGlobalDocs: Docs
@@ -15,13 +15,13 @@ de:
   navOffers: Angebot
   navOffer1: Managed
   navOffer2: Public
-  navOffer3: Self Managed
+  navOffer3: Self-Managed
   navClients: Kunden
   navContact: Kontakt
   navFAQ: FAQ
   navTechlabs: Techlabs
-  navOstechlab: OS Techlab
-  navAmmtechlab: AMM Techlab
+  navOstechlab: OpenShift
+  navAmmtechlab: Application Migration and Modernization
   partner: Partner
   team: Team
   behindAppuio: Story behind APPUiO
@@ -42,12 +42,12 @@ de:
   homeNewsText: |-
     Die Erfolgsstory von Adcubum mit APPUiO! <a href="https://www.appuio.ch/blog.html#2018-Apr-6">Will ich lesen</a>
 
-  homeHeroAlt: APPUiO - Swiss Container Platform
+  homeHeroAlt: APPUiO - Swiss Container-Platform
   homeHeroTitle: Deine Open-Container-Plattform mit einer einzigartigen Community!
   homeHeroSignup: Mehr zu APPUiO Public
   homeHeroRegister: Code einlösen
   homeHeroDesc: |-
-    APPUiO ist die führende, auf Kubernetes basierende Container-Plattform für das Design, die Entwicklung und den Betrieb von Applikationen. Auf Basis bewährter Open-Source-Konzepte wie Docker und Kubernetes unterstützt APPUiO den DevOps-Ansatz. So werden Entwicklung, Deployment und Betriebsprozesse durch Automatisierung und Self-Service beschleunigt. Ebenso wird die Zusammenarbeit zwischen Software-Entwicklern und Betriebsorganisation verbessert.
+    APPUiO ist die führende, auf Kubernetes basierende Container-Plattform für das Design, die Entwicklung und den Betrieb von Applikationen. Auf Basis bewährter Open Source-Konzepte wie Docker und Kubernetes unterstützt APPUiO den DevOps-Ansatz. So werden Entwicklung, Deployment und Betriebsprozesse durch Automatisierung und Self-Service beschleunigt. Ebenso wird die Zusammenarbeit zwischen Software-Entwicklern und Betriebsorganisation verbessert.
 
   # Home: Vorteile
   homeAdvantagesTitle: Wieso APPUiO?
@@ -105,42 +105,43 @@ de:
   homeOfferTitle: Angebot
   homeOfferOneTitle: Managed
   homeOfferOneDesc: Du willst eine private Container-Plattform in der Cloud deiner Wahl oder On-Premises und nichts mit dem Setup und Betrieb zu tun haben?
+  homeOfferOneList: |-
+    <li>Aufbau & Betrieb Managed Private Cluster</li>
+    <li>&ndash;</li>
+    <li>Betriebene Plattform</li>
+    <li>Backup & Monitoring<br />Wartung & Updates</li>
+    <li>Community Chat</li>
+    <li>Freie Wahl der IaaS oder On-Premises</li>
+    <li>24 x 7 proaktiv und reaktiv*</li>
+    <li>Schulungen für Entwickler*</li>
   homeOfferOneButton: Details
   homeOfferTwoTitle: Public
   homeOfferTwoDesc: Du willst in kürzester Zeit deine produktiven Applikationen in eine Cloud deployen?
+  homeOfferTwoList: |-
+    <li>Shared oder Dedicated</li>
+    <li>Sofort starten</li>
+    <li>Betriebene Plattform</li>
+    <li>Backup & Monitoring<br />Wartung & Updates</li>
+    <li>Community Chat</li>
+    <li>Cloudscale.ch, AWS Frankfurt, Exoscale.ch, Swisscom DCS+</li>
+    <li>24 x 7 Support</li>
+    <li>Schulungen für Entwickler*</li>
   homeOfferTwoButton: Details
-  homeOfferThreeTitle: Self Managed
-  homeOfferThreeDesc: Du willst eine eigene Container-Plattform aufbauen und betreiben, dir fehlt aber das nötige Wissen oder Kapazität?
+  homeOfferThreeTitle: Self-Managed
+  homeOfferThreeDesc: Du willst eine eigene Container-Plattform aufbauen und betreiben, dir fehlt aber das nötige Wissen oder die nötige Kapazität?
+  homeOfferThreeList: |-
+    <li>Aufbau Private Cluster und Know-How</li>
+    <li>&ndash;</li>
+    <li>-</li>
+    <li>-</li>
+    <li>Community Chat</li>
+    <li>Freie Wahl der IaaS oder On-Premises</li>
+    <li>3rd Level Support*</li>
+    <li>Schulungen für Betrieb und Entwickler*</li>
   homeOfferThreeButton: Details
   homeOfferDesc: Unser APPUiO Angebot wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
-
-  # Home: Offer Table
-  homeTableHeaderText: Welches Modell brauche ich?
-  homeTableHeaderServiceDescription: Beschreibung
-  homeTableServiceDescription1: Shared oder Dedicated
-  homeTableServiceDescription2: Setup & Betrieb Managed Private Cluster
-  homeTableServiceDescription3: Setup Private Cluster nach Wahl
-
-  homeTableSubject1: Sofort loslegen
-  homeTableSubject2: Betrieb übernimmt APPUiO
-  homeTableSubject3: Eigener Betrieb
-  homeTableSubject4: Container Consulting
-  homeTableSubject5: On Premise
-  homeTableSubject6: Backup & Monitoring inbegriffen
-  homeTableSubject7: Maintenance & Updates inbegriffen
-  homeTableSubject8: ISO-20071 Zertifizierung & FINMA compliant
-  homeTableSubject9: IaaS-Partner frei wählbar
-  homeTableSubject10: Datenstandort / IaaS-Provider
-  homeTableSubject10Public1: Cloudscale.ch
-  homeTableSubject10Public2: AWS Frankfurt
-  homeTableSubject10Public3: exoscale.ch
-  homeTableSubject10Public4: Swisscom DCS+
-  homeTableSubject10Managed1: Alle IaaS
-  homeTableSubject10Managed2: On-Premise
-  homeTableSubject10SelfManaged1: Alle IaaS
-  homeTableSubject10SelfManaged2: On-Premise
-  homeTableSubject11: Community Chat
-  homeTableSubject12: How to dev on APPUiO
+  homeOfferMore: Mehr
+  homeOfferLess: Weniger
 
   # Home: Clients
   homeClientsTitle: Was Kunden über APPUiO sagen
@@ -167,12 +168,8 @@ de:
   homeTechnologiesTitle: Technologien
   homeTechnologiesDescriptionOne: Mit APPUiO erstellst du neue Umgebungen per Knopfdruck. Es stehen eine Vielzahl an Technologien und Plattformen "out of the Box" zur Verfügung. Docker als Grundtechnologie hinter APPUiO bringt ein ganzes Ökosystem an zusätzlichen Laufzeitumgebungen und Frameworks mit.
 
-
   homeTechnologiesOneTitle: Kubernetes
   homeTechnologiesOneDesc: Auf APPUiO kannst du Container mit Kubernetes von Google orchestrieren und managen. Du definierst wie viele Instanzen deiner Applikation parallel laufen sollen, Kubernetes kümmert sich um die Skalierung, das Loadbalancing und die Stabilität.
-
-  ## homeTechnologiesOneTitle: OpenShift
-  ## homeTechnologiesOneDesc: APPUiO basiert auf der OpenShift Container-Plattform von Red Hat , einer Software für die Entwicklung und den Betrieb von Containern. OpenShift kombiniert Docker und Kubernetes in einer Plattform und bietet viele zusätzliche Features, die den Betrieb von Containern vereinfachen und dadurch die IT revolutionieren.
 
   homeTechnologiesTwoTitle: Docker
   homeTechnologiesTwoDesc: Docker ist die offene Plattform für Entwickler und Sysadmins und ihre Applikationen. Wähle mit APPUiO das für deine Technologie passende Basis-Docker-Image aus. OpenShift baut für dich nach jedem Build automatisch einen aktualisierten Docker-Container und deployt ihn auf Wunsch auch gleich.
@@ -185,7 +182,7 @@ de:
   homeContactSubject: Ich interessiere mich für ...
   homeContactSubjectOne: Managed Private Platform
   homeContactSubjectTwo: Public Platform
-  homeContactSubjectThree: Self Managed APPUiO
+  homeContactSubjectThree: Self-Managed APPUiO
   homeContactSubjectFour: Allgemeine Informationen
   homeContactSubjectFive: Newsletter
   homeContactSubjectSix: Free one month trial
@@ -447,7 +444,7 @@ de:
   offerTwoFaqTitle: Häufig gestellte Fragen
   #Categorie: Verrechnung
   offerTwoFaqVerOneTitle: Wie kann ich von den früheren “T-Shirt-Grössen” für die Public Platform auf das flexible Pricing migrieren?
-  offerTwoFaqVerOneText: Dies kannst du einfach im Self Service Portal umstellen.
+  offerTwoFaqVerOneText: Dies kannst du einfach im Self-Service Portal umstellen.
   offerTwoFaqVerTwoTitle: In welcher Periodizität erfolgt die Abrechnung?
   offerTwoFaqVerTwoText: Zu Beginn jedes Monats wird der letzte Monat abgerechnet.
   offerTwoFaqVerTreeTitle: Wie funktioniert die Abrechnung?
@@ -455,7 +452,7 @@ de:
   offerTwoFaqVerFourTitle: Welche Einheit wird abgerechnet?
   offerTwoFaqVerFourText: Die Abrechnung erfolgt in Megabytes.
   offerTwoFaqVerFiveTitle: Wo sind die laufenden Kosten ersichtlich?
-  offerTwoFaqVerFiveText: Die laufenden Kosten können im Self Service Portal angezeigt werden.
+  offerTwoFaqVerFiveText: Die laufenden Kosten können im Self-Service Portal angezeigt werden.
   offerTwoFaqVerSixTitle: Muss ich zusätzlich Subscription von Red Hat bezahlen?
   offerTwoFaqVerSixText: Nein, die Subscriptions sind im Preis enthalten.
   #Categorie: Allgemein
@@ -531,7 +528,7 @@ de:
 
 
   # Offer3: Self Managed APPUiO
-  offerThreeTitle: Self Managed
+  offerThreeTitle: Self-Managed
   offerThreeIntro: Möchtest du selber eine Container-Plattform bauen, dir fehlt aber das nötige Wissen oder die Zeit? Wir helfen dir von der Planung, über den Aufbau bis hin zum Betrieb. Auch euren Entwicklern zeigen wir gerne wie eine Container-Plattform am besten genutzt wird.
   offerThreeServicesTitle: Offene Komponenten und -Schnittstellen ermöglichen die Integration in komplexe, bestehende Infrastrukturen.
   offerThreeServicesDesc: Die Flexibiltät von APPUiO erlaubt die Integration in komplexe, bestehende Infrastrukturen. Hier eine Liste möglicher Integrationspunkte, welche durch APPUiO resp. OpenShift abgedeckt werden können.
@@ -545,8 +542,8 @@ de:
   offerThreeServices8: CI/CD Workflows anbinden
   offerThreeServices9: Anbindung an Active Directory (AD) oder LDAP
 
-  offerThreeContactTitle: APPUiO Self Managed Platform
-  offerThreeContactDesc: Das Self Managed APPUiO Angebot klingt spannend. Ich wünsche eine persönliche Beratung.
+  offerThreeContactTitle: APPUiO Self-Managed Platform
+  offerThreeContactDesc: Das Self-Managed APPUiO Angebot klingt spannend. Ich wünsche eine persönliche Beratung.
   offerThreeLoadingMessage: Nachricht wird gesendet...
   offerThreeSuccessMessage: Nachricht wurde erfolgreich gesendet
 
@@ -570,7 +567,7 @@ de:
   offerThreePackageContentsFirstTitle: Architektur Workshop
   offerThreePackageContentsFirstItemOne: Gemeinsam definieren wir die Architektur. Perfekt auf die Infrastruktur zugeschnitten.
   offerThreePackageContentsSecondTitle: Aufbau der Plattform
-  offerThreePackageContentsSecondItemOne: Gemeinsam definieren wir die Architektur, perfekt auf die Infrastruktur zugeschnitten.
+  offerThreePackageContentsSecondItemOne: Gemeinsam bauen wir die definierte Plattform, sei dies als POC, Dev oder Prd auf.
   offerThreePackageContentsThirdTitle: Know-How Transfer
   offerThreePackageContentsThirdItemOne: Wir geben unser Know-How und Erfahrung sehr gerne weiter, damit das Wissen ins Unternehmen einfliessen kann.
   offerThreePackageContentsFourthTitle: Dokumentation des Setups
@@ -682,11 +679,11 @@ de:
 
   # AMM Techlab Page
   ammtechlabPageTitle: Application Migration and Modernization on APPUiO / OpenShift Techlab
-  ammtechlabPageIntro: Im "Application Migration and Modernization Techlab” lernen die Teilnehmenden anhand Präsentationen und Hands-on Labs, wie sie Applikationen in ihrer Systemlandschaft auf die neue Container Plattform bringen. Es wird aufgezeigt, welche architektonischen Grundprinzipien beachtet werden müssen, damit die Flexibilität und die Features der Container Plattform wirklich ausgereizt werden können. Anhand eines Kriterienkatalog lernen sie zudem die unterschiedlichen Migrationsarten kennen.
+  ammtechlabPageIntro: Im "Application Migration and Modernization Techlab” lernen die Teilnehmenden anhand Präsentationen und Hands-on Labs, wie sie Applikationen in ihrer Systemlandschaft auf die neue Container-Plattform bringen. Es wird aufgezeigt, welche architektonischen Grundprinzipien beachtet werden müssen, damit die Flexibilität und die Features der Container_Plattform wirklich ausgereizt werden können. Anhand eines Kriterienkatalog lernen sie zudem die unterschiedlichen Migrationsarten kennen.
 
   ammtechTargetTitle: Lernziele
   ammtechTargetList: |-
-    <li>Kennen die grundlegenden Kriterien, die zu beachten sind, um eine Applikation auf eine Container Plattform zu migrieren und zu deployen.</li>
+    <li>Kennen die grundlegenden Kriterien, die zu beachten sind, um eine Applikation auf eine Container-Plattform zu migrieren und zu deployen.</li>
     <li>Lernen erweiterte Kubernetes resp. OpenShift Konzepte kennen, welche zum Betrieb von Applikationen auf OpenShift nötig sind.</li>
     <li>Architektonische Best Practices für containerisierte Applikationen werden vermittelt</li>
 
@@ -698,7 +695,7 @@ de:
     <li>Kurze Einführung von OpenShift und Container</li>
     <li>Migrationsarten aufzeigen (Kriterienkatalog)</li>
     <li>12 Factor Apps und Best Practices für moderne Applikationen</li>
-    <li>Was muss besonders beachtet werden, wenn Workload auf eine Container Plattform migriert wird?</li>
+    <li>Was muss besonders beachtet werden, wenn Workload auf eine Container-Plattform migriert wird?</li>
 
   ammtechLabsTitle: Labs
   ammtechLabsList: |-
@@ -721,7 +718,7 @@ de:
     </ul>
 
   ammtechTargetAudienceTitle: Zielpublikum
-  ammtechTargetAudienceDesc: Das Techlab richtet sich an OpenShift und Kubernetes Engineers mit Entwickler-Fokus. Grundlegende Kenntnisse im Bereich Container Plattform sollten vorhanden sein. Dieses Techlab baut auf dem <a href="https://appuio.ch/techlabs.html">OS Techlab</a> auf.
+  ammtechTargetAudienceDesc: Das Techlab richtet sich an OpenShift und Kubernetes Engineers mit Entwickler-Fokus. Grundlegende Kenntnisse im Bereich Container-Plattform sollten vorhanden sein. Dieses Techlab baut auf dem <a href="https://appuio.ch/techlabs.html">OpenShift Techlab</a> auf.
 
   ammtechRequirementsTitle: Voraussetzungen
   ammtechRequirementsDesc: Alle Teilnehmenden benötigen für die Schulung einen Laptop (Dual-Core Prozessor, mind. 2GB RAM) mit Admin-Rechten (wird für Container und Kubernetes Installation benötigt). Eine vorgängige Installation von `oc-tool` wird empfohlen.
@@ -744,8 +741,8 @@ de:
   ammtechLocationDesc: Belpstr. 37, 3007 <b>Bern</b>,<br>Limmatstr. 214, 8005 <b>Zürich</b>,<br>Peter Merian-Str. 54. 4052 <b>Basel</b>
 
   # OS Techlab Page
-  ostechlabPageTitle: OS Techlab
-  ostechlabPageIntro: Mit einer Container Plattform ändert sich die Art, wie wir Software entwickeln, ausliefern und betreiben. Puzzle stellt OpenShift 4 - die Container Plattform von Red Hat - in einem Techlab vor.
+  ostechlabPageTitle: OpenShift Techlab
+  ostechlabPageIntro: Mit einer Container-Plattform ändert sich die Art, wie wir Software entwickeln, ausliefern und betreiben. Puzzle stellt OpenShift 4 - die Container-Plattform von Red Hat - in einem Techlab vor.
 
   ostechTargetTitle: Lernziele
   ostechTargetList: |-
@@ -754,7 +751,7 @@ de:
     <li>Deployen einer ersten Applikation</li>
 
   ostechContentTitle: Inhalte
-  ostechContentDesc: Im ersten Teil des Techlabs lernen die Teilnehmenden die wichtigsten Konzepte kennen, welche OpenShift zu Grunde liegen. Danach kann das Gelernte in den hands-on Labs direkt angewendet werden. Dabei werden erste Applikationen deployed und konfiguriert, um so die Möglichkeiten aufzuzeigen, welche OpenShift für Entwickler und Betreiber bereitstellt.
+  ostechContentDesc: Im ersten Teil des Techlabs lernen die Teilnehmenden die wichtigsten Konzepte kennen, welche OpenShift zu Grunde liegen. Danach kann das Gelernte in den Hands-on Labs direkt angewendet werden. Dabei werden erste Applikationen deployed und konfiguriert, um so die Möglichkeiten aufzuzeigen, welche OpenShift für Entwickler und Betreiber bereitstellt.
 
   ostechPresentationTitle: Präsentation
   ostechPresentationList: |-
@@ -801,8 +798,8 @@ de:
 
   ostechDateTitle: Daten
   ostechDateList: |-
-    <li>Do. 30.07.2020 (remote)</li>
-    <li>Do. 10.09.2020 in Basel</li>
+    <li><a href="https://app.hatchbuck.com/OnlineForm/93633619678">Do, 30.07.2020 (remote)</a></li>
+    <li><a href="https://app.hatchbuck.com/OnlineForm/93633620084">Do, 03.09.2020 in Basel</a></li>
 
   ostechTimeTitle: Zeit
   ostechTimeDesc: 14.00-17.00 Uhr
