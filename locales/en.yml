@@ -104,44 +104,15 @@ en:
 # Home: Offering section
   homeOfferTitle: Offering
   homeOfferOneTitle: Managed
-  homeOfferOneDesc: You would like to have a private container platform in the cloud of your choice or on-premises and not having anything to do with setup and operation?
-  homeOfferOneList: |-
-    <li>Setup & Operation Managed Private Cluster</li>
-    <li>&ndash;</li>
-    <li>Operated Platform</li>
-    <li>Backup & Monitoring<br />Maintenance & Updates</li>
-    <li>Community Chat</li>
-    <li>Free choice of IaaS or on-premises</li>
-    <li>24 x 7 proactive and reactive*</li>
-    <li>Training for developers*</li>
+  homeOfferOneDesc: You would like to have a private container platform in the cloud of your choice or On-Premise and not having anything to do with setup and operation?
   homeOfferOneButton: Details
   homeOfferTwoTitle: Public
   homeOfferTwoDesc: You would like to deploy your productive applications as fast as possible into a Swiss cloud?
-  homeOfferTwoList: |-
-    <li>Shared or Dedicated</li>
-    <li>Start immediately</li>
-    <li>Operated Platform</li>
-    <li>Backup & Monitoring<br />Maintenance & Updates</li>
-    <li>Community Chat</li>
-    <li>Cloudscale.ch, AWS Frankfurt, Exoscale.ch, Swisscom DCS+</li>
-    <li>24 x 7 Support</li>
-    <li>Training for developers*</li>
   homeOfferTwoButton: Details
   homeOfferThreeTitle: Self-Managed
   homeOfferThreeDesc: You would like to build and operate your own container platform but you lack the required know-how or capacity?
-  homeOfferThreeList: |-
-    <li>Development of Private Cluster and Know-how</li>
-    <li>&ndash;</li>
-    <li>-</li>
-    <li>-</li>
-    <li>Community Chat</li>
-    <li>Free choice of IaaS or on-premises</li>
-    <li>3rd Level Support*</li>
-    <li>Training for developers and operations*</li>
   homeOfferThreeButton: Details
   homeOfferDesc: All APPUiO Public Platform offerings are held and operated in ISO27001-certified and FINMA-audited data centres within Switzerland and are subject to Swiss law.
-  homeOfferMore: More
-  homeOfferLess: Less
 
   # Home: Clients
   homeClientsTitle: What customers say about APPUiO
