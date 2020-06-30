@@ -128,35 +128,6 @@
   }
 }
 
-.home-offer-list {
-  .callout-desc {
-    min-height: 23rem;
-  }
-  .callout-button {
-    margin-top: 0;
-  }
-  ul.offer-feature-list {
-    margin: 2rem -1.25rem -1.25rem -1.25rem;
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    padding: 0;
-    li {
-      text-align: center;
-      margin: 0;
-      padding: 0.5em 1rem;
-      height: 6rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    li:nth-child(odd) {
-      background: #3B5566;
-    } 
-  }
-}
-
-
 .hint-border {
   border: 2px solid #FFD301;
 }
@@ -174,6 +145,7 @@
     @include squish(1, 1);
   }
 }
+
 // Clients
 // ----------------------------------------------
 .home-clients {
