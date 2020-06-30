@@ -140,6 +140,8 @@ de:
     <li>Schulungen für Betrieb und Entwickler*</li>
   homeOfferThreeButton: Details
   homeOfferDesc: Unser APPUiO Angebot wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
+  homeOfferMore: Mehr
+  homeOfferLess: Weniger
 
   # Home: Clients
   homeClientsTitle: Was Kunden über APPUiO sagen
