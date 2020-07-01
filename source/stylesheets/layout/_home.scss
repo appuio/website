@@ -167,10 +167,18 @@
 }
 .toggle-offer-feature {
   margin-top: 1rem;
+  text-decoration: none;
+  font-size: 1.2rem;
   color: #FFD301;
   &:hover {
     color: #fff;
   }
+  &:before {
+    content: "+ ";
+  }
+}
+.visible .toggle-offer-feature:before {
+  content: "– ";
 }
 .callout-item ul.offer-feature-list {
   display: none;
