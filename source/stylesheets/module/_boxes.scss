@@ -1,5 +1,7 @@
 .boxes {
   display: flex;
+  flex: auto;
+  flex-direction: column;
   > div {
     background: #fff;
     color: #012F47;
@@ -12,4 +14,16 @@
       font-size: rem-calc(24);
     }
   }
+  @include susy-breakpoint($break-large) {
+    flex-direction: row;
+  }  
+}
+
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-1 {
+  flex: 1;
 }
