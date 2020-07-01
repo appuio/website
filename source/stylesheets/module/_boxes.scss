@@ -1,0 +1,15 @@
+.boxes {
+  display: flex;
+  > div {
+    background: #fff;
+    color: #012F47;
+    padding: 1rem;
+    margin: 1rem 0.5rem;
+    flex: 1;
+    h4 {
+      margin: 0 0 0.5rem 0;
+      font-weight: normal;
+      font-size: rem-calc(24);
+    }
+  }
+}
