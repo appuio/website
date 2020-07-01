@@ -146,10 +146,14 @@ en:
   homeClientsTitle: What customers say about APPUiO
   homeClientsOneTitle: „APPUiO provides us with OpenShift-Experts who support us with their long-standing experience at any time.“
   homeClientsOneDesc: Matthias Summer, System Engineer <b>@Adcubum AG</b>
+  homeClientsOneButton: More
   homeClientsTwoTitle: „It’s not only us benefiting from APPUiO, but our end customers as well.“
   homeClientsTwoDesc: Bastian Widmer, System Engineer <b>@Amazee.io</b>
+  homeClientsTwoButton: More
   homeClientsThreeTitle: „APPUiO complies with our high security requirements.”
   homeClientsThreeDesc: Michael Gerber, Software Developer <b>@HRM Systems AG</b>
+  homeClientsThreeButton: More
+  homeClientsSubtitle: Who uses AAAPUiO?
 
   # Home: Distributions sections
   homeDistributionsTitle: Distributions
