@@ -325,8 +325,8 @@
   @include susy-breakpoint($break-large) {
     @include span(10 of 12);
     @include squish(1, 1);
-    font-size: rem-calc(36);
-    line-height: rem-calc(44);
+    font-size: rem-calc(24);
+    line-height: rem-calc(36);
   }
 }
 
