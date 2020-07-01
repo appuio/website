@@ -724,6 +724,10 @@ $toggleOffset: 4px;
   }
 }
 
+.boxes.offer-addons > div > div:last-child {
+  color: #99ABB5;
+}
+
 @media only screen and (max-width: 960px) {
   .offer-table {
     width: 80%;
