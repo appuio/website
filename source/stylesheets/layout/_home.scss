@@ -132,10 +132,6 @@
   .callout-desc {
     min-height: 23rem;
   }
-  .callout-button {
-    flex: 1;
-    margin-top: 0;
-  }
   ul.offer-feature-list {
     margin: 2rem -1.25rem -1.25rem -1.25rem;
     display: flex;
@@ -155,7 +151,11 @@
     }
     li:nth-child(odd) {
       background: #3B5566;
-    } 
+    }
+    .callout-button {
+      flex: 1;
+      margin-top: 0;
+    }
   }
 }
 .callout-item h3 a {
