@@ -784,6 +784,81 @@
 
     }
 
+    // OS Techlab Animation GSAP
+    if ($('svg#ostechlab_image').length > 0) {
+        var tlUnmanaged = new TimelineMax({
+            repeat: -1,
+            yoyo: true
+        });
+
+        tlUnmanaged.add("labelStart");
+
+        tlUnmanaged.to(".arm-pointer", 6, {
+            rotation: -30,
+            yoyo: true,
+            ease: Power1.easeInOut,
+            transformOrigin: '100% 100%',
+            repeat: -1
+        }, 0);
+        tlUnmanaged.to(".flower", 4, {
+            rotation: 15,
+            yoyo: true,
+            ease: Power1.easeInOut,
+            transformOrigin: '100% 100%',
+            repeat: -1
+        }, 0);
+        tlUnmanaged.to(".cloud-1, .cloud-2", 12, {
+            x: 80,
+            yoyo: true,
+            ease: Power1.easeInOut,
+            transformOrigin: '100% 100%',
+            repeat: -1
+        }, 0);
+        tlUnmanaged.to(".screen-glow", 2, {
+            opacity: .3,
+            yoyo: true,
+            ease: Power1.easeInOut,
+            repeat: -1,
+            repeatDelay: 3
+        }, 0);
+    }
+    // AMM Techlab Animation GSAP
+    if ($('svg#ammtechlab_image').length > 0) {
+        var tlUnmanaged = new TimelineMax({
+            repeat: -1,
+            yoyo: true
+        });
+
+        tlUnmanaged.add("labelStart");
+        tlUnmanaged.to("#p", 4, {
+            rotation: 15,
+            yoyo: true,
+            ease: Power1.easeInOut,
+            transformOrigin: '100% 100%',
+            repeat: -1
+        }, 0);
+        tlUnmanaged.to(".flower", 4, {
+            rotation: 15,
+            yoyo: true,
+            ease: Power1.easeInOut,
+            transformOrigin: '100% 100%',
+            repeat: -1
+        }, 0);
+        tlUnmanaged.to(".clouds", 12, {
+            x: 80,
+            yoyo: true,
+            ease: Power1.easeInOut,
+            repeat: -1
+        }, 0);
+        tlUnmanaged.to(".screen-glow", 2, {
+            opacity: .3,
+            yoyo: true,
+            ease: Power1.easeInOut,
+            repeat: -1,
+            repeatDelay: 3
+        }, 0);
+    }
+
 
     // Validating Form Fields.....
     $("#beerSubmit").click(function(e) {
