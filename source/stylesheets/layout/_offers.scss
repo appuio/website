@@ -198,6 +198,10 @@
     }
   }
 }
+.active .offers-package-item {
+  color: #000;
+  border-color: #000;
+}
 
 .is-caret {
   transition: transform 250ms;
@@ -304,7 +308,7 @@
   }
   @include susy-breakpoint($break-offer-intro) {
     p {
-      margin-top: 25%;
+      margin-top: 15vw;
     }
   }
 }
@@ -321,8 +325,8 @@
   @include susy-breakpoint($break-large) {
     @include span(10 of 12);
     @include squish(1, 1);
-    font-size: rem-calc(36);
-    line-height: rem-calc(44);
+    font-size: rem-calc(24);
+    line-height: rem-calc(36);
   }
 }
 
@@ -718,6 +722,10 @@ $toggleOffset: 4px;
     width: 20%;
     text-align: center;
   }
+}
+
+.boxes.offer-addon-boxes > div > div:last-child {
+  color: #99ABB5;
 }
 
 @media only screen and (max-width: 960px) {

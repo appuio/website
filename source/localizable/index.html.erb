@@ -25,133 +25,65 @@ title: APPUiO - Swiss Container Platform
   <section id="offer" class="home-offer">
     <div class="grid-container">
       <h2 class="home-offer-title"><%= t(:homeOfferTitle) %></h2>
+
       <ul class="home-offer-list callout-list">
         <li class="callout-item offer2-image">
           <div class="callout-ribbon offer2-bg"></div>
-          <h3 class="callout-title"><%= t(:homeOfferTwoTitle) %></h3>
+          <h3 class="callout-title">
+            <a href="./public.html">
+              <%= t(:homeOfferTwoTitle) %>
+            </a>
+          </h3>
           <p class="callout-desc"><%= t(:homeOfferTwoDesc) %></p>
-          <a href="./public.html" class="callout-button button is-round"><%= t(:homeOfferTwoButton) %></a>
+          <a href="javascript:void(0)" class="toggle-offer-feature">
+            <%= t('homeOfferDetails')%>
+          </a>
+          <ul class="offer-feature-list">
+            <%= t(:homeOfferTwoList) %>
+            <li>
+              <a href="./public.html" class="callout-button button is-round"><%= t(:homeOfferTwoButton) %></a>
+            </li>
+          </ul>
         </li>
         <li class="callout-item offer1-image">
           <div class="callout-ribbon offer1-bg"></div>
-          <h3 class="callout-title"><%= t(:homeOfferOneTitle) %></h3>
+          <h3 class="callout-title">
+            <a href="./managed-private.html">
+              <%= t(:homeOfferOneTitle) %>
+            </a>
+          </h3>
           <p class="callout-desc"><%= t(:homeOfferOneDesc) %></p>
-          <a href="./managed-private.html" class="callout-button button is-round"><%= t(:homeOfferOneButton) %></a>
+          <a href="javascript:void(0)" class="toggle-offer-feature">
+            <%= t('homeOfferDetails')%>
+          </a>
+          <ul class="offer-feature-list">
+            <%= t(:homeOfferOneList) %>
+            <li>
+              <a href="./managed-private.html" class="callout-button button is-round"><%= t(:homeOfferOneButton) %></a>
+            </li>
+          </ul>
         </li>
         <li class="callout-item offer3-image">
           <div class="callout-ribbon offer3-bg"></div>
-          <h3 class="callout-title"><%= t(:homeOfferThreeTitle) %></h3>
+          <h3 class="callout-title">
+            <a href="./unmanaged.html">
+              <%= t(:homeOfferThreeTitle) %>
+            </a>
+          </h3>
           <p class="callout-desc"><%= t(:homeOfferThreeDesc) %></p>
-          <a href="./unmanaged.html" class="callout-button button is-round"><%= t(:homeOfferThreeButton) %></a>
+          <a href="javascript:void(0)" class="toggle-offer-feature">
+            <%= t('homeOfferDetails')%>
+          </a>
+          <ul class="offer-feature-list">
+            <%= t(:homeOfferThreeList) %>
+            <li>
+              <a href="./unmanaged.html" class="callout-button button is-round"><%= t(:homeOfferThreeButton) %></a>
+            </li>
+          </ul>
         </li>
       </ul>
+
       <p class="home-offer-desc"><%= t(:homeOfferDesc) %></p>
-    </div>
-    <div class="index-table-hidden">
-      <p class="is-banner-before"><%= t(:homeTableHeaderText) %></p>
-      <table class="offer-table">
-        <tr>
-          <th></th>
-          <th class="cell-offer-include"><%= t(:navOffer2) %></th>
-          <th class="cell-offer-include"><%= t(:navOffer1) %></th>
-          <th class="cell-offer-include"><%= t(:navOffer3) %></th>
-        </tr>
-        <tr>
-          <td class="text-align-left"><%= t(:homeTableHeaderServiceDescription) %></td>
-          <td class="text-align-left"><%= t(:homeTableServiceDescription1) %></td>
-          <td class="text-align-left"><%= t(:homeTableServiceDescription2) %></td>
-          <td class="text-align-left"><%= t(:homeTableServiceDescription3) %></td>
-        </tr>
-        <tr>
-          <td class="text-align-left"><%= t(:homeTableSubject1) %></td>
-          <td><img src="/images/tick.svg"></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td class="text-align-left"><%= t(:homeTableSubject2) %></td>
-          <td><img src="/images/tick.svg"></td>
-          <td><img src="/images/tick.svg"></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td class="text-align-left"><%= t(:homeTableSubject3) %></td>
-          <td></td>
-          <td></td>
-          <td><img src="/images/tick.svg"></td>
-        </tr>
-        <tr>
-          <td class="text-align-left"><%= t(:homeTableSubject4) %></td>
-          <td></td>
-          <td></td>
-          <td><img src="/images/tick.svg"></td>
-        </tr>
-        <tr>
-          <td class="text-align-left"><%= t(:homeTableSubject5) %></td>
-          <td></td>
-          <td><img src="/images/tick.svg"></td>
-          <td><img src="/images/tick.svg"></td>
-        </tr>
-        <tr>
-          <td class="text-align-left"><%= t(:homeTableSubject6) %></td>
-          <td><img src="/images/tick.svg"></td>
-          <td><img src="/images/tick.svg"></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td class="text-align-left"><%= t(:homeTableSubject7) %></td>
-          <td><img src="/images/tick.svg"></td>
-          <td><img src="/images/tick.svg"></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td class="text-align-left"><%= t(:homeTableSubject8) %></td>
-          <td><img src="/images/tick.svg"></td>
-          <td>( <img alt="tick" src="/images/tick.svg"> )</td>
-          <td>( <img alt="tick" src="/images/tick.svg"> )</td>
-        </tr>
-        <tr>
-          <td class="text-align-left"><%= t(:homeTableSubject9) %></td>
-          <td></td>
-          <td><img src="/images/tick.svg"></td>
-          <td><img src="/images/tick.svg"></td>
-        </tr>
-        <tr>
-          <td class="text-align-left"><%= t(:homeTableSubject11) %></td>
-          <td><img src="/images/tick.svg"></td>
-          <td><img src="/images/tick.svg"></td>
-          <td><img src="/images/tick.svg"></td>
-        </tr>
-        <tr>
-          <td class="text-align-left"><%= t(:homeTableSubject12) %></td>
-          <td><img src="/images/tick.svg"></td>
-          <td><img src="/images/tick.svg"></td>
-          <td><img src="/images/tick.svg"></td>
-        </tr>
-        <tr>
-          <td class="text-align-left"><%= t(:homeTableSubject10) %></td>
-          <td>
-            <ul>
-              <li><%= t(:homeTableSubject10Public1) %></li>
-              <li><%= t(:homeTableSubject10Public2) %></li>
-              <li><%= t(:homeTableSubject10Public3) %></li>
-              <li><%= t(:homeTableSubject10Public4) %></li>
-            </ul>
-          </td>
-          <td>
-            <ul>
-              <li><%= t(:homeTableSubject10Managed1) %></li>
-              <li><%= t(:homeTableSubject10Managed2) %></li>
-            </ul>
-          </td>
-          <td>
-            <ul>
-              <li><%= t(:homeTableSubject10SelfManaged1) %></li>
-              <li><%= t(:homeTableSubject10SelfManaged2) %></li>
-            </ul>
-          </td>
-        </tr>
-      </table>
     </div>
   </section>
 
@@ -243,6 +175,7 @@ title: APPUiO - Swiss Container Platform
         </li>
       </ul>
     </div>
+    <h3><%= t(:homeClientsSubtitle) %></h3>
     <div class="clientlogo-container grid-container">
         <div class="clientlogo-group">
           <div class="clientlogo-item"><img src="/images/Customers/Adcubum.svg" alt="clientlogo"/></div>

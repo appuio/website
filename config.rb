@@ -79,8 +79,8 @@ helpers do
       ""
     end
   end
-  def parent_active(offer1, offer2, offer3)
-    if(current_page.path.end_with? offer1 or current_page.path.end_with? offer2 or current_page.path.end_with? offer3)
+  def parent_active(parent_paths)
+    if parent_paths.any?{ |parent_path| current_page.path.end_with? parent_path}
       "active"
     else
       ""
