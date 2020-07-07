@@ -105,23 +105,55 @@ en:
   homeOfferTitle: Offering
   homeOfferOneTitle: Managed
   homeOfferOneDesc: You would like to have a private container platform in the cloud of your choice or On-Premise and not having anything to do with setup and operation?
-  homeOfferOneButton: Details
+  homeOfferOneList: |-
+    <li>Setup & Operation Managed Private Cluster</li>
+    <li>&ndash;</li>
+    <li>Operated Platform</li>
+    <li>Backup & Monitoring<br />Maintenance & Updates</li>
+    <li>Community Chat</li>
+    <li>Free choice of IaaS or on-premises</li>
+    <li>24 x 7 proactive and reactive*</li>
+    <li>Training for developers*</li>
+  homeOfferOneButton: Show the offer
   homeOfferTwoTitle: Public
   homeOfferTwoDesc: You would like to deploy your productive applications as fast as possible into a Swiss cloud?
-  homeOfferTwoButton: Details
+  homeOfferTwoList: |-
+    <li>Shared or Dedicated</li>
+    <li>Start immediately</li>
+    <li>Operated Platform</li>
+    <li>Backup & Monitoring<br />Maintenance & Updates</li>
+    <li>Community Chat</li>
+    <li>Cloudscale.ch, AWS Frankfurt, Exoscale.ch, Swisscom DCS+</li>
+    <li>Support during office hours</li>
+    <li>Training for developers*</li>
+  homeOfferTwoButton: Show the offer
   homeOfferThreeTitle: Self-Managed
   homeOfferThreeDesc: You would like to build and operate your own container platform but you lack the required know-how or capacity?
-  homeOfferThreeButton: Details
+  homeOfferThreeList: |-
+    <li>Development of Private Cluster and Know-how</li>
+    <li>&ndash;</li>
+    <li>-</li>
+    <li>-</li>
+    <li>Community Chat</li>
+    <li>Free choice of IaaS or on-premises</li>
+    <li>3rd Level Support*</li>
+    <li>Training for developers and operations*</li>
+  homeOfferThreeButton: Show the offer
   homeOfferDesc: All APPUiO Public Platform offerings are held and operated in ISO27001-certified and FINMA-audited data centres within Switzerland and are subject to Swiss law.
+  homeOfferDetails: Details
 
   # Home: Clients
   homeClientsTitle: What customers say about APPUiO
   homeClientsOneTitle: „APPUiO provides us with OpenShift-Experts who support us with their long-standing experience at any time.“
   homeClientsOneDesc: Matthias Summer, System Engineer <b>@Adcubum AG</b>
+  homeClientsOneButton: More
   homeClientsTwoTitle: „It’s not only us benefiting from APPUiO, but our end customers as well.“
   homeClientsTwoDesc: Bastian Widmer, System Engineer <b>@Amazee.io</b>
+  homeClientsTwoButton: More
   homeClientsThreeTitle: „APPUiO complies with our high security requirements.”
   homeClientsThreeDesc: Michael Gerber, Software Developer <b>@HRM Systems AG</b>
+  homeClientsThreeButton: More
+  homeClientsSubtitle: Who uses APPUiO?
 
   # Home: Distributions sections
   homeDistributionsTitle: Distributions

@@ -3,6 +3,9 @@
   flex: none;
   vertical-align: middle;
 }
+p * {
+  vertical-align: initial;
+}
 
 html {
   -webkit-font-smoothing: antialiased;

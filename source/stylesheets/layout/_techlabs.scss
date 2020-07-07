@@ -1,8 +1,23 @@
-section.home-hero {
-  padding: 2.25rem 0;
-  margin-bottom: 0rem;
+.ammtechlab section.techlab-hero,
+.ostechlab section.techlab-hero {
+  padding-bottom: 0;
+  margin-bottom: -3rem;
+  @include susy-breakpoint($break-large) {
+    margin-bottom: -5rem;
+  }  
+  svg {
+    display: flex;
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 3rem;
+  }
 }
 
+section.section-audience,
+section.section-target {
+  background: #0E2F47;
+  color: #fff;
+}
 section.section-price {
   padding-bottom: 5rem;
 }
@@ -16,47 +31,28 @@ section.section-price {
   background: #012F47;
   color: #fff;
 }
-.techlab-boxes {
-  display: flex;
-  > div {
-    background: #fff;
-    color: #012F47;
-    padding: 1rem;
-    margin: 1rem 0.5rem;
-    flex: 1;
-    h4 {
-      margin: 0 0 0.5rem 0;
-      font-weight: normal;
-      font-size: rem-calc(24);
-    }
-  }
-  p b {
-    vertical-align: top;
-  }
-}
 
 .ammtechlab,
 .ostechlab {
   section {
-    margin: 2.25rem 0;
-    padding: 2.25rem 0;
+    margin: 0;
+    padding: 5rem 0;
     h3 {
       margin-top: 0;
     }
   }
 
+  .section-audience {
+    padding-top: 8rem;
+  }
+
   .section-audience,
   .section-requirements {
-    margin-bottom: 0;
-    padding-bottom: 0;
+    padding-bottom: 2rem;
   }
   .section-target,
   .section-language {
-    margin-top: 0;
     padding-top: 0;
-    h3 {
-      margin-top: 1em;
-    }
   }
 
   .section-price {

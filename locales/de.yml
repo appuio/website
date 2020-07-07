@@ -47,7 +47,7 @@ de:
   homeHeroSignup: Mehr zu APPUiO Public
   homeHeroRegister: Code einlösen
   homeHeroDesc: |-
-    APPUiO ist die führende, auf Kubernetes basierende Container-Plattform für das Design, die Entwicklung und den Betrieb von Applikationen. Auf Basis bewährter Open Source-Konzepte wie Docker und Kubernetes unterstützt APPUiO den DevOps-Ansatz. So werden Entwicklung, Deployment und Betriebsprozesse durch Automatisierung und Self-Service beschleunigt. Ebenso wird die Zusammenarbeit zwischen Software-Entwicklern und Betriebsorganisation verbessert.
+    APPUiO ist die führende, auf Kubernetes basierende Container-Plattform für das Design, die Entwicklung und den Betrieb von Applikationen. Auf Basis bewährter Open Source Konzepte wie Docker und Kubernetes unterstützt APPUiO den DevOps-Ansatz. So werden Entwicklung, Deployment und Betriebsprozesse durch Automatisierung und Self-Service beschleunigt. Ebenso wird die Zusammenarbeit zwischen Software-Entwicklern und Betriebsorganisation verbessert.
 
   # Home: Vorteile
   homeAdvantagesTitle: Wieso APPUiO?
@@ -105,42 +105,42 @@ de:
   homeOfferTitle: Angebot
   homeOfferOneTitle: Managed
   homeOfferOneDesc: Du willst eine private Container-Plattform in der Cloud deiner Wahl oder On-Premises und nichts mit dem Setup und Betrieb zu tun haben?
-  homeOfferOneButton: Details
+  homeOfferOneList: |-
+    <li>Aufbau & Betrieb Managed Private Cluster</li>
+    <li>&ndash;</li>
+    <li>Betriebene Plattform</li>
+    <li>Backup & Monitoring<br />Wartung & Updates</li>
+    <li>Community Chat</li>
+    <li>Freie Wahl der IaaS oder On-Premises</li>
+    <li>24 x 7 proaktiv und reaktiv*</li>
+    <li>Schulungen für Entwickler*</li>
+  homeOfferOneButton: Zum Angebot
   homeOfferTwoTitle: Public
   homeOfferTwoDesc: Du willst in kürzester Zeit deine produktiven Applikationen in eine Cloud deployen?
-  homeOfferTwoButton: Details
-  homeOfferThreeTitle: Self Managed
-  homeOfferThreeDesc: Du willst eine eigene Container-Plattform aufbauen und betreiben, dir fehlt aber das nötige Wissen oder Kapazität?
-  homeOfferThreeButton: Details
+  homeOfferTwoList: |-
+    <li>Shared oder Dedicated</li>
+    <li>Sofort starten</li>
+    <li>Betriebene Plattform</li>
+    <li>Backup & Monitoring<br />Wartung & Updates</li>
+    <li>Community Chat</li>
+    <li>Cloudscale.ch, AWS Frankfurt, Exoscale.ch, Swisscom DCS+</li>
+    <li>Support während Bürozeiten</li>
+    <li>Schulungen für Entwickler*</li>
+  homeOfferTwoButton: Zum Angebot
+  homeOfferThreeTitle: Self-Managed
+  homeOfferThreeDesc: Du willst eine eigene Container-Plattform aufbauen und betreiben, dir fehlt aber das nötige Wissen oder die nötige Kapazität?
+  homeOfferThreeList: |-
+    <li>Aufbau Private Cluster und Know-How</li>
+    <li>&ndash;</li>
+    <li>-</li>
+    <li>-</li>
+    <li>Community Chat</li>
+    <li>Freie Wahl der IaaS oder On-Premises</li>
+    <li>3rd Level Support*</li>
+    <li>Schulungen für Betrieb und Entwickler*</li>
+  homeOfferThreeButton: Zum Angebot
   homeOfferDesc: Unser APPUiO Angebot wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
-
-  # Home: Offer Table
-  homeTableHeaderText: Welches Modell brauche ich?
-  homeTableHeaderServiceDescription: Beschreibung
-  homeTableServiceDescription1: Shared oder Dedicated
-  homeTableServiceDescription2: Setup & Betrieb Managed Private Cluster
-  homeTableServiceDescription3: Setup Private Cluster nach Wahl
-
-  homeTableSubject1: Sofort loslegen
-  homeTableSubject2: Betrieb übernimmt APPUiO
-  homeTableSubject3: Eigener Betrieb
-  homeTableSubject4: Container Consulting
-  homeTableSubject5: On Premise
-  homeTableSubject6: Backup & Monitoring inbegriffen
-  homeTableSubject7: Maintenance & Updates inbegriffen
-  homeTableSubject8: ISO-20071 Zertifizierung & FINMA compliant
-  homeTableSubject9: IaaS-Partner frei wählbar
-  homeTableSubject10: Datenstandort / IaaS-Provider
-  homeTableSubject10Public1: Cloudscale.ch
-  homeTableSubject10Public2: AWS Frankfurt
-  homeTableSubject10Public3: exoscale.ch
-  homeTableSubject10Public4: Swisscom DCS+
-  homeTableSubject10Managed1: Alle IaaS
-  homeTableSubject10Managed2: On-Premise
-  homeTableSubject10SelfManaged1: Alle IaaS
-  homeTableSubject10SelfManaged2: On-Premise
-  homeTableSubject11: Community Chat
-  homeTableSubject12: How to dev on APPUiO
+  homeOfferDetails: Details
 
   # Home: Clients
   homeClientsTitle: Was Kunden über APPUiO sagen
@@ -153,6 +153,7 @@ de:
   homeClientsThreeTitle: „APPUiO erfüllt unsere hohen Sicherheitsanforderungen.“
   homeClientsThreeDesc: Michael Gerber, Software Developer <b>@HRM Systems AG</b>
   homeClientsThreeButton: Mehr
+  homeClientsSubtitle: APPUiO im Einsatz bei
 
   # Home: Distributions sections
   homeDistributionsTitle: Distributionen

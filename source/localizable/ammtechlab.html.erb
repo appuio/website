@@ -9,13 +9,12 @@ title: Application Migration and Modernization on APPUiO / OpenShift Techlab
 </header>
 
 <main class="main-container" role="main">
-  <section class="home-hero title-padding">
+  <section class="techlab-hero title-padding">
     <div class="grid-container">
       <h2><%= t(:ammtechlabPageTitle) %></h2>
-      <div class="grid-container">
-        <p><%= t(:ammtechlabPageIntro) %></p>
-      </div>
+      <p><%= t(:ammtechlabPageIntro) %></p>
     </div>
+    <%= partial "partials/svgs/ammtechlab" %>
   </section>
 
   <section class="section-audience">
@@ -37,11 +36,16 @@ title: Application Migration and Modernization on APPUiO / OpenShift Techlab
       <h3><%= t(:ammtechContentTitle) %></h3>
       <p><%= t(:ammtechContentDesc) %></p>
 
-      <h4><%= t(:ammtechPresentationTitle) %></h4>
-      <ul><%= t(:ammtechPresentationList) %></ul>
-
-      <h4><%= t(:ammtechLabsTitle) %></h4>
-      <ul><%= t(:ammtechLabsList) %></ul>
+      <div class="boxes">
+        <div>
+          <h4><%= t(:ammtechPresentationTitle) %></h4>
+          <ul><%= t(:ammtechPresentationList) %></ul>
+        </div>
+        <div>
+          <h4><%= t(:ammtechLabsTitle) %></h4>
+          <ul><%= t(:ammtechLabsList) %></ul>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -64,7 +68,7 @@ title: Application Migration and Modernization on APPUiO / OpenShift Techlab
       <h3><%= t(:ammtechPriceTitle) %></h3>
       <p><%= t(:ammtechPriceDesc) %></p>
 
-      <div class="techlab-boxes">
+      <div class="boxes">
         <div class="box">
           <h4><%= t(:ammtechDateTitle) %></h4>
           <ul><%= t(:ammtechDateList) %></ul>

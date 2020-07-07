@@ -212,27 +212,29 @@
 <section id="offers-two-addons" class="offer-addons">
   <div class="grid-container">
     <h2 class="offers-addons-title"><%= t(:offerTwoAddonsTitle) %></h2>
-    <article class="offers-package last-child">
-      <ul class="offers-package-list cols-5">
-        <li class="offers-package-item offers-addons-package-title"><%= t(:offerTwoAddon1Title) %></li>
-        <li class="offers-package-item"><%= t(:offerTwoAddon1Description) %></li>
-        <li class="offers-package-item"><%= t(:offerTwoAddon1Price) %></li>
-      </ul>
-      <ul class="offers-package-list cols-5">
-        <li class="offers-package-item offers-addons-package-title"><%= t(:offerTwoAddon3Title) %></li>
-        <li class="offers-package-item"><%= t(:offerTwoAddon3Description) %></li>
-        <li class="offers-package-item"><%= t(:offerTwoAddon3Price) %></li>
-      </ul>
-      <ul class="offers-package-list cols-5">
-        <li class="offers-package-item offers-addons-package-title"><%= t(:offerTwoAddon4Title) %></li>
-        <li class="offers-package-item"><%= t(:offerTwoAddon4Description) %></li>
-        <li class="offers-package-item"><%= t(:offerTwoAddon4Price) %></li>
-      </ul>
-      <ul class="offers-package-list cols-5">
-        <li class="offers-package-item offers-addons-package-title"><%= t(:offerTwoAddon5Title) %></li>
-        <li class="offers-package-item"><%= t(:offerTwoAddon5Description) %></li>
-        <li class="offers-package-item"><%= t(:offerTwoAddon5Price) %></li>
-      </ul>
+    <article>
+      <div class="boxes offer-addon-boxes">
+        <div class="flex-column">
+          <b><%= t(:offerTwoAddon1Title) %></b>
+          <p class="flex-1"><%= t(:offerTwoAddon1Description) %></p>
+          <div><%= t(:offerTwoAddon1Price) %></div>
+        </div>
+        <div class="flex-column">
+          <b><%= t(:offerTwoAddon3Title) %></b>
+          <p class="flex-1"><%= t(:offerTwoAddon3Description) %></p>
+          <div><%= t(:offerTwoAddon3Price) %></div>
+        </div>
+        <div class="flex-column">
+          <b><%= t(:offerTwoAddon4Title) %></b>
+          <p class="flex-1"><%= t(:offerTwoAddon4Description) %></p>
+          <div><%= t(:offerTwoAddon4Price) %></div>
+        </div>
+        <div class="flex-column">
+          <b><%= t(:offerTwoAddon5Title) %></b>
+          <p class="flex-1"><%= t(:offerTwoAddon5Description) %></p>
+          <div><%= t(:offerTwoAddon5Price) %></div>
+        </div>
+      </div>
     </article>
     <!-- <article class="offers-package is-banner-before">
         <p><%= t(:offerTwoStorageDescription) %></p>

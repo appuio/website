@@ -75,6 +75,7 @@ $color-third: lighten($color-blue, 15%);
 // .product-name { }
 // ----------------------------------------------
 @import 'module/badge';
+@import 'module/boxes';
 @import 'module/button';
 @import 'module/callout';
 @import 'module/feature';

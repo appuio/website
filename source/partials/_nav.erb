@@ -6,7 +6,7 @@
 
   <div class="nav nav-main is-horizontal">
     <!-- offers dropdown -->
-    <div class="dropdown nav-element <%= parent_active('managed.html', 'public.html', 'self-managed.html') %>">
+    <div class="dropdown nav-element <%= parent_active(['managed.html', 'public.html', 'self-managed.html', 'faq.html']) %>">
       <button class="dropbtn dropbtn-offerings nav-button" id="navOfferingDropdown">
         <%= t(:navOffers) %>
         <i class="material-icons">arrow_drop_down</i>
@@ -87,7 +87,7 @@
         <button class="dropbtn nav-button" onclick="window.location.href = 'index.html';">Home</button>
       </div>
       <!-- offers dropdown -->
-      <div class="dropdown nav-element sidenav-element <%= parent_active('managed.html', 'public.html', 'self-managed.html') %>">
+      <div class="dropdown nav-element sidenav-element <%= parent_active(['managed.html', 'public.html', 'self-managed.html', 'faq.html']) %>">
         <button class="dropbtn sidenav-button-offers nav-button" id="sidenavOffersButton">
           <%= t(:navOffers) %>
           <i class="material-icons">arrow_drop_down</i>
