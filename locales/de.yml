@@ -4,6 +4,9 @@ de:
   metaDescription: APPUiO - die Schweizer Container-Plattform mit einer starken Community. Betreibe deinen Container Workload auf APPUiO.
   metaKeywords: OpenShift, container runtime, Container-Platform, Cluster, PaaS, Platform as a Service, Docker, Kubernetes, Swiss, Switzerland, VSHN AG, Puzzle ITC GmbH
 
+  cookieMsg: Um deinen Besuch möglichst angenehm zu gestalten verwenden wir Cookies
+  cookieBtn: Akzeptieren
+
   # Globale Navigation
   navGlobalDocs: Docs
   navGlobalFAQ: FAQ
