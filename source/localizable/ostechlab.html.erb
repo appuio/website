@@ -68,17 +68,23 @@ title: Application Migration and Modernization on APPUiO / OpenShift Techlab
       <p><%= t(:ostechPriceDesc) %></p>
 
       <div class="boxes">
-        <div class="box">
+        <div class="box flex-column">
           <h4><%= t(:ostechDateTitle) %></h4>
-          <ul><%= t(:ostechDateList) %></ul>
+          <div class="flex-column flex-1 justify-center">
+            <ul><%= t(:ostechDateList) %></ul>
+          </div>
         </div>
-        <div class="box">
+        <div class="box flex-column">
           <h4><%= t(:ostechTimeTitle) %></h4>
-          <p><%= t(:ostechTimeDesc) %></p>
+          <div class="flex-column flex-1 justify-center">
+            <p><%= t(:ostechTimeDesc) %></p>
+          </div>
         </div>
-        <div class="box">
+        <div class="box flex-column">
           <h4><%= t(:ostechLocationTitle) %></h4>
-          <p><%= t(:ostechLocationDesc) %></p>
+          <div class="flex-column flex-1 justify-center">
+            <p><%= t(:ostechLocationDesc) %></p>
+          </div>
         </div>
       </div>
     </div>
