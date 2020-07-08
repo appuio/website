@@ -655,13 +655,13 @@ en:
   ammtechPriceDesc: The full day Application Migration and Modernization on APPUiO / OpenShift Techlab is free of charge.
 
   ammtechDateTitle: Dates
-  ammtechDateList: |-
-    <li><a href="https://app.hatchbuck.com/OnlineForm/93633620212">We. 22.07.2020 in Bern</a></li>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/93633620214">Thu. 24.09.2020 in Bern</a></li>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/93633620215">We. 21.10.2020 in Zurich</a></li>
+  ammtechDateDesc: |-
+    <a href="https://app.hatchbuck.com/OnlineForm/93633620212">We. 22.07.2020 in Bern</a><br />
+    <a href="https://app.hatchbuck.com/OnlineForm/93633620214">Thu. 24.09.2020 in Bern</a><br />
+    <a href="https://app.hatchbuck.com/OnlineForm/93633620215">We. 21.10.2020 in Zurich</a>
 
   ammtechTimeTitle: Time
-  ammtechTimeDesc: 09.00-17.00 Uhr
+  ammtechTimeDesc: 09.00-12.00<br /> 13.00-17.00
   ammtechLocationTitle: Location (unless remote)
   ammtechLocationDesc: Belpstr. 37, 3007 <b>Bern</b>,<br>Limmatstr. 214, 8005 <b>Zürich</b>,<br>Peter Merian-Str. 54. 4052 <b>Basel</b>
 
@@ -721,12 +721,12 @@ en:
   ostechPriceDesc: The participation is free of charge. Please bring your laptop for the lab. The number of seats is limited.
 
   ostechDateTitle: Dates
-  ostechDateList: |-
-    <li><a href="https://app.hatchbuck.com/OnlineForm/93633619678">Th. 30.07.2020 (remote)</a></li>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/93633620084">Th. 03.09.2020 in Basel</a></li>
+  ostechDateDesc: |-
+    <a href="https://app.hatchbuck.com/OnlineForm/93633619678">Th. 30.07.2020 (remote)</a><br />
+    <a href="https://app.hatchbuck.com/OnlineForm/93633620084">Th. 03.09.2020 in Basel</a>
 
   ostechTimeTitle: Time
-  ostechTimeDesc: 14.00-17.00 Uhr
+  ostechTimeDesc: afternoon<br />14.00-17.00
   ostechLocationTitle: Location
   ostechLocationDesc: Belpstr. 37, 3007 <b>Bern</b>,<br>Limmatstr. 214, 8005 <b>Zürich</b>,<br>Peter Merian-Str. 54. 4052 <b>Basel</b>
 

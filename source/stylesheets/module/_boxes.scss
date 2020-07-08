@@ -16,7 +16,10 @@
   }
   @include susy-breakpoint($break-large) {
     flex-direction: row;
-  }  
+  }
+  p.narrow {
+    margin: 0.25rem 0;
+  }
 }
 
 
