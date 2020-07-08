@@ -123,7 +123,7 @@ de:
     <li>Betriebene Plattform</li>
     <li>Backup & Monitoring<br />Wartung & Updates</li>
     <li>Community Chat</li>
-    <li>Cloudscale.ch, AWS Frankfurt, Exoscale.ch, Swisscom DCS+</li>
+    <li>Cloudscale.ch, Exoscale.ch, Swisscom DCS+</li>
     <li>Support während Bürozeiten</li>
     <li>Schulungen für Entwickler*</li>
   homeOfferTwoButton: Zum Angebot
@@ -457,7 +457,7 @@ de:
   offerTwoFaqVerSixText: Nein, die Subscriptions sind im Preis enthalten.
   #Categorie: Allgemein
   offerTwoFaqAllOneTitle: Wo ist APPUiO Public gehostet?
-  offerTwoFaqAllOneText: APPUiO Public Platform kann je nach Wunsch bei cloudscale.ch und bei AWS Frankfurt gehostet werden.
+  offerTwoFaqAllOneText: Die APPUiO Public Platform wird bei cloudscale.ch gehostet.
   offerTwoFaqAllTwoTitle: Wie erhalte ich einen APPUiO Account?
   offerTwoFaqAllTwoText: Deinen APPUiO-Account erhältst du, indem du das Kontaktformular ausfüllst. Anschliessend erhältst du von uns nach Prüfung ein Login
   offerTwoFaqAllTreeTitle: Was wird überwacht?
