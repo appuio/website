@@ -91,9 +91,14 @@
   margin-bottom: 0;
 }
 .callout-desc {
-  min-height: rem-calc(192);
   flex: 1;
 }
+@include susy-breakpoint($break-large) {
+  .callout-desc {
+    min-height: rem-calc(192);
+  }
+}
+
 .callout-button {
   flex: none;
   margin-top: rem-calc(140);
