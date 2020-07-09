@@ -180,7 +180,10 @@
 
 .expandable-info-wrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  @include susy-breakpoint($break-large) {
+    justify-content: space-around;
+  }
 }
 
 .expandable-info-title {
@@ -189,6 +192,22 @@
 
 .expandable-info-list {
   justify-content: space-around !important;
+  li {
+    cursor: pointer;
+  }
+  @media only screen and (max-width: 960px) {
+    li.offers-package-item {
+      width: 100% !important;
+      padding: 0;
+      margin: 0;
+    }
+    h4 {
+      margin: 0.5rem 0;
+    }
+    .offers-package-item-description {
+      margin: 0.5rem 0 2rem 0;
+    }
+  }
 }
 
 .offers-package-item {
