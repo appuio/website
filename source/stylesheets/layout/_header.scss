@@ -32,11 +32,8 @@ category: Layout
   visibility: hidden;
   display: none;
   @include susy-breakpoint($break-large) {
-    position: relative;
-    float: left;
     visibility: visible;
     display: block;
-    top: 15px;
     margin-right: 10px;
   }
   & img {
