@@ -447,7 +447,9 @@ section.offer-two-services {
 
     .callout-item {
       max-width: none;
-      margin: 5px 10px;
+      @include susy-breakpoint($break-large) {
+        margin: 5px 10px;
+      }
       overflow: visible;
 
       .offers-package-ribbon {
