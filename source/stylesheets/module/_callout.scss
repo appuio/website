@@ -104,9 +104,6 @@
 .callout-button {
   flex: none;
   margin-top: 2rem;
-  @include susy-breakpoint($break-large) {
-    margin-top: rem-calc(140);
-  }
 }
 .callout-title,
 .callout-desc {
