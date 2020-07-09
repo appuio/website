@@ -128,6 +128,10 @@
     <h2 class="offers-package-title"><%= t(:offerTwoPackageTitle) %></h2>
     <article class="offers-package last-child">
       <!-- <div class="offers-package-ribbon is-orange text-center"><%= t(:offerDynamicAddonsPretext) %></div> -->
+
+      <!-- has to be here to ensure the price calculator works -->
+      <input id="price-switch-appuio" type="radio" name="appuio-price-source" value="appuio" checked hidden>
+
       <!-- <h3 class="offers-package-list-title m-t-2"><%= t(:offerDynamicAddonsTitle) %></h3> -->
       <input name="memory" data-appuio-range-slider class="range-slider__range" id="memoryslider" type="range" value="512" min="512" max="20480" step="512">
       <ul class="offers-package-list cols-5">
