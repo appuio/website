@@ -154,6 +154,9 @@ $color-third: lighten($color-blue, 15%);
 .text-right {
   text-align: right;
 }
+.is-block {
+  display: block;
+}
 
 // Boostrap helpers
 .m-t-1 {
