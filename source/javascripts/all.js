@@ -126,7 +126,6 @@
             return n.value;
         }).join(',');
         var memory = $('[name="memory"]').val();
-        var priceSource = $('[name="appuio-price-source"]:checked').val();
         var tags = $.map($(':checkbox[name=interests\\[\\]]:checked'), function (n, i) {
             return 'q6_interessen[]=' + n.value;
         }).join('&');
@@ -142,7 +141,6 @@
         var message = messageform + "<br><br>\n\r";
         message += 'memory: ' + memory + "<br><br>\n\r";
         message += 'dedicated: ' + dedicated + "<br><br>\n\r";
-        message += 'zone: ' + priceSource + "<br><br>\n\r";
         message += "<br><br>\n\rDebugfields:<br>\n\r"
         // add all fields also to the message
         $(":input").each(function () {
@@ -170,7 +168,6 @@
                 nachname: nachname,
                 email: email,
                 interests: interests,
-                priceSource: priceSource,
                 memory: memory,
                 message: messageform,
                 dedicated: dedicated,

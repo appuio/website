@@ -114,7 +114,6 @@ $email_message .= addToMessage("telefon", "Telefonnummer");
 $email_message .= addToMessage("interests", "Interessen");
 $email_message .= addToMessage("memory", "Memory");
 $email_message .= addToMessage("dedicated", "Dedicated Node");
-$email_message .= addToMessage("priceSource", "Public Zone");
 $email_message .= "\r\n";
 $email_message .= addToMessage("message", "Mitteilung");
 
