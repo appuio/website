@@ -9,6 +9,9 @@
   }
 }
 .callout-item {
+  @include susy-breakpoint($break-large) {
+    min-height: rem-calc(340);
+  }
   display: flex;
   flex-direction: column;
   align-content: space-around;
@@ -18,7 +21,6 @@
   padding: rem-calc(20);
   margin: rem-calc(20) auto 0;
   max-width: rem-calc(320);
-  min-height: rem-calc(340);
   overflow: hidden;
   text-align: center;
 
@@ -91,12 +93,17 @@
   margin-bottom: 0;
 }
 .callout-desc {
-  min-height: rem-calc(192);
   flex: 1;
 }
+@include susy-breakpoint($break-large) {
+  .callout-desc {
+    min-height: rem-calc(192);
+  }
+}
+
 .callout-button {
   flex: none;
-  margin-top: rem-calc(140);
+  margin-top: 2rem;
 }
 .callout-title,
 .callout-desc {

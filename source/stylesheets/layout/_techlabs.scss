@@ -1,5 +1,7 @@
 .ammtechlab section.techlab-hero,
-.ostechlab section.techlab-hero {
+.en_ammtechlab section.techlab-hero,
+.ostechlab section.techlab-hero,
+.en_ostechlab section.techlab-hero {
   padding-bottom: 0;
   margin-bottom: -3rem;
   @include susy-breakpoint($break-large) {
@@ -33,7 +35,9 @@ section.section-price {
 }
 
 .ammtechlab,
-.ostechlab {
+.en_ammtechlab,
+.ostechlab,
+.en_ostechlab {
   section {
     margin: 0;
     padding: 5rem 0;

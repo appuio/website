@@ -4,6 +4,9 @@ de:
   metaDescription: APPUiO - die Schweizer Container-Plattform mit einer starken Community. Betreibe deinen Container Workload auf APPUiO.
   metaKeywords: OpenShift, container runtime, Container-Platform, Cluster, PaaS, Platform as a Service, Docker, Kubernetes, Swiss, Switzerland, VSHN AG, Puzzle ITC GmbH
 
+  cookieMsg: Um deinen Besuch möglichst angenehm zu gestalten verwenden wir Cookies
+  cookieBtn: Akzeptieren
+
   # Globale Navigation
   navGlobalDocs: Docs
   navGlobalFAQ: FAQ
@@ -123,7 +126,7 @@ de:
     <li>Betriebene Plattform</li>
     <li>Backup & Monitoring<br />Wartung & Updates</li>
     <li>Community Chat</li>
-    <li>Cloudscale.ch, AWS Frankfurt, Exoscale.ch, Swisscom DCS+</li>
+    <li>Cloudscale.ch, Exoscale.ch, Swisscom DCS+</li>
     <li>Support während Bürozeiten</li>
     <li>Schulungen für Entwickler*</li>
   homeOfferTwoButton: Zum Angebot
@@ -457,7 +460,7 @@ de:
   offerTwoFaqVerSixText: Nein, die Subscriptions sind im Preis enthalten.
   #Categorie: Allgemein
   offerTwoFaqAllOneTitle: Wo ist APPUiO Public gehostet?
-  offerTwoFaqAllOneText: APPUiO Public Platform kann je nach Wunsch bei cloudscale.ch und bei AWS Frankfurt gehostet werden.
+  offerTwoFaqAllOneText: Die APPUiO Public Platform wird bei cloudscale.ch gehostet.
   offerTwoFaqAllTwoTitle: Wie erhalte ich einen APPUiO Account?
   offerTwoFaqAllTwoText: Deinen APPUiO-Account erhältst du, indem du das Kontaktformular ausfüllst. Anschliessend erhältst du von uns nach Prüfung ein Login
   offerTwoFaqAllTreeTitle: Was wird überwacht?
@@ -730,12 +733,12 @@ de:
   ammtechPriceDesc: Das ganztägige Application Migration and Modernization on APPUiO / OpenShift Techlab ist kostenlos.
 
   ammtechDateTitle: Daten
-  ammtechDateList: |-
-    <li><a href="https://app.hatchbuck.com/OnlineForm/93633620214">Do. 24.09.2020 in Bern</a></li>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/93633620215">Mi. 21.10.2020 in Zürich</a></li>
+  ammtechDateDesc: |-
+    <a href="https://app.hatchbuck.com/OnlineForm/93633620214">Do. 24.09.2020 in Bern</a><br />
+    <a href="https://app.hatchbuck.com/OnlineForm/93633620215">Mi. 21.10.2020 in Zürich</a>
 
   ammtechTimeTitle: Zeit
-  ammtechTimeDesc: 09.00-17.00 Uhr
+  ammtechTimeDesc: 09.00-12.00 Uhr<br /> 13.00-17.00 Uhr
   ammtechLocationTitle: Ort
   ammtechLocationDesc: Belpstr. 37, 3007 <b>Bern</b>,<br>Limmatstr. 214, 8005 <b>Zürich</b>,<br>Peter Merian-Str. 54. 4052 <b>Basel</b>
 
@@ -796,12 +799,12 @@ de:
   ostechPriceDesc: Die Teilnahme ist kostenlos. Bitte bring für das Lab deinen Laptop mit. Die Platzzahl ist beschränkt.
 
   ostechDateTitle: Daten
-  ostechDateList: |-
-    <li><a href="https://app.hatchbuck.com/OnlineForm/93633619678">Do, 30.07.2020 (remote)</a></li>
-    <li><a href="https://app.hatchbuck.com/OnlineForm/93633620084">Do, 03.09.2020 in Basel</a></li>
+  ostechDateDesc: |-
+    <a href="https://app.hatchbuck.com/OnlineForm/93633619678">Do, 30.07.2020 (remote)</a><br />
+    <a href="https://app.hatchbuck.com/OnlineForm/93633620084">Do, 03.09.2020 in Basel</a>
 
   ostechTimeTitle: Zeit
-  ostechTimeDesc: 14.00-17.00 Uhr
+  ostechTimeDesc: Nachmittag<br />14.00-17.00 Uhr
   ostechLocationTitle: Ort
   ostechLocationDesc: Belpstr. 37, 3007 <b>Bern</b>,<br>Limmatstr. 214, 8005 <b>Zürich</b>,<br>Peter Merian-Str. 54. 4052 <b>Basel</b>
 
