@@ -646,7 +646,7 @@ en:
     </ul>
 
   ammtechTargetAudienceTitle: Target audience
-  ammtechTargetAudienceDesc: The Techlab addresses OpenShift and Kubernetes Engineers with developer focus. Basic knowledge in the field of container platform should be available. This Techlab is based on the <a href="https://appuio.ch/techlabs.html">OS Techlab</a>.
+  ammtechTargetAudienceDesc: The Techlab addresses OpenShift and Kubernetes Engineers with developer focus. Basic knowledge in the field of container platform should be available. This Techlab is based on the <a href="https://appuio.ch/techlabs.html">Open Shift Techlab</a>.
 
   ammtechRequirementsTitle: Requirements
   ammtechRequirementsDesc: All participants need a laptop (dual-core processor, min. 2GB RAM) with admin rights (required for Container and Kubernetes installation). A prior installation of 'oc-tool' is recommended.
@@ -668,7 +668,7 @@ en:
   ammtechLocationDesc: Belpstr. 37, 3007 <b>Bern</b>,<br>Limmatstr. 214, 8005 <b>Zürich</b>,<br>Peter Merian-Str. 54. 4052 <b>Basel</b>
 
   # OS Techlab Page
-  ostechlabPageTitle: OS Techlab
+  ostechlabPageTitle: Open Shift Techlab
   ostechlabPageIntro: A container platform changes the way we develop, deliver and operate software. Puzzle presents OpenShift 4 - the container platform from Red Hat - in a Techlab.
 
   ostechTargetTitle: Learning Objectives
