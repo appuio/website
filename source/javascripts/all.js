@@ -114,6 +114,25 @@
     // ------------------
     // Contact Form on homepage
 
+    var resetProgressButton = function () {
+        $(".appuio-contact-button").delay(4500).queue(function () {
+            $(".button-progress-feedback").remove();
+            $(".home-feedback").empty();
+            $("input", this).val(submitText);
+            $(this).removeClass("is-check is-exclamation is-loading").dequeue();
+        });
+    };
+    var sendProgressButton = function (status) {
+        $(".appuio-contact-button").delay(2000).queue(function () {
+            $(this).append('<span class="button-progress-feedback"><div class="icon icon--ei-' + status + ' icon--m "><svg class="icon__cnt"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ei-' + status + '-icon"></use></svg></div></span>');
+            $(this).addClass('is-' + status).dequeue();
+            $(".home-feedback").text(
+                $(this).closest('form').data('successMessage')
+            );
+        });
+        resetProgressButton();
+    }
+
     var submitText;
 
     $(".home-contact-container, .offers-contact-container").submit(function (event) {
@@ -196,24 +215,6 @@
             sendProgressButton('check');
         });
     });
-    var sendProgressButton = function (status) {
-        $(".appuio-contact-button").delay(2000).queue(function () {
-            $(this).append('<span class="button-progress-feedback"><div class="icon icon--ei-' + status + ' icon--m "><svg class="icon__cnt"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ei-' + status + '-icon"></use></svg></div></span>');
-            $(this).addClass('is-' + status).dequeue();
-            $(".home-feedback").text(
-                $(this).closest('form').data('successMessage')
-            );
-        });
-        resetProgressButton();
-    }
-    var resetProgressButton = function () {
-        $(".appuio-contact-button").delay(4500).queue(function () {
-            $(".button-progress-feedback").remove();
-            $(".home-feedback").empty();
-            $("input", this).val(submitText);
-            $(this).removeClass("is-check is-exclamation is-loading").dequeue();
-        });
-    };
 
     // Desktip view: Navigation
     var navOfferingDropdown = $("#navOfferingDropdown");
