@@ -828,13 +828,6 @@
         });
 
         tlUnmanaged.add("labelStart");
-        tlUnmanaged.to("#p", 4, {
-            rotation: 15,
-            yoyo: true,
-            ease: Power1.easeInOut,
-            transformOrigin: '100% 100%',
-            repeat: -1
-        }, 0);
         tlUnmanaged.to(".flower", 4, {
             rotation: 15,
             yoyo: true,

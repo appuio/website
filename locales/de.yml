@@ -5,7 +5,7 @@ de:
   metaKeywords: OpenShift, container runtime, Container-Platform, Cluster, PaaS, Platform as a Service, Docker, Kubernetes, Swiss, Switzerland, VSHN AG, Puzzle ITC GmbH
 
   cookieMsg: Um deinen Besuch möglichst angenehm zu gestalten verwenden wir Cookies
-  cookieBtn: Akzeptieren
+  cookieBtn: Verstanden
 
   # Globale Navigation
   navGlobalDocs: Docs
@@ -133,7 +133,7 @@ de:
   homeOfferThreeTitle: Self-Managed
   homeOfferThreeDesc: Du willst eine eigene Container-Plattform aufbauen und betreiben, dir fehlt aber das nötige Wissen oder die nötige Kapazität?
   homeOfferThreeList: |-
-    <li>Aufbau Private Cluster und Know-How</li>
+    <li>Aufbau Private Cluster und Know-how</li>
     <li>&ndash;</li>
     <li>-</li>
     <li>-</li>
@@ -228,7 +228,7 @@ de:
   # Offer One: Managed: Advantages
   offerOneAdvantagesTitle: Vorteile
   offerOneAdvantagesOneTitle: Zeit gewinnen
-  offerOneAdvantagesOneDesc: Endlich auf das Entwickeln der Applikation konzentrieren und nicht auf den Betrieb.
+  offerOneAdvantagesOneDesc: Endlich auf das Entwickeln der Applikation konzentrieren und nicht auf den Betrieb.ß
   offerOneAdvantagesTwoTitle: Schnelligkeit
   offerOneAdvantagesTwoDesc: Bereitstellung von Applikationen & Microservices im Handumdrehen.
   offerOneAdvantagesThreeTitle: Automatisierung
@@ -237,8 +237,8 @@ de:
   offerOneAdvantagesFourDesc: Devs profitieren in der Entwicklung sowie beim Ausrollen und Ops im Container-Betrieb.
   offerOneAdvantagesFiveTitle: Flexibilität
   offerOneAdvantagesFiveDesc: Freie Wahl von Cloud-Provider oder On-Premises (eigenes RZ).
-  offerOneAdvantagesSixTitle: Know-How
-  offerOneAdvantagesSixDesc: Persönliche Ansprechpartner und Know-How sharing.
+  offerOneAdvantagesSixTitle: Know-how
+  offerOneAdvantagesSixDesc: Persönliche Ansprechpartner und Know-how sharing.
 
   # Offer One: Im Angebot enthalten
   offerOnePackageContentsTitle: Im Angebot enthalten
@@ -553,7 +553,7 @@ de:
   # Offer three: Advantages
   offerThreeAdvantagesTitle: Vorteile
   offerThreeAdvantagesOneTitle: Know How
-  offerThreeAdvantagesOneDesc: Wir bringen unser grosses Know-How zu unseren Kunden.
+  offerThreeAdvantagesOneDesc: Wir bringen unser grosses Know-how zu unseren Kunden.
   offerThreeAdvantagesTwoTitle: Langjährige Erfahrung
   offerThreeAdvantagesTwoDesc: Seit der BetaPhase von OpenShift arbeiten wir mit Firmen und beraten sie.
   offerThreeAdvantagesThreeTitle: Flexibilität
@@ -571,8 +571,8 @@ de:
   offerThreePackageContentsFirstItemOne: Gemeinsam definieren wir die Architektur. Perfekt auf die Infrastruktur zugeschnitten.
   offerThreePackageContentsSecondTitle: Aufbau der Plattform
   offerThreePackageContentsSecondItemOne: Gemeinsam bauen wir die definierte Plattform, sei dies als POC, Dev oder Prd auf.
-  offerThreePackageContentsThirdTitle: Know-How Transfer
-  offerThreePackageContentsThirdItemOne: Wir geben unser Know-How und Erfahrung sehr gerne weiter, damit das Wissen ins Unternehmen einfliessen kann.
+  offerThreePackageContentsThirdTitle: Know-how Transfer
+  offerThreePackageContentsThirdItemOne: Wir geben unser Know-how und Erfahrung sehr gerne weiter, damit das Wissen ins Unternehmen einfliessen kann.
   offerThreePackageContentsFourthTitle: Dokumentation des Setups
   offerThreePackageContentsFourthItemOne: Wir dokumentieren gemeinsam die Architektur, damit unsere Kunden alle nötigen Informationen jederzeit schriftlich zur Verfügung steht.
   offerThreePackageContentsFifthTitle: Integration in Monitoring
@@ -682,7 +682,7 @@ de:
 
   # AMM Techlab Page
   ammtechlabPageTitle: Application Migration and Modernization on APPUiO / OpenShift Techlab
-  ammtechlabPageIntro: Im "Application Migration and Modernization Techlab” lernen die Teilnehmenden anhand Präsentationen und Hands-on Labs, wie sie Applikationen in ihrer Systemlandschaft auf die neue Container-Plattform bringen. Es wird aufgezeigt, welche architektonischen Grundprinzipien beachtet werden müssen, damit die Flexibilität und die Features der Container_Plattform wirklich ausgereizt werden können. Anhand eines Kriterienkatalog lernen sie zudem die unterschiedlichen Migrationsarten kennen.
+  ammtechlabPageIntro: Im "Application Migration and Modernization Techlab” lernen die Teilnehmenden anhand Präsentationen und Hands-on Labs, wie sie Applikationen in ihrer Systemlandschaft auf die neue Container-Plattform bringen. Es wird aufgezeigt, welche architektonischen Grundprinzipien beachtet werden müssen, damit die Flexibilität und die Features der Container-Plattform wirklich ausgereizt werden können. Anhand eines Kriterienkatalog lernen sie zudem die unterschiedlichen Migrationsarten kennen.
 
   ammtechTargetTitle: Lernziele
   ammtechTargetList: |-
