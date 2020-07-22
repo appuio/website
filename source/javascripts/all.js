@@ -129,7 +129,7 @@
             return 'q6_interessen[]=' + n.value;
         }).join('&');
         var dedicated = $('[name="dedicated"]:checked').val();
-        var messageform = $("[name='message']").val() + "<br><br>\n\r";
+        var messageform = $("[name='message']").val();
         var firma = $("[name='firma']").val();
         var telefon = $("[name='phone']").val();
         var strasse = $("[name='adresse']").val();
@@ -184,7 +184,7 @@
             }
         );
         $('<iframe>', {
-            src: 'https://app.hatchbuck.com/onlineForm/submit.php?formID=63340310467&enableServerValidation=0&enable303Redirect=1&q1_firstName1=' + vorname + '&q3_lastName3=' + nachname + '&q4_email=' + email + '&' + tags + '&q7_nachricht=' + message + '&q8_company8=' + firma + '&q9_telefonnummer9[phone]=' + telefon + '&q10_adresse10[addr_line1]=' + strasse + '&q10_adresse10[city]=' + ort + '&q10_adresse10[postal]=' + plz + '&q10_adresse10[country]=Switzerland',
+            src: 'https://app.hatchbuck.com/onlineForm/submit.php?formID=63340310467&enableServerValidation=0&enable303Redirect=1&q1_firstName1=' + vorname + '&q3_lastName3=' + nachname + '&q4_email=' + email + '&' + tags + '&q7_nachricht=' + messageform + '&q8_company8=' + firma + '&q9_telefonnummer9[phone]=' + telefon + '&q10_adresse10[addr_line1]=' + strasse + '&q10_adresse10[city]=' + ort + '&q10_adresse10[postal]=' + plz + '&q10_adresse10[country]=Switzerland',
             id: 'crmframe',
             frameborder: 0,
             height: 0,
