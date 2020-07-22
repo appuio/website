@@ -42,7 +42,7 @@
     $('.toggle-offer-feature').click(function(event) {
         event.preventDefault();
         $(this).parents('.callout-item').toggleClass('visible');
-    })
+    });
 
 
 // Enable Submit button when terms and an offer is checked
@@ -113,26 +113,6 @@
     // Mail Forms
     // ------------------
     // Contact Form on homepage
-
-    var resetProgressButton = function () {
-        $(".appuio-contact-button").delay(4500).queue(function () {
-            $(".button-progress-feedback").remove();
-            $(".home-feedback").empty();
-            $("input", this).val(submitText);
-            $(this).removeClass("is-check is-exclamation is-loading").dequeue();
-        });
-    };
-    var sendProgressButton = function (status) {
-        $(".appuio-contact-button").delay(2000).queue(function () {
-            $(this).append('<span class="button-progress-feedback"><div class="icon icon--ei-' + status + ' icon--m "><svg class="icon__cnt"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ei-' + status + '-icon"></use></svg></div></span>');
-            $(this).addClass('is-' + status).dequeue();
-            $(".home-feedback").text(
-                $(this).closest('form').data('successMessage')
-            );
-        });
-        resetProgressButton();
-    }
-
     var submitText;
 
     $(".home-contact-container, .offers-contact-container").submit(function (event) {
@@ -149,7 +129,7 @@
             return 'q6_interessen[]=' + n.value;
         }).join('&');
         var dedicated = $('[name="dedicated"]:checked').val();
-        var messageform = $("[name='message']").val() + "<br><br>\n\r";
+        var messageform = $("[name='message']").val();
         var firma = $("[name='firma']").val();
         var telefon = $("[name='phone']").val();
         var strasse = $("[name='adresse']").val();
@@ -204,7 +184,7 @@
             }
         );
         $('<iframe>', {
-            src: 'https://app.hatchbuck.com/onlineForm/submit.php?formID=63340310467&enableServerValidation=0&enable303Redirect=1&q1_firstName1=' + vorname + '&q3_lastName3=' + nachname + '&q4_email=' + email + '&' + tags + '&q7_nachricht=' + message + '&q8_company8=' + firma + '&q9_telefonnummer9[phone]=' + telefon + '&q10_adresse10[addr_line1]=' + strasse + '&q10_adresse10[city]=' + ort + '&q10_adresse10[postal]=' + plz + '&q10_adresse10[country]=Switzerland',
+            src: 'https://app.hatchbuck.com/onlineForm/submit.php?formID=63340310467&enableServerValidation=0&enable303Redirect=1&q1_firstName1=' + vorname + '&q3_lastName3=' + nachname + '&q4_email=' + email + '&' + tags + '&q7_nachricht=' + messageform + '&q8_company8=' + firma + '&q9_telefonnummer9[phone]=' + telefon + '&q10_adresse10[addr_line1]=' + strasse + '&q10_adresse10[city]=' + ort + '&q10_adresse10[postal]=' + plz + '&q10_adresse10[country]=Switzerland',
             id: 'crmframe',
             frameborder: 0,
             height: 0,
@@ -215,6 +195,25 @@
             sendProgressButton('check');
         });
     });
+
+    var sendProgressButton = function (status) {
+        $(".appuio-contact-button").delay(2000).queue(function () {
+            $(this).append('<span class="button-progress-feedback"><div class="icon icon--ei-' + status + ' icon--m "><svg class="icon__cnt"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ei-' + status + '-icon"></use></svg></div></span>');
+            $(this).addClass('is-' + status).dequeue();
+            $(".home-feedback").text(
+                $(this).closest('form').data('successMessage')
+            );
+        });
+        resetProgressButton();
+    }
+    var resetProgressButton = function () {
+        $(".appuio-contact-button").delay(4500).queue(function () {
+            $(".button-progress-feedback").remove();
+            $(".home-feedback").empty();
+            $("input", this).val(submitText);
+            $(this).removeClass("is-check is-exclamation is-loading").dequeue();
+        });
+    };
 
     // Desktip view: Navigation
     var navOfferingDropdown = $("#navOfferingDropdown");
