@@ -2,7 +2,7 @@
 
 [![Translated Widget](https://weblate.appuioapp.ch/widgets/appuio-website/-/svg-badge.svg)](#translate)
 
-Uses middleman to generate static HTML
+Uses middleman to generate the static HTML
 
 * Documentation: https://middlemanapp.com/
 
@@ -28,7 +28,7 @@ First of all, be sure to run under ```Ruby v2.2.2``` at least, then:
 
     $ bundle install
 
-## Setup Development environment:
+## Setup Development Environment:
     
     $ middleman
 
