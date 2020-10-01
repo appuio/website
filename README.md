@@ -1,5 +1,15 @@
 # APPUiO Website
 
+                         _       
+                        (_)      
+  __ _ _ __  _ __  _   _ _  ___  
+ / _` | '_ \| '_ \| | | | |/ _ \ 
+| (_| | |_) | |_) | |_| | | (_) |
+ \__,_| .__/| .__/ \__,_|_|\___/ 
+      | |   | |                  
+      |_|   |_|                  
+
+
 [![Translated Widget](https://weblate.appuioapp.ch/widgets/appuio-website/-/svg-badge.svg)](#translate)
 
 Uses middleman to generate static HTML
