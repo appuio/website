@@ -1,4 +1,4 @@
-# APPUiO Website
+# APPUiO WebsiTe
 
 [![Translated Widget](https://weblate.appuioapp.ch/widgets/appuio-website/-/svg-badge.svg)](#translate)
 
