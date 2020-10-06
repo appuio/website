@@ -3,7 +3,7 @@
   title: "Laborversuch Application Migration and Modernization Techlab"
   subtitle: |
             <img src="/images/blogposts/AMM_Blogpost_2.png" alt="AMM Techlab Rückblick"/>
-            APPUiO bietet ein neues Techlab - <a href="https://www.appuio.ch/ammtechlab.html">das Application Migration and Modernization Techlab</a> - an. Im letzten Monat wurde ein interner Testlauf bei <a href="https://www.puzzle.ch/de/home">Puzzle</a> durchgeführt. Ob der Inhalt den Erwartungen entsprach und die Infrastruktur einwandfrei klappte, erfährst du in diesem Blogpost.
+            APPUiO bietet ein neues Techlab - <a href="https://www.appuio.ch/ammtechlab.html">Application Migration and Modernization Techlab</a> - an. Im letzten Monat wurde ein interner Testlauf bei <a href="https://www.puzzle.ch/de/home">Puzzle</a> durchgeführt. Ob der Inhalt den Erwartungen entsprach und die Infrastruktur einwandfrei klappte, erfährst du in diesem Blogpost.
     
   details: |
                <p>Der Testlauf begann um 09:00 Uhr und wurde von <a href="https://www.puzzle.ch/de/blog/articles/author/tphilipona">Thomas Philipona</a> und <a href="https://www.puzzle.ch/de/blog/articles/author/craaflaub">Christoph Raaflaub</a> durchgeführt. Zwölf Teilnehmende haben sich in die Videokonferenz eingehängt. Zusätzlich waren noch Qualitätsinspektoren und der Betriebssupport dabei.</p>
@@ -11,7 +11,7 @@
                <p><b>Intro Techlab</b></p>
                <p>Thomas begann das Techlab mit einer kurzen Einführung in die Thematik, welche im Inhalt und Ablauf des Tages mündete. Danach rekapitulierte er die Themen Docker, Kubernetes und OpenShift.</p>
                <p><b>Techlab Infrastruktur</b></p>
-               <p>Nach dem kurzen theoretischen Teil durften die Probanden bereits das ersten Mal Hand anlegen. Dabei wurde ihnen die Techlab Infrastruktur präsentiert. Jedem Teilnehmenden wurde eine persönliche Web-IDE zur Verfügung gestellt. Dazu wurden von den Testleitern <a href="https://hub.docker.com/r/codercom/code-server">Code Server Instanzen</a> auf der OpenShift Plattform Container vorbereitet. Das sind <a href="https://code.visualstudio.com/">VS Code IDEs</a>, auf welche mit dem Browser zugegriffen werden können. Zusätzlich hatten die Testleiter die benötigten Tools im Container vorinstalliert.</p>
+               <p>Nach dem kurzen theoretischen Teil durften die Probanden bereits das ersten Mal Hand anlegen. Dabei wurde ihnen die Techlab Infrastruktur präsentiert. Jeder Teilnehmende erhielt eine persönliche Web-IDE. Dazu wurden von den Testleitern <a href="https://hub.docker.com/r/codercom/code-server">Code Server Instanzen</a> auf der OpenShift Plattform Container vorbereitet. Das sind <a href="https://code.visualstudio.com/">VS Code IDEs</a>, auf welche mit dem Browser zugegriffen werden können. Zusätzlich hatten die Testleiter die benötigten Tools im Container vorinstalliert.</p>
                <p>Mit diesem Setup kann das ganze Techlab per Browser durchgeführt werden. Damit wird Zeit gespart, da das Installieren der benötigten Tools wegfällt.</p>
                <p><b>Applikationsmigration auf OpenShift</b></p>
                <p>Die Erwartungen an diese Präsentation waren sehr hoch. In der Präsentation beleuchtete Thomas das Thema “Transformation einer Applikation” und klärte die Frage, was einwandfrei in einem Container laufen kann.</p>
