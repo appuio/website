@@ -1,3 +1,39 @@
+- day: 06
+  month: Oct
+  title: "Laborversuch Application Migration and Modernization Techlab"
+  subtitle: |
+            <img src="/images/blogposts/AMM_Blogpost_2.png" alt="AMM Techlab Rückblick"/>
+            APPUiO bietet ein neues Techlab - <a href="https://www.appuio.ch/ammtechlab.html">das Application Migration and Modernization Techlab</a> - an. Im letzten Monat wurde ein interner Testlauf bei Puzzle durchgeführt. Ob der Inhalt den Erwartungen entsprach und die Infrastruktur einwandfrei klappte, erfährst du in diesem Blogpost.
+    
+  details: |
+               <p>Der Testlauf begann um 09:00 Uhr und wurde von Thomas Philipona und Christoph Raaflaub durchgeführt. Zwölf Teilnehmende haben sich in die Videokonferenz eingehängt. Zusätzlich waren noch Qualitätsinspektoren und der Betriebssupport dabei.</p>
+               <p>Zu Beginn äusserten die Teilnehmenden ihre Erwartungen an das Techlab. Die Erwartungen wurden in einem <a href="https://codimd.web.cern.ch/">CodiMD</a> erfasst, welches ein kollaboratives Bearbeiten von Dateien im Markdown Format ermöglicht. Glücklicherweise entsprach der grösste Teil der Erwartungen dem Inhalt des Techlabs. ✔ Check </p>
+               <p><b>Intro Techlab</b></p>
+               <p>Thomas begann das Techlab mit einer kurzen Einführung in die Thematik, welche im Inhalt und Ablauf des Tages mündete. Danach rekapitulierte er die Themen Docker, Kubernetes und OpenShift.</p>
+               <p><b>Techlab Infrastruktur</b></p>
+               <p>Nach dem kurzen theoretischen Teil durften die Probanden bereits das ersten Mal Hand anlegen. Dabei wurde ihnen die Techlab Infrastruktur präsentiert. Jedem Teilnehmenden wurde eine persönliche Web-IDE zur Verfügung gestellt. Dazu wurden von den Testleitern <a href="https://hub.docker.com/r/codercom/code-server">Code Server Instanzen</a> auf der OpenShift Plattform Container vorbereitet. Das sind <a href="https://code.visualstudio.com/">VS Code IDEs</a>, auf welche mit dem Browser zugegriffen werden können. Zusätzlich hatten die Testleiter die benötigten Tools im Container vorinstalliert.</p>
+               <p>Mit diesem Setup kann das ganze Techlab per Browser durchgeführt werden. Damit wird Zeit gespart, da das Installieren der benötigten Tools wegfällt.</p>
+               <p><b>Applikationsmigration auf OpenShift</b></p>
+               <p>Die Erwartungen an diese Präsentation waren sehr hoch. In der Präsentation beleuchtete Thomas das Thema “Transformation einer Applikation” und klärte die Frage, was einwandfrei in einem Container laufen kann.</p>
+               <img src="/images/blogposts/AMM_Blogpost_1.png" alt="Transformation Applikation"/>
+               <p>Danach wurde auf die verschiedenen Faktoren eingegangen, die für eine gute Applikationsarchitektur benötigt werden. Thomas beendete die Präsentation mit dem Hinweis auf die Automatisierung der Delivery Pipeline.</p>
+               <p><b>Demo</b></p>
+               <p>Christoph zeigte in einer kurzen Demo, wie eine <a href="https://golang.org/">Go Applikation</a> containerisiert wird. Dabei wurde das Container Image mit <a href="https://github.com/containers/buildah">Buildah</a> gebaut und mit <a href="https://podman.io/)">Podman</a> auf Docker Hub gepusht. Dieses Image wurde danach auf OpenShift deployed.</p>
+               <p>Mit dem neuen OpenShift Do Tool, kurz <a href="https://github.com/openshift/odo">odo</a>, konnte Christoph mit einigen Kommandos eine Applikation auf OpenShfit erstellen. Der lokale Code wurde automatisch per Hot-Sync direkt in einen Pod auf OpenShift gesyncht. Es ist als würde die Applikation direkt im OpenShift selbst entwickelt.</p>
+               <p><b>Erstes Lab</b></p>
+               <p>In diesem praktischen Teil durften die Probanden anhand von Anleitungen Applikationen containerisieren und auf OpenShift deployen. Dabei wurden zuerst die OpenShift Ressourcen-Definitionen von Hand erstellt und per OpenShift Cli angewendet. Wie die Applikationen auf die Umgebungen angepasst werden können, wurde über Environment Variablen gezeigt. Die Teilnehmenden, die bereits früher fertig waren, konnten sich in zusätzliche Labs stürzen.</p>
+               <p><b>OpenShift als Firmeninfrastruktur</b></p>
+               <p>Nach dem ausgedehnten Lab wurde es wieder Zeit für eine kurze Präsentation. Vielfach sind Firmeninfrastrukturen sehr gut abgesichert. Das beeinflusst das Builden und Deployen von Applikationen auf OpenShift. Wie damit umgegangen werden kann und wie beispielsweise Zugriffe über Proxy-Server konfiguriert werden können, wurde von Christoph erläutert. Das Gelernte konnten die Teilnehmenden anschliessend in einem Lab umsetzen.</p>
+               <p><b>CI/CD und Best Practices</b></p>
+               <p>In diesem Block wurden die Teilnehmenden von Thomas in das Thema CI/CD mit OpenShift eingeführt. Nach einer kurzen Exkursion in die Vergangenheit wurde auch Continuous Integration und Continuous Delivery behandelt. Weiter wurde der Entwicklungsprozess und Best Practices im Cloud Umfeld aufgezeigt. Für die Automatisierung wurde die Continuous Delivery Pipeline vorgestellt.</p>
+               <p>Im zweiten Teil konnten die Teilnehmenden eine Build Pipeline mit <a href="https://tekton.dev/">Tekton</a> bauen und GitOps mit <a href="https://argoproj.github.io/argo-cd/">ArgoCD</a> automatisieren. Zusätzlich hatten die beiden Testleiter ein <a href="https://operatorhub.io/">Operator</a> Lab vorbereitet.</p>
+               <p><b>Fazit</b></p>
+               <p>Die Infrastruktur war stabil, es wurden nur einige Feintunings vorgenommen. Wenige Teilnehmende hatten wegen den Projekt Quotas einige Einschränkungen bei den Übungen. Dabei  hatten sie die Applikationen in einem falschen Projekt (nicht nach Anleitung) deployed, wo bereits andere Pods am Laufen waren.</p>
+               <p>Die meisten Erwartungen wurden erfüllt. Das Thema Applikations-Modernisierung ist gemäss den Probanden zu wenig thematisiert worden. Dies werden die Testleiter für die nächste Durchführung beachten.</p>
+               <p>Es hatte sich gezeigt, dass es wichtig ist, das <a href="https://appuio.ch/ostechlab.html">APPUiO OpenShift Techlab</a> bereits besucht zu haben oder über entsprechendes Kubernetes- und OpenShift-Wissen zu verfügen. Ansonsten ist es schwierig den Präsentationen zu folgen oder die Labs durchzuführen.</p>
+               <p>Haben wir dein Interesse geweckt? Hier kannst du dich sogleich <a href="https://www.appuio.ch/ammtechlab.html">anmelden</a>. Wir freuen uns auf dich!</p>
+               <p>Hast du Fragen oder Anregungen? Melde dich unter <a href="mailto:hello@appuio.ch">hello@appuio.ch</a>.</p>
+               
 - day: 16
   month: Jul
   title: "HRM Systems AG und APPUiO"
