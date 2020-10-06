@@ -3,10 +3,10 @@
   title: "Laborversuch Application Migration and Modernization Techlab"
   subtitle: |
             <img src="/images/blogposts/AMM_Blogpost_2.png" alt="AMM Techlab Rückblick"/>
-            APPUiO bietet ein neues Techlab - <a href="https://www.appuio.ch/ammtechlab.html">das Application Migration and Modernization Techlab</a> - an. Im letzten Monat wurde ein interner Testlauf bei Puzzle durchgeführt. Ob der Inhalt den Erwartungen entsprach und die Infrastruktur einwandfrei klappte, erfährst du in diesem Blogpost.
+            APPUiO bietet ein neues Techlab - <a href="https://www.appuio.ch/ammtechlab.html">das Application Migration and Modernization Techlab</a> - an. Im letzten Monat wurde ein interner Testlauf bei <a href="https://www.puzzle.ch/de/home">Puzzle</a> durchgeführt. Ob der Inhalt den Erwartungen entsprach und die Infrastruktur einwandfrei klappte, erfährst du in diesem Blogpost.
     
   details: |
-               <p>Der Testlauf begann um 09:00 Uhr und wurde von Thomas Philipona und Christoph Raaflaub durchgeführt. Zwölf Teilnehmende haben sich in die Videokonferenz eingehängt. Zusätzlich waren noch Qualitätsinspektoren und der Betriebssupport dabei.</p>
+               <p>Der Testlauf begann um 09:00 Uhr und wurde von <a href="https://www.puzzle.ch/de/blog/articles/author/tphilipona">Thomas Philipona</a> und <a href="https://www.puzzle.ch/de/blog/articles/author/craaflaub">Christoph Raaflaub</a> durchgeführt. Zwölf Teilnehmende haben sich in die Videokonferenz eingehängt. Zusätzlich waren noch Qualitätsinspektoren und der Betriebssupport dabei.</p>
                <p>Zu Beginn äusserten die Teilnehmenden ihre Erwartungen an das Techlab. Die Erwartungen wurden in einem <a href="https://codimd.web.cern.ch/">CodiMD</a> erfasst, welches ein kollaboratives Bearbeiten von Dateien im Markdown Format ermöglicht. Glücklicherweise entsprach der grösste Teil der Erwartungen dem Inhalt des Techlabs. ✔ Check </p>
                <p><b>Intro Techlab</b></p>
                <p>Thomas begann das Techlab mit einer kurzen Einführung in die Thematik, welche im Inhalt und Ablauf des Tages mündete. Danach rekapitulierte er die Themen Docker, Kubernetes und OpenShift.</p>
