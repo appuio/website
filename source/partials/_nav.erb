@@ -134,6 +134,7 @@
       </div>
 
       <ul class="nav-lang">
+        <li class="login"><a target="_blank" href="https://console.appuio.ch"><%= t(:navGlobalLogin) %></a></li>
         <% if (I18n.locale == :de) %>
           <li class="is-current"><a href="#">DE</a>
             <ul>
@@ -152,7 +153,6 @@
           <li class="for-mobile"><a href="<%= change_language('de') %>">DE</a></li>
           <!--<li><a href="<%= change_language('fr') %>">FR</a></li> -->
         <% end %>
-        <li><a target="_blank" href="https://console.appuio.ch"><%= t(:navGlobalLogin) %></a></li>
         <!-- <% if (I18n.locale == :fr) %>
     <li><a href="<%= change_language('de') %>">DE</a></li>
     <li><a href="<%= change_language('en') %>">EN</a></li>
