@@ -682,55 +682,71 @@ de:
 
   # AMM Techlab Page
   ammtechlabPageTitle: Application Migration and Modernization on APPUiO / OpenShift Techlab
-  ammtechlabPageIntro: Im "Application Migration and Modernization Techlab” lernen die Teilnehmenden anhand Präsentationen und Hands-on Labs, wie sie Applikationen in ihrer Systemlandschaft auf die neue Container-Plattform bringen. Es wird aufgezeigt, welche architektonischen Grundprinzipien beachtet werden müssen, damit die Flexibilität und die Features der Container-Plattform wirklich ausgereizt werden können. Anhand eines Kriterienkatalog lernen sie zudem die unterschiedlichen Migrationsarten kennen.
+  ammtechlabPageIntro: Im Application “Migration and Modernization Techlab” lernen die Teilnehmenden anhand Präsentationen und Hands-on Labs, wie sie Applikationen in ihrer Systemlandschaft auf die neue Container-Plattform bringen. Es wird aufgezeigt, welche architektonischen Grundprinzipien beachtet werden müssen, damit die Flexibilität und das Featureset der Container-Plattform wirklich ausgereizt werden können. Die Teilnehmenden lernen zudem moderne Konzepte kennen, wie Cloud Native Applikationen entwickelt und betrieben werden.
 
   ammtechTargetTitle: Lernziele
   ammtechTargetList: |-
     <li>Kennen die grundlegenden Kriterien, die zu beachten sind, um eine Applikation auf eine Container-Plattform zu migrieren und zu deployen.</li>
     <li>Lernen erweiterte Kubernetes resp. OpenShift Konzepte kennen, welche zum Betrieb von Applikationen auf OpenShift nötig sind.</li>
-    <li>Architektonische Best Practices für containerisierte Applikationen werden vermittelt</li>
+    <li>Architektonische Bestpractices für containerisierte Applikationen werden vermittelt.</li>
 
   ammtechContentTitle: Inhalt
   ammtechContentDesc: Gemeinsam mit dem Teacher wird, anhand einer Mischung aus Präsentation und Hands-on Labs, folgender Inhalt behandelt.
 
   ammtechPresentationTitle: Präsentation
   ammtechPresentationList: |-
-    <li>Kurze Einführung von OpenShift und Container</li>
-    <li>Migrationsarten aufzeigen (Kriterienkatalog)</li>
+    <li>Einführung in das Thema Application Migration and Modernization</li>
+    <li>Recap Container Technologie und OpenShift</li>
     <li>12 Factor Apps und Best Practices für moderne Applikationen</li>
     <li>Was muss besonders beachtet werden, wenn Workload auf eine Container-Plattform migriert wird?</li>
+    <li>Build und Deplyoments auf OpenShift</li>
+    <li>Continuous Integration und Delivery auf OpenShift</li>
 
   ammtechLabsTitle: Labs
   ammtechLabsList: |-
     <li>Containerisierung einer Applikation an Best Practices</li>
     <li>Builden und deployen einer Applikation auf OpenShift</li>
-    <li>CI/CD</li>
+    <li>Schrittweise deployen einer Microservices Applikation</li>
     <ul>
-      <li>CI/CD anhand von verschiedenen Beispielen von Best Practices</li>
-      <li>OpenShift Pipelines</li>
-      <li>GitOps</li>
+      <li>Quarkus Microservices, die mittels Rest resp. Kafka Topics kommunizieren</li>
+      <li>Kafka Server</li>
     </ul>
-    <li>Betriebsaspekte</li>
+    <li>Automatisierung mit CI/CD Pipelines</li>
+    <ul>
+      <li>CI/CD anhand von verschiedenen Beispielen und Best Practices</li>
+      <li>Tekton Pipelines</li>
+      <li>GitOps mit ArgoCD</li>
+    </ul>
+    <li>Observability</li>
+    <ul>
+      <li>Monitoring und Application Metrics mit Prometheus</li>
+      <li>Tracing</li>
+    <li>Weitere Themen</li>
     <ul>
       <li>Requests and Limits</li>
-      <li>Monitoring und Application Metrics</li>
+      <li>Jobs und Cronjobs</li>
       <li>Autoscaling</li>
-      <li>Backup</li>
-      <li>Cron Jobs</li>
       <li>Debugging</li>
+      <li>Operators</li>
+      <li>OpenShift odo</li>
     </ul>
 
   ammtechTargetAudienceTitle: Zielpublikum
-  ammtechTargetAudienceDesc: Das Techlab richtet sich an OpenShift und Kubernetes Engineers mit Entwickler-Fokus. Grundlegende Kenntnisse im Bereich Container-Plattform sollten vorhanden sein. Dieses Techlab baut auf dem <a href="https://appuio.ch/techlabs.html">OpenShift Techlab</a> auf.
+  ammtechTargetAudienceDesc: Das Techlab richtet sich an OpenShift und Kubernetes Engineers mit Entwickler-Fokus. Grundlegende Kenntnisse im Bereich Container-Plattform und Cloud-Umgebung sollten vorhanden sein. Dieses Techlab baut auf dem <a href="https://appuio.ch/techlabs.html">OpenShift Techlab</a> auf.
 
   ammtechRequirementsTitle: Voraussetzungen
-  ammtechRequirementsDesc: Alle Teilnehmenden benötigen für die Schulung einen Laptop (Dual-Core Prozessor, mind. 2GB RAM) mit Admin-Rechten (wird für Container und Kubernetes Installation benötigt). Eine vorgängige Installation von `oc-tool` wird empfohlen.
+  ammtechRequirementsDesc: Alle Teilnehmenden benötigen für die Schulung einen Laptop (Dual-Core Prozessor, mind. 2GB RAM) mit Internetzugriff und einem vorinstallierten WebBrowser. Die komplette Entwicklungsumgebung für das Lab wird webbasiert zur Verfügung gestellt. Für einzelne optionale Labs müssen gewissen Komponenten (argocd Client) lokal installiert werden.
 
   ammtechLanguageTitle: Sprache
-  ammtechLanguageDesc: Das Techlab findet in Englisch statt.
+  ammtechLanguageDesc: Das Techlab findet in Deutsch oder Englisch statt. Die Unterlagen stehen auf Englisch zur Verfügung.
 
   ammtechPriceTitle: Kosten und Rahmenbedingungen
   ammtechPriceDesc: Das ganztägige Application Migration and Modernization on APPUiO / OpenShift Techlab ist kostenlos.
+  
+  ammtechLinksTitle: Links
+  ammtechLinksDesc: <a href="https://www.puzzle.ch/de/blog/articles/2020/06/24/applikationen-modernisieren-und-migrieren">Blogpost Angebot Applikationen modernisieren und migrieren</a><br />
+  ammtechLinksDesc: <a href="https://appuio.ch/blog.html#Laborversuch%20Application%20Migration%20and%20Modernization%20Techlab">Blogpost Erfahrungsbericht Techlab</a><br />
+  ammtechLinksDesc: <a href="https://www.puzzle.ch/wp-content/uploads/2020/06/2020_AMM_Flyer_A4_digital.pdf">Flyer zum AMM Angebot von Puzzle</a>
 
   ammtechDateTitle: Daten
   ammtechDateDesc: |-
