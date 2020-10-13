@@ -7,7 +7,7 @@
     
   details: |
                <p>Der Testlauf begann um 09:00 Uhr und wurde von <a href="https://www.puzzle.ch/de/blog/articles/author/tphilipona">Thomas Philipona</a> und <a href="https://www.puzzle.ch/de/blog/articles/author/craaflaub">Christoph Raaflaub</a> durchgeführt. Zwölf Teilnehmende haben sich in die Videokonferenz eingehängt. Zusätzlich waren noch Qualitätsinspektoren und der Betriebssupport dabei.</p>
-               <p>Zu Beginn äusserten die Teilnehmenden ihre Erwartungen an das Techlab. Die Erwartungen wurden in einem <a href="https://codimd.web.cern.ch/">CodiMD</a> erfasst, welches ein kollaboratives Bearbeiten von Dateien im Markdown Format ermöglicht. Glücklicherweise entsprach der grösste Teil der Erwartungen dem Inhalt des Techlabs. ✔ Check </p>
+               <p>Zu Beginn äusserten die Teilnehmenden ihre Erwartungen an das Techlab. Die Erwartungen wurden in einem <a href="https://github.com/hackmdio/codimd">CodiMD</a> erfasst, welches ein kollaboratives Bearbeiten von Dateien im Markdown Format ermöglicht. Glücklicherweise entsprach der grösste Teil der Erwartungen dem Inhalt des Techlabs. ✔ Check </p>
                <p><b>Intro Techlab</b></p>
                <p>Thomas begann das Techlab mit einer kurzen Einführung in die Thematik, welche im Inhalt und Ablauf des Tages mündete. Danach rekapitulierte er die Themen Docker, Kubernetes und OpenShift.</p>
                <p><b>Techlab Infrastruktur</b></p>
