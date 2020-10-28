@@ -4,7 +4,7 @@
 
 Uses middleman to generate static HTML
 
-* Documentation: https://middlemanapp.com/
+* Documentation: <https://middlemanapp.com/>
 
 * Index is here: /localizable/index.html.erb
 
@@ -29,14 +29,13 @@ First of all, be sure to run under ```Ruby v2.2.2``` at least, then:
     $ bundle install
 
 ## Setup Development environment:
-    
+
     $ middleman
 
 ## Build the static pages:
 
     $ bundle exec middleman build
-    
-    
+
 ## Deploy the Website with rsync
 
     $ rsync -a ./build/ user@example.com:~/path
@@ -46,8 +45,7 @@ First of all, be sure to run under ```Ruby v2.2.2``` at least, then:
 The majority of the website content can be comfortably translated using [Weblate](https://weblate.appuioapp.ch).
 You can login using your GitHub account. User which have a `@puzzle.ch` or `@vshn.ch` mail address as their primary address
 with their GitHub account are automatically given access to the `appuio-website` project. Other users which
-like to contribute translations please request access at 
-[weblate@appuio.ch](mailto:weblate@appuio.ch?subject=Request%20Access%20to%20appuio-website%20project).
+like to contribute translations please request access at [weblate@appuio.ch](mailto:weblate@appuio.ch?subject=Request%20Access%20to%20appuio-website%20project).
 
 If you haven't configured languages you like to translate in your profile you won't see anything in 
 the dashboard. To add the `appuio-website` project to the dashboard either click `Tools -> All projects`
@@ -62,4 +60,3 @@ credited.
 Please see the [Weblate Translators Guide](https://docs.weblate.org/en/latest/user/index.html) for
 more information regarding translating with Weblate and direct any questions regarding the translation
 of the APPUiO website to [weblate@appuio.ch](mailto:weblate@appuio.ch).
-
