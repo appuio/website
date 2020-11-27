@@ -659,8 +659,9 @@ en:
 
   ammtechDateTitle: Dates
   ammtechDateDesc: |-
-    <a href="https://app.hatchbuck.com/OnlineForm/93633620537">We. 25.11.2020 remote</a><br />
-    <a href="https://app.hatchbuck.com/OnlineForm/93633620538">Thu. 19.01.2021 remote</a>
+    <a href="https://app.hatchbuck.com/OnlineForm/93633620538">Tue, 19.01.2021 remote</a><br />
+    <a href="https://app.hatchbuck.com/OnlineForm/93633620890">Tue, 16.02.2021 remote</a><br />
+    <a href="https://app.hatchbuck.com/OnlineForm/93633620891">Tue, 30.03.2021 remote</a>
 
   ammtechTimeTitle: Time
   ammtechTimeDesc: 09.00-12.00<br /> 13.00-17.00
@@ -724,7 +725,6 @@ en:
 
   ostechDateTitle: Dates
   ostechDateDesc: |-
-    <a href="https://app.hatchbuck.com/OnlineForm/93633620500">Th. 26.11.2020 remote</a><br />
     <a href="https://app.hatchbuck.com/OnlineForm/93633620501">Th. 18.02.2021 remote</a>
 
   ostechTimeTitle: Time
