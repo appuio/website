@@ -1,3 +1,15 @@
+- day: 04
+  month: Dec
+  title: "Rückblick auf das Beerup vom 19. November 2020"
+  subtitle: |
+            <img src="/images/blogposts/Beerup_Rueckblick.png" alt="Beerup_Rückblick"/>
+            Am 19. November 2020 fand das erste ausschliesslich virtuelle Beerup von APPUiO statt. Drei spannende Talks, über 45 Teilnehmende und ein lustiges Apéro prägten den Abend.
+    
+  details: |
+               <p>Ein virtuelles Beerup 🍺 stellt uns vor einige Herausforderungen. Bier, spannende Talks und eine ungezwungene Atmosphäre ist der Leitsatz an einem APPUiO Beerup. Doch wie funktioniert das remote? Ganz einfach: Wir bringen das Bier und die ungezwungene Atmosphäre zu jedem Einzelnen nach Hause.</p>
+               <p>Nachdem sich bereits über 45 Teilnehmende in den virtuellen Raum eingeloggt hatten, startete das Beerup mit dem Talk von Benjamin Affolter von Puzzle ITC. Er referierte über das Advanced Cluster Management von Red Hat anhand eines Kundenprojekts. Advanced Cluster Management verspricht eine Vielzahl nützlicher Features, die das Verwalten mehrerer Kubernetes- und OpenShift-Cluster wie auch der darauf laufenden Applikationen vereinfachen.<br />Mehr Infos findest du in den <a href="images/blogposts/advanced_cluster_management.pdf">Slides zum Thema Advanced Cluster Management</a>.</p>
+               <p>
+
 - day: 28
   month: Oct
   title: "Virtuelles Beerup mit spannenden Talks"
