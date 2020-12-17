@@ -6,12 +6,12 @@
             APPUiO bietet zwei etablierte Kubernetes-Distributionen an, welche die Anforderungen an eine Container-Orchestrierungs-Plattform optimal abdecken. Hier erfährst du, welche Distribution – OpenShift oder Rancher – für dich die richtige ist.
     
   details: |
-               <p><h4>OpenShift</h4></p>
+               <p><h3>OpenShift</h3></p>
                <p>OpenShift von Red Hat ist eine enterprise-grade Kubernetes-Distribution mit dem Ziel, eine stabile und sichere Kubernetes-basierte Plattform zum Betreiben von containerisierten Applikationen zur Verfügung zu stellen. OpenShift setzt dabei auf eine etablierte Kubernetes-Version und ergänzt diese mit weiteren Funktionen. Red Hat OpenShift unterstützt dich in vielen Themen rund um deine Software-Entwicklung. Das Ökosystem rund um Builds, Source-to-Image (S2I) und dem Red Hat Container-Katalog ermöglicht dir schnell und sicher, deine Applikationen für den Betrieb in einem Container zu entwickeln und anschliessend auf OpenShift laufen zu lassen. Nebst Kubernetes setzt OpenShift auf weitere Projekte aus der CNCF Landschaft für Themen wie beispielsweise Monitoring, Logging, Storage und Service Mesh.</p>
-               <p><h4>Rancher</h4></p>
+               <p><h3>Rancher</h3></p>
                <p>Rancher Labs hat das Ziel, Kubernetes auf einer beliebigen Infrastruktur zu betreiben. Dieses Ziel erreichen sie durch ihre eigene Kubernetes-Distribution, ergänzt durch ein webbasiertes Multi-Cluster-Management-Tool. Dieses dient der Administration der eigenen und auch weiteren KubernetesDistributionen. Zudem können auch managed KubernetesAngebote wie diejenigen von Amazon, Google, Microsoft verwaltet werden. Mit Rancher kannst du einem schnellen und unkomplizierten Weg in die Welt der ContainerOrchestrierung folgen und bekommst viel Flexibilität bei der Ausgestaltung der Container-Plattform. Rancher setzt mit ihrer Distribution auf Vanilla Kubernetes und integriert weitere Tools aus der CNCF Landschaft wie beispielsweise Monitoring, Logging und Service Mesh.</p>
                <img src="/images/blogposts/OS_Rancher.png" alt="OS Rancher"/>
-               <p><h4>Wie entscheide ich mich?</h4></p>
+               <p><h3>Wie entscheide ich mich?</h3></p>
                <p>Je nach Kundenbedürfnis ist die Integration der Rancher- bzw. der OpenShift-Distrubtion angemessen. Die untenstehenden Stories sollen dich bei der Entscheidung unterstützen. Zögere nicht, unsere Experten zu fragen, falls du dir nicht sicher bist.</p>
                <p><b>Container Know-how bei den Nutzern</b></p>
                <p><em>Wie hoch ist das Know-how der Entwickler über Containerisierung und wie viel soll noch aufgebaut werden?</em></p>
@@ -31,6 +31,7 @@
                <p><em>Wie sieht das Subscription- und Support-Modell der beiden Plattformen aus?</em></p>
                <p>Das Subscription-Modell von Red Hat OpenShift basiert auf Anzahl verwendeter Cores der Compute Nodes. Bei Rancher wird die Control Plane und die Anzahl damit verwalteter Nodes lizenziert.</p>
                <p>Hast du Fragen? Zögere nicht, uns unter <a href="mailto:hello@appuio.ch">hello@appuio.ch</a> zu kontaktieren.</p>
+
 
 - day: 04
   month: Dec
