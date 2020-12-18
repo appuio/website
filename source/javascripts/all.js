@@ -609,14 +609,6 @@
         repeat: -1,
         yoyo: true
     }, 0);
-    
-    tl.to("#Ballon", duration/2.2, {
-        rotation: 8,
-        transformOrigin:"center bottom",
-        ease: Power1.easeInOut,
-        repeat: -1,
-        yoyo: true
-    }, 0);
 
     // // Only update on animation frames
     // window.addEventListener("scroll", function() {
