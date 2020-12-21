@@ -397,7 +397,7 @@ de:
     <li class="offers-package-item">Jenkins Build Infrastruktur mit diversen Buildnodes</li>
 
   offerTwoCPUDescription: |-
-    Die CPU Resourcen werden als KCU (Kubernetes Compute Units) normalisiert, so entsprechen CPU 1000m ungefähr einem single hyperthreaded CPU Kern. <br>
+    Die CPU Ressourcen werden als KCU (Kubernetes Compute Units) normalisiert, so entsprechen CPU 1000m ungefähr einem single hyperthreaded CPU Kern. <br>
 
 
   #offerTwoIso: |-
