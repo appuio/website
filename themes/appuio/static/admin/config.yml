@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: appuio/website-new
+  repo: appuio/website
   branch: master
   site_domain: appuio-pitc-appuio30.appuioapp.ch
   base_url: https://github-oauth-provider-pitc-appuio30.appuioapp.ch
