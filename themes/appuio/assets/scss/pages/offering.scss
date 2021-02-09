@@ -1,0 +1,76 @@
+section.offering-hero {
+  background: $darkblue;
+  border-bottom: 1rem solid #ff931e;
+  @extend .p-0;
+  h1 {
+    @extend .is-size-1;
+    font-weight: normal;
+    color: $white;
+  }
+  .container {
+    position: relative;
+    top: -14vw;
+    margin-bottom: -14vw;
+    padding-bottom: 40px;
+    color: $white;
+    p {
+      @extend .is-size-5;
+    }
+  }
+}
+section.offering-hero.managed {
+  border-color: #7092a6;
+}
+section.offering-hero.self-managed {
+  border-color: #929031;
+}
+section.offering-hero + section {
+  @extend .pt-4;
+}
+
+section.shared-vs-dedicated {
+  li {
+    border-top: 2rem solid #7092a6;
+  }
+  li:first-child {
+    border-color: #ff931e;
+  }
+  li > p {
+    @extend .mx-4;
+  }
+}
+
+
+/* START CALCULATOR */
+.offers-package-container > .offers-package {
+  @extend .has-text-left;
+  ul {
+    @extend .m-0;
+  }
+  li {
+    @extend .p-0;
+    @extend .m-0;
+    @extend .my-4;
+    @extend .pb-4;
+    list-style: none;
+    border-bottom: 1px solid $white;
+  }
+  .is-orange {
+    @extend .p-2;
+    @extend .has-text-centered;
+    background: $orange;
+    color: $black;
+  }
+}
+.offers-package-container > .offers-package.active {
+  background: $yellow;
+  color: $black;
+  li {
+    border-color: $black;
+  }
+  .is-orange {
+    background: $darkblue;
+    color: $white;
+  }
+}
+/* END CALCULATOR */

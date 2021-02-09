@@ -1,0 +1,12 @@
+{{ define "main" }}
+{{ partial "check-must-close-shortcodes" (dict "context" .)}}
+<section class="py-6">
+  <div class="container">
+    {{ .Content }}
+    {{ range .Pages }}
+      <h2>{{ .Title }}</h2>
+      <p>{{ .Content }}</p>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

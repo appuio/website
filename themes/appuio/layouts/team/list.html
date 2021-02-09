@@ -1,0 +1,45 @@
+{{ define "main" }}
+
+<section class="team">
+  <div class="container">
+    {{ .Content }}
+    {{ $page := . }}
+
+    <div class="columns is-flex-wrap-wrap mt-6">
+        {{ range .Pages.Reverse }}
+            {{ $memberId := .File.UniqueID }}
+            {{ if and .Params.isOnline .Params.animation }}
+                {{ $animation := .Page.Resources.GetMatch .Params.animation }}
+                {{ if $animation}}
+                    <div class="with-team-animation member member-{{$memberId}} {{ if .Params.isClosed }}wiggle{{ else }}open{{ end }}"
+                        data-id="{{$memberId}}"
+                        data-renderer="svg"
+                        data-animation="{{$animation.Permalink}}">
+
+                        <div class="animation mb-2"></div>
+                        <button class="button open-container is-dark is-rounded" data-memberid="{{$memberId}}">{{ T "open" }}</button>
+                        <button class="button play-hero is-dark is-rounded" data-memberid="{{$memberId}}">
+                            <span class="icon is-small"><i class="fas fa-rocket"></i></span>
+                        </button>
+                        <div class="alias">{{.Params.alias}}</div>
+                        <div class="function">{{.Params.function}}</div>
+                        <div class="hashtags">{{.Params.hashtags}}</div>
+                        {{ partial "social-links" . }}
+                    </div>
+                {{ else }}
+                    {{ errorf "%v: both animations must exist." .Path }}
+                {{ end }}
+            {{ else }}
+                <div class="member member-{{$memberId}} placeholder" data-id="{{$memberId}}">
+                    <img src="/images/placeholder.png" />
+                    <div class="alias">{{.Params.alias}}</div>
+                    <div class="function">{{.Params.function}}</div>
+                    {{ partial "social-links" . }}
+                </div>
+            {{ end }}
+        {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}

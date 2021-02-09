@@ -1,0 +1,18 @@
+{{ $tag := .Get "tag" }}
+{{ $pages := where .Site.RegularPages "Section" "faq" }}
+{{- if $tag -}}
+    {{- $pages = where $pages "Params.tags" "intersect" (slice $tag) -}}
+{{- end -}}
+<div class="has-text-left">
+  {{ range $pages }}
+  <div class="faq-item">
+    <a href="javascript:void(0)" class="faq-title is-flex">
+      <span class="is-size-5 my-0 is-flex-grow-1">{{ .Title }}</span>
+      <span class="icon ml-4">
+        <i class="fas fa-angle-down fa-lg" aria-hidden="true"></i>
+      </span>
+    </a>
+    <div class="content">{{ .Content }}</div>
+  </div>
+  {{ end }}
+</div>

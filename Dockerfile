@@ -1,16 +1,10 @@
-FROM ruby:2-alpine
+FROM klakegg/hugo:0.80.0 AS builder
 
-RUN apk add --no-cache --update build-base bash ruby-dev libxml2-dev libxslt-dev && \
-    gem install middleman --no-document
+WORKDIR /src
+COPY . /src
+RUN hugo --minify
 
-# Use libxml2, libxslt a packages from alpine for building nokogiri
-RUN bundle config build.nokogiri --use-system-libraries
-
-# Prepare application working environment
-ENV app /app
-RUN mkdir $app
-WORKDIR $app
-
-ENV BUNDLE_PATH /bundle
-
-ADD . $app
+FROM nginxinc/nginx-unprivileged:alpine
+# Overwrite the existing default.conf
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=builder  /src/public /usr/share/nginx/html

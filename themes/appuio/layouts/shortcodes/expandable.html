@@ -1,0 +1,6 @@
+{{ $title := .Get "title" }}
+<div class="expandable-info-wrapper" info-slide-toggle=".offers-package-item-description">
+    <h4 class="expandable-info-title">{{ $title }}</h4>
+    <img alt="caret_down" src="images/caret_down.svg" class="is-caret">
+</div>
+<div class="offers-package-item-description">{{ .Inner }}</div>

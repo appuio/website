@@ -1,0 +1,102 @@
+apiVersion: template.openshift.io/v1
+kind: Template
+metadata:
+  name: appuio
+objects:
+- apiVersion: apps.openshift.io/v1
+  kind: DeploymentConfig
+  metadata:
+    labels:
+      app: appuio
+    name: appuio
+  spec:
+    replicas: 2
+    revisionHistoryLimit: 10
+    selector:
+      app: appuio
+      deploymentconfig: appuio
+    strategy:
+      activeDeadlineSeconds: 21600
+      resources: {}
+      rollingParams:
+        intervalSeconds: 1
+        maxSurge: 25%
+        maxUnavailable: 25%
+        timeoutSeconds: 600
+        updatePeriodSeconds: 1
+      type: Rolling
+    template:
+      metadata:
+        labels:
+          app: appuio
+          deploymentconfig: appuio
+      spec:
+        containers:
+        - image: registry.puzzle.ch/puzzle/appuio-website:${IMAGE_TAG}
+          imagePullPolicy: Always
+          name: appuio
+          ports:
+          - containerPort: 8080
+            protocol: TCP
+          - containerPort: 8000
+            protocol: TCP
+          readinessProbe:
+            failureThreshold: 3
+            initialDelaySeconds: 5
+            periodSeconds: 10
+            successThreshold: 1
+            tcpSocket:
+              port: 8080
+            timeoutSeconds: 1
+          resources: {}
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
+        dnsPolicy: ClusterFirst
+        restartPolicy: Always
+        schedulerName: default-scheduler
+        securityContext: {}
+        terminationGracePeriodSeconds: 30
+    test: false
+    triggers:
+    - type: ConfigChange
+- apiVersion: v1
+  kind: Service
+  metadata:
+    labels:
+      app: appuio
+    name: appuio
+  spec:
+    ports:
+    - name: 8080-tcp
+      port: 8080
+      protocol: TCP
+      targetPort: 8080
+    - name: 8000-tcp
+      port: 8000
+      protocol: TCP
+      targetPort: 8000
+    selector:
+      app: appuio
+      deploymentconfig: appuio
+    sessionAffinity: None
+    type: ClusterIP
+- apiVersion: route.openshift.io/v1
+  kind: Route
+  metadata:
+    labels:
+      app: appuio
+    name: appuio
+  spec:
+    port:
+      targetPort: 8080-tcp
+    tls:
+      insecureEdgeTerminationPolicy: Redirect
+      termination: edge
+    to:
+      kind: Service
+      name: appuio
+      weight: 100
+    wildcardPolicy: None
+parameters:
+- name: IMAGE_TAG
+  description: The Docker image tag

@@ -1,0 +1,115 @@
+section.home-hero {
+  background: $darkblue;
+  position: relative;
+  padding: 0;
+  @extend .has-yellow-links;
+}
+.home-hero-illus {
+  height: 45vw;
+}
+.home-hero-logo {
+  width: 30vw;
+  max-width: 400px;
+  position: absolute;
+  top: 20vw;
+  left: 20px;
+  right: 20px;
+  margin: auto;
+}
+section.intro {
+  padding-top: 4rem;
+}
+
+.home-offer .card {
+  background: $darkblue;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  .ribbon {
+    height: 2rem;
+  }
+  .subtitle {
+    @extend .has-white-links;
+  }
+  .card-content {
+    flex: 1;
+    background-repeat: no-repeat;
+    min-height: 22rem;
+    background-repeat: no-repeat;
+    background-position: center 4rem;
+  }
+}
+
+.home-offer ul {
+  @extend .m-0;
+  @extend .p-0;
+}
+.home-offer li {
+  text-align: center;
+  margin: 0;
+  padding: 0.5em 1rem;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  height: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:nth-child(odd) {
+    background: $darkblue-2;
+  }
+}
+
+
+section.features {
+  .container > ul {
+    @extend .columns;
+    @extend .has-text-left;
+    max-width: 600px;
+    margin: auto;
+
+    > li {
+      @extend .column;
+      ul {list-style-type: initial;}
+    }
+  }
+}
+
+section.distributions-technologies {
+  ul {
+    @extend .columns;
+    @extend .is-flex-wrap-wrap;
+    li {
+      @extend .column;
+      @extend .is-half;
+      @extend .py-6;
+      @extend .px-6;
+      img {
+        max-height: 10rem;
+      }
+      h3 {
+        @extend .subtitle;
+        @extend .is-4;
+        @extend .pt-4;
+        color: white;
+      }
+    }
+  }
+}
+
+
+
+.home-hero-video {
+  background: url(/images/header-bg-video.png) no-repeat center center $darkblue;
+  background-size: cover;
+  @extend .mb-2;
+  iframe {
+    max-width: 100%;
+    width: 500px;
+    height: 315px;
+    @include desktop {
+      width: 1120px;
+      height: 630px;
+    }
+  }
+}

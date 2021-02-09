@@ -1,0 +1,68 @@
+.columns.blog > .column > .card {
+  background: white;
+  color: $dark-text;
+}
+.columns.blog > .column > .card {
+  @extend .is-flex;
+  @extend .is-flex-direction-column;
+  height: 100%;
+  .card-content {
+    @extend .has-cyan-links;
+    flex: 1;
+  }
+  .card-footer {
+    background: white;
+  }
+}
+
+.events-embedded .empty blockquote {
+  background: $lightgray;
+  color: $dark-text;
+  border: none;
+}
+.events-embedded .event {
+  background: white;
+  color: $dark-text;
+  border-radius: $radius;
+  overflow: hidden;
+  @extend .is-flex;
+  @extend .mb-4;
+  @extend .has-text-left;
+  @extend .has-text-left;
+  .date {
+    @extend .is-flex;
+    @extend .is-flex-direction-column;
+    @extend .is-justify-content-center;
+    @extend .px-5;
+    @extend .has-text-centered;
+    background: $yellow;
+    min-width: 6rem;
+  }
+  .content {
+    flex: 1;
+    @extend .has-cyan-links;
+    @extend .p-3;
+    @extend .m-0;
+  }
+  .action {
+    @extend .is-flex;
+    @extend .is-align-items-center;
+    @extend .mx-4;
+  }
+}
+.events-embedded .event {
+  @include mobile {
+    flex-direction: column;
+    .content {
+      text-align: center;
+    }
+    .action {
+      margin: 1rem;
+      .button {
+        max-width: 400px;
+        width: 100%;
+        margin: auto;
+      }
+    }
+  }
+}

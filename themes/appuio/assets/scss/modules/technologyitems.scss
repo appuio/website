@@ -1,0 +1,29 @@
+.technology-items {
+  @extend .columns;
+  @extend .is-mobile;
+  @extend .is-flex-wrap-wrap;
+  @extend .is-align-items-center;
+  @extend .is-justify-content-center;
+}
+.technology-item {
+  @extend .py-5;
+
+  p {
+    @extend .pt-2;
+    @extend .is-size-6;
+  }
+  img {
+    min-height: 60px;
+  }
+}
+
+.technology-item {
+  @extend .is-one-fifth;
+
+  @include tablet-only {
+    width: 25% !important;
+  }
+  @include mobile {
+    width: 33% !important;
+  }
+}

@@ -1,0 +1,77 @@
+label.checkbox.boxed,
+label.radio.boxed {
+  @extend .button;
+  @extend .is-fullwidth;
+  @extend .is-justify-content-flex-start;
+  @extend .has-text-left;
+  height: auto;
+  color: $white;
+  background: none;
+  &:hover {
+    background: $yellow;
+  }
+  input {
+    @extend .mr-3;
+  }
+}
+label.checkbox:hover {
+  color: white;
+}
+
+.price-placeholder {
+  @extend .has-text-right;
+  @extend .mx-1;
+  @extend .is-inline-block;
+  min-width: 5rem;
+}
+
+
+
+.range-slider {
+  margin: 60px 0 0 0%;
+}
+
+.range-slider {
+  width: 100%;
+}
+
+.range-slider__range {
+  appearance: none;
+  width: calc(100% - (100px));
+  height: 10px;
+  border-radius: 5px;
+  background: #d7dcdf;
+  outline: none;
+  padding: 0;
+  margin: 5em 0 0;
+}
+.range-slider__range::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #2c3e50;
+  cursor: pointer;
+  transition: background .15s ease-in-out;
+}
+.range-slider__range::-webkit-slider-thumb:hover {
+  background: #ff931e;
+}
+.range-slider__range:active::-webkit-slider-thumb {
+  background: #ff931e;
+}
+.range-slider__range::-moz-range-thumb {
+  width: 50px;
+  height: 50px;
+  border: 0;
+  border-radius: 50%;
+  background: #FFD301;
+  cursor: pointer;
+  transition: background .15s ease-in-out;
+}
+.range-slider__range::-moz-range-thumb:hover {
+  background: #ff931e;
+}
+.range-slider__range:active::-moz-range-thumb {
+  background: #ff931e;
+}

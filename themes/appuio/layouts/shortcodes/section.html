@@ -1,0 +1,36 @@
+{{ $class := .Get "class" }}
+{{ $header := .Get "header" }}
+
+<section {{ if $class }}class="{{ $class }}" {{ end }}>
+  {{ if $header }}
+    {{ if in $class "techlab-hero" }}
+      <div class="container pb-6">
+        <h1>{{ .Page.Title }}</h1>
+        <p>{{ .Inner | .Page.RenderString }}</p>
+      </div>
+      <div class="img-wrapper">
+        {{ $svg := .Page.Resources.GetMatch $header }}
+        {{ if $svg }}
+          {{ $svg.Content | safeHTML }}
+        {{ else }}
+          {{ warnf "Header not found!" }}
+        {{ end }}
+      </div>
+    {{ else }}
+      {{ $svg := .Page.Resources.GetMatch $header }}
+      {{ if $svg }}
+        {{ $svg.Content | safeHTML }}
+      {{ else }}
+        {{ warnf "Header not found!" }}
+      {{ end }}
+      <div class="container">
+        <h1>{{ .Page.Title }}</h1>
+        <p>{{ .Inner | .Page.RenderString }}</p>
+      </div>
+    {{ end }}
+  {{ else }}
+    <div class="container">
+      {{ .Inner | .Page.RenderString }}
+    </div>
+  {{ end }}
+</section>

@@ -1,0 +1,12 @@
+$button-colors: 	mergeColorMaps((
+  "dark": ($darkblue, white),
+  "primary": ($yellow, $darkblue),
+  "white": ($white, $black),
+  "black": ($black, $white),
+  "light": ($light, $light-invert),
+  "link": ($link, $link-invert, $link-light, $link-dark),
+  "info": ($info, $info-invert, $info-light, $info-dark),
+  "success": ($success, $success-invert, $success-light, $success-dark),
+  "warning": ($warning, $warning-invert, $warning-light, $warning-dark),
+  "danger": ($danger, $danger-invert, $danger-light, $danger-dark)),
+$custom-colors);

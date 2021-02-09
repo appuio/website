@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>APPUiO - Swiss Container Platform</title>
+        <meta name="description" content="{{ T "metaDescription" }}"/>
+        <meta name="keywords" content="{{ T "metaKeywords" }}"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="/images/favicon.png">
+        {{ $style := resources.Get "scss/main.css.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{{ $style.Permalink }}">
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    </head>
+    <body class="has-navbar-fixed-top has-text-centered {{ .Page.Type }}">
+        {{- partial "header.html" . -}}
+        {{- partial "cookies.html" . -}}
+
+        <main>
+            {{- block "main" . }}{{- end }}
+            {{- block "beerbutton" . }}{{- end }}
+        </main>
+
+        {{- partial "footer.html" . -}}
+    </body>
+
+</html>

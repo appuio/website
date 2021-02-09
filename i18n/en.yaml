@@ -1,0 +1,49 @@
+- id: metaDescription
+  translation: APPUiO - the Swiss container platform with a powerful community. Manage your container workload with APPUiO.
+- id: metaKeywords
+  translation: openShift, container runtime, container platform, Cluster, PaaS, Platform as a Service, Docker, Kubernetes, Swiss, Switzerland, VSHN AG, Puzzle ITC GmbH
+
+- id: price
+  translation: "Price"
+
+- id: anmelden
+  translation: "Register"
+
+- id: weiterlesen
+  translation: "Read more"
+
+- id: alleblogbeitraege
+  translation: "Show all blog posts"
+
+- id: footertext
+  translation: "You can reach us by phone: +41 44 552 22 40 or e-mail hello@appuio.ch"
+
+- id: beerinvite
+  translation: "Are you interested in APPUiO? Come and have a beer with us!"
+
+- id: beermail
+  translation: "Share your e-mail address with us and we will arange a meeting."
+
+- id: beeralternatives
+  translation: "(We also offer other beverages)"
+
+- id: order
+  translation: "Order"
+
+- id: per_day
+  translation: "per day (excl. VAT)"
+
+- id: per_month
+  translation: "per 30 days (excl. VAT)"
+
+- id: use_a_dedicated_node
+  translation: "(At best a Dedicated Node makes sense for you)"
+
+- id: cookie_message
+  translation: "We use cookies to optimise your experience"
+
+- id: cookie_button
+  translation: "OK"
+
+- id: open
+  translation: 'open'

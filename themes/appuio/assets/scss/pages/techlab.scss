@@ -1,0 +1,38 @@
+body.techlabs main {
+  @extend .has-text-left;
+}
+section.techlab-hero {
+  padding-bottom: 0;
+  .img-wrapper {
+    max-width: 1400px;
+    margin: auto;
+    margin-bottom: -5rem;
+  }
+}
+section.lab-content {
+  .container > ul {
+    @extend .columns;
+    @extend .has-text-left;
+    @extend .pt-5;
+    > li {
+      @extend .column;
+      @extend .mx-2;
+      @extend .my-4;
+      @extend .py-5;
+      @extend .is-size-6;
+      @extend .is-flex;
+      @extend .is-flex-direction-column;
+      background: white;
+      color: black;
+      ul {
+        @extend .my-0;
+        list-style-type: initial;
+      }
+    }
+  }
+  h3 {
+    @extend .is-size-5;
+    @extend .p-0;
+    color: #000;
+  }
+}

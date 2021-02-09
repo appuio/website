@@ -1,0 +1,5 @@
+{{ if eq .Page.Language.Lang "de" }}
+{{ .Date.Day }}. {{ index $.Site.Data.monate (printf "%d" .Date.Month) }} {{ .Date.Year }}
+{{ else }}
+{{ .Date.Day }}. {{ .Date.Month }} {{ .Date.Year }}
+{{ end }}

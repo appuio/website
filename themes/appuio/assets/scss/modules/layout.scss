@@ -1,0 +1,22 @@
+footer {
+  .gray {
+    background: $lightgray;
+  }
+  .columns {
+    margin: 0 !important;
+  }
+}
+
+.container {
+  max-width: 95%;
+}
+@include fullhd {
+  .container {
+    max-width: none;
+  }
+}
+
+.mw-400 {
+  max-width: 400px;
+  margin: auto;
+}

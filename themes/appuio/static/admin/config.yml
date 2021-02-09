@@ -1,0 +1,311 @@
+backend:
+  name: github
+  repo: appuio/website-new
+  branch: master
+  site_domain: appuio-pitc-appuio30.appuioapp.ch
+  base_url: https://github-oauth-provider-pitc-appuio30.appuioapp.ch
+  #name: git-gateway
+
+logo_url: /appuio_logo.svg
+publish_mode: editorial_workflow
+media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+
+i18n:
+  structure: multiple_files
+  locales: [de, en]
+
+local_backend: true
+
+slug:
+  encoding: ascii
+  clean_accents: true
+
+collections:
+  - name: homepage # Used in routes, e.g., /admin/collections/blog
+    label: Homepage # Used in the UI
+    folder: content/homepage # The path to the folder where the documents are stored
+    media_folder: images
+    i18n: true
+    fields: # The fields for each document, usually in front matter
+      - label: Title
+        name: title
+        widget: string
+        i18n: true
+      - label: Body
+        name: body
+        widget: markdown
+        i18n: true
+  - name: blog # Used in routes, e.g., /admin/collections/blog
+    label: Blog # Used in the UI
+    label_singular: Post
+    folder: content/blog # The path to the folder where the documents are stored
+    path: '{{slug}}/index'
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    i18n: true
+    create: true
+    fields: # The fields for each document, usually in front matter
+      - label: Title
+        name: title
+        widget: string
+        i18n: true
+      - label: Date
+        name: date
+        widget: datetime
+        time_format: false
+        format: YYYY-MM-DD
+        i18n: duplicate
+      - label: Featured Image
+        name: featured_image
+        widget: image
+        i18n: duplicate
+        required: false
+      - label: Testimonial
+        name: testimonial
+        summary: '{{fields.name}}'
+        widget: object
+        hint: Appears on the homepage
+        collapsed: true
+        required: false
+        i18n: true
+        fields:
+        - label: Image
+          name: image
+          widget: image
+          required: false
+          i18n: duplicate
+        - label: Quote
+          name: quote
+          widget: string
+          required: false
+          i18n: true
+        - label: Name
+          name: name
+          widget: string
+          required: false
+          i18n: true
+        - label: Twitter Handle
+          name: handle
+          widget: string
+          required: false
+          i18n: duplicate
+      - label: Summary
+        name: summary
+        widget: text
+        i18n: true
+      - label: Body
+        name: body
+        widget: markdown
+        i18n: true
+  - name: events # Used in routes, e.g., /admin/collections/blog
+    label: Events # Used in the UI
+    label_singular: Event
+    folder: content/events # The path to the folder where the documents are stored
+    path: '{{slug}}/index'
+    i18n: true
+    create: true
+    fields: # The fields for each document, usually in front matter
+      - label: Title
+        name: title
+        widget: string
+        i18n: true
+      - label: Date
+        name: date
+        widget: datetime
+        i18n: duplicate
+      - label: Publish Date
+        name: publishdate
+        widget: datetime
+        i18n: duplicate
+      - label: Event Link
+        name: event_link
+        widget: string
+        required: false
+        i18n: duplicate
+      - label: Featured Image
+        name: featured_image
+        widget: image
+        i18n: duplicate
+        required: false
+      - label: Summary
+        name: summary
+        widget: text
+        i18n: true
+      - label: Body
+        name: body
+        widget: markdown
+        required: false
+        i18n: true
+  - name: offering # Used in routes, e.g., /admin/collections/blog
+    label: Offering # Used in the UI
+    folder: content/offering # The path to the folder where the documents are stored
+    path: '{{slug}}/index'
+    i18n: true
+    fields: # The fields for each document, usually in front matter
+      - label: Title
+        name: title
+        widget: string
+        i18n: duplicate
+      - label: Weight
+        name: weight
+        widget: number
+        i18n: duplicate
+      - label: Ribbon Color
+        name: ribbon_color
+        widget: color
+        i18n: duplicate
+      - label: Description
+        name: description
+        widget: text
+        i18n: true
+      - label: Features
+        label_singular: Feature
+        name: features
+        widget: list
+        collapsed: false
+        summary: '{{ field.feature }}'
+        i18n: true
+        field:
+          label: Feature
+          name: feature
+          widget: string
+      - label: Body
+        name: body
+        widget: markdown
+        i18n: true
+  - name: techlabs # Used in routes, e.g., /admin/collections/blog
+    label: Techlabs # Used in the UI
+    folder: content/techlabs # The path to the folder where the documents are stored
+    path: '{{slug}}/index'
+    i18n: true
+    fields: # The fields for each document, usually in front matter
+      - label: Title
+        name: title
+        widget: string
+        i18n: true
+      - label: Body
+        name: body
+        widget: markdown
+        i18n: true
+  - name: team # Used in routes, e.g., /admin/collections/blog
+    label: Team # Used in the UI
+    label_singular: Member
+    folder: content/team # The path to the folder where the documents are stored
+    path: '{{slug}}/index'
+    i18n: true
+    create: true
+    fields: # The fields for each document, usually in front matter
+      - label: Name
+        name: title
+        widget: string
+        i18n: duplicate
+      - label: Alias
+        name: alias
+        widget: string
+        i18n: true
+      - label: Function
+        name: function
+        widget: string
+        i18n: true
+      - label: Hashtags
+        name: hashtags
+        required: false
+        widget: string
+        i18n: true
+      - label: Profile
+        name: profile
+        required: false
+        widget: string
+        i18n: duplicate
+      - label: Mail
+        name: mail
+        required: false
+        widget: string
+        i18n: duplicate
+      - label: Twitter
+        name: twitter
+        widget: string
+        required: false
+        # https://github.com/lorey/social-media-profiles-regexs#twitter
+        pattern: ['^[A-z0-9_]+$', 'Please only specify the Twitter handle without url or @']
+        i18n: duplicate
+      - label: LinkedIn
+        name: linkedin
+        widget: string
+        required: false
+        # https://github.com/lorey/social-media-profiles-regexs#github
+        pattern: ['^[\w\-\_À-ÿ%]+$', 'Please only specify the LinkedIn handle without url or @']
+        i18n: duplicate
+      - label: Github
+        name: github
+        widget: string
+        required: false
+        # https://github.com/lorey/social-media-profiles-regexs#github
+        pattern: ['^[A-z0-9_-]+$', 'Please only specify the Github handle without url or @']
+        i18n: duplicate
+      - label: Animation
+        name: animation
+        widget: file
+        required: false
+        i18n: duplicate
+      - label: Closed
+        name: isClosed
+        widget: boolean
+        required: false
+        default: true
+        i18n: duplicate
+      - label: Online
+        name: isOnline
+        widget: boolean
+        required: false
+        default: false
+        i18n: duplicate
+  - name: faq # Used in routes, e.g., /admin/collections/blog
+    label: FAQ # Used in the UI
+    folder: content/faq # The path to the folder where the documents are stored
+    path: '{{slug}}/index'
+    i18n: true
+    create: true
+    fields: # The fields for each document, usually in front matter
+      - label: Title
+        name: title
+        widget: string
+        i18n: true
+      - label: Body
+        name: body
+        widget: markdown
+        i18n: true
+  - name: impressum # Used in routes, e.g., /admin/collections/blog
+    label: Impressum # Used in the UI
+    folder: content/impressum-datenschutz # The path to the folder where the documents are stored
+    i18n: true
+    fields: # The fields for each document, usually in front matter
+      - label: Title
+        name: title
+        widget: string
+        i18n: true
+      - label: Body
+        name: body
+        widget: markdown
+        i18n: true
+  - name: i18n # Used in routes, e.g., /admin/collections/blog
+    label: Translations # Used in the UI
+    editor:
+      preview: false
+    create: false
+    format: yaml-frontmatter
+    files:
+      - name: english
+        label: English
+        file: i18n/en.yaml
+        fields: # The fields for each document, usually in front matter
+          - label: Content
+            name: body
+            widget: text
+      - name: deutsch
+        label: Deutsch
+        file: i18n/de.yaml
+        fields: # The fields for each document, usually in front matter
+          - label: Content
+            name: body
+            widget: text

@@ -1,0 +1,27 @@
+{{ $path := .Path }}
+<div class="columns links mb-4">
+    {{ with .Params.profile }}
+        <div class="column"><a href="{{ . }}" target="_blank"><i class="fas fa-user"></i></a></div>
+    {{ end }}
+    {{ with .Params.mail }}
+        <div class="column"><a href="mailto:{{ . }}"><i class="fas fa-envelope"></i></a></div>
+    {{ end }}
+    {{ with .Params.twitter }}
+        {{ if strings.Count "twitter.com" . }}
+            {{ errorf "%v: Please only specify the Twitter handle without the URL" $path }}
+        {{ end }}
+        <div class="column"><a href="https://twitter.com/{{ . }}" target="_blank"><i class="fab fa-twitter"></i></a></div>
+    {{ end }}
+    {{ with .Params.linkedin }}
+        {{ if strings.Count "linkedin.com" . }}
+            {{ errorf "%v: Please only specify the LinkedIn handle without the URL" $path }}
+        {{ end }}
+        <div class="column"><a href="https://www.linkedin.com/in/{{ . }}" target="_blank"><i class="fab fa-linkedin"></i></a></div>
+    {{ end }}
+    {{ with .Params.github }}
+        {{ if strings.Count "github.com" . }}
+            {{ errorf "%v: Please only specify the Github handle without the URL" $path }}
+        {{ end }}
+        <div class="column"><a href="https://github.com/{{ . }}" target="_blank"><i class="fab fa-github"></i></a></div>
+    {{ end }}
+</div>

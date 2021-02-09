@@ -1,0 +1,5 @@
+{{ $name := .Get "name" }}
+<div class="column offers-package offers-package--{{ lower $name }} is-fourth">
+    <div class="offers-package-ribbon is-orange">{{ $name }}</div>
+    {{ .Inner }}
+</div>

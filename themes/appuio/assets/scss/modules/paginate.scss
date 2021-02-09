@@ -1,0 +1,22 @@
+ul.pagination {
+  @extend .pt-6;
+  @extend .is-justify-content-center;
+}
+ul.pagination {
+  li {
+    list-style: none;
+    @extend .my-0;
+    @extend .mx-2;
+  }
+  li a {
+    @extend .button;
+    @extend .is-light;
+  }
+  li.active a {
+    @extend .is-white;
+  }
+  li.active a {
+    background: $darkblue !important;
+    color: $white !important;
+  }
+}

@@ -1,14 +1,7 @@
-app:
-  build: .
-  #command: /app/bundle_helper.sh
-  command: bash
-  volumes:
-    - .:/app
-  volumes_from:
-    - bundle_data
+version: '3.7'
 
-bundle_data:
-  image: busybox
-  volumes:
-    - /bundle
-
+services:
+  web:
+    build: .
+    ports:
+    - 8080:8080

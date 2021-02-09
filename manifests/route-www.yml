@@ -1,0 +1,20 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  annotations:
+    kubernetes.io/tls-acme: 'true'
+  labels:
+    app: appuio
+  name: www.appuio.ch
+spec:
+  host: www.appuio.ch
+  port:
+    targetPort: 8000-tcp
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
+  to:
+    kind: Service
+    name: appuio
+    weight: 100
+  wildcardPolicy: None

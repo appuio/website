@@ -1,0 +1,3 @@
+---
+link: offering/public
+---

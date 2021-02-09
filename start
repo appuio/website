@@ -1,3 +1,0 @@
-bash --login ;
-rvm use --install 2.5.1 ;
-middleman ;

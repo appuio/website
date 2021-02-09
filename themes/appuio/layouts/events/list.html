@@ -1,0 +1,50 @@
+{{ define "main" }}
+  <section>
+    <div class="container">
+      <h1>Aktuell</h1>
+      {{ .Content }}
+      <div class="buttons has-addons">
+        <a href="{{ ref . "/blog" }}" class="button is-half is-outlined">{{ with .Site.GetPage "/blog" }}{{ .Title }}{{ end }}</a>
+        <a href="{{ ref . "/events" }}" class="button is-half is-primary">{{ with .Site.GetPage "/events" }}{{ .Title }}{{ end }}</a>
+      </div>
+      <div class="columns is-flex-wrap-wrap blog">
+
+        {{ range .Paginator.Pages }}
+
+          {{- $link := .Permalink  }}
+          {{- if .Params.event_title_link -}}
+            {{- $link = .Params.event_title_link -}}
+          {{- end -}}
+
+          <div class="column is-half mb-5">
+            <div class="card">
+              {{ if .Params.featured_image }}
+                <div class="card-image">
+                  {{- $img := .Page.Resources.GetMatch .Params.featured_image -}}
+                  <a href="{{$link}}">
+                    <img src="{{ $img.Permalink }}" alt="post-image" />
+                  </a>
+                </div>
+              {{ end }}
+              <div class="card-content">
+                <p class="is-size-7 my-1">{{ partial "prettydate" . }}</a></p>
+                <p class="is-size-5 my-2"><a href="{{$link}}">{{ .Title }}</a></p>
+                <p class="is-size-6">{{ .Summary }}</p>
+              </div>
+              <div class="card-footer">
+                <p class="card-footer-item">
+                {{- if .Params.event_link -}}
+                  <a href="{{ .Params.event_link }}" class="button is-rounded is-primary is-fullwidth" target="_blank">{{ T "anmelden" }}</a>
+                {{- else -}}
+                  <a href="{{ .Permalink }}" class="button is-rounded is-primary is-fullwidth">{{ T "weiterlesen" }}</a>
+                {{- end -}}
+                </p>
+              </div>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+      {{ template "_internal/pagination.html" . }}
+    </div>
+  </section>
+{{ end }}

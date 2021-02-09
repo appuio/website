@@ -1,0 +1,45 @@
+body.show-cookie-msg section.faq {
+  padding-top: 6rem !important;
+}
+
+section.faq {
+  @extend .py-6;
+  @extend .has-cyan-links;
+}
+.faq-item {
+  border-bottom: 1px solid $lightgray;
+}
+
+.faq-item {
+  a.faq-title {
+    color: $darkblue;
+    @extend .py-4;
+    &:hover {
+      color: $cyan-dark;
+    }
+  }
+  .icon {
+    transition: $transition-time transform ease;
+  }
+  .content {
+    display: none;
+    @extend  .pt-1;
+    @extend  .pb-5;
+  }
+}
+.faq-item.visible {
+  a.faq-title {
+    color: $cyan-dark;
+  }
+  .icon {
+    transform: rotate(180deg);
+  }
+  .content {
+    display: block;
+  }
+}
+
+.faq-item .content > a {
+  @extend .tag;
+  @extend .mb-2;
+}

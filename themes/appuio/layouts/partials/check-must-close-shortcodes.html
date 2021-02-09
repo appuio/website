@@ -1,0 +1,30 @@
+{{ $path := .path }}
+{{ if not $path }}
+{{ $path = .context.Path }}
+{{ end }}
+{{ $rawcontent := .rawcontent }}
+{{ if not $rawcontent }}
+{{ $rawcontent = .context.RawContent }}
+{{ end }}
+{{ $shortcodes := findRE `{{<.*?[^/]>}}` $rawcontent }}
+{{ $scratch := newScratch }}
+{{ range $shortcodes }}
+    {{ $name := replaceRE `{{<\s?([/a-z-]+).*` "$1" . }}
+    {{ $closing := hasPrefix $name "/" }}
+    {{ $name = replace $name "/" "" }}
+    {{ $value := default 0 (index (default (dict) ($scratch.Get "shortcodes")) $name) }}
+    {{ if $closing }}
+        {{ $value = add $value -1 }}
+    {{ else }}
+        {{ $value = add $value 1 }}
+    {{ end }}
+    {{ $scratch.SetInMap "shortcodes" $name $value }}
+{{ end }}
+{{ $site := .context.Site }}
+{{ range $key, $val := $scratch.Values.shortcodes }}
+      {{ if ne $val 0 }}
+        {{ if in $site.Params.mustCloseShortcodes $key }}
+        {{ errorf "Shortcode %v must be closed! Use either /shortcode or /> %q" $key $path }}
+        {{ end }}
+   {{ end }}
+{{ end }}

@@ -1,0 +1,25 @@
+.client-reviews .column > .review {
+  @extend .is-flex ;
+  @extend .is-flex-direction-column ;
+  @extend .is-justify-content-start;
+  height: 100%;
+}
+.client-reviews img {
+  max-width: 200px;
+  margin: auto;
+}
+.client-reviews {
+  .quote {
+    @extend .pb-2;
+    @extend .pt-4;
+    @extend .is-flex-grow-1;
+    @extend .is-flex;
+    @extend .is-align-items-center;
+    color: $darkblue;
+    font-weight: bold;
+  }
+  .name {
+    @extend .pb-2;
+    @extend .is-size-6;
+  }
+}

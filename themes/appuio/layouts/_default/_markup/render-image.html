@@ -1,0 +1,13 @@
+{{ $img := .Page.Resources.GetMatch .Destination }}
+{{ if not $img }}
+    {{ $img = .Page.Resources.GetMatch (printf "images/%v" .Destination) }}
+{{ end }}
+{{ if $img }}
+    {{ if (isset $img "Width") }}
+        <img src="{{ $img.Permalink }}" loading="lazy" alt="{{ .Text }}" {{ with .Title }} title="{{ . }}" {{ end }} width="{{ $img.Width }}" height="{{ $img.Height }}" />
+    {{ else }}
+        <img src="{{ $img.Permalink }}" alt="{{ .Text }}" {{ with .Title }} title="{{ . }}" {{ end }} />
+    {{ end }}
+{{ else }}
+  <img src="{{ .Destination | safeURL }}" loading="lazy" alt="{{ .Text }}" {{ with .Title }} title="{{ . }}" {{ end }} />
+{{ end }}

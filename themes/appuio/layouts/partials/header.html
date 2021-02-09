@@ -1,0 +1,63 @@
+{{/* partial "github" */}}
+<header>
+  <nav class="navbar is-fixed-top has-text-left" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+          <a class="navbar-item" href="{{ "/" | ref . }}">
+          {{ $logo := resources.Get "appuio_logo.svg" }}
+          <img src="{{ $logo.Permalink }}" alt="APPUiO Logo" /></a>
+        </a>
+
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          {{ $currentPage := . }}
+          {{ range .Site.Menus.main }}
+            {{ if .HasChildren }}
+              <div class="navbar-item has-dropdown is-hoverable {{ if $currentPage.HasMenuCurrent "main" . }}has-active{{ end }}">
+                <a class="navbar-link">
+                    {{ .Name }}
+                </a>
+                <div class="navbar-dropdown">
+                  {{ range .Children }}
+                  <a class="navbar-item {{ if $currentPage.IsMenuCurrent "main" . }}is-active{{ end }}" {{ if strings.HasPrefix .URL "http" }}target="_blank"{{ end }} href="{{ .URL }}">
+                      {{ .Name }}
+                    </a>
+                  {{ end }}
+                </div>
+              </div>
+            {{ else }}
+              <a class="navbar-item {{ if $currentPage.IsMenuCurrent "main" . }}is-active{{ end }}" href="{{ .URL }}">
+                {{ .Name }}
+              </a>
+            {{ end }}
+          {{ end }}
+        </div>
+
+        <div class="navbar-end">
+            {{range cond (eq .IsTranslated true)  .Translations .Site.Home.Translations }}
+              {{ if ne .Language $.Site.Language }}
+                <a class="navbar-item" href="{{ .Permalink }}">{{ upper .Language }}</a>
+              {{ end }}
+            {{ end }}
+
+          <div class="navbar-item">
+            <div class="buttons">
+              <a class="button is-light" href="https://console.appuio.ch" target="_blank">
+                Log in
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </nav>
+</header>

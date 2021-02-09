@@ -1,0 +1,43 @@
+{{- $tag := .Get "tag" }}
+<div class="events-embedded">
+    {{/* Always return at least an empty slice, so that $events is not nil.
+         This just ensures that the next function doesn't fail. */}}
+    {{- $events := (where .Site.RegularPages "Type" "events").Reverse -}}
+    {{- if $tag -}}
+        {{- $events = where $events "Params.tags" "intersect" (slice $tag) -}}
+    {{- end -}}
+    {{- $future_events := slice -}}
+    {{- range $events -}}
+        {{/* We also want events that are today: compare 'ge' and only date without time.
+             This is needed because dates without time are set to 00:00 */}}
+        {{- if ge (.Date | dateFormat "20060102") (now.Format "20060102") -}}
+            {{- $future_events = $future_events | append . -}}
+        {{- end -}}
+    {{- end -}}
+    {{- range $future_events -}}
+        <div class="event">
+            <div class="date">
+                <div class="is-size-4">{{ .Date.Day }}.</div>
+                <div class="is-size-6">{{ printf "%.3s" (index $.Site.Data.monate (printf "%d" .Date.Month)) }}</div>
+            </div>
+            <div class="content">
+                {{- if .Params.event_title_link -}}
+                    <p class="mb-1"><a href="{{.Params.event_title_link}}">{{ .Title }}</a></p>
+                {{- else -}}
+                    <p class="mb-1"><a href="{{.Permalink}}">{{ .Title }}</a></p>
+                {{- end -}}
+                <p class="is-size-6">{{ .Summary }}</p>
+            </div>
+            {{- if .Params.event_link -}}
+                <div class="action">
+                    <a href="{{ .Params.event_link }}" class="button is-rounded is-primary" target="_blank">{{ T "anmelden" }}</a>
+                </div>
+            {{- end -}}
+        </div>
+    {{- end -}}
+    {{- if and (eq (len $future_events) 0) .Inner -}}
+        <div class="empty">
+            {{- .Inner -}}
+        </div>
+    {{- end -}}
+</div>

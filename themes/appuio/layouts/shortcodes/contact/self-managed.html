@@ -1,0 +1,31 @@
+<form class="has-text-left pt-6 contact-form mw-400">
+    <input id="interest-medium" value="Managed Private" type="hidden" name="interests[]" class="interest-checkbox">
+    <div class="field">
+      <input title="Ihr Vorname" type="text" name="vorname" class="input" placeholder="Vorname" required />
+    </div>
+    <div class="field">
+      <input title="Ihr Nachname" type="text" name="nachname" class="input" placeholder="Nachname" required />
+    </div>
+    <div class="field">
+      <input title="Firma" type="text" name="firma" class="input" placeholder="Firma" required />
+    </div>
+    <input type="email" name="email" class="input" placeholder="E-Mail" required />
+      <div class="field">
+    </div>
+    <div class="field">
+      <input type="text" name="phone" placeholder="Telefon" class="input" required />
+    </div>
+    <div class="field">
+      <textarea title="Ihre Nachricht?" id="message" name="message" cols="30" rows="6" class="textarea" placeholder="Nachricht" required></textarea>
+    </div>
+  </div>
+
+  <div class="has-text-centered mt-4">
+    <label class="appuio-contact-button button-progress">
+      <input id="submitButton" type="submit" class="button is-round is-primary is-fullwidth mw-400" value="Absenden">
+    </label>
+    <div class="home-feedback-container">
+      <p class="home-feedback"></p>
+    </div>
+  </div>
+</form>

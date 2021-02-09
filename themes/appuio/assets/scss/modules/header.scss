@@ -1,0 +1,78 @@
+header .navbar-brand .navbar-item {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+header .navbar-item img {
+  height: 3rem;
+}
+
+header .navbar-dropdown {
+  padding: 0;
+  .navbar-item {
+    padding: .5rem 1rem;
+  }
+  a {
+    color: $darkblue;
+  }
+}
+
+header .navbar {
+  @include desktop {
+    height: 5rem;
+    padding: 1rem;
+  }
+}
+header .navbar,
+header .navbar>.container,
+header .navbar-brand, .navbar-tabs,
+header .navbar-item img {
+  min-height: 3rem;
+}
+
+.navbar-item.has-dropdown:focus .navbar-link,
+.navbar-item.has-dropdown:hover .navbar-link,
+.navbar-item.has-dropdown.is-active .navbar-link {
+  color: $darkblue;
+  &:after {
+    border-color: $darkblue;
+  }
+}
+
+@include from($desktop) {
+    .navbar-dropdown a.navbar-item:focus:last-child,
+    .navbar-dropdown a.navbar-item:hover:last-child {
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+}
+
+.navbar-item.has-active {
+  background: $yellow;
+  a {
+    color: $darkblue;
+  }
+  a:after {
+    border-color: $darkblue;
+  }
+}
+
+
+@include until($desktop) {
+  header .navbar-menu {
+    box-shadow: none;
+    min-height: calc(100vh - 5rem);
+    .navbar-dropdown {
+      margin-bottom: 1rem;
+      padding-left: 1rem;
+    }
+    .navbar-link:not(.is-arrowless)::after {
+      display: none;
+    }
+    .button {
+      margin: 1rem auto;
+    }
+  }
+}
+// header .navbar-menu > * {
+//   align-items: center;
+// }

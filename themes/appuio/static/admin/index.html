@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Content Manager</title>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+  <!-- Include the script that builds the page and powers Netlify CMS -->
+  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  <script>
+    // Set default sort order. The first load will take a while
+    // Remove when https://github.com/netlify/netlify-cms/pull/4774 is merged
+    var entries_sort = localStorage.getItem('netlify-cms.entries.sort');
+    if (!entries_sort) {
+      console.log("setting netlify-cms.entries.sort")
+      localStorage.setItem('netlify-cms.entries.sort', '{"blog":{"date":{"key":"date","direction":"Descending","index":0}}}')
+    }
+  </script>
+</body>
+</html>

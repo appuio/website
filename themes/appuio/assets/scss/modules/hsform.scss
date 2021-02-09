@@ -1,0 +1,64 @@
+.hsform-wrapper {
+  @extend .has-text-left;
+  div.input {
+    padding: 0;
+    height: auto;
+    background: none;
+    border: none;
+    box-shadow: none;
+  }
+  .input > input {
+    @extend .input;
+  }
+  .input > textarea {
+    @extend .textarea;
+  }
+  .hs_submit input[type="submit"] {
+    @extend .button;
+    @extend .is-dark;
+  }
+  .hs-error-msg {
+    color: red;
+  }
+  .submitted-message {
+    @extend .is-size-5;
+    color: $darkblue;
+  }
+  .inputs-list {
+    @extend .m-0;
+    width: 100%;
+    list-style: none;
+    li.hs-form-radio {
+      @extend .m-0;
+      label {
+        @extend .my-1;
+        @extend .button;
+        @extend .is-outlined;
+        @extend .is-fullwidth;
+        @extend .is-justify-content-start;
+        background: transparent;
+        color: white;
+        &:hover,
+        &:focus {
+          color: $yellow;
+          border-color: $white;
+          background: darken($darkblue, 2%);
+        }
+        input {
+          @extend .mr-2;
+        }
+      }
+    }
+  }
+}
+
+.beer-button-hsform {
+  @extend .mt-4;
+}
+
+.darkblue {
+  .hs_submit input[type="submit"] {
+    @extend .is-primary;
+    @extend .fix-primary-button;
+  }
+}

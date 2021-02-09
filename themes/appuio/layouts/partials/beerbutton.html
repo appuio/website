@@ -1,0 +1,44 @@
+<a id="beer-button" href="javascript:void(0)"><img src="/images/beermug.png" class="beer-button"></a>
+
+<div id="beer-dialog" class="beer-dialog">
+
+  <p>
+    <a href="javascript:void(0)" class="close"><i class="fas fa-times"></i></a>
+    <div class="has-text-weight-semibold">{{ T "beerinvite" }}</div>
+    <div class="has-text-weight-semibold">{{ T "beermail" }}</div>
+    <div class="is-size-6">{{ T "beeralternatives" }}</div>
+  </p>
+  <div class="beer-form-wrapper">
+    <div class="hsform-wrapper beer-button-hsform">
+      {{ if eq .Page.Language.Lang "de" }}
+        <!--[if lte IE 8]>
+        <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/v2-legacy.js"></script>
+        <![endif]-->
+        <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/v2.js"></script>
+        <script>
+        hbspt.forms.create({
+        portalId: "7105834",
+        formId: "75c5d968-9daa-4c47-8f70-a73ab0eaed9d",
+        locale: 'de',
+        translations: {
+          de: {
+            required: "Bitte fülle dieses Feld aus."
+          }
+        }
+        });
+        </script>
+      {{ else }}
+        <!--[if lte IE 8]>
+        <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/v2-legacy.js"></script>
+        <![endif]-->
+        <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/v2.js"></script>
+        <script>
+        hbspt.forms.create({
+        portalId: "7105834",
+        formId: "5ef3e7e8-db9e-4166-83d3-a596162451fd"
+        });
+        </script>
+      {{ end }}
+    </div>
+  </div>
+</div>

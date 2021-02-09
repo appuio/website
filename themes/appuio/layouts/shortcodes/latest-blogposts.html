@@ -1,0 +1,27 @@
+<div class="columns blog">
+  {{ range first 3 (where .Site.RegularPages "Section" "blog") }}
+  <div class="column">
+    <div class="card">
+      <div class="card-image">
+        {{- $img := .Page.Resources.GetMatch .Params.featured_image -}}
+        <a href="{{.Permalink}}">
+          <img src="{{ $img.Permalink }}" alt="post-image" />
+        </a>
+      </div>
+      <div class="card-content">
+        <p class="is-size-7 my-1">{{ partial "prettydate" . }}</a></p>
+        <p><a href="{{.Permalink}}">{{ .Title }}</a></p>
+        <p class="is-size-6">{{ .Summary | truncate 250 }}</p>
+      </div>
+      <div class="card-footer">
+        <p class="card-footer-item">
+        <a href="{{ .Permalink }}" class="button is-rounded is-primary is-fullwidth">{{ T "weiterlesen" }}</a>
+        </p>
+      </div>
+    </div>
+
+  </div>
+  {{- end -}}
+</div>
+
+<a href="{{ ref . "/blog" }}" class="button is-rounded is-primary is-fullwidth mw-400 mt-4">{{ T "alleblogbeitraege" }}</a>

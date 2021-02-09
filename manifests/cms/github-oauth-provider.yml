@@ -1,0 +1,159 @@
+apiVersion: template.openshift.io/v1
+kind: Template
+metadata:
+  name: gotrue
+objects:
+- apiVersion: apps.openshift.io/v1
+  kind: DeploymentConfig
+  metadata:
+    labels:
+      app: appuio
+    name: github-oauth-provider
+  spec:
+    replicas: 1
+    revisionHistoryLimit: 10
+    selector:
+      app: appuio
+      deploymentconfig: github-oauth-provider
+    strategy:
+      activeDeadlineSeconds: 21600
+      resources: {}
+      rollingParams:
+        intervalSeconds: 1
+        maxSurge: 25%
+        maxUnavailable: 25%
+        timeoutSeconds: 600
+        updatePeriodSeconds: 1
+      type: Rolling
+    template:
+      metadata:
+        labels:
+          app: appuio
+          deploymentconfig: github-oauth-provider
+      spec:
+        containers:
+        - env:
+          - name: ORIGIN
+            value: ${ORIGIN}
+          - name: OAUTH_CLIENT_ID
+            value: ${OAUTH_CLIENT_ID}
+          - name: OAUTH_CLIENT_SECRET
+            value: ${OAUTH_CLIENT_SECRET}
+          - name: NO_UPDATE_NOTIFIER
+            value: 'true'
+          - name: NODE_ENV
+            value: development
+          - name: HOST
+            value: 0.0.0.0
+          imagePullPolicy: Always
+          name: github-oauth-provider
+          resources: {}
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
+        dnsPolicy: ClusterFirst
+        restartPolicy: Always
+        schedulerName: default-scheduler
+        securityContext: {}
+        terminationGracePeriodSeconds: 30
+    test: false
+    triggers:
+    - imageChangeParams:
+        automatic: true
+        containerNames:
+        - github-oauth-provider
+        from:
+          kind: ImageStreamTag
+          name: github-oauth-provider:latest
+      type: ImageChange
+    - type: ConfigChange
+- apiVersion: image.openshift.io/v1
+  kind: ImageStream
+  metadata:
+    labels:
+      app: appuio
+    name: github-oauth-provider
+- apiVersion: image.openshift.io/v1
+  kind: ImageStream
+  metadata:
+    labels:
+      app: appuio
+    name: node
+  spec:
+    lookupPolicy:
+      local: false
+    tags:
+    - from:
+        kind: DockerImage
+        name: node:lts-alpine3.10
+      importPolicy: {}
+      name: "lts-alpine3.10"
+      referencePolicy:
+        type: Source
+- apiVersion: build.openshift.io/v1
+  kind: BuildConfig
+  metadata:
+    labels:
+      app: appuio
+    name: github-oauth-provider
+  spec:
+    output:
+      to:
+        kind: ImageStreamTag
+        name: github-oauth-provider:latest
+    source:
+      git:
+        uri: https://github.com/lbischof/netlify-cms-github-oauth-provider
+      type: Git
+    strategy:
+      dockerStrategy:
+        from:
+          kind: ImageStreamTag
+          name: node:lts-alpine3.10
+      type: Docker
+    triggers:
+    - type: ImageChange
+    - type: ConfigChange
+- apiVersion: v1
+  kind: Service
+  metadata:
+    labels:
+      app: appuio
+    name: github-oauth-provider
+  spec:
+    ports:
+    - name: 3000-tcp
+      port: 3000
+      protocol: TCP
+      targetPort: 3000
+    selector:
+      app: appuio
+      deploymentconfig: github-oauth-provider
+    sessionAffinity: None
+    type: ClusterIP
+- apiVersion: route.openshift.io/v1
+  kind: Route
+  metadata:
+    labels:
+      app: appuio
+    name: github-oauth-provider
+  spec:
+    port:
+      targetPort: 3000-tcp
+    tls:
+      insecureEdgeTerminationPolicy: Redirect
+      termination: edge
+    to:
+      kind: Service
+      name: github-oauth-provider
+      weight: 100
+    wildcardPolicy: None
+parameters:
+- name: ORIGIN
+  description: TODO
+  required: true
+- name: OAUTH_CLIENT_ID
+  description: TODO
+  required: true
+- name: OAUTH_CLIENT_SECRET
+  description: TODO
+  required: true

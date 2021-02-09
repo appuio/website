@@ -1,0 +1,84 @@
+.placeholder img,
+.with-team-animation .animation,
+.team .links {
+  max-width: 350px;
+  width: 100%;
+  margin: 0 auto;
+  @include desktop {
+    max-width: 280px;
+  }
+}
+
+.with-team-animation button {
+  box-shadow: 0 0 0 0.2rem white !important ;
+  margin: -1.5rem auto 0.5rem auto;
+}
+
+.with-team-animation {
+  flex-wrap: wrap;
+  button.play-hero,
+  &.open.loading button.play-hero,
+  &.open button.open-container {
+    display: none;
+  }
+  &.open button.play-hero {
+    display: inline-flex;
+  }
+  &.wiggle .animation {
+    animation: wiggle 4s infinite;
+  }
+}
+
+@keyframes wiggle {
+  0% { transform: rotate(0deg); }
+ 40% { transform: rotate(0deg); }
+ 42% { transform: rotate(2deg); }
+ 44% { transform: rotate(-2deg); }
+ 46% { transform: rotate(0deg); }
+}
+.member {
+  @extend .column;
+  @extend .is-half;
+  @extend .is-flex;
+  @extend .is-flex-direction-column;
+  @extend .is-justify-content-start;
+  @include desktop {
+    width: calc(100% / 3);
+  }
+}
+.team .links {
+  @extend .is-mobile;
+  @extend .is-justify-content-center;
+  .column {
+    max-width: 20%;
+  }
+  a {
+    @extend .is-size-5;
+    color: $darkblue;
+    &:hover {
+      color: $yellow;
+    }
+  }
+}
+
+.team {
+  .alias {
+    @extend .is-size-5;
+    color: $darkblue;
+  }
+  .function {
+    @extend .is-size-6;
+    color: $dark-text;
+  }
+  .hashtags {
+    @extend .is-flex-grow-1;
+    @extend .is-flex;
+    @extend .is-justify-content-center;
+    @extend .is-align-items-center;
+
+
+    @extend .is-size-6;
+    color: $dark-text;
+    word-spacing: 0.5rem;
+  }
+}

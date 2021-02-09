@@ -1,0 +1,119 @@
+section.has-cols {
+  h2,h3,h4 {
+    @extend .py-0;
+  }
+  > div > ul {
+    @extend .columns;
+    @extend .is-flex-wrap-wrap;
+    > li {
+      @extend .is-flex;
+      @extend .is-flex-direction-column;
+      @extend .column;
+      @extend .p-4;
+      @extend .py-6;
+      @extend .m-2;
+    }
+
+    img {
+      max-height: 100px;
+    }
+
+    p:nth-child(2) {
+      @extend .mb-3;
+      flex:1;
+    }
+    ul {
+      @extend .has-text-left;
+    }
+  }
+}
+
+/* width */
+section.has-cols > div > ul > li {
+    @extend .is-one-third;
+}
+section.has-cols.four > div > ul > li {
+    @extend .is-one-quarter;
+}
+section.has-cols.two > div > ul > li {
+    @extend .is-half;
+}
+@media (min-width: $tablet) {
+    section.has-cols > div > ul > li {
+        width: calc(33.33% - 1rem) !important;
+    }
+    section.has-cols.four > div > ul > li {
+        width: calc(25% - 1rem) !important;
+    }
+    section.has-cols.two > div > ul > li {
+        width: calc(50% - 1rem) !important;
+    }
+}
+
+/* padding */
+section.has-cols.y-narrow {
+  > div > ul {
+    @extend .pt-6;
+    > li {
+      @extend .p-3;
+      @extend .pt-5;
+    }
+  }
+}
+
+/* colors */
+section.has-cols {
+  &.col-white li {
+    background: $white;
+    color: $dark-text;
+  }
+  &.col-darkblue li {
+    background: $darkblue;
+    color: $white;
+    @extend .has-yellow-links;
+    h2, h3 {
+      color: $white;
+    }
+  }
+  &.col-cyan li {
+    background: $cyan;
+    color: $darkblue;
+    @extend .has-white-links;
+    h2, h3 {
+      color: $darkblue;
+      @extend .is-size-5;
+    }
+  }
+}
+
+/* alignment */
+
+section.has-cols.text-left {
+  li {
+    @extend .has-text-left;
+  }
+}
+section.has-cols.items-center {
+  p:nth-child(2) {
+    @extend .is-flex;
+    @extend .is-align-items-center;
+  }
+}
+
+/* footer */
+section.has-cols {
+  em {
+    @extend .is-size-6;
+    font-style: normal;
+    color: $gray;
+  }
+  p:nth-child(3) > a {
+    @extend .button;
+    @extend .is-primary;
+    @extend .fix-primary-button;
+    @extend .is-rounded;
+    @extend .is-fullwidth;
+    @extend .mt-5;
+    @extend .mb-2;
+  }
+}

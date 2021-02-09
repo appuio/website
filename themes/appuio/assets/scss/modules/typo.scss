@@ -1,0 +1,65 @@
+h1 {
+  @extend .title;
+  @extend .is-1;
+  font-weight: normal;
+}
+h2 {
+  @extend .subtitle;
+  @extend .is-3;
+  @extend .pt-4;
+}
+h3 {
+  @extend .subtitle;
+  @extend .is-4;
+  @extend .pt-4;
+}
+
+.has-white-color {
+  color: white;
+  h1, h2, .title, .subtitle {
+    color: white;
+  }
+}
+
+.has-yellow-links {
+  a {
+    color: $yellow;
+    &:hover {
+      color: $cyan;
+    }
+  }
+}
+
+.has-cyan-links {
+  a {
+    color: $cyan-dark;
+    &:hover {
+      color: $darkblue;
+    }
+  }
+}
+.has-white-links {
+  a {
+    color: white;
+    &:hover {
+      color: $yellow;
+    }
+  }
+}
+.fix-primary-button {
+  background: $yellow !important;
+  color: $darkblue !important;
+  &:hover {
+    background: #f1c801 !important;
+  }
+}
+
+
+hr {
+  background: none;
+  @extend .py-3;
+}
+
+pre {
+  @extend .has-text-left;
+}

@@ -1,0 +1,46 @@
+<article class="offers-package last-child">
+  <!-- has to be here to ensure the price calculator works -->
+  <input id="price-switch-appuio" type="radio" name="appuio-price-source" value="appuio" checked hidden>
+  <input name="memory" data-appuio-range-slider class="range-slider__range" id="memoryslider" type="range" value="512"
+    min="512" max="20480" step="512">
+  <div class="columns offers-package-list mt-1">
+    <div class="column has-text-left offer-package-power">CPU:
+      <span class="cpuvalue"></span><br>Memory: <span class="memoryvalue"></span></div>
+    <div class="column has-text-left offers-package-price">
+      <div class="offers-package-table-wrapper">
+        <div class="interest-item my-1 interest-item-price is-flex">
+          <div class="contract-hint">{{ T "price" }}:</div>
+          <div>
+            <div>
+              <b class="price-placeholder pricevalueperday"></b>
+              <span>{{ T "per_day" }}</span>
+            </div>
+            <div>
+              <b class="price-placeholder pricevaluepermonth"></b>
+              <span>{{ T "per_month" }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="offers-package-button-wrapper mb-6">
+    <div class="offers-package-button">
+      <a href="#contact" id="order-custom" class="button is-rounded is-primary is-fullwidth mw-400" data-check="interest-custom">{{ T "order" }}</a>
+    </div>
+    <div>
+      <p class="offers-package-dedicated-info mt-2">
+        <a href="#contact" onclick="void (document.getElementById('order1-6ca8af19-d9c8-4a40-9f3b-3d56d395943b').click())">
+          {{ T "use_a_dedicated_node" }}
+        </a>
+      </p>
+    </div>
+  </div>
+</article>
+<div class="offers-package-container columns">
+  {{- .Inner -}}
+</div>
+<article class="offers-package is-banner-before">
+  <p>Die CPU Resourcen werden als KCU (Kubernetes Compute Units) normalisiert, so entsprechen CPU 1000m ungefähr einem
+    single hyperthreaded CPU Kern. <br></p>
+</article>

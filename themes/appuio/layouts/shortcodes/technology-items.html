@@ -1,0 +1,13 @@
+{{ $match := .Get "match" }}
+{{ $icons := .Page.Resources.Match $match}}
+<div class="technology-items">
+{{ range $icons }}
+  {{ $name := replace .Title "images/technologies/" "" }}
+  {{ $name := replace $name ".svg" "" }}
+  {{ $name := slicestr $name 4 }}
+  <div class="column technology-item">
+    <img src="{{ .Permalink }}" alt="{{ .Title }}" />
+    <p>{{ $name }}</p>
+  </div>
+{{ end }}
+</div>

@@ -1,0 +1,36 @@
+section.cookie {
+  display: none;
+}
+body.show-cookie-msg section.cookie {
+  display: block;
+}
+
+section.cookie {
+  z-index: 10;
+  background: $darkblue;
+  color: white;
+  text-align: center;
+  padding: 0.5rem 0;
+  position: fixed;
+  width: 100%;
+  span {
+    line-height: 2.5rem;
+    margin-right: 0.5rem;
+  }
+}
+
+@include until($desktop) {
+  section.cookie {
+    span {
+      font-size: 1rem;
+      line-height: 1.25rem;
+    }
+    button {
+      display: block;
+      margin: 0.5rem auto;
+      &.close {
+        display: none;
+      }
+    }
+  }
+}

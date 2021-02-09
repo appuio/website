@@ -1,0 +1,6 @@
+{{ define "main" }}
+
+{{ partial "check-must-close-shortcodes" (dict "context" .)}}
+{{ .Content }}
+
+{{ end }}

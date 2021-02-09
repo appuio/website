@@ -1,0 +1,50 @@
+.beer-button,
+.beer-dialog {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  background: $yellow;
+}
+
+.beer-button {
+  @extend .p-4;
+
+  border-radius: 100%;
+  width: 6rem;
+  z-index: 28;
+}
+
+.beer-dialog {
+  @extend .p-5;
+  @extend .has-text-left;
+
+  display: none;
+  width: auto;
+  min-height: 127px;
+  height: auto;
+  border-radius: 25px;
+  z-index: 29;
+}
+.beer-dialog .close {
+  @extend .button;
+  @extend .is-rounded;
+
+  position: absolute;
+  right: 1.5rem;
+  bottom: 1.5rem;
+}
+
+.beer-form {
+  @extend .is-flex;
+  @extend .is-flex-direction-row;
+  @extend .pt-3;
+}
+
+@media (min-width: 40em) {
+  .beer-button,
+  .beer-dialog {
+    bottom: 3em;
+    right: 3em;
+  }
+}
+

@@ -1,0 +1,8 @@
+{{ $both := split .RawContent "<!--more-->"}}
+{{ $summary := "" }}
+{{ if eq (len $both) 2 }}
+    {{ $summary = index $both 0 | .Page.RenderString }}
+{{ end }}
+{{ $body := replace .Content .Summary "" }}
+{{ $body = $body | safeHTML }}
+{{ return (dict "summary" $summary "body" $body) }}

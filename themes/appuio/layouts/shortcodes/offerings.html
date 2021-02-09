@@ -1,0 +1,31 @@
+{{- $indexParams := .Page.Params -}}
+<div class="columns">
+  {{- range where .Site.Pages "Section" "==" "offering" -}}
+    {{- $card := .Resources.GetMatch "images/card.svg" -}}
+    {{- if $card -}}
+      <div class="column has-text-centered">
+        <div class="card">
+          <div class="ribbon" style="background-color: {{ .Params.ribbon_color }}"></div>
+          <div class="card-content" style="background-image: url('{{ $card.Permalink }}')">
+            <h2 class="subtitle"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            <p>{{ .Params.description }}</p>
+          </div>
+          <ul class="offer-feature-list">
+            {{- range .Params.features -}}
+              {{- if eq . "" -}}
+                  <li>-</li>
+              {{- else -}}
+                  <li>{{ replaceRE "\\s*/\\s*" "<br>" . | safeHTML }}</li>
+              {{- end -}}
+            {{- end -}}
+          </ul>
+          <div class="card-footer">
+            <p class="card-footer-item">
+              <a href="{{ .Permalink }}" class="button is-rounded is-primary is-fullwidth">{{ $indexParams.offerButton }}</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    {{- end -}}
+  {{- end -}}
+</div>

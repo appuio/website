@@ -1,0 +1,5 @@
+{{- $price := .Get "price" -}}
+<div class="flex-column">
+    {{- .Inner | .Page.RenderString -}}
+    <div>{{ $price }}</div>
+</div>
