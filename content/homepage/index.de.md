@@ -1,5 +1,5 @@
 ---
-title: Deine Open-Container-Plattform mit einer einzigartigen Community!
+title: Deine Open-Container-Plattform mit einer einzigartigen Community
 heroSignup: Mehr zu Appuio public
 heroRegister: Code einlösen
 offerButton: Zum Angebot
