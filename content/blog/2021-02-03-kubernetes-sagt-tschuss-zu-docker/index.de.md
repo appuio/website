@@ -32,3 +32,4 @@ Alternativ zu Docker gibt es mittlerweile mächtige Tools wie..
 * [buildah](https://buildah.io/), um Container Images zu erstellen
 * podman, um Container lokal laufen zu lassen
 * cri-o, um Container auf Kubernetes laufen zu lassen.
+* [Skopeo](https://github.com/containers/skopeo), das hauptsächlich für das pullen, pushen und syncen von Images zwischen Registries oder zwischen Registries und Nodes verwendet wird.
