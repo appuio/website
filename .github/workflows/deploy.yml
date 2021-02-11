@@ -14,9 +14,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-      with:
-        # Make sure we are on master, because `schedule` uses the default branch (development in our case)
-        ref: master
 
     - uses: Azure/docker-login@v1
       with:
