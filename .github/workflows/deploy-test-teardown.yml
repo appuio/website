@@ -1,0 +1,27 @@
+name: Test
+
+on:
+  pull_request:
+    types: [ closed ]
+
+jobs:
+  main:
+    name: Teardown
+    runs-on: ubuntu-latest
+    environment: test
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: ${{ github.event.pull_request.head.sha }}
+
+    - uses: redhat-actions/oc-installer@v1
+      with:
+        oc_version: '3.11.286'
+
+    - uses: redhat-actions/oc-login@v1
+      with:
+        openshift_server_url: https://console.appuio.ch
+        openshift_token: ${{ secrets.OPENSHIFT_TOKEN }}
+        insecure_skip_tls_verify: true
+
+    - run: oc delete all -n pitc-appuio30-test -l app=appuio-${{ github.head_ref }}
