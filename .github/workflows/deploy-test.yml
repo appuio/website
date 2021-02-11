@@ -14,7 +14,7 @@ jobs:
       with:
         ref: ${{ github.event.pull_request.head.sha }}
 
-    - name: Add BRANCH env property without slashes
+    - name: Add PR_NUMBER env property
       run: echo "PR_NUMBER=`echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }'`" >> $GITHUB_ENV
 
     - uses: Azure/docker-login@v1
