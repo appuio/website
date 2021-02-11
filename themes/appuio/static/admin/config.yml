@@ -42,7 +42,7 @@ collections:
     folder: content/blog # The path to the folder where the documents are stored
     path: '{{slug}}/index'
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    preview_path: 'blog/{{year}}-{{month}}-{{day}}-{{dirname}}'
+    preview_path: 'blog/{{dirname}}'
     i18n: true
     create: true
     fields: # The fields for each document, usually in front matter
