@@ -27,4 +27,6 @@ jobs:
     - name: Add PR_NUMBER env property
       run: echo "PR_NUMBER=`echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }'`" >> $GITHUB_ENV
 
-    - run: oc delete all -n pitc-appuio30-test -l app=appuio-${{ env.PR_NUMBER }}
+    - run: |
+        env
+        oc delete all -n pitc-appuio30-test -l app=appuio-${{ env.PR_NUMBER }}
