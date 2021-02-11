@@ -9,7 +9,6 @@ jobs:
     environment:
       name: test
       url: https://appuio-${{ github.head_ref }}-pitc-appuio30-test.appuioapp.ch
-    environment: test
     steps:
     - uses: actions/checkout@v2
       with:
