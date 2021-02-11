@@ -140,6 +140,7 @@ collections:
     label: Offering # Used in the UI
     folder: content/offering # The path to the folder where the documents are stored
     path: '{{slug}}/index'
+    preview_path: 'offering/{{slug}}'
     i18n: true
     fields: # The fields for each document, usually in front matter
       - label: Title
@@ -177,6 +178,7 @@ collections:
     label: Techlabs # Used in the UI
     folder: content/techlabs # The path to the folder where the documents are stored
     path: '{{slug}}/index'
+    preview_path: 'techlabs/{{slug}}'
     i18n: true
     fields: # The fields for each document, usually in front matter
       - label: Title
@@ -192,6 +194,7 @@ collections:
     label_singular: Member
     folder: content/team # The path to the folder where the documents are stored
     path: '{{slug}}/index'
+    preview_path: team
     i18n: true
     create: true
     fields: # The fields for each document, usually in front matter
@@ -264,6 +267,7 @@ collections:
     label: FAQ # Used in the UI
     folder: content/faq # The path to the folder where the documents are stored
     path: '{{slug}}/index'
+    preview_path: faq
     i18n: true
     create: true
     fields: # The fields for each document, usually in front matter
@@ -278,7 +282,7 @@ collections:
   - name: impressum # Used in routes, e.g., /admin/collections/blog
     label: Impressum # Used in the UI
     folder: content/impressum-datenschutz # The path to the folder where the documents are stored
-    preview_path: '{{slug}}'
+    preview_path: 'impressum-datenschutz'
     i18n: true
     fields: # The fields for each document, usually in front matter
       - label: Title
