@@ -10,9 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     environment: test
     steps:
-    - uses: actions/checkout@v2
-      with:
-        ref: ${{ github.event.pull_request.head.sha }}
+    # Cancel any deploy workflows on this branch
+    - uses: styfle/cancel-workflow-action@0.7.0
+        with:
+          ignore_sha: true
+          workflow_id: 5741174
+          access_token: ${{ github.token }}
 
     - uses: redhat-actions/oc-installer@v1
       with:
