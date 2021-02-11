@@ -19,20 +19,21 @@ $link: $darkblue;
 
 $transition-time: 0.3s;
 
-
-@import "bulma/sass/utilities/_all.sass";
+// https://gohugo.io/hugo-modules/use-modules/
+// https://github.com/peaceiris/hugo-mod-bulma
+@import "../mod/bulma/utilities/_all.sass";
 
 @import "config/header";
 @import "config/buttons";
 @import "config/card";
 
-@import "bulma/sass/base/_all.sass";
-@import "bulma/sass/components/_all.sass";
-@import "bulma/sass/form/_all.sass";
-@import "bulma/sass/grid/_all.sass";
-@import "bulma/sass/helpers/_all.sass";
-@import "bulma/sass/layout/_all.sass";
-@import "bulma/sass/elements/_all.sass";
+@import "../mod/bulma/base/_all.sass";
+@import "../mod/bulma/components/_all.sass";
+@import "../mod/bulma/form/_all.sass";
+@import "../mod/bulma/grid/_all.sass";
+@import "../mod/bulma/helpers/_all.sass";
+@import "../mod/bulma/layout/_all.sass";
+@import "../mod/bulma/elements/_all.sass";
 
 @import "modules/typo";
 @import "modules/layout";

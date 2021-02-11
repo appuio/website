@@ -10,6 +10,10 @@ DefaultContentLanguage = "de"
   # If the shortcode uses .Inner then add it here!
   mustCloseShortcodes = ["section","upcoming-events"]
 
+[module]
+  [[module.imports]]
+    path = "github.com/peaceiris/hugo-mod-bulma"
+
 [languages]
   [languages.en]
     languageName = "English"
