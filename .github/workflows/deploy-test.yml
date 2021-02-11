@@ -9,6 +9,8 @@ jobs:
     environment: test
     steps:
     - uses: actions/checkout@v2
+      with:
+        ref: ${{ github.event.pull_request.head.sha }}
 
     - uses: Azure/docker-login@v1
       with:
@@ -17,8 +19,8 @@ jobs:
         password: ${{ secrets.REGISTRY_PASSWORD }}
 
     - run: |
-        docker build . -t registry.puzzle.ch/puzzle/appuio-website:${{ github.sha }}
-        docker push registry.puzzle.ch/puzzle/appuio-website:${{ github.sha }}
+        docker build . -t registry.puzzle.ch/puzzle/appuio-website:${{ github.event.pull_request.head.sha }}
+        docker push registry.puzzle.ch/puzzle/appuio-website:${{ github.event.pull_request.head.sha }}
 
     - uses: redhat-actions/oc-installer@v1
       with:
@@ -43,7 +45,7 @@ jobs:
 
     - run: |
         oc process -f manifests/appuio.yml \
-                   -p IMAGE_TAG=${{ github.sha }} \
+                   -p IMAGE_TAG=${{ github.event.pull_request.head.sha }} \
                    -p APP_POSTFIX=${{ github.head_ref }} \
                    | oc apply -f -
         oc process -f manifests/cms/github-oauth-provider.yml \
