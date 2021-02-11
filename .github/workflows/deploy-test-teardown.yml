@@ -24,9 +24,4 @@ jobs:
         openshift_token: ${{ secrets.OPENSHIFT_TOKEN }}
         insecure_skip_tls_verify: true
 
-    - name: Add PR_NUMBER env property
-      run: echo "PR_NUMBER=`echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }'`" >> $GITHUB_ENV
-
-    - run: |
-        env
-        oc delete all -n pitc-appuio30-test -l app=appuio-${{ env.PR_NUMBER }}
+    - run: oc delete all -n pitc-appuio30-test -l app=appuio-${{ github.event.pull_request.number }}
