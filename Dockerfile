@@ -1,5 +1,6 @@
-FROM klakegg/hugo:0.80.0 AS builder
+FROM klakegg/hugo:0.80.0-ext-alpine AS builder
 
+RUN apk add go
 WORKDIR /src
 COPY . /src
 RUN hugo --minify
