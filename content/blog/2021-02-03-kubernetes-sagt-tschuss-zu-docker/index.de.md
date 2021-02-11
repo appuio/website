@@ -16,7 +16,7 @@ summary: Kubernetes wird den Support für die Docker Container Engine mit der
 
 ## Du arbeitest mit OpenShift oder Rancher?
 
-Dann wird sich für dich nicht viel ändern. [OpenShift](https://www.openshift.com/) hat in der Version 4 Docker bereits durch [cri-o](https://cri-o.io/) und [podman](https://podman.io/) ersetzt. Auf der anderen Seite arbeitet [Rancher](https://rancher.com/products/rancher/) an einer Roadmap um sicher zu stellen, dass alle bereitgestellten Clusters auf einer CLI-kompatiblen runtime laufen.
+Dann wird sich für dich nicht viel ändern. [OpenShift](https://www.openshift.com/) hat in der Version 4 Docker bereits durch [cri-o](https://cri-o.io/) und [podman](https://podman.io/) ersetzt. Auf der anderen Seite arbeitet [Rancher](https://rancher.com/products/rancher/) an einer Roadmap um sicher zu stellen, dass alle bereitgestellten Cluster auf einer CRI-kompatiblen Runtime laufen.
 
 **Mitteilungen der beiden Kubernetes-Distributoren:**
 
@@ -32,3 +32,4 @@ Alternativ zu Docker gibt es mittlerweile mächtige Tools wie..
 * [buildah](https://buildah.io/), um Container Images zu erstellen
 * podman, um Container lokal laufen zu lassen
 * cri-o, um Container auf Kubernetes laufen zu lassen.
+* [Skopeo](https://github.com/containers/skopeo), das hauptsächlich für das pullen, pushen und syncen von Images zwischen Registries oder zwischen Registries und Nodes verwendet wird.
