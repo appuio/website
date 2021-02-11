@@ -24,19 +24,4 @@ jobs:
         openshift_token: ${{ secrets.OPENSHIFT_TOKEN }}
         insecure_skip_tls_verify: true
 
-    - run: oc project pitc-appuio30-test
-
-    - run: oc secrets add serviceaccount/default secrets/registry-puzzle-secret --for=pull
-
-    - run: |
-        oc process -f manifests/appuio.yml \
-                   -p IMAGE_TAG=${{ github.event.pull_request.head.sha }} \
-                   -p APP_POSTFIX=${{ github.head_ref }} \
-                   | oc apply -f -
-        oc process -f manifests/cms/github-oauth-provider.yml \
-                   -p 'ORIGIN=.*.appuioapp.ch' \
-                   -p OAUTH_CLIENT_ID=${{ secrets.OAUTH_CLIENT_ID }} \
-                   -p OAUTH_CLIENT_SECRET=${{ secrets.OAUTH_CLIENT_SECRET }} \
-                   | oc apply -f -
-        oc rollout latest dc/appuio-${{ github.head_ref }} || true # could already be running
-        oc rollout status dc/appuio-${{ github.head_ref }} # wait
+    - run: oc delete all -n pitc-appuio30-test -l app=appuio-${{ github.head_ref }}

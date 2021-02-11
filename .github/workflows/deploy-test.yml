@@ -1,4 +1,4 @@
-name: Deploy to test
+name: Test
 
 on: pull_request
 
@@ -6,6 +6,9 @@ jobs:
   main:
     name: Deploy
     runs-on: ubuntu-latest
+    environment:
+      name: test
+      url: https://appuio-${{ github.head_ref }}-pitc-appuio30-test.appuioapp.ch
     environment: test
     steps:
     - uses: actions/checkout@v2
