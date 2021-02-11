@@ -62,8 +62,6 @@ objects:
 - apiVersion: v1
   kind: Service
   metadata:
-    labels:
-      app: appuio
     name: appuio-${APP_POSTFIX}
   spec:
     ports:
@@ -76,15 +74,12 @@ objects:
       protocol: TCP
       targetPort: 8000
     selector:
-      app: appuio
       deploymentconfig: appuio-${APP_POSTFIX}
     sessionAffinity: None
     type: ClusterIP
 - apiVersion: route.openshift.io/v1
   kind: Route
   metadata:
-    labels:
-      app: appuio
     name: appuio-${APP_POSTFIX}
   spec:
     port:
@@ -103,3 +98,5 @@ parameters:
   required: true
 - name: IMAGE_TAG
   description: The Docker image tag
+labels:
+  app: appuio-${APP_POSTFIX}
