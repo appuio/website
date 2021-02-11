@@ -1,20 +1,20 @@
 apiVersion: template.openshift.io/v1
 kind: Template
 metadata:
-  name: appuio
+  name: appuio-${APP_POSTFIX}
 objects:
 - apiVersion: apps.openshift.io/v1
   kind: DeploymentConfig
   metadata:
     labels:
       app: appuio
-    name: appuio
+    name: appuio-${APP_POSTFIX}
   spec:
     replicas: 2
     revisionHistoryLimit: 10
     selector:
       app: appuio
-      deploymentconfig: appuio
+      deploymentconfig: appuio-${APP_POSTFIX}
     strategy:
       activeDeadlineSeconds: 21600
       resources: {}
@@ -29,7 +29,7 @@ objects:
       metadata:
         labels:
           app: appuio
-          deploymentconfig: appuio
+          deploymentconfig: appuio-${APP_POSTFIX}
       spec:
         containers:
         - image: registry.puzzle.ch/puzzle/appuio-website:${IMAGE_TAG}
@@ -64,7 +64,7 @@ objects:
   metadata:
     labels:
       app: appuio
-    name: appuio
+    name: appuio-${APP_POSTFIX}
   spec:
     ports:
     - name: 8080-tcp
@@ -77,7 +77,7 @@ objects:
       targetPort: 8000
     selector:
       app: appuio
-      deploymentconfig: appuio
+      deploymentconfig: appuio-${APP_POSTFIX}
     sessionAffinity: None
     type: ClusterIP
 - apiVersion: route.openshift.io/v1
@@ -85,7 +85,7 @@ objects:
   metadata:
     labels:
       app: appuio
-    name: appuio
+    name: appuio-${APP_POSTFIX}
   spec:
     port:
       targetPort: 8080-tcp
@@ -94,9 +94,12 @@ objects:
       termination: edge
     to:
       kind: Service
-      name: appuio
+      name: appuio-${APP_POSTFIX}
       weight: 100
     wildcardPolicy: None
 parameters:
+- name: APP_POSTFIX
+  description: "Postfix of the resources. Is used to deploy multiple instances of the dc in the same namespace."
+  required: true
 - name: IMAGE_TAG
   description: The Docker image tag
