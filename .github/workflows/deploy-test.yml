@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: test
-      url: https://appuio-${{ env.BRANCH }}-pitc-appuio30-test.appuioapp.ch
+      url: https://appuio-${{ env.PR_NUMBER }}-pitc-appuio30-test.appuioapp.ch
     steps:
     - uses: actions/checkout@v2
       with:
