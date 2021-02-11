@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: test
-      url: https://appuio-${{ env.PR_NUMBER }}-pitc-appuio30-test.appuioapp.ch
+      url: ${{ env.ENVIRONMENT_URL }}
     steps:
     - uses: actions/checkout@v2
       with:
@@ -16,6 +16,9 @@ jobs:
 
     - name: Add PR_NUMBER env property
       run: echo "PR_NUMBER=`echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }'`" >> $GITHUB_ENV
+
+    - name: Add ENVIRONMENT_URL env property
+      run: echo "ENVIRONMENT_URL=https://appuio-${{ env.PR_NUMBER }}-pitc-appuio30-test.appuioapp.ch" >> $GITHUB_ENV
 
     - uses: Azure/docker-login@v1
       with:
@@ -60,3 +63,8 @@ jobs:
                    | oc apply -f -
         oc rollout latest dc/appuio-${{ env.PR_NUMBER }} || true # could already be running
         oc rollout status dc/appuio-${{ env.PR_NUMBER }} # wait
+
+        curl -X POST -H "Content-Type:application/json" \
+             -H "Authorization: token ${{ github.token }}" \
+             -d '{"state": "success", "context": "netlify-cms/preview/deploy", "description": "Deploy preview ready", "target_url": "${{ env.ENVIRONMENT_URL }}"}' \
+              "https://api.github.com/repos/appuio/website/statuses/${{ github.event.pull_request.head.sha }}"
