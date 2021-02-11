@@ -10,6 +10,6 @@ github: arska
 animation: aarno_aukia.json
 date: 2020-11-03
 linkedin: aukia
-isClosed: true
+isClosed: false
 isOnline: true
 ---
