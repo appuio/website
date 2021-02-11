@@ -42,6 +42,7 @@ collections:
     folder: content/blog # The path to the folder where the documents are stored
     path: '{{slug}}/index'
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    preview_path: 'blog/{{year}}-{{month}}-{{day}}-{{dirname}}'
     i18n: true
     create: true
     fields: # The fields for each document, usually in front matter
@@ -102,6 +103,7 @@ collections:
     label_singular: Event
     folder: content/events # The path to the folder where the documents are stored
     path: '{{slug}}/index'
+    preview_path: 'events'
     i18n: true
     create: true
     fields: # The fields for each document, usually in front matter
@@ -140,7 +142,7 @@ collections:
     label: Offering # Used in the UI
     folder: content/offering # The path to the folder where the documents are stored
     path: '{{slug}}/index'
-    preview_path: 'offering/{{slug}}'
+    preview_path: 'offering/{{dirname}}'
     i18n: true
     fields: # The fields for each document, usually in front matter
       - label: Title
@@ -178,7 +180,7 @@ collections:
     label: Techlabs # Used in the UI
     folder: content/techlabs # The path to the folder where the documents are stored
     path: '{{slug}}/index'
-    preview_path: 'techlabs/{{slug}}'
+    preview_path: 'techlabs/{{dirname}}'
     i18n: true
     fields: # The fields for each document, usually in front matter
       - label: Title
