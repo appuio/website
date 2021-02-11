@@ -5,9 +5,9 @@ menu:
     parent: techlabs
     weight: 1
 aliases:
-- /techlabs.html
-- /ostechlab.html
-- /techlabs/
+  - /techlabs.html
+  - /ostechlab.html
+  - /techlabs/
 ---
 
 {{<section class="techlab-hero" header="images/header.svg">}}
@@ -28,8 +28,7 @@ Das OpenShift Techlab richtet sich an alle, die verstehen möchten, wie eine con
 ## Inhalte
 Im ersten Teil des Techlabs lernen die Teilnehmenden die wichtigsten Konzepte kennen, welche OpenShift zu Grunde liegen. Danach kann das Gelernte in den Hands-on Labs direkt angewendet werden. Dabei werden erste Applikationen deployed und konfiguriert, um so die Möglichkeiten aufzuzeigen, welche OpenShift für Entwickler und Betreiber bereitstellt.
 
--
-  ### Präsentation
+- ### Präsentation
   - Containers
   - OpenShift
   - Architektur
