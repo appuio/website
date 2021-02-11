@@ -15,7 +15,7 @@ jobs:
         ref: ${{ github.event.pull_request.head.sha }}
 
     - name: Add BRANCH env property without slashes
-      run: echo "BRANCH=`echo ${GITHUB_HEAD_REF} | sed 's|/|-|'`" >> $GITHUB_ENV
+      run: echo "BRANCH=`echo ${GITHUB_HEAD_REF} | sed 's|/|-|g'`" >> $GITHUB_ENV
 
     - uses: Azure/docker-login@v1
       with:
