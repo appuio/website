@@ -1,5 +1,5 @@
 ---
-title: 5 Years APPUiO 🥳.
+title: 5 Years APPUiO 🥳
 date: 2021-01-27
 featured_image: ffd902.png
 summary: We can look back on successful years with wonderful acquaintances, fun
