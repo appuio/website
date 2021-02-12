@@ -1,5 +1,5 @@
 ---
-hashtags: "#unpassierbar #familiär #AmongUsCham"
+hashtags: "#unpassierbar #familiär #AmongUsChamp"
 profile: https://www.puzzle.ch/de/blog/articles/author/fbuehler
 github: franbuehler
 date: 2020-11-04
