@@ -11,4 +11,5 @@ mail: buehler@puzzle.ch
 twitter: bufrasch
 linkedin: franziska-buehler-bb037a163
 isClosed: true
+isOnline: true
 ---
