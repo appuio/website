@@ -1,13 +1,14 @@
 ---
+hashtags: "#sporty #connected #nature"
+profile: https://www.puzzle.ch/de/blog/articles/author/msteinfurth
+github: msteinfurth
+animation: michael_steinfurth.json
+date: 2020-11-07
 title: Michael Steinfurth
 alias: Steini
 function: Engineer
-hashtags: "#sporty #connected #nature"
-profile: https://www.puzzle.ch/de/blog/articles/author/msteinfurth
 mail: steinfurth@puzzle.ch
-twitter:
+twitter: null
 linkedin: michael-steinfurth
-github: msteinfurth
 isClosed: true
-date: 2020-11-07
 ---
