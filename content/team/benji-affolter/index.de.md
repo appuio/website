@@ -10,6 +10,6 @@ function: OpenShift Engineer
 mail: affolter@puzzle.ch
 twitter: bliemli
 linkedin: benjamin-affolter
-isClosed: true
+isClosed: false
 isOnline: true
 ---
