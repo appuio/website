@@ -10,6 +10,6 @@ function: Marketing Manager
 mail: markus.speth@vshn.ch
 twitter: mspeth82
 linkedin: mspeth
-isClosed: true
+isClosed: false
 isOnline: true
 ---
