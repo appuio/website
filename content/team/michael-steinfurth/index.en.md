@@ -10,6 +10,6 @@ function: Engineer
 mail: steinfurth@puzzle.ch
 twitter: null
 linkedin: michael-steinfurth
-isClosed: true
+isClosed: false
 isOnline: true
 ---
