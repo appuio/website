@@ -47,3 +47,6 @@
 
 - id: open
   translation: 'open'
+
+- id: interested_in
+  translation: 'I am interested in:'

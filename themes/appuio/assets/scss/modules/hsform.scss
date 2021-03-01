@@ -1,5 +1,27 @@
 .hsform-wrapper {
+  &,
+  strong,
+  .inputs-list {
+    color: $white;
+  }
+}
+.hsform-wrapper {
+  .hs-richtext.hs-main-font-element {
+    @extend .mt-4;
+  }
+}
+.hsform-wrapper {
   @extend .has-text-left;
+  label {
+    @extend .is-size-7;
+  }
+  select {
+    @extend .select;
+    @extend .is-fullwidth;
+  }
+  h1 {
+    font-size: 105% !important;
+  }
   div.input {
     padding: 0;
     height: auto;
@@ -32,25 +54,42 @@
       @extend .m-0;
       label {
         @extend .my-1;
-        @extend .button;
-        @extend .is-outlined;
-        @extend .is-fullwidth;
-        @extend .is-justify-content-start;
-        background: transparent;
-        color: white;
-        &:hover,
-        &:focus {
-          color: $yellow;
-          border-color: $white;
-          background: darken($darkblue, 2%);
-        }
+
         input {
           @extend .mr-2;
         }
       }
     }
   }
+  input[type="checkbox"] {
+    @extend .mr-1;
+  }
 }
+
+.hsform-wrapper fieldset {
+  &.form-columns-1,
+  &.form-columns-2 {
+    input.hs-input[type="text"],
+    input.hs-input[type="email"],
+    input.hs-input[type="tel"] {
+      width: 100% !important;
+    }
+  }
+  .field {
+    margin-bottom: .75rem;
+  }
+  &.form-columns-2 {
+    @extend .columns;
+    @extend .is-1;
+    @extend .mb-0;
+    margin: -0.25rem;
+    > div {
+      @extend .column;
+      padding: 0.25rem;
+    }
+  }
+}
+
 
 .beer-button-hsform {
   @extend .mt-4;
