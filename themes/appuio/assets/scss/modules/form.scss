@@ -1,3 +1,40 @@
+.appuio-selector-buttons {
+  @extend .is-flex;
+  button.button {
+    @extend .is-flex-grow-1;
+    @extend .is-size-7;
+    white-space: normal;
+    height: auto;
+    margin: 0 !important;
+  }
+  .is-selected {
+    background: $yellow;
+    border-color: $yellow;
+    font-weight: bold;
+  }
+}
+
+.form-switcher .form-content {
+  display: none;
+}
+.form-switcher[data-visible="shared"] {
+  .button.shared {
+    @extend .is-selected;
+  }
+  .form-content.shared {
+    display: block;
+  }
+}
+.form-switcher[data-visible="dedicated"] {
+  .button.dedicated {
+    @extend .is-selected;
+  }
+  .form-content.dedicated {
+    display: block;
+  }
+}
+
+
 label.checkbox.boxed,
 label.radio.boxed {
   @extend .button;
@@ -7,6 +44,7 @@ label.radio.boxed {
   height: auto;
   color: $white;
   background: none;
+  background: reD;
   &:hover {
     background: $yellow;
   }
@@ -15,7 +53,7 @@ label.radio.boxed {
   }
 }
 label.checkbox:hover {
-  color: white;
+  color: $white;
 }
 
 .price-placeholder {

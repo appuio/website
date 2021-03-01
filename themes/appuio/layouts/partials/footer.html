@@ -46,11 +46,12 @@
 {{ $cookies := resources.Get "js/cookies.js" }}
 {{ $navbar := resources.Get "js/navbar.js" }}
 {{ $faq := resources.Get "js/faq.js" }}
+{{ $formswitcher := resources.Get "js/form-switcher.js" }}
 {{ $tweenmax := resources.Get "js/TweenMax.js" }}
 {{ $pricecalc := resources.Get "js/price-calculator.min.js" }}
 {{ $pricecalcfix := resources.Get "js/price-calculator-fix.js" }}
 {{ $team := resources.Get "js/team.js" }}
-{{ $js := slice $team $pricecalc $pricecalcfix $tweenmax $faq $navbar $cookies $animations $jquery $all | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint }}
+{{ $js := slice $team $pricecalc $pricecalcfix $tweenmax $formswitcher $faq $navbar $cookies $animations $jquery $all | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint }}
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js" type="text/javascript"></script>
 <script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>
