@@ -1,13 +1,15 @@
 ---
+hashtags: "#orgdev #sociocracy30 #homeautomation"
+profile: https://www.vshn.ch/team/
+github: marcofl
+animation: marco_fretz.json
+date: 2020-11-08
 title: Marco Fretz
 alias: Marco
 function: Organizational Development
-hashtags: "#orgdev #sociocracy30 #homeautomation"
-profile: https://www.vshn.ch/team/
 mail: marco.fretz@vshn.ch
-twitter:
-linkedin:
-github: marcofl
+twitter: null
+linkedin: null
 isClosed: true
-date: 2020-11-08
+isOnline: true
 ---
