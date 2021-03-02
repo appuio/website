@@ -11,4 +11,5 @@ mail: marco.fretz@vshn.ch
 twitter: null
 linkedin: null
 isClosed: true
+isOnline: true
 ---
