@@ -10,6 +10,6 @@ function: Organizational Development
 mail: marco.fretz@vshn.ch
 twitter: null
 linkedin: null
-isClosed: true
+isClosed: false
 isOnline: true
 ---
