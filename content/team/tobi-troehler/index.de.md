@@ -11,4 +11,5 @@ mail: troehler@puzzle.ch
 twitter: Tobee_Tr
 linkedin: tobias-tr%C3%B6hler-13a37885
 isClosed: true
+isOnline: true
 ---
