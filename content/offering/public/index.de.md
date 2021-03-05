@@ -1,8 +1,9 @@
 ---
 title: Public
 weight: 10
-ribbon_color: '#ff931e'
-description: Du willst in kürzester Zeit deine produktiven Applikationen in eine Cloud deployen?
+ribbon_color: "#ff931e"
+description: Du willst in kürzester Zeit deine produktiven Applikationen in eine
+  Cloud deployen?
 features:
   - Shared oder Dedicated
   - Sofort starten
@@ -16,8 +17,8 @@ menu:
   main:
     parent: offering
 aliases:
-- /public.html
-- /offering/
+  - /public.html
+  - /offering/
 ---
 
 {{<section class="offering-hero public" header="images/header.svg">}}
