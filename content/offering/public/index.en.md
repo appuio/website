@@ -113,34 +113,34 @@ Our APPUiO Public Platform exists on shared infrastructure or as a dedicated nod
 
 {{<calculator/size name="Small">}}
 
-* Simple website with low traffic
-* Minimal CakePHP application with small database
-* Micro Service, GO Node.JS, Springboot, Ruby, PHP, .Net, Python
+* A simple website with little traffic
+* Minimal CakePHP application with a small database
+* Microservice, Go, Node.JS, Springboot, Ruby, PHP, .Net, Python
   {{</calculator/size>}}
 
 {{<calculator/size name="Medium">}}
 
-* Komplexere Website bspw. mit PHP und einer Datenbank
-* CakePHP-Applikation mit mittlerer Datenbank
-* zwei Instanzen hochverfügbar eines Micro Services
-* Keycloak mit Datenbank
+* More complex website, for example using PHP and a database
+* CakePHP application with a medium sized database
+* two highly available instances of a micro service
+* Keycloak with database
   {{</calculator/size>}}
 
 {{<calculator/size name="Large">}}
 
-* Komplexe Applikation mit mehreren Services
-* Jenkins Build Server
-* mehrere Instanzen hochverfügbar eines Micro Services, bspw. vier Instanzen zur gleichen Zeit
-* Komplexe Java Applikation
-* Java EE Applikation JBoss EAP deployed mit Datenbank
+* Complex application with several services
+* Jenkins build server
+* several instances of a highly available micro service, e.g. four instances at the same time
+* Complex java application
+* Java EE applications JBoss EAP deployed with database
   {{</calculator/size>}}
 
 {{<calculator/size name="X-Large">}}
 
-* Komplexe Applikationen mit grösserer Last und Datenbanken
-* Hochverfügbare Datenbanken
-* Micro Service Architektur, etliche Services
-* Jenkins Build Infrastruktur mit diversen Buildnodes
+* Complex applications with heavy load and databases
+* Highavailable databases
+* Micro-Service Architecture of several services
+* Jenkins build infrastructure with multiple buildnodes
   {{</calculator/size>}}
 
 {{</calculator>}}
