@@ -1,5 +1,5 @@
 ---
-hashtags: "#liebevoll #gümele #überzeugend"
+hashtags: "#liebevoll #gümmele #überzeugend"
 profile: https://www.puzzle.ch/de/blog/articles/author/dkilchenmann
 github: Dave-Churchman
 animation: dave-kilchenmann.json
