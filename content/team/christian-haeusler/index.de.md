@@ -1,13 +1,14 @@
 ---
+hashtags: "#OpenShift #Genauigkeit #Sicherheit"
+profile: https://www.vshn.ch/team/
+github: corvus-ch
+animation: christian_haeusler.json
+date: 2020-11-13
 title: Christian Häusler
 alias: Christian
 function: Engineer
-hashtags: "#OpenShift #Genauigkeit #Sicherheit"
-profile: https://www.vshn.ch/team/
 mail: christian.haeusler@vshn.ch
 twitter: corvus_ch
 linkedin: christianhaeusler
-github: corvus-ch
 isClosed: true
-date: 2020-11-13
 ---
