@@ -11,4 +11,5 @@ mail: kilchenmann@puzzle.ch
 twitter: DKilchenmann
 linkedin: david-kilchenmann-004aaa68
 isClosed: true
+isOnline: true
 ---
