@@ -172,6 +172,7 @@ collections:
           label: Feature
           name: feature
           widget: string
+          required: false
       - label: Body
         name: body
         widget: markdown
