@@ -1,11 +1,12 @@
 ---
 title: Managed
 weight: 20
-ribbon_color: '#7092a6'
-description: Du willst eine private Container-Plattform in der Cloud deiner Wahl oder On-Premises und nichts mit dem Setup und Betrieb zu tun haben?
+ribbon_color: "#7092a6"
+description: Du willst eine private Container-Plattform in der Cloud deiner Wahl
+  oder On-Premises und nichts mit dem Setup und Betrieb zu tun haben?
 features:
   - Aufbau & Betrieb Managed Private Cluster
-  -
+  - null
   - Betriebene Plattform
   - Backup & Monitoring / Wartung & Updates
   - Community Chat
@@ -47,6 +48,7 @@ Dein eigener APPUiO Managed Private Cluster in deinem RZ On-Premises oder in der
 - ![Know-how](knowHow_sharing.svg)
   ### Know-how
   Persönliche Ansprechpartner und Know-how sharing.
+
 {{</section>}}
 
 {{<section class="has-cols col-cyan y-narrow">}}

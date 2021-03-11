@@ -1,11 +1,13 @@
 ---
 title: Managed
 weight: 20
-ribbon_color: '#7092a6'
-description: You would like to have a private container platform in the cloud of your choice or On-Premise and not having anything to do with setup and operation?
+ribbon_color: "#7092a6"
+description: You would like to have a private container platform in the cloud of
+  your choice or On-Premise and not having anything to do with setup and
+  operation?
 features:
   - Setup & Operation Managed Private Cluster
-  -
+  - null
   - Operated Platform
   - Backup & Monitoring / Maintenance & Updates
   - Community Chat
