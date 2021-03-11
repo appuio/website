@@ -11,4 +11,5 @@ mail: pfeifhofer@puzzle.ch
 twitter: null
 linkedin: anna-pfeifhofer-902495183
 isClosed: true
+isOnline: true
 ---
