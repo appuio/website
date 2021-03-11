@@ -10,6 +10,6 @@ function: Account Manager
 mail: kilchenmann@puzzle.ch
 twitter: DKilchenmann
 linkedin: david-kilchenmann-004aaa68
-isClosed: true
+isClosed: false
 isOnline: true
 ---
