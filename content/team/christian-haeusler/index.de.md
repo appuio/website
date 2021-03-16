@@ -11,4 +11,5 @@ mail: christian.haeusler@vshn.ch
 twitter: corvus_ch
 linkedin: christianhaeusler
 isClosed: true
+isOnline: true
 ---
