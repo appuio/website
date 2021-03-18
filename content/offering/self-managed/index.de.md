@@ -67,7 +67,7 @@ Du möchtest deine eigene Container-Plattform aufbauen, aber dir fehlt das nöti
 * ### Aufbau der Plattform
 
    Gemeinsam bauen wir die definierte Plattform, sei dies als POC, Dev oder Prod auf.
-* ### Know-how Transfer 
+* ### Know-how Transfer
 
   Der Know-how-Transfer liegt uns am Herzen. Unser Ziel ist es, dass unsere Kunden in der Lage sind, ihre Infrastruktur selber zu betreiben.
 * ### Dokumentation des Setups
@@ -98,6 +98,8 @@ Du möchtest deine eigene Container-Plattform aufbauen, aber dir fehlt das nöti
 * #### 3rd Level Support
 
    Brauchst du Support von Experten, welche deine Plattform kennen und deine Sprache sprechen? Gerne bieten wir dir unsere Unterstützung an.
+
+  [Unser Angebot](<* images/uploads/3rd-level-support.pdf>)
 
    *Preis auf Anfrage*
 
