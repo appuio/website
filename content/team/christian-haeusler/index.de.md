@@ -10,6 +10,6 @@ function: Engineer
 mail: christian.haeusler@vshn.ch
 twitter: corvus_ch
 linkedin: christianhaeusler
-isClosed: true
+isClosed: false
 isOnline: true
 ---
