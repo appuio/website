@@ -8,7 +8,7 @@ title: Julian Infanger
 alias: Jules
 function: UX Specialist
 mail: infanger@puzzle.ch
-twitter: ninfaj_
+twitter: ""
 linkedin: null
 isClosed: true
 ---
