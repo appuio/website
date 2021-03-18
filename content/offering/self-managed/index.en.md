@@ -99,7 +99,7 @@ You want to build your own container platform but lack the necessary know-how? T
 
    Do you need support from experts who know your platform and speak your language? We are happy to offer you our support.
 
-  [Our Offer ](images/uploads/3rd-level-support.pdf)
+  [Our Offer](/images/uploads/3rd-level-support.pdf) 
 
    *Preis on request*
 
