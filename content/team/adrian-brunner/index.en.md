@@ -11,4 +11,5 @@ mail: brunner@puzzle.ch
 twitter: adibru
 linkedin: adrian-brunner
 isClosed: true
+isOnline: true
 ---
