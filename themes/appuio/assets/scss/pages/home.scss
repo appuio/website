@@ -34,10 +34,15 @@ section.intro {
   }
   .card-content {
     flex: 1;
-    background-repeat: no-repeat;
-    min-height: 22rem;
-    background-repeat: no-repeat;
-    background-position: center 4rem;
+    display: flex;
+    flex-direction: column;
+    p {
+      flex: 1;
+    }
+    img {
+      margin: auto;
+      max-width: 150px;
+    }
   }
 }
 
