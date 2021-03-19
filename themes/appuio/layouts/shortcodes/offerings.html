@@ -6,9 +6,10 @@
       <div class="column has-text-centered">
         <div class="card">
           <div class="ribbon" style="background-color: {{ .Params.ribbon_color }}"></div>
-          <div class="card-content" style="background-image: url('{{ $card.Permalink }}')">
+          <div class="card-content">
             <h2 class="subtitle"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
             <p>{{ .Params.description }}</p>
+            <img src="{{ $card.Permalink }}" alt="{{ .Title }}" />
           </div>
           <ul class="offer-feature-list">
             {{- range .Params.features -}}
