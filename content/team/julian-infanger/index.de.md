@@ -11,4 +11,5 @@ mail: infanger@puzzle.ch
 twitter: ""
 linkedin: null
 isClosed: true
+isOnline: true
 ---
