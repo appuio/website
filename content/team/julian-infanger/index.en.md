@@ -1,13 +1,15 @@
 ---
+hashtags: "#SpeedyGonzales #precise #enduring\t "
+profile: https://www.puzzle.ch/de/blog/articles/author/jinfanger
+github: ninfaj
+animation: julian_infanger.json
+date: 2020-11-15
 title: Julian Infanger
 alias: Jules
 function: UX Specialist
-hashtags: "#SpeedyGonzales #precise #enduring	 "
-profile:  https://www.puzzle.ch/de/blog/articles/author/jinfanger
 mail: infanger@puzzle.ch
-twitter: ninfaj_
-linkedin:
-github: ninfaj
+twitter: ""
+linkedin: null
 isClosed: true
-date: 2020-11-15
+isOnline: true
 ---
