@@ -1,7 +1,7 @@
 ---
 title: Unser 3rd Level Support
 date: 2021-03-24
-featured_image: ffd902.png
+featured_image: ffd902-3-.png
 summary: Da Kubernetes-Plattformen selten ohne Zwischenfälle operieren, müssen
   immer wieder Lösungen für komplexe Herausforderungen gefunden und zeitnah
   implementiert werden. Viele Unternehmen verfügen nicht über die nötigen
