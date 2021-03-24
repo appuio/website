@@ -4,7 +4,7 @@ date: 2021-03-24
 summary: Da Kubernetes-Plattformen selten ohne Zwischenfälle operieren, müssen
   immer wieder Lösungen für komplexe Herausforderungen gefunden und zeitnah
   implementiert werden. Viele Unternehmen verfügen nicht über die nötigen
-  Ressourcen, um in solchen Situationen zeitnah zu handeln. APPUiO bietet dir in
+  Ressourcen, um in solchen Situationen sofort zu handeln. APPUiO bietet dir in
   solchen Situationen einen persönlichen und unkomplizierten Support.
   Konzentriere dich voll und ganz auf dein Kerngeschäft und überlasse uns deine
   Plattform-Issues.
