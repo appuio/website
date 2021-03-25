@@ -10,6 +10,6 @@ function: UX Specialist
 mail: infanger@puzzle.ch
 twitter: ""
 linkedin: null
-isClosed: true
+isClosed: false
 isOnline: true
 ---
