@@ -11,4 +11,5 @@ mail: gabriel.mainberger@vshn.ch
 twitter: gabisoft
 linkedin: null
 isClosed: true
+isOnline: true
 ---
