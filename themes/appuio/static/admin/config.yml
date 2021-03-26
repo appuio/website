@@ -138,6 +138,11 @@ collections:
         widget: markdown
         required: false
         i18n: true
+      - label: Tags
+        name: tags
+        widget: list
+        required: false
+        i18n: duplicate
   - name: offering # Used in routes, e.g., /admin/collections/blog
     label: Offering # Used in the UI
     folder: content/offering # The path to the folder where the documents are stored
