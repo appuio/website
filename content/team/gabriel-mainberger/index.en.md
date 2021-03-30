@@ -10,6 +10,6 @@ function: Engineer
 mail: gabriel.mainberger@vshn.ch
 twitter: gabisoft
 linkedin: null
-isClosed: true
+isClosed: false
 isOnline: true
 ---
