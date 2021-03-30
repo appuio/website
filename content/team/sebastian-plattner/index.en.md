@@ -11,5 +11,5 @@ mail: plattner@puzzle.ch
 twitter: SebaPlattner
 linkedin: sebastian-plattner-4a4653bb
 isClosed: true
-isOnline: true
+isOnline: false
 ---
