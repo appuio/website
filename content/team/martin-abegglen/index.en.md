@@ -10,4 +10,5 @@ mail: abegglen@puzzle.ch
 twitter: null
 linkedin: martin-abegglen-%E5%AE%89%E9%A9%AC%E4%B8%81-171941150
 isClosed: true
+isOnline: true
 ---
