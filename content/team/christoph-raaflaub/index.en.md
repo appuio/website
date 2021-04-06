@@ -11,4 +11,5 @@ mail: raaflaub@puzzle.ch
 twitter: chrira
 linkedin: chrira
 isClosed: true
+isOnline: true
 ---
