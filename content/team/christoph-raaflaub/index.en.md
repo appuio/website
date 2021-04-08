@@ -10,6 +10,6 @@ function: CI/CD Engineer
 mail: raaflaub@puzzle.ch
 twitter: chrira
 linkedin: chrira
-isClosed: true
+isClosed: false
 isOnline: true
 ---
