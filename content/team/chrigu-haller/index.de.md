@@ -11,4 +11,5 @@ mail: haller@puzzle.ch
 twitter: null
 linkedin: christian-haller-0a637493
 isClosed: true
+isOnline: true
 ---
