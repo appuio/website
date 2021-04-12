@@ -2,13 +2,14 @@
 title: Unser 3rd Level Support
 date: 2021-03-24
 featured_image: ffd902.png
-summary: Da Kubernetes-Plattformen selten ohne Zwischenfälle operieren, müssen
-  immer wieder Lösungen für komplexe Herausforderungen gefunden und zeitnah
-  implementiert werden. Viele Unternehmen verfügen nicht über die nötigen
-  Ressourcen, um in solchen Situationen umgehend zu handeln. APPUiO bietet dir
-  in solchen Situationen einen persönlichen und unkomplizierten Support.
-  Konzentriere dich voll und ganz auf dein Kerngeschäft und überlasse uns deine
-  Plattform-Issues.
+summary: >-
+  Auch bei Kubernetes-Plattformen kann es gelegentlich zu unerwarteten,
+  technischen Zwischenfällen kommen. Unternehmen sollten daher stets in der Lage
+  sein, Lösungen für neue Problemstellungen zu finden und diese auch zeitnah zu
+  implementieren.
+
+
+  Puzzle ITC unterstützt dich und dein Unternehmen bei diesen Herausforderungen mit einem zuverlässigen und erfahrenen Support-Team. Unser Ziel ist es, das firmeninterne Know-how aufzubauen und bei Fragen als Experten zur Seite zu stehen.
 ---
 Die Supportleistungen beziehen sich auf die Analyse und Lösung einer zu definierenden technischen Problemstellung. Zusätzlich hast du als Kunde die Möglichkeit, das Supportteam bei fachlichen und technischen Fragestellungen zu konsultieren. Den Support bieten wir auf den beiden Distributionen OpenShift und Rancher.
 
