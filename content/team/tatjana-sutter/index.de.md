@@ -11,4 +11,5 @@ mail: tatjana.suter@vshn.ch
 twitter: null
 linkedin: tatjana-suter-b13172166
 isClosed: true
+isOnline: true
 ---
