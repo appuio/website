@@ -3,9 +3,13 @@
     <div class="container">
       <h1>Aktuell</h1>
       {{ .Content }}
-      <div class="buttons has-addons">
-        <a href="{{ ref . "/blog" }}" class="button is-half is-primary">{{ with .Site.GetPage "/blog" }}{{ .Title }}{{ end }}</a>
-        <a href="{{ ref . "/events" }}" class="button is-half is-outlined">{{ with .Site.GetPage "/events" }}{{ .Title }}{{ end }}</a>
+      <div class="field has-addons">
+        <p class="control">
+          <a href="{{ ref . "/blog" }}" class="button is-half is-primary">{{ with .Site.GetPage "/blog" }}{{ .Title }}{{ end }}</a>
+        </p>
+        <p class="control">
+          <a href="{{ ref . "/events" }}" class="button is-half is-outlined">{{ with .Site.GetPage "/events" }}{{ .Title }}{{ end }}</a>
+        </p>
       </div>
       <div class="columns is-flex-wrap-wrap blog">
 
