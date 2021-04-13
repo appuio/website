@@ -10,6 +10,6 @@ function: OpenShift Engineer
 mail: haller@puzzle.ch
 twitter: null
 linkedin: christian-haller-0a637493
-isClosed: true
+isClosed: false
 isOnline: true
 ---
