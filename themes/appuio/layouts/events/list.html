@@ -14,7 +14,7 @@
 
       <div class="columns is-flex-wrap-wrap blog">
 
-        {{ range .Paginator.Pages }}
+        {{ range .Paginator.Pages.Reverse }}
 
           {{- $link := .Permalink  }}
           {{- if .Params.event_title_link -}}
