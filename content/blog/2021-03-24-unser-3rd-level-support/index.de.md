@@ -17,7 +17,7 @@ Die Supportleistungen beziehen sich auf die Analyse und Lösung einer zu definie
 
 ![](3rd-level-support_teil_2.png)
 
-Mehr Informationen zu den oben aufgelisteten Punkten findest du in diesem [PDF](/images/uploads/3rd-level-support.pdf).
+Mehr Informationen zu den oben aufgelisteten Punkten findest du in diesem [PDF](/images/uploads/3rd-level-support_digital.pdf).
 
 Haben wir dein Interesse geweckt? Dann melde dich bei unserem Spezialisten [Tobias Tröhler](mailto:troehler@puzzle.ch).
 
