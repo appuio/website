@@ -10,6 +10,6 @@ function: Custom Success Manager
 mail: tatjana.suter@vshn.ch
 twitter: null
 linkedin: tatjana-suter-b13172166
-isClosed: true
+isClosed: false
 isOnline: true
 ---
