@@ -11,4 +11,5 @@ mail: simon.gerber@vshn.ch
 twitter: null
 linkedin: null
 isClosed: true
+isOnline: true
 ---
