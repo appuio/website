@@ -48,5 +48,8 @@
 - id: open
   translation: 'open'
 
+- id: play
+  translation: 'play'
+
 - id: interested_in
   translation: 'I am interested in:'

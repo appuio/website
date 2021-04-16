@@ -48,5 +48,8 @@
 - id: open
   translation: 'öffnen'
 
+- id: play
+  translation: 'abspielen'
+
 - id: interested_in
   translation: 'Ich interessiere mich für:'
