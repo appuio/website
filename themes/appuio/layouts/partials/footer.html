@@ -20,62 +20,45 @@
       <p>
       {{ T "footertext" }}
       </p>
-      <p class="pt-4">
-        <a href="https://twitter.com/AppuIo" target="_blank">
-            <span class="icon has-text-info">
-            <i class="fab fa-twitter"></i>
-            </span>
-            <span>Follow us on Twitter</span>
+
+      <div class="is-flex is-flex-direction-row is-flex-wrap-wrap is-justify-content-center">
+        <a class="button is-info is-outlined m-2" href="https://twitter.com/AppuIo" target="_blank">
+          <i class="fab fa-twitter"></i>
+          <span class="ml-1">Twitter</span>
         </a>
-      </p>
-      <p class="pt-4">
-        <a href="https://github.com/appuio" target="_blank">
-            <span class="icon has-text-info">
-            <i class="fab fa-github"></i>
-            </span>
-            <span>Visit us on GitHub</span>
+        <a class="button is-info is-outlined m-2" href="https://github.com/appuio" target="_blank">
+          <i class="fab fa-github"></i>
+          <span class="ml-1">GitHub</span>
         </a>
-      </p>
-       <p class="pt-4">
-        <a href="https://www.instagram.com/appuio" target="_blank">
-            <span class="icon has-text-info">
-            <i class="fab fa-instagram"></i>
-            </span>
-            <span>Follow us on Instagram</span>
+        <a class="button is-info is-outlined m-2" href="https://www.instagram.com/appuio" target="_blank">
+          <i class="fab fa-instagram"></i>
+          <span class="ml-1">Instagram</span>
         </a>
-      </p>
-      <p class="pt-4">
-        <a href="https://www.facebook.com/appuio.ch" target="_blank">
-            <span class="icon has-text-info">
-            <i class="fab fa-facebook-f"></i>
-            </span>
-            <span>Like us on Facebook</span>
+        <a class="button is-info is-outlined m-2" href="https://www.facebook.com/appuio.ch" target="_blank">
+          <i class="fab fa-facebook-f"></i>
+          <span class="ml-1">Facebook</span>
         </a>
-      </p>
-      <p class="pt-4">
-        <a href="https://www.youtube.com/channel/UCaunplDXgF5NXWwsM4K2mNA" target="_blank">
-            <span class="icon has-text-info">
-            <i class="fab fa-youtube"></i>
-            </span>
-            <span>Subscribe us on Youtube</span>
+        <a class="button is-info is-outlined m-2" href="https://www.youtube.com/channel/UCaunplDXgF5NXWwsM4K2mNA" target="_blank">
+          <i class="fab fa-youtube"></i>
+          <span class="ml-1">Youtube</span>
         </a>
-      </p>
-      <p class="pt-4">
-        <span>Melde dich für unseren Newsletter an</span>
-        <div class="field is-grouped"> 
-          <p class="control is-expanded">
-            <input class="input" type="email" placeholder="email">
+      </div>
+
+      <div class="container">
+        <p class="is-size-6 mt-4 mb-1">{{T "footer_newsletter"}}</p>
+        <div class="field has-addons is-justify-content-center">
+          <p class="control">
+            <input class="input" type="email" placeholder="Email">
           </p>
           <p class="control">
-            <a class="button is-info">
-              Anmelden
-            </a>
+            <button class="button is-primary">{{T "footer_subscribe" }}</button>
           </p>
         </div>
-      </p>
+      </div>
+
     </div>
-    
-    
+
+
     <p class="is-size-7 pt-6">
       Designed with
       <span class="px-1">

@@ -18,6 +18,12 @@
 - id: footertext
   translation: "Du erreichst uns unter Tel. +41 44 552 22 40 oder per Mail an hello@appuio.ch."
 
+- id: footer_newsletter
+  translation: "Melde dich für unseren Newsletter an"
+
+- id: footer_subscribe
+  translation: "Anmelden"
+
 - id: beerinvite
   translation: "Du interessierst dich für APPUiO? Komm und trink ein Bier mit uns."
 
