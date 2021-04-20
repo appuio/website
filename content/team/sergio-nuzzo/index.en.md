@@ -6,5 +6,5 @@ hashtags: "#mentalendurance #fairplay #crossfitter "
 profile: https://vshn.ch/vshn/
 mail: sergio.nuzzo@vshn.ch
 isClosed: true
-isOnline: false
+isOnline: true
 ---
