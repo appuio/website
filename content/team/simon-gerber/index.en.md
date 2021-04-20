@@ -10,6 +10,6 @@ function: Engineer
 mail: simon.gerber@vshn.ch
 twitter: null
 linkedin: null
-isClosed: true
+isClosed: false
 isOnline: true
 ---
