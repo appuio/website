@@ -11,4 +11,5 @@ mail: adrian.kosmaczewski@vshn.ch
 twitter: akosma
 linkedin: akosma
 isClosed: true
+isOnline: true
 ---
