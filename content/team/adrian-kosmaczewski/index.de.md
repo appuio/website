@@ -10,6 +10,6 @@ function: Product Owner
 mail: adrian.kosmaczewski@vshn.ch
 twitter: akosma
 linkedin: akosma
-isClosed: true
+isClosed: false
 isOnline: true
 ---
