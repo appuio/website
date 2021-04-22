@@ -7,4 +7,5 @@ profile: https://vshn.ch/vshn/
 mail: sergio.nuzzo@vshn.ch
 isClosed: true
 isOnline: false
+date: 2020-11-27
 ---
