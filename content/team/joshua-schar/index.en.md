@@ -6,4 +6,5 @@ mail: schaer@puzzle.ch
 twitter: JoshuaSchaer
 isClosed: true
 isOnline: false
+date: 2020-12-03
 ---
