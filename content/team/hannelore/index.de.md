@@ -9,5 +9,5 @@ twitter: APPUiO_Huhn
 linkedin:
 github:
 isClosed: true
-date: 2020-12-06
+date: 2020-12-07
 ---
