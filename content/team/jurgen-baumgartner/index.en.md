@@ -8,4 +8,5 @@ mail: baumgartner@puzzle.ch
 twitter: ux_padawan
 isClosed: true
 isOnline: false
+date: 2020-12-05
 ---
