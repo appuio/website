@@ -10,6 +10,6 @@ function: Apprentice
 mail: finn.schunk@vshn.ch
 twitter: null
 linkedin: null
-isClosed: true
+isClosed: false
 isOnline: true
 ---
