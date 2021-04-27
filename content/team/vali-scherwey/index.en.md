@@ -11,4 +11,5 @@ mail: scherwey@puzzle.ch
 twitter: null
 linkedin: valentina-scherwey-87a44b164
 isClosed: true
+isOnline: true
 ---
