@@ -10,6 +10,6 @@ function: Marketing Manager
 mail: scherwey@puzzle.ch
 twitter: null
 linkedin: valentina-scherwey-87a44b164
-isClosed: true
+isClosed: false
 isOnline: true
 ---
