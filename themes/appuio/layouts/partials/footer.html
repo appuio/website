@@ -17,8 +17,8 @@
   </div>
   <div class="container py-6">
     <div>
-      <p>
-      {{ T "footertext" }}
+      <p class="has-cyan-links">
+      {{ T "footertext" (dict "FooterPhone" "<a href='tel:+41445522240'>+41 44 552 22 40</a>" "FooterMail" "<a href='mailto:hello@appuio.ch'>hello@appuio.ch</a>") | safeHTML }}
       </p>
 
       <div class="is-flex is-flex-direction-row is-flex-wrap-wrap is-justify-content-center">

@@ -16,7 +16,7 @@
   translation: "Show all blog posts"
 
 - id: footertext
-  translation: "You can reach us by phone: +41 44 552 22 40 or e-mail hello@appuio.ch"
+  translation: "You can reach us by phone: {{.FooterPhone}} or e-mail {{.FooterMail}}"
 
 - id: footer_newsletter
   translation: "Subscribe to our newsletter"
