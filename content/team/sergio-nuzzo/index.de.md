@@ -1,11 +1,11 @@
 ---
+hashtags: "#mentalendurance #fairplay #crossfitter "
+profile: https://vshn.ch/vshn/
+date: 2020-11-27
 title: Sergio Nuzzo
 alias: Sergio
 function: Business Development Manager
-hashtags: "#mentalendurance #fairplay #crossfitter "
-profile: https://vshn.ch/vshn/
 mail: sergio.nuzzo@vshn.ch
 isClosed: true
-isOnline: false
-date: 2020-11-27
+isOnline: true
 ---
