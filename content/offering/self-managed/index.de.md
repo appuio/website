@@ -99,7 +99,7 @@ Du möchtest deine eigene Container-Plattform aufbauen, aber dir fehlt das nöti
 
    Brauchst du Support von Experten, welche deine Plattform kennen und deine Sprache sprechen? Gerne bieten wir dir unsere Unterstützung an.
 
-  [Unser Angebot](/images/uploads/preise-3rd-level_variante_digital.pdf)
+  [Unser Angebot](/images/uploads/3rd-level-support_digital.pdf)
 
    *Preis auf Anfrage*
 
