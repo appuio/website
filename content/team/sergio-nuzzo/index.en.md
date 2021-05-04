@@ -7,6 +7,6 @@ title: Sergio Nuzzo
 alias: Sergio
 function: Business Development Manager
 mail: sergio.nuzzo@vshn.ch
-isClosed: true
+isClosed: false
 isOnline: true
 ---
