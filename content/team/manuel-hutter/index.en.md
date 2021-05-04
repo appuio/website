@@ -11,4 +11,5 @@ mail: manuel.hutter@vshn.ch
 twitter: null
 linkedin: null
 isClosed: true
+isOnline: true
 ---
