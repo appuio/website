@@ -46,13 +46,35 @@
 
       <div class="container">
         <p class="is-size-6 mt-4 mb-1">{{T "footer_newsletter"}}</p>
-        <div class="field has-addons is-justify-content-center">
-          <p class="control">
-            <input class="input" type="email" placeholder="Email">
-          </p>
-          <p class="control">
-            <button class="button is-primary">{{T "footer_subscribe" }}</button>
-          </p>
+        <div class="hsform-wrapper newsletter-hsform mw-400">
+          <!--[if lte IE 8]>
+          <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/v2-legacy.js"></script>
+          <![endif]-->
+          <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/v2.js"></script>
+          <script>var languageCode = 'en';</script>
+          {{ if eq .Page.Language.Lang "de" }}
+            <script>languageCode = 'de';</script>
+          {{ end }}
+          <script>
+            hbspt.forms.create({
+            region: "na1",
+            portalId: "7105834",
+            formId: "810cabb9-b3b1-4e68-9d56-12c628ccc1f7",
+            locale: languageCode,
+            translations: {
+              de: {
+                required: "Das ist ein Pflichtfeld",
+                submitText: "Anmelden",
+                fieldLabels: {
+                  email: "E-Mail"
+                },
+                placeholder: {
+                  email: 'esaf'
+                }
+              }
+            }
+            });
+          </script>
         </div>
       </div>
 
