@@ -10,6 +10,6 @@ function: Engineer
 mail: nicolas.bigler@vshn.ch
 twitter: NicolasBigler
 linkedin: nicolas-bigler
-isClosed: true
+isClosed: false
 isOnline: true
 ---
