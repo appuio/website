@@ -101,3 +101,21 @@
     @extend .fix-primary-button;
   }
 }
+
+
+.hsform-wrapper.newsletter-hsform {
+  color: $black;
+  .inputs-list {
+    color: $black;
+  }
+  .hs_error_rollup {
+    display: none;
+  }
+  .actions {
+    text-align: center;
+  }
+  .hs-button {
+    @extend .button;
+    @extend .is-primary;
+  }
+}

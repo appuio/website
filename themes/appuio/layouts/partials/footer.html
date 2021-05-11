@@ -17,16 +17,67 @@
   </div>
   <div class="container py-6">
     <div>
-      <p>
-      {{ T "footertext" }}
+      <p class="has-cyan-links">
+      {{ T "footertext" (dict "FooterPhone" "<a href='tel:+41445522240'>+41 44 552 22 40</a>" "FooterMail" "<a href='mailto:hello@appuio.ch'>hello@appuio.ch</a>") | safeHTML }}
       </p>
-      <p class="pt-4">
-        <a href="https://twitter.com/AppuIo" target="_blank">
+
+      <div class="is-flex is-flex-direction-row is-flex-wrap-wrap is-justify-content-center">
+        <a class="button is-info is-outlined m-2" href="https://twitter.com/AppuIo" target="_blank">
           <i class="fab fa-twitter"></i>
-          Follow us @appuio
+          <span class="ml-1">Twitter</span>
         </a>
-      </p>
+        <a class="button is-info is-outlined m-2" href="https://github.com/appuio" target="_blank">
+          <i class="fab fa-github"></i>
+          <span class="ml-1">GitHub</span>
+        </a>
+        <a class="button is-info is-outlined m-2" href="https://www.instagram.com/appuio" target="_blank">
+          <i class="fab fa-instagram"></i>
+          <span class="ml-1">Instagram</span>
+        </a>
+        <a class="button is-info is-outlined m-2" href="https://www.facebook.com/appuio.ch" target="_blank">
+          <i class="fab fa-facebook-f"></i>
+          <span class="ml-1">Facebook</span>
+        </a>
+        <a class="button is-info is-outlined m-2" href="https://www.youtube.com/channel/UCaunplDXgF5NXWwsM4K2mNA" target="_blank">
+          <i class="fab fa-youtube"></i>
+          <span class="ml-1">Youtube</span>
+        </a>
+      </div>
+
+      <div class="container">
+        <p class="is-size-6 mt-4 mb-1">{{T "footer_newsletter"}}</p>
+        <div class="hsform-wrapper newsletter-hsform mw-400">
+          <!--[if lte IE 8]>
+          <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/v2-legacy.js"></script>
+          <![endif]-->
+          <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/v2.js"></script>
+          <script>var languageCode = 'en';</script>
+          {{ if eq .Page.Language.Lang "de" }}
+            <script>languageCode = 'de';</script>
+          {{ end }}
+          <script>
+            hbspt.forms.create({
+            region: "na1",
+            portalId: "7105834",
+            formId: "810cabb9-b3b1-4e68-9d56-12c628ccc1f7",
+            locale: languageCode,
+            translations: {
+              de: {
+                required: "Das ist ein Pflichtfeld",
+                submitText: "Anmelden",
+                fieldLabels: {
+                  email: "E-Mail"
+                }
+              }
+            }
+            });
+          </script>
+        </div>
+      </div>
+
     </div>
+
+
     <p class="is-size-7 pt-6">
       Designed with
       <span class="px-1">
