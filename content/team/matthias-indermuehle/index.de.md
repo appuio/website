@@ -10,6 +10,6 @@ function: System Architect
 mail: matthias.indermuehle@vshn.ch
 twitter: projectworldpow
 linkedin: matthias-indermuehle
-isClosed: true
+isClosed: false
 isOnline: true
 ---
