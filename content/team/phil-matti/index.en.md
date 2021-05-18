@@ -2,6 +2,7 @@
 hashtags: "#mate #linguistic #OpenShift"
 profile: https://www.puzzle.ch/de/blog/articles/author/pmatti
 github: acteru
+animation: philipp_matti.json
 date: 2020-12-02
 title: Phil Matti
 alias: Phil
