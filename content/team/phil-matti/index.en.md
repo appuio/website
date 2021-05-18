@@ -1,13 +1,14 @@
 ---
+hashtags: "#mate #linguistic #OpenShift"
+profile: https://www.puzzle.ch/de/blog/articles/author/pmatti
+github: acteru
+date: 2020-12-02
 title: Phil Matti
 alias: Phil
 function: OpenShift Engineer
-hashtags: "#mate #linguistic #OpenShift"
-profile: https://www.puzzle.ch/de/blog/articles/author/pmatti
 mail: matti@puzzle.ch
 twitter: acteru_one
 linkedin: philipp-matti-376973159
-github: acteru
 isClosed: true
-date: 2020-12-02
+isOnline: true
 ---
