@@ -8,6 +8,6 @@ alias: Josh
 function: UX Designer
 mail: schaer@puzzle.ch
 twitter: JoshuaSchaer
-isClosed: true
+isClosed: false
 isOnline: true
 ---

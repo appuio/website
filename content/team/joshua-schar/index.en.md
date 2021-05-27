@@ -6,6 +6,6 @@ date: 2020-12-04
 title: Joshua Schär
 mail: schaer@puzzle.ch
 twitter: JoshuaSchaer
-isClosed: true
+isClosed: false
 isOnline: true
 ---
