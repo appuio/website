@@ -1,13 +1,14 @@
 ---
+hashtags: "#humorvoll "
+profile: https://www.puzzle.ch/de/blog/articles/author/dschneider
+github: null
+date: 2020-12-06
 title: David Schneider
 alias: Dave
 function: Engineer
-hashtags: "#humorvoll "
-profile: https://www.puzzle.ch/de/blog/articles/author/dschneider
 mail: schneider@puzzle.ch
-twitter:
-linkedin:
-github:
+twitter: null
+linkedin: null
 isClosed: true
-date: 2020-12-06
+isOnline: true
 ---
