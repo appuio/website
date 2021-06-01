@@ -61,33 +61,33 @@ Du möchtest deine eigene Container-Plattform aufbauen, aber dir fehlt das nöti
 
 # Im Angebot enthalten
 
-* ### Architecture Workshop
+* ### Architektur Workshop
 
    Gemeinsam definieren wir die Ziel-Architektur, welche perfekt auf die Infrastruktur zugeschnitten ist.
 * ### Aufbau der Plattform
 
-   Gemeinsam bauen wir die definierte Plattform, sei dies als POC, Dev oder Prod auf.
+   Gemeinsam bauen wir die definierte Plattform, sei dies als Proof of Concept, Dev- oder Prod-Umgebung.
 * ### Know-how Transfer
 
   Der Know-how-Transfer liegt uns am Herzen. Unser Ziel ist es, dass unsere Kunden in der Lage sind, ihre Infrastruktur selber zu betreiben.
 * ### Dokumentation des Setups
 
-   Gemeinsam dokumentieren wir die Architektur, damit unsere Kunden alle erforderlichen Informationen jederzeit griffbereit haben.
+  Gemeinsam dokumentieren wir die Architektur, damit unsere Kunden alle erforderlichen Informationen jederzeit griffbereit haben.
 * ### Integration in Monitoring
 
    Auf Wunsch kann die Plattform in ein gewünschtes Monitoring Tool integriert werden.
 * ### Unterstützung im Daily Business
 
-    Wir unterstützen unsere Kunden auch langfristig. Sei es im Engineering oder im Betrieb ihrer Plattform.
+   Wir unterstützen unsere Kunden auch langfristig. Sei es im Engineering oder im Betrieb ihrer Plattform.
   {{</section>}}
 
 {{<section class="cyan has-cols col-white text-left items-center y-narrow">}}
 
 # Zusätzliche Services
 
-* #### Operation Schulung
+* #### Operations Schulung
 
-  In einem zwei-tägigen Hands-on Lab geben wir die besten Tipps und Tricks, die für den Betrieb einer OpenShift Plattform nützlich sind, weiter. Von einem Cluster Update bis hin zu Best Practices bei der Konfiguration
+  In einem zweitägigen Hands-on Lab geben wir die besten Tipps und Tricks, die für den Betrieb einer OpenShift Plattform nützlich sind, weiter. Von einem Cluster Update bis hin zu Best Practices bei der Konfiguration
 
    *Preis auf Anfrage*
 * #### Dev Schulung
