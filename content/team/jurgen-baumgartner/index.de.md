@@ -8,6 +8,6 @@ alias: Jürgen
 function: UX Designer
 mail: baumgartner@puzzle.ch
 twitter: ux_padawan
-isClosed: true
+isClosed: false
 isOnline: true
 ---
