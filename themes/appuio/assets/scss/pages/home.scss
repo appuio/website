@@ -19,6 +19,13 @@ section.home-hero {
 section.intro {
   padding-top: 4rem;
 }
+section.video {
+  background: $darkblue;
+  @extend .pt-0;
+  .container {
+    max-width: $video-max-width !important;
+  }
+}
 
 .home-offer .card {
   background: $darkblue;

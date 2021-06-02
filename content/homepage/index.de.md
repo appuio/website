@@ -9,6 +9,10 @@ headless: true
 APPUiO ist die führende, auf Kubernetes basierende Container-Plattform für das Design, die Entwicklung und den Betrieb von Applikationen. Auf Basis bewährter Open Source Konzepte wie Docker und Kubernetes unterstützt APPUiO den DevOps-Ansatz. So werden Entwicklung, Deployment und Betriebsprozesse durch Automatisierung und Self-Service beschleunigt. Ebenso wird die Zusammenarbeit zwischen Software-Entwicklern und Betriebsorganisation verbessert.
 {{</section>}}
 
+{{<section class="video">}}
+{{< youtube ARgBmOeJF7M >}}
+{{</section>}}
+
 {{<section class="cyan">}}
 
 # Bleibe auf dem Laufenden

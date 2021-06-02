@@ -11,27 +11,9 @@ document.addEventListener('DOMContentLoaded', () => {
     yoyo: true,
   });
 
-  // var tlTwo = new TweenMax({
-  //   repeat:-1,
-  //   yoyo: true
-  // });
-
-  tl.staggerTo(
-    ".balloon",
-    duration / 3,
-    {
-      rotation: -3,
-      yoyo: true,
-      transformOrigin: "0% 100%",
-      repeat: -1,
-      ease: Power1.easeInOut,
-    },
-    0
-  );
-
   tl.staggerTo(
     ".ad_ons",
-    duration / 3,
+    duration,
     {
       rotation: -2,
       x: -3,
@@ -43,41 +25,17 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     0
   );
-
-  tl.staggerTo(
-    "#arm",
-    duration / 3,
-    {
-      rotation: -3,
-      yoyo: true,
-      transformOrigin: "0% 100%",
-      repeat: -1,
-      ease: Power1.easeInOut,
-    },
-    0
-  );
-
-  // tl.to("#sprechblase",duration/2,{
-  //   scale:0,
-  //   repeat:-1,
-  //   yoyo:true
-  // });
-
   tl.to(
-    "#clouds_right",
-    duration * 2,
+    "#cloud-3",
+    duration * 8,
     {
       x: 340,
       y: 0,
     },
     0
   );
-
-  // tl.to(".cls-93", duration * 2, {
-  //     x: -250
-  // }, 0);
   tl.to(
-    "#ad_ons",
+    ".ad_ons",
     duration,
     {
       x: -80,
@@ -100,19 +58,20 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     0
   );
-
   tl.to(
-    "#Ballon",
-    duration / 2.2,
+    "#cloud-2",
+    duration * 4,
     {
-      rotation: 8,
-      transformOrigin: "center bottom",
-      ease: Power1.easeInOut,
-      repeat: -1,
+      x: -140,
+      y: 0,
       yoyo: true,
+      repeat: -1
     },
     0
   );
+
+
+
 
   // Angebot Public Animation GSAP
 

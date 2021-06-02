@@ -7,13 +7,7 @@
 
   <section class="home-hero has-text-centered">
 
-    <div class="home-hero-video">
-      <div class="py-6">
-        <iframe width="1120" height="630" src="https://www.youtube.com/embed/ARgBmOeJF7M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    </div>
-
-    <!-- <div class="home-hero-illus">
+    <div class="home-hero-illus">
       {{ $header := $headless.Resources.GetMatch "images/header.svg" }}
       {{ if $header }}
         {{ $header.Content | safeHTML }}
@@ -21,7 +15,7 @@
 
       {{ $logo := resources.Get "appuio_logo.svg" }}
       <img src="{{ $logo.Permalink }}" alt=":homeHeroAlt" class="home-hero-logo" />
-    </div> -->
+    </div>
     <div class="container">
       <h1 class="subtitle has-text-white is-3">{{ $headless.Title }}</h1>
       <p>
