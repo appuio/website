@@ -20,8 +20,8 @@ section.intro {
   padding-top: 4rem;
 }
 section.video {
-  background: $darkblue-2;
-  @extend .p-4;
+  background: $darkblue;
+  @extend .pt-0;
   .container {
     max-width: 1400px !important;
   }
