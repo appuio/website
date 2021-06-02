@@ -23,7 +23,7 @@ section.video {
   background: $darkblue;
   @extend .pt-0;
   .container {
-    max-width: 1400px !important;
+    max-width: $video-max-width !important;
   }
 }
 
