@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     0
   );
   tl.to(
-    "#clouds-3",
+    "#cloud-3",
     duration * 8,
     {
       x: 340,
