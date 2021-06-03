@@ -11,4 +11,5 @@ mail: overney@puzzle.ch
 twitter: null
 linkedin: null
 isClosed: true
+isOnline: true
 ---
