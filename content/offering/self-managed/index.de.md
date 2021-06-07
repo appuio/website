@@ -30,11 +30,11 @@ Du möchtest deine eigene Container-Plattform aufbauen, aber dir fehlt das nöti
   ### Know-how
 
   Wir sind dein persönlicher Ansprechpartner und teilen gerne unser Know-how mit dir.
-*   ![Langjährige Erfahrung](experience.svg)
+* ![Langjährige Erfahrung](experience.svg)
 
   ### Langjährige Erfahrung
 
-  Seit der Beta-Phase von OpenShift arbeiten wir mit Firmen zusammen und beraten sie.
+  Seit der Beta-Phase von OpenShift arbeiten wir mit Firmen zusammen und beraten sie
 * ![Flexibilität](freie_wahl.svg)
 
   ### Flexibilität
