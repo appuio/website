@@ -20,7 +20,7 @@ aliases:
   - /unmanaged.html
 ---
 {{<section class="offering-hero self-managed" header="images/header.svg">}}
-Du möchtest deine eigene Container-Plattform aufbauen, aber dir fehlt das nötige Know-how? Dann bist du bei uns genau richtig. Gerne unterstützen wir dich bei der Planung, dem Aufbau sowie dem Betrieb. Darüber hinaus zeigen wir deinen Entwicklern, wie die neue Container-Plattform am besten genutzt wird.
+Du möchtest deine eigene Container-Plattform aufbauen, aber dir fehlt das nötige Know-how? Dann bist du bei uns genau richtig. Gerne unterstützen wir dich bei der Planung, dem Aufbau sowie dem Betrieb. Darüber hinaus zeigen wir deinen Entwicklerinnen und Entwicklern, wie die neue Container-Plattform am besten genutzt wird.
 {{</section>}}
 
 {{<section class="darkblue has-cols">}}
@@ -29,12 +29,12 @@ Du möchtest deine eigene Container-Plattform aufbauen, aber dir fehlt das nöti
 
   ### Know-how
 
-  Wir sind ein persönlicher Ansprechpartner und Know-how-Sharer.
-* ![Langjährige Erfahrung](experience.svg)
+  Wir sind dein persönlicher Ansprechpartner und teilen gerne unser Know-how mit dir.
+*   ![Langjährige Erfahrung](experience.svg)
 
   ### Langjährige Erfahrung
 
-  Seit der Beta-Phase von OpenShift arbeiten wir mit Firmen und beraten sie.
+  Seit der Beta-Phase von OpenShift arbeiten wir mit Firmen zusammen und beraten sie.
 * ![Flexibilität](freie_wahl.svg)
 
   ### Flexibilität
@@ -54,7 +54,7 @@ Du möchtest deine eigene Container-Plattform aufbauen, aber dir fehlt das nöti
 
   ### Langjährige Unterstützung
 
-    Wir begleiten unsere Kunden über längere Zeit mit konstanten Experten.
+    Wir begleiten dich über längere Zeit mit konstanten Experten.
   {{</section>}}
 
 {{<section class="has-cols col-cyan y-narrow">}}
@@ -69,16 +69,16 @@ Du möchtest deine eigene Container-Plattform aufbauen, aber dir fehlt das nöti
    Gemeinsam bauen wir die definierte Plattform, sei dies als Proof of Concept, Dev- oder Prod-Umgebung.
 * ### Know-how Transfer
 
-  Der Know-how-Transfer liegt uns am Herzen. Unser Ziel ist es, dass unsere Kunden in der Lage sind, ihre Infrastruktur selber zu betreiben.
+  Der Know-how-Transfer liegt uns am Herzen. Unser Ziel ist es, dass du und dein Unternehmen in der Lage sind, eure Infrastruktur selber zu betreiben.
 * ### Dokumentation des Setups
 
-  Gemeinsam dokumentieren wir die Architektur, damit unsere Kunden alle erforderlichen Informationen jederzeit griffbereit haben.
+  Gemeinsam dokumentieren wir die Architektur, damit du und dein Unternehmen alle erforderlichen Informationen jederzeit griffbereit haben.
 * ### Integration in Monitoring
 
-   Auf Wunsch kann die Plattform in ein gewünschtes Monitoring Tool integriert werden.
+   Auf Wunsch kann die Plattform in ein frei gewähltes Monitoring Tool integriert werden.
 * ### Unterstützung im Daily Business
 
-   Wir unterstützen unsere Kunden auch langfristig. Sei es im Engineering oder im Betrieb ihrer Plattform.
+   Wir unterstützen dich und dein Unternehmen auch langfristig. Sei es im Engineering oder im Betrieb eurer Plattform.
   {{</section>}}
 
 {{<section class="cyan has-cols col-white text-left items-center y-narrow">}}
@@ -87,7 +87,7 @@ Du möchtest deine eigene Container-Plattform aufbauen, aber dir fehlt das nöti
 
 * #### Operations Schulung
 
-  In einem zweitägigen Hands-on Lab geben wir die besten Tipps und Tricks, die für den Betrieb einer OpenShift Plattform nützlich sind, weiter. Von einem Cluster Update bis hin zu Best Practices bei der Konfiguration
+  In einem zweitägigen Hands-on Lab geben wir die besten Tipps und Tricks weiter, die für den Betrieb einer OpenShift Plattform nützlich sind. Von einem Cluster Update bis hin zu Best Practices bei der Konfiguration
 
    *Preis auf Anfrage*
 * #### Dev Schulung
