@@ -34,7 +34,7 @@ Du möchtest deine eigene Container-Plattform aufbauen, aber dir fehlt das nöti
 
   ### Langjährige Erfahrung
 
-  Seit der Beta-Phase von OpenShift arbeiten wir mit Firmen zusammen und beraten sie
+  Seit der Beta-Phase von OpenShift arbeiten wir mit Firmen zusammen und beraten sie.
 * ![Flexibilität](freie_wahl.svg)
 
   ### Flexibilität
@@ -63,16 +63,16 @@ Du möchtest deine eigene Container-Plattform aufbauen, aber dir fehlt das nöti
 
 * ### Architektur Workshop
 
-   Gemeinsam definieren wir die Ziel-Architektur, welche perfekt auf die Infrastruktur zugeschnitten ist.
+   Gemeinsam definieren wir die Ziel-Architektur, welche perfekt auf deine Infrastruktur zugeschnitten ist.
 * ### Aufbau der Plattform
 
    Gemeinsam bauen wir die definierte Plattform, sei dies als Proof of Concept, Dev- oder Prod-Umgebung.
 * ### Know-how Transfer
 
-  Der Know-how-Transfer liegt uns am Herzen. Unser Ziel ist es, dass du und dein Unternehmen in der Lage sind, eure Infrastruktur selber zu betreiben.
+  Der Know-how-Transfer liegt uns am Herzen. Unser Ziel ist es, dass du und dein Unternehmen in der Lage seid, eure Infrastruktur selber zu betreiben.
 * ### Dokumentation des Setups
 
-  Gemeinsam dokumentieren wir die Architektur, damit du und dein Unternehmen alle erforderlichen Informationen jederzeit griffbereit haben.
+  Gemeinsam dokumentieren wir die Architektur, damit du und dein Unternehmen alle erforderlichen Informationen jederzeit griffbereit habt.
 * ### Integration in Monitoring
 
    Auf Wunsch kann die Plattform in ein frei gewähltes Monitoring Tool integriert werden.
