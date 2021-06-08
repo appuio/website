@@ -10,6 +10,6 @@ function: Graphic Designer
 mail: overney@puzzle.ch
 twitter: null
 linkedin: null
-isClosed: true
+isClosed: false
 isOnline: true
 ---
