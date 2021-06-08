@@ -4,7 +4,7 @@ profile: https://www.puzzle.ch/de/blog/articles/author/pmatti
 github: acteru
 animation: philipp_matti.json
 date: 2020-12-08
-title: Phil Matti
+title: "Phil Matti "
 alias: Phil
 function: OpenShift Engineer
 mail: matti@puzzle.ch
