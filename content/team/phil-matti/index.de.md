@@ -10,6 +10,6 @@ function: OpenShift Engineer
 mail: matti@puzzle.ch
 twitter: acteru_one
 linkedin: philipp-matti-376973159
-isClosed: true
+isClosed: false
 isOnline: true
 ---
