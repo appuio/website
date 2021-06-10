@@ -1,13 +1,15 @@
 ---
+hashtags: ""
+profile: null
+github: null
+animation: hannelore.json
+date: 2020-12-09
 title: Hannelore
 alias: Hanni
 function: Eierlegende Wollmilchsau
-hashtags: ""
-profile:
 mail: hello@appuio.ch
 twitter: APPUiO_Huhn
-linkedin:
-github:
+linkedin: null
 isClosed: true
-date: 2020-12-09
+isOnline: true
 ---
