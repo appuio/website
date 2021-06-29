@@ -15,7 +15,7 @@ Mit einer Container-Plattform ändert sich die Art, wie wir Software entwickeln,
 
 {{<section class="darkblue">}}
 
-## Rahmenbedingungen
+## Daten & Rahmenbedingungen
 
 Die Teilnahme ist kostenlos. Bitte bring für das Lab deinen Laptop mit. Die Platzzahl ist beschränkt.
 
