@@ -15,7 +15,7 @@ A container platform changes the way we develop, deliver and operate software. P
 
 {{<section class="darkblue">}}
 
-## General conditions
+## Dates & general conditions
 
 The participation is free of charge. Please bring your laptop for the lab. The number of seats is limited.
 
