@@ -12,7 +12,20 @@ aliases:
 In the "Application Migration and Modernization Techlab" the participants learn by means of presentations and Hands-on labs how applications in their system landscape can be brought to the new container platform. It will be shown which basic architectural principles have to be considered in order to really exploit the flexibility and features of the container platform. Using a catalogue of criteria, they also learn about the different types of migration.
 {{</section>}}
 
+
 {{<section class="darkblue">}}
+## Costs and general conditions
+The full day Application Migration and Modernization on APPUiO / OpenShift Techlab is free of charge.
+
+{{< upcoming-events tag="amm">}}
+
+> There are currently no planned events
+
+{{< /upcoming-events >}}
+
+{{</section>}}
+
+{{<section>}}
 ## Target audience
 The Techlab addresses OpenShift and Kubernetes Engineers with developer focus. Basic knowledge in the field of container platform should be available. This Techlab is based on the [OpenShift Techlab](/en/techlabs/openshift/).
 
@@ -57,16 +70,4 @@ All participants need a laptop (dual-core processor, min. 2GB RAM) with admin ri
 
 ## Sprache
 The Techlab is held in English.
-{{</section>}}
-
-{{<section class="darkblue">}}
-## Costs and general conditions
-The full day Application Migration and Modernization on APPUiO / OpenShift Techlab is free of charge.
-
-{{< upcoming-events tag="amm">}}
-
-> There are currently no planned events
-
-{{< /upcoming-events >}}
-
 {{</section>}}

@@ -4,6 +4,12 @@ section.home-hero {
   padding: 0;
   @extend .has-yellow-links;
 }
+section.home-hero h1.subtitle {
+  @extend .mt-4;
+  @include touch {
+    font-size: 150%;
+  }
+}
 .home-hero-illus {
   height: 45vw;
 }

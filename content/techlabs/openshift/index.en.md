@@ -15,6 +15,18 @@ A container platform changes the way we develop, deliver and operate software. P
 {{</section>}}
 
 {{<section class="darkblue">}}
+## Costs and general conditions
+The participation is free of charge. Please bring your laptop for the lab. The number of seats is limited.
+
+{{< upcoming-events tag="openshift">}}
+
+> There are currently no planned events
+
+{{< /upcoming-events >}}
+
+{{</section>}}
+
+{{<section>}}
 ## Target audience
 The OpenShift Techlab is for anyone who wants to understand how a containerized application can be deployed and run on OpenShift.
 
@@ -65,16 +77,4 @@ All participants need a laptop (dual-core processor, min. 2GB RAM) with admin ri
 
 ## Language
 The presentation can be held in German or English. The labs are written in German, but Google Translate translates them in a way that is easy to understand.
-{{</section>}}
-
-{{<section class="darkblue">}}
-## Costs and general conditions
-The participation is free of charge. Please bring your laptop for the lab. The number of seats is limited.
-
-{{< upcoming-events tag="openshift">}}
-
-> There are currently no planned events
-
-{{< /upcoming-events >}}
-
 {{</section>}}
