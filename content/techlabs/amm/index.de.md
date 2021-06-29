@@ -13,7 +13,7 @@ Im "Application Migration and Modernization Techlab” lernen die Teilnehmenden 
 
 {{<section class="darkblue">}}
 
-## Rahmenbedingungen
+## Daten & Rahmenbedingungen
 
 Das ganztägige Application Migration and Modernization on APPUiO / OpenShift Techlab ist kostenlos.
 
