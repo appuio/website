@@ -10,6 +10,6 @@ function: Eierlegende Wollmilchsau
 mail: hello@appuio.ch
 twitter: APPUiO_Huhn
 linkedin: null
-isClosed: true
+isClosed: false
 isOnline: true
 ---
