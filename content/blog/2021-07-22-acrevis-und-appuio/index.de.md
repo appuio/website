@@ -7,7 +7,7 @@ summary: Vor kurzer Zeit tauchte APPUiO in die Welt der Lagunen ein. Wunderschö
   Story mit unserer Partnerschaft mit acrevis und dem Bankensektor zu tun hat,
   erfährst du in dieser Erfolgsgeschichte.
 ---
-Seit dem Jahr 2019 pflegen wir eine vertraute Partnerschaft mit der acrevis Bank. acrevis ist eine regionale Bank mit Wurzeln in der Ostschweiz. Mehr als 55’000 Kundinnen und Kunden und über 10’000 Aktionärinnen und Aktionäre vertrauen der acrevis in Sachen Geldanlage, Finanz- und Vorsorgeberatung und Finanzierungen.
+Seit dem Jahr 2019 pflegen wir eine vertraute Partnerschaft mit der [acrevis Bank](https://www.acrevis.ch/). acrevis ist eine regionale Bank mit Wurzeln in der Ostschweiz. Mehr als 55’000 Kundinnen und Kunden und über 10’000 Aktionärinnen und Aktionäre vertrauen der acrevis in Sachen Geldanlage, Finanz- und Vorsorgeberatung und Finanzierungen.
 
 Um am Markt konkurrenzfähig zu bleiben, entschied sich die acrevis Bank vor rund drei Jahren gemeinsam mit uns eine Open Source Digitalisierungsplattform aufzubauen. Die Strategie der acrevis Bank sieht vor, neue, moderne Kundenservices schnell und einfach zur Verfügung zu stellen. Dazu muss die Abwicklung der Geschäftsprozesse weiterhin über die Business-relevanten Legacy Systeme erfolgen und ebenso eine hohe Datensicherheit gewähren. Auch sollen längerfristig die Betriebskosten minimiert werden.
 
