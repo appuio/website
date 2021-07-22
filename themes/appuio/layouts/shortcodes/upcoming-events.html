@@ -28,7 +28,11 @@
                 {{- end -}}
                 <p class="is-size-6">{{ .Summary }}</p>
             </div>
-            {{- if .Params.event_link -}}
+            {{- if .Params.is_full -}}
+                <div class="action">
+                    <span class="has-text-grey">{{ T "is_fully_booked" }}</span>
+                </div>
+            {{- else if .Params.event_link -}}
                 <div class="action">
                     <a href="{{ .Params.event_link }}" class="button is-rounded is-primary" target="_blank">{{ T "anmelden" }}</a>
                 </div>
