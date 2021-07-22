@@ -59,3 +59,6 @@
 
 - id: interested_in
   translation: 'Ich interessiere mich für:'
+
+- id: is_fully_booked
+  translation: 'ausgebucht'
