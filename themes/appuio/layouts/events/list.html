@@ -35,6 +35,9 @@
                 <p class="is-size-7 my-1">{{ partial "prettydate" . }}</a></p>
                 <p class="is-size-5 my-2"><a href="{{$link}}">{{ .Title }}</a></p>
                 <p class="is-size-6">{{ .Summary }}</p>
+                {{- if .Params.is_full -}}
+                  <p class="has-text-grey has-text-centered">{{ T "is_fully_booked" }}</p>
+                {{- end -}}
               </div>
               <div class="card-footer">
                 <p class="card-footer-item">
