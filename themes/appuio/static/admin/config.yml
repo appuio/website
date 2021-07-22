@@ -125,7 +125,7 @@ collections:
         required: false
         i18n: duplicate
       - label: Fully booked
-        name: is_fully_booked
+        name: is_full
         widget: boolean
         required: false
         i18n: duplicate
