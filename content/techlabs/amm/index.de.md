@@ -8,7 +8,7 @@ aliases:
   - /ammtechlab.html
 ---
 {{<section class="techlab-hero" header="images/header.svg">}}
-Im "Application Migration and Modernization Techlab” lernen die Teilnehmenden anhand Präsentationen und Hands-on Labs, wie sie Applikationen in ihrer Systemlandschaft auf die neue Container-Plattform bringen. Es wird aufgezeigt, welche architektonischen Grundprinzipien beachtet werden müssen, damit die Flexibilität und die Features der Container-Plattform wirklich ausgereizt werden können. Anhand eines Kriterienkatalog lernen sie zudem die unterschiedlichen Migrationsarten kennen.
+Im "Application Migration and Modernization Techlab” lernen die Teilnehmenden anhand Präsentationen und Hands-on Labs, wie sie Applikationen in ihrer Systemlandschaft auf die neue Container-Plattform bringen. Es wird aufgezeigt, welche architektonischen Grundprinzipien beachtet werden müssen, damit die Flexibilität und die Features der Container-Plattform wirklich ausgereizt werden können. Anhand eines Kriterienkataloges lernen sie zudem die unterschiedlichen Migrationsarten kennen.
 {{</section>}}
 
 {{<section class="darkblue">}}
