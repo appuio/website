@@ -1,4 +1,5 @@
 ---
+title: Acrevis und APPUiO
 date: 2021-07-22
 featured_image: appuio_referenz_acrevis.png
 summary: Vor kurzer Zeit tauchte APPUiO in die Welt der Lagunen ein. Wunderschön
