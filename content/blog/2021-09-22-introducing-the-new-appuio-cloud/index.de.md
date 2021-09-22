@@ -58,7 +58,7 @@ Du zahlst nur für das, was du tatsächlich nutzt (metered billing). Es wird ein
 **Welchen Support wird es für APPUiO Cloud geben?**
 APPUiO Cloud-Kunden können die [APPUiO Cloud-Foren] (https://github.com/appuio/appuio-cloud-community/discussions) für Hilfe und Support nutzen. Außerdem wird eine vollständige Dokumentation mit allen erforderlichen Informationen zur Verfügung gestellt, um Ihre Anwendungen auf APPUiO Cloud schnell und bequem zu betreiben.
 
-**Wie kann ich meine Daten in der APPUiO Cloud sichern?
+**Wie kann ich meine Daten in der APPUiO Cloud sichern?**
 Unser K8up-Backup-Operator kann die Daten in Ihren PVCs auf einem beliebigen Restic-kompatiblen Speicher, wie AWS S3, Minio und anderen, sichern.
 
 **Ich bin ein aktueller APPUiO Public-Nutzer, muss ich zu APPUiO Cloud migrieren?**\
