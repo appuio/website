@@ -1,73 +1,74 @@
 ---
-title: Introducing The New APPUiO Cloud
+title: "Wir stellen vor: Das neue APPUiO Cloud"
 date: 2021-09-23
 featured_image: appuio_cloud_230921.png
-summary: We are thrilled to announce APPUiO Cloud, the new member of the APPUiO
-  family of products. APPUiO Cloud is the heir to the successful APPUiO Public
-  PaaS (Platform as a Service) product in service since 2016.
+summary: Wir freuen uns, APPUiO Cloud, das neue Mitglied der
+  APPUiO-Produktfamilie, ankündigen zu können. APPUiO Cloud ist der Nachfolger
+  des erfolgreichen APPUiO Public PaaS (Platform as a Service) Produkts, das
+  seit 2016 im Einsatz ist.
 ---
-## What is APPUiO Cloud?
+## Was ist APPUiO Cloud?
 
-APPUiO Cloud is a complete overhaul of APPUiO Public, offering a complete yet simple "OpenShift 4 Project As A Service" ("O4PaaS") product, in a shared infrastructure. We sometimes simply call it "Namespace as a Service (NSaaS)".
+APPUiO Cloud ist eine komplette Überarbeitung von APPUiO Public und bietet ein komplettes, aber einfaches "OpenShift 4 Project As A Service" ("O4PaaS") Produkt in einer gemeinsamen Infrastruktur. Wir nennen es manchmal einfach "Namespace as a Service (NSaaS)".
 
-APPUiO Cloud will have the following features:
+APPUiO Cloud wird die folgenden Funktionen haben:
 
-* Available in different Infrastructure as a Service (IaaS) providers, allowing for true multi-cloud deployments: would you like to use one cluster in Zürich for production, and another for development and testing on a different provider in Geneva? No problem at all.
-* Only pay for what you actually use; not using your Pods (containers) much? Don’t worry, you won’t have to pay for those idle hours.
-* Simple sign-in: create an account, enter your credit card details, and your access will be ready to use immediately.
-* Full self-service, all through the Kubernetes API; for example, create new namespaces yourself using the oc/kubectl CLI or as part of your CI/CD pipeline for feature branch deployments.
-* Collaboration features included: create an organization, subdivide it in teams, and invite your developers to one or many projects.
-* Single sign-on to all APPUiO Cloud services, protected with Two-Factor Authentication (2FA).
+* Verfügbar in verschiedenen Infrastructure as a Service (IaaS)-Anbietern, was echte Multi-Cloud-Bereitstellungen ermöglicht: Möchtest du einen Cluster in Zürich für die Produktion und einen anderen für Entwicklung und Tests bei einem anderen Anbieter in Genf verwenden? Überhaupt kein Problem.
+* Du bezahlst nur für das, was du tatsächlich nutzt; Du nutzt deine Pods (Container) nicht oft? Keine Sorge, für diese Leerlaufzeiten brauchen Sie nicht zu bezahlen.
+* Einfache Anmeldung: Erstelle ein Konto, gib deine Kreditkartendaten ein, und der Zugang ist sofort einsatzbereit.
+* Vollständige Selbstverwaltung über die Kubernetes-API: Erstelle zum Beispiel selbst neue Namespaces mit der oc/kubectl-CLI oder als Teil deiner CI/CD-Pipeline für Feature-Branch-Bereitstellungen.
+* Kollaborationsfunktionen inklusive: Erstelle eine Organisation, unterteile sie in Teams und lade deine Entwickler zu einem oder mehreren Projekten ein.
+* Einmalige Anmeldung bei allen APPUiO Cloud-Diensten, geschützt durch Zwei-Faktor-Authentifizierung (2FA).
 
-More information for a technically-savvy audience:
+Mehr Informationen für ein technisch versiertes Publikum:
 
-* Based on the latest Red Hat [OpenShift Container Platform 4](https://www.redhat.com/en/technologies/cloud-computing/openshift) release.
+* Basiert auf der neuesten Version von Red Hat [OpenShift Container Platform 4](https://www.redhat.com/en/technologies/cloud-computing/openshift).
 * Powered by [Project Syn](https://syn.tools/).
-* Persistent Storage courtesy of [Rook](https://rook.io/), in both RWO and RWX modes.
-* Backups powered by [K8up](https://k8up.io/), VSHN’s own Kubernetes Backup Operator.
+* Persistent Storage mit freundlicher Genehmigung von [Rook](https://rook.io/), sowohl im RWO- als auch im RWX-Modus.
+* Backups mit [K8up](https://k8up.io/), VSHNs eigenem Kubernetes Backup Operator.
 
-## Who is APPUiO Cloud for?
+## Für wen ist APPUiO Cloud?
 
-We designed APPUiO Cloud as a fast, cost-effective solution for DevOps teams needing immediate and affordable access to an OpenShift 4 project, without having to care about the installation and maintenance of a full OpenShift 4 cluster. It suits the needs of DevOps and IT teams in various industries:
+Wir haben APPUiO Cloud als schnelle, kostengünstige Lösung für DevOps-Teams entwickelt, die sofortigen und erschwinglichen Zugang zu einem OpenShift 4-Projekt benötigen, ohne sich um die Installation und Wartung eines vollständigen OpenShift 4-Clusters kümmern zu müssen. Sie eignet sich für die Bedürfnisse von DevOps- und IT-Teams in verschiedenen Branchen:
 
-* Startups in industries such as Fintech, healthcare, social media, and others.
-* Training companies teaching Kubernetes or Cloud Native concepts to their students.
-* Independent DevOps engineers.
-* Freelance Cloud Native app developers.
+* Startups in Branchen wie Fintech, Gesundheitswesen, soziale Medien und anderen.
+* Schulungsunternehmen, die ihren Studenten Kubernetes- oder Cloud-Native-Konzepte beibringen.
+* Unabhängige DevOps-Ingenieure.
+* Freiberufliche Entwickler von Cloud-Native-Anwendungen.
 
-APPUiO Cloud provides users in these groups with a simple, secure, ready-to-use OpenShift 4 project, fully configured with the most convenient defaults.
+APPUiO Cloud bietet den Nutzern dieser Gruppen ein einfaches, sicheres und sofort einsatzbereites OpenShift 4-Projekt, das vollständig mit den bequemsten Standardeinstellungen konfiguriert ist.
 
-## Interested?
+## Interessiert?
 
-APPUiO Cloud is being developed in the open. You can read more about it in our [products website](https://products.docs.vshn.ch/products/appuio/cloud/index.html), and we are going to publish more news in this blog as we move forward with its development.
+APPUiO Cloud wird offen entwickelt. Sie können mehr darüber auf unserer [Produkt-Website] (https://products.docs.vshn.ch/products/appuio/cloud/index.html) lesen, und wir werden weitere Neuigkeiten in diesem Blog veröffentlichen, sobald wir mit der Entwicklung vorankommen.
 
-Many pieces of APPUiO Cloud are already open source, including the work-in-progress system design, available at our [Knowledge Base](https://kb.vshn.ch/appuio-cloud/) and on GitHub, through our [documentation](https://github.com/appuio/appuio-io-docs) and the Project Syn [APPUiO Cloud Commodore Component](https://github.com/appuio/component-appuio-cloud).
+Viele Teile von APPUiO Cloud sind bereits quelloffen, einschließlich des in Arbeit befindlichen Systemdesigns, das in unserer [Knowledge Base](https://kb.vshn.ch/appuio-cloud/) und auf GitHub, über unsere [Dokumentation](https://github.com/appuio/appuio-io-docs) und das Projekt Syn [APPUiO Cloud Commodore Component](https://github.com/appuio/component-appuio-cloud) verfügbar ist.
 
-## Frequently Asked Questions
+## Häufig gestellte Fragen
 
-**When will APPUiO Cloud be available?**\
-We plan to release APPUiO Cloud to selected beta users in October 2021, and to the public in the first quarter of 2022.
+**Wann wird APPUiO Cloud verfügbar sein?**
+Wir planen, APPUiO Cloud im Oktober 2021 für ausgewählte Beta-Nutzer und im ersten Quartal 2022 für die Öffentlichkeit freizugeben.
 
-**What zones will be available with APPUiO Cloud?**\
-The first zone will be running at [cloudscale.ch](http://cloudscale.ch), the second one will be at [Exoscale](https://www.exoscale.com/), but more will follow shortly after. Stay tuned for updates!
+**Welche Zonen werden mit APPUiO Cloud verfügbar sein?**
+Die erste Zone wird auf [cloudscale.ch] (http://cloudscale.ch) laufen, die zweite auf [Exoscale] (https://www.exoscale.com/), aber weitere werden in Kürze folgen. Bleibe dran für Updates!
 
-**How much will APPUiO Cloud cost?**\
-You only pay for what you actually use (metered billing). There will be a price per memory used by your workload. Exact pricing will be announced soon.
+**Wie viel wird APPUiO Cloud kosten?**.
+Du zahlst nur für das, was du tatsächlich nutzt (metered billing). Es wird einen Preis pro Speicherplatz geben, der von deiner Arbeitslast genutzt wird. Die genauen Preise werden bald bekannt gegeben.
 
-**What support will be available for APPUiO Cloud?**\
-APPUiO Cloud customers will be able to use the [APPUiO Cloud forums](https://github.com/appuio/appuio-cloud-community/discussions) for help and support. A full documentation suite will also be provided, with all required information to run your applications on APPUiO Cloud quickly and conveniently.
+**Welchen Support wird es für APPUiO Cloud geben?**
+APPUiO Cloud-Kunden können die [APPUiO Cloud-Foren] (https://github.com/appuio/appuio-cloud-community/discussions) für Hilfe und Support nutzen. Außerdem wird eine vollständige Dokumentation mit allen erforderlichen Informationen zur Verfügung gestellt, um Ihre Anwendungen auf APPUiO Cloud schnell und bequem zu betreiben.
 
-**How do I backup my data on APPUiO Cloud?**\
-Our K8up backup operator can backup data in your PVCs to any restic compatible storage, such as AWS S3, Minio, and more.
+**Wie kann ich meine Daten in der APPUiO Cloud sichern?
+Unser K8up-Backup-Operator kann die Daten in Ihren PVCs auf einem beliebigen Restic-kompatiblen Speicher, wie AWS S3, Minio und anderen, sichern.
 
-**I am a current APPUiO Public user, do I have to migrate to APPUiO Cloud?**\
-Yes. We will help you migrate your workloads either to an APPUiO Managed or Self-Managed cluster, or to the new APPUiO Cloud.
+**Ich bin ein aktueller APPUiO Public-Nutzer, muss ich zu APPUiO Cloud migrieren?**\
+Ja. Wir unterstützen Sie bei der Migration Ihrer Workloads entweder auf einen APPUiO Managed oder Self-Managed Cluster oder auf die neue APPUiO Cloud.
 
-**How do we migrate?**\
-A comprehensive documentation for the migration will be made available, and we offer support packages for migration help.
+**Wie wird migriert?**
+Es wird eine umfassende Dokumentation für die Migration zur Verfügung gestellt, und wir bieten Support-Pakete für die Migration an.
 
-**Am I able to deploy my apps with the oc OpenShift 4 command line client on APPUiO Cloud?**\
-Yes, you will be able to login and operate on your OpenShift 4 project using any standard tool compatible with OpenShift 4.
+**Kann ich meine Anwendungen mit dem oc OpenShift 4 Kommandozeilen-Client auf der APPUiO Cloud bereitstellen?**
+Ja, du kannst dich anmelden und dein OpenShift 4-Projekt mit jedem Standardtool, das mit OpenShift 4 kompatibel ist, bearbeiten.
 
-**I am interested in APPUiO Cloud. Where do I sign up?**\
-Enter your e-mail in the form below, and we will contact you as soon as the registration for APPUiO Cloud opens. Thanks for your support!
+**Ich bin an APPUiO Cloud interessiert. Wo kann ich mich anmelden?**.
+Gib deine E-Mail-Adresse in [dieses Formular](https://share.hsforms.com/1Hfs9Dm93S_2iq4Ul61jR6A48awa) ein, und wir werden dich kontaktieren, sobald die Registrierung für APPUiO Cloud geöffnet wird. Vielen Dank für deine Unterstützung!
