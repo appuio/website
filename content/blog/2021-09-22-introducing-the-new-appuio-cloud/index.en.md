@@ -1,4 +1,5 @@
 ---
+title: Introducing The New APPUiO Cloud
 date: 2021-09-22
 featured_image: appuio_cloud_230921.png
 summary: We are thrilled to announce APPUiO Cloud, the new member of the APPUiO
