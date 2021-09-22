@@ -1,6 +1,6 @@
 ---
 title: "Wir stellen vor: Das neue APPUiO Cloud"
-date: 2021-09-23
+date: 2021-09-21
 featured_image: appuio_cloud_230921.png
 summary: Wir freuen uns, APPUiO Cloud, das neue Mitglied der
   APPUiO-Produktfamilie, ankündigen zu können. APPUiO Cloud ist der Nachfolger

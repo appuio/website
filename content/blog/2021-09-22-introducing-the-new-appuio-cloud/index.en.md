@@ -1,5 +1,5 @@
 ---
-date: 2021-09-23
+date: 2021-09-21
 featured_image: appuio_cloud_230921.png
 summary: We are thrilled to announce APPUiO Cloud, the new member of the APPUiO
   family of products. APPUiO Cloud is the heir to the successful APPUiO Public
