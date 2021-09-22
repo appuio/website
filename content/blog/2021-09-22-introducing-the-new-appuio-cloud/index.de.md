@@ -50,7 +50,7 @@ Viele Teile von APPUiO Cloud sind bereits quelloffen, einschliesslich des in Arb
 Wir planen, APPUiO Cloud im Oktober 2021 für ausgewählte Beta-Nutzer und im ersten Quartal 2022 für die Öffentlichkeit freizugeben.
 
 **Welche Zonen werden mit APPUiO Cloud verfügbar sein?**\
-Die erste Zone wird auf [cloudscale.ch] (http://cloudscale.ch) laufen, die zweite auf [Exoscale] (https://www.exoscale.com/), weitere werden in Kürze folgen. Bleibe dran für Updates!
+Die erste Zone wird auf [cloudscale.ch](http://cloudscale.ch) laufen, die zweite auf [Exoscale](https://www.exoscale.com/), weitere werden in Kürze folgen. Bleibe dran für Updates!
 
 **Wie viel wird APPUiO Cloud kosten?**\
 Du zahlst nur für das, was du tatsächlich nutzt (metered billing). Es wird einen Preis pro Speicherplatz geben, der von deiner Arbeitslast genutzt wird. Die genauen Preise werden bald bekannt gegeben.
@@ -62,7 +62,7 @@ APPUiO Cloud-Kunden können die [APPUiO Cloud-Foren](https://github.com/appuio/a
 Unser K8up-Backup-Operator kann die Daten in Ihren PVCs auf einem beliebigen Restic-kompatiblen Speicher, wie AWS S3, Minio und anderen, sichern.
 
 **Ich bin ein aktueller APPUiO Public-Nutzer, muss ich zu APPUiO Cloud migrieren?**\
-Ja. Wir unterstützen Sie bei der Migration Ihrer Workloads entweder auf einen APPUiO Managed oder Self-Managed Cluster oder auf die neue APPUiO Cloud.
+Ja. Wir unterstützen dich bei der Migration Ihrer Workloads entweder auf einen APPUiO Managed oder Self-Managed Cluster oder auf die neue APPUiO Cloud.
 
 **Wie wird migriert?**\
 Es wird eine umfassende Dokumentation für die Migration zur Verfügung gestellt, und wir bieten Support-Pakete für die Migration an.
