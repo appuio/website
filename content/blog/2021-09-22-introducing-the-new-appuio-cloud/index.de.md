@@ -14,7 +14,7 @@ APPUiO Cloud ist eine komplette Überarbeitung von APPUiO Public und bietet ein 
 APPUiO Cloud wird die folgenden Funktionen haben:
 
 * Verfügbar in verschiedenen Infrastructure as a Service (IaaS)-Anbietern, was echte Multi-Cloud-Bereitstellungen ermöglicht: Möchtest du einen Cluster in Zürich für die Produktion und einen anderen für Entwicklung und Tests bei einem anderen Anbieter in Genf verwenden? Überhaupt kein Problem.
-* Du bezahlst nur für das, was du tatsächlich nutzt; Du nutzt deine Pods (Container) nicht oft? Keine Sorge, für diese Leerlaufzeiten brauchen Sie nicht zu bezahlen.
+* Du bezahlst nur für das, was du tatsächlich nutzt; Du nutzt deine Pods (Container) nicht oft? Keine Sorge, für diese Leerlaufzeiten brauchst du nichts zu bezahlen.
 * Einfache Anmeldung: Erstelle ein Konto, gib deine Kreditkartendaten ein, und der Zugang ist sofort einsatzbereit.
 * Vollständige Selbstverwaltung über die Kubernetes-API: Erstelle zum Beispiel selbst neue Namespaces mit der oc/kubectl-CLI oder als Teil deiner CI/CD-Pipeline für Feature-Branch-Bereitstellungen.
 * Kollaborationsfunktionen inklusive: Erstelle eine Organisation, unterteile sie in Teams und lade deine Entwickler zu einem oder mehreren Projekten ein.
@@ -24,7 +24,7 @@ Mehr Informationen für ein technisch versiertes Publikum:
 
 * Basiert auf der neuesten Version von Red Hat [OpenShift Container Platform 4](https://www.redhat.com/en/technologies/cloud-computing/openshift).
 * Powered by [Project Syn](https://syn.tools/).
-* Persistent Storage mit freundlicher Genehmigung von [Rook](https://rook.io/), sowohl im RWO- als auch im RWX-Modus.
+* Persistent Storage mit [Rook](https://rook.io/), sowohl im RWO- als auch im RWX-Modus.
 * Backups mit [K8up](https://k8up.io/), VSHNs eigenem Kubernetes Backup Operator.
 
 ## Für wen ist APPUiO Cloud?
@@ -40,7 +40,7 @@ APPUiO Cloud bietet den Nutzern dieser Gruppen ein einfaches, sicheres und sofor
 
 ## Interessiert?
 
-APPUiO Cloud wird offen entwickelt. Sie können mehr darüber auf unserer [Produkt-Website](https://products.docs.vshn.ch/products/appuio/cloud/index.html) lesen, und wir werden weitere Neuigkeiten in diesem Blog veröffentlichen, sobald wir mit der Entwicklung vorankommen.
+APPUiO Cloud wird offen entwickelt. Du kannst mehr darüber auf unserer [Produkt-Website](https://products.docs.vshn.ch/products/appuio/cloud/index.html) lesen, und wir werden weitere Neuigkeiten in diesem Blog veröffentlichen, sobald wir mit der Entwicklung vorankommen.
 
 Viele Teile von APPUiO Cloud sind bereits quelloffen, einschliesslich des in Arbeit befindlichen Systemdesigns, das in unserer [Knowledge Base](https://kb.vshn.ch/appuio-cloud/) und auf GitHub, über unsere [Dokumentation](https://github.com/appuio/appuio-io-docs) und das Projekt Syn [APPUiO Cloud Commodore Component](https://github.com/appuio/component-appuio-cloud) verfügbar ist.
 
