@@ -20,7 +20,7 @@ Im Anschluss an die beiden Techlabs bieten die Trainings von acend eine weitere 
 
 {{</section>}}
 
-{{<section>}}
+{{<section class="cyan lab-content">}}
 
 ## Das Container-Trainingsangebot von acend:
 
