@@ -22,46 +22,43 @@ Im Anschluss an die beiden Techlabs bieten die Trainings von acend eine weitere 
 
 {{<section>}}
 
-### Das Container-Trainingsangebot von acend:
+## Das Container-Trainingsangebot von acend:
 
 Die Trainings kombinieren theoretische Inputs mit praxisnahen Hands-on Labs. 
 
-#### 2 tägiges Container & Kubernetes Training
+-
+  ### 2 tägiges Container & Kubernetes Training
 
-##### Trainingsziele
-* Den Einstieg in eine moderne Technologie finden
-* Konzepte von Containern und Kubernetes verstehen
-* Applikationen auf Kubernetes deployen 
+  ##### Trainingsziele
+   * Den Einstieg in eine moderne Technologie finden
+   * Konzepte von Containern und Kubernetes verstehen
+   * Applikationen auf Kubernetes deployen 
 
-##### Inhalte
+Weitere Informationen und die detaillierten Trainingsinhalte findest du [hier](https://acend.ch/trainings/container-kubernetes-basic/). 
 
-Weitere Informationen und die detailierten Trainingsinhalte findest du [hier](https://acend.ch/trainings/container-kubernetes-basic/). 
+-
+### 2 tägiges Container & OpenShift Training
 
+  #### Trainingsziele
+   * Den Einstieg in eine moderne Technologie finden
+   * Konzepte von Containern und OpenShift verstehen
+   * Applikationen auf OpenShift deployen 
 
-#### 2 tägiges Container & OpenShift Training
-##### Trainingsziele
-* Den Einstieg in eine moderne Technologie finden
-* Konzepte von Containern und OpenShift verstehen
-* Applikationen auf OpenShift deployen 
+Weitere Informationen und die detaillierten Trainingsinhalte findest du [hier](https://acend.ch/trainings/openshift/). 
 
-##### Inhalte
+-
+### 2 tägiges OpenShift 4 Operations Training
 
-Weitere Informationen und die detailierten Trainingsinhalte findest du [hier](https://acend.ch/trainings/openshift/). 
+  #### Trainingsziele
+   * OpenShift 4 Architektur und Komponenten kennenlernen
+   * Den eigenen OpenShift 4 Cluster installieren
+   * Unterbruchsfreie Day 2-Operations Tasks meistern
+   * Monitoring und Troubleshooting Know-how vertiefen 
 
+Weitere Informationen und die detaillierten Trainingsinhalte findest du [hier](https://acend.ch/trainings/openshift4ops/).
 
-#### 2 tägiges OpenShift 4 Operations Training
-##### Trainingsziele
-* OpenShift 4 Architektur und Komponenten kennenlernen
-* Den eigenen OpenShift 4 Cluster installieren
-* Unterbruchsfreie Day 2-Operations Tasks meistern
-* Monitoring und Troubleshooting Know-how vertiefen 
-
-##### Inhalte
-
-Weitere Informationen und die detaillierten Trainingsinhalte findest du [hier](https://acend.ch/trainings/openshift4ops/).  
+{{</section>}}  
 
 {{<section>}}
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-
 <a href="https://acend.ch/" target="_blank" class="button is-primary is-fullwidth mw-400">acend.ch</a>
 {{</section>}}
