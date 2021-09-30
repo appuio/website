@@ -26,7 +26,7 @@ Following on from the two Techlabs, acend's training courses offer a further in-
 
 The trainings combine theoretical inputs with hands-on labs. 
 
-### 2-day Container & Kubernetes Training.
+### 2 day Container & Kubernetes Training.
 
   ##### Training goals
 
