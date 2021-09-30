@@ -46,7 +46,7 @@ The trainings combine theoretical inputs with hands-on labs.
   * Understand concepts of containers and OpenShift
   * Deploy applications on OpenShift
 
-  [More information](https://acend.ch/trainings/openshift/)
+  [Container & OpehShift](https://acend.ch/trainings/openshift/)
 
 * ##### 2 day
   ### OpenShift 4 Operations training course
@@ -58,7 +58,7 @@ The trainings combine theoretical inputs with hands-on labs.
   * Master Day 2 operations tasks without interruption
   * Deepen monitoring and troubleshooting know-how
 
-  [More information](https://acend.ch/trainings/openshift4ops/)
+  [OpenShift 4 & Operations Training](https://acend.ch/trainings/openshift4ops/)
 
 {{</section>}}
 
