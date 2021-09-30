@@ -26,7 +26,8 @@ Following on from the two Techlabs, acend's training courses offer a further in-
 
 The trainings combine theoretical inputs with hands-on labs.
 
-* ##### 2 day
+* ##### 2 days
+
   ### Container & Kubernetes Training.
 
   #### Training goals
@@ -36,8 +37,8 @@ The trainings combine theoretical inputs with hands-on labs.
   * Deploy applications on Kubernetes
 
   [More information](https://acend.ch/trainings/container-kubernetes-basic/)
+* ##### 2 days
 
-* ##### 2 day
   ### Container & OpenShift Training
 
   #### Training Objectives
@@ -47,8 +48,8 @@ The trainings combine theoretical inputs with hands-on labs.
   * Deploy applications on OpenShift
 
   [Container & OpehShift](https://acend.ch/trainings/openshift/)
+* ##### 2 days
 
-* ##### 2 day
   ### OpenShift 4 Operations training course
 
   #### Training Objectives
