@@ -3,10 +3,10 @@ title: acend
 ---
 {{<section class="techlab-hero" header="images/header.svg">}}
 
-Damit das ganze Potential und alle Vorteile einer Container Plattform ausgeschöpft werden, ist das Wissen auf der Anwender-Seite der Schlüssel zum Erfolg. Aus diesem Grund hat APPUiO sein Partner-Ökosystem mit der Firma acend erweitert.
+In order to exploit the full potential and benefits of a container platform, knowledge on the user side is the key to success. For this reason, APPUiO has expanded its partner ecosystem with the company acend.
 
-acend begleitet als Wissensplattform unter dem Motto «Experience Knowledge» Engineers und ihre Unternehmen in technologisches Neuland. Die Trainings rund um Cloud Native Technologien stellen den Wissensaustausch und das gemeinsame Lernen ins Zentrum. Die Schulungen bestehen aus abwechslungsreicher Theorie und praxisnahen Hands-on Labs. Sie finden in Bern, Zürich oder remote statt und werden von IT-Pionieren durchgeführt.\
-Die Trainer arbeiten täglich bei unterschiedlichen Kunden mit den jeweiligen Technologien. Sie arbeiten hauptberuflich als Consultants bei Parnterfirmen wie z.B. Puzzle ITC.
+As a knowledge platform, acend accompanies engineers and their companies into new technological territory under the motto "Experience Knowledge". The trainings around cloud native technologies focus on knowledge exchange and joint learning. The trainings consist of varied theory and hands-on labs. They take place in Bern, Zurich or remotely and are conducted by IT pioneers.
+The trainers work daily at different customers with the respective technologies. They work full-time as consultants at partner companies such as Puzzle ITC.
 
 {{</section>}}
 
@@ -14,48 +14,47 @@ Die Trainer arbeiten täglich bei unterschiedlichen Kunden mit den jeweiligen Te
 
 ### Vertiefung der APPUiO Techlabs
 
-Die beiden gratis Techlabs von APPUiO gelten als ‘Kickstart’ in die Welt der Container. Mit dem OpenShift Techlab erhält man einen Einblick in die Möglichkeiten von Containern und OpenShift. Das darauf aufbauende AMM Techlab zeigt auf, wie sich der IT-Alltag aus Sicht der Entwickler und Entwicklerinnen mit Containern positiv verändert.
+The two free Techlabs from APPUiO are considered the 'kickstart' into the world of containers. The OpenShift Techlab provides an insight into the possibilities of containers and OpenShift. The AMM Techlab, which builds on this, shows how everyday IT life changes positively with containers from the point of view of developers.
 
-Im Anschluss an die beiden Techlabs bieten die Trainings von acend eine weitere Vertiefung in Cloud Native Technologien. Unterschieden wird zwischen öffentlichen Trainings für Einzelpersonen sowie dedizierten Trainings für ganze Teams oder Unternehmen.
+Following on from the two Techlabs, acend's training courses offer a further in-depth look at Cloud Native technologies. A distinction is made between public trainings for individuals and dedicated trainings for entire teams or companies.
 
 {{</section>}}
 
 {{<section class="cyan lab-content">}}
 
-## Das Container-Trainingsangebot von acend:
+## The container training offer from acend:
 
-Die Trainings kombinieren theoretische Inputs mit praxisnahen Hands-on Labs. 
+The trainings combine theoretical inputs with hands-on labs. 
 
-* ### 2 tägiges Container & Kubernetes Training
+### 2-day Container & Kubernetes Training.
 
-  ##### Trainingsziele
+  ##### Training goals
 
-  * Den Einstieg in eine moderne Technologie finden
-  * Konzepte von Containern und Kubernetes verstehen
-  * Applikationen auf Kubernetes deployen
+  * Getting started with a modern technology
+  * Understand concepts of containers and Kubernetes
+  * Deploy applications on Kubernetes
+For more information and detailed training content on [Container & Kubernetes Training](https://acend.ch/trainings/container-kubernetes-basic/), please visit acend's homepage. 
+
+### 2 day Container & OpenShift Training
+
+  #### Training Objectives
+
+  * Get started with a modern technology
+  * Understand concepts of containers and OpenShift
+  * Deploy applications on OpenShift 
     
-Weitere Informationen und die detaillierten Trainingsinhalte findest du [hier](https://acend.ch/trainings/container-kubernetes-basic/). 
+More information and the detailed training content for [Container & OpenShift Training](https://acend.ch/trainings/openshift/). 
 
-* ### 2 tägiges Container & OpenShift Training
+### 2 day OpenShift 4 Operations training course
 
-  #### Trainingsziele
+  #### Training Objectives
 
-  * Den Einstieg in eine moderne Technologie finden
-  * Konzepte von Containern und OpenShift verstehen
-  * Applikationen auf OpenShift deployen 
+  * Learn OpenShift 4 architecture and components
+  * Install your own OpenShift 4 cluster
+  * Master Day 2 operations tasks without interruption
+  * Deepen monitoring and troubleshooting know-how 
     
-Weitere Informationen und die detaillierten Trainingsinhalte findest du [hier](https://acend.ch/trainings/openshift/). 
-
-* ### 2 tägiges OpenShift 4 Operations Training
-
-  #### Trainingsziele
-
-  * OpenShift 4 Architektur und Komponenten kennenlernen
-  * Den eigenen OpenShift 4 Cluster installieren
-  * Unterbruchsfreie Day 2-Operations Tasks meistern
-  * Monitoring und Troubleshooting Know-how vertiefen 
-    
-Weitere Informationen und die detaillierten Trainingsinhalte findest du [hier](https://acend.ch/trainings/openshift4ops/).
+More information and the detailed training content for the [OpenShift 4 Operations Training](https://acend.ch/trainings/openshift4ops/).
 
 {{</section>}}  
 
