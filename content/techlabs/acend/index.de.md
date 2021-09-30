@@ -5,8 +5,8 @@ title: acend
 
 Damit das ganze Potential und alle Vorteile einer Container Plattform ausgeschöpft werden, ist das Wissen auf der Anwender-Seite der Schlüssel zum Erfolg. Aus diesem Grund hat APPUiO sein Partner-Ökosystem mit der Firma acend erweitert.
 
-acend begleitet als Wissensplattform unter dem Motto «Experience Knowledge» Engineers und ihre Unternehmen in technologisches Neuland. Die Trainings rund um Cloud Native Technologien stellen den Wissensaustausch und das gemeinsame Lernen ins Zentrum. Die Schulungen bestehen aus abwechslungsreicher Theorie und praxisnahen Hands-on Labs. Sie finden in Bern, Zürich oder remote statt und werden von IT-Pionieren durchgeführt.\
-Die Trainer arbeiten täglich bei unterschiedlichen Kunden mit den jeweiligen Technologien. Sie arbeiten hauptberuflich als Consultants bei Parnterfirmen wie z.B. Puzzle ITC.
+acend begleitet als Wissensplattform unter dem Motto «Experience Knowledge» Engineers und ihre Unternehmen in technologisches Neuland. Die Trainings rund um Cloud Native Technologien stellen den Wissensaustausch und das gemeinsame Lernen ins Zentrum. Die Schulungen bestehen aus abwechslungsreicher Theorie und praxisnahen Hands-on Labs. Sie finden in Bern, Zürich oder remote statt und werden von IT-Pionieren durchgeführt.
+Die Trainer arbeiten täglich bei unterschiedlichen Kunden mit den jeweiligen Technologien. Sie arbeiten hauptberuflich als Consultants bei Partnerfirmen wie z.B. Puzzle ITC.
 
 {{</section>}}
 
@@ -34,7 +34,7 @@ Die Trainings kombinieren theoretische Inputs mit praxisnahen Hands-on Labs.
   * Konzepte von Containern und Kubernetes verstehen
   * Applikationen auf Kubernetes deployen
     
-Weitere Informationen und die detaillierten Trainingsinhalte findest du [hier](https://acend.ch/trainings/container-kubernetes-basic/). 
+Weitere Informationen und die detaillierten Trainingsinhalte zum [Container & Kubernetes Training](https://acend.ch/trainings/container-kubernetes-basic/). 
 
 * ### 2 tägiges Container & OpenShift Training
 
@@ -44,7 +44,7 @@ Weitere Informationen und die detaillierten Trainingsinhalte findest du [hier](h
   * Konzepte von Containern und OpenShift verstehen
   * Applikationen auf OpenShift deployen 
     
-Weitere Informationen und die detaillierten Trainingsinhalte findest du auf der[hier](https://acend.ch/trainings/openshift/). 
+Weitere Informationen und die detaillierten Trainingsinhalte zum [Container & OpenShift Training](https://acend.ch/trainings/openshift/).  
 
 * ### 2 tägiges OpenShift 4 Operations Training
 
@@ -55,7 +55,7 @@ Weitere Informationen und die detaillierten Trainingsinhalte findest du auf der[
   * Unterbruchsfreie Day 2-Operations Tasks meistern
   * Monitoring und Troubleshooting Know-how vertiefen 
     
-Weitere Informationen und die detaillierten Trainingsinhalte findest du [hier](https://acend.ch/trainings/openshift4ops/).
+Weitere Informationen und die detaillierten Trainingsinhalte zum [OpenShift 4 Operations Training](https://acend.ch/trainings/openshift4ops/).
 
 {{</section>}}  
 
