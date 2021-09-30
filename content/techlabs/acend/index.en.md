@@ -20,45 +20,50 @@ Following on from the two Techlabs, acend's training courses offer a further in-
 
 {{</section>}}
 
-{{<section class="cyan lab-content">}}
+{{<section class="cyan lab-content acend">}}
 
 ## The container training offer from acend:
 
-The trainings combine theoretical inputs with hands-on labs. 
+The trainings combine theoretical inputs with hands-on labs.
 
-### 2 day Container & Kubernetes Training.
+* ##### 2 day
+  ### Container & Kubernetes Training.
 
-  ##### Training goals
+  #### Training goals
 
   * Getting started with a modern technology
   * Understand concepts of containers and Kubernetes
   * Deploy applications on Kubernetes
 
-More information and detailed training content for the [Container &amp; Kubernetes Training.](https://acend.ch/trainings/container-kubernetes-basic/) 
+  [More information](https://acend.ch/trainings/container-kubernetes-basic/)
 
-### 2 day Container & OpenShift Training
+* ##### 2 day
+  ### Container & OpenShift Training
 
   #### Training Objectives
 
   * Get started with a modern technology
   * Understand concepts of containers and OpenShift
-  * Deploy applications on OpenShift 
-    
-More information and the detailed training content for the [Container &amp; OpenShift Training.](https://acend.ch/trainings/openshift/) 
+  * Deploy applications on OpenShift
 
-### 2 day OpenShift 4 Operations training course
+  [More information](https://acend.ch/trainings/openshift/)
+
+* ##### 2 day
+  ### OpenShift 4 Operations training course
 
   #### Training Objectives
 
   * Learn OpenShift 4 architecture and components
   * Install your own OpenShift 4 cluster
   * Master Day 2 operations tasks without interruption
-  * Deepen monitoring and troubleshooting know-how 
-    
-More information and the detailed training content for the [OpenShift 4 Operations Training.](https://acend.ch/trainings/openshift4ops/)
+  * Deepen monitoring and troubleshooting know-how
 
-{{</section>}}  
+  [More information](https://acend.ch/trainings/openshift4ops/)
 
-{{<section>}}
-<a href="https://acend.ch/" target="_blank" class="button is-primary is-fullwidth mw-400">acend.ch</a>
+{{</section>}}
+
+{{<section class="has-text-centered">}}
+
+[![acend](acend-logo.svg "acend")](https://acend.ch/)
+
 {{</section>}}

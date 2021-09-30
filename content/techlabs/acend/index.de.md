@@ -20,45 +20,50 @@ Im Anschluss an die beiden Techlabs bieten die Trainings von acend eine weitere 
 
 {{</section>}}
 
-{{<section class="cyan lab-content">}}
+{{<section class="cyan lab-content acend">}}
 
 ## Das Container-Trainingsangebot von acend:
 
-Die Trainings kombinieren theoretische Inputs mit praxisnahen Hands-on Labs. 
+Die Trainings kombinieren theoretische Inputs mit praxisnahen Hands-on Labs.
 
-* ### 2 tägiges Container & Kubernetes Training
+* ##### 2 Tage
+  ### Container & Kubernetes Training
 
-  ##### Trainingsziele
+  #### Trainingsziele
 
   * Den Einstieg in eine moderne Technologie finden
   * Konzepte von Containern und Kubernetes verstehen
   * Applikationen auf Kubernetes deployen
 
-Weitere Informationen und die detaillierten Trainingsinhalte zum [Container &amp; Kubernetes Training.](https://acend.ch/trainings/container-kubernetes-basic/) 
+  [Weitere Informationen](https://acend.ch/trainings/container-kubernetes-basic/)
 
-* ### 2 tägiges Container & OpenShift Training
+* ##### 2 Tage
+  ### Container & OpenShift Training
 
   #### Trainingsziele
 
   * Den Einstieg in eine moderne Technologie finden
   * Konzepte von Containern und OpenShift verstehen
-  * Applikationen auf OpenShift deployen 
-    
-Weitere Informationen und die detaillierten Trainingsinhalte zum [Container &amp; OpenShift Training.](https://acend.ch/trainings/openshift/)  
+  * Applikationen auf OpenShift deployen
 
-* ### 2 tägiges OpenShift 4 Operations Training
+  [Weitere Informationen](https://acend.ch/trainings/openshift/)
+
+* ##### 2 Tage
+  ### OpenShift 4 Operations Training
 
   #### Trainingsziele
 
   * OpenShift 4 Architektur und Komponenten kennenlernen
   * Den eigenen OpenShift 4 Cluster installieren
   * Unterbruchsfreie Day 2-Operations Tasks meistern
-  * Monitoring und Troubleshooting Know-how vertiefen 
-    
-Weitere Informationen und die detaillierten Trainingsinhalte zum [OpenShift 4 Operations Training.](https://acend.ch/trainings/openshift4ops/)
+  * Monitoring und Troubleshooting Know-how vertiefen
 
-{{</section>}}  
+  [Weitere Informationen](https://acend.ch/trainings/openshift4ops/)
 
-{{<section>}}
-<a href="https://acend.ch/" target="_blank" class="button is-primary is-fullwidth mw-400">acend.ch</a>
+{{</section>}}
+
+{{<section class="has-text-centered">}}
+
+[![acend](acend-logo.svg "acend")](https://acend.ch/)
+
 {{</section>}}

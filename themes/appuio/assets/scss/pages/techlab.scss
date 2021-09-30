@@ -36,3 +36,33 @@ section.lab-content {
     color: #000;
   }
 }
+
+// acend
+$acend: #800D4B;
+section.lab-content.acend {
+  .container > ul > li {
+    @extend .py-3;
+    h5 {
+      @extend .my-0;
+      @extend .tag;
+    }
+    h5+h3 {
+      @extend .mt-2;
+    }
+    ul {
+      @extend .mb-4;
+      @extend .is-flex-grow-1;
+    }
+    a {
+      @extend .mt-4;
+      @extend .button;
+      @extend .is-dark;
+      @extend .is-rounded;
+      @extend .is-fullwidth;
+      background: $acend !important;
+      &:hover {
+        background: darken($acend, 10%) !important;
+      }
+    }
+  }
+}
