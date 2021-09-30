@@ -12,7 +12,7 @@ The trainers work daily at different customers with the respective technologies.
 
 {{<section class="darkblue">}}
 
-### Vertiefung der APPUiO Techlabs
+### Deepening of the APPUiO Techlabs
 
 The two free Techlabs from APPUiO are considered the 'kickstart' into the world of containers. The OpenShift Techlab provides an insight into the possibilities of containers and OpenShift. The AMM Techlab, which builds on this, shows how everyday IT life changes positively with containers from the point of view of developers.
 
