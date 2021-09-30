@@ -33,7 +33,8 @@ The trainings combine theoretical inputs with hands-on labs.
   * Getting started with a modern technology
   * Understand concepts of containers and Kubernetes
   * Deploy applications on Kubernetes
-For more information and detailed training content on [Container & Kubernetes Training](https://acend.ch/trainings/container-kubernetes-basic/), please visit acend's homepage. 
+
+More information and detailed training content for the [Container & Kubernetes Training.](https://acend.ch/trainings/container-kubernetes-basic/) 
 
 ### 2 day Container & OpenShift Training
 
@@ -43,7 +44,7 @@ For more information and detailed training content on [Container & Kubernetes Tr
   * Understand concepts of containers and OpenShift
   * Deploy applications on OpenShift 
     
-More information and the detailed training content for [Container & OpenShift Training](https://acend.ch/trainings/openshift/). 
+More information and the detailed training content for the [Container & OpenShift Training.](https://acend.ch/trainings/openshift/) 
 
 ### 2 day OpenShift 4 Operations training course
 
@@ -54,7 +55,7 @@ More information and the detailed training content for [Container & OpenShift Tr
   * Master Day 2 operations tasks without interruption
   * Deepen monitoring and troubleshooting know-how 
     
-More information and the detailed training content for the [OpenShift 4 Operations Training](https://acend.ch/trainings/openshift4ops/).
+More information and the detailed training content for the [OpenShift 4 Operations Training.](https://acend.ch/trainings/openshift4ops/)
 
 {{</section>}}  
 
