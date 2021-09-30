@@ -44,7 +44,7 @@ Weitere Informationen und die detaillierten Trainingsinhalte findest du [hier](h
   * Konzepte von Containern und OpenShift verstehen
   * Applikationen auf OpenShift deployen 
     
-Weitere Informationen und die detaillierten Trainingsinhalte findest du [hier](https://acend.ch/trainings/openshift/). 
+Weitere Informationen und die detaillierten Trainingsinhalte findest du auf der[hier](https://acend.ch/trainings/openshift/). 
 
 * ### 2 tägiges OpenShift 4 Operations Training
 
