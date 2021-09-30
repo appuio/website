@@ -375,4 +375,38 @@ document.addEventListener('DOMContentLoaded', () => {
     );
   }
 
+  // ACEND Techlab Animation GSAP
+  if (document.querySelectorAll("#acendtechlab_image").length > 0) {
+    var tlAcend = new TimelineMax({
+      repeat: -1,
+      yoyo: true,
+    });
+
+    tlAcend.add("labelStart");
+    tlAcend.to(
+      ".flower",
+      4,
+      {
+        rotation: 15,
+        yoyo: true,
+        ease: Power1.easeInOut,
+        transformOrigin: "100% 100%",
+        repeat: -1,
+      },
+      0
+    );
+    tlAcend.to(
+      ".clouds",
+      12,
+      {
+        x: 80,
+        yoyo: true,
+        ease: Power1.easeInOut,
+        repeat: -1,
+      },
+      0
+    );
+
+  }
+
 });
