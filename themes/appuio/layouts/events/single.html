@@ -9,6 +9,10 @@
       <img src="{{ $img.RelPermalink }}" alt="post-image" />
     {{ end }}
     <div class="pt-4">{{ .Content }}</div>
+    {{- if .Params.event_link -}}
+      <a href="{{ .Params.event_link }}" class="button is-rounded is-primary is-fullwidth" target="_blank">{{ T "anmelden" }}</a>
+    {{- end -}}
+
   </div>
 </section>
 {{ end }}
