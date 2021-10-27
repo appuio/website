@@ -50,7 +50,7 @@ jobs:
     - run: oc secrets add serviceaccount/default secrets/registry-puzzle-secret --for=pull
 
     - run: |
-        oc process -f manifests/appuio.yml \
+        oc process -f manifests/ \
                    -p IMAGE_TAG=${{ github.sha }} \
                    -p APP_POSTFIX=master \
                    | oc apply -f -
