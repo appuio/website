@@ -6,7 +6,7 @@
   {{ $name := replace $name ".svg" "" }}
   {{ $name := slicestr $name 4 }}
   <div class="column technology-item">
-    <img src="{{ .Permalink }}" alt="{{ .Title }}" />
+    <img src="{{ .RelPermalink }}" alt="{{ .Title }}" />
     <p>{{ $name }}</p>
   </div>
 {{ end }}

@@ -14,7 +14,7 @@
                     <div class="with-team-animation member member-{{$memberId}} {{ if .Params.isClosed }}wiggle{{ else }}open{{ end }}"
                         data-id="{{$memberId}}"
                         data-renderer="svg"
-                        data-animation="{{$animation.Permalink}}">
+                        data-animation="{{$animation.RelPermalink}}">
 
                         <div class="animation mb-2"></div>
                         <button class="button open-container is-dark is-rounded" data-memberid="{{$memberId}}">{{ T "open" }}</button>

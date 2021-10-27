@@ -35,7 +35,7 @@
         {{ $style := resources.Get "scss/main.css.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="{{ $style.Permalink }}">
+        <link rel="stylesheet" href="{{ $style.RelPermalink }}">
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </head>
     <body class="has-navbar-fixed-top has-text-centered {{ .Page.Type }}">
