@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>APPUiO - Swiss Container Platform</title>
+        {{ if .Params.seoTitle }}
+            <title>{{ .Params.seoTitle }}</title>
+            <meta property="og:title" itemprop="name" content="{{ .Params.seoTitle }}">
+            <meta name="twitter:title" content="{{ .Params.seoTitle }}">
+        {{ else }}
+            {{ if .Params.Title }}
+                <title>{{ .Params.Title }} | {{ .Site.Params.title }}</title>
+                <meta property="og:title" itemprop="name" content="{{ .Params.Title }} | {{ .Site.Params.title }}">
+                <meta name="twitter:title" content="{{ .Params.Title }} | {{ .Site.Params.title }}">
+            {{ else }}
+                <title>{{ .Site.Params.title }}</title>
+                <meta property="og:title" itemprop="name" content="{{ .Site.Params.title }}">
+                <meta name="twitter:title" content="{{ .Site.Params.title }}">
+            {{ end }}
+        {{ end }}
         <meta name="description" content="{{ T "metaDescription" }}"/>
         <meta name="keywords" content="{{ T "metaKeywords" }}"/>
         {{ if .Params.canonicalUrl }}
-        <link rel="canonical" href="{{ .Params.canonicalUrl }}">
+            <link rel="canonical" href="{{ .Params.canonicalUrl }}">
+            <meta property="og:url" content="{{ .Params.canonicalUrl }}">
         {{ else }}
-        <link rel="canonical" href="{{ .Permalink }}">
+            <link rel="canonical" href="{{ .Permalink }}">
+            <meta property="og:url" content="{{ .Permalink }}">
         {{ end }}
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="{{ .Site.Params.title }}" />
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="appuio">
+        <meta property="og:locale" content="en_US" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="/images/favicon.png">
         {{ $style := resources.Get "scss/main.css.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
