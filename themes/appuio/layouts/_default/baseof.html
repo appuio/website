@@ -4,6 +4,11 @@
         <title>APPUiO - Swiss Container Platform</title>
         <meta name="description" content="{{ T "metaDescription" }}"/>
         <meta name="keywords" content="{{ T "metaKeywords" }}"/>
+        {{ if .Params.canonicalUrl }}
+        <link rel="canonical" href="{{ .Params.canonicalUrl }}">
+        {{ else }}
+        <link rel="canonical" href="{{ .Permalink }}">
+        {{ end }}
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="/images/favicon.png">
         {{ $style := resources.Get "scss/main.css.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
