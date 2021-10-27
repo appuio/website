@@ -18,7 +18,7 @@ Der Bus («Danke YOKKO») ist bereit, die Reise nach Spreitenbach in die Umwelta
 
 Das Team wartet gespannt auf die Gäste und verleiht dem Stand den letzten Schliff, damit die Teilnehmenden ein optimales APPUiO-Erlebnis geniessen können. Zwei Arcades stehen für die anstehenden Battles bereit. Im Gewinner-Pot liegen Vouchers von APPUiO und [cloudscale.ch](https://www.cloudscale.ch/de/) und eine Lego Saturn V Rakete. Weiteres Spielvergnügen bietet der Retro-Rohrfernseher mit der angeschlossenen Nintendo 64. Auf der gemütlichen Sofaecke lässt es sich verweilen, sich austauschen oder die Präsentationen verfolgen.
 
-Bereits vor den ersten Präsentationen wagen sich einige Teilnehmenden in die Höhle der Arcade-Löwen und wollen den Highscore erreichen. Begeisterung zeigen die Besucher auch für unser [APPUiOli](https://appuio.ch/blog.html#APPUiO%20an%20den%20DevOpsDays%202018). In Gesprächen erfahren sie zudem mehr über APPUiO, die nächsten Etappen und Ziele.
+Bereits vor den ersten Präsentationen wagen sich einige Teilnehmenden in die Höhle der Arcade-Löwen und wollen den Highscore erreichen. Begeisterung zeigen die Besucher auch für unser [APPUiOli](https://www.appuio.ch/blog/2018-05-16-appuio-an-den-devopsdays-2018/). In Gesprächen erfahren sie zudem mehr über APPUiO, die nächsten Etappen und Ziele.
 
 ![DevOps3](DevOps3.JPG)![DevOps4](DevOps4.JPG)![DevOps5](DevOps5.JPG)_Dienstag, 14. Mai, abends_
 
