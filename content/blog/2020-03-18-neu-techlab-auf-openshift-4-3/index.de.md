@@ -16,7 +16,7 @@ Dies wird für alle Beteiligten eine interessante Erfahrung und wir sind gespann
 
 Falls du Fragen zur Migration von OpenShift 3.11 auf 4.3 hast, helfen wir dir gerne weiter oder schätzen wir gemeinsam den Aufwand einer solchen Migration. Meld dich dafür ganz einfach per [Mail](mailto:hello@appuio.ch).
 
-Wenn du dich bereits ein wenig über OpenShift 4 informieren willst, kannst du [diesen Blogpost](https://appuio.ch/blog.html#OpenShift%204) lesen.
+Wenn du dich bereits ein wenig über OpenShift 4 informieren willst, kannst du [diesen Blogpost](https://www.appuio.ch/en/blog/2020-06-16-produktiver-workload-mit-openshift-4/) lesen.
 
 Bleibt alle gesund und "häbet Sorg"!
 

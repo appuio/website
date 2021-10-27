@@ -14,7 +14,7 @@
       {{ end }}
 
       {{ $logo := resources.Get "appuio_logo.svg" }}
-      <img src="{{ $logo.Permalink }}" alt=":homeHeroAlt" class="home-hero-logo" />
+      <img src="{{ $logo.RelPermalink }}" alt=":homeHeroAlt" class="home-hero-logo" />
     </div>
     <div class="container">
       <h1 class="subtitle has-text-white is-3">{{ $headless.Title }}</h1>

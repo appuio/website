@@ -24,7 +24,7 @@
                 {{- if .Params.event_title_link -}}
                     <p class="mb-1"><a href="{{.Params.event_title_link}}">{{ .Title }}</a></p>
                 {{- else -}}
-                    <p class="mb-1"><a href="{{.Permalink}}">{{ .Title }}</a></p>
+                    <p class="mb-1"><a href="{{.RelPermalink}}">{{ .Title }}</a></p>
                 {{- end -}}
                 <p class="is-size-6">{{ .Summary }}</p>
             </div>

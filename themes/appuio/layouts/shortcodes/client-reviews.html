@@ -3,10 +3,10 @@
     <div class="column is-one-third p-5">
       <div class="review">
         {{- $img := .Page.Resources.GetMatch .Params.testimonial.image -}}
-        <img src="{{ $img.Permalink }}" alt="client1-image" />
+        <img src="{{ $img.RelPermalink }}" alt="client1-image" />
         <p class="quote">„{{ .Params.testimonial.quote }}“</p>
         <p class="name">{{ .Params.testimonial.name }} <br /><b>{{ .Params.testimonial.handle }}</b></p>
-        <a href="{{ .Permalink }}" class="button is-rounded is-primary is-fullwidth">Mehr</a>
+        <a href="{{ .RelPermalink }}" class="button is-rounded is-primary is-fullwidth">Mehr</a>
       </div>
     </div>
   {{- end -}}

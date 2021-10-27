@@ -1,4 +1,12 @@
+# APPUiO.ch website
 
+## Local development
+
+To start an auto-reloading local server:
+
+`docker run --rm -v $(pwd):/src -p 1313:1313 klakegg/hugo:ext-alpine server`
+
+Then open http://localhost:1313 in your browser. Whenever you save a file the website in the browser reloads.
 
 ## Installation
 ```

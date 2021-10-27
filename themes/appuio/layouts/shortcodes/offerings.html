@@ -7,9 +7,9 @@
         <div class="card">
           <div class="ribbon" style="background-color: {{ .Params.ribbon_color }}"></div>
           <div class="card-content">
-            <h2 class="subtitle"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            <h2 class="subtitle"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
             <p>{{ .Params.description }}</p>
-            <img src="{{ $card.Permalink }}" alt="{{ .Title }}" />
+            <img src="{{ $card.RelPermalink }}" alt="{{ .Title }}" />
           </div>
           <ul class="offer-feature-list">
             {{- range .Params.features -}}
@@ -22,7 +22,7 @@
           </ul>
           <div class="card-footer">
             <p class="card-footer-item">
-              <a href="{{ .Permalink }}" class="button is-rounded is-primary is-fullwidth">{{ $indexParams.offerButton }}</a>
+              <a href="{{ .RelPermalink }}" class="button is-rounded is-primary is-fullwidth">{{ $indexParams.offerButton }}</a>
             </p>
           </div>
         </div>
