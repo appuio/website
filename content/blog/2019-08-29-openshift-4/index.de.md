@@ -47,7 +47,9 @@ Ansible ist für Betreiber die erste Wahl, da meist bereits Ansible-Know How vor
 Go stellt zwar die vermutlich herausforderndste, dafür, aufgrund seiner vollwertigen Programmiersprache, aber auch die mächtigste und flexibelste Variante dar.
 Der sog. Capability Level dieser Varianten wird in folgender Abbildung aufgezeigt. Der Capability Level veranschaulicht, welche Phasen unterstützt werden.
 
-![Capability level](operator-capability-level-transparent-bg.png)#### OpenShift Container Storage
+![Capability level](operator-capability-level-transparent-bg.png)
+
+#### OpenShift Container Storage
 
 Red Hat beschreibt den OpenShift Container Storage, oder kurz RHOCS oder OCS, als "Add-On for OpenShift for running stateful apps". Während OCS unter OpenShift 3 noch aus Gluster und Heketi bestand, um dynamisch Persistent Volumes zu allozieren, soll diese Aufgabe die Kombination aus [Rook](https://rook.io/), [Ceph](https://ceph.io/) und [NooBaa](https://www.noobaa.io/) übernehmen. Gründe für diesen Wechsel seien insbesondere das beachtliche Momentum hinter der Entwicklung von Rook sowie der aus Sicht Red Hat zunehmende Fokus auf Object Storage, welcher von NooBaa in Form einer S3-kompatiblen API abgedeckt wird. Wie auch schon bei Version 3 werden ein Independent sowie ein Converged Mode angeboten. OCS kann also als externer Storage Cluster oder aber direkt auf OpenShift selbst installiert werden. Anders als beim Gluster-Heketi-Stack soll neu der Storage via CSI (Container Storage Interface) angebunden werden können.
 
@@ -63,7 +65,7 @@ OpenShift Pipelines setzt auf [Tekton](https://tekton.dev/), welches vorher unte
 
 #### Serverless
 
-Auch "serverless" darf natürlich nicht fehlen, welches mit [Knative](https://knative.dev) realisiert wird. Gemäss Roadmap soll mit Version 4.2 ein Tech Preview und mit 4.3 die GA-Version erhältlich sein. Was FaaS bedeutet kannst du im [Blogpost](https://appuio.ch/blog.html#2017-Okt-10) von Tobru nachlesen.
+Auch "serverless" darf natürlich nicht fehlen, welches mit [Knative](https://knative.dev) realisiert wird. Gemäss Roadmap soll mit Version 4.2 ein Tech Preview und mit 4.3 die GA-Version erhältlich sein. Was FaaS bedeutet kannst du im [Blogpost](https://www.appuio.ch/blog/2017-10-10-serverless-computing-functions-as-a-service-mit-appuio-und-snafu/) von Tobru nachlesen.
 
 #### Schlusswort
 
