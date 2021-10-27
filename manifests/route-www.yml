@@ -10,7 +10,7 @@ metadata:
 spec:
   host: www.appuio.ch
   port:
-    targetPort: 8000-tcp
+    targetPort: 8080-tcp
   tls:
     insecureEdgeTerminationPolicy: Redirect
     termination: edge
