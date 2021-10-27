@@ -54,8 +54,8 @@ jobs:
                    -p IMAGE_TAG=${{ github.sha }} \
                    -p APP_POSTFIX=master \
                    | oc apply -f -
-        oc process -f manifests/route*.yml \
-                   | oc apply -f -
+        oc apply -f manifests/route.yml
+        oc apply -f manifests/route-www.yml
         oc process -f manifests/cms/github-oauth-provider.yml \
                    -p ORIGIN=appuio.ch \
                    -p OAUTH_CLIENT_ID=${{ secrets.OAUTH_CLIENT_ID }} \
