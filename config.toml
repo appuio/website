@@ -1,11 +1,11 @@
-#baseURL = "http://example.org/"
+baseURL = "https://www.appuio.ch/"
 languageCode = "en-us"
-title = "APPUiO - Swiss Container Platform"
 theme = "appuio"
 
 DefaultContentLanguage = "de"
 
 [params]
+  title = "APPUiO - Swiss Container Platform"
   # Shortcodes that must be closed
   # If the shortcode uses .Inner then add it here!
   mustCloseShortcodes = ["section","upcoming-events"]
@@ -51,7 +51,7 @@ DefaultContentLanguage = "de"
     parent = "community"
     weight = 3
   [[languages.en.menu.main]]
-    url = "http://docs.appuio.ch"
+    url = "https://docs.appuio.ch"
     name = "Docs"
     parent = "community"
     weight = 4
@@ -98,7 +98,7 @@ DefaultContentLanguage = "de"
     parent = "community"
     weight = 3
   [[languages.de.menu.main]]
-    url = "http://docs.appuio.ch"
+    url = "https://docs.appuio.ch"
     name = "Docs"
     parent = "community"
     weight = 4

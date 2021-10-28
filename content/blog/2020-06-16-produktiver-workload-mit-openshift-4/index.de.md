@@ -42,11 +42,7 @@ Für unsere Public Cloud, welche abhängig von den automatisierten Abläufen und
 <!--[if lte IE 8]> <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/v2-legacy.js"></script> <![endif]-->
 **Schulungen und Techlabs**
 
-<<<<<<< Updated upstream
-Natürlich läuft unser [APPUiO Techlab auch auf der neuen OpenShift Version](https://appuio.ch/blog.html#2020-Mar-18). Falls du an einem Nachmittag mehr über OpenShift 4 und Operators erfahren möchtest, darfst du dich gerne hier [anmelden](https://appuio.ch/techlabs.html). Ab dem Sommer werden wir ein weiteres Techlab durchführen, das [Application Migration and Modernization (AMM) Techlab](https://appuio.ch/ammtechlab.html). Es zeigt dir auf, wie du Applikationen deiner Systemlandschaft auf die neue Container Plattform bringst. Weiter sind unsere Schulungsunterlagen für die Operations und die Apps on OpenShift Schulung auf der neusten OpenShift Version.
-=======
 Natürlich läuft unser [APPUiO Techlab auch auf der neuen OpenShift Version](https://www.appuio.ch/en/blog/2020-03-18-neu-techlab-auf-openshift-4-3/). Falls du an einem Nachmittag mehr über OpenShift 4 und Operators erfahren möchtest, darfst du dich gerne hier [anmelden](/techlabs/openshift/). Ab dem Sommer werden wir ein weiteres Techlab durchführen, das [Application Migration and Modernization (AMM) Techlab](/techlabs/amm/). Es zeigt dir auf, wie du Applikationen deiner Systemlandschaft auf die neue Container Plattform bringst. Weiter sind unsere Schulungsunterlagen für die Operations und die Apps on OpenShift Schulung auf der neusten OpenShift Version.
->>>>>>> Stashed changes
 
 Brauchst du Unterstützung mit deiner Plattform oder möchtest gerne eine neue Plattform aufbauen? Melde dich bei uns und wir trinken gemeinsam einen Kaffee oder ein Bier (geht auch remote). Melde dich bei [hello@appuio.ch](mailto:hello@appuio.ch).
 

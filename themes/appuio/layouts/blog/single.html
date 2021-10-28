@@ -6,7 +6,7 @@
     <p class="is-size-5">{{ .Summary}}</p>
     {{ if .Params.featured_image }}
       {{- $img := .Page.Resources.GetMatch .Params.featured_image -}}
-      <img src="{{ $img.Permalink }}" alt="post-image" />
+      <img src="{{ $img.RelPermalink }}" alt="post-image" />
     {{ end }}
     <div class="pt-4">{{ .Content }}</div>
   </div>

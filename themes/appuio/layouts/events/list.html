@@ -16,7 +16,7 @@
 
         {{ range .Paginator.Pages.Reverse }}
 
-          {{- $link := .Permalink  }}
+          {{- $link := .RelPermalink  }}
           {{- if .Params.event_title_link -}}
             {{- $link = .Params.event_title_link -}}
           {{- end -}}
@@ -27,7 +27,7 @@
                 <div class="card-image">
                   {{- $img := .Page.Resources.GetMatch .Params.featured_image -}}
                   <a href="{{$link}}">
-                    <img src="{{ $img.Permalink }}" alt="post-image" />
+                    <img src="{{ $img.RelPermalink }}" alt="post-image" />
                   </a>
                 </div>
               {{ end }}
@@ -44,7 +44,7 @@
                 {{- if .Params.event_link -}}
                   <a href="{{ .Params.event_link }}" class="button is-rounded is-primary is-fullwidth" target="_blank">{{ T "anmelden" }}</a>
                 {{- else -}}
-                  <a href="{{ .Permalink }}" class="button is-rounded is-primary is-fullwidth">{{ T "weiterlesen" }}</a>
+                  <a href="{{ .RelPermalink }}" class="button is-rounded is-primary is-fullwidth">{{ T "weiterlesen" }}</a>
                 {{- end -}}
                 </p>
               </div>

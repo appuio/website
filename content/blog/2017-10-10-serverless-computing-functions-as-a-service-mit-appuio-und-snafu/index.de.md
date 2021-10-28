@@ -195,7 +195,7 @@ Hello from Lambda
 
 #### Weiterführende Informationen
 
-Hat dieser Beitrag Ihr Interesse an Serverless / Functions as a Service geweckt? Gerne beantworten wir Ihre Fragen und helfen bei der Implementation: [hello@appuio.ch](http://mailto:hello@appuio.ch) oder [info@vshn.ch](http://mailto:info@vshn.ch).
+Hat dieser Beitrag Ihr Interesse an Serverless / Functions as a Service geweckt? Gerne beantworten wir Ihre Fragen und helfen bei der Implementation: [hello@appuio.ch](mailto:hello@appuio.ch) oder [info@vshn.ch](mailto:info@vshn.ch).
 
 
 

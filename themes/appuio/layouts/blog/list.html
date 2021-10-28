@@ -19,19 +19,19 @@
               {{ if .Params.featured_image }}
                 <div class="card-image">
                   {{- $img := .Page.Resources.GetMatch .Params.featured_image -}}
-                  <a href="{{.Permalink}}">
-                    <img src="{{ $img.Permalink }}" alt="post-image" />
+                  <a href="{{.RelPermalink}}">
+                    <img src="{{ $img.RelPermalink }}" alt="post-image" />
                   </a>
                 </div>
               {{ end }}
               <div class="card-content">
                 <p class="is-size-7 my-1">{{ partial "prettydate" . }}</a></p>
-                <p class="is-size-5 my-2"><a href="{{.Permalink}}">{{ .Title }}</a></p>
+                <p class="is-size-5 my-2"><a href="{{.RelPermalink}}">{{ .Title }}</a></p>
                 <p class="is-size-6">{{ .Summary }}</p>
               </div>
               <div class="card-footer">
                 <p class="card-footer-item">
-                <a href="{{ .Permalink }}" class="button is-rounded is-primary is-fullwidth">{{ T "weiterlesen" }}</a>
+                <a href="{{ .RelPermalink }}" class="button is-rounded is-primary is-fullwidth">{{ T "weiterlesen" }}</a>
                 </p>
               </div>
             </div>
