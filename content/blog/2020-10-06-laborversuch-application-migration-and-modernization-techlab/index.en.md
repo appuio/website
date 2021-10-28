@@ -3,7 +3,7 @@ day: 6
 date: "2020-10-06"
 month: Oct
 title: Laborversuch Application Migration and Modernization Techlab
-summary: APPUiO bietet ein neues Techlab - <a href="https://www.appuio.ch/ammtechlab.html">das Application Migration and Modernization Techlab</a> - an. Im letzten Monat wurde ein interner Testlauf bei Puzzle durchgeführt. Ob der Inhalt den Erwartungen entsprach und die Infrastruktur einwandfrei klappte, erfährst du in diesem Blogpost.
+summary: APPUiO bietet ein neues Techlab - <a href="/techlabs/amm/">das Application Migration and Modernization Techlab</a> - an. Im letzten Monat wurde ein interner Testlauf bei Puzzle durchgeführt. Ob der Inhalt den Erwartungen entsprach und die Infrastruktur einwandfrei klappte, erfährst du in diesem Blogpost.
 featured_image: AMM_Blogpost_2.png
 ---
 Der Testlauf begann um 09:00 Uhr und wurde von Thomas Philipona und Christoph Raaflaub durchgeführt. Zwölf Teilnehmende haben sich in die Videokonferenz eingehängt. Zusätzlich waren noch Qualitätsinspektoren und der Betriebssupport dabei.
@@ -52,9 +52,9 @@ Die Infrastruktur war stabil, es wurden nur einige Feintunings vorgenommen. Weni
 
 Die meisten Erwartungen wurden erfüllt. Das Thema Applikations-Modernisierung ist gemäss den Probanden zu wenig thematisiert worden. Dies werden die Testleiter für die nächste Durchführung beachten.
 
-Es hatte sich gezeigt, dass es wichtig ist, das [APPUiO OpenShift Techlab](https://appuio.ch/ostechlab.html) bereits besucht zu haben oder über entsprechendes Kubernetes- und OpenShift-Wissen zu verfügen. Ansonsten ist es schwierig den Präsentationen zu folgen oder die Labs durchzuführen.
+Es hatte sich gezeigt, dass es wichtig ist, das [APPUiO OpenShift Techlab](/techlabs/openshift/) bereits besucht zu haben oder über entsprechendes Kubernetes- und OpenShift-Wissen zu verfügen. Ansonsten ist es schwierig den Präsentationen zu folgen oder die Labs durchzuführen.
 
-Haben wir dein Interesse geweckt? Hier kannst du dich sogleich [anmelden](https://www.appuio.ch/ammtechlab.html). Wir freuen uns auf dich!
+Haben wir dein Interesse geweckt? Hier kannst du dich sogleich [anmelden](/techlabs/amm/). Wir freuen uns auf dich!
 
 Hast du Fragen oder Anregungen? Melde dich unter [hello@appuio.ch](mailto:hello@appuio.ch).
 
