@@ -1,6 +1,6 @@
 ---
 title: Public
-weight: 10
+weight: 11
 ribbon_color: "#ff931e"
 description: You would like to deploy your productive applications as fast as
   possible into a Swiss cloud?
