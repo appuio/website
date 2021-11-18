@@ -1,5 +1,5 @@
 ---
-title: Public
+title: Public test
 weight: 11
 ribbon_color: "#ff931e"
 description: Du willst in kürzester Zeit deine produktiven Applikationen in eine
