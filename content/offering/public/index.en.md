@@ -21,7 +21,7 @@ aliases:
   - /en/offering/
 ---
 {{<section class="offering-hero public" header="images/header.svg">}}
-Benefit from APPUiO Public for your productive applications or for flexible, standardized development environments. All components are standardized highly available.
+Benefit from APPUiO Cloud for your productive applications or for flexible, standardized development environments. All components are standardized highly available.
 {{</section>}}
 
 {{<section class="darkblue has-cols">}}
@@ -146,31 +146,6 @@ Our APPUiO Public Platform exists on shared infrastructure or as a dedicated nod
 {{</calculator>}}
 {{</section>}}
 
-{{<section class="cyan has-cols four col-white y-narrow items-center text-left">}}
-
-# Additional Services
-
-* #### SLA Office Hours
-
-   Support times: 09:00-12:00 and 13:00-18:00 Uhr (5x8), Reaction time: 2h, Availability: 99%
-
-   *included*
-* #### SLA 24/7
-
-   Support times: 7x24, Reaction time: 1h, Availability: 99,5%
-
-   *according to the arrangement*
-* #### Persistent Storage
-
-   per GB/day
-
-   *0.0935 CHF*
-* #### TCP und UDP Ingress
-
-    per Service/day
-
-    *0.35 CHF*
-  {{</section>}}
 
 {{<section class="offers-two-faq">}}
 

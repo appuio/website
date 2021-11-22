@@ -22,7 +22,7 @@ aliases:
 ---
 
 {{<section class="offering-hero public" header="images/header.svg">}}
-Nutze APPUiO Public für deine produktiven Applikationen oder für flexible, standardisierte Entwicklungsumgebungen. Alle Komponenten sind standardmässig hochverfügbar.
+Nutze APPUiO Cloud für deine produktiven Applikationen oder für flexible, standardisierte Entwicklungsumgebungen. Alle Komponenten sind standardmässig hochverfügbar.
 {{</section>}}
 
 {{<section class="darkblue has-cols">}}
@@ -129,36 +129,6 @@ Unsere APPUiO Public Platform gibt es auf geteilter Infrastruktur oder als dediz
 {{</calculator/size>}}
 
 {{</calculator>}}
-{{</section>}}
-
-{{<section class="cyan has-cols four col-white text-left items-center y-narrow">}}
-# Zusätzliche Services
-
--
-  #### SLA Bürozeiten
-  Supportzeiten: 09:00-12:00 Und 13:00-18:00 Uhr (5x8), Reaktionszeiten: 2h, Verfügbarkeit: 99%
-
-  *Im Preis inbegriffen*
-
--
-  #### SLA 24/7
-  Supportzeiten: 7x24, Reaktionszeiten: 1h, Verfügbarkeit: 99,5%
-
-  *Nach Absprache*
-
--
-  #### Persistent Storage
-  pro GB/Tag
-
-  *0.0935 CHF*
-
--
-  #### TCP und UDP Ingress
-  pro Service/Tag
-
-  *0.35 CHF*
-
-
 {{</section>}}
 
 {{<section class="offers-two-faq">}}
