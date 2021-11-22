@@ -1,5 +1,5 @@
 ---
-title: Public
+title: Cloud
 weight: 10
 ribbon_color: "#ff931e"
 description: Du willst in kürzester Zeit deine produktiven Applikationen in eine
@@ -20,155 +20,114 @@ aliases:
   - /public.html
   - /offering/
 ---
-
 {{<section class="offering-hero public" header="images/header.svg">}}
-Nutze APPUiO Public für deine produktiven Applikationen oder für flexible, standardisierte Entwicklungsumgebungen. Alle Komponenten sind standardmässig hochverfügbar.
+APPUiO Cloud basiert auf OpenShift 4, der aktuellsten Kubernetes Distribution von Red Hat und verfolgt den Ansatz "Namespace as a Service".
 {{</section>}}
 
 {{<section class="darkblue has-cols">}}
-- ![](/images/offer2_advantage1.svg)
-  ### Swissness
-  APPUiO wird in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz betrieben und untersteht schweizerischem Recht.
 
-- ![](/images/offer2_advantage2.svg)
-  ### Security
-  Auf der APPUiO Public Platform profitierst du von SELinux, Federation Authentication und Let’s Encrypt. Regelmässig werden die neuesten Security Updates eingespielt.
+* ![](/images/offer2_advantage4.svg)
 
-- ![](/images/offer2_advantage3.svg)
-  ### Support
-  Du erhältst persönlichen Support sowie regelmässige Wartung und Updates der Server. Backup und Monitoring sind inklusive. Zudem steht dir unsere Community im Chat zur Verfügung.
+  ### Instant On
 
-- ![](/images/offer2_advantage4.svg)
-  ### Self-Service
-  Über unser Self-Service Portal kannst du deine Projekte auf Knopfdruck jederzeit anlegen, vergrössern, löschen und verwalten. Du hast die volle Kontrolle über deine Plattform.
+  Bekomme in wenigen Minuten deinen eigenen OpenShift-Namespace, der sofort einsatzbereit ist.
+* ![](/images/offer2_advantage5.svg)
 
-- ![](/images/offer2_advantage5.svg)
   ### Pay per Use
-  Die Kosten für die APPUiO Public Platform werden stündlich berechnet. Dabei bezahlst du nur, was du auch effektiv genutzt hast. Es gibt keine Setup-Kosten.
 
-- ![](/images/offer2_advantage6.svg)
-  ### Hybrid Cloud
-  Die APPUiO Public Platform verfügt über zwei Availability Zonen - eine in der Schweiz und eine auf AWS in Deutschland inkl. Nutzung ihrer Services.
+  Bezahle nur für die Ressourcen, die du tatsächlich nutzt; Weitere Informationen findest du in unserem [Preismodell](https://products.docs.vshn.ch/products/appuio/cloud/pricing.html).
+* ![](/images/offer2_advantage6.svg)
+
+### Multi Cloud
+
+  Die APPUiO Cloud Plattform ist in verschiedenen Cloud Providern (Zonen) verfügbar: Derzeit auf [cloudscale.ch](https://www.cloudscale.ch/) und [Exoscale](https://www.exoscale.com/).
+
+* ![](/images/offer2_advantage1.svg)
+
+### Swissness
+
+  APPUiO ist in verschiedenen Zonen verfügbar, auch in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz.
+
+* ![](/images/offer2_advantage2.svg)
+
+  ### Security
+
+  Auf der APPUiO Cloud Plattform profitierst du von SELinux, Cilium, Two-Factor Authentication und Let’s Encrypt. Regelmässig werden die neuesten Security Updates eingespielt.
+* ![](/images/offer2_advantage3.svg)
+
+  ### Community Support
+
+  Du brauchst Hilfe? Besuche unser [APPUiO Cloud Forum](https://discuss.appuio.cloud/) oder unseren [Community Chat](https://community.appuio.ch). Falls du weitere Hilfe benötigst, beraten wir dich gerne über unsere [kostenpflichtigen Support Pakete](https://products.docs.vshn.ch/products/appuio/cloud/support_packages.html).
+
 {{</section>}}
 
 {{<section class="has-cols col-cyan y-narrow">}}
+
 # Im Angebot enthalten
--
-  ### Backup und Monitoring
-  Wir erstellen einmal täglich ein Backup aller relevanten Daten. Zudem sind im Portal die verfügbaren Ressourcen ersichtlich. Auf status.appuio.ch siehst du jederzeit den Status der Public Plattform.
--
-  ### TCP und UDP Traffic
-  Mit APPUiO kannst du Non-HTTP-Traffic in Public Cluster routen. So können Kunden IPs an Services anbinden und beispielsweise Datenbanken, LDAP Server, SSH Server öffentlich zur Verfügung stellen.
--
-  ### Let's Encrypt Zertifikate
-  APPUiO erlaubt es dir, mittels “Let’s Encrypt" einfach per Knopfdruck echte SSL-Zertifikate in deine Routen zu konfigurieren. Nach erfolgter Registrierung sorgt APPUiO für die Aktualisierung der Lets Encrypt-Zertifikate, die 3 Monate gültig sind, und ersetzt diese automatisch nach Ablauf.
--
-  ### Secure Docker Builds
-  Unsere Plattform erlaubt es, Docker Image Native als Docker Builds laufen zu lassen. Dafür haben wir die Buildumgebung extrahiert. Die Builds laufen in dynamischen, abgeschotteten VMs pro Mandant ausserhalb des Clusters. Zusätzlich zu den sicheren Builds, erlaubt unsere Erweiterung Docker Multi-Stage Builds. Docker Multi-Stage Builds helfen Dockerfiles zu optimieren und sie einfacher und lesbarer zu machen.
--
-  ### Managed Services
-  Auf Wunsch bieten wir dir zusätzliche Managed Services an, wie zum Beispiel: Database as a Service (PostgreSQL, MariaDB, MySQL).
 
--
-  ### Persistent Storage (File based)
-  Auf APPUiO Public bieten wir persistent Storage als File-based Storage auf Basis von GlusterFS.
-{{</section>}}
+* ### TCP und UDP Ingress Traffic
 
-{{<section class="cyan has-cols two col-darkblue y-narrow shared-vs-dedicated">}}
-# Shared vs. Dedicated Platform
+  Mit dem [Kubernetes Service Type Load Balancer](https://kubernetes.io/docs/concepts/services-networking/service/#loadbalancer) kann jeder Service (TCP und UDP) im Internet erreichbar gemacht werden. Die Verfügbarkeit ist Abhängig von der jeweiligen APPUiO Cloud Zone an. 
+* ### Let's Encrypt Zertifikate
 
-Unsere APPUiO Public Platform gibt es auf geteilter Infrastruktur oder als dedizierter Node für dich alleine. Wähle je nach deinen Bedürfnissen zwischen den beiden Angeboten.
+  APPUiO erlaubt es dir, mittels “[Let’s Encrypt](https://letsencrypt.org/)" per Knopfdruck echte SSL-Zertifikate in deine Routen zu konfigurieren. Nach erfolgter Aktivierung sorgt APPUiO für die Aktualisierung dieser Zertifikate, die 3 Monate gültig sind. Nach Ablauf werden sie automatisch ersetzt.
+* ### Persistent Storage
 
--
-  ### Shared
-  APPUiO Public kannst du durch unser Selfservice-Portal auch auf geteilter Infrastruktur bestellen. Du erhältst ein OpenShift-Projekt mit beliebig viel GB Memory.
+  Verschiedene Storage Klassen erlauben den Bezug von Persistent Storage. Der Verfügbare Storage unterscheidet sich je nach Zone. In der [APPUiO Cloud User Dokumentation](https://docs.appuio.cloud/user/explanation/storage-classes.html) ist ersichtlich, welche Storage Klassen verfügbar sind.
+* ### Vorinstallierte und konfigurierte Kubernetes Operator
 
-  [Shared bestellen](#offer-shared)
+  APPUiO Cloud stellt die folgenden Kubernetes Operator vorinstalliert und vorkonfiguriert zur Verfügung, die sofort verwendet werden können:
 
--
-  ### Dedicated
-  Du willst einen dedizierten Node und mehrere Projekte verwalten? Dann nutze APPUiO Dedicated mit beliebig vielen Projekten ab 16 GB Memory.
+  * [K8up](https://k8up.io/): Kubernetes Backup Operator.
+  * [Cert Manager](https://cert-manager.io/): X.509-Zertifikatsverwaltung für Kubernetes.
+* ### Benutzerverwaltung
 
-  [Dedicated bestellen](#contact)
+  Organisiere deine Benutzer in Teams und Organisationen und weise diesen verschiedene Berechtigungen zu; kontrolliere auf einen Blick, wer auf welche Namespaces zugreifen kann.
+* ### APPUiO Community
 
+  Werde Teil der grandiosen APPUiO Community inklusive einer kostenlosen Mitgliedschaft im Hannelore-Fanclub.
 
 {{</section>}}
 
 {{<section class="darkblue">}}
 <a name="offer-shared"></a>
-# Die passende Grösse für deine Public Platform
 
-{{<calculator>}}
+# Preisrechner
 
-{{<calculator/size name="Small">}}
-- Einfache Website mit geringen Zugriffen
-- Minimale CakePHP-Applikation mit kleiner Datenbank
-- Micro Service, GO Node.JS, Springboot, Ruby, PHP, .Net, Python
-{{</calculator/size>}}
+<iframe width="100%" height="450" src="https://pricing.appuio.cloud/calculator?title=<empty>&style=appuio" style="border: none"></iframe>
 
-{{<calculator/size name="Medium">}}
-- Komplexere Website bspw. mit PHP und einer Datenbank
-- CakePHP-Applikation mit mittlerer Datenbank
-- zwei Instanzen hochverfügbar eines Micro Services
-- Keycloak mit Datenbank
-{{</calculator/size>}}
-
-{{<calculator/size name="Large">}}
-- Komplexe Applikation mit mehreren Services
-- Jenkins Build Server
-- mehrere Instanzen hochverfügbar eines Micro Services, bspw. vier Instanzen zur gleichen Zeit
-- Komplexe Java Applikation
-- Java EE Applikation JBoss EAP deployed mit Datenbank
-{{</calculator/size>}}
-
-{{<calculator/size name="X-Large">}}
-- Komplexe Applikationen mit grösserer Last und Datenbanken
-- Hochverfügbare Datenbanken
-- Micro Service Architektur, etliche Services
-- Jenkins Build Infrastruktur mit diversen Buildnodes
-{{</calculator/size>}}
-
-{{</calculator>}}
 {{</section>}}
 
 {{<section class="cyan has-cols four col-white text-left items-center y-narrow">}}
+
 # Zusätzliche Services
 
--
-  #### SLA Bürozeiten
-  Supportzeiten: 09:00-12:00 Und 13:00-18:00 Uhr (5x8), Reaktionszeiten: 2h, Verfügbarkeit: 99%
+* #### Support Pakete
 
-  *Im Preis inbegriffen*
+  Mehr Infos
+* #### Managed Services
 
--
-  #### SLA 24/7
-  Supportzeiten: 7x24, Reaktionszeiten: 1h, Verfügbarkeit: 99,5%
+  Auf Anfrage
+* #### Upgrade auf APPUiO Managed oder Self Managed
 
-  *Nach Absprache*
+  Auf Anfrage
+* #### CI/CD Pipeline Engineering
 
--
-  #### Persistent Storage
-  pro GB/Tag
-
-  *0.0935 CHF*
-
--
-  #### TCP und UDP Ingress
-  pro Service/Tag
-
-  *0.35 CHF*
-
+  Auf Anfrage
 
 {{</section>}}
 
 {{<section class="offers-two-faq">}}
+
 # Häufig gestellte Fragen
+
 {{<faq tag="public">}}
 {{</section>}}
 
 {{<section class="darkblue">}}
 <a name="contact"></a>
 
-# APPUiO PUBLIC PLATFORM
+# APPUiO CLOUD PLATFORM
+
 {{<contact/public>}}
 {{</section>}}

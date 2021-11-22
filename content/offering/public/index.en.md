@@ -1,5 +1,5 @@
 ---
-title: Public
+title: Cloud
 weight: 10
 ribbon_color: "#ff931e"
 description: You would like to deploy your productive applications as fast as
@@ -21,87 +21,73 @@ aliases:
   - /en/offering/
 ---
 {{<section class="offering-hero public" header="images/header.svg">}}
-Benefit from APPUiO Public for your productive applications or for flexible, standardized development environments. All components are standardized highly available.
+APPUiO Cloud is based on OpenShift 4, the latest Kubernetes distribution from Red Hat, and follows the approach "Namespace as a Service".
 {{</section>}}
 
 {{<section class="darkblue has-cols">}}
 
-* ![](/images/offer2_advantage1.svg)
-
-  ### Swissness
-
-  APPUiO is operated in Swiss data centres certified to ISO27001 and in accordance with swiss banking regulators (FINMA) guidelines and is subject to Swiss law.
-* ![](/images/offer2_advantage2.svg)
-
-  ### Security
-
-  When using the APPUiO Public Platform you're benefiting from SELinux, Federation Authentication and Let's Encrypt. The newest Security Updates are applied regularly.
-* ![](/images/offer2_advantage3.svg)
-
-  ### Support
-
-  You're getting personal support, as well as frequent maintenance and updates of servers. Backup and monitoring are part of the deal. Furthermore, our community is at your disposal in the chat.
 * ![](/images/offer2_advantage4.svg)
 
-  ### Self-Service
+  ### Instant On
 
-  By using our Self-Service portal you’re creating, resizing, deleting and managing your environments at the push of a button. You’re having full control over your platform.
+  Get your own OpenShift namespace in minutes, ready to use.
 * ![](/images/offer2_advantage5.svg)
 
   ### Pay per Use
 
-  Costs for the APPUiO Public Platform are calculated per hour. You only pay what you were actually using. There are no setup-costs.
+  Only pay for the resources you actually use; see our price model for more information.
 * ![](/images/offer2_advantage6.svg)
 
-  ### Hybrid Cloud
+  ### Multi Cloud
 
-    There are two availability-zones on the APPUiO Public Platform: One in Switzerland and another one on AWS in Germany, including use of their services.
-  {{</section>}}
+    The APPUiO Cloud Platform is available in different availability zones: currently cloudscale.ch and exoscale.ch
+* ![](/images/offer2_advantage1.svg)
+
+  ### Swissness
+
+  APPUiO is available in different zones, also in Swiss data centers that are ISO27001 certified and operate in accordance with Swiss banking regulators (FINMA).
+* ![](/images/offer2_advantage2.svg)
+
+  ### Security
+
+  When using the APPUiO Cloud Platform you're benefiting from SELinux, Cilium, Two-Factor Authentication and Let's Encrypt. The newest Security Updates are applied regularly.
+* ![](/images/offer2_advantage3.svg)
+
+  ### Community Support
+
+  Need help? Check out our APPUiO Cloud forums and community chat. For those needing more help, there are support packages available at extra cost.
+
+{{</section>}}
 
 {{<section class="has-cols col-cyan y-narrow">}}
 
 # Included Services
 
-* ### Backup and Monitoring
-
-   We’re backing all relevant data up once a day. Additional, available resources are visible in the portal. On https://status.appuio.ch you can have a look at the current state of the Public Platform at all times.
 * ### TCP and UDP Traffic
 
-   With APPUiO, it’s possible to route Non-HTTP-Traffic into Public Clusters. This allows for customer IPs to be bound to services and provide for example databases, LDAP servers or SSH services publicly.
+   Depends on the particular APPUiO Cloud zone (service type load balancer).
 * ### Let's Encrypt Certificates
 
    APPUiO enables you to configure valid SSL-certificates signed by “Let’s Encrypt" into your routes at the push of a button. Once successfully registered, APPUiO automatically takes care of updating the certificates (that have a validity period of three months) when necessary.
-* ### Secure Docker Builds
-
-   Our platform allows for the running of Docker Image Native as Docker Build. To achieve this, we extracted the build-environment.Builds are running in dynamically created, strictly separated VMs per client apart from the cluster. Additionally to our secure builds, our extension enables Docker Multi-Stage Builds. These help to optimise Dockerfiles and make them both simpler and easier to read.
-* ### Managed Services
-
-   There is a first platform software, which were offering on our Public Platform as a service. We’re building the software according to your wishes and are operating it a a managed service:
 
   * 3 Scale API Management (Beta): API Management solution by Red Hat.
   * database as a service: manually: Postgresql, Mariadb, Mysql
   * WaF as a Service basierend auf Apache mod_sec (Beta)
-* ### Persistent Storage (File based)
+* ### Persistent Storage
 
-    On APPUiO Pubilc we offer persistent storage as file-based storage based on GlusterFS.
-  {{</section>}}
+    Depends on the particular APPUiO Cloud zone (see [APPUiO Cloud Pricing](<* https://products.docs.vshn.ch/products/appuio/cloud/pricing.html#_persistent_storage_pvc>)). *
+* ### Pre-Installed and Configured Operator
 
-{{<section class="cyan has-cols two col-darkblue y-narrow shared-vs-dedicated">}}
+  APPUiO Cloud provides the following OpenShift operators pre-installed and pre-configured, ready to be used:
 
-# Shared vs. Dedicated Platform
+  * K8up: Kubernetes Backup Operator.
+  * [Cert Manager](https://cert-manager.io/): X.509 certificate management for Kubernetes.
+* ### User Management
 
-Our APPUiO Public Platform exists on shared infrastructure or as a dedicated node for you alone. Choose between the two offers depending on your needs.
+  Organize your namespaces in teams and organizations, and assign users to those teams; control who can access which namespaces at a glance.
+* ### APPUiO Community
 
-* ### Shared
-
-   Order your Public Platform on a shared infrastructure through our self service portal. You receive an OpenShift-project with unlimited GB memory.
-
-   [ORDER SHARED](#offer-shared)
-* ### Dedicated
-
-   You want a dedicated node and wish to independently manage several projects? That is exactly what APPUiO dedicated with unlimited projects starting at 16 GB memory offers you.
-
-   [ORDER DEDICATED](#contact)
+  Become part of the terrific APPUiO Community including a free membership in the Hannelore fan club.
 
 {{</section>}}
 
@@ -150,26 +136,19 @@ Our APPUiO Public Platform exists on shared infrastructure or as a dedicated nod
 
 # Additional Services
 
-* #### SLA Office Hours
+* #### Support Packages
 
-   Support times: 09:00-12:00 and 13:00-18:00 Uhr (5x8), Reaction time: 2h, Availability: 99%
+  [More Information](https://products.docs.vshn.ch/products/appuio/cloud/support_packages.html)
+* #### Managed Services
 
-   *included*
-* #### SLA 24/7
+  On request
+* #### Upgrade on APPUiO Managed or Self Managed
 
-   Support times: 7x24, Reaction time: 1h, Availability: 99,5%
+  On request
+* #### CI/CD Pipeline Engineering
 
-   *according to the arrangement*
-* #### Persistent Storage
+  On request
 
-   per GB/day
-
-   *0.0935 CHF*
-* #### TCP und UDP Ingress
-
-    per Service/day
-
-    *0.35 CHF*
   {{</section>}}
 
 {{<section class="offers-two-faq">}}
@@ -181,7 +160,7 @@ Our APPUiO Public Platform exists on shared infrastructure or as a dedicated nod
 
 {{<section class="darkblue">}}
 
-# APPUiO PUBLIC PLATFORM
+# APPUiO CLOUD PLATFORM
 
 <a name="contact"></a>
 {{<contact/public>}}
