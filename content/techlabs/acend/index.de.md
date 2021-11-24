@@ -1,7 +1,7 @@
 ---
 title: acend
 ---
-{{<section class="techlab-hero" header="images/header.svg">}}
+{{<section class="techlab-hero" header="images/Visual_TechLabs_Acend.svg">}}
 
 Damit das ganze Potential und alle Vorteile einer Container Plattform ausgeschöpft werden, ist das Wissen auf der Anwender-Seite der Schlüssel zum Erfolg. Aus diesem Grund hat APPUiO sein Partner-Ökosystem mit der Firma acend erweitert.
 
@@ -27,6 +27,7 @@ Im Anschluss an die beiden Techlabs bieten die Trainings von acend eine weitere 
 Die Trainings kombinieren theoretische Inputs mit praxisnahen Hands-on Labs.
 
 * ##### 2 Tage
+
   ### Container & Kubernetes Training
 
   #### Trainingsziele
@@ -36,8 +37,8 @@ Die Trainings kombinieren theoretische Inputs mit praxisnahen Hands-on Labs.
   * Applikationen auf Kubernetes deployen
 
   [Container & Kubernetes Training<br>auf acend.ch](https://acend.ch/trainings/container-kubernetes-basic/)
-
 * ##### 2 Tage
+
   ### Container & OpenShift Training
 
   #### Trainingsziele
@@ -47,8 +48,8 @@ Die Trainings kombinieren theoretische Inputs mit praxisnahen Hands-on Labs.
   * Applikationen auf OpenShift deployen
 
   [Weitere Informationen zum<br>Container & OpenShift Training](https://acend.ch/trainings/openshift/)
-
 * ##### 2 Tage
+
   ### OpenShift 4 Operations Training
 
   #### Trainingsziele
