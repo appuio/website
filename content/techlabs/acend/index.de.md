@@ -14,9 +14,9 @@ Die Trainer arbeiten täglich bei unterschiedlichen Kunden mit den jeweiligen Te
 
 ### Vertiefung der APPUiO Techlabs
 
-Die beiden gratis Techlabs von APPUiO gelten als ‘Kickstart’ in die Welt der Container. Mit dem OpenShift Techlab erhält man einen Einblick in die Möglichkeiten von Containern und OpenShift. Das darauf aufbauende AMM Techlab zeigt auf, wie sich der IT-Alltag aus Sicht der Entwickler und Entwicklerinnen mit Containern positiv verändert.
+Die beiden gratis Techlabs von APPUiO gelten als ‘Kickstart’ in die Welt der Container. Mit dem OpenShift Techlab erhältst du einen Einblick in die Möglichkeiten von Containern und OpenShift. Das darauf aufbauende AMM Techlab zeigt auf, wie sich der IT-Alltag aus Sicht der Entwickler und Entwicklerinnen mit Containern positiv verändert.
 
-Im Anschluss an die beiden Techlabs bieten die Trainings von acend eine weitere Vertiefung in Cloud Native Technologien. Unterschieden wird zwischen öffentlichen Trainings für Einzelpersonen sowie dedizierten Trainings für ganze Teams oder Unternehmen.
+Im Anschluss an die beiden Techlabs bieten die Trainings von acend eine weitere Vertiefung in Cloud Native Technologien. Unterschieden wird zwischen öffentlichen Trainings für Einzelpersonen sowie dedizierten Trainings für ganze Team oder Unternehmen.
 
 {{</section>}}
 
@@ -28,7 +28,7 @@ Die Trainings kombinieren theoretische Inputs mit praxisnahen Hands-on Labs.
 
 * ##### 2 Tage
 
-  ### Container & Kubernetes Training
+  ### Container & Kubernetes
 
   #### Trainingsziele
 
@@ -36,10 +36,10 @@ Die Trainings kombinieren theoretische Inputs mit praxisnahen Hands-on Labs.
   * Konzepte von Containern und Kubernetes verstehen
   * Applikationen auf Kubernetes deployen
 
-  [Container & Kubernetes Training<br>auf acend.ch](https://acend.ch/trainings/container-kubernetes-basic/)
+  [Weitere Infos Container & Kubernetes](https://acend.ch/trainings/container-kubernetes-basic/)
 * ##### 2 Tage
 
-  ### Container & OpenShift Training
+  ### Container & OpenShift
 
   #### Trainingsziele
 
@@ -47,10 +47,10 @@ Die Trainings kombinieren theoretische Inputs mit praxisnahen Hands-on Labs.
   * Konzepte von Containern und OpenShift verstehen
   * Applikationen auf OpenShift deployen
 
-  [Weitere Informationen zum<br>Container & OpenShift Training](https://acend.ch/trainings/openshift/)
+  [Weitere Infos Container & OpenShift](https://acend.ch/trainings/openshift/)
 * ##### 2 Tage
 
-  ### OpenShift 4 Operations Training
+  ### OpenShift 4 Operations
 
   #### Trainingsziele
 
@@ -59,7 +59,7 @@ Die Trainings kombinieren theoretische Inputs mit praxisnahen Hands-on Labs.
   * Unterbruchsfreie Day 2-Operations Tasks meistern
   * Monitoring und Troubleshooting Know-how vertiefen
 
-  [Weitere Informationen](https://acend.ch/trainings/openshift4ops/)
+  [Weitere Infos OpenShift 4 Operations](https://acend.ch/trainings/openshift4ops/)
 
 {{</section>}}
 
