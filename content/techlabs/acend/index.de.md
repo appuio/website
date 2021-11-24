@@ -1,7 +1,7 @@
 ---
 title: acend
 ---
-{{<section class="techlab-hero" header="/static/images/uploads/acend.svg">}}
+{{<section class="techlab-hero" header="/images/uploads/acend.svg">}}
 
 Damit das ganze Potential und alle Vorteile einer Container Plattform ausgeschöpft werden, ist das Wissen auf der Anwender-Seite der Schlüssel zum Erfolg. Aus diesem Grund hat APPUiO sein Partner-Ökosystem mit der Firma acend erweitert.
 
