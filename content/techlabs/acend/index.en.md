@@ -28,18 +28,18 @@ The trainings combine theoretical inputs with hands-on labs.
 
 * ##### 2 days
 
-  ### Container & Kubernetes Training.
+  ### Container & Kubernetes
 
-  #### Training goals
+  #### Training Objectives
 
   * Getting started with a modern technology
   * Understand concepts of containers and Kubernetes
   * Deploy applications on Kubernetes
 
-  [More information](https://acend.ch/trainings/container-kubernetes-basic/)
+  [Container & Kubernetes](https://acend.ch/trainings/container-kubernetes-basic/)
 * ##### 2 days
 
-  ### Container & OpenShift Training
+  ### Container & OpenShift
 
   #### Training Objectives
 
@@ -50,7 +50,7 @@ The trainings combine theoretical inputs with hands-on labs.
   [Container & OpehShift](https://acend.ch/trainings/openshift/)
 * ##### 2 days
 
-  ### OpenShift 4 Operations training course
+  ### OpenShift 4 Operations
 
   #### Training Objectives
 
@@ -59,7 +59,7 @@ The trainings combine theoretical inputs with hands-on labs.
   * Master Day 2 operations tasks without interruption
   * Deepen monitoring and troubleshooting know-how
 
-  [OpenShift 4 & Operations Training](https://acend.ch/trainings/openshift4ops/)
+  [OpenShift 4 Operations](https://acend.ch/trainings/openshift4ops/)
 
 {{</section>}}
 
