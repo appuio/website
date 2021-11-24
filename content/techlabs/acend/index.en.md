@@ -1,7 +1,7 @@
 ---
 title: acend
 ---
-{{<section class="techlab-hero" header="images/header.svg">}}
+{{<section class="techlab-hero" header="images/acend.svg">}}
 
 In order to exploit the full potential and benefits of a container platform, knowledge on the user side is the key to success. For this reason, APPUiO has expanded its partner ecosystem with the company acend.
 
