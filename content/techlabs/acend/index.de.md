@@ -36,7 +36,7 @@ Die Trainings kombinieren theoretische Inputs mit praxisnahen Hands-on Labs.
   * Konzepte von Containern und Kubernetes verstehen
   * Applikationen auf Kubernetes deployen
 
-  [Weitere Infos Container & Kubernetes](https://acend.ch/trainings/container-kubernetes-basic/)
+  [Weitere Infos Container & Kubernetes](https://acend.ch/trainings/kubernetes/)
 * ##### 2 Tage
 
   ### Container & OpenShift
@@ -47,7 +47,7 @@ Die Trainings kombinieren theoretische Inputs mit praxisnahen Hands-on Labs.
   * Konzepte von Containern und OpenShift verstehen
   * Applikationen auf OpenShift deployen
 
-  [Weitere Infos Container & OpenShift](https://acend.ch/trainings/openshift/)
+  Weitere Infos Container & OpenShift
 * ##### 2 Tage
 
   ### OpenShift 4 Operations
