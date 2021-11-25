@@ -47,7 +47,7 @@ The trainings combine theoretical inputs with hands-on labs.
   * Understand concepts of containers and OpenShift
   * Deploy applications on OpenShift
 
-  [Container & OpehShift](https://acend.ch/trainings/openshift/)
+  [Container & OpenShift](https://acend.ch/trainings/openshift/)
 * ##### 2 days
 
   ### OpenShift 4 Operations
