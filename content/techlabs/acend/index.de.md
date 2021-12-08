@@ -14,7 +14,7 @@ Die Trainer arbeiten täglich bei unterschiedlichen Kunden mit den jeweiligen Te
 
 ### Vertiefung der APPUiO Techlabs
 
-Die beiden gratis Techlabs von APPUiO gelten als ‘Kickstart’ in die Welt der Container. Mit dem OpenShift Techlab erhältst du einen Einblick in die Möglichkeiten von Containern und OpenShift. Das darauf aufbauende AMM Techlab zeigt auf, wie sich der IT-Alltag aus Sicht der Entwickler und Entwicklerinnen mit Containern positiv verändert.
+Die beiden gratis Techlabs von APPUiO gelten als ‘Kickstart’ in die Welt der Container. Mit dem OpenShift Techlab erhältst du einen Einblick in die Möglichkeiten von Containern und OpenShift. Das darauf aufbauende AMM Techlab zeigt auf, wie sich der IT-Alltag aus Sicht der Entwickelnden mit Containern positiv verändert.
 
 Im Anschluss an die beiden Techlabs bieten die Trainings von acend eine weitere Vertiefung in Cloud Native Technologien. Unterschieden wird zwischen öffentlichen Trainings für Einzelpersonen sowie dedizierten Trainings für ganze Team oder Unternehmen.
 
