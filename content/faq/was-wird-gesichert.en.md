@@ -1,6 +1,6 @@
 ---
 title: What is backupped?
 tags:
-- public
+  - public
 ---
-The whole cluster, all objects and data on the Persistent Storage is backupped. There are no application-consistent backups and restores by our support will incur cost expenditures.
+Backup all your work with the free pre-installed [K8up operator](https://k8up.io/k8up/2.1/index.html), and benefit form the extensive choice of OpenShift operators to protect your data.
