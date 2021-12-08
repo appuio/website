@@ -1,6 +1,6 @@
 ---
 title: In what units do you charge?
 tags:
-- public
+  - public
 ---
-Bills are calculated in Megabytes.
+See [APPUiO Cloud Pricing](https://products.docs.vshn.ch/products/appuio/cloud/pricing.html).
