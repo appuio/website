@@ -1,6 +1,6 @@
 ---
-title: Was ist die "garantierte" Verfügbarkeit?
+title: Wie ist die Verfügbarkeit des Produkts?
 tags:
-- public
+  - public
 ---
-Ausserhalb der angekündigten Wartungsarbeiten, Kundenfehler ausschliessen, Erreichbar gemäss Monitoring, analog AGBs VSHN.
+Es gelten die Konditionen der [APPUiO Cloud Produktseite](https://products.docs.vshn.ch/products/appuio/cloud/index.html#_conditions).
