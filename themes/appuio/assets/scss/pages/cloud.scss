@@ -29,18 +29,3 @@ body.page-cloud {
     }
   }
 }
-
-
-// fix calculator styles
-.container-final-price h2,
-.container-final-price p {
-  margin: 0 ;
-}
-.container-final-price {
-  padding: 0.5em;
-  margin: 2em 0;
-  border-radius: 0.5em;
-}
-#selectProvider {
-  appearance: auto;
-}
