@@ -1,6 +1,5 @@
 ---
 title: Your Open Container Platform with a unique community!
-heroSignup: ABOUT APPUIO PUBLIC
 heroRegister: REDEEM CODE
 offerButton: SHOW THE OFFER
 headless: true
