@@ -2,8 +2,7 @@
 title: Cloud
 weight: 10
 ribbon_color: "#ff931e"
-description: Du willst in kürzester Zeit deine produktiven Applikationen in eine
-  Cloud deployen?
+description: Du willst in wenigen Minuten einen einsatzbereiten OpenShift-Namespace bekommen und nur für die Ressourcen bezahlen, die du tatsächlich nutzt?
 features:
   - Shared oder Dedicated
   - Sofort starten
@@ -22,7 +21,7 @@ aliases:
   - /offering/
 ---
 
-{{< cloud_header header="images/header.svg" logo="images/appuio_cloud_rgb.png" footer="images/footer.svg" description="APPUiO Cloud basiert auf OpenShift 4, der aktuellsten Kubernetes Distribution von Red Hat und verfolgt den Ansatz \"Namespace as a Service\"." >}}
+{{< cloud_header header="images/header.svg" logo="images/appuio_cloud_rgb.png" footer="images/footer.svg" description="APPUiO Cloud basiert auf OpenShift 4, der aktuellsten Kubernetes Distribution von Red Hat und verfolgt den Ansatz Namespace as a Service." >}}
 
 * ![](/images/offer2_advantage4.svg)
   ### Instant On
@@ -50,7 +49,7 @@ aliases:
 
 {{</ cloud_header >}}
 
-{{<section class="has-cols col-cyan y-narrow">}}
+{{<section class="has-cols col-darkblue2 darkblue y-narrow">}}
 
 # Im Angebot enthalten
 
@@ -78,8 +77,7 @@ aliases:
 
 {{</section>}}
 
-{{<section class="darkblue">}}
-<a name="offer-shared"></a>
+{{<section>}}
 
 # Preisrechner
 
@@ -87,22 +85,17 @@ aliases:
 
 {{</section>}}
 
-{{<section class="cyan has-cols four col-white text-left items-center y-narrow">}}
+{{<section class="cyan has-cols two col-white items-center title-only">}}
 
 # Zusätzliche Services
+## Auf Anfrage
 
 * #### Support Pakete
-
-  Mehr Infos
+  [weitere Informationen](https://products.docs.vshn.ch/products/appuio/cloud/support_packages.html)
 * #### Managed Services
-
-  Auf Anfrage
-* #### Upgrade auf APPUiO Managed oder Self Managed
-
-  Auf Anfrage
+* #### Upgrade auf Managed oder Self Managed
 * #### CI/CD Pipeline Engineering
 
-  Auf Anfrage
 
 {{</section>}}
 
@@ -110,7 +103,7 @@ aliases:
 
 # Häufig gestellte Fragen
 
-{{<faq tag="public">}}
+{{<faq tag="cloud">}}
 {{</section>}}
 
 {{<section class="darkblue">}}
@@ -118,5 +111,5 @@ aliases:
 
 # APPUiO CLOUD PLATFORM
 
-{{<contact/public>}}
+{{<contact/cloud>}}
 {{</section>}}

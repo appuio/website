@@ -1,6 +1,6 @@
 ---
 title: In welcher Periodizität erfolgt die Abrechnung?
 tags:
-- public
+- cloud
 ---
 Zu Beginn jedes Monats wird der letzte Monat abgerechnet.

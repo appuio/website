@@ -61,11 +61,32 @@ section.has-cols.y-narrow {
   }
 }
 
+section.has-cols.title-only {
+  li {
+    @extend .py-1;
+    min-height: 150px;
+    justify-content: center
+  }
+  h4 {
+    @extend .m-0;
+  }
+  a {
+    @extend .has-text-centered;
+    @extend .is-size-6;
+    @extend .is-fullwidth;
+    @extend .pt-2;
+    width: 100%;
+  }
+}
+
 /* colors */
 section.has-cols {
   &.col-white li {
     background: $white;
     color: $dark-text;
+    h2, h3 {
+      color: $darkblue;
+    }
   }
   &.col-darkblue li {
     background: $darkblue;
@@ -75,12 +96,29 @@ section.has-cols {
       color: $white;
     }
   }
+  &.col-darkblue2 li {
+    background: $darkblue-2;
+    color: $white;
+    @extend .has-cyan-light-links;
+    h2, h3 {
+      color: $cyan_light;
+    }
+  }
   &.col-cyan li {
     background: $cyan;
     color: $darkblue;
     @extend .has-white-links;
     h2, h3 {
       color: $darkblue;
+      @extend .is-size-5;
+    }
+  }
+  &.col-cyan-light li {
+    background: $cyan_light;
+    color: $dark-text;
+    @extend .has-darkblue-links;
+    h2, h3 {
+      color: $dark-text;
       @extend .is-size-5;
     }
   }

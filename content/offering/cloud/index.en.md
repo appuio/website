@@ -21,11 +21,7 @@ aliases:
   - /en/public
   - /en/offering/
 ---
-{{<section class="offering-hero public" header="images/header.svg">}}
-APPUiO Cloud is based on OpenShift 4, the latest Kubernetes distribution from Red Hat, and follows the approach "Namespace as a Service".
-{{</section>}}
-
-{{<section class="darkblue has-cols">}}
+{{< cloud_header header="images/header.svg" logo="images/appuio_cloud_rgb.png" footer="images/footer.svg" description="APPUiO Cloud is based on OpenShift 4, the latest Kubernetes distribution from Red Hat, and follows the approach Namespace as a Service." >}}
 
 * ![](/images/offer2_advantage4.svg)
   ### Instant On
@@ -51,9 +47,9 @@ APPUiO Cloud is based on OpenShift 4, the latest Kubernetes distribution from Re
   ### Community Support
   Need help? Check out our APPUiO Cloud forums and community chat. For those needing more help, there are support packages available at extra cost.
 
-{{</section>}}
+{{</cloud_header>}}
 
-{{<section class="has-cols col-cyan y-narrow">}}
+{{<section class="has-cols col-darkblue2 darkblue y-narrow">}}
 
 # Included Services
 
@@ -85,63 +81,25 @@ APPUiO Cloud is based on OpenShift 4, the latest Kubernetes distribution from Re
 
 {{</section>}}
 
-{{<section class="darkblue">}}
+{{<section>}}
 
-# Choose the package that's right for you
+# Calculator
 
-{{<calculator>}}
+<iframe width="100%" height="450" src="https://pricing.appuio.cloud/calculator?title=<empty>&style=appuio-dark" style="border: none"></iframe>
 
-{{<calculator/size name="Small">}}
-
-* A simple website with little traffic
-* Minimal CakePHP application with a small database
-* Microservice, Go, Node.JS, Springboot, Ruby, PHP, .Net, Python
-  {{</calculator/size>}}
-
-{{<calculator/size name="Medium">}}
-
-* More complex website, for example using PHP and a database
-* CakePHP application with a medium sized database
-* two highly available instances of a micro service
-* Keycloak with database
-  {{</calculator/size>}}
-
-{{<calculator/size name="Large">}}
-
-* Complex application with several services
-* Jenkins build server
-* several instances of a highly available micro service, e.g. four instances at the same time
-* Complex java application
-* Java EE applications JBoss EAP deployed with database
-  {{</calculator/size>}}
-
-{{<calculator/size name="X-Large">}}
-
-* Complex applications with heavy load and databases
-* Highavailable databases
-* Micro-Service Architecture of several services
-* Jenkins build infrastructure with multiple buildnodes
-  {{</calculator/size>}}
-
-{{</calculator>}}
 {{</section>}}
 
-{{<section class="cyan has-cols four col-white y-narrow items-center text-left">}}
+{{<section class="cyan has-cols two col-white items-center title-only">}}
+
 
 # Additional Services
+## On request
 
 * #### Support Packages
-
-  [More Information](https://products.docs.vshn.ch/products/appuio/cloud/support_packages.html)
+  [more information](https://products.docs.vshn.ch/products/appuio/cloud/support_packages.html)
 * #### Managed Services
-
-  On request
 * #### Upgrade on APPUiO Managed or Self Managed
-
-  On request
 * #### CI/CD Pipeline Engineering
-
-  On request
 
   {{</section>}}
 
@@ -149,7 +107,7 @@ APPUiO Cloud is based on OpenShift 4, the latest Kubernetes distribution from Re
 
 # Frequently Asked Questions
 
-{{<faq>}}
+{{<faq tag="cloud">}}
 {{</section>}}
 
 {{<section class="darkblue">}}
@@ -157,5 +115,5 @@ APPUiO Cloud is based on OpenShift 4, the latest Kubernetes distribution from Re
 # APPUiO CLOUD PLATFORM
 
 <a name="contact"></a>
-{{<contact/public>}}
+{{<contact/cloud>}}
 {{</section>}}

@@ -21,6 +21,11 @@ body.page-cloud {
     li {
       @extend .column;
       @extend .is-one-third;
+      @extend .my-5;
+    }
+    h3 {
+      @extend .pt-1;
+      @extend .my-2;
     }
   }
 }
