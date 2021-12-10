@@ -18,13 +18,11 @@ menu:
     parent: offering
 aliases:
   - /public.html
+  - /public
   - /offering/
 ---
-{{<section class="offering-hero public" header="images/header.svg">}}
-APPUiO Cloud basiert auf OpenShift 4, der aktuellsten Kubernetes Distribution von Red Hat und verfolgt den Ansatz "Namespace as a Service".
-{{</section>}}
 
-{{<section class="darkblue has-cols">}}
+{{< cloud_header header="images/header.svg" logo="images/appuio_cloud_rgb.png" footer="images/footer.svg" description="APPUiO Cloud basiert auf OpenShift 4, der aktuellsten Kubernetes Distribution von Red Hat und verfolgt den Ansatz \"Namespace as a Service\"." >}}
 
 * ![](/images/offer2_advantage4.svg)
   ### Instant On
@@ -35,11 +33,11 @@ APPUiO Cloud basiert auf OpenShift 4, der aktuellsten Kubernetes Distribution vo
   Bezahle nur für die Ressourcen, die du tatsächlich nutzt; Weitere Informationen findest du in unserem [Preismodell](https://products.docs.vshn.ch/products/appuio/cloud/pricing.html).
 
 * ![](/images/offer2_advantage6.svg)
-### Multi Cloud
+  ### Multi Cloud
   Die APPUiO Cloud Plattform ist in verschiedenen Cloud Providern (Zonen) verfügbar: Derzeit auf [cloudscale.ch](https://www.cloudscale.ch/) und [Exoscale](https://www.exoscale.com/).
 
 * ![](/images/offer2_advantage1.svg)
-### Swissness
+  ### Swissness
   APPUiO ist in verschiedenen Zonen verfügbar, auch in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz.
 
 * ![](/images/offer2_advantage2.svg)
@@ -50,7 +48,7 @@ APPUiO Cloud basiert auf OpenShift 4, der aktuellsten Kubernetes Distribution vo
   ### Community Support
   Du brauchst Hilfe? Besuche unser [APPUiO Cloud Forum](https://discuss.appuio.cloud/) oder unseren [Community Chat](https://community.appuio.ch). Falls du weitere Hilfe benötigst, beraten wir dich gerne über unsere [kostenpflichtigen Support Pakete](https://products.docs.vshn.ch/products/appuio/cloud/support_packages.html).
 
-{{</section>}}
+{{</ cloud_header >}}
 
 {{<section class="has-cols col-cyan y-narrow">}}
 
@@ -58,7 +56,7 @@ APPUiO Cloud basiert auf OpenShift 4, der aktuellsten Kubernetes Distribution vo
 
 * ### TCP und UDP Ingress Traffic
 
-  Mit dem [Kubernetes Service Type Load Balancer](https://kubernetes.io/docs/concepts/services-networking/service/#loadbalancer) kann jeder Service (TCP und UDP) im Internet erreichbar gemacht werden. Die Verfügbarkeit ist Abhängig von der jeweiligen APPUiO Cloud Zone an. 
+  Mit dem [Kubernetes Service Type Load Balancer](https://kubernetes.io/docs/concepts/services-networking/service/#loadbalancer) kann jeder Service (TCP und UDP) im Internet erreichbar gemacht werden. Die Verfügbarkeit ist Abhängig von der jeweiligen APPUiO Cloud Zone an.
 * ### Let's Encrypt Zertifikate
 
   APPUiO erlaubt es dir, mittels “[Let’s Encrypt](https://letsencrypt.org/)" per Knopfdruck echte SSL-Zertifikate in deine Routen zu konfigurieren. Nach erfolgter Aktivierung sorgt APPUiO für die Aktualisierung dieser Zertifikate, die 3 Monate gültig sind. Vor Ablauf werden sie automatisch erneuert.

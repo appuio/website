@@ -18,6 +18,7 @@ menu:
     parent: offering
 aliases:
   - /en/public.html
+  - /en/public
   - /en/offering/
 ---
 {{<section class="offering-hero public" header="images/header.svg">}}
