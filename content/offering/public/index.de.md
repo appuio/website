@@ -70,7 +70,7 @@ APPUiO Cloud basiert auf OpenShift 4, der aktuellsten Kubernetes Distribution vo
   Mit dem [Kubernetes Service Type Load Balancer](https://kubernetes.io/docs/concepts/services-networking/service/#loadbalancer) kann jeder Service (TCP und UDP) im Internet erreichbar gemacht werden. Die Verfügbarkeit ist Abhängig von der jeweiligen APPUiO Cloud Zone an. 
 * ### Let's Encrypt Zertifikate
 
-  APPUiO erlaubt es dir, mittels “[Let’s Encrypt](https://letsencrypt.org/)" per Knopfdruck echte SSL-Zertifikate in deine Routen zu konfigurieren. Nach erfolgter Aktivierung sorgt APPUiO für die Aktualisierung dieser Zertifikate, die 3 Monate gültig sind. Nach Ablauf werden sie automatisch ersetzt.
+  APPUiO erlaubt es dir, mittels “[Let’s Encrypt](https://letsencrypt.org/)" per Knopfdruck echte SSL-Zertifikate in deine Routen zu konfigurieren. Nach erfolgter Aktivierung sorgt APPUiO für die Aktualisierung dieser Zertifikate, die 3 Monate gültig sind. Vor Ablauf werden sie automatisch erneuert.
 * ### Persistent Storage
 
   Verschiedene Storage Klassen erlauben den Bezug von Persistent Storage. Der Verfügbare Storage unterscheidet sich je nach Zone. In der [APPUiO Cloud User Dokumentation](https://docs.appuio.cloud/user/explanation/storage-classes.html) ist ersichtlich, welche Storage Klassen verfügbar sind.
