@@ -1,6 +1,11 @@
 ---
-title: acend
+title: acend trainings
+menu:
+  main:
+    parent: techlabs
+    weight: 3
 ---
+
 {{<section class="techlab-hero" header="images/acend.svg">}}
 
 In order to exploit the full potential and benefits of a container platform, knowledge on the user side is the key to success. For this reason, APPUiO has expanded its partner ecosystem with the company acend.
@@ -64,6 +69,8 @@ The trainings combine theoretical inputs with hands-on labs.
 {{</section>}}
 
 {{<section class="has-text-centered">}}
+
+## For more trainings visit
 
 [![acend](acend-logo.svg "acend")](https://acend.ch/)
 
