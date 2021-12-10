@@ -1,6 +1,11 @@
 ---
-title: acend
+title: "acend Trainings"
+menu:
+  main:
+    parent: techlabs
+    weight: 3
 ---
+
 {{<section class="techlab-hero" header="images/acend.svg">}}
 
 Damit das ganze Potential und alle Vorteile einer Container Plattform ausgeschöpft werden, ist das Wissen auf der Anwender-Seite der Schlüssel zum Erfolg. Aus diesem Grund hat APPUiO sein Partner-Ökosystem mit der Firma acend erweitert.
