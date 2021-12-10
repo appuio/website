@@ -27,34 +27,27 @@ APPUiO Cloud is based on OpenShift 4, the latest Kubernetes distribution from Re
 {{<section class="darkblue has-cols">}}
 
 * ![](/images/offer2_advantage4.svg)
-
   ### Instant On
-
   Get your own OpenShift namespace in minutes, ready to use.
+
 * ![](/images/offer2_advantage5.svg)
-
   ### Pay per Use
-
   Only pay for the resources you actually use; see our price model for more information.
+
 * ![](/images/offer2_advantage6.svg)
-
   ### Multi Cloud
-
     The APPUiO Cloud Platform is available in different availability zones: currently cloudscale.ch and exoscale.ch
+
 * ![](/images/offer2_advantage1.svg)
-
   ### Swissness
-
   APPUiO is available in different zones, also in Swiss data centers that are ISO27001 certified and operate in accordance with Swiss banking regulators (FINMA).
+
 * ![](/images/offer2_advantage2.svg)
-
   ### Security
-
   When using the APPUiO Cloud Platform you're benefiting from SELinux, Cilium, Two-Factor Authentication and Let's Encrypt. The newest Security Updates are applied regularly.
+
 * ![](/images/offer2_advantage3.svg)
-
   ### Community Support
-
   Need help? Check out our APPUiO Cloud forums and community chat. For those needing more help, there are support packages available at extra cost.
 
 {{</section>}}

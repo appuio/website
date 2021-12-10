@@ -27,34 +27,27 @@ APPUiO Cloud basiert auf OpenShift 4, der aktuellsten Kubernetes Distribution vo
 {{<section class="darkblue has-cols">}}
 
 * ![](/images/offer2_advantage4.svg)
-
   ### Instant On
-
   Bekomme in wenigen Minuten deinen eigenen OpenShift-Namespace, der sofort einsatzbereit ist.
+
 * ![](/images/offer2_advantage5.svg)
-
   ### Pay per Use
-
   Bezahle nur für die Ressourcen, die du tatsächlich nutzt; Weitere Informationen findest du in unserem [Preismodell](https://products.docs.vshn.ch/products/appuio/cloud/pricing.html).
+
 * ![](/images/offer2_advantage6.svg)
-
 ### Multi Cloud
-
   Die APPUiO Cloud Plattform ist in verschiedenen Cloud Providern (Zonen) verfügbar: Derzeit auf [cloudscale.ch](https://www.cloudscale.ch/) und [Exoscale](https://www.exoscale.com/).
+
 * ![](/images/offer2_advantage1.svg)
-
 ### Swissness
-
   APPUiO ist in verschiedenen Zonen verfügbar, auch in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz.
+
 * ![](/images/offer2_advantage2.svg)
-
   ### Security
-
   Auf der APPUiO Cloud Plattform profitierst du von SELinux, Cilium, Two-Factor Authentication und Let’s Encrypt. Regelmässig werden die neuesten Security Updates eingespielt.
+
 * ![](/images/offer2_advantage3.svg)
-
   ### Community Support
-
   Du brauchst Hilfe? Besuche unser [APPUiO Cloud Forum](https://discuss.appuio.cloud/) oder unseren [Community Chat](https://community.appuio.ch). Falls du weitere Hilfe benötigst, beraten wir dich gerne über unsere [kostenpflichtigen Support Pakete](https://products.docs.vshn.ch/products/appuio/cloud/support_packages.html).
 
 {{</section>}}
