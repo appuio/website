@@ -41,13 +41,11 @@ APPUiO Cloud basiert auf OpenShift 4, der aktuellsten Kubernetes Distribution vo
 ### Multi Cloud
 
   Die APPUiO Cloud Plattform ist in verschiedenen Cloud Providern (Zonen) verfügbar: Derzeit auf [cloudscale.ch](https://www.cloudscale.ch/) und [Exoscale](https://www.exoscale.com/).
-
 * ![](/images/offer2_advantage1.svg)
 
 ### Swissness
 
   APPUiO ist in verschiedenen Zonen verfügbar, auch in ISO27001-zertifizierten und nach FINMA-Richtlinien gebauten Rechenzentren in der Schweiz.
-
 * ![](/images/offer2_advantage2.svg)
 
   ### Security
