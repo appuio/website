@@ -292,6 +292,11 @@ collections:
         name: body
         widget: markdown
         i18n: true
+      - label: Tags
+        name: tags
+        widget: list
+        required: true
+        i18n: true
   - name: impressum # Used in routes, e.g., /admin/collections/blog
     label: Impressum # Used in the UI
     folder: content/impressum-datenschutz # The path to the folder where the documents are stored
