@@ -81,7 +81,7 @@ aliases:
 
 # Preisrechner
 
-<iframe width="100%" height="450" src="https://pricing.appuio.cloud/calculator?title=<empty>&style=appuio-dark" style="border: none"></iframe>
+<iframe width="100%" height="450" src="https://pricing.appuio.cloud/calculator?title=<empty>&style=appuio" style="border: none"></iframe>
 
 {{</section>}}
 
