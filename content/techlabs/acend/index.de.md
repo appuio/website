@@ -1,5 +1,5 @@
 ---
-title: "acend Trainings"
+title: acend Trainings
 menu:
   main:
     parent: techlabs
@@ -70,7 +70,7 @@ Die Trainings kombinieren theoretische Inputs mit praxisnahen Hands-on Labs.
 
 {{<section class="has-text-centered">}}
 
-## Weitere Trainings findest du auf
+#### Weitere Trainings findest du auf
 
 [![acend](acend-logo.svg "acend")](https://acend.ch/)
 

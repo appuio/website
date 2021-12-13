@@ -70,7 +70,7 @@ The trainings combine theoretical inputs with hands-on labs.
 
 {{<section class="has-text-centered">}}
 
-## For more trainings visit
+#### For more trainings visit
 
 [![acend](acend-logo.svg "acend")](https://acend.ch/)
 
