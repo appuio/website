@@ -57,7 +57,7 @@ aliases:
   Mit dem [Kubernetes Service Type Load Balancer](https://kubernetes.io/docs/concepts/services-networking/service/#loadbalancer) kann jeder Service (TCP und UDP) im Internet erreichbar gemacht werden. Die Verfügbarkeit ist Abhängig von der jeweiligen APPUiO Cloud Zone an.
   
 * ### Let's Encrypt Zertifikate
-  APPUiO erlaubt es dir, mittels [Let’s Encrypt](https://letsencrypt.org/) per Knopfdruck echte SSL-Zertifikate in deine Routen zu konfigurieren. Nach erfolgter Aktivierung kümmert sich APPUiO um die Aktualisierung dieser 3 Monate gültigen Zertifikate.
+  Mit [Let’s Encrypt](https://letsencrypt.org/) kannst du per Knopfdruck echte SSL-Zertifikate in deine Routen konfigurieren. Nach der Aktivierung kümmert sich APPUiO um die Aktualisierung dieser 3 Monate gültigen Zertifikate.
   
 * ### Kubernetes Operatoren
   APPUiO Cloud stellt die Kubernetes Operatoren [K8up](https://k8up.io/) und [Cert Manager](https://cert-manager.io/) vorinstalliert und vorkonfiguriert zur Verfügung.
