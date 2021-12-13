@@ -59,11 +59,11 @@ aliases:
 * ### Let's Encrypt Zertifikate
   APPUiO erlaubt es dir, mittels [Let’s Encrypt](https://letsencrypt.org/) per Knopfdruck echte SSL-Zertifikate in deine Routen zu konfigurieren. Nach erfolgter Aktivierung kümmert sich APPUiO um die Aktualisierung dieser 3 Monate gültigen Zertifikate.
   
-* ### Persistent Storage
-  Verschiedene Storage Klassen erlauben den Bezug von Persistent Storage. Der Verfügbare Storage ist abhängig von der Zone. Mehr Infos dazu findest du in der [APPUiO Cloud User Dokumentation](https://docs.appuio.cloud/user/explanation/storage-classes.html).
-  
 * ### Kubernetes Operatoren
   APPUiO Cloud stellt die Kubernetes Operatoren [K8up](https://k8up.io/) und [Cert Manager](https://cert-manager.io/) vorinstalliert und vorkonfiguriert zur Verfügung.
+  
+* ### Persistent Storage
+  Verschiedene Storage Klassen erlauben den Bezug von Persistent Storage. Der Verfügbare Storage ist abhängig von der Zone. Mehr Infos dazu findest du in der [APPUiO Cloud User Dokumentation](https://docs.appuio.cloud/user/explanation/storage-classes.html).
   
 * ### Benutzerverwaltung
   Organisiere deine Benutzer in Teams und Organisationen und weise diesen verschiedene Berechtigungen zu; kontrolliere auf einen Blick, wer auf welche Namespaces zugreifen kann.
