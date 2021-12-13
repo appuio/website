@@ -89,7 +89,7 @@ aliases:
 * #### Support Pakete
   [weitere Informationen](https://products.docs.vshn.ch/products/appuio/cloud/support_packages.html)
 * #### Managed Services
-* #### Upgrade auf Managed oder Self Managed
+* #### Upgrade auf Managed oder Self-Managed
 * #### CI/CD Pipeline Engineering
 
 
