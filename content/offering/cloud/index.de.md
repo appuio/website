@@ -54,25 +54,21 @@ aliases:
 # Im Angebot enthalten
 
 * ### TCP und UDP Ingress Traffic
-
   Mit dem [Kubernetes Service Type Load Balancer](https://kubernetes.io/docs/concepts/services-networking/service/#loadbalancer) kann jeder Service (TCP und UDP) im Internet erreichbar gemacht werden. Die Verfügbarkeit ist Abhängig von der jeweiligen APPUiO Cloud Zone an.
+  
 * ### Let's Encrypt Zertifikate
-
-  APPUiO erlaubt es dir, mittels “[Let’s Encrypt](https://letsencrypt.org/)" per Knopfdruck echte SSL-Zertifikate in deine Routen zu konfigurieren. Nach erfolgter Aktivierung sorgt APPUiO für die Aktualisierung dieser Zertifikate, die 3 Monate gültig sind. Vor Ablauf werden sie automatisch erneuert.
+  APPUiO erlaubt es dir, mittels [Let’s Encrypt](https://letsencrypt.org/) per Knopfdruck echte SSL-Zertifikate in deine Routen zu konfigurieren. Nach erfolgter Aktivierung kümmert sich APPUiO um die Aktualisierung dieser 3 Monate gültigen Zertifikate.
+  
 * ### Persistent Storage
-
-  Verschiedene Storage Klassen erlauben den Bezug von Persistent Storage. Der Verfügbare Storage unterscheidet sich je nach Zone. In der [APPUiO Cloud User Dokumentation](https://docs.appuio.cloud/user/explanation/storage-classes.html) ist ersichtlich, welche Storage Klassen verfügbar sind.
-* ### Vorinstallierte und konfigurierte Kubernetes Operator
-
-  APPUiO Cloud stellt die folgenden Kubernetes Operator vorinstalliert und vorkonfiguriert zur Verfügung, die sofort verwendet werden können:
-
-  * [K8up](https://k8up.io/): Kubernetes Backup Operator.
-  * [Cert Manager](https://cert-manager.io/): X.509-Zertifikatsverwaltung für Kubernetes.
+  Verschiedene Storage Klassen erlauben den Bezug von Persistent Storage. Der Verfügbare Storage ist abhängig von der Zone. Mehr Infos dazu findest du in der [APPUiO Cloud User Dokumentation](https://docs.appuio.cloud/user/explanation/storage-classes.html).
+  
+* ### Kubernetes Operatoren
+  APPUiO Cloud stellt die Kubernetes Operatoren [K8up](https://k8up.io/) und [Cert Manager](https://cert-manager.io/) vorinstalliert und vorkonfiguriert zur Verfügung.
+  
 * ### Benutzerverwaltung
-
   Organisiere deine Benutzer in Teams und Organisationen und weise diesen verschiedene Berechtigungen zu; kontrolliere auf einen Blick, wer auf welche Namespaces zugreifen kann.
+  
 * ### APPUiO Community
-
   Werde Teil der grandiosen APPUiO Community inklusive einer kostenlosen Mitgliedschaft im Hannelore-Fanclub.
 
 {{</section>}}
