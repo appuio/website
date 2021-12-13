@@ -84,7 +84,7 @@ aliases:
 {{<section class="cyan has-cols two col-white items-center title-only">}}
 
 # Zusätzliche Services
-## Auf Anfrage
+#### Auf Anfrage
 
 * #### Support Pakete
   [weitere Informationen](https://products.docs.vshn.ch/products/appuio/cloud/support_packages.html)
