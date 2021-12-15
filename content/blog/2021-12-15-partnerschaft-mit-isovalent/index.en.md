@@ -1,6 +1,6 @@
 ---
 title: Partnership with Isovalent
-date: 2021-12-15
+date: 2021-12-16
 featured_image: isovalent_blogpost.png
 summary: We are thrilled to announce that we agreed on a partnership with
   Isovalent. Isovalent created Cilium, the Enterprise-class eBPF-powered

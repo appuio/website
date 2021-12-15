@@ -1,6 +1,6 @@
 ---
 title: Partnerschaft mit Isovalent
-date: 2021-12-15
+date: 2021-12-16
 featured_image: isovalent_blogpost.png
 summary: Wir freuen uns sehr, dass wir mit Isovalent einen wertvollen Partner
   für APPUiO gewinnen konnten. Isovalent ist der Entwickler von Cilium, einem
