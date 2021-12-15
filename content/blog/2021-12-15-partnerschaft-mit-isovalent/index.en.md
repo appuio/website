@@ -23,7 +23,7 @@ Isovalent provides APPUiO with expert support for stable operations, supported b
 Cilium is a critical piece of the new APPUiO Cloud. It allows us to:
 
 * Provide advanced networking configurations, to help secure the multi-tenant environment.
-* Bring observability into the network layer, which would be oitherwise hard (or downright impossible) because of the restricted nature of APPUiO Cloud.
+* Bring observability into the network layer, which would be otherwise hard (or downright impossible) because of the restricted nature of APPUiO Cloud.
 * Enhance network policies, with way more possibilities than those offered by Kubernetes or even OpenShift.
 * Implement Kubernetes LoadBalancer services with BGP, which makes it possible to offer this service on cloudscale.ch.
 * Future proofing our network technology, and to prepare for scalable cluster networking.
