@@ -6,13 +6,13 @@ summary: We are thrilled to announce that we agreed on a partnership with
   Networking, Observability, and Security tool, which was contributed to the
   CNCF as an incubation-level project in 2021.
 ---
-# What is Cilium and eBPF?
-
-Cilium is an open source software for enabling, securing, and observing network connectivity between container workloads in cloud native apps. It is fueled by eBPF, the revolutionary Linux Kernel technology. eBPF allows sandboxed programs to run in kernel space. It is used to safely and efficiently extend the capabilities of the kernel without requiring to change kernel source code or load kernel modules.
-
 # Who is Isovalent?
 
 Isovalent builds open-source cloud-native networking software that solves networking, security, and observability for modern infrastructure. Isovalent Cilium Enterprise is the  Enterprise Distribution maintained by the creators of Cilium & eBPF.
+
+# What is Cilium and eBPF?
+
+Cilium is an open source software for enabling, securing, and observing network connectivity between container workloads in cloud native apps. It is fueled by eBPF, the revolutionary Linux Kernel technology. eBPF allows sandboxed programs to run in kernel space. It is used to safely and efficiently extend the capabilities of the kernel without requiring to change kernel source code or load kernel modules.
 
 # Why APPUiO and Isovalent?
 
