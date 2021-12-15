@@ -16,7 +16,7 @@ Isovalent builds open-source cloud-native networking software that solves networ
 
 # Why APPUiO and Isovalent?
 
-Isovalent, the creators of Cilium, provides APPUiO with expert support for stable operations, supported by the use of the hardened Red Hat-certified distribution of Cilium. This support is provided by the same developers who wrote Cilium, with a 30 minute response time; hotfixes for high priority incidents; and a regular, proactive review of customer metrics to identify potential concerns as soon as possible. All of these features makes Isovalent a premium partner for APPUiO in this new phase.
+Isovalent provides APPUiO with expert support for stable operations, supported by the use of the hardened Red Hat-certified distribution of Cilium. This support is provided by the same developers who wrote Cilium, with a 30 minute response time; hotfixes for high priority incidents; and a regular, proactive review of customer metrics to identify potential concerns as soon as possible. All of these features makes Isovalent a premium partner for APPUiO in this new phase.
 
 # Why APPUiO and Cilium?
 
