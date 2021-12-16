@@ -2,7 +2,9 @@
 title: Cloud
 weight: 10
 ribbon_color: "#ff931e"
-description: Du willst in wenigen Minuten einen einsatzbereiten OpenShift-Namespace bekommen und nur für die Ressourcen bezahlen, die du tatsächlich nutzt?
+description: Du willst in wenigen Minuten einen einsatzbereiten
+  OpenShift-Namespace bekommen und nur für die Ressourcen bezahlen, die du
+  tatsächlich nutzt?
 features:
   - Shared oder Dedicated
   - Sofort starten
@@ -33,7 +35,7 @@ aliases:
 
 * ![](/images/offer2_advantage6.svg)
   ### Multi Cloud
-  Die APPUiO Cloud Plattform ist in verschiedenen Cloud Providern (Zonen) verfügbar: Derzeit auf [cloudscale.ch](https://www.cloudscale.ch/) und [Exoscale](https://www.exoscale.com/).
+  Die APPUiO Cloud Plattform ist in verschiedenen Zonen verfügbar: Derzeit auf [cloudscale.ch](https://www.cloudscale.ch/) und [Exoscale](https://www.exoscale.com/).
 
 * ![](/images/offer2_advantage1.svg)
   ### Swissness
