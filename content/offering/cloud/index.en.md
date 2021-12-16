@@ -55,17 +55,18 @@ aliases:
 
 * ### TCP and UDP Traffic
 
-   Depends on the particular APPUiO Cloud zone (service type load balancer).
+   With the [Kubernetes Service Type Load Balancer](https://kubernetes.io/docs/concepts/services-networking/service/#loadbalancer), every service (TCP and UDP) can be made accessible on the internet. The availability depends on the respective APPUiO Cloud Zone.
 * ### Let's Encrypt Certificates
 
-   APPUiO enables you to configure valid SSL-certificates signed by “Let’s Encrypt" into your routes at the push of a button. Once successfully registered, APPUiO automatically takes care of updating the certificates (that have a validity period of three months) when necessary.
+   APPUiO enables you to configure valid SSL-certificates signed by [Let’s Encrypt](https://letsencrypt.org/) into your routes at the push of a button. Then APPUiO takes care of updating the certificates (validation period: 3 months).
+* ### Kubernetes Operator
+
+  APPUiO Cloud provides the Kubernetes operators [K8up](https://k8up.io/) and [Cert Manager](https://cert-manager.io/) pre-installed and pre-configured.
 
 * ### Persistent Storage
 
-    Depends on the particular APPUiO Cloud zone (see [APPUiO Cloud Pricing](<* https://products.docs.vshn.ch/products/appuio/cloud/pricing.html#_persistent_storage_pvc>)).
-* ### Configured Operator
+    Different storage classes allow the use of persistent storage. The available storage depends on the zone. More information can be found in the [APPUiO Cloud User Documentation](https://docs.appuio.cloud/user/explanation/storage-classes.html).
 
-  APPUiO Cloud provides the Kubernetes operators [K8up](https://k8up.io/) and [Cert Manager](https://cert-manager.io/) pre-installed and pre-configured.
 * ### User Management
 
   Organize your namespaces in teams and organizations, and assign users to those teams; control who can access which namespaces at a glance.
