@@ -55,7 +55,7 @@ aliases:
 
 * ### TCP and UDP Traffic
 
-   With the Kubernetes Service Type Load Balancer, every service (TCP and UDP) can be made accessible on the internet. The availability depends on the respective APPUiO Cloud Zone.
+   With the [Kubernetes Service Type Load Balancer](https://kubernetes.io/docs/concepts/services-networking/service/#loadbalancer), every service (TCP and UDP) can be made accessible on the internet. The availability depends on the respective APPUiO Cloud Zone.
 * ### Let's Encrypt Certificates
 
    APPUiO enables you to configure valid SSL-certificates signed by [Let’s Encrypt](https://letsencrypt.org/) into your routes at the push of a button. Then APPUiO takes care of updating the certificates (validation period: 3 months).
