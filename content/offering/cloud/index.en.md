@@ -60,18 +60,12 @@ aliases:
 
    APPUiO enables you to configure valid SSL-certificates signed by “Let’s Encrypt" into your routes at the push of a button. Once successfully registered, APPUiO automatically takes care of updating the certificates (that have a validity period of three months) when necessary.
 
-  * 3 Scale API Management (Beta): API Management solution by Red Hat.
-  * database as a service: manually: Postgresql, Mariadb, Mysql
-  * WaF as a Service basierend auf Apache mod_sec (Beta)
 * ### Persistent Storage
 
-    Depends on the particular APPUiO Cloud zone (see [APPUiO Cloud Pricing](<* https://products.docs.vshn.ch/products/appuio/cloud/pricing.html#_persistent_storage_pvc>)). *
-* ### Pre-Installed and Configured Operator
+    Depends on the particular APPUiO Cloud zone (see [APPUiO Cloud Pricing](<* https://products.docs.vshn.ch/products/appuio/cloud/pricing.html#_persistent_storage_pvc>)).
+* ### Configured Operator
 
-  APPUiO Cloud provides the following OpenShift operators pre-installed and pre-configured, ready to be used:
-
-  * K8up: Kubernetes Backup Operator.
-  * [Cert Manager](https://cert-manager.io/): X.509 certificate management for Kubernetes.
+  APPUiO Cloud provides the Kubernetes operators [K8up](https://k8up.io/) and [Cert Manager](https://cert-manager.io/) pre-installed and pre-configured.
 * ### User Management
 
   Organize your namespaces in teams and organizations, and assign users to those teams; control who can access which namespaces at a glance.
