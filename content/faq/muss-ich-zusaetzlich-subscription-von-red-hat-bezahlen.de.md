@@ -1,6 +1,6 @@
 ---
 title: Muss ich zusätzlich Subscription von Red Hat bezahlen?
 tags:
-- public
+- cloud
 ---
 Nein, die Subscriptions sind im Preis enthalten.

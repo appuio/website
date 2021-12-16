@@ -1,3 +1,3 @@
 ---
-link: offering/public
+link: offering/cloud
 ---

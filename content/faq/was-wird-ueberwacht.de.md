@@ -1,6 +1,6 @@
 ---
 title: Was wird überwacht?
 tags:
-- public
+  - cloud
 ---
-Der gesamte Cluster und die dazugehörigen Komponenten werden überwacht. Für die Kundenapplikation kann ein zusätzliches Monitoring abonniert werden.
+Der gesamte Cluster und die dazugehörigen Komponenten werden überwacht.

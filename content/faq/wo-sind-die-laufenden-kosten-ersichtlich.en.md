@@ -1,6 +1,6 @@
 ---
 title: Where can I review running costs?
 tags:
-- public
+  - cloud
 ---
-Current operating costs are visible in the Service Portal.
+Coming later into APPUiO Cloud Portal, for more info see [roadmap.appuio.cloud](https://roadmap.appuio.cloud)

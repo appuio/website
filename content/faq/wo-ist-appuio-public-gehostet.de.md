@@ -1,6 +1,6 @@
 ---
-title: Wo ist APPUiO Public gehostet?
+title: Wo ist APPUiO Cloud gehostet?
 tags:
-- public
+  - cloud
 ---
-Die APPUiO Public Platform wird bei cloudscale.ch gehostet.
+Siehe [APPUiO Cloud Zones](https://products.docs.vshn.ch/products/appuio/cloud/zones.html).

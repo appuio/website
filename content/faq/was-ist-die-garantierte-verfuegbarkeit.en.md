@@ -1,6 +1,6 @@
 ---
-title: What is "guaranteed availability"?
+title: How is the availability of the product?
 tags:
-- public
+  - cloud
 ---
-Not during announced maintenance work, excluding customer errors, reachable according to monitoring, similarly to VSHN's terms and conditions.
+The conditions of the [APPUiO Cloud product page](https://products.docs.vshn.ch/products/appuio/cloud/index.html#_conditions) apply.

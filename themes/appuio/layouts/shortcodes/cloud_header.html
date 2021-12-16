@@ -1,0 +1,38 @@
+{{- $description := .Get "description" -}}
+{{- $header := .Get "header" -}}
+{{- $footer := .Get "footer" -}}
+
+<section class="cloud-header-top">
+  {{ if $header }}
+    <div class="img-wrapper" id="angebot_cloud_image">
+      {{ $svg := .Page.Resources.GetMatch $header }}
+      {{ if $svg }}
+        {{ $svg.Content | safeHTML }}
+      {{ else }}
+        {{ warnf "Header not found!" }}
+      {{ end }}
+    </div>
+  {{ end }}
+
+  <div class="container">
+    <img class="cloud-logo" src={{ (.Get "logo") }} />
+
+    <p class="description">{{ $description }}</p>
+
+    <div class="advantages">
+      {{ .Inner | markdownify }}
+    </div>
+  </div>
+
+
+  {{ if $footer }}
+    <div class="img-wrapper footer-wrapper">
+      {{ $svg := .Page.Resources.GetMatch $footer }}
+      {{ if $svg }}
+        {{ $svg.Content | safeHTML }}
+      {{ else }}
+        {{ warnf "Footer not found!" }}
+      {{ end }}
+    </div>
+  {{ end }}
+</section>

@@ -29,7 +29,6 @@ h3 {
     }
   }
 }
-
 .has-cyan-links {
   a {
     color: $cyan-dark;
@@ -38,11 +37,27 @@ h3 {
     }
   }
 }
+.has-cyan-light-links {
+  a {
+    color: $cyan-light;
+    &:hover {
+      color: $yellow;
+    }
+  }
+}
 .has-white-links {
   a {
     color: white;
     &:hover {
       color: $yellow;
+    }
+  }
+}
+.has-darkblue-links {
+  a {
+    color: $darkblue;
+    &:hover {
+      color: $darkblue-2;
     }
   }
 }

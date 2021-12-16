@@ -5,21 +5,11 @@
     {{- if $card -}}
       <div class="column has-text-centered">
         <div class="card">
-          <div class="ribbon" style="background-color: {{ .Params.ribbon_color }}"></div>
           <div class="card-content">
+            <img src="{{ $card.RelPermalink }}" alt="{{ .Title }}" />
             <h2 class="subtitle"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
             <p>{{ .Params.description }}</p>
-            <img src="{{ $card.RelPermalink }}" alt="{{ .Title }}" />
           </div>
-          <ul class="offer-feature-list">
-            {{- range .Params.features -}}
-              {{- if eq . "" -}}
-                  <li>-</li>
-              {{- else -}}
-                  <li>{{ replaceRE "\\s*/\\s*" "<br>" . | safeHTML }}</li>
-              {{- end -}}
-            {{- end -}}
-          </ul>
           <div class="card-footer">
             <p class="card-footer-item">
               <a href="{{ .RelPermalink }}" class="button is-rounded is-primary is-fullwidth">{{ $indexParams.offerButton }}</a>

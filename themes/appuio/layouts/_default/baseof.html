@@ -38,7 +38,8 @@
         <link rel="stylesheet" href="{{ $style.RelPermalink }}">
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </head>
-    <body class="has-navbar-fixed-top has-text-centered {{ .Page.Type }}">
+    {{ $pageTitle := print "page-" .Page.Title }}
+    <body class="has-navbar-fixed-top has-text-centered {{ .Page.Type }} {{ $pageTitle | urlize}}">
         {{- partial "header.html" . -}}
         {{- partial "cookies.html" . -}}
 

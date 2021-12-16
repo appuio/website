@@ -73,20 +73,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-  // Angebot Public Animation GSAP
+  // Angebot Cloud Animation GSAP
 
-  if (document.querySelectorAll("#angebot_public_image").length > 0) {
+  if (document.querySelectorAll("#angebot_cloud_image").length > 0) {
     var tlPublic = new TimelineMax({
       repeat: -1,
       yoyo: true,
     });
 
     tlPublic.to(
-      "#container, #cloud-53",
-      3,
+      "#containers, #clouds_mitte",
+      25,
       {
-        y: -5,
-        x: -10,
+        x: -50,
         yoyo: true,
         ease: Power1.easeInOut,
         repeat: -1,
@@ -95,11 +94,10 @@ document.addEventListener('DOMContentLoaded', () => {
     );
 
     tlPublic.to(
-      "#container-2",
-      3,
+      "#cloud_links",
+      9,
       {
-        y: -10,
-        x: -5,
+        x: 70,
         yoyo: true,
         ease: Power1.easeInOut,
         repeat: -1,
@@ -108,41 +106,67 @@ document.addEventListener('DOMContentLoaded', () => {
     );
 
     tlPublic.to(
-      "#container",
-      3,
+      "#clouds_rechts-2",
+      15,
       {
-        y: -5,
-        yoyo: true,
-        ease: Power1.easeInOut,
-        repeat: -1,
-      },
-      4
-    );
-
-    tlPublic.to(
-      "#container-2",
-      3,
-      {
-        y: -10,
-        yoyo: true,
-        ease: Power1.easeInOut,
-        repeat: -1,
-      },
-      0
-    );
-
-    tlPublic.to(
-      "#container-3",
-      6,
-      {
-        y: -10,
-        x: 5,
+        x: -150,
+        y: -150,
         yoyo: true,
         ease: Power1.easeInOut,
         repeat: -1,
       },
       2
     );
+
+    // tlPublic.to(
+    //   "#container-2",
+    //   3,
+    //   {
+    //     y: -10,
+    //     x: -5,
+    //     yoyo: true,
+    //     ease: Power1.easeInOut,
+    //     repeat: -1,
+    //   },
+    //   2
+    // );
+
+    // tlPublic.to(
+    //   "#container",
+    //   3,
+    //   {
+    //     y: -5,
+    //     yoyo: true,
+    //     ease: Power1.easeInOut,
+    //     repeat: -1,
+    //   },
+    //   4
+    // );
+
+    // tlPublic.to(
+    //   "#container-2",
+    //   3,
+    //   {
+    //     y: -10,
+    //     yoyo: true,
+    //     ease: Power1.easeInOut,
+    //     repeat: -1,
+    //   },
+    //   0
+    // );
+
+    // tlPublic.to(
+    //   "#container-3",
+    //   6,
+    //   {
+    //     y: -10,
+    //     x: 5,
+    //     yoyo: true,
+    //     ease: Power1.easeInOut,
+    //     repeat: -1,
+    //   },
+    //   2
+    // );
   }
 
   // Angebot Managed Animation GSAP

@@ -1,0 +1,31 @@
+$cloud-blue: #A7E4F2;
+
+body.page-cloud {
+  .cloud-header-top {
+    @extend .p-0;
+    background: $cloud-blue;
+  }
+
+  .footer-wrapper {
+    background: $darkblue;
+  }
+
+  .description {
+    @extend .is-size-4;
+    @extend .my-6;
+  }
+
+  .advantages ul {
+    @extend .columns;
+    @extend .is-multiline;
+    li {
+      @extend .column;
+      @extend .is-one-third;
+      @extend .my-5;
+    }
+    h3 {
+      @extend .pt-1;
+      @extend .my-2;
+    }
+  }
+}

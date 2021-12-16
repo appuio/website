@@ -1,4 +1,4 @@
-section.has-cols {
+section.has-cols-no-buttons {
   h2,h3,h4 {
     @extend .py-0;
   }
@@ -29,29 +29,29 @@ section.has-cols {
 }
 
 /* width */
-section.has-cols > div > ul > li {
+section.has-cols-no-buttons > div > ul > li {
     @extend .is-one-third;
 }
-section.has-cols.four > div > ul > li {
+section.has-cols-no-buttons.four > div > ul > li {
     @extend .is-one-quarter;
 }
-section.has-cols.two > div > ul > li {
+section.has-cols-no-buttons.two > div > ul > li {
     @extend .is-half;
 }
 @media (min-width: $tablet) {
-    section.has-cols > div > ul > li {
+    section.has-cols-no-buttons > div > ul > li {
         width: calc(33.33% - 1rem) !important;
     }
-    section.has-cols.four > div > ul > li {
+    section.has-cols-no-buttons.four > div > ul > li {
         width: calc(25% - 1rem) !important;
     }
-    section.has-cols.two > div > ul > li {
+    section.has-cols-no-buttons.two > div > ul > li {
         width: calc(50% - 1rem) !important;
     }
 }
 
 /* padding */
-section.has-cols.y-narrow {
+section.has-cols-no-buttons.y-narrow {
   > div > ul {
     @extend .pt-6;
     > li {
@@ -61,32 +61,11 @@ section.has-cols.y-narrow {
   }
 }
 
-section.has-cols.title-only {
-  li {
-    @extend .py-1;
-    min-height: 150px;
-    justify-content: center
-  }
-  h4 {
-    @extend .m-0;
-  }
-  a {
-    @extend .has-text-centered;
-    @extend .is-size-6;
-    @extend .is-fullwidth;
-    @extend .pt-2;
-    width: 100%;
-  }
-}
-
 /* colors */
-section.has-cols {
+section.has-cols-no-buttons {
   &.col-white li {
     background: $white;
     color: $dark-text;
-    h2, h3 {
-      color: $darkblue;
-    }
   }
   &.col-darkblue li {
     background: $darkblue;
@@ -94,14 +73,6 @@ section.has-cols {
     @extend .has-yellow-links;
     h2, h3 {
       color: $white;
-    }
-  }
-  &.col-darkblue2 li {
-    background: $darkblue-2;
-    color: $white;
-    @extend .has-cyan-light-links;
-    h2, h3 {
-      color: $cyan_light;
     }
   }
   &.col-cyan li {
@@ -113,25 +84,16 @@ section.has-cols {
       @extend .is-size-5;
     }
   }
-  &.col-cyan-light li {
-    background: $cyan_light;
-    color: $dark-text;
-    @extend .has-darkblue-links;
-    h2, h3 {
-      color: $dark-text;
-      @extend .is-size-5;
-    }
-  }
 }
 
 /* alignment */
 
-section.has-cols.text-left {
+section.has-cols-no-buttons.text-left {
   li {
     @extend .has-text-left;
   }
 }
-section.has-cols.items-center {
+section.has-cols-no-buttons.items-center {
   p:nth-child(2) {
     @extend .is-flex;
     @extend .is-align-items-center;
@@ -139,19 +101,10 @@ section.has-cols.items-center {
 }
 
 /* footer */
-section.has-cols {
+section.has-cols-no-buttons {
   em {
     @extend .is-size-6;
     font-style: normal;
     color: $gray;
-  }
-  p:nth-child(3) > a {
-    @extend .button;
-    @extend .is-primary;
-    @extend .fix-primary-button;
-    @extend .is-rounded;
-    @extend .is-fullwidth;
-    @extend .mt-5;
-    @extend .mb-2;
   }
 }

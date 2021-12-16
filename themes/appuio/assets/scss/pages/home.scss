@@ -39,13 +39,12 @@ section.video {
   display: flex;
   flex-direction: column;
   height: 100%;
-  .ribbon {
-    height: 2rem;
-  }
   .subtitle {
     @extend .has-white-links;
+    @extend .my-2;
   }
   .card-content {
+    @extend .pb-2;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -56,6 +55,9 @@ section.video {
       margin: auto;
       max-width: 150px;
     }
+  }
+  .card-footer {
+    background: $darkblue;
   }
 }
 

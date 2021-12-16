@@ -51,10 +51,20 @@ DefaultContentLanguage = "de"
     parent = "community"
     weight = 3
   [[languages.en.menu.main]]
-    url = "https://docs.appuio.ch"
-    name = "Docs"
+    url = "https://docs.appuio.cloud"
+    name = "Cloud Docs"
     parent = "community"
     weight = 4
+  [[languages.en.menu.main]]
+    url = "https://discuss.appuio.cloud"
+    name = "Cloud Forum"
+    parent = "community"
+    weight = 5
+  [[languages.en.menu.main]]
+    url = "https://roadmap.appuio.cloud"
+    name = "Cloud Roadmap"
+    parent = "community"
+    weight = 6
   [[languages.en.menu.main]]
     identifier = "techlabs"
     url = "/"
@@ -98,10 +108,20 @@ DefaultContentLanguage = "de"
     parent = "community"
     weight = 3
   [[languages.de.menu.main]]
-    url = "https://docs.appuio.ch"
-    name = "Docs"
+    url = "https://docs.appuio.cloud"
+    name = "Cloud Docs"
     parent = "community"
     weight = 4
+  [[languages.de.menu.main]]
+    url = "https://discuss.appuio.cloud"
+    name = "Cloud Forum"
+    parent = "community"
+    weight = 5
+  [[languages.de.menu.main]]
+    url = "https://roadmap.appuio.cloud"
+    name = "Cloud Roadmap"
+    parent = "community"
+    weight = 6
   [[languages.de.menu.main]]
     identifier = "techlabs"
     url = "/"

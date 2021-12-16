@@ -1,6 +1,6 @@
 ---
 title: Welche Einheit wird abgerechnet?
 tags:
-- public
+  - cloud
 ---
-Die Abrechnung erfolgt in Megabytes.
+Siehe [APPUiO Cloud Pricing](https://products.docs.vshn.ch/products/appuio/cloud/pricing.html).

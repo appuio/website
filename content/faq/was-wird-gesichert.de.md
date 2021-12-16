@@ -1,6 +1,6 @@
 ---
 title: Was wird gesichert?
 tags:
-- public
+  - cloud
 ---
-Der gesamte Cluster, die Objekte und die Daten vom Perstistent Storage werden laufend gesichert. Es gibt keine Applikationskonsistente Backups und der Restore durch unseren Support ist kostenpflichtig.
+Sichere deine gesamte Arbeit mit dem kostenlosen vorinstallierten [K8up Operator](https://k8up.io/k8up/2.1/index.html) und profitiere von der grossen Auswahl an OpenShift Operators zum Schutz deiner Daten.

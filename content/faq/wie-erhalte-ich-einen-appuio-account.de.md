@@ -1,6 +1,6 @@
 ---
-title: Wie erhalte ich einen APPUiO Account?
+title: Wie erhalte ich einen APPUiO Cloud Account?
 tags:
-- public
+  - cloud
 ---
-Deinen APPUiO-Account erhältst du, indem du das Kontaktformular ausfüllst. Anschliessend erhältst du von uns nach Prüfung ein Login
+Deinen APPUiO Cloud Account erhältst du, indem du das Kontaktformular ausfüllst. Anschliessend erhältst du von uns nach Prüfung ein Login.
