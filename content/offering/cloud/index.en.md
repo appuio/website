@@ -29,11 +29,11 @@ aliases:
 
 * ![](/images/offer2_advantage5.svg)
   ### Pay per Use
-  Only pay for the resources you actually use; see our price model for more information.
+  Only pay for the resources you actually use; see our [price model](https://products.docs.vshn.ch/products/appuio/cloud/pricing.html) for more information.
 
 * ![](/images/offer2_advantage6.svg)
   ### Multi Cloud
-    The APPUiO Cloud Platform is available in different availability zones: currently cloudscale.ch and exoscale.ch
+    The APPUiO Cloud Platform is available in different availability zones: currently [cloudscale.ch](https://www.cloudscale.ch/) and [exoscale.ch](https://www.exoscale.com/).
 
 * ![](/images/offer2_advantage1.svg)
   ### Swissness
@@ -45,7 +45,7 @@ aliases:
 
 * ![](/images/offer2_advantage3.svg)
   ### Community Support
-  Need help? Check out our APPUiO Cloud forums and community chat. For those needing more help, there are support packages available at extra cost.
+  Need help? Check out our [APPUiO Cloud forums](https://discuss.appuio.cloud/) and [community chat](https://community.appuio.ch). For those needing more help, there are [support packages](https://products.docs.vshn.ch/products/appuio/cloud/support_packages.html) available at extra cost.
 
 {{</cloud_header>}}
 
