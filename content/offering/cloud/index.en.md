@@ -59,13 +59,14 @@ aliases:
 * ### Let's Encrypt Certificates
 
    APPUiO enables you to configure valid SSL-certificates signed by [Let’s Encrypt](https://letsencrypt.org/) into your routes at the push of a button. Then APPUiO takes care of updating the certificates (validation period: 3 months).
+* ### Kubernetes Operator
+
+  APPUiO Cloud provides the Kubernetes operators [K8up](https://k8up.io/) and [Cert Manager](https://cert-manager.io/) pre-installed and pre-configured.
 
 * ### Persistent Storage
 
     Different storage classes allow the use of persistent storage. The available storage depends on the zone. More information can be found in the [APPUiO Cloud User Documentation](https://docs.appuio.cloud/user/explanation/storage-classes.html).
-* ### Configured Operator
 
-  APPUiO Cloud provides the Kubernetes operators [K8up](https://k8up.io/) and [Cert Manager](https://cert-manager.io/) pre-installed and pre-configured.
 * ### User Management
 
   Organize your namespaces in teams and organizations, and assign users to those teams; control who can access which namespaces at a glance.
