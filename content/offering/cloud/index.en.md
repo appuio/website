@@ -58,7 +58,7 @@ aliases:
    Depends on the particular APPUiO Cloud zone (service type load balancer).
 * ### Let's Encrypt Certificates
 
-   APPUiO enables you to configure valid SSL-certificates signed by “Let’s Encrypt" into your routes at the push of a button. Once successfully registered, APPUiO automatically takes care of updating the certificates (that have a validity period of three months) when necessary.
+   APPUiO enables you to configure valid SSL-certificates signed by [Let’s Encrypt](https://letsencrypt.org/) into your routes at the push of a button. Then APPUiO takes care of updating the certificates (validation period: 3 months).
 
 * ### Persistent Storage
 
