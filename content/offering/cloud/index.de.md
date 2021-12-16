@@ -35,7 +35,7 @@ aliases:
 
 * ![](/images/offer2_advantage6.svg)
   ### Multi Cloud
-  Die APPUiO Cloud Plattform ist in verschiedenen Zonen verfügbar: Derzeit auf [cloudscale.ch](https://www.cloudscale.ch/) und [Exoscale](https://www.exoscale.com/).
+  APPUiO Cloud ist in verschiedenen Zonen verfügbar: Derzeit auf [cloudscale.ch](https://www.cloudscale.ch/) und [Exoscale](https://www.exoscale.com/).
 
 * ![](/images/offer2_advantage1.svg)
   ### Swissness
@@ -47,7 +47,7 @@ aliases:
 
 * ![](/images/offer2_advantage3.svg)
   ### Community Support
-  Du brauchst Hilfe? Besuche unser [APPUiO Cloud Forum](https://discuss.appuio.cloud/) oder unseren [Community Chat](https://community.appuio.ch). Falls du weitere Hilfe benötigst, beraten wir dich gerne über unsere [kostenpflichtigen Support Pakete](https://products.docs.vshn.ch/products/appuio/cloud/support_packages.html).
+  Du brauchst Hilfe? Besuche unser [APPUiO Cloud Forum](https://discuss.appuio.cloud/) oder unseren [Community Chat](https://community.appuio.ch). Wir beraten dich auch gerne über unsere [kostenpflichtigen Support Pakete](https://products.docs.vshn.ch/products/appuio/cloud/support_packages.html).
 
 {{</ cloud_header >}}
 
