@@ -68,7 +68,7 @@ Wir freuen uns dich an einem unserer vielen Veranstaltungen kennen zu lernen.
 
   ### Hohe Sicherheit
 
-  APPUiO nutzt SELinux, Let’s Encrypt und bietet Federation Authentication (LDAP Anbindung). Die Daten der Public Platform werden in ISO-zertifizierten Rechenzentren in der Schweiz gehalten.
+  APPUiO nutzt SELinux, Let’s Encrypt und bietet Federation Authentication (LDAP Anbindung). Die Daten können in ISO-zertifizierten Rechenzentren in der Schweiz gehalten werden.
 * ![Kostenersparnis](advantages/advantage6.svg)
 
   ### Kostenersparnis
