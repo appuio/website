@@ -1,4 +1,4 @@
 ---
 title: Wo kann ich Ideen melden?
 ---
-Auf [discuss.appuio.cloud](discuss.appuio.cloud)
+Auf [discuss.appuio.cloud](https://discuss.appuio.cloud)

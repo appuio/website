@@ -1,4 +1,4 @@
 ---
 title: Where can I report ideas?
 ---
-On [discuss.appuio.cloud](discuss.appuio.cloud)
+On [discuss.appuio.cloud](https://discuss.appuio.cloud)
