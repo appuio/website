@@ -11,5 +11,5 @@ mail: steinfurth@puzzle.ch
 twitter: null
 linkedin: michael-steinfurth
 isClosed: false
-isOnline: true
+isOnline: false
 ---
