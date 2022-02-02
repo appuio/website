@@ -67,7 +67,7 @@ We look forward to meeting you at one of our many events.
 
   ### High security standards
 
-  APPUiO is using SELinux, Let’s Encrypt and offers Federation Authentication (LDAP connection). Data on the Public Platform is stored in ISO-certificated data-centres in Switzerland.
+  APPUiO is using SELinux, Let’s Encrypt and offers Federation Authentication (LDAP connection). Data can be stored in ISO-certificated data-centres in Switzerland.
 * ![Reduce costs](advantages/advantage6.svg)
 
   ### Reduce costs
