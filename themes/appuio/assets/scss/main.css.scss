@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+@import "fonts";
+
 $cyan: #00AEC1;
 $cyan_light: #B2E6EC;
 $cyan_dark: #0097a8;
@@ -11,7 +13,7 @@ $lightgray: #E5EAED;
 $gray: #99ABB5;
 $dark-text: #4a4a4a;
 
-$family-sans-serif: Lato;
+$family-sans-serif: "Lato";
 $body-size: 18px;
 $size-6: 16px;
 $container-max-width: 1024px;
