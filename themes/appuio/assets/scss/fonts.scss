@@ -2,37 +2,43 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 300;
-  src: url(../fonts/Lato-LightItalic.ttf);
+  src: url(/fonts/Lato-LightItalic.ttf);
+  font-display: fallback;
 }
 @font-face {
   font-family: 'Lato';
   font-style: italic;
   font-weight: 300;
-  src: url(../fonts/Lato-Light.ttf);
+  src: url(/fonts/Lato-Light.ttf);
+  font-display: fallback;
 }
 
 @font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  src: url(../fonts/Lato-Regular.ttf);
+  src: url(/fonts/Lato-Regular.ttf);
+  font-display: fallback;
 }
 @font-face {
   font-family: 'Lato';
   font-style: italic;
   font-weight: 400;
-  src: url(../fonts/Lato-Italic.ttf);
+  src: url(/fonts/Lato-Italic.ttf);
+  font-display: fallback;
 }
 
 @font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
-  src: url(../fonts/Lato-Bold.ttf);
+  src: url(/fonts/Lato-Bold.ttf);
+  font-display: fallback;
 }
 @font-face {
   font-family: 'Lato';
   font-style: italic;
   font-weight: 700;
   src: url(fonts/Lato-BoldItalic.ttf);
+  font-display: fallback;
 }
