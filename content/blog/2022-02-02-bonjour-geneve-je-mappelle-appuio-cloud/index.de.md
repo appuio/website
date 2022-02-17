@@ -1,12 +1,10 @@
 ---
 title: Bonjour, Genève! Je m'appelle APPUiO Cloud
 date: 2022-02-02
-featured_image: appuio-cloud.svg
-summary: "We're thrilled to announce the general availability of the **second
-  zone of APPUiO Cloud**: **Exoscale - CH-GVA-2 0**, located in the Canton de
-  Genève and running on [Exoscale](https://www.exoscale.com/)! See the [official
-  announcement](https://github.com/appuio/appuio-cloud-community/discussions/39\
-  )."
+featured_image: appuio-slides-2-.png
+summary: "We're thrilled to announce the general availability of the second zone
+  of APPUiO Cloud: Exoscale - CH-GVA-2 0, located in the Canton de Genève and
+  running on Exoscale! See the official announcement."
 ---
 We're thrilled to announce the general availability of the **second zone of APPUiO Cloud**: **Exoscale - CH-GVA-2 0**, located in the Canton de Genève and running on [Exoscale](https://www.exoscale.com/)! See the [official announcement](https://github.com/appuio/appuio-cloud-community/discussions/39).
 
