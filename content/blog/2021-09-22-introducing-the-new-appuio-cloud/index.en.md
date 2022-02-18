@@ -1,7 +1,7 @@
 ---
 title: Introducing The New APPUiO Cloud
 date: 2021-09-22
-featured_image: appuio-slides-5-.png
+featured_image: appuio-slides-6-.png
 summary: We are thrilled to announce APPUiO Cloud, the new member of the APPUiO
   family of products. APPUiO Cloud is the heir to the successful APPUiO Public
   PaaS (Platform as a Service) product in service since 2016.
