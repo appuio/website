@@ -45,15 +45,11 @@ header .navbar-item img {
     }
 
   .navbar-start > .navbar-item {
-    border-bottom: 4px solid transparent;
-    margin-top: 4px;
+    border-bottom: 6px solid transparent;
+    margin-top: 6px;
     &.has-active {
-      a {
-        color: $darkblue;
-      }
-      a:after {
-        border-color: $darkblue;
-      }
+
+      // background: rgba(255,255,255,.1);
       border-color: $yellow;
     }
   }
