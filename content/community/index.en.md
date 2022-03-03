@@ -15,12 +15,7 @@ Become a part of APPUiO and help shaping the future of APPUiO. Together we arbei
 ## Wie pflegen wir unsere Community?
 Unsere wachsende Community steht dir bei Fragen in unserem Community Chat zur Verfügung. An Events, wie beispielsweise unseren geliebten Beerup’s, sprechen wir alle die gleiche Sprache, entwickeln uns weiter und geniessen immer mal wieder ein Bier zusammen.
 
-<a href="https://community.appuio.ch" target="_blank" class="button is-dark is-rounded mb-4">
-  <span class="icon">
-    <i class="fab fa-rocketchat"></i>
-  </span>
-  <span>Community Chat</span>
-</a>
+{{<button href="https://community.appuio.ch" icon="fab fa-rocketchat" title="Community Chat" target="_blank" class="is-dark is-rounded mb-4">}}
 
 ## Was verbindet uns?
 Offene Technologien in der Container-Welt faszinieren uns. Gemeinsam verfolgen wir das Ziel, die interessanteste Container-Community der Schweiz zu werden.
