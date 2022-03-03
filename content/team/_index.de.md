@@ -2,7 +2,9 @@
 title: Team
 menu:
   main:
+    parent: about
     name: Team
+    weight: 1
 ---
 
 # Wir sind APPUiO

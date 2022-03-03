@@ -22,4 +22,13 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
 
+    window.addEventListener("scroll", function(){
+      if (window.pageYOffset > 400) {
+        document.body.classList.add("has-logo");
+      } else {
+        document.body.classList.remove("has-logo");
+      }
+    });
+
+
   });

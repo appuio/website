@@ -2,6 +2,7 @@
 title: 5 Years APPUiO 🥳
 date: 2021-01-27
 featured_image: ffd902.png
+is_community: true
 summary: We can look back on successful years with wonderful acquaintances, fun
   events 🍻 , and exciting projects. It's great to have you on board. We look
   back with lots of good memories but moreover, we look ahead to the future with

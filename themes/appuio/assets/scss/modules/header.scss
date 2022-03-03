@@ -18,8 +18,7 @@ header .navbar-dropdown {
 
 header .navbar {
   @include desktop {
-    height: 5rem;
-    padding: 1rem;
+    height: 3.5rem;
   }
 }
 header .navbar,
@@ -44,15 +43,13 @@ header .navbar-item img {
         border-bottom-left-radius: 6px;
         border-bottom-right-radius: 6px;
     }
-}
 
-.navbar-item.has-active {
-  background: $yellow;
-  a {
-    color: $darkblue;
-  }
-  a:after {
-    border-color: $darkblue;
+  .navbar-start > .navbar-item {
+    border-bottom: 6px solid transparent;
+    margin-top: 6px;
+    &.has-active {
+      border-color: $yellow;
+    }
   }
 }
 
@@ -76,3 +73,78 @@ header .navbar-item img {
 // header .navbar-menu > * {
 //   align-items: center;
 // }
+
+@include until($desktop) {
+  body .navbar-brand {
+    .navbar-item {
+      margin: 0;
+    }
+    .logos {
+      justify-content: start;
+      padding: 0.5rem;
+      img {
+        min-height: 2.5rem;
+        height: 2.5rem;
+      }
+    }
+  }
+}
+
+.navbar-brand {
+  overflow: hidden;
+  text-align: center;
+  .logos {
+    display: flex;
+    justify-content: center;
+  }
+  .navbar-item {
+    margin: 0 auto;
+  }
+  .hannelore-logo {
+    transform: rotateY(180deg);
+    padding: 0.5em;
+  }
+}
+.navbar-brand .logos > div {
+  display: flex;
+  height: 100%;
+  &.hannelore-logo {
+    display: none;
+  }
+}
+
+body .navbar-brand .navbar-item > .logos {
+  width: 120px;
+}
+body.is-home .navbar-brand .navbar-item > .logos {
+  position: relative;
+  height: $navbar-height;
+  > div {
+    position: absolute;
+    top: 0;
+    padding: 0;
+    transition: 0.5s all ease;
+  }
+  img {
+    margin: auto;
+  }
+
+  div.appuio-logo {
+    top: 100px;
+  }
+  div.hannelore-logo {
+    display: flex;
+    img {
+      min-height: 2.5rem;
+      height: 2.5rem;
+    }
+  }
+}
+body.is-home.has-logo .navbar-brand .navbar-item > .logos {
+  div.hannelore-logo {
+    top: -100px;
+  }
+  div.appuio-logo {
+    top: 0;
+  }
+}

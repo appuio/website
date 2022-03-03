@@ -1,6 +1,10 @@
+{{- $blogposts := where .Site.RegularPages "Section" "blog" -}}
+{{- if .Get "community" -}}
+{{- $blogposts = where $blogposts "Params.is_community" true -}}
+{{- end -}}
 <div class="columns blog">
-  {{ range first 3 (where .Site.RegularPages "Section" "blog") }}
-  <div class="column">
+  {{ range first 3 $blogposts }}
+  <div class="column is-one-third">
     <div class="card">
       <div class="card-image">
         {{- $img := .Page.Resources.GetMatch .Params.featured_image -}}

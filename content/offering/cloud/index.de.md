@@ -57,19 +57,19 @@ aliases:
 
 * ### TCP und UDP Ingress Traffic
   Mit dem [Kubernetes Service Type Load Balancer](https://kubernetes.io/docs/concepts/services-networking/service/#loadbalancer) kann jeder Service (TCP und UDP) im Internet erreichbar gemacht werden. Die Verfügbarkeit ist abhängig von der jeweiligen APPUiO Cloud Zone.
-  
+
 * ### Let's Encrypt Zertifikate
   Mit [Let’s Encrypt](https://letsencrypt.org/) kannst du per Knopfdruck SSL-Zertifikate in deine Routen konfigurieren. Nach der Aktivierung kümmert sich APPUiO um die Aktualisierung der 3 Monate gültigen Zertifikate.
-  
+
 * ### Kubernetes Operatoren
   APPUiO Cloud stellt die Kubernetes Operatoren [K8up](https://k8up.io/) und [Cert Manager](https://cert-manager.io/) vorinstalliert und vorkonfiguriert zur Verfügung.
-  
+
 * ### Persistent Storage
   Verschiedene Storage Klassen erlauben den Bezug von Persistent Storage. Der verfügbare Storage ist abhängig von der Zone. Mehr Infos dazu findest du in der [APPUiO Cloud User Dokumentation](https://docs.appuio.cloud/user/explanation/storage-classes.html).
-  
+
 * ### Benutzerverwaltung
   Organisiere deine Benutzer in Teams und Organisationen und weise diesen verschiedene Berechtigungen zu; kontrolliere auf einen Blick, wer auf welche Namespaces zugreifen kann.
-  
+
 * ### APPUiO Community
   Werde Teil der grandiosen APPUiO Community inklusive einer kostenlosen Mitgliedschaft im Hannelore-Fanclub.
 
@@ -93,6 +93,16 @@ aliases:
 * #### Upgrade auf Managed oder Self-Managed
 * #### CI/CD Pipeline Engineering
 
+
+{{</section>}}
+
+{{<section class="pb-0">}}
+
+# Nützliche Links
+
+{{<button href="https://docs.appuio.cloud" icon="fas fa-book" title="Cloud Docs" target="_blank" class="is-primary is-rounded is-medium m-1" >}}
+{{<button href="https://discuss.appuio.cloud" icon="fas fa-comments" title="Cloud Forum" target="_blank" class="is-primary is-rounded is-medium m-1" >}}
+{{<button href="https://roadmap.appuio.cloud" icon="fas fa-cloud" title="Cloud Roadmap" target="_blank" class="is-primary is-rounded is-medium m-1" >}}
 
 {{</section>}}
 
