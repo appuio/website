@@ -8,7 +8,7 @@ menu:
 
 {{<section class="darkblue">}}
 # Unsere APPUiO Community
-Sei ein Teil von APPUiO und gestalte mit uns die Zukunft von APPUiO. Gemeinsam arbeiten wir an unserer IT-Traumwelt und entdecken immer wieder neue Möglichkeiten. Wir freuen uns auf deine Ideen!
+Sei ein Teil von APPUiO und gestalte mit uns die Zukunft der führenden Schweizer Container-Plattform. Gemeinsam arbeiten wir an unserer IT-Traumwelt und entdecken immer wieder neue Möglichkeiten. Wir freuen uns auf deine Ideen!
 {{</section>}}
 
 {{<section>}}
