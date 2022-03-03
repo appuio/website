@@ -75,3 +75,59 @@ header .navbar-item img {
 // header .navbar-menu > * {
 //   align-items: center;
 // }
+
+
+.navbar-brand {
+  overflow: hidden;
+  text-align: center;
+  .logos {
+    display: flex;
+    justify-content: center;
+  }
+  .navbar-item {
+    margin: 0 auto;
+  }
+  .hannelore-logo {
+    padding: 0.5em;
+  }
+}
+.navbar-brand .logos > div {
+  display: flex;
+  height: 100%;
+  &.hannelore-logo {
+    display: none;
+  }
+}
+body.is-home .navbar-brand .navbar-item > .logos {
+  position: relative;
+  height: $navbar-height;
+  width: 150px;
+  > div {
+    position: absolute;
+    top: 0;
+    padding: 0;
+    transition: 0.5s all ease;
+  }
+  img {
+    margin: auto;
+  }
+
+  div.appuio-logo {
+    top: 100px;
+  }
+  div.hannelore-logo {
+    display: flex;
+    img {
+      min-height: 2.5rem;
+      height: 2.5rem;
+    }
+  }
+}
+body.is-home.has-logo .navbar-brand .navbar-item > .logos {
+  div.hannelore-logo {
+    top: -100px;
+  }
+  div.appuio-logo {
+    top: 0;
+  }
+}

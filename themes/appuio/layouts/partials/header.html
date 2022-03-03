@@ -4,9 +4,17 @@
     <div class="container">
       <div class="navbar-brand">
           <a class="navbar-item" href="/">
-          {{ $logo := resources.Get "appuio_logo.svg" }}
-          <img src="{{ $logo.RelPermalink }}" alt="APPUiO Logo" /></a>
-        </a>
+            <div class="logos">
+              <div class="appuio-logo">
+                {{ $logo := resources.Get "appuio_logo.svg" }}
+                <img src="{{ $logo.RelPermalink }}" alt="APPUiO Logo" />
+              </div>
+              <div class="hannelore-logo">
+                {{ $hannelore := resources.Get "hannelore_chill.svg" }}
+                <img src="{{ $hannelore.RelPermalink }}" alt="APPUiO Logo" />
+              </div>
+            </div>
+          </a>
 
         <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
           <span aria-hidden="true"></span>
