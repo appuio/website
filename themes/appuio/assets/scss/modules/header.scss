@@ -18,8 +18,7 @@ header .navbar-dropdown {
 
 header .navbar {
   @include desktop {
-    height: 5rem;
-    padding: 1rem;
+    height: 3.5rem;
   }
 }
 header .navbar,
@@ -46,13 +45,17 @@ header .navbar-item img {
     }
 }
 
-.navbar-item.has-active {
-  background: $yellow;
-  a {
-    color: $darkblue;
-  }
-  a:after {
-    border-color: $darkblue;
+.navbar-start > .navbar-item {
+  border-bottom: 4px solid transparent;
+  margin-top: 4px;
+  &.has-active {
+    a {
+      color: $darkblue;
+    }
+    a:after {
+      border-color: $darkblue;
+    }
+    border-color: $yellow;
   }
 }
 

@@ -36,20 +36,10 @@ DefaultContentLanguage = "de"
   # https://github.com/netlify/netlify-cms/issues/2727
   # This is probably a bug, because we use Bundles.
   [[languages.en.menu.main]]
-    url = "/"
+    url = "/news"
     name = "News"
     identifier = "news"
     weight = 30
-  [[languages.en.menu.main]]
-    url = "/en/blog/"
-    name = "Blog"
-    parent = "news"
-    weight = 1
-  [[languages.en.menu.main]]
-    url = "/en/events/"
-    name = "Events"
-    parent = "news"
-    weight = 2
   [[languages.en.menu.main]]
     url = "/"
     name = "About"
@@ -82,20 +72,6 @@ DefaultContentLanguage = "de"
     url = "/"
     name = "Aktuelles"
     weight = 30
-  # Defined here and not in _index.en.md,
-  # because NetlifyCMS also lists _index.md files:
-  # https://github.com/netlify/netlify-cms/issues/2727
-  # This is probably a bug, because we use Bundles.
-  [[languages.de.menu.main]]
-    url = "/blog/"
-    name = "Blog"
-    parent = "news"
-    weight = 1
-  [[languages.de.menu.main]]
-    url = "/events/"
-    name = "Events"
-    parent = "news"
-    weight = 2
 
   [[languages.de.menu.main]]
     identifier = "about"

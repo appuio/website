@@ -1,22 +1,22 @@
-$navbar-height: 5rem;
+$navbar-height: 3rem;
 $navbar-item-color:white;
 $navbar-background-color: $cyan;
 $navbar-item-img-max-height: 43rem;
 
 $navbar-dropdown-arrow: white;
 $navbar-dropdown-background-color: $cyan_light;
-$navbar-dropdown-item-hover-background-color: $yellow;
+$navbar-dropdown-item-hover-background-color: white;
 
 $navbar-hover-dropdown-arrow: $darkblue;
 $navbar-item-hover-color: $darkblue;
-$navbar-item-hover-background-color: $yellow;
+$navbar-item-hover-background-color: $cyan_light;
 
 $navbar-tab-active-color: $darkblue;
-$navbar-tab-active-background-color: $yellow;
+$navbar-tab-active-background-color: $cyan;
 
 $navbar-item-active-color: $darkblue;
 $navbar-item-active-background-color: $yellow;
 
 
 $navbar-dropdown-border-top: none;
-$navbar-padding-vertical: 1rem;
+$navbar-padding-vertical: 0;
