@@ -43,19 +43,19 @@ header .navbar-item img {
         border-bottom-left-radius: 6px;
         border-bottom-right-radius: 6px;
     }
-}
 
-.navbar-start > .navbar-item {
-  border-bottom: 4px solid transparent;
-  margin-top: 4px;
-  &.has-active {
-    a {
-      color: $darkblue;
+  .navbar-start > .navbar-item {
+    border-bottom: 4px solid transparent;
+    margin-top: 4px;
+    &.has-active {
+      a {
+        color: $darkblue;
+      }
+      a:after {
+        border-color: $darkblue;
+      }
+      border-color: $yellow;
     }
-    a:after {
-      border-color: $darkblue;
-    }
-    border-color: $yellow;
   }
 }
 
