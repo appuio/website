@@ -56,6 +56,11 @@ collections:
         time_format: false
         format: YYYY-MM-DD
         i18n: duplicate
+      - label: Community Blog
+        name: is_community
+        widget: boolean
+        required: false
+        i18n: duplicate
       - label: Featured Image
         name: featured_image
         widget: image

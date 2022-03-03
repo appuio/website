@@ -5,6 +5,7 @@ month: Mar
 title: 'Neu: Techlab auf OpenShift 4.3'
 summary: Vor einiger Zeit hat Red Hat die OpenShift Version 4.3 auf den Markt gebracht. Diese Version hat eine gewisse Reife und kann mit gutem Gewissen auch für produktiven Workload verwendet werden. Aus diesem Grund bieten wir unsere Techlabs neu auf OpenShift 4.3 an!
 featured_image: techlab_auf_openshift_4.3.png
+isCommunity: true
 ---
 Wie es der Zufall so will, werden wir unsere #40 Durchführung unseres gratis APPUiO Techlabs auf Basis von OpenShift 4.3 durchführen. Dabei zeigen wir dir die Unterschiede zu der Version 3 und geben unsere Erfahrungen sowie Tipps und Tricks weiter. Du machst erste Schritte auf einer OpenShift 4.3 Plattform, deployst Applikationen und skalierst diese ganz einfach. Weiter haben wir ein Operator Lab erarbeitet, wo du erste Gehversuche mit dem neuen Operator Framework machen kannst.
 
