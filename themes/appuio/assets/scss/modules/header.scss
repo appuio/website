@@ -76,6 +76,21 @@ header .navbar-item img {
 //   align-items: center;
 // }
 
+@include until($desktop) {
+  body .navbar-brand {
+    .navbar-item {
+      margin: 0;
+    }
+    .logos {
+      justify-content: start;
+      padding: 0.5rem;
+      img {
+        min-height: 2.5rem;
+        height: 2.5rem;
+      }
+    }
+  }
+}
 
 .navbar-brand {
   overflow: hidden;
@@ -98,6 +113,7 @@ header .navbar-item img {
     display: none;
   }
 }
+
 body.is-home .navbar-brand .navbar-item > .logos {
   position: relative;
   height: $navbar-height;
