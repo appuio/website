@@ -1,9 +1,9 @@
 ---
-title: FAQ
+title: Community
 menu:
   main:
     parent: about
-    weight: 101
+    weight: 2
 ---
 
-# FAQ's
+# bla

@@ -27,52 +27,39 @@ DefaultContentLanguage = "de"
     name = "Offering"
     weight = 10
   [[languages.en.menu.main]]
-    identifier = "community"
+    identifier = "techlabs"
     url = "/"
-    name = "Community"
+    name = "Techlabs"
     weight = 20
   # Defined here and not in _index.en.md,
   # because NetlifyCMS also lists _index.md files:
   # https://github.com/netlify/netlify-cms/issues/2727
   # This is probably a bug, because we use Bundles.
   [[languages.en.menu.main]]
+    url = "/"
+    name = "News"
+    identifier = "news"
+    weight = 30
+  [[languages.en.menu.main]]
     url = "/en/blog/"
     name = "Blog"
-    parent = "community"
+    parent = "news"
     weight = 1
   [[languages.en.menu.main]]
     url = "/en/events/"
     name = "Events"
-    parent = "community"
+    parent = "news"
     weight = 2
   [[languages.en.menu.main]]
-    url = "https://community.appuio.ch"
-    name = "Community Chat"
-    parent = "community"
-    weight = 3
-  [[languages.en.menu.main]]
-    url = "https://docs.appuio.cloud"
-    name = "Cloud Docs"
-    parent = "community"
-    weight = 4
-  [[languages.en.menu.main]]
-    url = "https://discuss.appuio.cloud"
-    name = "Cloud Forum"
-    parent = "community"
-    weight = 5
-  [[languages.en.menu.main]]
-    url = "https://roadmap.appuio.cloud"
-    name = "Cloud Roadmap"
-    parent = "community"
-    weight = 6
-  [[languages.en.menu.main]]
-    identifier = "techlabs"
     url = "/"
-    name = "Techlabs"
-    weight = 30
+    name = "About"
+    identifier = "about"
+    weight = 40
+
   [[languages.en.menu.main]]
     url = "/en/#contact"
     name = "Contact"
+    parent = "about"
     weight = 100
 
   [languages.de]
@@ -83,11 +70,18 @@ DefaultContentLanguage = "de"
     url = "/"
     name = "Angebot"
     weight = 10
+
   [[languages.de.menu.main]]
-    identifier = "community"
+    identifier = "techlabs"
     url = "/"
-    name = "Community"
+    name = "Techlabs"
     weight = 20
+
+  [[languages.de.menu.main]]
+    identifier = "news"
+    url = "/"
+    name = "Aktuelles"
+    weight = 30
   # Defined here and not in _index.en.md,
   # because NetlifyCMS also lists _index.md files:
   # https://github.com/netlify/netlify-cms/issues/2727
@@ -95,42 +89,24 @@ DefaultContentLanguage = "de"
   [[languages.de.menu.main]]
     url = "/blog/"
     name = "Blog"
-    parent = "community"
+    parent = "news"
     weight = 1
   [[languages.de.menu.main]]
     url = "/events/"
     name = "Events"
-    parent = "community"
+    parent = "news"
     weight = 2
+
   [[languages.de.menu.main]]
-    url = "https://community.appuio.ch"
-    name = "Community Chat"
-    parent = "community"
-    weight = 3
-  [[languages.de.menu.main]]
-    url = "https://docs.appuio.cloud"
-    name = "Cloud Docs"
-    parent = "community"
-    weight = 4
-  [[languages.de.menu.main]]
-    url = "https://discuss.appuio.cloud"
-    name = "Cloud Forum"
-    parent = "community"
-    weight = 5
-  [[languages.de.menu.main]]
-    url = "https://roadmap.appuio.cloud"
-    name = "Cloud Roadmap"
-    parent = "community"
-    weight = 6
-  [[languages.de.menu.main]]
-    identifier = "techlabs"
+    identifier = "about"
     url = "/"
-    name = "Techlabs"
-    weight = 30
+    name = "Über uns"
+    weight = 40
 
   [[languages.de.menu.main]]
     url = "/#kontakt"
     name = "Kontakt"
+    parent = "about"
     weight = 100
 
 [markup.goldmark.renderer]

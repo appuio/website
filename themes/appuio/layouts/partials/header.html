@@ -41,17 +41,13 @@
         </div>
 
         <div class="navbar-end">
-            {{range cond (eq .IsTranslated true)  .Translations .Site.Home.Translations }}
-              {{ if ne .Language $.Site.Language }}
-                <a class="navbar-item" href="{{ .RelPermalink }}">{{ upper .Language }}</a>
-              {{ end }}
-            {{ end }}
-
           <div class="navbar-item">
             <div class="buttons">
-              <a class="button is-light" href="https://console.appuio.ch" target="_blank">
-                Log in
-              </a>
+              {{range cond (eq .IsTranslated true)  .Translations .Site.Home.Translations }}
+                {{ if ne .Language $.Site.Language }}
+                  <a class="button is-light" href="{{ .RelPermalink }}">{{ upper .Language }}</a>
+                {{ end }}
+              {{ end }}
             </div>
           </div>
         </div>

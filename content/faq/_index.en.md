@@ -2,7 +2,8 @@
 title: FAQ
 menu:
   main:
-    parent: offering
+    parent: about
+    weight: 101
 ---
 
 # FAQ's
