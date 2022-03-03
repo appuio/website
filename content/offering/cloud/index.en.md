@@ -98,6 +98,16 @@ aliases:
 
   {{</section>}}
 
+{{<section class="pb-0">}}
+
+# Helpful links
+
+{{<button href="https://docs.appuio.cloud" icon="fas fa-book" title="Cloud Docs" target="_blank" class="is-primary is-rounded is-medium m-1" >}}
+{{<button href="https://discuss.appuio.cloud" icon="fas fa-comments" title="Cloud Forum" target="_blank" class="is-primary is-rounded is-medium m-1" >}}
+{{<button href="https://roadmap.appuio.cloud" icon="fas fa-cloud" title="Cloud Roadmap" target="_blank" class="is-primary is-rounded is-medium m-1" >}}
+
+{{</section>}}
+
 {{<section class="offers-two-faq">}}
 
 # Frequently Asked Questions

@@ -5,6 +5,7 @@ month: Dec
 title: Rückblick auf das Beerup vom 19. November 2020
 summary: Am 19. November 2020 fand das erste ausschliesslich virtuelle Beerup von APPUiO statt. Drei spannende Talks, über 45 Teilnehmende und ein lustiges Apéro prägten den Abend.
 featured_image: Beerup_Rueckblick.png
+is_community: true
 ---
 Ein virtuelles Beerup 🍺 stellt uns vor einige Herausforderungen. Bier, spannende Talks und eine ungezwungene Atmosphäre ist der Leitsatz an einem APPUiO Beerup. Doch wie funktioniert das remote? Ganz einfach: Wir bringen das Bier und die ungezwungene Atmosphäre zu jedem Einzelnen nach Hause.
 

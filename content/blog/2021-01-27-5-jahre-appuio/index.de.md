@@ -2,6 +2,7 @@
 title: 5 Jahre APPUiO 🥳
 date: 2021-01-27
 featured_image: ffd902.png
+is_community: true
 summary: Wir dürfen auf erfolgreiche Jahre mit wunderbaren Bekanntschaften,
   lustigen Events 🍻 und spannenden Projekten zurückblicken. Schön, bist du ein
   Teil davon. Glücklich schauen wir zurück, freuen uns aber auch auf die Zukunft

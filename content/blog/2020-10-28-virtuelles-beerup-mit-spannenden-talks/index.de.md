@@ -5,6 +5,7 @@ month: Oct
 title: Virtuelles Beerup mit spannenden Talks
 summary: Das nächste Beerup von APPUiO steht an! Am <b>19. November 2020</b> beleuchten wir in einem remote-Beerup aktuelle Themen rund um APPUiO.
 featured_image: Beerup_Nov.png
+is_community: true
 ---
 Der Begriff Beerup ist mit dem Ziel entstanden, die Community von APPUiO in ungezwungener Atmosphäre zu vereinen und dabei über Themen rund um Containern zu sprechen. Am 19. November findet bereits die 6. Durchführung statt – dieses Mal in einer remote-Version. Sei dabei und erlebe drei spannende Talks zum Thema Advanced Cluster Management und Migration OpenShift 3 zu 4 sowie eine spannende Success-Story.
 

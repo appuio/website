@@ -113,10 +113,12 @@ header .navbar-item img {
   }
 }
 
+body .navbar-brand .navbar-item > .logos {
+  width: 120px;
+}
 body.is-home .navbar-brand .navbar-item > .logos {
   position: relative;
   height: $navbar-height;
-  width: 150px;
   > div {
     position: absolute;
     top: 0;
