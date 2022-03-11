@@ -30,11 +30,12 @@ You want to build your own container platform but lack the necessary know-how or
   ### Know How
 
   We are your personal partner and know-how sharer.
-*   ![Long-lived Experience](experience.svg)
+* ![Long-lived Experience](experience.svg)
 
   ### Long-lived Experience
 
-  Since the beta phase of OpenShift, we have been working with companies and also consulting them.
+Since the beta phase of OpenShift, we have been working with companies and also consulting them.
+
 * ![Flexibility](freie_wahl.svg)
 
   ### Flexibility
@@ -45,11 +46,12 @@ You want to build your own container platform but lack the necessary know-how or
   ### DevOps
 
   Devs benefit in development as well as roll out and Ops in operating the container platform.
-*   ![Learning Organisation](learning_Organisation.svg)
+* ![Learning Organisation](learning_Organisation.svg)
 
   ### Learning Organisation
 
   We transfer learnings from other projects into new mandates. We love new challenges.
+
 * ![Long-lived Support](longterm_support.svg)
 
   ### Cooperation
