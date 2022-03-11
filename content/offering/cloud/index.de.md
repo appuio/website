@@ -25,6 +25,7 @@ aliases:
 
 {{< cloud_header header="images/header.svg" logo="images/appuio_cloud_rgb.png" footer="images/footer.svg" description="APPUiO Cloud basiert auf OpenShift 4, der aktuellsten Kubernetes Distribution von Red Hat und verfolgt den Ansatz Namespace as a Service." >}}
 
+{{<section class="has-cols">}}
 * ![](/images/offer2_advantage4.svg)
   ### Instant On
   Bekomme in wenigen Minuten deinen eigenen OpenShift-Namespace, der sofort einsatzbereit ist.
@@ -48,7 +49,7 @@ aliases:
 * ![](/images/offer2_advantage3.svg)
   ### Community Support
   Du brauchst Hilfe? Besuche unser [APPUiO Cloud Forum](https://discuss.appuio.cloud/) oder unseren [Community Chat](https://community.appuio.ch). Wir beraten dich auch gerne über unsere [kostenpflichtigen Support Pakete](https://products.docs.vshn.ch/products/appuio/cloud/support_packages.html).
-
+{{</section>}}
 {{</ cloud_header >}}
 
 {{<section class="has-cols col-darkblue2 darkblue y-narrow">}}
