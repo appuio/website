@@ -129,6 +129,11 @@ collections:
         widget: string
         required: false
         i18n: duplicate
+      - label: Event Title Link
+        name: event_title_link
+        widget: string
+        required: false
+        i18n: duplicate
       - label: Fully booked
         name: is_full
         widget: boolean
