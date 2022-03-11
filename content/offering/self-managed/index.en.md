@@ -20,7 +20,7 @@ aliases:
   - /en/unmanaged.html
 ---
 {{<section class="offering-hero self-managed" header="images/header.svg">}}
-You want to build your own container platform but lack the necessary know-how or capacity? Then we can  help you. We can support you in planning, setting up, and operating your platform. Besides, our specialists show your developers how to best use the new container platform.
+You want to build your own container platform, but you lack the necessary know-how or capacity? Then we can help you. We support you in planning, building and operating your container platform. In addition, we show your developers how to best use it.
 {{</section>}}
 
 {{<section class="darkblue has-cols">}}

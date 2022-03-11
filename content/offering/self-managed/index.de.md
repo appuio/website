@@ -20,7 +20,7 @@ aliases:
   - /unmanaged.html
 ---
 {{<section class="offering-hero self-managed" header="images/header.svg">}}
-Du möchtest deine eigene Container-Plattform aufbauen, aber dir fehlt das nötige Know-how oder die nötige Kapazität? Dann können wir dir behilflich sein. Gerne unterstützen wir dich bei der Planung, dem Aufbau sowie dem Betrieb. Darüber hinaus zeigen wir deinen Entwicklerinnen und Entwicklern, wie die neue Container-Plattform am besten genutzt wird.
+Du möchtest deine eigene Container-Plattform aufbauen, aber dir fehlt das nötige Know-how oder die nötige Kapazität? Dann können wir dir behilflich sein. Wir unterstützen dich bei der Planung, dem Aufbau sowie dem Betrieb einer Container-Plattform. Darüber hinaus zeigen wir deinen Entwicklerinnen und Entwicklern, wie diese am besten benutzt.
 {{</section>}}
 
 {{<section class="darkblue has-cols">}}
