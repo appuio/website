@@ -1,5 +1,5 @@
 ---
-title: Cloud
+title: APPUiO Cloud
 weight: 10
 ribbon_color: "#ff931e"
 description: Du willst in wenigen Minuten einen einsatzbereiten
