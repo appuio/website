@@ -8,12 +8,12 @@ menu:
 
 {{<section class="darkblue">}}
 # Unsere APPUiO Community
-Sei ein Teil von APPUiO und gestalte mit uns die Zukunft der führenden Schweizer Container-Plattform. Gemeinsam arbeiten wir an unserer IT-Traumwelt und entdecken immer wieder neue Möglichkeiten. Wir freuen uns auf deine Ideen!
+Sei ein Teil von APPUiO und gestalte mit uns die Zukunft der führenden Schweizer Container-Plattform. Gemeinsam arbeiten wir an unserer IT-Traumwelt und entdecken immer wieder neue Möglichkeiten, wie diese aussehen könnte. Wir freuen uns auf deine Ideen!
 {{</section>}}
 
 {{<section>}}
 ## Wie pflegen wir unsere Community?
-Unsere wachsende Community steht dir bei Fragen in unserem Community Chat zur Verfügung. An Events, wie beispielsweise unseren geliebten Beerup’s, sprechen wir alle die gleiche Sprache, entwickeln uns weiter und geniessen immer mal wieder ein Bier zusammen.
+Unsere wachsende Community steht dir bei Fragen in unserem Community Chat (fast) jederzeit zur Verfügung. An Events, wie beispielsweise unseren geliebten Beerups, sprechen wir alle die gleiche Sprache, entwickeln uns weiter und geniessen immer mal wieder ein Bier zusammen.
 
 {{<button href="https://community.appuio.ch" icon="fab fa-rocketchat" title="Community Chat" target="_blank" class="is-dark is-rounded mb-4">}}
 
