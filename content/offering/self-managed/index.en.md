@@ -34,7 +34,7 @@ You want to build your own container platform but lack the necessary know-how or
 
   ### Long-lived Experience
 
-Since the beta phase of OpenShift, we have been working with companies and also consulting them.
+  Since the beta phase of OpenShift, we have been working with companies and also   consulting them.
 
 * ![Flexibility](freie_wahl.svg)
 
@@ -56,7 +56,7 @@ Since the beta phase of OpenShift, we have been working with companies and also 
 
   ### Cooperation
 
-    We will accompany you as long as you wish, with as many experts as required.
+  We will accompany you as long as you wish, with as many experts as required.
   {{</section>}}
 
 {{<section class="has-cols col-cyan y-narrow">}}

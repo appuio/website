@@ -54,7 +54,7 @@ Du möchtest deine eigene Container-Plattform aufbauen, aber dir fehlt das nöti
 
   ### Zusammenarbeit
 
-    Wir begleiten dich solange wie gewünscht, mit so vielen Experten wie nötig.
+  Wir begleiten dich solange wie gewünscht, mit so vielen Experten wie nötig.
   {{</section>}}
 
 {{<section class="has-cols col-cyan y-narrow">}}
