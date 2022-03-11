@@ -20,7 +20,7 @@ aliases:
   - /en/unmanaged.html
 ---
 {{<section class="offering-hero self-managed" header="images/header.svg">}}
-You want to build your own container platform but lack the necessary know-how? Then we are the right partner for you. We will be happy to support you in planning, setting up, and operating the platform. Besides, we show your developers how to best use the new container platform.
+You want to build your own container platform, but you lack the necessary know-how or capacity? Then we can help you. We support you in planning, building and operating your container platform. In addition, we show your developers how to best use it.
 {{</section>}}
 
 {{<section class="darkblue has-cols">}}
@@ -29,12 +29,14 @@ You want to build your own container platform but lack the necessary know-how? T
 
   ### Know How
 
-  We are a personal partner and know-how sharer.
+  We are your personal partner and know-how sharer.
+
 * ![Long-lived Experience](experience.svg)
 
   ### Long-lived Experience
 
-  Since the Beta phase of OpenShift we work with and advise firms.
+  Since the beta phase of OpenShift, we have been working with companies and also   consulting them.
+
 * ![Flexibility](freie_wahl.svg)
 
   ### Flexibility
@@ -44,26 +46,28 @@ You want to build your own container platform but lack the necessary know-how? T
 
   ### DevOps
 
-  Devs profit from development and Ops in container operations.
+  Devs benefit in development as well as roll out and Ops in operating the container platform.
+
 * ![Learning Organisation](learning_Organisation.svg)
 
   ### Learning Organisation
 
   We transfer learnings from other projects into new mandates. We love new challenges.
+
 * ![Long-lived Support](longterm_support.svg)
 
-  ### Long-lived Support
+  ### Cooperation
 
-    We accompany our clients over longer time periods with constant experts.
+  We will accompany you as long as you wish, with as many experts as required.
   {{</section>}}
 
 {{<section class="has-cols col-cyan y-narrow">}}
 
-# Included Services
+# Our Offering
 
 * ### Architecture Workshop
 
-   Together we define the architecture. Perfectly matching your infrastructure.
+   Together we define the architecture. Perfectly matching your wishes and infrastructure.
 * ### Setup of the Platform
 
    Together we build the defined platform, either on POC, Dev or Prod.
