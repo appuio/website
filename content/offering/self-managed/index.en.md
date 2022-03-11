@@ -30,6 +30,7 @@ You want to build your own container platform but lack the necessary know-how or
   ### Know How
 
   We are your personal partner and know-how sharer.
+
 * ![Long-lived Experience](experience.svg)
 
   ### Long-lived Experience
@@ -46,6 +47,7 @@ You want to build your own container platform but lack the necessary know-how or
   ### DevOps
 
   Devs benefit in development as well as roll out and Ops in operating the container platform.
+
 * ![Learning Organisation](learning_Organisation.svg)
 
   ### Learning Organisation

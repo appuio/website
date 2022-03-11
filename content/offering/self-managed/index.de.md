@@ -30,27 +30,32 @@ Du möchtest deine eigene Container-Plattform aufbauen, aber dir fehlt das nöti
   ### Know-how
 
   Wir sind dein persönlicher Ansprechpartner und teilen gerne unser Know-how mit dir.
+
 * ![Langjährige Erfahrung](experience.svg)
 
   ### Langjährige Erfahrung
 
   Seit der Beta-Phase von OpenShift arbeiten wir mit Firmen zusammen und beraten diese auch.
-*   ![Flexibilität](freie_wahl.svg)
+
+* ![Flexibilität](freie_wahl.svg)
 
   ### Flexibilität
 
   Bei uns hast du freie Cloud-Provider-Wahl. Auch On-Premises (eigenes RZ) ist eine Option.
-*   ![DevOps](devOps.svg)
+
+* ![DevOps](devOps.svg)
 
   ### DevOps
 
   Devs profitieren in der Entwicklung sowie dem Ausrollen und Ops im Betreiben der Container-Plattform.
-*   ![Learning Organisation](learning_Organisation.svg)
+
+* ![Learning Organisation](learning_Organisation.svg)
 
   ### Learning Organisation
 
   Wir bringen Learnings aus anderen Projekten in neue Aufträge. Wir lieben neue Herausforderungen.
-*   ![Langjährige Unterstützung](longterm_support.svg)
+
+* ![Langjährige Unterstützung](longterm_support.svg)
 
   ### Zusammenarbeit
 
