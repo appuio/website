@@ -20,7 +20,7 @@ aliases:
   - /unmanaged.html
 ---
 {{<section class="offering-hero self-managed" header="images/header.svg">}}
-Du möchtest deine eigene Container-Plattform aufbauen, aber dir fehlt das nötige Know-how? Dann bist du bei uns genau richtig. Gerne unterstützen wir dich bei der Planung, dem Aufbau sowie dem Betrieb. Darüber hinaus zeigen wir deinen Entwicklerinnen und Entwicklern, wie die neue Container-Plattform am besten genutzt wird.
+Du möchtest deine eigene Container-Plattform aufbauen, aber dir fehlt das nötige Know-how oder die nötige Kapazität? Dann können wir dir mit dem "Self-Managed" Angebot behilflich sein. Gerne unterstützen wir dich bei der Planung, dem Aufbau sowie dem Betrieb. Darüber hinaus zeigen wir deinen Entwicklerinnen und Entwicklern, wie die neue Container-Plattform am besten genutzt wird.
 {{</section>}}
 
 {{<section class="darkblue has-cols">}}
@@ -34,36 +34,36 @@ Du möchtest deine eigene Container-Plattform aufbauen, aber dir fehlt das nöti
 
   ### Langjährige Erfahrung
 
-  Seit der Beta-Phase von OpenShift arbeiten wir mit Firmen zusammen und beraten sie.
-* ![Flexibilität](freie_wahl.svg)
+  Seit der Beta-Phase von OpenShift arbeiten wir mit Firmen zusammen und beraten diese auch.
+*   ![Flexibilität](freie_wahl.svg)
 
   ### Flexibilität
 
   Bei uns hast du freie Cloud-Provider-Wahl. Auch On-Premises (eigenes RZ) ist eine Option.
-* ![DevOps](devOps.svg)
+*   ![DevOps](devOps.svg)
 
   ### DevOps
 
-  Devs profitieren in der Entwicklung sowie beim Ausrollen. Ops im Container-Betrieb.
-* ![Learning Organisation](learning_Organisation.svg)
+  Devs profitieren in der Entwicklung sowie dem Ausrollen und Ops im Betreiben der Container-Plattform.
+*   ![Learning Organisation](learning_Organisation.svg)
 
   ### Learning Organisation
 
   Wir bringen Learnings aus anderen Projekten in neue Aufträge. Wir lieben neue Herausforderungen.
-* ![Langjährige Unterstützung](longterm_support.svg)
+*   ![Langjährige Unterstützung](longterm_support.svg)
 
-  ### Langjährige Unterstützung
+  ### Zusammenarbeit
 
-    Wir begleiten dich über längere Zeit mit konstanten Experten.
+    Wir begleiten dich solange wie gewünscht, mit so vielen Experten wie nötig.
   {{</section>}}
 
 {{<section class="has-cols col-cyan y-narrow">}}
 
-# Im Angebot enthalten
+# Unser Angebot
 
 * ### Architektur Workshop
 
-   Gemeinsam definieren wir die Ziel-Architektur, welche perfekt auf deine Infrastruktur zugeschnitten ist.
+   Gemeinsam definieren wir die Ziel-Architektur, die ganz auf deine Wünsche Infrastruktur angepasst ist.
 * ### Aufbau der Plattform
 
    Gemeinsam bauen wir die definierte Plattform, sei dies als Proof of Concept, Dev- oder Prod-Umgebung.
