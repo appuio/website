@@ -292,7 +292,6 @@ collections:
     path: '{{slug}}/index'
     preview_path: community
     i18n: true
-    create: true
     fields: # The fields for each document, usually in front matter
       - label: Title
         name: title
