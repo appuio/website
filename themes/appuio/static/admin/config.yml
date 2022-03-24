@@ -286,6 +286,22 @@ collections:
         required: false
         default: false
         i18n: duplicate
+  - name: community # Used in routes, e.g., /admin/collections/blog
+    label: Community # Used in the UI
+    folder: content/community # The path to the folder where the documents are stored
+    path: '{{slug}}/index'
+    preview_path: community
+    i18n: true
+    create: true
+    fields: # The fields for each document, usually in front matter
+      - label: Title
+        name: title
+        widget: string
+        i18n: true
+      - label: Body
+        name: body
+        widget: markdown
+        i18n: true
   - name: faq # Used in routes, e.g., /admin/collections/blog
     label: FAQ # Used in the UI
     folder: content/faq # The path to the folder where the documents are stored
