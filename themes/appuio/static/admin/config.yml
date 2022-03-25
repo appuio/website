@@ -317,6 +317,10 @@ collections:
         widget: file
         required: false
         i18n: duplicate
+      - label: Body
+        name: body
+        widget: markdown
+        i18n: true
   - name: community # Used in routes, e.g., /admin/collections/blog
     label: Community # Used in the UI
     folder: content/community # The path to the folder where the documents are stored
