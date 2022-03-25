@@ -433,4 +433,43 @@ document.addEventListener('DOMContentLoaded', () => {
 
   }
 
+
+  // Hall of Fame Animation GSAP
+  if (document.querySelectorAll("#hall-of-fame-head").length > 0) {
+    var tlHoF = new TimelineMax({
+      repeat: -1,
+      yoyo: true,
+    });
+
+    tlHoF.to(
+      ".b1",
+      9,
+      {
+        x: -80,
+        y: 25,
+        scale: 0.75,
+        rotation: 1,
+        yoyo: true,
+        ease: Power1.easeInOut,
+        transformOrigin: "100% 100%",
+        repeat: -1,
+      },
+      0
+    );
+    tlHoF.to(
+      ".b2",
+      10,
+      {
+        x: 80,
+        y: 30,
+        scale: 0.82,
+        yoyo: true,
+        ease: Power1.easeInOut,
+        repeat: -1,
+      },
+      0
+    );
+
+  }
+
 });

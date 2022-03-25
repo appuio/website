@@ -82,3 +82,25 @@
     word-spacing: 0.5rem;
   }
 }
+
+.hall-of-fame .hashtags {
+  @extend .is-justify-content-start;
+  @extend .is-align-items-start;
+  @extend .pt-1;
+  @extend .pb-2;
+  flex-grow: initial !important;
+  color: $darkblue;
+}
+.hall-of-fame-member > .container {
+  border-bottom: 1px solid $lightgray;
+  @extend .pb-6;
+}
+.hall-of-fame-member:last-child > .container {
+  border-bottom: none;
+  @extend .pb-0;
+}
+.hall-of-fame-head-wrapper {
+  @extend .pt-0;
+  @extend .pb-6;
+  background: $cyan_light;
+}
