@@ -1,12 +1,12 @@
 ---
-hashtags: "#eloquent #Guitarist #Coder"
-profile: https://www.puzzle.ch/de/blog/articles/author/tphilipona
 github: phil-pona
-animation: thomas-philippona.json
-date: 2020-10-31
 title: Thomas Philipona
 alias: Thömu
 function: Founder
+hashtags: "#eloquent #Guitarist #Coder"
+animation: thomas_philipona_halloffame.json
+profile: https://www.puzzle.ch/de/blog/articles/author/tphilipona
+date: 2020-10-31
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar etiam non quam lacus suspendisse faucibus. Magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies.
