@@ -8,7 +8,4 @@ animation: thomas_philipona_halloffame.json
 profile: https://www.puzzle.ch/de/blog/articles/author/tphilipona
 date: 2020-10-31
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar etiam non quam lacus suspendisse faucibus. Magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies.
-
-Duis convallis convallis tellus id. Quis varius quam quisque id diam vel quam elementum. Ultrices tincidunt arcu non sodales neque. Molestie ac feugiat sed lectus vestibulum. Urna porttitor rhoncus dolor purus non enim praesent. Sed elementum tempus egestas sed sed risus pretium quam. Lacus sed turpis tincidunt id aliquet risus. 
+Goodbye Thömu! Our founding father is embarking on a new journey and leaves APPUiO as an active team member. With joy and sadness we look back on a wonderful time. Thömu, you will be remembered forever. For your future we wish you only the best. As a small tribute, we have created the APPUiO "Hall of Fame", in which you will be remembered as the first honorary member.
