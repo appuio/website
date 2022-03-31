@@ -1,0 +1,19 @@
+environments:
+  production: {}
+  preview: {}
+
+helmDefaults:
+  historyMax: 3
+
+releases:
+  - name: {{ env "HELM_RELEASE_NAME" | default "website" }}
+    chart: ../chart
+    createNamespace: false
+    missingFileHandler: Warn
+    values:
+      - {{ .Environment.Name }}.yaml
+      - image:
+          tag: {{ trimPrefix "refs/tags/" (requiredEnv "IMG_TAG") }}
+      - fullnameOverride: {{ env "HELM_RELEASE_NAME" | default "website" }}
+      - podAnnotations:
+          app.kubernetes.io/git-shasum: {{ env "GIT_SHA" | default "GIT_SHA" }}

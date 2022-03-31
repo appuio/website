@@ -1,0 +1,20 @@
+ingress:
+  enabled: false # for now
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-production
+  hosts:
+    - host: appuio.ch
+      paths:
+        - path: /
+          pathType: ImplementationSpecific
+    - host: www.appuio.ch
+      paths:
+        - path: /
+          pathType: ImplementationSpecific
+  tls:
+    - secretName: appuio-ch-tls
+      hosts:
+        - appuio.ch
+    - secretName: www-appuio-ch-tls
+      hosts:
+        - www.appuio.ch

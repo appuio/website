@@ -77,9 +77,10 @@ jobs:
           openshift_server_url: ${{ env.OPENSHIFT_API }}
           openshift_token: ${{ secrets.OPENSHIFT_TOKEN }}
           namespace: ${{ env.NAMESPACE }}
+          insecure_skip_tls_verify: true
 
       - name: Deploy app
-        run: helmfile -f envs/helmfile.yaml -e ${{ env.ENVIRONMENT }} apply # --wait
+        run: helmfile -n ${{ env.NAMESPACE }} -f envs/helmfile.yaml -e ${{ env.ENVIRONMENT }} apply # --wait
         env:
           HELM_RELEASE_NAME: ${{ env.HELM_RELEASE_NAME }}
           IMG_TAG: ${{ env.IMG_TAG }}
