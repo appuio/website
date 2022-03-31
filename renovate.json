@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "config:base",
+    ":gitSignOff",
+    ":disableDependencyDashboard"
+  ],
+  "labels": [
+    "dependency"
+  ]
+}
