@@ -12,8 +12,7 @@ Then open http://localhost:1313 in your browser. Whenever you save a file the we
 ```
 oc create sa github-workflow
 oc policy add-role-to-user admin -z github-workflow
-oc get serviceAccounts github-workflow -o 'jsonpath={.secrets[*].name}'
-oc describe secret github-workflow-token-xxxxx
+oc sa get-token github-workflow
 ```
 Add the token to the secret `OPENSHIFT_TOKEN`
 
@@ -21,8 +20,6 @@ Add the token to the secret `OPENSHIFT_TOKEN`
 
 The following secrets must be configured:
 - `OPENSHIFT_TOKEN`
-- `REGISTRY_USERNAME`
-- `REGISTRY_PASSWORD`
 - `OAUTH_CLIENT_ID` Github Oauth App for CMS
 - `OAUTH_CLIENT_SECRET`
 

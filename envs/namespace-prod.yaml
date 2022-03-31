@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: appuio-website-prod
+  labels:
+    appuio.io/organization: appuio

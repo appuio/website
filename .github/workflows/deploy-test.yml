@@ -9,7 +9,7 @@ env:
   HELM_RELEASE_NAME: website-pr-${{ github.event.number }}
   REGISTRY_URL: registry.cloudscale-lpg-2.appuio.cloud
   IMG_TAG: pr-${{ github.event.number }}
-  NAMESPACE: pitc-appuio-website-test
+  NAMESPACE: appuio-website-test
 
 jobs:
   build:
