@@ -1,5 +1,5 @@
 module github.com/appuio/website
 
-go 1.15
+go 1.18
 
-require github.com/jgthms/bulma v0.0.0-20210126190202-c5edaea84f28 // indirect
+require github.com/jgthms/bulma v0.0.0-20220303031842-da2c942be330 // indirect
