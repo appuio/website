@@ -64,13 +64,6 @@ jobs:
         with:
           oc: "4"
 
-      - name: Create deployment status in PR
-        run: |
-          curl -X POST -H "Content-Type:application/json" \
-              -H "Authorization: token ${{ github.token }}" \
-              -d '{"state": "pending", "context": "preview/deploy"}' \
-                "https://api.github.com/repos/${{ github.repository }}/statuses/${{ github.event.pull_request.head.sha }}"
-
       - name: Authenticate and set context
         uses: redhat-actions/oc-login@v1
         with:
