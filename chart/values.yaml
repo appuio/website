@@ -64,10 +64,10 @@ route:
 
 resources:
   limits:
-    cpu: 300m
+    cpu: 100m
     memory: 128Mi
   requests:
-    cpu: 30m
+    cpu: 10m
     memory: 16Mi
 
 nodeSelector: {}
