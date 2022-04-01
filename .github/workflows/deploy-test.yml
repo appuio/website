@@ -56,14 +56,9 @@ jobs:
       - name: Setup helmfile
         uses: mamezou-tech/setup-helmfile@v0.9.0
         with:
-          helm-version: v3.8.1
           helmfile-version: v0.144.0
           install-kubectl: false
-
-      - name: Install CLI tools from OpenShift Mirror
-        uses: redhat-actions/openshift-tools-installer@v1
-        with:
-          oc: "4"
+          install-helm: false
 
       - name: Authenticate and set context
         uses: redhat-actions/oc-login@v1
@@ -74,7 +69,7 @@ jobs:
           insecure_skip_tls_verify: true
 
       - name: Deploy app
-        run: helmfile -n ${{ env.NAMESPACE }} -f envs/helmfile.yaml -e preview apply # --wait
+        run: helmfile -n ${{ env.NAMESPACE }} -f envs/helmfile.yaml -e preview apply --wait
         env:
           HELM_RELEASE_NAME: ${{ env.HELM_RELEASE_NAME }}
           IMG_TAG: ${{ env.IMG_TAG }}
