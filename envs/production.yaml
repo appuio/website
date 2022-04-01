@@ -1,3 +1,6 @@
+image:
+  repository: appuio-website-prod/nginx
+
 ingress:
   enabled: false # for now
   annotations:

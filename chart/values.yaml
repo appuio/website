@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   registry: image-registry.openshift-image-registry.svc:5000
-  repository: pitc-appuio-website/nginx
+  repository: $namespace/nginx
   pullPolicy: Always
   tag: latest
 

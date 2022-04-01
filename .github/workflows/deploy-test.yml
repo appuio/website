@@ -85,8 +85,9 @@ jobs:
 
       - name: Gather status
         run: |
-          echo "ROUTE_HOST=$(oc -n ${{ env.NAMESPACE }} get route ${{ env.HELM_RELEASE_NAME }} -o jsonpath='{.spec.host}')" >> $GITHUB_ENV
+          ROUTE_HOST=$(oc -n ${{ env.NAMESPACE }} get route ${{ env.HELM_RELEASE_NAME }} -o jsonpath='{.spec.host}')
+          echo "ROUTE_HOST=$ROUTE_HOST" >> $GITHUB_ENV
           curl -X POST -H "Content-Type:application/json" \
               -H "Authorization: token ${{ github.token }}" \
-              -d '{"state": "success", "context": "preview/deploy", "description": "Preview deployment ready", "target_url": "https://${{ env.ROUTE_HOST }}"}' \
+              -d '{"state": "success", "context": "Preview/Deploy", "description": "Preview deployment ready", "target_url": "https://'$ROUTE_HOST'"}' \
                 "https://api.github.com/repos/${{ github.repository }}/statuses/${{ github.event.pull_request.head.sha }}"
