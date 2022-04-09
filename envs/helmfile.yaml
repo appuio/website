@@ -10,6 +10,8 @@ releases:
     chart: ../charts/website
     createNamespace: false
     missingFileHandler: Warn
+    labels:
+      component: website
     values:
       - {{ .Environment.Name }}.yaml
       - image:
@@ -17,3 +19,18 @@ releases:
       - fullnameOverride: {{ env "HELM_RELEASE_NAME" | default "website" }}
       - podAnnotations:
           app.kubernetes.io/git-shasum: {{ env "GIT_SHA" | default "GIT_SHA" }}
+
+  - name: netlify-cms-auth-provider
+    chart: ../charts/netlify-cms
+    createNamespace: false
+    missingFileHandler: Warn
+    labels:
+      component: netlify-cms
+    values:
+      - route:
+          enabled: true
+          name: github-oauth-provider
+      - oauth:
+          origin: {{ env "ORIGIN" }}
+          clientID: {{ env "OAUTH_CLIENT_ID" }}
+          clientSecret: {{ env "OAUTH_CLIENT_SECRET" }}

@@ -68,14 +68,11 @@ jobs:
           namespace: ${{ env.NAMESPACE }}
 
       - name: Deploy app
-        run: helmfile -n ${{ env.NAMESPACE }} -f envs/helmfile.yaml -e preview apply --wait
+        run: helmfile -n ${{ env.NAMESPACE }} -f envs/helmfile.yaml -e preview -l component=website apply --wait
         env:
           HELM_RELEASE_NAME: ${{ env.HELM_RELEASE_NAME }}
           IMG_TAG: ${{ env.IMG_TAG }}
           GIT_SHA: ${{ github.event.pull_request.head.sha }}
-          OAUTH_CLIENT_ID: ${{ secrets.OAUTH_CLIENT_ID }}
-          OAUTH_CLIENT_SECRET: ${{ secrets.OAUTH_CLIENT_SECRET }}
-          ORIGIN: .*.${{ env. NAMESPACE }}.appuio.cloud
 
       - name: Gather status
         run: |
