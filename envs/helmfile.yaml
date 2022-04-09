@@ -7,7 +7,7 @@ helmDefaults:
 
 releases:
   - name: {{ env "HELM_RELEASE_NAME" | default "website" }}
-    chart: ../chart
+    chart: ../charts/website
     createNamespace: false
     missingFileHandler: Warn
     values:
