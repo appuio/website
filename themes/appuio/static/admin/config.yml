@@ -2,9 +2,8 @@ backend:
   name: github
   repo: appuio/website
   branch: master
-  site_domain: appuio-pitc-appuio30.appuioapp.ch
-  base_url: https://github-oauth-provider-pitc-appuio30.appuioapp.ch
-  #name: git-gateway
+  site_domain: appuio.ch
+  base_url: https://github-oauth-provider-appuio-website-prod.apps.cloudscale-lpg-2.appuio.cloud
 
 logo_url: /appuio_logo.svg
 publish_mode: editorial_workflow

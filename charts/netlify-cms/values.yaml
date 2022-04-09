@@ -70,11 +70,11 @@ route:
 
 resources:
   limits:
-    cpu: 20m
-    memory: 64Mi
+    cpu: 100m
+    memory: 128Mi
   requests:
-    cpu: 5m
-    memory: 24Mi
+    cpu: 10m
+    memory: 64Mi
 
 nodeSelector: {}
 
