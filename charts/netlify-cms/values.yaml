@@ -1,0 +1,83 @@
+# Default values for netlify-cms.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 1
+
+image:
+  registry: ghcr.io
+  repository: appuio/netlify-cms-github-oauth-provider
+  pullPolicy: IfNotPresent
+  tag: v0.1.0
+
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: ""
+
+oauth:
+  # -- Allowed origin domains. Can contain wildcards.
+  origin: ""
+  clientID: ""
+  clientSecret: ""
+
+serviceAccount:
+  # Specifies whether a service account should be created
+  create: true
+  # Annotations to add to the service account
+  annotations: {}
+  # The name of the service account to use.
+  # If not set and create is true, a name is generated using the fullname template
+  name: ""
+
+podAnnotations: {}
+
+podSecurityContext: {}
+  # fsGroup: 2000
+
+securityContext: {}
+  # capabilities:
+  #   drop:
+  #   - ALL
+  # readOnlyRootFilesystem: true
+  # runAsNonRoot: true
+  # runAsUser: 1000
+
+service:
+  type: ClusterIP
+  port: 80
+
+ingress:
+  enabled: false
+  className: ""
+  annotations: {}
+    # cert-manager.io/cluster-issuer: letsencrypt-production
+  hosts:
+    - host: netlify-cms-auth-provider.local
+      paths:
+        - path: /
+          pathType: Prefix
+  tls: []
+  #  - secretName: netlify-cms-auth-provider-local-tls
+  #    hosts:
+  #      - netlify-cms-auth-provider.local
+
+route:
+  enabled: false
+  annotations: {}
+  host: ""
+  # -- `metadata.name` of the Route. May be used to generate the `spec.host`. Defaults to fullname.
+  name: ""
+
+resources:
+  limits:
+    cpu: 100m
+    memory: 128Mi
+  requests:
+    cpu: 10m
+    memory: 64Mi
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}

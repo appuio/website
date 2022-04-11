@@ -2,29 +2,55 @@ name: Test
 
 on:
   pull_request:
-    types: [ closed ]
+    types:
+      - closed
+
+env:
+  ENVIRONMENT: test
+  OPENSHIFT_API: https://api.cloudscale-lpg-2.appuio.cloud:6443
+  HELM_RELEASE_NAME: website-pr-${{ github.event.number }}
+  IMG_NAME: nginx
+  IMG_TAG: pr-${{ github.event.number }}
+  NAMESPACE: appuio-website-test
 
 jobs:
-  main:
-    name: Teardown
+  uninstall:
     runs-on: ubuntu-latest
-    environment: test
+    if: ${{ !startsWith(github.head_ref, 'renovate/') }}
+    environment: preview
     steps:
-    # Cancel any deploy workflows on this branch
-    - uses: styfle/cancel-workflow-action@0.7.0
-      with:
-        ignore_sha: true
-        workflow_id: 5741174
-        access_token: ${{ github.token }}
 
-    - uses: redhat-actions/oc-installer@v1
-      with:
-        oc_version: '3.11.286'
+      - uses: actions/checkout@v3
 
-    - uses: redhat-actions/oc-login@v1
-      with:
-        openshift_server_url: https://console.appuio.ch
-        openshift_token: ${{ secrets.OPENSHIFT_TOKEN }}
-        insecure_skip_tls_verify: true
+      - name: Authenticate and set context
+        uses: redhat-actions/oc-login@v1
+        with:
+          openshift_server_url: ${{ env.OPENSHIFT_API }}
+          openshift_token: ${{ secrets.OPENSHIFT_TOKEN }}
+          namespace: ${{ env.NAMESPACE }}
 
-    - run: oc delete all -n pitc-appuio30-test -l app=appuio-${{ github.event.pull_request.number }}
+      - name: Uninstall app
+        run: helm -n ${{ env.NAMESPACE }} uninstall ${{ HELM_RELEASE_NAME }} --wait
+
+      - name: Delete image in registry
+        run: oc -n ${{ env.NAMESPACE }} delete imagestreamtags ${{ env.IMG_NAME }}:${{ env.IMG_TAG }} --ignore-not-found
+
+      - name: Notify on failure
+        uses: peter-evans/create-or-update-comment@v2
+        if: ${{ failure() }}
+        with:
+          issue-number: ${{ github.event.number }}
+          body: |
+            ## ❌ Failed to remove preview deployment
+
+            | | |
+            |-|-|
+            **Helm release** | ${{ env.NAMESPACE }}/${{ env.HELM_RELEASE_NAME }}
+            **Cluster** | ${{ env.OPENSHIFT_API }}
+
+            Please investigate what went wrong in the GitHub actions logs.
+            Maintainers can manually remove the deployment by running
+            ```bash
+            helm -n ${{ env.NAMESPACE }} uninstall ${{ HELM_RELEASE_NAME }} --wait
+            oc -n ${{ env.NAMESPACE }} delete imagestreamtags ${{ env.IMG_NAME }}:${{ env.IMG_TAG }} --ignore-not-found
+            ```

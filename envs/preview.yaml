@@ -1,0 +1,4 @@
+route:
+  enabled: true
+image:
+  repository: appuio-website-test/nginx

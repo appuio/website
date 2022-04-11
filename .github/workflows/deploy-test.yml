@@ -1,77 +1,88 @@
 name: Test
 
-on: pull_request
+on:
+  pull_request: {}
+
+env:
+  OPENSHIFT_API: https://api.cloudscale-lpg-2.appuio.cloud:6443
+  HELM_RELEASE_NAME: website-pr-${{ github.event.number }}
+  REGISTRY_URL: registry.cloudscale-lpg-2.appuio.cloud
+  IMG_NAME: nginx
+  IMG_TAG: pr-${{ github.event.number }}
+  NAMESPACE: appuio-website-test
 
 jobs:
-  main:
-    name: Deploy
+  build:
     runs-on: ubuntu-latest
     environment:
-      name: test
-      url: ${{ env.ENVIRONMENT_URL }}
+      name: preview
+
     steps:
-    - name: Create deployment status for NetlifyCMS
-      run: |
-        curl -X POST -H "Content-Type:application/json" \
-             -H "Authorization: token ${{ github.token }}" \
-             -d '{"state": "pending", "context": "netlify-cms/preview/deploy"}' \
-              "https://api.github.com/repos/appuio/website/statuses/${{ github.event.pull_request.head.sha }}"
+      - uses: actions/checkout@v3
 
-    - uses: actions/checkout@v2
-      with:
-        ref: ${{ github.event.pull_request.head.sha }}
+      - name: Disable auth for previews in /admin
+        run: yq -i 'del .backend.branch | del .backend.repo | .backend.name="test-repo"' themes/appuio/static/admin/config.yml
 
-    - name: Add PR_NUMBER env property
-      run: echo "PR_NUMBER=`echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }'`" >> $GITHUB_ENV
+      - name: Docker meta
+        id: meta
+        uses: docker/metadata-action@v3
+        with:
+          images: ${{ env.REGISTRY_URL }}/${{ env.NAMESPACE }}/${{ env.IMG_NAME }}
 
-    - name: Add ENVIRONMENT_URL env property
-      run: echo "ENVIRONMENT_URL=https://appuio-${{ env.PR_NUMBER }}-pitc-appuio30-test.appuioapp.ch" >> $GITHUB_ENV
+      - name: Docker login
+        uses: docker/login-action@v1
+        if: ${{ !startsWith(github.head_ref, 'renovate/') }}
+        with:
+          registry: ${{ env.REGISTRY_URL }}
+          username: ${{ github.repository_owner }}
+          password: ${{ secrets.OPENSHIFT_TOKEN }}
 
-    - uses: Azure/docker-login@v1
-      with:
-        login-server: registry.puzzle.ch
-        username: ${{ secrets.REGISTRY_USERNAME }}
-        password: ${{ secrets.REGISTRY_PASSWORD }}
+      - name: Build image
+        uses: docker/build-push-action@v2
+        with:
+          context: . # this ensures we load the context from path (checkout needed)
+          push: ${{ !startsWith(github.head_ref, 'renovate/') }}
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
 
-    - run: |
-        docker build . -t registry.puzzle.ch/puzzle/appuio-website:${{ github.event.pull_request.head.sha }}
-        docker push registry.puzzle.ch/puzzle/appuio-website:${{ github.event.pull_request.head.sha }}
+  deploy:
+    runs-on: ubuntu-latest
+    if: ${{ !startsWith(github.head_ref, 'renovate/') }}
+    needs:
+      - build
+    environment:
+      name: preview
+      url: https://${{ env.ROUTE_HOST }}
 
-    - uses: redhat-actions/oc-installer@v1
-      with:
-        oc_version: '3.11.286'
+    steps:
+      - uses: actions/checkout@v3
 
-    - uses: redhat-actions/oc-login@v1
-      with:
-        openshift_server_url: https://console.appuio.ch
-        openshift_token: ${{ secrets.OPENSHIFT_TOKEN }}
-        insecure_skip_tls_verify: true
+      - name: Setup helmfile
+        uses: mamezou-tech/setup-helmfile@v0.9.0
+        with:
+          helmfile-version: v0.144.0
+          install-kubectl: false
+          install-helm: false
 
-    - run: oc project pitc-appuio30-test
+      - name: Authenticate and set context
+        uses: redhat-actions/oc-login@v1
+        with:
+          openshift_server_url: ${{ env.OPENSHIFT_API }}
+          openshift_token: ${{ secrets.OPENSHIFT_TOKEN }}
+          namespace: ${{ env.NAMESPACE }}
 
-    - uses: Azure/k8s-create-secret@v1
-      with:
-        namespace: 'pitc-appuio30-test'
-        container-registry-url: registry.puzzle.ch
-        container-registry-username: ${{ secrets.REGISTRY_USERNAME }}
-        container-registry-password: ${{ secrets.REGISTRY_PASSWORD }}
-        secret-name: registry-puzzle-secret
-    - run: oc secrets add serviceaccount/default secrets/registry-puzzle-secret --for=pull
+      - name: Deploy app
+        run: helmfile -n ${{ env.NAMESPACE }} -f envs/helmfile.yaml -e preview -l component=website apply --wait
+        env:
+          HELM_RELEASE_NAME: ${{ env.HELM_RELEASE_NAME }}
+          IMG_TAG: ${{ env.IMG_TAG }}
+          GIT_SHA: ${{ github.event.pull_request.head.sha }}
 
-    - run: |
-        oc process -f manifests/appuio.yml \
-                   -p IMAGE_TAG=${{ github.event.pull_request.head.sha }} \
-                   -p APP_POSTFIX=${{ env.PR_NUMBER }} \
-                   | oc apply -f -
-        oc process -f manifests/cms/github-oauth-provider.yml \
-                   -p 'ORIGIN=.*.appuioapp.ch' \
-                   -p OAUTH_CLIENT_ID=${{ secrets.OAUTH_CLIENT_ID }} \
-                   -p OAUTH_CLIENT_SECRET=${{ secrets.OAUTH_CLIENT_SECRET }} \
-                   | oc apply -f -
-        oc rollout latest dc/appuio-${{ env.PR_NUMBER }} || true # could already be running
-        oc rollout status dc/appuio-${{ env.PR_NUMBER }} # wait
-
-        curl -X POST -H "Content-Type:application/json" \
-             -H "Authorization: token ${{ github.token }}" \
-             -d '{"state": "success", "context": "netlify-cms/preview/deploy", "description": "Deploy preview ready", "target_url": "${{ env.ENVIRONMENT_URL }}"}' \
-              "https://api.github.com/repos/appuio/website/statuses/${{ github.event.pull_request.head.sha }}"
+      - name: Gather status
+        run: |
+          ROUTE_HOST=$(oc -n ${{ env.NAMESPACE }} get route ${{ env.HELM_RELEASE_NAME }} -o jsonpath='{.spec.host}')
+          echo "ROUTE_HOST=$ROUTE_HOST" >> $GITHUB_ENV
+          curl -X POST -H "Content-Type:application/json" \
+              -H "Authorization: token ${{ github.token }}" \
+              -d '{"state": "success", "context": "Preview/Deploy", "description": "Preview deployment ready", "target_url": "https://'$ROUTE_HOST'"}' \
+                "https://api.github.com/repos/${{ github.repository }}/statuses/${{ github.event.pull_request.head.sha }}"

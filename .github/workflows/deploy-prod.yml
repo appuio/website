@@ -4,62 +4,72 @@ on:
   push:
     branches:
       - master
-  schedule:
-    # * is a special character in YAML so you have to quote this string
-    - cron:  '0 6 * * *'
+
+env:
+  OPENSHIFT_API: https://api.cloudscale-lpg-2.appuio.cloud:6443
+  REGISTRY_URL: registry.cloudscale-lpg-2.appuio.cloud
+  IMG_NAME: nginx
+  IMG_TAG: master
+  NAMESPACE: appuio-website-prod
 
 jobs:
-  main:
-    name: Deploy
+  build:
     runs-on: ubuntu-latest
     environment:
       name: production
-      url: https://appuio.ch
+
     steps:
-    - uses: actions/checkout@v2
+      # No checkout needed, docker/build-push-action@v2 does that already
+      - name: Docker meta
+        id: meta
+        uses: docker/metadata-action@v3
+        with:
+          images: ${{ env.REGISTRY_URL }}/${{ env.NAMESPACE }}/${{ env.IMG_NAME }}
 
-    - uses: Azure/docker-login@v1
-      with:
-        login-server: registry.puzzle.ch
-        username: ${{ secrets.REGISTRY_USERNAME }}
-        password: ${{ secrets.REGISTRY_PASSWORD }}
+      - name: Docker login
+        uses: docker/login-action@v1
+        with:
+          registry: ${{ env.REGISTRY_URL }}
+          username: ${{ github.repository_owner }}
+          password: ${{ secrets.OPENSHIFT_TOKEN }}
 
-    - run: |
-        docker build . -t registry.puzzle.ch/puzzle/appuio-website:${{ github.sha }}
-        docker push registry.puzzle.ch/puzzle/appuio-website:${{ github.sha }}
+      - name: Build image
+        uses: docker/build-push-action@v2
+        with:
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
 
-    - uses: redhat-actions/oc-installer@v1
-      with:
-        oc_version: '3.11.286'
+  deploy:
+    runs-on: ubuntu-latest
+    needs:
+      - build
+    environment:
+      name: production
+      url: https://appuio.ch
 
-    - uses: redhat-actions/oc-login@v1
-      with:
-        openshift_server_url: https://console.appuio.ch
-        openshift_token: ${{ secrets.OPENSHIFT_TOKEN }}
-        insecure_skip_tls_verify: true
+    steps:
+      - uses: actions/checkout@v3
 
-    - run: oc project pitc-appuio30
+      - name: Setup helmfile
+        uses: mamezou-tech/setup-helmfile@v0.9.0
+        with:
+          helmfile-version: v0.144.0
+          install-kubectl: false
+          install-helm: false
 
-    - uses: Azure/k8s-create-secret@v1
-      with:
-        namespace: 'pitc-appuio30'
-        container-registry-url: registry.puzzle.ch
-        container-registry-username: ${{ secrets.REGISTRY_USERNAME }}
-        container-registry-password: ${{ secrets.REGISTRY_PASSWORD }}
-        secret-name: registry-puzzle-secret
-    - run: oc secrets add serviceaccount/default secrets/registry-puzzle-secret --for=pull
+      - name: Authenticate and set context
+        uses: redhat-actions/oc-login@v1
+        with:
+          openshift_server_url: ${{ env.OPENSHIFT_API }}
+          openshift_token: ${{ secrets.OPENSHIFT_TOKEN }}
+          namespace: ${{ env.NAMESPACE }}
 
-    - run: |
-        oc process -f manifests/appuio.yml \
-                   -p IMAGE_TAG=${{ github.sha }} \
-                   -p APP_POSTFIX=master \
-                   | oc apply -f -
-        oc apply -f manifests/route.yml
-        oc apply -f manifests/route-www.yml
-        oc process -f manifests/cms/github-oauth-provider.yml \
-                   -p ORIGIN=appuio.ch \
-                   -p OAUTH_CLIENT_ID=${{ secrets.OAUTH_CLIENT_ID }} \
-                   -p OAUTH_CLIENT_SECRET=${{ secrets.OAUTH_CLIENT_SECRET }} \
-                   | oc apply -f -
-        oc rollout latest dc/appuio-master || true # could already be running
-        oc rollout status dc/appuio-master # wait
+      - name: Deploy app
+        run: helmfile -n ${{ env.NAMESPACE }} -f envs/helmfile.yaml -e production apply --wait
+        env:
+          IMG_TAG: ${{ env.IMG_TAG }}
+          GIT_SHA: ${{ github.sha }}
+          OAUTH_CLIENT_ID: ${{ secrets.OAUTH_CLIENT_ID }}
+          OAUTH_CLIENT_SECRET: ${{ secrets.OAUTH_CLIENT_SECRET }}
+          ORIGIN: appuio.ch
