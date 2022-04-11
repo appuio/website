@@ -1,6 +1,8 @@
 image:
   repository: appuio-website-prod/nginx
 
+replicaCount: 2
+
 ingress:
   enabled: false # for now
   annotations:
