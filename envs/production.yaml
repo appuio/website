@@ -4,7 +4,7 @@ image:
 replicaCount: 2
 
 ingress:
-  enabled: false # for now
+  enabled: true
   annotations:
     cert-manager.io/cluster-issuer: letsencrypt-production
   hosts:
