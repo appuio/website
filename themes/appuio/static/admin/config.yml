@@ -1,4 +1,5 @@
 backend:
+  # For previews, this backend is replaced with a non-persistent test-backend
   name: github
   repo: appuio/website
   branch: master
