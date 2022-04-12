@@ -29,3 +29,9 @@ body.page-appuio-cloud {
     }
   }
 }
+
+@media (min-aspect-ratio: 2/1) {
+  body.page-appuio-cloud .cloud-header-top {
+    margin-top: -10% !important;
+  }
+}
