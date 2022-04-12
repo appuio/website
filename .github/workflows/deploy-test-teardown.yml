@@ -30,7 +30,7 @@ jobs:
           namespace: ${{ env.NAMESPACE }}
 
       - name: Uninstall app
-        run: helm -n ${{ env.NAMESPACE }} uninstall ${{ HELM_RELEASE_NAME }} --wait
+        run: helm -n ${{ env.NAMESPACE }} uninstall ${{ env.HELM_RELEASE_NAME }} --wait
 
       - name: Delete image in registry
         run: oc -n ${{ env.NAMESPACE }} delete imagestreamtags ${{ env.IMG_NAME }}:${{ env.IMG_TAG }} --ignore-not-found
@@ -51,6 +51,6 @@ jobs:
             Please investigate what went wrong in the GitHub actions logs.
             Maintainers can manually remove the deployment by running
             ```bash
-            helm -n ${{ env.NAMESPACE }} uninstall ${{ HELM_RELEASE_NAME }} --wait
+            helm -n ${{ env.NAMESPACE }} uninstall ${{ env.HELM_RELEASE_NAME }} --wait
             oc -n ${{ env.NAMESPACE }} delete imagestreamtags ${{ env.IMG_NAME }}:${{ env.IMG_TAG }} --ignore-not-found
             ```
