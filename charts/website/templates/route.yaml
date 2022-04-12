@@ -12,7 +12,7 @@ metadata:
 spec:
   host: {{ .Values.route.host }}
   port:
-    targetPort: http
+    targetPort: www
   tls:
     insecureEdgeTerminationPolicy: Redirect
     termination: edge

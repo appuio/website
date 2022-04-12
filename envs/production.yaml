@@ -12,6 +12,7 @@ ingress:
       paths:
         - path: /
           pathType: ImplementationSpecific
+          port: 8000
     - host: www.appuio.ch
       paths:
         - path: /

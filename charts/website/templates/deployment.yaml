@@ -32,17 +32,20 @@ spec:
           image: "{{ if .Values.image.registry }}{{ .Values.image.registry }}/{{ end }}{{ .Values.image.repository }}:{{ .Values.image.tag }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
-            - name: http
+            - name: www
               containerPort: 8080
+              protocol: TCP
+            - name: non-www
+              containerPort: 8000
               protocol: TCP
           livenessProbe:
             httpGet:
               path: /
-              port: http
+              port: www
           readinessProbe:
             httpGet:
               path: /
-              port: http
+              port: www
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
