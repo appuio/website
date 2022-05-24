@@ -19,7 +19,7 @@ menu:
 aliases:
   - /en/unmanaged.html
 ---
-{{<section class="offering-hero self-managed" header="images/header.svg">}}
+{{<section class="offering-hero self-managed" header="images/header.svg" logo="images/logo_appuio_self-managed_bg_rbg.svg">}}
 You want to build your own container platform, but you lack the necessary know-how or capacity? Then we can help you. We support you in planning, building and operating your container platform. In addition, we show your developers how to best use it.
 {{</section>}}
 
