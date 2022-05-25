@@ -28,7 +28,7 @@
         {{ $img := .Page.Resources.GetMatch $logo}}
         <h1>
           {{ if $img }}
-            <img width="300px" height="auto" src="{{$img.RelPermalink}}" alt="" />
+            <img style="height: 86px; width: auto" src="{{$img.RelPermalink}}" alt="" />
             <span class="is-sr-only">{{.Page.Title}}</span>
           {{ else }}
             {{ .Page.Title }}
