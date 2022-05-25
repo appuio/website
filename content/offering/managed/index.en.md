@@ -19,7 +19,7 @@ aliases:
   - /en/managed-private.html
 ---
 
-{{<section class="offering-hero managed" header="images/header.svg" title="Managed">}}
+{{<section class="offering-hero managed" header="images/header.svg" title="Managed" logo="images/logo_appuio_managed_bg_rbg.svg">}}
 Your own APPUiO Managed Private Cluster in your CC on-premises or in the cloud of your choice. APPUiO takes care of the setup, operation of the container platform and lets you concentrate on your core business.
 {{</section>}}
 

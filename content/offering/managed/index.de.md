@@ -19,7 +19,7 @@ aliases:
   - /managed-private.html
 ---
 
-{{<section class="offering-hero managed" header="images/header.svg" title="Managed">}}
+{{<section class="offering-hero managed" header="images/header.svg" title="Managed" logo="images/logo_appuio_managed_bg_rbg.svg">}}
 Dein eigener APPUiO Managed Private Cluster in deinem RZ On-Premises oder in der Cloud deiner Wahl. APPUiO übernimmt das Setup und den Betrieb der Container-Plattform und du kannst dich auf dein Kerngeschäft konzentrieren.
 {{</section>}}
 

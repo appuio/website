@@ -1,5 +1,6 @@
 {{ $class := .Get "class" }}
 {{ $header := .Get "header" }}
+{{ $logo := .Get "logo" }}
 
 <section {{ if $class }}class="{{ $class }}" {{ end }}>
   {{ if $header }}
@@ -24,7 +25,15 @@
         {{ warnf "Header not found!" }}
       {{ end }}
       <div class="container">
-        <h1>{{ .Page.Title }}</h1>
+        {{ $img := .Page.Resources.GetMatch $logo}}
+        <h1>
+          {{ if $img }}
+            <img width="300px" height="auto" src="{{$img.RelPermalink}}" alt="" />
+            <span class="is-sr-only">{{.Page.Title}}</span>
+          {{ else }}
+            {{ .Page.Title }}
+          {{ end }}
+        </h1>
         <p>{{ .Inner | .Page.RenderString }}</p>
       </div>
     {{ end }}
