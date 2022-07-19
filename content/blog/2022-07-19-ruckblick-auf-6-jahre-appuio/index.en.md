@@ -21,4 +21,4 @@ Ein grosses Merci auch an unsere Partnerfirma [Red Hat](https://www.redhat.com/d
 Bis auf bald!\
 Dein APPUiO-Team
 
-![](welcome-8-.png)
+![](welcome-10-.png)
