@@ -1,6 +1,7 @@
 ---
 title: Rückblick auf 6 Jahre APPUiO!
 date: 2022-07-19
+is_community: true
 featured_image: welcome-9-.png
 summary: "Am 30. Juni 2022 war es soweit: Wir durften nach einer langen
   Eventpause unsere bereits im 2020 geplante Geburtstagsfeier durchführen. So
