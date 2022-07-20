@@ -1,24 +1,24 @@
 ---
-title: Rückblick auf 6 Jahre APPUiO!
+title: A Look Back at 6 Years of APPUiO!
 date: 2022-07-19
 featured_image: welcome-9-.png
-summary: "Am 30. Juni 2022 war es soweit: Wir durften nach einer langen
-  Eventpause unsere bereits im 2020 geplante Geburtstagsfeier durchführen. So
-  wurde aus einer 4 Jahres-Jubi-Party eine 6 Jahresparty. Was wir für Highlights
-  in diesen sechs Jahren erleben durften, liest du hier."
+summary: "On June 30, 2022, the time had come: After a long break, we were able to hold our event break, we were able to hold our birthday party, which had already been planned in 2020. So a 4th-anniversary party became a 6-year party. Read here the highlights of the past six years."
 ---
-Glücklich und zufrieden schauen wir auf sechs  Jahre APPUiO zurück. Unglaublich, was der Zusammenschluss und das Engagement von zwei tollen Firmen, in diesem Fall Puzzle ITC GmbH und die VSHN AG, alles bewirken kann!
+We look back on six years of APPUiO happy and satisfied. Unbelievable what the merger and commitment of two great companies, in this case, Puzzle ITC GmbH and VSHN AG, can achieve!
 
-Im Jahr 2016 fing unsere Reise mit APPUiO an. Die Lösung wurde ursprünglich für die Professionalisierung unserer internen IT entwickelt. Wusstest du das? Wir merkten jedoch schnell, dass grosses Potential in APPUiO schlummerte! So ging APPUiO kurz darauf mit drei Angeboten an den Start, welche bis heute - natürlich mit stetiger Weiterentwicklung - Bestandteil sind. Die Lösung wurde rasch von etlichen Kunden produktiv eingesetzt und von einer starken Community gestützt. Einen besseren Einstieg in die grosse weite Welt hätten wir uns nicht vorstellen können.
+Our journey with APPUiO began in 2016. The solution was originally developed to professionalize our internal IT. Did you know that? But we quickly realized the great potential of APPUiO! So we launched it shortly thereafter with three offerings, which are still part of the solution today–of course with constant further development. Several customers quickly adopted the solution in production, supported by a strong community. We could not have imagined a better entry into the big wide world.
 
-So war APPUiO und auch unser Enthusiasmus seit dem Launch nicht mehr zu bremsen. Wir feierten nicht nur die Einführung der OpenShift Techlabs und Application Migration and Modernization Techlabs als Meilenstein. Auch der Beginn der Partnerschaft mit den beiden wunderbaren Firmen Red Hat und Rancher war ein Highlight. Im Jahr 2020 konnten wir, durch den Release von OpenShift 4, bereits früh produktiver Workload auf die OpenShift Container Platform (OCP) in der Version 4.4 packen und unser OpenShift Techlab auf der neuen Version laufen lassen. Ein weiterer grosser Meilenstein war auch die Einführung von APPUIO Cloud, unserem auf OpenShift 4 basierenden Namespace-as-a-Service Angebot als Nachfolgeprodukt von APPUiO Public (OCP3). Wir haben APPUiO Cloud als schnelle, kostengünstige Lösung für DevOps-Teams entwickelt, die sofortigen und erschwinglichen Zugang zu einem OpenShift 4-Projekt benötigen, ohne sich um die Installation und Wartung eines vollständigen OpenShift 4-Clusters kümmern zu müssen. Ein weiteres Highlight war die Einführung der Beerup's, welche uns nicht nur aufgrund der kühlen Getränken Freude bereitete ![(Zwinkern)](https://wiki.vshn.net/s/-hqdvjl/8804/gtzazh/_/images/icons/emoticons/wink.svg). Wir konnten dadurch spannende Talks in ungezwungener Atmosphäre durchführen. Lernen und geniessen, lautet das Motto.\
-Nebenher konnten wir in diesen sechs Jahren viele neue Features entwickeln, viele neue Bekanntschaften sowie Freundschaften schliessen und interessante Gespräche führen. Wir geniessen es sehr, eine solch starke Community hinter uns haben und freuen uns auf die Zukunft mit euch!
+So APPUiO and our enthusiasm since the launch was unstoppable. Not only did we celebrate the launch of the OpenShift Techlabs and Application Migration and Modernization Techlabs as a milestone. The start of the partnership with two wonderful companies, Red Hat and Rancher, was also a highlight. In 2020, with the release of OpenShift 4, we were able to pack early production workloads onto OpenShift Container Platform (OCP) version 4.4 and run our OpenShift Techlab on the new version.
 
-Wir bedanken uns, für das lustige und unterhaltsame Birthday Barbecue am 30. Juni 2022. Auf der Dachterrasse in Zürich durften wir neben der tollen Aussicht, leckere Grillade und eure Anwesenheit geniessen!
+Another big milestone was also the launch of APPUIO Cloud, our OpenShift 4-based Namespace-as-a-Service offering as the successor to APPUiO Public (OCP3). We designed APPUiO Cloud as a fast, cost-effective solution for DevOps teams that need immediate and affordable access to an OpenShift 4 project without having to worry about installing and maintaining a full OpenShift 4 cluster. Another highlight was the introduction of Beerups, which we enjoyed not only because of the cool drinks ![(wink)](https://wiki.vshn.net/s/-hqdvjl/8804/gtzazh/_/images/icons/emoticons/wink.svg). It allowed us to hold exciting talks in an informal atmosphere. Learn and enjoy, that's the motto.
 
-Ein grosses Merci auch an unsere Partnerfirma [Red Hat](https://www.redhat.com/de), welche uns mit einem grosszügigen Sponsoring unterstützt hat.
+Along the way, we were able to develop many new features, make many new acquaintances, as well as friends and have interesting conversations during these six years. We enjoy having such a strong community behind us and look forward to the future with you!
 
-Bis auf bald!\
-Dein APPUiO-Team
+We would like to thank you for the fun and entertaining Birthday Barbecue on June 30, 2022, on the roof terrace in Zurich, where we enjoyed the great view, delicious barbecue and your presence!
+
+A big thank you also to our partner company [Red Hat](https://www.redhat.com/en), which supported us with a generous sponsorship.
+
+See you soon!\
+Your APPUiO-Team
 
 ![](welcome-8-.png)
