@@ -6,7 +6,7 @@ event_link: https://share.hsforms.com/1R_NfjkL-SCOWa12qsmJMeA48awa
 event_title_link: https://www.appuio.ch/techlabs/amm/
 is_full: false
 summary: 09:00 bis 17:00 Uhr Dieses Techlab wird in den Büroräumlichkeiten von
-  Puzzle in Bern durchgeführt (Belpstrasse 37).
+  Puzzle ITC durchgeführt (Belpstrasse 37, 3007 Bern).
 tags:
   - amm
 ---
