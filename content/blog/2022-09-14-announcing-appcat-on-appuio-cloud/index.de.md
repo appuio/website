@@ -5,8 +5,6 @@ featured_image: appuio-slides-4-.png
 summary: "Wir freuen uns, die sofortige Verfügbarkeit des VSHN Application Catalog (oder kurz “AppCat”) auf APPUiO Cloud bekannt zu geben."
 ---
 
-Wir freuen uns, die sofortige Verfügbarkeit des **VSHN Application Catalog** (oder kurz **“AppCat”**) auf APPUiO Cloud bekannt zu geben.
-
 Der VSHN AppCat ist ein Cloud Native-Marktplatz, welcher Services von Anbietern wie Amazon AWS, Google Cloud, Microsoft Azure, [Aiven.io](http://aiven.io/), [Exoscale](https://www.exoscale.com/) oder [cloudscale.ch](http://cloudscale.ch/) sowie Managed Services von VSHN anbietet. Diese Services können ganz einfach als Kubernetes-Ressourcen angefordert und in jeden GitOps- oder CI/CD-Workflow integriert werden. Bestelle Services so, wie du deine Anwendung auf Kubernetes bereitstellen würdest! Mit dem VSHN Application Catalog konzentrierst du dich auf deine Anwendung, und wir kümmern uns um das Bootstrapping und den Betrieb der benötigten Services.
 
 Der erste AppCat-Services, der ab sofort verfügbar ist, ist der [Object Storage Bucket](https://products.docs.vshn.ch/products/appcat/objectstorage.html)-Services in der [APPUiO Cloud Zone LPG 2](https://portal.appuio.cloud/zones/cloudscale-lpg-2). Er ermöglicht es Entwicklern, schnell [S3](https://en.wikipedia.org/wiki/Amazon_S3)-kompatible Storage Buckets in [cloudscale.ch](http://cloudscale.ch) bereitzustellen. Wir werden den Services bald auch in der [Exoscale CH-GVA-2 0 Zone](https://portal.appuio.cloud/zones/exoscale-ch-gva-2-0) aktivieren.
