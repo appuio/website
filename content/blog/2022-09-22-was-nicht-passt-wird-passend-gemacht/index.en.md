@@ -26,4 +26,4 @@ Die Umsetzung lief wie folgt ab: Damit die Installation starten konnte, wurde zu
 
 Haben wir dein Interesse für das [Self-Managed Angebot](https://www.appuio.ch/offering/self-managed/) geweckt? Dann melde dich bei [unseren Spezialisten](mailto:hello@appuio.ch).
 
-Wir freuen uns auf deine Kontaktaufnahme.
+Wir freuen uns auf deine Kontaktaufnahme!
