@@ -2,7 +2,7 @@
 title: Was nicht passt, wird passend gemacht
 date: 2022-09-22
 featured_image: appuio-slides-1-.png
-summary: APPUiO durfte die TBF & Partner AG in Form vom Self-Managed Offering
+summary: APPUiO durfte die TBF & Partner AG, in Form vom Self-Managed Offering,
   beim Aufbau einer passenden Kubernetes-Distribution On-Prem unterstützen.
   Welche Distribution ausgewählt und wie dabei vorgegangen wurde, liest du in
   dieser Referenz.
