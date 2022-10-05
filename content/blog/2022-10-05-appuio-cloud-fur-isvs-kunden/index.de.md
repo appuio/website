@@ -10,7 +10,7 @@ summary: "Unabhängige Softwareanbieter müssen sich um vieles kümmern: die
   allen ist jedoch das Kostenmanagement. Wie können Sie sicherstellen, dass Ihre
   Cloud-Investition Sie nicht in den Bankrott treibt?"
 ---
-## Der APPUiO-Cloud-Vorteil
+#### Der APPUiO-Cloud-Vorteil
 
 Bei der Entwicklung von APPUiO Cloud stand das Kostenmanagement im Vordergrund. Mit ihr zahlen Sie nur für die Ressourcen, die Sie verbrauchen. Das bedeutet jedoch keine Kompromisse bei der Geschwindigkeit oder Sicherheit, ganz im Gegenteil! Basierend auf der bemerkenswerten Stabilität und Zuverlässigkeit von Red Hat OpenShift 4, garantiert APPUiO Cloud, dass Ihre Software zuverlässig und sicher läuft. Gleichzeitig bietet sie eine erschwingliche und kostengünstige Plattform mit einem einfachen Abrechnungsmodell. Wir wissen das, weil wir es für uns selbst gebaut haben, und wir haben eine ganze Menge Software zu betreiben.
 
@@ -20,7 +20,7 @@ Und wenn Sie mehr Hilfe brauchen, haben wir [Support-Pakete](https://products.do
 
 Ihre Software verdient die beste Plattform, und wir sind sicher, dass APPUiO Cloud die ist, nach der Sie gesucht haben.
 
-## Warum APPUiO Cloud?
+#### Warum APPUiO Cloud?
 
 ISVs lieben APPUiO Cloud aus vielen Gründen:
 
@@ -34,10 +34,10 @@ ISVs lieben APPUiO Cloud aus vielen Gründen:
 * Zusätzliche Support-Pakete sind verfügbar.
 * 100% schweizerisch: entwickelt und gehostet in der Schweiz.
 
-## Wer nutzt APPUiO Cloud?
+#### Wer nutzt APPUiO Cloud?
 
 Viele ISVs vertrauen auf APPUiO Cloud, um ihre Aufgaben zu erledigen: [Finnova](https://www.vshn.ch/success-stories/finnova/), [HRM Systems](https://www.vshn.ch/en/success-stories/hrm-systems/) und [Skribble](https://www.vshn.ch/en/success-stories/skribble/), um nur einige zu nennen. Und wir würden gerne auch Ihre Container betreiben.
 
-## Testen Sie APPUiO Cloud noch heute!
+#### Testen Sie APPUiO Cloud noch heute!
 
 [Eröffnen Sie jetzt Ihr APPUiO Cloud-Konto](https://appuio.cloud/register) und bekommen Sie Ihre Infrastrukturkosten in den Griff. Sie werden sich sofort viel besser fühlen, versprochen.

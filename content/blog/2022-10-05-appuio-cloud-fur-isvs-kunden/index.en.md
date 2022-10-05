@@ -9,7 +9,7 @@ summary: "Independent software vendors have lots to worry about: managing the
   traces! But the biggest worry of them all is, however, cost management. How to
   make sure your cloud investment won't leave you bankrupt?"
 ---
-## The APPUiO Cloud Advantage
+#### The APPUiO Cloud Advantage
 
 APPUiO Cloud has been built with cost management in mind. With it, you only pay for the resources you consume. But this doesn't mean compromising on speed or security, quite the opposite! Based on the remarkable stability and reliability of Red Hat OpenShift 4, APPUiO Cloud guarantees your software to run reliably and securely. While simultaneously providing an affordable and cost-effective platform with a simple billing model. We know it because we built it for ourselves, and we have quite a bit of software to run.
 
@@ -19,7 +19,7 @@ And if you need more help, we have [support packages](https://products.docs.vsh
 
 Your software deserves the best platform to run, and we're pretty confident that APPUiO Cloud is the one you were looking for.
 
-## Why APPUiO Cloud?
+#### Why APPUiO Cloud?
 
 ISVs love APPUiO Cloud for many reasons:
 
@@ -33,10 +33,10 @@ ISVs love APPUiO Cloud for many reasons:
 * Additional support packages are available.
 * 100% Swiss: built and hosted in Switzerland.
 
-## Who's using APPUiO Cloud?
+#### Who's using APPUiO Cloud?
 
 Many ISVs are trusting APPUiO Cloud to get things done: [Finnova](https://www.vshn.ch/success-stories/finnova/), [HRM Systems](https://www.vshn.ch/en/success-stories/hrm-systems/), and [Skribble](https://www.vshn.ch/en/success-stories/skribble/), to name a few. And we'd love to run your containers, too.
 
-## Try APPUiO Cloud Today!
+#### Try APPUiO Cloud Today!
 
 [Open your APPUiO Cloud account now](https://appuio.cloud/register) and get a grip on your infrastructure costs. You'll immediately feel much better, pretty promise.
