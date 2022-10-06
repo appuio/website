@@ -1,5 +1,5 @@
 ---
-title: APPUiO Cloud for ISVs Customers
+title: APPUiO Cloud for ISV-Customers
 date: 2022-10-05
 featured_image: appuio-slides-1-.png
 summary: "Independent software vendors have lots to worry about: managing the

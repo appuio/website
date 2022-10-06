@@ -4,9 +4,9 @@ date: 2022-10-05
 featured_image: appuio-slides-1-.png
 summary: >-
   Unabhängige Softwareanbieterinnen und -anbieter (independent software vendors)
-  müssen sich um vieles kümmern: die Verwaltung der Beziehung zu dem gewählten
-  Plattformanbieter, die Umwandlung von Bekanntheit in Geldströme durch eine
-  Marketingtrichterin und den täglichen Umgang mit den Feinheiten und Launen von
+  müssen sich um vieles kümmern: Die Verwaltung der Beziehung zu dem gewählten
+  Plattformanbieter, die Umwandlung von Bekanntheit in Geldströme durch einen
+  Marketingtrichter und den täglichen Umgang mit den Feinheiten und Launen von
   Software sowie Code: Bugs! Funktionen! Ausnahmen! Stack Traces!
 
   Die grösste Sorge von allen ist jedoch das Kostenmanagement. Wie kannst du und dein Unternehmen sicherstellen, dass die Cloud-Investition euch nicht in den Bankrott treibt?
