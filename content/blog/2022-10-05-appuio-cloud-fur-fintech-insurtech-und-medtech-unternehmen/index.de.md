@@ -13,9 +13,9 @@ summary: "Was hält die technischen Teams von Fintech, Insurtech und Medtech
 ---
 #### Der APPUiO-Cloud-Vorteil
 
-Wann immer Fintech-, Insurtech- und Medtech-Teams neue Produkte auf den Markt bringen, ein MVP veröffentlichen müssen, um Stakeholder von einer neuen Idee zu überzeugen, oder Audit-Trails für eure Compliance-Aufgaben bereitstellen müsst, kannst du dich auf APPUiO Cloud verlassen. 
+Wann immer Fintech-, Insurtech- und Medtech-Teams neue Produkte auf den Markt bringen, ein MVP veröffentlichen müssen, um Stakeholder von einer neuen Idee zu überzeugen, oder Audit-Trails für ihre Compliance-Aufgaben bereitstellen müssen, kannst du dich auf APPUiO Cloud verlassen.
 
-APPUiO Cloud ist eine sichere, zu 100 % in der Schweiz ansässige Plattform, die auf Red Hat OpenShift 4 basiert, der fortschrittlichsten und sichersten Anwendungsplattform auf Kubernetes-Basis, für die sich Hunderte von Unternehmen in der Schweiz entschieden haben und der sie vertrauen. Dank ihrer gehärteten Sicherheitsrichtlinien baut die APPUiO Cloud auf OpenShift 4 auf, ohne dass die Benutzerfreundlichkeit, die Leistung oder die Verwaltbarkeit beeinträchtigt werden.
+APPUiO Cloud ist eine sichere, zu 100 % in der Schweiz basierte Plattform, die auf Red Hat OpenShift 4 basiert, der fortschrittlichsten und sichersten Anwendungsplattform auf Kubernetes-Basis, für die sich Hunderte von Unternehmen in der Schweiz entschieden haben und der sie vertrauen. Dank ihrer gehärteten Sicherheitsrichtlinien baut die APPUiO Cloud auf OpenShift 4 auf, ohne dass die Benutzerfreundlichkeit, die Leistung oder die Verwaltbarkeit beeinträchtigt werden.
 
 Dank Branchenstandards wie der ISO 27001-Zertifizierung von VSHN, dem ISAE 3402-Audit und dem FINMA-konformen Status erfüllt APPUiO Cloud die strengsten regulatorischen Rahmenbedingungen in der Schweiz und der Europäischen Union.
 
@@ -25,20 +25,20 @@ Und solltest du mehr Hilfe benötigen, haben wir speziell auf dich und dein Team
 
 #### Warum APPUiO Cloud?
 
-Fintech-, Insurtech- und Medtech-Unternehmen genießen viele Vorteile der APPUiO Cloud:
+Fintech-, Insurtech- und Medtech-Unternehmen geniessen viele Vorteile der APPUiO Cloud:
 
 * Verkürzte Entwicklungszyklen und eine schnellere Markteinführung eurer Produkte. 
 * Einfacher Start in kleinem Massstab, ohne Vorabinvestitionen und mit einem kosteneffizienteren Ansatz als vor Ort.
 * Reduziere Risiken und ermögliche eine einfache Skalierung und flexible Arbeitslasten.
 * Geniesse hochsicheres Hosting mit Red Hat OpenShift 4 bei Schweizer Cloud-Anbietern.
 * Konform mit Branchenstandards wie ISO 27001, ISAE 3402 und FINMA.
-* Swissness: gehostet in der Schweiz und verwaltet von einem Schweizer Unternehmen.
+* Swissness: Gehostet in der Schweiz und verwaltet von einem Schweizer Unternehmen.
 * Bereits im Einsatz in der Finanz-, Versicherungs- und Medizinbranche.
 
 #### Wer nutzt APPUiO Cloud?
 
-Bitte nimm uns nicht beim Wort! Die folgenden Unternehmen nutzen bereits die Vorteile von APPUiO Cloud: [Acrevis](https://www.vshn.ch/en/success-stories/acrevis/), [Finnova](https://www.vshn.ch/en/success-stories/finnova/), [Neon](https://www.vshn.ch/en/success-stories/neon/), [esurance](https://www.vshn.ch/en/success-stories/esurance/) und [CreditGate24](https://www.vshn.ch/en/success-stories/creditgate24/). Sie könnten der Nächste sein! 
+Bitte nimm uns nicht beim Wort! Die folgenden Unternehmen nutzen bereits die Vorteile von APPUiO Cloud: [Acrevis](https://www.vshn.ch/en/success-stories/acrevis/), [Finnova](https://www.vshn.ch/en/success-stories/finnova/), [Neon](https://www.vshn.ch/en/success-stories/neon/), [esurance](https://www.vshn.ch/en/success-stories/esurance/) und [CreditGate24](https://www.vshn.ch/en/success-stories/creditgate24/). Du könntest das Nächste sein! 
 
-#### Testen Sie APPUiO Cloud noch heute
+#### Teste APPUiO Cloud noch heute
 
 [Registriere dein neues APPUiO Cloud-Konto](https://appuio.cloud/register) und bringe deine Container sofort in Produktion.
