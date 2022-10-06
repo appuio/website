@@ -8,7 +8,7 @@ summary: 'Erinnerst du dich noch an die Zeit vor 25 Jahren, als man sich fragte,
   haben müssen. Aber kannst du die Komplexität einer Cloud-Plattform bewältigen?
   Kannst du dir ausufernde Kosten leisten, wenn du vergessen hast eine virtuelle
   Maschine abzuschalten? Die Franzosen sagen gerne: "Niemand ist vor dem Erfolg
-  sicher". Was würde passieren, wenn deine Website der bevorzugte neue Shop
+  sicher". Was würde passieren, wenn deine Webseite der bevorzugte neue Shop
   eines Instagram-Influencers wird? Dein nächster Erfolg über Nacht muss nicht
   Ihr letzter sein.'
 ---
