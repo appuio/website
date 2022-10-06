@@ -4,30 +4,30 @@ date: 2022-10-05
 featured_image: bildschirmfoto-2022-10-05-um-16.21.43.png
 summary: >-
   Web- und Designagenturen befinden sich ständig in einem heiklen Spannungsfeld
-  zwischen Burnout und Rentabilität. Auf der einen Seite haben sie besorgte
+  zwischen Burnout und Rentabilität. Auf der einen Seite hast du besorgte
   Kunden, auf der anderen Seite komplexe Projekte. Der Umgang mit den
-  tagtäglichen technischen Feinheiten ist Teil ihrer Kernkompetenz und ihres
-  Wertversprechens, aber auf welcher Stufe der Abstraktionsleiter ziehen sie die
-  Grenze? Sollten Sie nicht einfach nur einen Mehrwert für Ihre Kunden schaffen?
-  Wollen sie sich wirklich mit Infrastruktur- und Überwachungsfragen befassen?
+  tagtäglichen technischen Feinheiten ist Teil deiner Kernkompetenz und deines
+  Wertversprechens, aber auf welcher Stufe der Abstraktionsleiter ziehst du die
+  Grenze? Solltest du nicht einfach nur einen Mehrwert für eure Kunden schaffen?
+  Willst du dich wirklich mit Infrastruktur- und Überwachungsfragen befassen?
 
 
-  Wie können Sie als Agenturentwickler ein MVP für einen potenziellen Kunden entwickeln, ohne Ihr Bankkonto zu sprengen? Wie können Sie eine neue Umgebung einrichten, um A/B-Tests für neue Produkte durchzuführen? Wie können Sie die Cloud-Kosten im Auge behalten und gleichzeitig agil sein und Ihren Teams die Möglichkeit geben, neue Anwendungen nach Bedarf zu entwickeln?
+  Wie kannst du als Agenturentwickler ein MVP für einen potenziellen Kunden entwickeln, ohne euer Bankkonto zu sprengen? Wie kannst du eine neue Umgebung einrichten, um A/B-Tests für neue Produkte durchzuführen? Wie kannst du die Cloud-Kosten im Auge behalten und gleichzeitig agil sein und deine Teams die Möglichkeit geben, neue Anwendungen nach Bedarf zu entwickeln?
 ---
 #### Der APPUiO-Cloud-Vorteil
 
-APPUiO Cloud bietet Ihnen sofortigen Zugang zu einem einsatzbereiten Red Hat OpenShift 4 Namespace für Ihren Code. Erstellen Sie Ihre Container mit Ihrem besten Code und lassen Sie sie innerhalb von Minuten auf einer 100% Schweizer Plattform laufen, die von Experten überwacht wird.
+APPUiO Cloud bietet dir sofortigen Zugang zu einem einsatzbereiten Red Hat OpenShift 4 Namespace für deinen Code. Erstelle dir deine Container mit deinem besten Code und lass dir diesen innerhalb von Minuten auf einer 100% Schweizer Plattform laufen, die von Experten überwacht wird.  
 
-APPUiO Cloud basiert auf Red Hat OpenShift 4, der neuesten und besten Anwendungsplattform auf der Basis von Kubernetes, die für die Sicherheit gehärtet und dennoch flexibel und hochverfügbar ist. Unterstützt von einer starken und wachsenden Community können Sie APPUiO Cloud vertrauen, um Ihre kritischsten Anwendungen zu betreiben. Und noch besser: Sie zahlen nur für die Ressourcen, die Sie tatsächlich nutzen.
+APPUiO Cloud basiert auf Red Hat OpenShift 4, der neuesten und besten Anwendungsplattform auf der Basis von Kubernetes, die für die Sicherheit gehärtet und dennoch flexibel und hochverfügbar ist. Unterstützt von einer starken und wachsenden Community könnt ihr APPUiO Cloud vertrauen, um eure kritischsten Anwendungen zu betreiben. Und noch besser: Du zahlst nur für die Ressourcen, die ihr tatsächlich nutzt. 
 
-Und mit einem optionalen [Support-Paket](https://products.docs.vshn.ch/products/appuio/cloud/support_packages.html) geniesst Ihre Anwendung die 24/7-Verfügbarkeit eines Expertenteams von DevOps-Ingenieuren, sodass Sie sich voll und ganz darauf konzentrieren können, Ihren Kunden mehr Wert zu liefern.
+Und mit einem optionalen [Support-Paket](https://products.docs.vshn.ch/products/appuio/cloud/support_packages.html) geniesst du Anwendung die 24/7-Verfügbarkeit eines Expertenteams von DevOps-Ingenieuren, sodass du dich voll und ganz darauf konzentrieren könnt, euren Kunden mehr Wert zu liefern.
 
 #### Warum APPUiO Cloud?
 
 Was erhalten Agenturen mit APPUiO Cloud?
 
 * Ein übersichtliches und leicht verständliches Kostenmodell.
-* 24/7 Informationssicherheit wird für Sie übernommen, damit Sie sich nicht darum kümmern müssen.
+* 24/7 Informationssicherheit wird für dich übernommen, damit du dich nicht darum kümmern musst.
 * In nur wenigen Minuten einsatzbereit.
 * Skalierbar und zuverlässig.
 * Hunderte von Kunden vertrauen darauf.
@@ -36,8 +36,8 @@ Was erhalten Agenturen mit APPUiO Cloud?
 
 #### Wer benutzt APPUiO Cloud?
 
-[Amazee Labs](https://www.vshn.ch/en/partners/amazee/), [Ergon Informatik AG](https://www.ergon.ch/en/), [Ginetta](https://www.vshn.ch/en/partners/ginetta/), [Younity](https://www.vshn.ch/en/partners/younity-wirz/), [Comerge](https://www.vshn.ch/en/partners/comerge/) und [Gbanga](https://www.vshn.ch/en/partners/gbanga/) sind einige zufriedene Kunden, die APPUiO Cloud nutzen. Jetzt sind Sie dran.
+[Amazee Labs](https://www.vshn.ch/en/partners/amazee/), [Ergon Informatik AG](https://www.ergon.ch/en/), [Ginetta](https://www.vshn.ch/en/partners/ginetta/), [Younity](https://www.vshn.ch/en/partners/younity-wirz/), [Comerge](https://www.vshn.ch/en/partners/comerge/) und [Gbanga](https://www.vshn.ch/en/partners/gbanga/) sind einige zufriedene Kunden, die APPUiO Cloud nutzen. Jetzt bist du dran.
 
 #### Testen Sie APPUiO Cloud noch heute!
 
-Sind Sie bereit, Ihre Anwendungen auf APPUiO Cloud bereitzustellen? [Registrieren Sie sich jetzt ](https://appuio.cloud/register)und bringen Sie Ihren Code auf der vertrauenswürdigsten Schweizer Anwendungsplattform zum Laufen.
+Bist du bereit, deine Anwendungen auf APPUiO Cloud bereitzustellen? [Registrieren dich jetzt](https://appuio.cloud/register) und bringe deinen Code auf der vertrauenswürdigsten Schweizer Anwendungsplattform zum Laufen.
