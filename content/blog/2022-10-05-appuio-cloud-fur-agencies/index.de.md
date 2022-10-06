@@ -18,9 +18,9 @@ summary: >-
 
 APPUiO Cloud bietet dir sofortigen Zugang zu einem einsatzbereiten Red Hat OpenShift 4 Namespace für deinen Code. Erstelle dir deine Container mit deinem besten Code und lass dir diesen innerhalb von Minuten auf einer 100% Schweizer Plattform laufen, die von Experten überwacht wird.  
 
-APPUiO Cloud basiert auf Red Hat OpenShift 4, der neuesten und besten Anwendungsplattform auf der Basis von Kubernetes, die für die Sicherheit gehärtet und dennoch flexibel und hochverfügbar ist. Unterstützt von einer starken und wachsenden Community kannst du APPUiO Cloud vertrauen, um eure kritischsten Anwendungen zu betreiben. Und noch besser: Du zahlst nur für die Ressourcen, die ihr tatsächlich nutzt.  
+APPUiO Cloud basiert auf Red Hat OpenShift 4, der neuesten und besten Anwendungsplattform auf der Basis von Kubernetes, die für die Sicherheit gehärtet und dennoch flexibel und hochverfügbar ist. Unterstützt von einer starken und wachsenden Community kannst du APPUiO Cloud vertrauen, um eure kritischsten Anwendungen zu betreiben. Und noch besser: Du zahlst nur für die Ressourcen, die du tatsächlich nutzt.  
 
-Und mit einem optionalen [Support-Paket](https://products.docs.vshn.ch/products/appuio/cloud/support_packages.html) geniesst du Anwendung die 24/7-Verfügbarkeit eines Expertenteams von DevOps-Ingenieuren, sodass du dich voll und ganz darauf konzentrieren könnt, euren Kunden mehr Wert zu liefern.
+Und mit einem optionalen [Support-Paket](https://products.docs.vshn.ch/products/appuio/cloud/support_packages.html) geniesst du Anwendung der 24/7-Verfügbarkeit eines Expertenteams von DevOps-Ingenieuren, sodass du dich voll und ganz darauf konzentrieren könnt, euren Kunden mehr Wert zu liefern. 
 
 #### Warum APPUiO Cloud?
 
