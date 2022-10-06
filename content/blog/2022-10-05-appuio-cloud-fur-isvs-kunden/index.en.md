@@ -23,15 +23,15 @@ Your software deserves the best platform to run, and we're pretty confident that
 
 ISVs love APPUiO Cloud for many reasons:
 
-* Cost control.
-* Self-service.
-* Security and Compliance: ISO 27001, ISAE 3402 Report Type 2, and FINMA.
-* 24/7 support.
-* Ready to use in just a few minutes.
-* Scalable and reliable.
-* Trusted by hundreds of customers.
-* Additional support packages are available.
-* 100% Swiss: built and hosted in Switzerland.
+* Cost control
+* Self-service
+* Security and Compliance: ISO 27001, ISAE 3402 Report Type 2, and FINMA
+* 24/7 support
+* Ready to use in just a few minutes
+* Scalable and reliable
+* Trusted by hundreds of customers
+* Additional support packages are available
+* 100% Swiss: built and hosted in Switzerland
 
 #### Who's using APPUiO Cloud?
 
@@ -39,4 +39,4 @@ Many ISVs are trusting APPUiO Cloud to get things done: [Finnova](https://www.v
 
 #### Try APPUiO Cloud Today!
 
-[Open your APPUiO Cloud account now](https://appuio.cloud/register) and get a grip on your infrastructure costs. You'll immediately feel much better, pretty promise.
+[Open your APPUiO Cloud account now](https://appuio.cloud/register) and get a grip on your infrastructure costs.
