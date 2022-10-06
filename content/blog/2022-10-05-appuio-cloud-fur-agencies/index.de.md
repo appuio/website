@@ -38,6 +38,6 @@ Was erhalten Agenturen mit APPUiO Cloud?
 
 [Amazee Labs](https://www.vshn.ch/en/partners/amazee/), [Ergon Informatik AG](https://www.ergon.ch/en/), [Ginetta](https://www.vshn.ch/en/partners/ginetta/), [Younity](https://www.vshn.ch/en/partners/younity-wirz/), [Comerge](https://www.vshn.ch/en/partners/comerge/) und [Gbanga](https://www.vshn.ch/en/partners/gbanga/) sind einige zufriedene Kunden, die APPUiO Cloud nutzen. Jetzt bist du dran.
 
-#### Testen Sie APPUiO Cloud noch heute!
+#### Teste APPUiO Cloud noch heute!
 
-Bist du bereit, deine Anwendungen auf APPUiO Cloud bereitzustellen? [Registrieren dich jetzt](https://appuio.cloud/register) und bringe deinen Code auf der vertrauenswürdigsten Schweizer Anwendungsplattform zum Laufen.
+Bist du bereit, deine Anwendungen auf APPUiO Cloud bereitzustellen? [Registriere dich jetzt](https://appuio.cloud/register) und bringe deinen Code auf der vertrauenswürdigsten Schweizer Anwendungsplattform zum Laufen.
