@@ -3,6 +3,7 @@ title: Beerup mit spannenden Talks!
 date: 2022-11-01T06:38:17.097Z
 publishdate: 2022-10-06T05:37:34.163Z
 event_link: https://share.hsforms.com/15kqDF5rLS8i-aCVFDrjOGw48awa?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_IEnfNHWpw-PFwrWwukgpPYd7wGzDB0WGc3ZMwm0_oZ17H8AQyTf4dWQgpo4KDOitN6SBx
+featured_image: appuio-slides.png
 summary: Bier trinken, spannende Talks geniessen und andere Techies treffen.
   Klingt das nicht toll? Sei an unserem nächsten Beerup vom 1. November 2022 mit
   dabei!
