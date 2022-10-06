@@ -1,13 +1,13 @@
 ---
-title: APPUiO Cloud für ISVs Kunden
+title: APPUiO Cloud für ISV-Kunden
 date: 2022-10-05
-featured_image: bildschirmfoto-2022-10-05-um-15.30.36.png
+featured_image: appuio-slides-1-.png
 summary: >-
-  Unabhängige Softwareanbieterinnen und -anbieter müssen sich um vieles kümmern:
-  die Verwaltung der Beziehung zu dem gewählten Plattformanbieter, die
-  Umwandlung von Bekanntheit in Geldströme durch eine Marketingtrichterin und
-  den täglichen Umgang mit den Feinheiten und Launen von Software sowie Code:
-  Bugs! Funktionen! Ausnahmen! Stack Traces!
+  Unabhängige Softwareanbieterinnen und -anbieter (independent software vendors)
+  müssen sich um vieles kümmern: die Verwaltung der Beziehung zu dem gewählten
+  Plattformanbieter, die Umwandlung von Bekanntheit in Geldströme durch eine
+  Marketingtrichterin und den täglichen Umgang mit den Feinheiten und Launen von
+  Software sowie Code: Bugs! Funktionen! Ausnahmen! Stack Traces!
 
   Die grösste Sorge von allen ist jedoch das Kostenmanagement. Wie kannst du und dein Unternehmen sicherstellen, dass die Cloud-Investition euch nicht in den Bankrott treibt?
 ---
