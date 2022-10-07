@@ -10,7 +10,7 @@ summary: 'Erinnerst du dich noch an die Zeit vor 25 Jahren, als man sich fragte,
   Maschine abzuschalten? Die Franzosen sagen gerne: "Niemand ist vor dem Erfolg
   sicher". Was würde passieren, wenn deine Webseite der bevorzugte neue Shop
   eines Instagram-Influencers wird? Dein nächster Erfolg über Nacht muss nicht
-  Ihr letzter sein.'
+  dein letzter sein.'
 ---
 #### Der APPUiO Cloud Vorteil
 
@@ -20,7 +20,7 @@ APPUiO Cloud baut auf dem Know-how und der Erfahrung von VSHN auf, einem 100% Sc
 
 Mit APPUiO Cloud bist du nie allein. Wenn du einmal mehr Hilfe benötigst, haben wir [Support-Pakete](https://products.docs.vshn.ch/products/appuio/cloud/support_packages.html) für dich, die sicherstellen, dass du immer einen VSHN-Ingenieur rund um die Uhr erreichen kannst, um die Hilfe zu bekommen, die du brauchst.
 
-Wir möchten, dass du auf der Titelseite von [Market](https://www.market.ch/) und [Bilanz](https://www.handelszeitung.ch/bilanz) erscheinst! Wir denken, dass du gerade keine Ausreden mehr habst, um APPUiO Cloud nicht zu nutzen. 
+Wir möchten, dass du auf der Titelseite von [Market](https://www.market.ch/) und [Bilanz](https://www.handelszeitung.ch/bilanz) erscheinst! Wir denken, dass du gerade keine Ausreden mehr hast, um APPUiO Cloud nicht zu nutzen. 
 
 #### Warum APPUiO Cloud?
 
@@ -29,10 +29,10 @@ APPUiO Cloud hat viele Vorteile für SaaS- und E-Commerce-Dienste:
 * Starte deine Cloud-Strategie mit wenigen Schritten auf unserer Plattform.
 * Skaliere deine Anwendung schnell und einfach.
 * 24/7 zusätzlicher Support ist bei Bedarf verfügbar. 
-* Mit VSHN hast du einen starken Partner mit technischer Expertise an Ihrer Seite.
+* Mit VSHN hast du einen starken Partner mit technischer Expertise an deiner Seite.
 * Du zahlst nur für das, was du tatsächlich nutzt. 
 * Du kannst klein anfangen und jederzeit mehr Ressourcen nutzen, ohne uns zu fragen.
-* Es sind keine Vorabinvestitionen erforderlich, und du kannst deinen Plan jederzeit kündigen. 
+* Es sind keine Vorabinvestitionen erforderlich und du kannst deinen Plan jederzeit kündigen. 
 
 #### Wer nutzt APPUiO Cloud?
 
