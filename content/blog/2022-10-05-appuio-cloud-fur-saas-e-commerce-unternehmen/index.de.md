@@ -3,22 +3,22 @@ title: APPUiO Cloud für SaaS & E-commerce Unternehmen
 date: 2022-10-05
 featured_image: bildschirmfoto-2022-10-05-um-16.21.43.png
 summary: 'Erinnerst du dich noch an die Zeit vor 25 Jahren, als man sich fragte,
-  was dieses "Internet" ist? Die Zeiten haben sich so sehr geändert, dass
-  heutzutage sogar die kleinsten Unternehmen eine SaaS- und E-Commerce-Präsenz
-  haben müssen. Aber kannst du die Komplexität einer Cloud-Plattform bewältigen?
-  Kannst du dir ausufernde Kosten leisten, wenn du vergessen hast eine virtuelle
-  Maschine abzuschalten? Die Franzosen sagen gerne: "Niemand ist vor dem Erfolg
-  sicher". Was würde passieren, wenn deine Webseite der bevorzugte neue Shop
-  eines Instagram-Influencers wird? Dein nächster Erfolg über Nacht muss nicht
-  dein letzter sein.'
+  was dieses "Internet" ist? Die Zeiten haben sich geändert. Heutzutage haben
+  sogar die kleinsten Unternehmen eine SaaS- und E-Commerce-Präsenz. Aber kannst
+  du die Komplexität einer Cloud-Plattform bewältigen? Kannst du dir ausufernde
+  Kosten leisten, wenn du vergessen hast eine virtuelle Maschine abzuschalten?
+  Die Franzosen sagen gerne: "Niemand ist vor dem Erfolg sicher". Was würde
+  passieren, wenn deine Webseite der bevorzugte neue Shop eines
+  Instagram-Influencers wird? Dein nächster Erfolg über Nacht muss nicht dein
+  letzter sein.'
 ---
 #### Der APPUiO Cloud Vorteil
 
 Mit APPUiO Cloud kann deine Anwendung automatisch auf den Erfolg deiner Produkte reagieren. Basierend auf der bemerkenswerten Stabilität und Zuverlässigkeit von Red Hat OpenShift 4 garantiert APPUiO Cloud, dass deine SaaS- und E-Commerce-Plattform den gesamten Datenverkehr, den das Internet auf dich wirft, zuverlässig bewältigt. Gleichzeitig bieten wir dir eine erschwingliche und kostengünstige Plattform mit einem einfachen Abrechnungsmodell. Besser geht's nicht.  
 
-APPUiO Cloud baut auf dem Know-how und der Erfahrung von VSHN auf, einem 100% Schweizer Unternehmen mit über acht Jahren Erfahrung im Management von Cloud- und Kubernetes-Diensten. Die DevOps-Ingenieure von VSHN kümmern sich um die Infrastruktur, während du weiterhin Umsatzrekorde brichst. Oh, und haben wir dir erzählt, dass APPUiO Cloud zu 100% in der Schweiz gehostet wird, in Schweizer Cloud-Rechenzentren? Und vergessen wir nicht, dass VSHN ISO- und ISAE 3402-zertifiziert ist und nach den strengen Richtlinien der FINMA arbeitet. 
+APPUiO Cloud baut auf dem Know-how und der Erfahrung von [VSHN](https://www.vshn.ch/) auf, einem 100% Schweizer Unternehmen mit über acht Jahren Erfahrung im Management von Cloud- und Kubernetes-Diensten. Die DevOps-Ingenieure von VSHN kümmern sich um die Infrastruktur, während du weiterhin Umsatzrekorde brichst. Haben wir dir erzählt,  dass APPUiO Cloud zu 100% in der Schweiz (Schweizer Cloud-Rechenzentren) gehostet wird? Und vergessen wir nicht, dass VSHN ISO- und ISAE 3402-zertifiziert ist und nach den strengen Richtlinien der FINMA arbeitet. 
 
-Mit APPUiO Cloud bist du nie allein. Wenn du einmal mehr Hilfe benötigst, haben wir [Support-Pakete](https://products.docs.vshn.ch/products/appuio/cloud/support_packages.html) für dich, die sicherstellen, dass du immer einen VSHN-Ingenieur rund um die Uhr erreichen kannst, um die Hilfe zu bekommen, die du brauchst.
+Mit APPUiO Cloud bist du nie allein. Wenn du mehr Unterstützung brauchst als gedacht, haben wir [Support-Pakete](https://products.docs.vshn.ch/products/appuio/cloud/support_packages.html) für dich. Diese stellen sicher, dass du jederzeit einen VSHN-Techniker 24/7 erreichen kannst. 
 
 Wir möchten, dass du auf der Titelseite von [Market](https://www.market.ch/) und [Bilanz](https://www.handelszeitung.ch/bilanz) erscheinst! Wir denken, dass du gerade keine Ausreden mehr hast, um APPUiO Cloud nicht zu nutzen. 
 
