@@ -36,7 +36,7 @@ APPUiO Cloud hat viele Vorteile für SaaS- und E-Commerce-Dienste:
 
 #### Wer nutzt APPUiO Cloud?
 
-Wir sind stolz darauf, dass viele SaaS- und E-Commerce-Kunden bereits die Vorteile von APPUiO Cloud nutzen: [Skribble](https://www.vshn.ch/en/success-stories/skribble/), [Neon](https://www.vshn.ch/en/success-stories/neon/), Lehner Versand, Migros, [HRM Systems](https://www.vshn.ch/en/success-stories/hrm-systems/) und [CRB](https://www.vshn.ch/en/success-stories/crb/) sind nur einige von ihnen. Und du?
+Wir sind stolz darauf, dass viele SaaS- und E-Commerce-Kunden bereits die Vorteile von APPUiO Cloud nutzen: [Skribble](https://www.vshn.ch/en/success-stories/skribble/), [Neon](https://www.vshn.ch/en/success-stories/neon/), Lehner Versand, Migros, [HRM Systems](https://www.vshn.ch/en/success-stories/hrm-systems/) und [CRB](https://www.vshn.ch/en/success-stories/crb/) sind nur einige von ihnen. Und vielleicht bald du?
 
 #### Legen Sie APPUiO Cloud in Ihren Einkaufswagen!
 
