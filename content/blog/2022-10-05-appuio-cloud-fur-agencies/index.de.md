@@ -1,7 +1,7 @@
 ---
 title: "APPUiO Cloud für Agenturen "
 date: 2022-10-05
-featured_image: bildschirmfoto-2022-10-05-um-16.21.43.png
+featured_image: 44.png
 summary: >-
   Web- und Designagenturen befinden sich ständig in einem heiklen Spannungsfeld
   zwischen Burnout und Rentabilität. Auf der einen Seite hast du besorgte

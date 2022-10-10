@@ -1,7 +1,7 @@
 ---
 title: APPUiO Cloud for Agencies
 date: 2022-10-05
-featured_image: bildschirmfoto-2022-10-05-um-16.21.43.png
+featured_image: 44.png
 summary: >-
   Web and design agencies are always juggling a delicate balance between burnout
   and profitability. They have anxious customers on one side, and complex
