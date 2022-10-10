@@ -1,7 +1,7 @@
 ---
-title: APPUiO Cloud für SaaS & E-commerce Unternehmen
+title: APPUiO Cloud für SaaS & E-Commerce Unternehmen
 date: 2022-10-05
-featured_image: bildschirmfoto-2022-10-05-um-16.21.43.png
+featured_image: appuio-slides-5-.png
 summary: 'Erinnerst du dich noch an die Zeit vor 25 Jahren, als man sich fragte,
   was dieses "Internet" ist? Die Zeiten haben sich geändert. Heutzutage haben
   sogar die kleinsten Unternehmen eine SaaS- und E-Commerce-Präsenz. Aber kannst
