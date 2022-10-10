@@ -2,15 +2,13 @@
 title: APPUiO Cloud für Fintech-, Insurtech- und Medtech-Unternehmen
 date: 2022-10-05
 featured_image: 45.png
-summary: "Was hält die technischen Teams von Fintech, Insurtech und Medtech
-  nachts wach? Nun, die einfache Antwort wäre “viele Dinge”, aber ein paar
-  stechen in der Liste immer hervor: Sicherheit, rechtliche Rahmenbedingungen
-  und die Komplexität der Infrastruktur. In unserem Zeitalter der
-  Digitalisierung und der zunehmend wettbewerbsorientierten Märkte sehen sich
-  Ingenieure und CTOs mit Sicherheitsverletzungen und komplexen Gesetzen
-  konfrontiert, die die Markteinführung neuer Produkte komplizierter und
-  schwieriger machen."
+summary: In unserem Zeitalter der Digitalisierung und der zunehmend
+  wettbewerbsorientierten Märkte sehen sich Ingenieure und CTOs mit
+  Sicherheitsverletzungen und komplexen Gesetzen konfrontiert, die die
+  Markteinführung neuer Produkte komplizierter und schwieriger machen.
 ---
+Was hält die technischen Teams von Fintech, Insurtech und Medtech nachts wach? Nun, die einfache Antwort wäre “viele Dinge”, aber ein paar stechen in der Liste immer hervor: Sicherheit, rechtliche Rahmenbedingungen und die Komplexität der Infrastruktur.
+
 #### Der APPUiO-Cloud-Vorteil
 
 Wann immer Fintech-, Insurtech- und Medtech-Teams neue Produkte auf den Markt bringen, ein MVP veröffentlichen müssen, um Stakeholder von einer neuen Idee zu überzeugen, oder Audit-Trails für ihre Compliance-Aufgaben bereitstellen müssen, kannst du dich auf APPUiO Cloud verlassen.
