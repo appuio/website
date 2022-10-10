@@ -2,15 +2,13 @@
 title: APPUiO Cloud für SaaS & E-Commerce Unternehmen
 date: 2022-10-05
 featured_image: appuio-slides-5-.png
-summary: 'Erinnerst du dich noch an die Zeit vor 25 Jahren, als man sich fragte,
-  was dieses "Internet" ist? Die Zeiten haben sich geändert. Heutzutage haben
-  sogar die kleinsten Unternehmen eine SaaS- und E-Commerce-Präsenz. Aber kannst
-  du die Komplexität einer Cloud-Plattform bewältigen? Kannst du dir ausufernde
-  Kosten leisten, wenn du vergessen hast eine virtuelle Maschine abzuschalten?
-  Die Franzosen sagen gerne: "Niemand ist vor dem Erfolg sicher". Was würde
-  passieren, wenn deine Webseite der bevorzugte neue Shop eines
-  Instagram-Influencers wird? Dein nächster Erfolg über Nacht muss nicht dein
-  letzter sein.'
+summary: Erinnerst du dich noch an die Zeit vor 25 Jahren, als man sich fragte,
+  was dieses "Internet" ist? Heutzutage haben sogar die kleinsten Unternehmen
+  eine SaaS- und E-Commerce-Präsenz. Aber kannst du die Komplexität einer
+  Cloud-Plattform bewältigen? Kannst du dir ausufernde Kosten leisten, wenn du
+  vergessen hast, eine virtuelle Maschine abzuschalten? Was würde passieren,
+  wenn deine Webseite der bevorzugte neue Shop eines Instagram-Influencers wird?
+  Dein nächster Erfolg über Nacht muss nicht dein letzter sein.
 ---
 #### Der APPUiO Cloud Vorteil
 
