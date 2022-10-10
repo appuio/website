@@ -18,9 +18,7 @@ Mit APPUiO Cloud kann deine Anwendung automatisch auf den Erfolg deiner Produkte
 
 APPUiO Cloud baut auf dem Know-how und der Erfahrung von [VSHN](https://www.vshn.ch/) auf, einem 100% Schweizer Unternehmen mit über acht Jahren Erfahrung im Management von Cloud- und Kubernetes-Diensten. Die DevOps-Ingenieure von VSHN kümmern sich um die Infrastruktur, während du weiterhin Umsatzrekorde brichst. Haben wir dir erzählt,  dass APPUiO Cloud zu 100% in der Schweiz (Schweizer Cloud-Rechenzentren) gehostet wird? Und vergessen wir nicht, dass VSHN ISO- und ISAE 3402-zertifiziert ist und nach den strengen Richtlinien der FINMA arbeitet. 
 
-Mit APPUiO Cloud bist du nie allein. Wenn du mehr Unterstützung brauchst als gedacht, haben wir [Support-Pakete](https://products.docs.vshn.ch/products/appuio/cloud/support_packages.html) für dich. Diese stellen sicher, dass du jederzeit einen VSHN-Techniker 24/7 erreichen kannst. 
-
-Wir möchten, dass du auf der Titelseite von [Market](https://www.market.ch/) und [Bilanz](https://www.handelszeitung.ch/bilanz) erscheinst! Wir denken, dass du gerade keine Ausreden mehr hast, um APPUiO Cloud nicht zu nutzen. 
+Mit APPUiO Cloud bist du nie allein. Wenn du mehr Unterstützung brauchst als gedacht, haben wir [Support-Pakete](https://products.docs.vshn.ch/products/appuio/cloud/support_packages.html) für dich. Diese stellen sicher, dass du jederzeit einen VSHN-Techniker 24/7 erreichen kannst.  
 
 #### Warum APPUiO Cloud?
 
@@ -40,4 +38,4 @@ Wir sind stolz darauf, dass viele SaaS- und E-Commerce-Kunden bereits die Vortei
 
 #### Legen Sie APPUiO Cloud in Ihren Einkaufswagen!
 
-[Eröffne jetzt dein APPUiO Cloud-Konto](https://appuio.cloud/register) und geniesse das hervorragende Preis-Leistungs-Verhältnis von APPUiO Cloud. Du wirst nicht enttäuscht sein.
+[Eröffne jetzt dein APPUiO Cloud-Konto](https://appuio.cloud/register) und geniesse das hervorragende Preis-Leistungs-Verhältnis von APPUiO Cloud.
