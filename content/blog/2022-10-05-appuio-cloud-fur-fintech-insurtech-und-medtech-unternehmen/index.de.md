@@ -1,7 +1,7 @@
 ---
 title: APPUiO Cloud für Fintech-, Insurtech- und Medtech-Unternehmen
 date: 2022-10-05
-featured_image: bildschirmfoto-2022-10-05-um-16.21.43.png
+featured_image: 45.png
 summary: "Was hält die technischen Teams von Fintech, Insurtech und Medtech
   nachts wach? Nun, die einfache Antwort wäre “viele Dinge”, aber ein paar
   stechen in der Liste immer hervor: Sicherheit, rechtliche Rahmenbedingungen
