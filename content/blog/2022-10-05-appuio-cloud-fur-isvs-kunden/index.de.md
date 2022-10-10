@@ -1,7 +1,7 @@
 ---
 title: APPUiO Cloud für ISV-Kunden
 date: 2022-10-05
-featured_image: appuio-slides-1-.png
+featured_image: kundensegment_isv.png
 summary: >-
   Unabhängige Softwareanbieterinnen und -anbieter (independent software vendors)
   müssen sich um vieles kümmern: Die Verwaltung der Beziehung zu dem gewählten
