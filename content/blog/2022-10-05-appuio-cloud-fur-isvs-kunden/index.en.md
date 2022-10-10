@@ -1,7 +1,7 @@
 ---
 title: APPUiO Cloud for ISV-Customers
 date: 2022-10-05
-featured_image: appuio-slides-1-.png
+featured_image: kundensegment_isv.png
 summary: "Independent software vendors have lots to worry about: managing the
   relationship with their chosen platform vendor; transforming awareness into
   cash flows through a marketing funnel; and that's without mentioning the daily
