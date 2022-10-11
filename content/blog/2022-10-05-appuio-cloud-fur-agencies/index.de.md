@@ -1,19 +1,17 @@
 ---
 title: "APPUiO Cloud für Agenturen "
-date: 2022-10-05
+date: 2022-10-18
 featured_image: 44.png
-summary: >-
-  Web- und Designagenturen befinden sich ständig in einem heiklen Spannungsfeld
-  zwischen Burnout und Rentabilität. Auf der einen Seite hast du besorgte
-  Kunden, auf der anderen Seite komplexe Projekte. Der Umgang mit den
+summary: Web- und Designagenturen befinden sich ständig in einem heiklen
+  Spannungsfeld zwischen Burnout und Rentabilität. Auf der einen Seite hast du
+  besorgte Kunden, auf der anderen Seite komplexe Projekte. Der Umgang mit den
   tagtäglichen technischen Feinheiten ist Teil deiner Kernkompetenz und deines
   Wertversprechens, aber auf welcher Stufe der Abstraktionsleiter ziehst du die
   Grenze? Solltest du nicht einfach nur einen Mehrwert für eure Kunden schaffen?
   Willst du dich wirklich mit Infrastruktur- und Überwachungsfragen befassen?
-
-
-  Wie kannst du als Agenturentwickler ein MVP für einen potenziellen Kunden entwickeln, ohne euer Bankkonto zu sprengen? Wie kannst du eine neue Umgebung einrichten, um A/B-Tests für neue Produkte durchzuführen? Wie kannst du die Cloud-Kosten im Auge behalten und gleichzeitig agil sein und deine Teams die Möglichkeit geben, neue Anwendungen nach Bedarf zu entwickeln?
 ---
+Wie kannst du als Agenturentwickler ein MVP für einen potenziellen Kunden entwickeln, ohne euer Bankkonto zu sprengen? Wie kannst du eine neue Umgebung einrichten, um A/B-Tests für neue Produkte durchzuführen? Wie kannst du die Cloud-Kosten im Auge behalten und gleichzeitig agil sein und deine Teams die Möglichkeit geben, neue Anwendungen nach Bedarf zu entwickeln?
+
 #### Der APPUiO-Cloud-Vorteil
 
 APPUiO Cloud bietet dir sofortigen Zugriff zu einem einsatzbereiten Red Hat OpenShift 4 Namespace für deinen Code. Erstelle dir deine Container mit deinem besten Code und lass dir diesen innerhalb von Minuten auf einer 100% Schweizer Plattform laufen, die von Experten überwacht wird. 
