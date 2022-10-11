@@ -1,6 +1,6 @@
 ---
 title: APPUiO Cloud für Fintech-, Insurtech- und Medtech-Unternehmen
-date: 2022-10-05
+date: 2022-10-11
 featured_image: 45.png
 summary: In unserem Zeitalter der Digitalisierung und der zunehmend
   wettbewerbsorientierten Märkte sehen sich Ingenieure und CTOs mit

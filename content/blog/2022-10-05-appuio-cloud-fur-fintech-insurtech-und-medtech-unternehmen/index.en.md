@@ -1,6 +1,6 @@
 ---
 title: APPUiO Cloud for Fintech, Insurtech & Medtech companies
-date: 2022-10-05
+date: 2022-10-11
 featured_image: 45.png
 summary: 'What keeps Fintech, Insurtech & Medtech technical teams awake at
   night? Well, the easy answer would be "a lot of things," but a few always
