@@ -2,18 +2,16 @@
 title: APPUiO Cloud for Agencies
 date: 2022-10-18
 featured_image: 44.png
-summary: >-
-  Web and design agencies are always juggling a delicate balance between burnout
-  and profitability. They have anxious customers on one side, and complex
-  projects on the other. Dealing with the day-to-day intricacies of technology
-  is a part of their core competency and value proposition, but at which level
-  of the abstraction ladder do they draw the line? Shouldn't they just be
-  creating value for your customers? Do they really want to deal with
+summary: Web and design agencies are always juggling a delicate balance between
+  burnout and profitability. They have anxious customers on one side, and
+  complex projects on the other. Dealing with the day-to-day intricacies of
+  technology is a part of their core competency and value proposition, but at
+  which level of the abstraction ladder do they draw the line? Shouldn't they
+  just be creating value for your customers? Do they really want to deal with
   infrastructure and monitoring issues?
-
-
-  As an agency developer, how do you spin an MVP for a prospective customer without breaking your bank account? How can you set a new environment to conduct A/B testing for new products? How can you keep an eye on cloud costs, while at the same time being agile and letting your teams spin new applications up as they need them?
 ---
+As an agency developer, how do you spin an MVP for a prospective customer without breaking your bank account? How can you set a new environment to conduct A/B testing for new products? How can you keep an eye on cloud costs, while at the same time being agile and letting your teams spin new applications up as they need them?
+
 #### The APPUiO Cloud Advantage
 
 APPUiO Cloud gives you immediate access to a ready-to-use Red Hat OpenShift 4 namespace for your code. Build your containers with your best code, and have them running within minutes in a 100% Swiss platform monitored by experts.
