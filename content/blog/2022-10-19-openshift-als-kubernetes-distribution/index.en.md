@@ -1,35 +1,35 @@
 ---
-title: OpenShift als Kubernetes-Distribution
+title: OpenShift as Kubernetes distribution
 date: 2022-10-19
-summary: Das Cyberweek-Angebot enthält den Aufbau mit der
-  Kubernetes-Distribution OpenShift. Hier erfährst du, welche Vorteile OpenShift
-  mit sich bringt und was die Distribution alles beinhaltet.
+summary: The Cyberweek offer includes building with the Kubernetes distribution
+  OpenShift. Learn about the benefits of OpenShift and what the distribution
+  includes.
 ---
-OpenShift von Red Hat ist eine enterprise-grade Kubernetes-Distribution. Sie hat das Ziel, eine stabile und sichere Kubernetes-basierte Plattform zum Betreiben von containerisierten Applikationen zur Verfügung zu stellen. OpenShift setzt dabei auf eine etablierte Kubernetes-Version und ergänzt diese mit weiteren Funktionen. Red Hat OpenShift unterstützt in vielen Themen rund um die Software-Entwicklung. Das Ökosystem rund um Builds, Source-to-Image (S2I) und dem Red Hat Container-Katalog ermöglicht schnell und sicher, die Applikationen für den Betrieb in einem Container zu entwickeln und anschliessend auf OpenShift laufen zu lassen. Nebst Kubernetes setzt OpenShift auf weitere Projekte aus der CNCF Landschaft für Themen wie beispielsweise Monitoring, Logging, Storage und Service Mesh.
+OpenShift from Red Hat is an enterprise-grade Kubernetes distribution. Its goal is to provide a stable and secure Kubernetes-based platform for running containerized applications. OpenShift does this by leveraging an established Kubernetes version and supplementing it with additional features. Red Hat OpenShift supports in many topics around software development. The ecosystem around builds, source-to-image (S2I), and the Red Hat Container Catalog enables fast and secure development of applications to run in a container and then run on OpenShift. In addition to Kubernetes, OpenShift relies on other projects from the CNCF landscape for topics such as monitoring, logging, storage and service mesh.
 
-Vorteile auf einen Blick:
+Benefits at a glance:
 
 * Advanced Cluster Management
-* PaaS-Lösung mit Image Builds und Pipelines
-* Integrierte Lösungen ready to use (Monitoring, Logging, Storage, Service Mesh etc.)
-* Full-Stack Support von Betriebssystem und Container Plattform bis zu Middleware
-* Strikte default Security Policies
+* PaaS solution with image builds and pipelines
+* Integrated solutions ready to use (monitoring, logging, storage, service mesh etc.)
+* Full-stack support from operating system and container platform to middleware
+* Strict default security policies
 
-***Wie viel Know-how im Bereich Containerisierung wird bei den Entwicklerinnen und Entwickler im Unternehmen für den Einsatz von OpenShift vorausgesetzt?***
-Falls sich die Entwicklerinnen und Entwickler im Unternehmen trotz neu eingeführter Container-Technologie weiterhin nur auf die Applikationsentwicklung konzentrieren möchten, sind die OpenShift-Funktionalitäten wie Source-to-Image, CI/CD oder Universal Base Images sehr von Vorteil!
+***How much expertise in containerization is required from developers in the company for the use of OpenShift?***
+If the developers in the company want to continue to focus only on application development despite the newly introduced container technology, the OpenShift functionalities such as source-to-image, CI/CD or universal base images are very advantageous!
 
-***Können mehrere Cluster aufgebaut und diese zentral verwaltet werden?***
-Red Hat bietet mit dem Advanced Cluster Management eine Lösung zum Verwalten mehrerer Cluster.
+***Can multiple clusters be set up and managed centrally?***
+Red Hat offers a solution to manage multiple clusters with Advanced Cluster Management.
 
-***Bietet Red Hat Fullstack Support?***
-Red Hat bietet Support auf dem ganzen Applikations-Stack – vom OS, über die Container-Plattform und der Middleware, bis hin zum eingesetzten Container Image (Universal Base Image). Um diesen Support zu gewährleisten, sind die eingesetzten Komponenten vorgegeben. Red Hat investiert viel Zeit in das Testing der eingesetzten Komponenten, um ein reibungsloses Zusammenspiel der ganzen Plattform zu garantieren.
+***Does Red Hat offer Fullstack Support?***
+Red Hat provides support on the entire application stack - from the OS, to the container platform and middleware, to the deployed container image (Universal Base Image). To ensure this support, the deployed components are predefined. Red Hat invests a lot of time in testing the deployed components to guarantee a smooth interaction of the whole platform.
 
-***Welche Linux Distribution wird vorausgesetzt?***
-Bei OpenShift wird Red Hat CoreOS bzw. Red Hat Enterprise Linux vorausgesetzt.
+***Which Linux distribution is required?***
+Red Hat CoreOS or Red Hat Enterprise Linux is required for OpenShift.
 
-***Wie sieht das Subscription- und Support-Modell der Plattform aus?***
-Das Subscription-Modell von Red Hat OpenShift basiert auf Anzahl verwendeter Cores der Compute Nodes. 
+***What is the subscription and support model for the platform?***
+Red Hat OpenShift's subscription model is based on the number of cores used on the compute nodes. 
 
-Wie du siehst, hast du mit Red Hat OpenShift eine vollumfängliche Kubernetes-Distribution am Start. Falls du weitere Fragen zu OpenShift oder unserem Cyberweek-Angebot hast, [kontaktiere](mailto:hello@appuio.ch) uns ungeniert! 
+As you can see, with Red Hat OpenShift you have a full-featured Kubernetes distribution at your fingertips. If you have further questions about OpenShift or our Cyberweek offer, [contact](mailto:hello@appuio.ch) us freely! 
 
-Hier geht's zum Angebot der aktuellen Cyber Week:
+Click here for the current Cyber Week offer:
