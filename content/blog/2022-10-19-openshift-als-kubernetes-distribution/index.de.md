@@ -33,4 +33,4 @@ Das Subscription-Modell von Red Hat OpenShift basiert auf Anzahl verwendeter Cor
 
 Wie du siehst, hast du mit Red Hat OpenShift eine vollumfängliche Kubernetes-Distribution am Start. Falls du weitere Fragen zu OpenShift oder unserem Cyberweek-Angebot hast, [kontaktiere](mailto:hello@appuio.ch) uns ungeniert! 
 
-Hier geht's zum Angebot der aktuellen Cyber Week:
+Hier geht's zum Angebot der aktuellen Cyber Week: [container-cyberweek.ch](container-cyberweek.ch)
