@@ -1,6 +1,7 @@
 ---
 title: OpenShift als Kubernetes-Distribution
-date: 2022-10-19
+date: 2022-11-07
+featured_image: cyber_week_2022-1-.png
 summary: Das Cyberweek-Angebot enthält den Aufbau mit der
   Kubernetes-Distribution OpenShift. Hier erfährst du, welche Vorteile OpenShift
   mit sich bringt und was die Distribution alles beinhaltet.
