@@ -33,4 +33,4 @@ Red Hat OpenShift's subscription model is based on the number of cores used on t
 
 As you can see, with Red Hat OpenShift you have a full-featured Kubernetes distribution at your fingertips. If you have further questions about OpenShift or our Cyberweek offer, [contact](mailto:hello@appuio.ch) us freely! 
 
-Click here for the current Cyber Week offer:
+Click here for the current Cyber Week offer: [container-cyberweek.ch](container-cyberweek.ch)
