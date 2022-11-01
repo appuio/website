@@ -6,7 +6,7 @@ summary: Der erste Teil unseres Angebots im Rahmen der diesjährigen Container
   Cyber Week beinhaltet den Aufbau eines OpenShift 4 Clusters. Wie du es dir von
   APPUiO gewöhnt bist,  kannst du auch während der Cyberwoche wählen, welches
   Angebot deine Wünsche am besten erfüllt. Ist das eher ein managed OpenShift
-  Cluster oder doch eine selbst aufgebaute und betriebene Plattform? Oder
+  Cluster oder doch eine selbst aufgebaute und - betriebene Plattform? Oder
   möchtest du vielleicht unsere APPUiO Cloud testen? In diesem Blogpost zeigen
   wir dir, was du mit APPUiO alles erreichen kannst.  Wir sind glücklich, hat
   sich APPUiO Gründervater und VSHN CTO Tobias Brunner (Tobru) dazu
