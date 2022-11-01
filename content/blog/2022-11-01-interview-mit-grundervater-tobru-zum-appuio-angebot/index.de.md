@@ -1,6 +1,6 @@
 ---
 title: Interview mit Gründervater Tobru zum APPUiO Angebot
-date: 2022-11-01
+date: 2022-11-02
 featured_image: cyber_week_2022.png
 summary: Der erste Teil unseres Angebots im Rahmen der diesjährigen Container
   Cyber Week beinhaltet den Aufbau eines OpenShift 4 Clusters. Wie du es dir von
