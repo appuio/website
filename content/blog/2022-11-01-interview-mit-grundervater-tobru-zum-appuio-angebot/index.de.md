@@ -6,7 +6,7 @@ summary: Der erste Teil unseres Angebots im Rahmen der diesjährigen Container
   Cyber Week beinhaltet den Aufbau eines OpenShift 4 Clusters. Wie du es dir von
   APPUiO gewöhnt bist,  kannst du auch während der Cyberwoche wählen, welches
   Angebot deine Wünsche am besten erfüllt. Ist das eher ein managed OpenShift
-  Cluster oder doch eine selbst aufgebaute und betriebene Plattform? Oder
+  Cluster oder doch eine selbst aufgebaute und - betriebene Plattform? Oder
   möchtest du vielleicht unsere APPUiO Cloud testen? In diesem Blogpost zeigen
   wir dir, was du mit APPUiO alles erreichen kannst.  Wir sind glücklich, hat
   sich APPUiO Gründervater und VSHN CTO Tobias Brunner (Tobru) dazu
@@ -22,7 +22,7 @@ Wir organisieren viele Events und bringen die Menschen zusammen. Zudem sind unse
 
 **Wie unterscheidet sich APPUiO von anderen, vergleichbaren Anbietern?**
 
-Wir haben ein diversifiziertes Angebot. Entweder kümmern wir uns um alles oder wir helfen dir, dass du alles selbst machen kannst. Falls dir das nicht passt, kannst du auf einen shared Cluster zurückgreifen. Diese drei Angebot bei einer Lösung sind einzigartig. Was uns zusätzlich von Mitbewerbern abhebt, sind die frühen Erfahrungen, die wir mit der OpenShift 3 Beta 0 (oder so) machen durften. So können wir von uns sagen, dass wir schon sehr früh OpenShift-Knowhow aufbauen konnten und heute eine entsprechende Expertise vorweisen. Wir haben einen sehr guten Draht zu Red Hat und sind so auch bei vielen Entwicklungen nah dran. N
+Wir haben ein diversifiziertes Angebot. Entweder kümmern wir uns um alles oder wir helfen dir, dass du alles selbst machen kannst. Falls dir das nicht passt, kannst du auf einen shared Cluster zurückgreifen. Diese drei Angebote bei einer Lösung sind einzigartig. Was uns zusätzlich von Mitbewerbern abhebt, sind die frühen Erfahrungen, die wir mit der OpenShift 3 Beta 0 (oder so) machen durften. So können wir von uns sagen, dass wir schon sehr früh OpenShift-Knowhow aufbauen konnten und heute eine entsprechende Expertise vorweisen. Wir haben einen sehr guten Draht zu Red Hat und sind so auch bei vielen Entwicklungen nah dran. 
 
 **Wir bieten auf APPUiO drei unterschiedliche Angebote an. Welche Überlegung steckt dahinter?**
 
@@ -30,11 +30,11 @@ Das Angebot entstand mehr oder weniger durch einen Zufall. Die initiale Idee hin
 
 **In welchen Fällen entscheidet man sich für das Manged-Angebot?**
 
-Das [Managed-Angebot](https://www.appuio.ch/offering/managed/) passt dann, wenn das Betreiben der Plattform nicht zum Kernbusiness gehört. APPUiO kümmert sich vollumfänglich um den Betrieb und der User kann sich auf sein eigentliches Business fokussieren. Kundinnen und Kunden entwickeln beispielsweise Applikationen und deployed diese dann auf den Managed-Cluster.
+Das [Managed-Angebot](https://www.appuio.ch/offering/managed/) passt dann, wenn das Betreiben der Plattform nicht zum Kernbusiness gehört. APPUiO kümmert sich vollumfänglich um den Betrieb der Plattform und der User kann sich auf sein eigentliches Business fokussieren. Kundinnen und Kunden entwickeln beispielsweise Applikationen und deployed diese dann auf den Managed-Cluster. 
 
 **Und wann entscheidet man sich für das Self-Managed-Angebot?**
 
-Diese Angebot richtet sich an Firmen, die sich um den Cluster kümmern wollen. So wird beim [Self-Managed-Angebot](https://www.appuio.ch/offering/self-managed/) der Cluster gemeinsam aufgebaut und dafür gesorgt, dass der nötige Knowhow-Transfer stattfindet. Die Techies in der Firma können den Cluster dann selbständig managen. Der Wissenstransfer passiert normalerweise durch gezielteSchulungen und entsprechende Dokumentationen.”
+Diese Angebot richtet sich an Firmen, die sich selbst um den Cluster kümmern wollen. So wird beim [Self-Managed-Angebot](https://www.appuio.ch/offering/self-managed/) der Cluster gemeinsam aufgebaut und dafür gesorgt, dass der nötige Knowhow-Transfer stattfindet. Die Techies in der Firma können den Cluster dann selbständig managen. Der Wissenstransfer passiert normalerweise durch gezielte Schulungen und entsprechende Dokumentationen.
 
 **Und wie sieht es mit dem Cloud-Angebot aus? Für wen ist APPUiO Cloud das Richtige?**
 
