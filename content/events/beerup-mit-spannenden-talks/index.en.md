@@ -29,3 +29,6 @@ Hönggerstrasse 65\
 
 **Zielpublikum**\
 Nutzerinnen und Nutzer vom APPUiO Offering oder die, die es gerne werden wollen. Oder Personen, die mit uns einfach ein Bier trinken möchten ;-).
+
+**Live Streaming**\
+Du kannst nicht am Beerup teilnehmen? Kein Problem: Schau es dir live [auf YouTube](https://www.youtube.com/watch?v=L7cQE0F2iPM) an! (Allerdings ohne Bier!)
