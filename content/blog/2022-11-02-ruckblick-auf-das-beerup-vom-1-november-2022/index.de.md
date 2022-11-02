@@ -1,6 +1,6 @@
 ---
 title: Rückblick auf das Beerup vom 1. November 2022
-date: 2022-11-02
+date: 2022-11-09
 is_community: true
 featured_image: beerup7.jpg
 summary: Endlich war es wieder so weit. Nach knapp 2 Jahren Zwangspause führten
