@@ -16,6 +16,10 @@ header .navbar-dropdown {
   }
 }
 
+.dark-title {
+  color: $darkblue;
+}
+
 header .navbar {
   @include desktop {
     height: 3.5rem;
