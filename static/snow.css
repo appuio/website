@@ -1,0 +1,23 @@
+/* body {
+    height: 100vh;
+    background: radial-gradient(ellipse at bottom, #34A65F 0%, #0F8A5F 100%);
+    overflow: hidden;
+    color: white;
+    font-family: 'Inter';
+} */
+
+.snowflake {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(white, white); /* Workaround for Chromium's selective color inversion */
+    border-radius: 50%;
+    filter: drop-shadow(0 0 10px white);
+}
+
+#snow {
+    position:absolute;
+    z-index: 40;
+    top:0px;
+}
+/* .container { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; } */
