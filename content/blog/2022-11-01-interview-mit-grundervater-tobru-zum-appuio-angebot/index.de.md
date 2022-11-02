@@ -14,7 +14,7 @@ summary: Der erste Teil unseres Angebots im Rahmen der diesjährigen Container
 ---
 **Tobru, du bist seit der Gründung von APPUiO mit dabei. Was ist aus deiner Sicht das Spezielle an APPUiO?**
 
-Dass es APPUiO noch immer gibt (lacht)… Für mich ist das Spezielle an APPUiO die Tatsache, dass dahinter zwei Unternehmen stehen und den Brand gemeinsam tragen. Das Ganze funktioniert irgendwie ziemlich gut, obwohl wir das ja alle nur ”nebenbei” machen. Wir waren die Ersten, die ein [OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift)-Angebot dieser Art auf den Markt brachten.
+Dass es APPUiO noch immer gibt (lacht)… Für mich ist das Spezielle an APPUiO die Tatsache, dass dahinter zwei Unternehmen stehen und den Brand gemeinsam tragen. Das Ganze funktioniert irgendwie ziemlich gut. Wir waren die Ersten, die ein [OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift)-Angebot dieser Art auf den Markt brachten.
 
 **Unsere Community ist ein grosser Bestandteil von APPUiO., Was zeichnet sie deiner Meinung nach aus?**
 
