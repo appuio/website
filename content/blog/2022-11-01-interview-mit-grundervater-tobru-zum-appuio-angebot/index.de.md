@@ -14,7 +14,7 @@ summary: Der erste Teil unseres Angebots im Rahmen der diesjährigen Container
 ---
 **Tobru, du bist seit der Gründung von APPUiO mit dabei. Was ist aus deiner Sicht das Spezielle an APPUiO?**
 
-Dass es APPUiO noch immer gibt (lacht)… Für mich ist das Spezielle an APPUiO die Tatsache, dass dahinter zwei Unternehmen stehen und den Brand gemeinsam tragen. Das Ganze funktioniert irgendwie ziemlich gut, obwohl wir das ja alle nur ”nebenbei” machen. Wir waren die Ersten, die ein [OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift)-Angebot dieser Art auf den Markt brachten.
+Dass es APPUiO noch immer gibt (lacht)… Für mich ist das Spezielle an APPUiO die Tatsache, dass dahinter zwei Unternehmen stehen und den Brand gemeinsam tragen. Das Ganze funktioniert irgendwie ziemlich gut. Wir waren die Ersten, die ein [OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift)-Angebot dieser Art auf den Markt brachten.
 
 **Unsere Community ist ein grosser Bestandteil von APPUiO., Was zeichnet sie deiner Meinung nach aus?**
 
@@ -38,7 +38,7 @@ Diese Angebot richtet sich an Firmen, die sich selbst um den Cluster kümmern wo
 
 **Und wie sieht es mit dem Cloud-Angebot aus? Für wen ist APPUiO Cloud das Richtige?**
 
-[APPUiO Cloud](https://www.appuio.ch/offering/cloud/) ist für alle, die schnell loslegen möchten. APPUiO Cloud ist sofort verfügbar. Die Einstiegshürden sind einiges kleiner als bei den anderen beiden Angeboten. Man profitiert von einer stets wachsenden End-User-Dokumentation mit Beispielen und Tipps & Tricks. Zudem ist APPUiO Cloud vergleichsmässig günstig und skaliert sehr gut. Bei APPUiO Cloud ist man im Vergleich zu den anderen beiden Angeboten etwas eingeschränkter, was sich auf die Berechtigungen auswirkt.
+[APPUiO Cloud](https://www.appuio.ch/offering/cloud/) ist für alle, die schnell loslegen möchten. APPUiO Cloud ist sofort verfügbar. Die Einstiegshürden sind einiges kleiner als bei den anderen beiden Angeboten. Man profitiert von einer stets wachsenden [End-User-Dokumentation](docs.appuio.cloud) mit Beispielen und Tipps & Tricks. Zudem ist APPUiO Cloud vergleichsmässig günstig und skaliert sehr gut. Bei APPUiO Cloud ist man im Vergleich zu den anderen beiden Angeboten etwas eingeschränkter, was sich auf die Berechtigungen auswirkt.
 
 **Du selber entwickelst  APPUiO ständig weiter und sorgst dafür, dass APPUiO technisch auf dem neusten Stand ist. Für welchen Teil von APPUiO schlägt dein Herz am schnellsten? Wieso?**
 
