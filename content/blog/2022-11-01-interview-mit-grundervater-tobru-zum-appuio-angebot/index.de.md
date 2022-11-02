@@ -28,7 +28,7 @@ Wir haben ein diversifiziertes Angebot. Entweder kümmern wir uns um alles oder 
 
 Das Angebot entstand mehr oder weniger durch einen Zufall. Die initiale Idee hinter APPUiO war jene, die wir heute mit [APPUiO Cloud](https://www.appuio.ch/offering/cloud/) endlich realisieren konnten. Früher war das unser Public-Angebot. Die User können ihre Applikationen einfach auf einen shared Cluster deployen. Je öfters wir uns mit Kundinnen und Kunden austauschten, umso mehr kristallisierten sich dann die beiden anderen Angebote heraus. Einige wollten einen managed Cluster für sich alleine - so entstand [APPUiO Managed](https://www.appuio.ch/offering/managed/). Andere wollten den Cluster selbst bei sich oder in der Cloud betreiben -  so entstand [APPUiO Self-Managed](https://www.appuio.ch/offering/self-managed/).
 
-**In welchen Fällen entscheidet man sich für das Manged-Angebot?**
+**In welchen Fällen entscheidet man sich für das Manged-Angebot?** 
 
 Das [Managed-Angebot](https://www.appuio.ch/offering/managed/) passt dann, wenn das Betreiben der Plattform nicht zum Kernbusiness gehört. APPUiO kümmert sich vollumfänglich um den Betrieb der Plattform und der User kann sich auf sein eigentliches Business fokussieren. Kundinnen und Kunden entwickeln beispielsweise Applikationen und deployed diese dann auf den Managed-Cluster. 
 
