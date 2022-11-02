@@ -1,6 +1,7 @@
 ---
 title: Rückblick auf das Beerup vom 1. November 2022
 date: 2022-11-02
+is_community: true
 featured_image: beerup7.jpg
 summary: Endlich war es wieder so weit. Nach knapp 2 Jahren Zwangspause führten
   wir wieder einmal ein BeerUp durch. Diesmal waren, mit ein paar wenigen
@@ -18,7 +19,7 @@ Zum Schluss sprach Benjamin Affolter, Plattform Architekt von Puzzle ITC, über 
 
 PS. Falls du nicht teilnehmen konntest oder du die Talks nochmals anschauen möchtest, kannst du dies [hier](https://youtu.be/L7cQE0F2iPM) machen.
 
-Nach den Talks gab es mehr zu trinken und feine Häppchen zu essen. Es entstanden interessante Gespräche und wir erlebten lustige Momente.
+Nach den Talks gab es mehr zu trinken und feine Häppchen zu essen. Es entstanden interessante Gespräche und wir erlebten lustige Momente. Als dann die letzten Gäste um 21:00 Uhr den Event verliessen, lag eine wohltuende Zufriedenheit in der Luft. Oh, war das schön!
 
 APPUiO möchte sich bei den Speakern und Gästen für ihre Teilnahme bedanken. Es war wie immer wunderschön euch wieder einmal zu sehen und wir freuen uns bereits auf nächstes Mal. Bis dahin wünschen wir allen viel Gesundheit und ein schönes restliches Jahr.
 
