@@ -55,3 +55,5 @@ APPUiO ist eine Open Source Lösung. Alles, was wir tun, ist Open Source. Das ga
 **Wo siehst du APPUiO in drei bis fünf Jahren?**
 
 Full Self-Service, OpenShift 5.x next generation, viele APPUiO Cloud zones verteilt auf der ganzen Welt. Edge deployments und APPUiO als weltweit renomierter Brand Managed OpenShift.
+
+Hier geht's zum Angebot der aktuellen Cyber Week: [container-cyberweek.ch](https://container-cyberweek.ch/)
