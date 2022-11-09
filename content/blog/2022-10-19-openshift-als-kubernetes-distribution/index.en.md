@@ -16,21 +16,21 @@ Benefits at a glance:
 * Full-stack support from operating system and container platform to middleware
 * Strict default security policies
 
-***How much expertise in containerization is required from developers in the company for the use of OpenShift?***
+**How much expertise in containerization is required from developers in the company for the use of OpenShift?**
 If the developers in the company want to continue to focus only on application development despite the newly introduced container technology, the OpenShift functionalities such as source-to-image, CI/CD or universal base images are very advantageous!
 
-***Can multiple clusters be set up and managed centrally?***
+**Can multiple clusters be set up and managed centrally?**
 Red Hat offers a solution to manage multiple clusters with Advanced Cluster Management.
 
-***Does Red Hat offer Fullstack Support?***
+**Does Red Hat offer Fullstack Support?**
 Red Hat provides support on the entire application stack - from the OS, to the container platform and middleware, to the deployed container image (Universal Base Image). To ensure this support, the deployed components are predefined. Red Hat invests a lot of time in testing the deployed components to guarantee a smooth interaction of the whole platform.
 
-***Which Linux distribution is required?***
+**Which Linux distribution is required?**
 Red Hat CoreOS or Red Hat Enterprise Linux is required for OpenShift.
 
-***What is the subscription and support model for the platform?***
+**What is the subscription and support model for the platform?**
 Red Hat OpenShift's subscription model is based on the number of cores used on the compute nodes. 
 
 As you can see, with Red Hat OpenShift you have a full-featured Kubernetes distribution at your fingertips. If you have further questions about OpenShift or our Cyberweek offer, [contact](mailto:hello@appuio.ch) us freely! 
 
-Click here for the current Cyber Week offer: [container-cyberweek.ch](container-cyberweek.ch)
+Click here for the current Cyber Week offer: [container-cyberweek.ch](https://container-cyberweek.ch/)
