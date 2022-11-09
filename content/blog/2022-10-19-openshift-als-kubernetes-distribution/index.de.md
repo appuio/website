@@ -16,21 +16,21 @@ Vorteile auf einen Blick:
 * Full-Stack Support von Betriebssystem und Container Plattform bis zu Middleware
 * Strikte default Security Policies
 
-***Wie viel Know-how im Bereich Containerisierung wird bei den Entwicklerinnen und Entwickler im Unternehmen für den Einsatz von OpenShift vorausgesetzt?***
+**Wie viel Know-how im Bereich Containerisierung wird bei den Entwicklerinnen und Entwickler im Unternehmen für den Einsatz von OpenShift vorausgesetzt?**
 Falls sich die Entwicklerinnen und Entwickler im Unternehmen trotz neu eingeführter Container-Technologie weiterhin nur auf die Applikationsentwicklung konzentrieren möchten, sind die OpenShift-Funktionalitäten wie Source-to-Image, CI/CD oder Universal Base Images sehr von Vorteil!
 
-***Können mehrere Cluster aufgebaut und diese zentral verwaltet werden?***
+**Können mehrere Cluster aufgebaut und diese zentral verwaltet werden?**
 Red Hat bietet mit dem Advanced Cluster Management eine Lösung zum Verwalten mehrerer Cluster.
 
-***Bietet Red Hat Fullstack Support?***
+**Bietet Red Hat Fullstack Support?**
 Red Hat bietet Support auf dem ganzen Applikations-Stack – vom OS, über die Container-Plattform und der Middleware, bis hin zum eingesetzten Container Image (Universal Base Image). Um diesen Support zu gewährleisten, sind die eingesetzten Komponenten vorgegeben. Red Hat investiert viel Zeit in das Testing der eingesetzten Komponenten, um ein reibungsloses Zusammenspiel der ganzen Plattform zu garantieren.
 
-***Welche Linux Distribution wird vorausgesetzt?***
+**Welche Linux Distribution wird vorausgesetzt?**
 Bei OpenShift wird Red Hat CoreOS bzw. Red Hat Enterprise Linux vorausgesetzt.
 
-***Wie sieht das Subscription- und Support-Modell der Plattform aus?***
+**Wie sieht das Subscription- und Support-Modell der Plattform aus?**
 Das Subscription-Modell von Red Hat OpenShift basiert auf Anzahl verwendeter Cores der Compute Nodes. 
 
 Wie du siehst, hast du mit Red Hat OpenShift eine vollumfängliche Kubernetes-Distribution am Start. Falls du weitere Fragen zu OpenShift oder unserem Cyberweek-Angebot hast, [kontaktiere](mailto:hello@appuio.ch) uns ungeniert! 
 
-Hier geht's zum Angebot der aktuellen Cyber Week: [container-cyberweek.ch](container-cyberweek.ch)
+Hier geht's zum Angebot der aktuellen Cyber Week: [container-cyberweek.ch](https://container-cyberweek.ch/)
