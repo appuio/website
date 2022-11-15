@@ -17,7 +17,7 @@ Unsere Trainings sollen ein echtes Erlebnis sein. Wir wollen keine langweiligen 
 
 **Während der Cyber Week gibt es zwei acend-Trainings mit einem Spezialpreis zur Auswahl - OpenShift oder Cilium. Wie entscheidet man sich für das richtige Training?**
 
-Das OpenShift-Training hilft Ops-Leuten dabei, die Kubernetes-Distribution von Red Hat besser zu verstehen. Beim Cilium-Training steht der Security-Aspekt im Fokus. Hier werden primär die Infrastruktur-Leute angesprochen. Inhalte sind zum Beispiel Observability Hubble und wie es die Visibilität von produktivem Workload vereinfacht sowie Cilium Cluster Mesh. Die Details der Trainings sind auf unserer Website ***((LINK ERGÄNZEN))*** ersichtlich.
+Das OpenShift-Training hilft Ops-Leuten dabei, die Kubernetes-Distribution von Red Hat besser zu verstehen. Beim Cilium-Training steht der Security-Aspekt im Fokus. Hier werden primär die Infrastruktur-Leute angesprochen. Inhalte sind zum Beispiel Observability Hubble und wie es die Visibilität von produktivem Workload vereinfacht sowie Cilium Cluster Mesh. Die Details der Trainings sind auf unserer [Website](https://acend.ch/) ersichtlich.
 
 **Was soll ich tun, wenn ich beide Trainings spannend finde?**
 
