@@ -1,6 +1,6 @@
 ---
 title: Interview mit acend-Mitbegründer Tobi Tröhler
-date: 2022-11-16
+date: 2022-11-15
 featured_image: cyber_week_2022-2-.png
 summary: Nach dem Aufbau ist vor dem Betrieb. acend hilft dir unter anderem
   dabei deinen OpenShift 4 Cluster zu betreiben oder den Security-Aspekt von
