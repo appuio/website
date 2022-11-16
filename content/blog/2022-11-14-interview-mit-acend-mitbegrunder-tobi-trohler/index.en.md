@@ -3,13 +3,14 @@ title: Interview mit acend-Mitbegründer Tobi Tröhler
 date: 2022-11-15
 featured_image: cyber_week_2022-2-.png
 summary: Nach dem Aufbau ist vor dem Betrieb. acend hilft dir unter anderem
-  dabei deinen OpenShift 4 Cluster zu betreiben oder den Security-Aspekt von
-  Cilium besser zu verstehen. Wie sie das machen und was daran so speziell ist,
-  erfährst du im nachstehenden Interview mit Mitbegründer Tobi Tröhler.
+  dabei zu verstehen, wie du deinen OpenShift 4 Cluster betreibst oder wie
+  Cilium die Security von deiner Infrastruktur optimiert. Wie sie das machen und
+  was daran so speziell ist, erfährst du im nachstehenden Interview mit
+  Mitbegründer Tobi Tröhler.
 ---
 **Erst kürzlich feierte acend den zweiten Geburtstag. Euer Angebot für Schulungen in Cloud Native Technologien stösst auf grosse Nachfrage. Was sind deiner Meinung nach die Hauptgründe dafür?**
 
-Heute ist fast jedes Unternehmen ein «IT-Unternehmen». Und die treibenden Kräfte dahinter sind die Mitarbeitenden. Wir setzen genau hier an und schulen Einzelpersonen und Unternehmen. Die Welt dreht sich heute sehr schnell, es gibt täglich neue Themen und die Firmen müssen sich weiterentwickeln. Dank unserem Angebot können sich die Unternehmen auf ihr Kerngeschäft konzentrieren und wir übernehmen die Ausbildung der Mitarbeitenden. Dass dieses Konzept gut ankommt, zeigt unser derzeitige Erfolg. 
+Heute ist fast jedes Unternehmen ein «IT-Unternehmen». Und die treibenden Kräfte dahinter sind die Mitarbeitenden. Wir setzen genau hier an und schulen Einzelpersonen und Unternehmen. Die Welt dreht sich heute sehr schnell, es gibt täglich neue Themen und die Firmen müssen sich weiterentwickeln. Dank unserem Angebot können sich die Unternehmen auf ihr Kerngeschäft konzentrieren und wir übernehmen die Ausbildung der Mitarbeitenden.
 
 **Euer Claim lautet “experience knowledge”. Was meint ihr damit genau?**
 
