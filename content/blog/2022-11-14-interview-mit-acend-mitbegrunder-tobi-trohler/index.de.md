@@ -39,4 +39,4 @@ Mein Traum wäre es, dass wir bald eine eigene Location haben, in der wir Schulu
 
 Ich denke an eine tolle Partnerschaft der Gründerfirmen VSHN und Puzzle. Gemeinsam durften wir schon einiges erleben! Bald findet das 50. OpenShift Techlab statt. Wer hätte beim ersten Techlab gedacht, dass wir einmal so viele Ausgaben durchführen werden?! Das spricht für APPUiO, für die Idee dahinter und für die beiden Unternehmen. Im Zusammenhang mit APPUiO denke ich auch sofort an die vielen, tollen Events. Der Brand APPUiO bietet VSHN und Puzzle die Möglichkeit, auf eine spielerische Art und Weise Technologien zu vermarkten und mit der Community in Verbindung zu bleiben. Es macht Spass, mit so vielen hochmotivierten Menschen zusammen zu arbeiten. Alle Beteiligten machen einen grossartigen Job. Dies ist genau der Grund für den Erfolg von APPUiO.
 
-Hier geht’s zum Angebot der aktuellen Cyber Week: [container-cyberweek.ch](container-cyberweek.ch)
+Hier geht’s zum Angebot der aktuellen Cyber Week: [container-cyberweek.ch](https://container-cyberweek.ch/)
