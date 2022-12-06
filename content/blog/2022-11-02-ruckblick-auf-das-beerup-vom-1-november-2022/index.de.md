@@ -21,6 +21,6 @@ PS. Falls du nicht teilnehmen konntest oder du die Talks nochmals anschauen möc
 
 Nach den Talks gab es mehr zu trinken und feine Häppchen zu essen. Es entstanden interessante Gespräche und wir erlebten lustige Momente. Als dann die letzten Gäste um 21:00 Uhr den Event verliessen, lag eine wohltuende Zufriedenheit in der Luft. Oh, war das schön!
 
-APPUiO möchte sich bei den Speakern und Gästen für ihre Teilnahme bedanken. Es war wie immer wunderschön euch wieder einmal zu sehen und wir freuen uns bereits auf nächstes Mal. Bis dahin wünschen wir allen viel Gesundheit und ein schönes restliches Jahr.
+APPUiO möchte sich bei den Speakern, Gästen und Red Hat, welche sich mit einem Sponsoring beteiligte, bedanken. Es war wie immer wunderschön euch wieder einmal zu sehen und wir freuen uns bereits auf nächstes Mal. Bis dahin wünschen wir allen viel Gesundheit und ein schönes restliches Jahr.
 
 ![](20221101_154536-collage.jpg)
