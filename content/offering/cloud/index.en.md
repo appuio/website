@@ -23,6 +23,8 @@ aliases:
 ---
 {{< cloud_header header="images/header.svg" logo="images/appuio_cloud_rgb.png" footer="images/footer.svg" description="APPUiO Cloud is based on OpenShift 4, the latest Kubernetes distribution from Red Hat, and follows the approach Namespace as a Service." >}}
 
+{{<button href="https://portal.appuio.cloud" icon="fas fa-cloud" title="Login to APPUiO Cloud Portal" target="_blank" class="is-primary is-rounded is-medium m-1" >}}
+
 * ![](/images/offer2_advantage4.svg)
 
   ### Instant On
@@ -53,8 +55,6 @@ aliases:
   ### Community Support
 
   Need help? Check out our [APPUiO Cloud forums](https://discuss.appuio.cloud/) and [community chat](https://community.appuio.ch). For those needing more help, there are [support packages](https://products.docs.vshn.ch/products/appuio/cloud/support_packages.html) available at extra cost.
-
-{{<button href="https://portal.appuio.cloud" icon="fas fa-cloud" title="Login to APPUiO Cloud Portal" target="_blank" class="is-primary is-rounded is-medium m-1" >}}
 
 {{</cloud_header>}}
 
