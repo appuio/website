@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
     0
   );
   tl.to(
-    "#kran_container, #kran_haken",
+    ".kran_container, #kran_haken",
     duration / 2,
     {
       y: -18,

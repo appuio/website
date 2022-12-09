@@ -4,11 +4,14 @@
 {{ define "main" }}
   {{ $headless := .Site.GetPage "/homepage" }}
   {{ partial "check-must-close-shortcodes" (dict "context" . "rawcontent" $headless.RawContent "path" $headless.Path )}}
+  <div id="snow"></div>
+  <link rel="stylesheet" href="snow.css"></link>
+  <script src="/PureSnow.js"></script>
 
   <section class="home-hero has-text-centered">
 
     <div class="home-hero-illus">
-      {{ $header := $headless.Resources.GetMatch "images/header.svg" }}
+      {{ $header := $headless.Resources.GetMatch "images/header2.svg" }}
       {{ if $header }}
         {{ $header.Content | safeHTML }}
       {{ end }}
@@ -17,7 +20,9 @@
       <img src="{{ $logo.RelPermalink }}" alt=":homeHeroAlt" class="home-hero-logo" />
     </div>
     <div class="container">
-      <h1 class="subtitle has-text-white is-3">{{ $headless.Title }}</h1>
+      <!-- <h1 class="subtitle has-text-white is-3">{{ $headless.Title }}</h1> -->
+      <h1 class="subtitle  is-3 dark-title">{{ $headless.Title }}</h1>
+
       <!--
         <p>
           <a href="https://register.appuio.ch" target="_blank" class="is-block is-yellow pt-3">{{ $headless.Params.heroRegister }}</a>
@@ -25,6 +30,5 @@
       -->
     </div>
   </section>
-  {{ partial "banner_cyberweek" . }}
   {{ $headless.Content }}
 {{ end }}
