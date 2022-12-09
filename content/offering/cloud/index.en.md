@@ -54,9 +54,9 @@ aliases:
 
   Need help? Check out our [APPUiO Cloud forums](https://discuss.appuio.cloud/) and [community chat](https://community.appuio.ch). For those needing more help, there are [support packages](https://products.docs.vshn.ch/products/appuio/cloud/support_packages.html) available at extra cost.
 
-{{</cloud_header>}}
-
 {{<button href="https://portal.appuio.cloud" icon="fas fa-cloud" title="Login to APPUiO Cloud Portal" target="_blank" class="is-primary is-rounded is-medium m-1" >}}
+
+{{</cloud_header>}}
 
 {{<section class="has-cols col-darkblue2 darkblue y-narrow">}}
 
