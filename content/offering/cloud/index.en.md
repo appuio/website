@@ -24,30 +24,39 @@ aliases:
 {{< cloud_header header="images/header.svg" logo="images/appuio_cloud_rgb.png" footer="images/footer.svg" description="APPUiO Cloud is based on OpenShift 4, the latest Kubernetes distribution from Red Hat, and follows the approach Namespace as a Service." >}}
 
 * ![](/images/offer2_advantage4.svg)
+
   ### Instant On
+
   Get your own OpenShift namespace in minutes, ready to use.
-
 * ![](/images/offer2_advantage5.svg)
+
   ### Pay per Use
+
   Only pay for the resources you actually use; see our [price model](https://products.docs.vshn.ch/products/appuio/cloud/pricing.html) for more information.
-
 * ![](/images/offer2_advantage6.svg)
+
   ### Multi Cloud
+
     The APPUiO Cloud Platform is available in different availability zones: currently [cloudscale.ch](https://www.cloudscale.ch/) and [exoscale.ch](https://www.exoscale.com/).
-
 * ![](/images/offer2_advantage1.svg)
+
   ### Swissness
+
   APPUiO is available in different zones, also in Swiss data centers that are ISO27001 certified and operate in accordance with Swiss banking regulators (FINMA).
-
 * ![](/images/offer2_advantage2.svg)
-  ### Security
-  When using the APPUiO Cloud Platform you're benefiting from SELinux, Cilium, Two-Factor Authentication and Let's Encrypt. The newest Security Updates are applied regularly.
 
+  ### Security
+
+  When using the APPUiO Cloud Platform you're benefiting from SELinux, Cilium, Two-Factor Authentication and Let's Encrypt. The newest Security Updates are applied regularly.
 * ![](/images/offer2_advantage3.svg)
+
   ### Community Support
+
   Need help? Check out our [APPUiO Cloud forums](https://discuss.appuio.cloud/) and [community chat](https://community.appuio.ch). For those needing more help, there are [support packages](https://products.docs.vshn.ch/products/appuio/cloud/support_packages.html) available at extra cost.
 
 {{</cloud_header>}}
+
+{{<button href="https://portal.appuio.cloud" icon="fas fa-cloud" title="Login to APPUiO Cloud Portal" target="_blank" class="is-primary is-rounded is-medium m-1" >}}
 
 {{<section class="has-cols col-darkblue2 darkblue y-narrow">}}
 
@@ -62,11 +71,9 @@ aliases:
 * ### Kubernetes Operator
 
   APPUiO Cloud provides the Kubernetes operators [K8up](https://k8up.io/) and [Cert Manager](https://cert-manager.io/) pre-installed and pre-configured.
-
 * ### Persistent Storage
 
     Different storage classes allow the use of persistent storage. The available storage depends on the zone. More information can be found in the [APPUiO Cloud User Documentation](https://docs.appuio.cloud/user/explanation/storage-classes.html).
-
 * ### User Management
 
   Organize your namespaces in teams and organizations, and assign users to those teams; control who can access which namespaces at a glance.
@@ -86,11 +93,12 @@ aliases:
 
 {{<section class="cyan has-cols two col-white items-center title-only">}}
 
-
 # Additional Services
+
 ## On request
 
 * #### Support Packages
+
   [more information](https://products.docs.vshn.ch/products/appuio/cloud/support_packages.html)
 * #### Managed Services
 * #### Upgrade on APPUiO Managed or Self Managed
