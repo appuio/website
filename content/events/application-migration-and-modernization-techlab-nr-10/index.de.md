@@ -1,12 +1,11 @@
 ---
 title: Application Migration and Modernization Techlab Nr. 10
-date: 2022-12-08T14:55:53.882Z
-publishdate: 2022-04-21T09:40:48.395Z
+date: Termin auf Anfrage
+publishdate: 2022-12-16T08:50:48.395Z
 event_link: https://share.hsforms.com/1R_NfjkL-SCOWa12qsmJMeA48awa
 event_title_link: https://www.appuio.ch/techlabs/amm/
 is_full: false
-summary: 09:00 bis 17:00 Uhr Dieses Techlab wird in den Büroräumlichkeiten von
-  Puzzle ITC durchgeführt (Belpstrasse 37, 3007 Bern).
+summary: 09:00 bis 17:00 Uhr Das Techlab kann nach Absprache in den Büroräumlichkeiten von Puzzle in Bern oder Zürich stattfinden sowie remote durchgeführt werden.
 tags:
   - amm
 ---
