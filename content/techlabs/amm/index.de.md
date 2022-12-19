@@ -19,7 +19,7 @@ Das ganztägige Application Migration and Modernization on APPUiO / OpenShift Te
 
 {{< upcoming-events tag="amm">}}
 
-> Termine werden nur auf Anfrage durchgeführt. Bitte melde dich bei Interesse bei [hello@appuio.ch](<mailto:> hello@appuio.ch>)
+> Termine werden nur auf Anfrage durchgeführt. Bitte melde dich bei Interesse bei [hello@appuio.ch](mailto:hello@appuio.ch).
 
 {{< /upcoming-events >}}
 
