@@ -19,7 +19,7 @@ The full day Application Migration and Modernization on APPUiO / OpenShift Techl
 
 {{< upcoming-events tag="amm">}}
 
-> There are currently no planned events
+> Appointments are made on request only. Please contact [hello@appuio.ch](<mailto:> hello@appuio.ch>) if you are interested.
 
 {{< /upcoming-events >}}
 
