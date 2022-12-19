@@ -19,7 +19,7 @@ Das ganztägige Application Migration and Modernization on APPUiO / OpenShift Te
 
 {{< upcoming-events tag="amm">}}
 
-> Aktuell gibt es keine geplanten Events
+> Termine werden nur auf Anfrage durchgeführt. Bitte melde dich bei Interesse bei [hello@appuio.ch](<mailto:> hello@appuio.ch>)
 
 {{< /upcoming-events >}}
 
@@ -29,7 +29,7 @@ Das ganztägige Application Migration and Modernization on APPUiO / OpenShift Te
 
 ## Zielpublikum
 
-Das Techlab richtet sich an OpenShift und Kubernetes Engineers mit Entwickler-Fokus. Grundlegende Kenntnisse im Bereich Container-Plattform sollten vorhanden sein. Dieses Techlab baut auf dem [OpenShift Techlab](/techlabs/openshift/) auf.
+Das Techlab richtet sich an OpenShift und Kubernetes Engineers mit Entwickler-Fokus. Grundlegende Kenntnisse im Bereich Container-Plattform sollten vorhanden sein. Dieses Techlab baut auf dem [OpenShift Techlab](https://www.appuio.ch/techlabs/openshift/) auf.
 
 ## Lernziele
 
