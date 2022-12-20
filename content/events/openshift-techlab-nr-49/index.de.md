@@ -5,9 +5,9 @@ publishdate: 2022-12-20T07:57:34.449Z
 event_link: https://share.hsforms.com/1nYhWpXtfQ9Wv-TRc0ZOumQ48awa
 event_title_link: https://www.appuio.ch/techlabs/openshift/
 summary: >-
-  14:00 bis 17:00 Uhr 
+  14:00 bis 17:00 Uhr:
 
-  Dieses Techlab wird in den Büroräumlichkeiten von Puzzle ITC durchgeführt (Belpstrasse 37, 3007). 
+  Dieses Techlab wird in den Büroräumlichkeiten von Puzzle ITC in Bern durchgeführt (Belpstrasse 37, 3007 Bern). 
 tags:
   - openshift
 ---
