@@ -1,5 +1,5 @@
 ---
-title: OpenShift Techlab Nr. 52
+title: OpenShift Techlab Nr. 51
 date: 2023-04-27T06:58:37.989Z
 publishdate: 2022-12-20T07:59:04.906Z
 event_link: https://share.hsforms.com/1Xxso3EinTZCn1tivnppAdg48awa
