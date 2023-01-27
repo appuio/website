@@ -1,7 +1,7 @@
 ---
 title: OpenShift Techlab Nr. 51
-date: 2023-04-27T06:58:37.989Z
-publishdate: 2022-12-20T07:59:04.906Z
+date: 2023-05-11T08:57:23.547Z
+publishdate: 2023-01-27T09:57:34.550Z
 event_link: https://share.hsforms.com/1Xxso3EinTZCn1tivnppAdg48awa
 event_title_link: https://www.appuio.ch/techlabs/openshift/
 summary: >-
