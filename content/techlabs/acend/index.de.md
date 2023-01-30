@@ -72,6 +72,6 @@ Die Trainings kombinieren theoretische Inputs mit praxisnahen Hands-on Labs.
 
 #### Weitere Trainings findest du auf
 
-[![acend](acend-logo.svg "acend")](https://acend.ch/)
+[![acend](images/acend-logo.svg "acend")](https://acend.ch/)
 
 {{</section>}}
