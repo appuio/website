@@ -1,10 +1,6 @@
-<a
-  href='{{ .Get "href"}}'
-  target='{{ .Get "target" }}'
-  class='button {{ .Get "class" }}'
->
+<a href='{{ .Get "href"}}' target='{{ .Get "target" }}' class='button {{ .Get "class" }}'>
   <span class="icon">
     <i class='{{ .Get "icon" }}'></i>
   </span>
-  <span>{{ .Get "title" | htmlUnescape | safeHTML }}</span>
+  <span>{{ .Get "title" }}</span>
 </a>
