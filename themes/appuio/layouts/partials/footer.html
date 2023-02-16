@@ -98,6 +98,6 @@
 {{ $team := resources.Get "js/team.js" }}
 {{ $js := slice $team $tweenmax $formswitcher $faq $navbar $cookies $animations $jquery $all | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint }}
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.10.2/lottie.min.js" type="text/javascript"></script>
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
