@@ -5,13 +5,11 @@
   {{ $headless := .Site.GetPage "/homepage" }}
   {{ partial "check-must-close-shortcodes" (dict "context" . "rawcontent" $headless.RawContent "path" $headless.Path )}}
   <div id="snow"></div>
-  <link rel="stylesheet" href="snow.css"></link>
-  <script src="/PureSnow.js"></script>
 
   <section class="home-hero has-text-centered">
 
     <div class="home-hero-illus">
-      {{ $header := $headless.Resources.GetMatch "images/header2.svg" }}
+      {{ $header := $headless.Resources.GetMatch "images/header.svg" }}
       {{ if $header }}
         {{ $header.Content | safeHTML }}
       {{ end }}
