@@ -36,7 +36,7 @@ jobs:
         run: oc -n ${{ env.NAMESPACE }} delete imagestreamtags ${{ env.IMG_NAME }}:${{ env.IMG_TAG }} --ignore-not-found
 
       - name: Notify on failure
-        uses: peter-evans/create-or-update-comment@v2
+        uses: peter-evans/create-or-update-comment@v3
         if: ${{ failure() }}
         with:
           issue-number: ${{ github.event.number }}
