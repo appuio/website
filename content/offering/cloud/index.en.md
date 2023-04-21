@@ -97,12 +97,16 @@ aliases:
 
 ## On request
 
-* #### Support Packages
+* #### Support Plans
 
-  [more information](https://products.docs.vshn.ch/products/appuio/cloud/support_packages.html)
-* #### Managed Services
+  [Learn more](https://products.docs.vshn.ch/products/appuio/cloud/support_packages.html).
+* #### AppCat
+
+  [Learn More](https://appcat.ch)
 * #### Upgrade on APPUiO Managed or Self Managed
-* #### CI/CD Pipeline Engineering
+* #### K8up
+
+  [Learn more](https://k8up.io)
 
   {{</section>}}
 
