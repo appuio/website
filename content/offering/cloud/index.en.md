@@ -21,9 +21,9 @@ aliases:
   - /en/public
   - /en/offering/
 ---
-{{< cloud_header header="images/header.svg" logo="images/appuio_cloud_rgb.png" footer="images/footer.svg" description="APPUiO Cloud is based on OpenShift 4, the latest Kubernetes distribution from Red Hat, and follows the approach Namespace as a Service." >}}
+{{< cloud_header header="images/header.svg" logo="images/appuio_cloud_rgb.png" footer="images/footer.svg" description="OpenShift 4 Project as a Service" >}}
 
-{{<button href="https://portal.appuio.cloud" icon="fas fa-cloud" title="Login to APPUiO Cloud Portal" target="_blank" class="is-primary is-rounded is-medium m-1" >}}
+{{<button href="https://portal.appuio.cloud" icon="fas fa-cloud" title="Signup and Login" target="_blank" class="is-primary is-rounded is-medium m-1" >}}
 
 * ![](/images/offer2_advantage4.svg)
 
@@ -93,16 +93,20 @@ aliases:
 
 {{<section class="cyan has-cols two col-white items-center title-only">}}
 
-# Additional Services
+# Additional Services (upon request)
 
-## On request
+* #### Support Plans
 
-* #### Support Packages
+  [Learn more](https://products.docs.vshn.ch/products/appuio/cloud/support_packages.html).
+* #### AppCat
 
-  [more information](https://products.docs.vshn.ch/products/appuio/cloud/support_packages.html)
-* #### Managed Services
-* #### Upgrade on APPUiO Managed or Self Managed
-* #### CI/CD Pipeline Engineering
+  [Learn More](https://appcat.ch)
+* #### Upgrade to Managed or Self-Managed
+
+  [Upon request](/en/offering/managed/)
+* #### K8up
+
+  [Learn more](https://k8up.io)
 
   {{</section>}}
 

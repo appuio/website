@@ -1,5 +1,5 @@
 ---
-title: What is backupped?
+title: What is backed up?
 tags:
   - cloud
 ---

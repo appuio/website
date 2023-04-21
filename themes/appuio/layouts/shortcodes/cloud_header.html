@@ -4,7 +4,7 @@
 
 <section class="cloud-header-top">
   {{ if $header }}
-    <div class="img-wrapper" id="angebot_cloud_image">
+    <div class="img-wrapper" id="angebot_cloud_image" style="overflow: hidden; width: 100%;">
       {{ $svg := .Page.Resources.GetMatch $header }}
       {{ if $svg }}
         {{ $svg.Content | safeHTML }}
