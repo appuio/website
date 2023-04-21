@@ -9,6 +9,8 @@ summary: "We’re very excited to share two fantastic news: starting today, user
 ---
 APPUiO Cloud is our Kubernetes “Namespace as a Service” PaaS based on Red Hat OpenShift. It gives you instant access to a shared, fully managed, ready to use Red Hat OpenShift cluster in just a few minutes. Focus on your application rather than on setting up or managing your cluster, and bring your ideas to production in a breeze. It is a particularly good option for various use cases: independent Cloud Native app developers, mobile app backends, education, or startups of any kind can now get instant access to a ready-to-use, secure OpenShift 4 cluster.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GwP172nGp1g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 APPUiO Cloud also includes various added benefits available off-the-box:
 
 * [K8up](https://k8up.io/) to trigger and schedule backups of your applications into external S3 buckets.
