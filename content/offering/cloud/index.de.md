@@ -103,6 +103,8 @@ aliases:
 
   [Weitere Informationen](https://appcat.ch)
 * #### Upgrade auf Managed oder Self-Managed
+
+  [Auf Anfrage](/offering/managed/)
 * #### K8up
 
   [Weitere Informationen](https://k8up.io)

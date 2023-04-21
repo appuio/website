@@ -93,9 +93,7 @@ aliases:
 
 {{<section class="cyan has-cols two col-white items-center title-only">}}
 
-# Additional Services
-
-## On request
+# Additional Services (upon request)
 
 * #### Support Plans
 
@@ -103,7 +101,9 @@ aliases:
 * #### AppCat
 
   [Learn More](https://appcat.ch)
-* #### Upgrade on APPUiO Managed or Self Managed
+* #### Upgrade to Managed or Self-Managed
+
+  [Upon request](/en/offering/managed/)
 * #### K8up
 
   [Learn more](https://k8up.io)
