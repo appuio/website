@@ -61,6 +61,7 @@ jobs:
           helmfile-version: v0.144.0
           install-kubectl: false
           install-helm: false
+          helm-diff-plugin-version: v3.6.0
 
       - name: Authenticate and set context
         uses: redhat-actions/oc-login@v1
