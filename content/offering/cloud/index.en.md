@@ -127,10 +127,10 @@ aliases:
 {{<faq tag="cloud">}}
 {{</section>}}
 
-{{<section class="darkblue">}}
+<!-- {{<section class="darkblue">}}
 
 # APPUiO CLOUD PLATFORM
 
 <a name="contact"></a>
 {{<contact/cloud>}}
-{{</section>}}
+{{</section>}} -->
