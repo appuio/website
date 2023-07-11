@@ -45,6 +45,6 @@ Nun ist der Service, der in den vom Service selektierten Pods läuft, über die 
 
 
 
-Die offizielle Dokumentation zu diesem Feature ist unter [docs.appuio.ch](https://docs.appuio.ch/en/latest/non-http-services.html) zu finden. Ein solcher Service mit einer öffentlichen IP-Adresse kostet CHF 0.35 pro Tag. Bei Fragen stehen wir jederzeit unter [support@appuio.ch](mailto:support@appuio.ch?Subject=non-http) zur Verfügung. Wir helfen auch gerne bei der Implementation Ihres Services auf APPUiO.
+Die offizielle Dokumentation zu diesem Feature ist unter [docs.appuio.cloud](https://docs.appuio.cloud/user/how-to/non-http-services.html) zu finden. Ein solcher Service mit einer öffentlichen IP-Adresse kostet CHF 0.35 pro Tag. Bei Fragen stehen wir jederzeit unter [support@appuio.ch](mailto:support@appuio.ch?Subject=non-http) zur Verfügung. Wir helfen auch gerne bei der Implementation Ihres Services auf APPUiO.
 
 
