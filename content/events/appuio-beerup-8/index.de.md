@@ -11,10 +11,9 @@ tags: []
 ---
 Der Begriff Beerup ist mit dem Ziel entstanden, die Community von APPUiO in ungezwungener Atmosphäre zu vereinen und dabei über Themen rund um Containern zu sprechen. Am 7. September findet die 8. Durchführung statt – dieses Mal im VSHN Tower direkt beim HB Zürich. Sei dabei und erlebe spannende Talks.
 
-### Programm
-
-* 1﻿6:30 - 17:30 Uhr - Talks
-* 1﻿7:30 - 20:00 Uhr - Apéro
+Programm:
+1﻿6:30 - 17:30 Uhr - Talks
+1﻿7:30 - 20:00 Uhr - Apéro
 
 Weitere Informationen folgen...
 

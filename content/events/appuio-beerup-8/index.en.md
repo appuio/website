@@ -10,10 +10,9 @@ summary: The annual APPUiO Beerup takes place at the VSHN Tower in Zurich. The
 ---
 The term "Beerup" was created with the aim of bringing together the APPUiO community in a casual atmosphere to discuss topics related to containers. The 8th edition will take place on September 7th - this time at the VSHN Tower, right by Zurich Main Station. Join us and experience exciting talks.
 
-### Programm
-
-* 1﻿6:30 - 17:30 Uhr - Talks
-* 1﻿7:30 - 20:00 Uhr - Apéro
+Programm:
+1﻿6:30 - 17:30 Uhr - Talks
+1﻿7:30 - 20:00 Uhr - Apéro
 
 More information will follow...
 
