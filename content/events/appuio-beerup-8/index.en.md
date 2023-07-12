@@ -16,3 +16,5 @@ The term "Beerup" was created with the aim of bringing together the APPUiO commu
 1﻿7:30 - 20:00 Uhr - Apéro
 
 More information will follow...
+
+P.S. You can find the recap of Beerup #7 [here](https://www.appuio.ch/blog/2022-11-02-ruckblick-auf-das-beerup-vom-1-november-2022/)
