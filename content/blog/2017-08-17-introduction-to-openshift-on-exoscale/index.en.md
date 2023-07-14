@@ -68,7 +68,7 @@ To login as administrator:
 
 
 
-There is a lot of documentation available from upstream. It’s a great source to read about every little detail. You’ll find documentation for both the [OpenShift Container Platform](https://docs.openshift.com/) and [OpenShift Origin](https://docs.openshift.org/). APPUiO also provides a [community-driven documentation](https://docs.appuio.cloud/user/tutorials/getting-started.html).
+There is a lot of documentation available from upstream. It’s a great source to read about every little detail. You’ll find documentation for both the [OpenShift Container Platform](https://docs.openshift.com/) and [OpenShift Origin](https://docs.openshift.org/). APPUiO also provides a [community-driven documentation](https://docs.appuio.cloud/).
 
 This blog post was originally published on the [Exoscale blog](https://www.exoscale.ch/syslog/2017/08/15/intro-openshift-exoscale/).
 
