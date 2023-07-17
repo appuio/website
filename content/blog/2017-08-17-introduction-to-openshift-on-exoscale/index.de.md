@@ -63,12 +63,12 @@ To login as administrator:
 ```
 
 * Have a look at the APPUiO [Techlabs](https://github.com/appuio/techlab) on GitHub which is a free step-by-step introduction to get started. We offer free [half-day workshops](https://appuio.ch/techlabs.html).
-* The APPUiO [Microservices Example](https://docs.appuio.ch/en/latest/services/01_introduction.html) documentation gives some insight for developers on how a Microservice application can be built and deployed on OpenShift, describing tools like Gitlab CI and Jenkins for the build pipelines.
+* The APPUiO [Application Example](https://docs.appuio.cloud/user/tutorials/getting-started.html#_step_6_deploy_an_application) documentation gives some insight for developers on how a application can be built and deployed on OpenShift, describing tools like Gitlab CI and Jenkins for the build pipelines.
 
 
 
 
-There is a lot of documentation available from upstream. It’s a great source to read about every little detail. You’ll find documentation for both the [OpenShift Container Platform](https://docs.openshift.com/) and [OpenShift Origin](https://docs.openshift.org/). APPUiO also provides a [community-driven documentation](https://docs.appuio.ch/en/latest/services/01_introduction.html).
+There is a lot of documentation available from upstream. It’s a great source to read about every little detail. You’ll find documentation for both the [OpenShift Container Platform](https://docs.openshift.com/) and [OpenShift Origin](https://docs.openshift.org/). APPUiO also provides a [community-driven documentation](https://docs.appuio.cloud/).
 
 This blog post was originally published on the [Exoscale blog](https://www.exoscale.ch/syslog/2017/08/15/intro-openshift-exoscale/).
 

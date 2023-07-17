@@ -14,6 +14,6 @@ In der Beta Version wird noch kein aktives Monitoring der Backups gemacht und es
 
 Aktuell werden automatisch alle "ReadWriteMany" PVCs im Backup gespeichert. Geplant ist, dass auch andere Volumes wie Datenbanken konsistent ins Backup aufgenommen werden können.
 
-Die Dokumentation ist unter [docs.appuio.ch](https://docs.appuio.ch/en/latest/k8up.html) zu finden. Über ein Feedback unter [support@appuio.ch](mailto:support@appuio.ch) freuen wir uns.
+Die Dokumentation ist unter [k8up.io](https://k8up.io) zu finden. Über ein Feedback unter [support@appuio.ch](mailto:support@appuio.ch) freuen wir uns.
 
 
