@@ -17,7 +17,7 @@ The term "Beerup" was created with the aim of bringing together the APPUiO commu
 
 More information will follow...
 
-Talk 1: Peter Mumenthaler (Solution Architect, Red Hat) - *improve developer experience on Red Hat OpenShift and Kubernetes with backstage.io*
+Talk 1: Peter Mumenthaler (Solution Architect, Red Hat) - *Update on OpenShift (more details to follow)*
 
 T﻿alk 2: Tobias Brunner (CTO VSHN AG) - *Update on APPUiO Cloud*
 
