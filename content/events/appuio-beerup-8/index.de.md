@@ -19,6 +19,4 @@ Talk 1: Peter Mumenthaler (Solution Architect, Red Hat) - *Update zu OpenShift (
 
 T﻿alk 2: Tobias Brunner (CTO VSHN AG) - *Update zu APPUiO Cloud*
 
-T﻿alk 3: tbd
-
 P.﻿S. Den Rückblick auf den Beerup #7 findest du [hier](https://www.appuio.ch/blog/2022-11-02-ruckblick-auf-das-beerup-vom-1-november-2022/)
