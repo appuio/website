@@ -1,7 +1,7 @@
 ---
 title: "APPUiO Beerup #8"
-date: 2023-09-07T14:30:23.473Z
-publishdate: 2023-07-12T09:56:25.444Z
+date: 2023-08-24T12:10:06.166Z
+publishdate: 2023-08-24T12:10:06.199Z
 event_link: https://share.hsforms.com/13U8O05srT-GJFISnEGacbA48awa
 featured_image: beerup-8.png
 summary: The annual APPUiO Beerup takes place at the VSHN Tower in Zurich. On
@@ -19,4 +19,10 @@ Talk 1: Peter Mumenthaler (Solution Architect, Red Hat) - *Update on OpenShift*
 
 T﻿alk 2: Tobias Brunner (CTO VSHN AG) - *Update on APPUiO Cloud*
 
-P.S. You can find the recap of Beerup #7 [here](https://www.appuio.ch/blog/2022-11-02-ruckblick-auf-das-beerup-vom-1-november-2022/)
+**Location:**
+
+VSHN Tower\
+Neugasse 10\
+8005 Zürich
+
+P.S. You can find the recap of Beerup #7 [here](https://www.appuio.ch/blog/2022-11-02-ruckblick-auf-das-beerup-vom-1-november-2022/).
