@@ -15,9 +15,9 @@ The term "Beerup" was created with the aim of bringing together the APPUiO commu
 
 1﻿6:30 - 17:30 Uhr - Talks | 1﻿7:30 - 20:00 Uhr - Apéro
 
-Talk 1: Peter Mumenthaler (Solution Architect, Red Hat) - *Update on OpenShift*
+Talk 1: Peter Mumenthaler (Solution Architect, Red Hat) - OpenShift and Beyond (What's new in the OpenShift space, what are we working on, and what can we expect from OpenShift in the future)
 
-T﻿alk 2: Tobias Brunner (CTO VSHN AG) - *Update on APPUiO Cloud*
+Talk 2: Tobias Brunner (CTO VSHN AG) - *Update on APPUiO Cloud & APPUiO Managed OpenShift (What has changed in the last year)*
 
 **Location:**
 
