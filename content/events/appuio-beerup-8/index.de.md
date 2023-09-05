@@ -15,9 +15,9 @@ Der Begriff Beerup ist mit dem Ziel entstanden, die Community von APPUiO in unge
 
 1﻿6:30 - 17:30 Uhr - Talks | 1﻿7:30 - 20:00 Uhr - Apéro
 
-Talk 1: Peter Mumenthaler (Solution Architect, Red Hat) - *Update zu OpenShift*
+Talk 1: Peter Mumenthaler (Solution Architect, Red Hat) - OpenShift and Beyond (Was gibt's neues im Bereich OpenShift, an was arbeiten wir und was kann man in Zukunft von OpenShift erwarten)
 
-T﻿alk 2: Tobias Brunner (CTO VSHN AG) - *Update zu APPUiO Cloud*
+T﻿alk 2: Tobias Brunner (CTO VSHN AG) - *Update zu APPUiO Cloud & APPUiO Managed OpenShift (Was sich im letzten Jahr alles geändert hat)*
 
 **Ort:**
 
