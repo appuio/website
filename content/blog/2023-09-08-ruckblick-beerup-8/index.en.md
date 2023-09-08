@@ -15,7 +15,7 @@ The session started with Peter Mumenthaler, Solution Architect at Red Hat. In hi
 
 Peter highlighted the exciting features and optimizations currently in progress and what the OpenShift community can expect in the near future. The roadmap for OpenShift seems promising, and we certainly look forward to some innovations.
 
-Want to know more about Peter Mumenthaler's presentation? Here are the slides.
+Want to know more about Peter Mumenthaler's presentation? Here are the [slides](static/images/uploads/openshift_beerup.pdf).
 
 ### APPUiO Cloud and Managed Update: What's New?
 
