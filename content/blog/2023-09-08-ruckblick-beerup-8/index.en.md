@@ -2,12 +2,12 @@
 title: "Review of Beerup #8"
 date: 2023-09-08
 featured_image: appuio-slides-1-.png
-summary: On September 7th, we invited our community to the 8th edition of Beerup
-  at the VSHN Tower - a casual gathering of tech enthusiasts who wish to discuss
-  not just beer but primarily the latest trends and developments in the world of
-  containers. The late afternoon was marked by two fascinating presentations
-  that offered profound insights into the current and upcoming developments of
-  OpenShift, APPUiO Managed, and APPUiO Cloud.
+summary: On September 7th, we invited our community to the 8th edition of the
+  Beerup at the VSHN Tower – a casual gathering of techies who discussed not
+  only beer but also the latest trends and developments in the container world.
+  The late afternoon was marked by two fascinating presentations that offered
+  profound insights into the current and upcoming developments of OpenShift,
+  APPUiO Managed, and APPUiO Cloud.
 ---
 ### OpenShift and Beyond: A Glimpse into the Future
 
