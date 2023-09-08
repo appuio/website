@@ -2,13 +2,13 @@
 title: "Rückblick Beerup #8"
 date: 2023-09-08
 featured_image: appuio-slides-1-.png
-summary: Am 7. September luden wir unsere Community zur achten Ausgabe des
-  Beerups im VSHN Tower ein – ein lockeres Zusammensein von Techies, die sich
-  nicht nur über Bier, sondern vor allem auch über die neuesten Trends und
-  Entwicklungen in der Container-Welt austauschen möchten. Der späte Nachmittag
-  wurde von zwei spannenden Vorträgen geprägt, die beide einen tiefen Einblick
-  in die aktuelle und zukünftige Entwicklung von OpenShift, APPUiO Managed und
-  APPUiO Cloud boten.
+summary: Am 7. September luden wir unsere Community zur 8. Ausgabe des Beerups
+  im VSHN Tower ein – ein lockeres Zusammensein von Techies, die sich nicht nur
+  über Bier, sondern vor allem auch über die neuesten Trends und Entwicklungen
+  in der Container-Welt unterhielten. Der späte Nachmittag wurde von zwei
+  spannenden Vorträgen geprägt, die beide einen tiefen Einblick in die aktuelle
+  und zukünftige Entwicklung von OpenShift, APPUiO Managed und APPUiO Cloud
+  boten.
 ---
 ### OpenShift and Beyond: Ein Blick in die Zukunft
 
@@ -16,7 +16,7 @@ Den Beginn machte [Peter Mumenthaler,](https://www.linkedin.com/in/peter-mumenth
 
 Peter beleuchtete, an welchen spannenden Features und Optimierungen aktuell gearbeitet wird und was die OpenShift-Community in naher Zukunft erwarten kann. Die Roadmap von OpenShift scheint vielversprechend und wir können uns sicherlich auf einige Innovationen freuen.
 
-Willst du mehr über den Vortrag von Peter Mumenthaler wissen? Hier geht**'**s zu den [Slides](images/uploads/openshift_beerup.pdf).
+Willst du mehr über den Vortrag von Peter Mumenthaler wissen? Hier geht**'**s zu den [Slides](static/images/uploads/openshift_beerup.pdf).
 
 ### APPUiO Cloud und Managed Update: Was gibt's Neues?
 
@@ -24,7 +24,7 @@ Im zweiten Talk präsentierte [Tobias Brunner](https://www.linkedin.com/in/tobru
 
 Tobias gab uns einen umfassenden Einblick in die jüngsten Neuerungen, die sowohl technische Verbesserungen als auch neue Features für Endnutzerinnen und Endnutzer beinhalteten. APPUiO versucht die beiden Produkte stets weiterzuentwickeln und sie an die Bedürfnisse seiner Nutzerinnen und Nutzer anzupassen.
 
-Willst du mehr über den Vortrag von Tobias Brunner wissen? Hier geht**'**s u den [Slides](images/uploads/appuiomanaged_cloud_beerup.pdf).
+Willst du mehr über den Vortrag von Tobias Brunner wissen? Hier geht**'**s u den Slides.
 
 ### Fazit
 
