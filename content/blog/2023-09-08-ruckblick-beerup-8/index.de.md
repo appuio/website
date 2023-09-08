@@ -1,6 +1,7 @@
 ---
 title: "Rückblick Beerup #8"
 date: 2023-09-08
+featured_image: appuio-slides-1-.png
 summary: Am 7. September luden wir unsere Community zur achten Ausgabe des
   Beerups im VSHN Tower ein – ein lockeres Zusammensein von Techies, die sich
   nicht nur über Bier, sondern vor allem auch über die neuesten Trends und
@@ -34,3 +35,5 @@ Mit über 25 Teilnehmenden war die 8. Ausgabe des Beerups ein voller Erfolg. Es 
 Für alle, die das Beerup verpasst haben oder die präsentierten Inhalte nochmals in Ruhe nachverfolgen möchten: Die Vorträge wurden aufgenommen und können jederzeit im bereitgestellten Stream nachgeschaut werden. Es lohnt sich auf jeden Fall!
 
 Wir sind gespannt, was die Zukunft für uns bereithält und freuen uns bereits jetzt auf das nächste Beerup. Prost!
+
+![](allgemein_posts-1-.png)
