@@ -11,7 +11,7 @@ summary: On September 7th, we invited our community to the eighth edition of
 ---
 ### OpenShift and Beyond: A Glimpse into the Future
 
-The session started with Peter Mumenthaler, Solution Architect at Red Hat. In his presentation "OpenShift and Beyond," he provided an overview of the recent developments in the OpenShift domain. Over the years, OpenShift has established itself as one of the leading application platforms based on Kubernetes. It impresses not just with its user-friendliness but also with its compelling functionalities.
+The session started with [Peter Mumenthaler](https://www.linkedin.com/in/peter-mumenthaler-97b40965/?originalSubdomain=ch=89978449), Solution Architect at Red Hat. In his presentation "OpenShift and Beyond," he provided an overview of the recent developments in the OpenShift domain. Over the years, [OpenShift](https://www.redhat.com/de/technologies/cloud-computing/openshift) has established itself as one of the leading application platforms based on Kubernetes. It impresses not just with its user-friendliness but also with its compelling functionalities.
 
 Peter highlighted the exciting features and optimizations currently in progress and what the OpenShift community can expect in the near future. The roadmap for OpenShift seems promising, and we certainly look forward to some innovations.
 
@@ -19,7 +19,7 @@ Want to know more about Peter Mumenthaler's presentation? Here are the [slides](
 
 ### APPUiO Cloud and Managed Update: What's New?
 
-In the second talk, Tobias Brunner, CTO at VSHN, presented the latest news from the APPUiO Managed and APPUiO Cloud universe. Both APPUiO Managed and APPUiO Cloud, based on OpenShift, have seen numerous updates and expansions in recent months.
+In the second talk, [Tobias Brunner](https://www.linkedin.com/in/tobru/), CTO at VSHN, presented the latest news from the [APPUiO Managed](https://www.appuio.ch/offering/managed/) and [APPUiO Cloud](https://www.appuio.ch/offering/cloud/) universe. Both APPUiO Managed and APPUiO Cloud, based on OpenShift, have seen numerous updates and expansions in recent months.
 
 Tobias provided a comprehensive insight into the recent changes, which included both technical enhancements and new features for end-users. APPUiO constantly strives to further develop these two products to cater to the needs of its users.
 
