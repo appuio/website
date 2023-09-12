@@ -1,6 +1,7 @@
 ---
 title: "Review of Beerup #8"
 date: 2023-09-08
+is_community: true
 featured_image: appuio-slides-1-.png
 summary: On September 7th, we invited our community to the 8th edition of the
   Beerup at the VSHN Tower – a casual gathering of techies who discussed not
