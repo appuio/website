@@ -1,6 +1,7 @@
 ---
 title: "Rückblick Beerup #8"
 date: 2023-09-08
+is_community: true
 featured_image: appuio-slides-1-.png
 summary: Am 7. September luden wir unsere Community zur 8. Ausgabe des Beerups
   im VSHN Tower ein – ein lockeres Zusammensein von Techies, die sich nicht nur
