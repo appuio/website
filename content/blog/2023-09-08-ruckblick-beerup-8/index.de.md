@@ -17,7 +17,7 @@ Den Beginn machte [Peter Mumenthaler,](https://www.linkedin.com/in/peter-mumenth
 
 Peter beleuchtete, an welchen spannenden Features und Optimierungen aktuell gearbeitet wird und was die OpenShift-Community in naher Zukunft erwarten kann. Die Roadmap von OpenShift scheint vielversprechend und wir können uns sicherlich auf einige Innovationen freuen.
 
-Willst du mehr über den Vortrag von Peter Mumenthaler wissen? Hier geht**'**s zu den [Slides](static/images/uploads/openshift_beerup.pdf).
+Willst du mehr über den Vortrag von Peter Mumenthaler wissen? Hier geht es zu den [Slides](static/images/uploads/openshift_beerup.pdf).
 
 ### APPUiO Cloud und Managed Update: Was gibt's Neues?
 
@@ -25,7 +25,7 @@ Im zweiten Talk präsentierte [Tobias Brunner](https://www.linkedin.com/in/tobru
 
 Tobias gab uns einen umfassenden Einblick in die jüngsten Neuerungen, die sowohl technische Verbesserungen als auch neue Features für Endnutzerinnen und Endnutzer beinhalteten. APPUiO versucht die beiden Produkte stets weiterzuentwickeln und sie an die Bedürfnisse seiner Nutzerinnen und Nutzer anzupassen.
 
-Willst du mehr über den Vortrag von Tobias Brunner wissen? Hier geht**'**s u den Slides.
+Willst du mehr über den Vortrag von Tobias Brunner wissen? Hier geht es u den Slides.
 
 ### Fazit
 
