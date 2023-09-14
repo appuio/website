@@ -17,7 +17,7 @@ Den Beginn machte [Peter Mumenthaler,](https://www.linkedin.com/in/peter-mumenth
 
 Peter beleuchtete, an welchen spannenden Features und Optimierungen aktuell gearbeitet wird und was die OpenShift-Community in naher Zukunft erwarten kann. Die Roadmap von OpenShift scheint vielversprechend und wir können uns sicherlich auf einige Innovationen freuen.
 
-Willst du mehr über den Vortrag von Peter Mumenthaler wissen? Hier geht es zu den Slides.
+Willst du mehr über den Vortrag von Peter Mumenthaler wissen? Hier geht es zu den [Slides](static/images/uploads/openshift_beerup.pdf).
 
 # APPUiO Cloud und Managed Update: Was gibt's Neues?
 

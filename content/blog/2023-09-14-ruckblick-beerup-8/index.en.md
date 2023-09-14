@@ -24,7 +24,7 @@ In the second talk, [Tobias Brunner](https://www.linkedin.com/in/tobru/), CTO at
 
 Tobias provided a comprehensive insight into the recent changes, which included both technical enhancements and new features for end-users. APPUiO constantly strives to further develop these two products to cater to the needs of its users.
 
-Want to learn more about Tobias Brunner's presentation? Check out the slides.
+Want to learn more about Tobias Brunner's presentation? Check out the [slides](static/images/uploads/appuiomanaged_cloud_beerup.pdf).
 
 # Conclusion
 
