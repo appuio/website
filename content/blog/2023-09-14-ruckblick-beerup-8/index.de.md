@@ -25,7 +25,7 @@ Im zweiten Talk präsentierte [Tobias Brunner](https://www.linkedin.com/in/tobru
 
 Tobias gab uns einen umfassenden Einblick in die jüngsten Neuerungen, die sowohl technische Verbesserungen als auch neue Features für Endnutzerinnen und Endnutzer beinhalteten. APPUiO versucht die beiden Produkte stets weiterzuentwickeln und sie an die Bedürfnisse seiner Nutzerinnen und Nutzer anzupassen.
 
-Willst du mehr über den Vortrag von Tobias Brunner wissen? Hier geht es u den [Slides](static/images/uploads/appuiomanaged_cloud_beerup.pdf).
+Willst du mehr über den Vortrag von Tobias Brunner wissen? Hier geht es u den [Slides](/images/uploads/appuiomanaged_cloud_beerup.pdf).
 
 # Fazit
 
