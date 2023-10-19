@@ -18,7 +18,7 @@ jobs:
       name: preview
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Disable auth for previews in /admin
         run: yq -i 'del .backend.branch | del .backend.repo | .backend.name="test-repo"' themes/appuio/static/admin/config.yml
@@ -55,7 +55,7 @@ jobs:
       url: https://${{ env.ROUTE_HOST }}
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Setup helmfile
         uses: mamezou-tech/setup-helmfile@v1.2.0

@@ -20,7 +20,7 @@ jobs:
     environment: preview
     steps:
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Authenticate and set context
         uses: redhat-actions/oc-login@v1
