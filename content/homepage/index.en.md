@@ -147,10 +147,11 @@ With APPUiO, you're creating new environments at the push of a button. There's a
 
   ### Docker
 
-    Docker is the open platform for developers, sysadmins and their applications. With APPUiO, simply select the Docker-image based on your needs and the technology you want to use. OpenShift automatically creates an updated Docker-container after every build, and can even deploy it on your behalf.
+  Docker is the open platform for developers, sysadmins and their applications. With APPUiO, simply select the Docker-image based on your needs and the technology you want to use. OpenShift automatically creates an updated Docker-container after every build, and can even deploy it on your behalf.
 
-    {{< technology-items match="images/technologies/*">}}
-  {{</section>}}
+  {{< technology-items match="images/technologies/*">}}
+
+{{</section>}}
 
 {{<section>}}
 
