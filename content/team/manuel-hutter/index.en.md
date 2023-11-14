@@ -1,15 +1,8 @@
 ---
-hashtags: "#coffee #inexistant #bike"
+title: Manuel Hutter
 profile: https://www.vshn.ch/team/
+mail: manuel.hutter@vshn.ch
 github: mhutter
 animation: manu_hutter.json
-date: 2020-11-28
-title: Manuel Hutter
-alias: Manu
-function: Engineer
-mail: manuel.hutter@vshn.ch
-twitter: null
-linkedin: null
-isClosed: false
 isOnline: true
 ---
