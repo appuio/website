@@ -2,7 +2,7 @@
 hashtags: "#languageGenius #enthusiastic #speaker "
 profile: https://vshn.ch/vshn/
 github: akosma
-animation: adrian_k2.json
+animation: adrian_k.json
 date: 2020-11-24
 title: Adrian Kosmaczewski
 alias: Adrian
