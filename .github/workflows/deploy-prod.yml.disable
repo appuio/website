@@ -7,7 +7,7 @@ on:
   # The schedule is needed to publish blog posts on certain dates,
   # since posts with future dates are ignored by Hugo.
   schedule:
-    - cron:  '0 6 * * *'
+    - cron: "0 6 * * *"
 
 env:
   OPENSHIFT_API: https://api.cloudscale-lpg-2.appuio.cloud:6443
